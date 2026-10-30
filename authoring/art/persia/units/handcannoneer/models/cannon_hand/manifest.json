@@ -1,0 +1,159 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "handcannoneer",
+  "donor": "art/civilizations/common/weapons/ranged/cannon_hand/cannon_hand.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\handcannoneer\\models\\cannon_hand\\model.blend",
+  "source_sha256": "03b50c1215f8b3c94a4792445844c016400fd70e5373d9ddcfa5018cd10ba1f9",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 84,
+      "triangles": 72,
+      "sha256": "f1b6b91e8320f8aa5379c2fb2d5227cea6ca3afe2a4062b0bfbd35a18555827b"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 84,
+      "triangles": 72,
+      "sha256": "ec61e0d271e82e4ca8e3118177a6e9172e11d4d45f54314bccc423224683163a"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 66,
+      "triangles": 52,
+      "sha256": "35f7dfbad1271163d28de3f5d1e87bd6aef88b09200fcd9bdf127f69afb45a79"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_handcannoneer_cannon_hand_LOD0",
+      "vertices": 84,
+      "triangles": 72,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_handcannoneer_cannon_hand_LOD1",
+      "vertices": 84,
+      "triangles": 72,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_handcannoneer_cannon_hand_LOD2",
+      "vertices": 66,
+      "triangles": 52,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 61,
+      "source_vertices": 84,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true
+    },
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 61,
+      "source_vertices": 84,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true
+    },
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 47,
+      "source_vertices": 66,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 61,
+      "source_vertices": 84,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true
+    },
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 61,
+      "source_vertices": 84,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true
+    },
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 47,
+      "source_vertices": 66,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/ranged/cannon_hand/cannon_hand.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/ranged/cannon_hand/cannon_hand.rgm"
+}

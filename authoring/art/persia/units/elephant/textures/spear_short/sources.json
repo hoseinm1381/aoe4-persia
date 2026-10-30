@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\spear_short\\0c29d63eeb7c688cc4eb\\decoded-static.json",
+  "donor_sha256": "ca0eda8579d5e1e378b797eb35a58d9fb529ce1c4103ddbbe915e3d324c2209c",
+  "logical_path": "art/civilizations/common/weapons/melee/spear_short/spear_short.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "2a312c801ba7589e33673c9fcaf493e27e8563fa52c9a6301bc266896e64c070",
+    "normal": "9c2545394e6b507452d420d6e6956382f95e4e0887db9a192e06b5e9d9f7670e",
+    "roughness": "46e332114660e82499e1ed318c7c25835334b8b4c189d76ba396718901eb0892",
+    "metalness": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

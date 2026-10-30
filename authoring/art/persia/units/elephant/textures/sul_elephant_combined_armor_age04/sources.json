@@ -1,0 +1,134 @@
+{
+  "donor": "art/civilizations/sultanate/animals/sul_elephant_combined_armor_age04/sul_elephant_combined_armor_age04.rgm",
+  "donor_manifest_sha256": "e7bffce5212fc18c69145af4902ae7f78e10946a4af0811c26e680492b371a5f",
+  "atlas_size": 2048,
+  "justification": "combined native mount and rider each retain a 1024-square source projection, plus shared 256-square cloth/metal tiles and a 512-square native facial projection",
+  "mount_uv": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "rider_uv": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "face_uv": [
+    0.25,
+    0.25,
+    0,
+    0.25
+  ],
+  "atlas_grid": 8,
+  "tiles": {
+    "owner": [
+      2,
+      4
+    ],
+    "indigo": [
+      3,
+      4
+    ],
+    "madder": [
+      4,
+      4
+    ],
+    "leather": [
+      5,
+      4
+    ],
+    "iron": [
+      6,
+      4
+    ],
+    "bronze": [
+      7,
+      4
+    ],
+    "mail": [
+      2,
+      5
+    ],
+    "linen": [
+      3,
+      5
+    ],
+    "dark": [
+      4,
+      5
+    ],
+    "wood": [
+      5,
+      5
+    ],
+    "trim": [
+      6,
+      5
+    ],
+    "lamellar": [
+      7,
+      5
+    ],
+    "horse_owner": [
+      2,
+      6
+    ]
+  },
+  "mount_material": "elephant_lod1",
+  "rider_material": "rider_lod1",
+  "rider_geometry_donor": "art/civilizations/sultanate/animals/sul_elephant_combined_armor_age04/sul_elephant_combined_armor_age04.rgm",
+  "face_donor": "art/civilizations/sultanate/humans/sul_infantry_light_age02/sul_infantry_light_age02.rgm",
+  "pattern": "R owner G skin B hair",
+  "player_colour_baked": false,
+  "shared_surface_sources": [
+    {
+      "path": "art\\persia\\units\\daylamite\\textures\\sul_infantry_armor_age04\\albedo.png",
+      "sha256": "58caa94511bf00c8c53c0288cddecb7ecd8111c0b7e0f38c55c136848c400a32"
+    },
+    {
+      "path": "art\\persia\\units\\daylamite\\textures\\sul_infantry_armor_age04\\metalness.png",
+      "sha256": "676a47147804c20dd69296ac009e91eac39768f5fab776625ce69243d44948db"
+    },
+    {
+      "path": "art\\persia\\units\\daylamite\\textures\\sul_infantry_armor_age04\\normal.png",
+      "sha256": "ea8965fda1852b9360a8e21732388eba822c31fa8983d86e329651a4fafa677c"
+    },
+    {
+      "path": "art\\persia\\units\\daylamite\\textures\\sul_infantry_armor_age04\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+    },
+    {
+      "path": "art\\persia\\units\\daylamite\\textures\\sul_infantry_armor_age04\\roughness.png",
+      "sha256": "83173acc8d8a4632ce3874f18cabbf50966729c7185027f7e813f9c140073362"
+    },
+    {
+      "path": "art\\persia\\units\\daylamite\\textures\\sul_infantry_light_age02\\albedo.png",
+      "sha256": "7914d917c1c598ce9060482ee3befa35cdaf8c5930f98c41eb2c18b1bf20ec48"
+    },
+    {
+      "path": "art\\persia\\units\\daylamite\\textures\\sul_infantry_light_age02\\metalness.png",
+      "sha256": "93bc182dbec71296cbe5f96ebf0720a0705ebb4cef8e460e1fbc20254b249b80"
+    },
+    {
+      "path": "art\\persia\\units\\daylamite\\textures\\sul_infantry_light_age02\\normal.png",
+      "sha256": "92235bd9f0e6694e6215f56032257ba4b0ad9b13bc495ea08a62853d8e16ca52"
+    },
+    {
+      "path": "art\\persia\\units\\daylamite\\textures\\sul_infantry_light_age02\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+    },
+    {
+      "path": "art\\persia\\units\\daylamite\\textures\\sul_infantry_light_age02\\roughness.png",
+      "sha256": "f927cf85de7c7dbd4c9a0bee7ab97c5eccfb7b56331099ea02dec05682d6be51"
+    }
+  ],
+  "files": {
+    "albedo": "f2464c763a4dba9feba29c9a4fb325fd662b0b707526d40234f2888c8b16f9f4",
+    "normal": "ed7a55ebca03449804306f7c833b8205308b2f71d3f690469641745199f97e2c",
+    "roughness": "9095c78bef7bac76a8df52bda334b749815cc1dd4b5beba021c3969afc3e1ad0",
+    "metalness": "bc6f91ac0bdbabdf7ca3ea0f67e828e137c3acf3af48e46dd16c40ef996ccf66",
+    "pattern": "35406c21a61647b7db58d06b8eaa4af16d92773e35b9a01a0e9ca296c858ff65"
+  }
+}

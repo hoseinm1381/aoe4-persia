@@ -1,0 +1,84 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\decoded-static.json",
+  "donor_sha256": "a07eb9328411f0e63499a4280c82384de72ff0de6c26debe3a8566daeecf7dc5",
+  "logical_path": "art/civilizations/sultanate/humans/sul_ranged_cannoneer_age04/sul_ranged_cannoneer_age04.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "74a6dd1c03506db49438473986770883f2335fb940c45ce6c13bcc2e0d7ea162",
+    "normal": "bd5d50ea562801a369fa7acb650cbb859910d65ce55a36d3fbaedead232365e8",
+    "roughness": "367d117641f383551ffb66d67ff98a806aa76c1106fcefbb4082ba4bb4dd564c",
+    "metalness": "03bdd351cc708967ac2d6852af99d0ff6ea013a4d97342abe063920097af4919",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  },
+  "reserved_face_tile": [
+    0,
+    3
+  ],
+  "face_uv": [
+    0.25,
+    0.25,
+    0,
+    0
+  ],
+  "source_face": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\textures\\sul_infantry_light_age02",
+  "headwear_dark_tile_used": false
+}

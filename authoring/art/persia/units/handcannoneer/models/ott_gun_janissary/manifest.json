@@ -1,0 +1,159 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "handcannoneer",
+  "donor": "art/civilizations/ottoman/weapons/ott_gun_janissary/ott_gun_janissary.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\handcannoneer\\models\\ott_gun_janissary\\model.blend",
+  "source_sha256": "856da7a8b076384dec6c27d02bfedbaee4602369977dc60a7248889453abb613",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 168,
+      "triangles": 148,
+      "sha256": "fea3c17d50f21d0f105df6d8b3ea01cbb5c8979b453f73ea15ea683ee19b7152"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 168,
+      "triangles": 148,
+      "sha256": "fc870f97dbe3ae1ec6f4b5ce34ad1ab2a66cd4de308d8b2b014f4470add6bc0c"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 82,
+      "triangles": 80,
+      "sha256": "4a2bfa3e82bab259514d7a3b0d0118aacf6e064b130b6722a8a8ef6306af1e40"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_handcannoneer_ott_gun_janissary_LOD0",
+      "vertices": 168,
+      "triangles": 148,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_handcannoneer_ott_gun_janissary_LOD1",
+      "vertices": 168,
+      "triangles": 148,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_handcannoneer_ott_gun_janissary_LOD2",
+      "vertices": 82,
+      "triangles": 80,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 21,
+      "changed_vertices": 116,
+      "source_vertices": 168,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true
+    },
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 21,
+      "changed_vertices": 116,
+      "source_vertices": 168,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true
+    },
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 21,
+      "changed_vertices": 48,
+      "source_vertices": 82,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 21,
+      "changed_vertices": 116,
+      "source_vertices": 168,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true
+    },
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 21,
+      "changed_vertices": 116,
+      "source_vertices": 168,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true
+    },
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 21,
+      "changed_vertices": 48,
+      "source_vertices": 82,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/ottoman/weapons/ott_gun_janissary/ott_gun_janissary.rgm",
+  "geometry_donor": "art/civilizations/ottoman/weapons/ott_gun_janissary/ott_gun_janissary.rgm"
+}

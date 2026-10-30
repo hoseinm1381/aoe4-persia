@@ -1,0 +1,171 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "elephant",
+  "donor": "art/civilizations/common/weapons/melee/spear_short/spear_short.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\elephant\\models\\spear_short\\model.blend",
+  "source_sha256": "4ae4c4f68f7df5074a84d80b8b2d660050dd5c8aba3361be3f2e428263d1ce4d",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 48,
+      "triangles": 46,
+      "sha256": "88cc530dd1fa78f470ec9ad283da22fa57772cbe7fa8320cb6310dec7f1448ce"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 48,
+      "triangles": 46,
+      "sha256": "04b6ce1f778322e9b42687ad5c29cb2c1f5bde3db1553ca2af36e42629baf7ea"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 42,
+      "triangles": 38,
+      "sha256": "076819c045e23fe4c2d914cc864be9a3a628b6c34250a271e67f622ce000ff51"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_elephant_spear_short_LOD0",
+      "vertices": 48,
+      "triangles": 46,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_elephant_spear_short_LOD1",
+      "vertices": 48,
+      "triangles": 46,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_elephant_spear_short_LOD2",
+      "vertices": 42,
+      "triangles": 38,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 32,
+      "source_vertices": 48,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 32,
+      "source_vertices": 48,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 26,
+      "source_vertices": 42,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 32,
+      "source_vertices": 48,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 32,
+      "source_vertices": 48,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 26,
+      "source_vertices": 42,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/melee/spear_short/spear_short.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/melee/spear_short/spear_short.rgm"
+}

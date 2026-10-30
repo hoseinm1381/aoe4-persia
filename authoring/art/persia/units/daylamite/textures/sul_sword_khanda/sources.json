@@ -1,0 +1,73 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\sul_sword_khanda\\8ec121fc0efb4a962c2d\\decoded-static.json",
+  "donor_sha256": "7b134b67083447233ae4d1924b0489c204c2f372059c1c1415117b372872e02d",
+  "logical_path": "art/civilizations/sultanate/weapons/sul_sword_khanda/sul_sword_khanda.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "16eb030d480ae180c9b8f138ae14658b70d702550ec389e051338de3b52e5529",
+    "normal": "bc3fd67b76a4bd555ce4c5dc333b7fd0202abe2d3a81782a779b86ff91090acb",
+    "roughness": "60c2f4e6d8a07ea1c4467aacc397de71dd2b74f41dab0cef2f540dee540a0221",
+    "metalness": "026d1864e1fec6a58be28bf368db83141d19adb8e7e94dd10487e715e38659b6",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  },
+  "equipment_surface_recipe": "continuous forged metal, longitudinal wood; interpreted eight-lobed painted shield field, not attributed to a surviving medieval object"
+}

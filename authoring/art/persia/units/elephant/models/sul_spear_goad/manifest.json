@@ -1,0 +1,171 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "elephant",
+  "donor": "art/civilizations/sultanate/weapons/sul_spear_goad/sul_spear_goad.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\elephant\\models\\sul_spear_goad\\model.blend",
+  "source_sha256": "326184a93f60b1bf33fa652c8884ff28b790c20aecf07aa3a9f81a33f95f1a87",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 124,
+      "triangles": 147,
+      "sha256": "ba417248315716bd1e6b600edc590c6c52b1b1b5e3909c8b097bda60c6d654d5"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 109,
+      "triangles": 123,
+      "sha256": "ecfe683e5f33733e12a131bba4f35bab0be297406762e2193f12733c245f4d2d"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 73,
+      "triangles": 69,
+      "sha256": "e7678fa3d9d2498a419984a06bd2b5bedcbcfed6652ef3443f0b29d98e654c5d"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_elephant_sul_spear_goad_LOD0",
+      "vertices": 124,
+      "triangles": 147,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_elephant_sul_spear_goad_LOD1",
+      "vertices": 109,
+      "triangles": 123,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_elephant_sul_spear_goad_LOD2",
+      "vertices": 73,
+      "triangles": 69,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 18,
+      "changed_vertices": 10,
+      "source_vertices": 124,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 18,
+      "changed_vertices": 5,
+      "source_vertices": 109,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 18,
+      "changed_vertices": 0,
+      "source_vertices": 73,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "simplified_native_lod_retained": true,
+      "carry_contact_status": null
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 18,
+      "changed_vertices": 10,
+      "source_vertices": 124,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 18,
+      "changed_vertices": 5,
+      "source_vertices": 109,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 18,
+      "changed_vertices": 0,
+      "source_vertices": 73,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "simplified_native_lod_retained": true,
+      "carry_contact_status": null
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/sultanate/weapons/sul_spear_goad/sul_spear_goad.rgm",
+  "geometry_donor": "art/civilizations/sultanate/weapons/sul_spear_goad/sul_spear_goad.rgm"
+}

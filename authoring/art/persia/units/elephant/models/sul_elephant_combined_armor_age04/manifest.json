@@ -1,0 +1,666 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "elephant",
+  "donor": "art/civilizations/sultanate/animals/sul_elephant_combined_armor_age04/sul_elephant_combined_armor_age04.rgm",
+  "role": "mount",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\elephant\\models\\sul_elephant_combined_armor_age04\\model.blend",
+  "source_sha256": "da3c757d2cc14429a4c053c9762c224d0881b7e6520803da98e0746c52e2bde7",
+  "steps": [
+    "clothing_visual_refinement",
+    "donor_clothing_reshape_and_fitted_kaftan",
+    "native_gender_face_retained_with_fitted_headwrap",
+    "reshaped_native_owner_masked_mount_textiles"
+  ],
+  "rig_contract_sha256": "6ffbf3ea3fb139a5c9f4d3c5e4bee496ac8a9ae546cab9b7e60037169da09858",
+  "rig_bones": 140,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "rider",
+      "vertices": 1063,
+      "triangles": 1356,
+      "sha256": "ef437c795f9a53a9463f712f52d90910601b787e2b99e9cf44a74ef3f4ca063e"
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "vertices": 4395,
+      "triangles": 5657,
+      "sha256": "c960fdfe3f84d91b722139ee938a344c09ce8ef82d0394522cd1bd92c3f1205f"
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "vertices": 555,
+      "triangles": 578,
+      "sha256": "e86f7525366e16becfdebc659de2bdd05f33e8ad267e0c5b867ee0e356c51b2a"
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "vertices": 3095,
+      "triangles": 3759,
+      "sha256": "f9346f4e3922fdbee85ee661c42a69bb23b2c26167e04c81d965d6041c71a545"
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "vertices": 290,
+      "triangles": 238,
+      "sha256": "a3a3aa48abb009205066cf548155cb6150b8257e07726efcef6240b2291730e5"
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "vertices": 2200,
+      "triangles": 2309,
+      "sha256": "70a5083f522623073c832151ca97ff004cc817f6d40cbbcf809234118e2c03fe"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_elephant_sul_elephant_combined_armor_age04_rider_LOD0",
+      "vertices": 1063,
+      "triangles": 1356,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_elephant_sul_elephant_combined_armor_age04_mount_LOD0",
+      "vertices": 4395,
+      "triangles": 5657,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_elephant_sul_elephant_combined_armor_age04_rider_LOD1",
+      "vertices": 555,
+      "triangles": 578,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_elephant_sul_elephant_combined_armor_age04_mount_LOD1",
+      "vertices": 3095,
+      "triangles": 3759,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_elephant_sul_elephant_combined_armor_age04_rider_LOD2",
+      "vertices": 290,
+      "triangles": 238,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_elephant_sul_elephant_combined_armor_age04_mount_LOD2",
+      "vertices": 2200,
+      "triangles": 2309,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    }
+  ],
+  "native_lod_contract": [
+    {
+      "lod": 0,
+      "component": "rider",
+      "allowed_bones": [
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmindex1",
+        "metarig_larmindex2",
+        "metarig_larmindex3",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmmiddle1",
+        "metarig_larmmiddle2",
+        "metarig_larmmiddle3",
+        "metarig_larmpalm",
+        "metarig_larmthumb1",
+        "metarig_larmthumb2",
+        "metarig_larmthumb3",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_llegankle",
+        "metarig_llegtoe1",
+        "metarig_neck1",
+        "metarig_neck2",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmindex1",
+        "metarig_rarmindex2",
+        "metarig_rarmindex3",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmmiddle1",
+        "metarig_rarmmiddle2",
+        "metarig_rarmmiddle3",
+        "metarig_rarmpalm",
+        "metarig_rarmthumb1",
+        "metarig_rarmthumb2",
+        "metarig_rarmthumb3",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_rlegankle",
+        "metarig_rlegtoe1",
+        "metarig_spine1",
+        "metarig_spine2"
+      ]
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "allowed_bones": [
+        "basket_m",
+        "basketend_m",
+        "chest_m",
+        "earin_l",
+        "earin_r",
+        "earmid1_l",
+        "earmid1_r",
+        "earmid2_l",
+        "earmid2_r",
+        "earmid_l",
+        "earmid_r",
+        "earout1_l",
+        "earout1_r",
+        "earout2_l",
+        "earout2_r",
+        "earout_l",
+        "earout_r",
+        "frontankle_l",
+        "frontankle_r",
+        "frontclothmid_l",
+        "frontclothmid_r",
+        "frontclothtop_l",
+        "frontclothtop_r",
+        "fronthip_l",
+        "fronthip_r",
+        "frontknee_l",
+        "frontknee_r",
+        "frontscapula_l",
+        "frontscapula_r",
+        "fronttoes_l",
+        "fronttoes_r",
+        "head_m",
+        "midclothmid_l",
+        "midclothmid_r",
+        "midclothtop_l",
+        "midclothtop_r",
+        "neck_m",
+        "neckarmour_m",
+        "rearankle_l",
+        "rearankle_r",
+        "rearclothmid_l",
+        "rearclothmid_r",
+        "rearclothtop_l",
+        "rearclothtop_r",
+        "rearhip_l",
+        "rearhip_r",
+        "rearknee_l",
+        "rearknee_r",
+        "reartoes_l",
+        "reartoes_r",
+        "root_m",
+        "spine1_m",
+        "tail0_m",
+        "tail1_m",
+        "tail2_m",
+        "tail3_m",
+        "tail4_m",
+        "tail5_m",
+        "trunk1_m",
+        "trunk2_m",
+        "trunk3_m",
+        "trunk4_m",
+        "trunk5_m",
+        "trunk6_m",
+        "trunk7_m",
+        "trunk8_m"
+      ]
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "allowed_bones": [
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmmiddle1",
+        "metarig_larmpalm",
+        "metarig_larmthumb1",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_llegankle",
+        "metarig_neck1",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmmiddle1",
+        "metarig_rarmpalm",
+        "metarig_rarmthumb1",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_rlegankle",
+        "metarig_spine1",
+        "metarig_spine2"
+      ]
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "allowed_bones": [
+        "basket_m",
+        "basketend_m",
+        "chest_m",
+        "earin_l",
+        "earin_r",
+        "earmid1_l",
+        "earmid1_r",
+        "earmid2_l",
+        "earmid2_r",
+        "earmid_l",
+        "earmid_r",
+        "earout1_l",
+        "earout1_r",
+        "earout2_l",
+        "earout2_r",
+        "earout_l",
+        "earout_r",
+        "frontankle_l",
+        "frontankle_r",
+        "frontclothmid_l",
+        "frontclothmid_r",
+        "frontclothtop_l",
+        "frontclothtop_r",
+        "fronthip_l",
+        "fronthip_r",
+        "frontknee_l",
+        "frontknee_r",
+        "frontscapula_l",
+        "frontscapula_r",
+        "fronttoes_l",
+        "fronttoes_r",
+        "head_m",
+        "midclothmid_l",
+        "midclothmid_r",
+        "midclothtop_l",
+        "midclothtop_r",
+        "neck_m",
+        "neckarmour_m",
+        "rearankle_l",
+        "rearankle_r",
+        "rearclothmid_l",
+        "rearclothmid_r",
+        "rearclothtop_l",
+        "rearclothtop_r",
+        "rearhip_l",
+        "rearhip_r",
+        "rearknee_l",
+        "rearknee_r",
+        "reartoes_l",
+        "reartoes_r",
+        "root_m",
+        "spine1_m",
+        "tail0_m",
+        "tail1_m",
+        "tail2_m",
+        "tail3_m",
+        "tail4_m",
+        "tail5_m",
+        "trunk1_m",
+        "trunk2_m",
+        "trunk3_m",
+        "trunk4_m",
+        "trunk5_m",
+        "trunk6_m",
+        "trunk7_m",
+        "trunk8_m"
+      ]
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "allowed_bones": [
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmpalm",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_neck1",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmpalm",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_spine1",
+        "metarig_spine2"
+      ]
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "allowed_bones": [
+        "basket_m",
+        "basketend_m",
+        "chest_m",
+        "earin_l",
+        "earin_r",
+        "earmid1_l",
+        "earmid1_r",
+        "earmid2_l",
+        "earmid2_r",
+        "earmid_l",
+        "earmid_r",
+        "earout1_l",
+        "earout1_r",
+        "earout2_l",
+        "earout2_r",
+        "earout_l",
+        "earout_r",
+        "frontankle_l",
+        "frontankle_r",
+        "frontclothmid_l",
+        "frontclothmid_r",
+        "frontclothtop_l",
+        "frontclothtop_r",
+        "fronthip_l",
+        "fronthip_r",
+        "frontknee_l",
+        "frontknee_r",
+        "frontscapula_l",
+        "frontscapula_r",
+        "fronttoes_l",
+        "fronttoes_r",
+        "head_m",
+        "midclothmid_l",
+        "midclothmid_r",
+        "midclothtop_l",
+        "midclothtop_r",
+        "neck_m",
+        "neckarmour_m",
+        "rearankle_l",
+        "rearankle_r",
+        "rearclothmid_l",
+        "rearclothmid_r",
+        "rearclothtop_l",
+        "rearclothtop_r",
+        "rearhip_l",
+        "rearhip_r",
+        "rearknee_l",
+        "rearknee_r",
+        "reartoes_l",
+        "reartoes_r",
+        "root_m",
+        "spine1_m",
+        "tail0_m",
+        "tail1_m",
+        "tail2_m",
+        "tail3_m",
+        "tail4_m",
+        "tail5_m",
+        "trunk1_m",
+        "trunk2_m",
+        "trunk3_m",
+        "trunk4_m",
+        "trunk5_m",
+        "trunk6_m",
+        "trunk7_m",
+        "trunk8_m"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 308,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "native_gender_face_preserved": true,
+      "headcloth_crown_reshaped_vertices": 13,
+      "face_graft": false
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "complete_native_family_cap": 7841,
+      "reserved_largest_used_weapon_triangles": 537,
+      "body_cap": 1644,
+      "before_body_triangles": 1356,
+      "after_body_triangles": 1356,
+      "concealed_donor_triangles_removed": 0,
+      "budget_met": true,
+      "scope": "density reduction only on replaced donor clothing; grafted face and new panels kept; native hand/foot points preserved"
+    },
+    {
+      "object": "sul_elephant_combined_armor_age04 \u00b7 sul_elephant_armor_box_age04 \u00b7 elephant_lod1.001",
+      "native_degenerate_repair": [
+        {
+          "face": 320,
+          "coincident_pair": [
+            512,
+            513
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        }
+      ],
+      "immutable_donor_retained": true
+    },
+    {
+      "object": "sul_elephant_combined_armor_age04 \u00b7 sul_elephant_armor_bell_age04 \u00b7 elephant_lod1.001",
+      "native_degenerate_repair": [
+        {
+          "face": 1342,
+          "coincident_pair": [
+            865,
+            867
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        },
+        {
+          "face": 1348,
+          "coincident_pair": [
+            866,
+            867
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        }
+      ],
+      "immutable_donor_retained": true
+    },
+    {
+      "native_owner_mask_selected_textile_vertices_reshaped": 0,
+      "native_anatomy_and_contacts_protected": true
+    },
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 162,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "native_gender_face_preserved": true,
+      "headcloth_crown_reshaped_vertices": 9,
+      "face_graft": false
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "object": "sul_elephant_combined_armor_age04 \u00b7 sul_elephant_armor_bell_age04 \u00b7 elephant_lod2.001",
+      "native_degenerate_repair": [
+        {
+          "face": 16,
+          "coincident_pair": [
+            284,
+            314
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        },
+        {
+          "face": 91,
+          "coincident_pair": [
+            284,
+            313
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        }
+      ],
+      "immutable_donor_retained": true
+    },
+    {
+      "native_owner_mask_selected_textile_vertices_reshaped": 0,
+      "native_anatomy_and_contacts_protected": true
+    },
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 26,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "native_gender_face_preserved": true,
+      "headcloth_crown_reshaped_vertices": 2,
+      "face_graft": false
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "object": "sul_elephant_combined_armor_age04 \u00b7 sul_elephant_armor_bell_age04 \u00b7 elephant_lod3.001",
+      "native_degenerate_repair": [
+        {
+          "face": 160,
+          "coincident_pair": [
+            188,
+            189
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        },
+        {
+          "face": 197,
+          "coincident_pair": [
+            183,
+            208
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        },
+        {
+          "face": 266,
+          "coincident_pair": [
+            183,
+            208
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        }
+      ],
+      "immutable_donor_retained": true
+    },
+    {
+      "native_owner_mask_selected_textile_vertices_reshaped": 0,
+      "native_anatomy_and_contacts_protected": true
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "editable rare mounted candidate; one family review and equipped assembly pending",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "complete_lod_triangles": [
+    7013,
+    4337,
+    2547
+  ],
+  "verified_deformation": "unchanged native skeleton/binds, native LOD palette weights preserved; uncertain native movement/combat/crew/secondary physics deferred"
+}
