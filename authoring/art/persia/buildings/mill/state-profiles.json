@@ -1,0 +1,126 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "mill",
+  "authored_frame": "model-space: exact original recipe coordinates, before native stamp; no world-space claim",
+  "native_hp_thresholds": null,
+  "source_art_only": true,
+  "review_status": "Corrections from actual independent visual review applied; new saved build/readback/cold/render still required",
+  "recipe_sha256_at_profile_draft": "38828f0cc14e85cc632f9b9173bf55d161498387be48805154ef4bea5408eed2",
+  "profile_basis": "Exact current recipe groups and bearing levels. Authored failure proposals are not native HP/progress wiring.",
+  "lod_support_policy": "Keep posts, legs, bearers, braces, beams, roof joists, roof surfaces, floor slabs, access/hatches and masonry; omit only listed complete loose props/small fittings. Actual simplification ratios require generation.",
+  "native_dependencies_policy": "Never fracture/decimate retained native dependencies. Mechanism rigs/palettes/bindings and their own native states are separate inputs. Static proxies remain unqualified.",
+  "bodies": {
+    "A1": {
+      "review_status": "Unreviewed until parent generates and critiques the states",
+      "native_hp_thresholds": null,
+      "damage": {
+        "groups": [
+          "grain_porch"
+        ],
+        "corner_plus_x_front_y": [
+          3.94,
+          -0.59,
+          2.54
+        ],
+        "notch_extents": [
+          0.26,
+          0.46,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "grain_porch": 0.95,
+          "grain_store": 1.08,
+          "cleaning_bench": 0.6,
+          "grain_bins": 0.65,
+          "owner": 0.7
+        },
+        "debris_area_xy": [
+          [
+            2.65,
+            -0.35
+          ],
+          [
+            3.65,
+            0.65
+          ]
+        ],
+        "debris_ground_z": 0.24
+      },
+      "ruins": {
+        "default_cap": 0.9,
+        "group_caps": {
+          "grain_store": 0.96
+        },
+        "remove_groups": [
+          "grain_porch"
+        ],
+        "debris_area_xy": [
+          [
+            -1.9,
+            -0.35
+          ],
+          [
+            3.6,
+            1.5
+          ]
+        ],
+        "debris_ground_z": 0.24,
+        "debris_count": 62,
+        "fallen_members": [
+          {
+            "a": [
+              0.55,
+              -0.13,
+              0.31
+            ],
+            "b": [
+              2.9,
+              1.35,
+              0.31
+            ],
+            "width": 0.14,
+            "source_group": "grain_porch",
+            "grounding_basis": "Horizontal beam bottom at named surviving floor; parent generated check required"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              -1.05,
+              0.82,
+              0.3
+            ],
+            "size": [
+              0.9,
+              0.64,
+              0.12
+            ],
+            "source_group": "grain_store",
+            "surface": "roof",
+            "rotation": 0.12,
+            "grounding_basis": "Fragment bottom at named surviving floor; no suspended geometry"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "EarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [],
+        "2": [
+          "GrainPortion",
+          "StoredSack",
+          "SieveEnd",
+          "SieveSide"
+        ]
+      },
+      "structural_notes": [
+        "Front-right clay/reed porch roof and supported corner; brick grain vault survives damage1\u20134.",
+        "StorePlinth/PorchPlinth both top .24; ruin zone stays within their connected footprints.",
+        "Original static hand-quern is a function cue. Generic native collapse bones do not establish an operating rotor; no invented rotor/clip requirement.",
+        "Preserve native primary/secondary/tertiary/quaternary reference and collapse owners separately."
+      ]
+    }
+  }
+}

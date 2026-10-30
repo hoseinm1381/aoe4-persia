@@ -1,0 +1,15 @@
+{
+  "schema": "persia-building-source-family/1",
+  "family": "mining_camp",
+  "expected_body_keys": [
+    "Shared"
+  ],
+  "native_consumers": "native-contracts.json bodies.*.source_uses; evidence classes retained",
+  "source_art_only": true,
+  "native_hp_thresholds": null,
+  "visual_state_coverage": "To be authored and reviewed against each body lifecycle. No completion from metadata preparation.",
+  "native_gates": "Garrison export/cook, native colour, animation, placement, transitions, destruction/repair, package/import and multiplayer are deferred.",
+  "retained_input_paths": [
+    "../_shared/campus_lods.py"
+  ]
+}

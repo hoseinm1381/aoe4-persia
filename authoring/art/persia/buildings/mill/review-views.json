@@ -1,0 +1,9 @@
+{
+  "source_art_only": true,
+  "views": [
+    {"name":"store_corner_and_arch","body":"A1","objects":["PSB_mill_A1_StoreDoorArch","PSB_mill_A1_StoreEast","PSB_mill_A1_StoreWest","PSB_mill_A1_StoreThreshold"],"direction":[2,-7,2]},
+    {"name":"quern_feed_eye_and_bearing","body":"A1","objects":["PSB_mill_A1_QuernPedestal","PSB_mill_A1_QuernBearingSlab","PSB_mill_A1_LowerQuernStone","PSB_mill_A1_UpperQuernStone","PSB_mill_A1_QuernHandPeg"],"direction":[2,-6,2]},
+    {"name":"vault_masonry_courses","body":"A1","objects":["PSB_mill_A1_GrainStoreVault"],"direction":[1,-2,2]},
+    {"name":"sieve_bench_joinery","body":"A1","objects":["PSB_mill_A1_CleaningBenchTop","PSB_mill_A1_CleaningLeg-1-1","PSB_mill_A1_CleaningLeg-11","PSB_mill_A1_CleaningLeg1-1","PSB_mill_A1_CleaningLeg11","PSB_mill_A1_SieveBed"],"direction":[2,-5,2]}
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "schema": "ccp.persia.lumber-mechanism-input-contract/v1",
+  "source_only": true,
+  "Blender_executed_by_worker": false,
+  "library_expected_path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\_shared\\mechanisms\\lumber_functional_inputs.blend",
+  "library_actual_compilation_pending": false,
+  "full_reference_library": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\_shared\\mechanisms\\lumber_crane.blend",
+  "full_reference_library_sha256": "771c0fc0cbac7fc1c4412fdb60258091cc5461e896a8a339b753a576032d02eb",
+  "public_plan_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\decoded-static.json",
+  "public_plan_sha256": "7edeec84d2690be91cf00393e923981d75b421f47332dc207a107e9e93bfe92a",
+  "native_rgm_sha256": "55ad1d5227fc5d14355e6439b6bbf91695fbf1de913f6241b50b087f3997834b",
+  "native_rrgeom_sha256": "d575467700cb88ecb8625358ef9b3c8afcdb65a74ad0c563a7ca8ecee9c96899",
+  "selected_source_states": {
+    "healthy": {
+      "selected_names": [
+        "geo_sel_construct_40__sel_ruins_debris_001",
+        "geo_sel_construct_40__sel_ruins_debris_002",
+        "geo_sel_construct_40__sel_ruins_debris_003",
+        "geo_sel_construct_40__sel_ruins_disappear_001",
+        "geo_sel_construct_80__sel_ruins_debris_001",
+        "geo_sel_construct_80__sel_ruins_disappear_002"
+      ],
+      "triangles": 1604
+    },
+    "damage_1": {
+      "selected_names": [
+        "geo_sel_construct_40__sel_ruins_debris_001",
+        "geo_sel_construct_40__sel_ruins_debris_002",
+        "geo_sel_construct_40__sel_ruins_debris_003",
+        "geo_sel_construct_40__sel_ruins_disappear_001",
+        "geo_sel_construct_80__sel_ruins_debris_001",
+        "geo_sel_construct_80__sel_ruins_disappear_002"
+      ],
+      "triangles": 1604
+    },
+    "damage_2": {
+      "selected_names": [
+        "geo_sel_construct_40__sel_ruins_debris_001",
+        "geo_sel_construct_40__sel_ruins_debris_002",
+        "geo_sel_construct_40__sel_ruins_debris_003",
+        "geo_sel_construct_40__sel_ruins_disappear_001",
+        "geo_sel_construct_80__sel_ruins_debris_001",
+        "geo_sel_construct_80__sel_ruins_disappear_002"
+      ],
+      "triangles": 1604
+    },
+    "damage_3": {
+      "selected_names": [
+        "geo_sel_construct_40__sel_ruins_debris_001",
+        "geo_sel_construct_40__sel_ruins_debris_002",
+        "geo_sel_construct_40__sel_ruins_debris_003",
+        "geo_sel_construct_40__sel_ruins_disappear_001",
+        "geo_sel_construct_80__sel_ruins_debris_001",
+        "geo_sel_construct_80__sel_ruins_disappear_002"
+      ],
+      "triangles": 1604
+    },
+    "damage_4": {
+      "selected_names": [
+        "geo_sel_construct_40__sel_ruins_debris_001",
+        "geo_sel_construct_40__sel_ruins_debris_002",
+        "geo_sel_construct_40__sel_ruins_debris_003",
+        "geo_sel_construct_40__sel_ruins_disappear_001",
+        "geo_sel_construct_80__sel_ruins_debris_001",
+        "geo_sel_construct_80__sel_ruins_disappear_002"
+      ],
+      "triangles": 1604
+    },
+    "damage_5": {
+      "selected_names": [
+        "geo_sel_construct_40__sel_ruins_debris_001",
+        "geo_sel_construct_40__sel_ruins_debris_002",
+        "geo_sel_construct_40__sel_ruins_debris_003",
+        "geo_sel_construct_40__sel_ruins_disappear_001",
+        "geo_sel_construct_80__sel_ruins_debris_001",
+        "geo_sel_construct_80__sel_ruins_disappear_002"
+      ],
+      "triangles": 1604
+    },
+    "ruins": {
+      "selected_names": [
+        "geo_sel_construct_40__sel_ruins_debris_001",
+        "geo_sel_construct_40__sel_ruins_debris_002",
+        "geo_sel_construct_40__sel_ruins_debris_003",
+        "geo_sel_construct_80__sel_ruins_debris_001"
+      ],
+      "triangles": 1140
+    },
+    "preview": {
+      "selected_names": [
+        "geo_sel_construct_40__sel_ruins_debris_001",
+        "geo_sel_construct_40__sel_ruins_debris_002",
+        "geo_sel_construct_40__sel_ruins_debris_003",
+        "geo_sel_construct_40__sel_ruins_disappear_001",
+        "geo_sel_construct_80__sel_ruins_debris_001",
+        "geo_sel_construct_80__sel_ruins_disappear_002"
+      ],
+      "triangles": 1604
+    },
+    "targeting": {
+      "selected_names": [
+        "geo_sel_construct_40__sel_ruins_debris_001",
+        "geo_sel_construct_40__sel_ruins_debris_002",
+        "geo_sel_construct_40__sel_ruins_debris_003",
+        "geo_sel_construct_40__sel_ruins_disappear_001",
+        "geo_sel_construct_80__sel_ruins_debris_001",
+        "geo_sel_construct_80__sel_ruins_disappear_002"
+      ],
+      "triangles": 1604
+    },
+    "construct_foundation": {
+      "selected_names": [],
+      "triangles": 0
+    },
+    "construct_walls": {
+      "selected_names": [
+        "geo_sel_construct_40__sel_ruins_debris_001",
+        "geo_sel_construct_40__sel_ruins_debris_002",
+        "geo_sel_construct_40__sel_ruins_debris_003",
+        "geo_sel_construct_40__sel_ruins_disappear_001"
+      ],
+      "triangles": 1172
+    },
+    "construct_vaults": {
+      "selected_names": [
+        "geo_sel_construct_40__sel_ruins_debris_001",
+        "geo_sel_construct_40__sel_ruins_debris_002",
+        "geo_sel_construct_40__sel_ruins_debris_003",
+        "geo_sel_construct_40__sel_ruins_disappear_001"
+      ],
+      "triangles": 1172
+    },
+    "construct_finish": {
+      "selected_names": [
+        "geo_sel_construct_40__sel_ruins_debris_001",
+        "geo_sel_construct_40__sel_ruins_debris_002",
+        "geo_sel_construct_40__sel_ruins_debris_003",
+        "geo_sel_construct_40__sel_ruins_disappear_001",
+        "geo_sel_construct_80__sel_ruins_debris_001",
+        "geo_sel_construct_80__sel_ruins_disappear_002"
+      ],
+      "triangles": 1604
+    }
+  },
+  "unchanged_skin": {
+    "triangles": 352,
+    "vertices": 297,
+    "influences_sha256": "5fd61b59badc7b6e5b4720d8290a51e6477349bb62ac16323010ce6fcf3f4729",
+    "weight_interpolation": false
+  },
+  "unchanged_payload_triangles": 80,
+  "all_native_bones": 5,
+  "selected_wheel_triangles": 1172,
+  "active_healthy_triangles": 1604,
+  "original_architecture_triangles": 984,
+  "healthy_total": 2588,
+  "stock_cap": 2740,
+  "cap_raised": false,
+  "source_files_sha256": {
+    "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\lumber_camp\\recipe.py": "cd338cfb1afbc9eb1f292ebd7df8275dbe96510b43eee3b2916f07e968973e1e",
+    "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\lumber_camp\\draft_preflight.py": "e614277ceb477df6793c34b1a778e56acabd0216644fd1a0a3ce1d583d74a4f2",
+    "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\lumber_camp\\wheel_lods.py": "baf45d2131d1b6429cfe3f060a3b730bd6713c4fd8951984300c264979637e23",
+    "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\lumber_camp\\lods.py": "fc09b1b63fa53e4b520a8eff063311e08dea1f36cce4087eceadfcf6dfcf36be",
+    "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\lumber_camp\\compile_native_inputs.py": "0be6dcccbbc9a1a7941291e3fdeac12784fc21e862fa02c29bf68d0c20f8fdb7",
+    "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\lumber_camp\\probe_source.py": "c32371f57b7bdba6b99d47057dd85c7f7271e5bd82b523747073345993278fa5",
+    "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\_shared\\native_lumber_sources.py": "02a867c4d1de79e874a22789765ef110af4bb9e9c63b7dea3a1176b8e3d28acb",
+    "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\lumber_camp\\state-profiles.json": "df2563a41ebf9b8d4f6c06225436d0aeeecab4ebb19a04154500977b3c82db86"
+  },
+  "parent_required_checks": [
+    "Compile compact selected input library",
+    "Cold append exact mesh/material/UV/normal/weight and bone audits",
+    "Original support inverse-reference parenting and actual contacts",
+    "Exact native selector source composition/rig copies and authored resting crate pose",
+    "Wheel LOD measured surface/UV/rim/contact fidelity + reversible poses",
+    "Actual source state/LOD fit/triangle checks and rendered visual review"
+  ],
+  "native_playback_qualified": false,
+  "library_sha256": "42926dd710480fcc4bdcfff4cd3f625c4d2ada6ffe2ae5fbc3e335ca3f8d9379",
+  "actual_compilation_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\lumber_camp\\evidence\\native-input-library-compilation.json"
+}

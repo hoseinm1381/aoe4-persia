@@ -1,0 +1,626 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "market",
+  "authored_frame": "Projected stamp-space exactly as original recipe ANCHORS; apply the recorded native inverse once after all source states",
+  "native_hp_thresholds": null,
+  "resource_age_is_not_gameplay_availability": true,
+  "source_art_only": true,
+  "review_status": "Unreviewed structural draft; this worker has not executed Blender or generated acceptance evidence",
+  "recipe_sha256_at_profile_draft": "384ca874a102966e6700a0797365151a8dbe1ecc484d0248233c20fd24b29d01",
+  "profile_basis": "Exact existing body keys, current recipe structural groups/roof and bearing levels; authored failure proposals do not wire native states or thresholds",
+  "lod_support_policy": "Keep roofs, load-bearing posts/beams/joists, floors, stairs, ledgers and access. Explicit omissions select complete loose props or every member of a named furniture assembly, not isolated support legs. Half/quarter targets still need actual measured authored reductions and visual review.",
+  "native_dependencies_policy": "Never Boolean-cut or decimate retained native mechanisms. Existing rig/graph/pose/socket owners and native states remain separately inspectable dependencies; absent dependency geometry is not zero compound overhead.",
+  "compound_budget_qualified": false,
+  "bodies": {
+    "A2": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -2.962656,
+          -8.2,
+          -0.06
+        ],
+        [
+          2.945078,
+          -1.413125,
+          3.26
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "shop_0"
+        ],
+        "corner_plus_x_front_y": [
+          -2.52,
+          -7.675,
+          2.59
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "shop_0": 0.95,
+          "shop_1": 0.95,
+          "shop_2": 0.95,
+          "lane_shade": 0.85,
+          "GoodsStore": 1.12
+        },
+        "debris_area_xy": [
+          [
+            -0.75,
+            -7.2
+          ],
+          [
+            0.6,
+            -6.2
+          ]
+        ],
+        "debris_ground_z": 0.21
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "GoodsStore": 1.1
+        },
+        "remove_groups": [
+          "lane_shade"
+        ],
+        "debris_area_xy": [
+          [
+            -0.75,
+            -7.5
+          ],
+          [
+            0.75,
+            -2.5
+          ]
+        ],
+        "debris_ground_z": 0.21,
+        "debris_count": 90,
+        "fallen_members": [
+          {
+            "a": [
+              -0.44999999999999996,
+              -5.36,
+              0.29
+            ],
+            "b": [
+              0.44999999999999996,
+              -4.64,
+              0.29
+            ],
+            "width": 0.16,
+            "source_group": "lane_shade",
+            "grounding_basis": "Horizontal original member fragment; bottom rests on the named surviving source surface, not a native height claim"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              0.15,
+              -4.6,
+              0.28
+            ],
+            "size": [
+              0.675,
+              0.7,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "shop_0",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "MarketEarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "shop_2_Weight",
+          "StockCabinetFoldedStock"
+        ],
+        "2": [
+          "shop_0_FoldedCloth",
+          "shop_1_Pot",
+          "shop_2_Weight",
+          "StockCabinet"
+        ]
+      },
+      "structural_notes": "First actual shop rear masonry bay fails progressively; controlled stock cabinets are within shops, no excluded north store compound. Distinct existing shop/roof tiers and unobstructed 1.80m source lane retained.",
+      "analytical_cut_check": {
+        "method": "Exact inclusion-exclusion union of the existing three rectangular cutter lobes inside an actual closed-solid witness; no Blender Boolean/visual acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            -2.6999999999999997,
+            -7.675,
+            0.24
+          ],
+          [
+            -2.52,
+            -5.7250000000000005,
+            2.59
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.005935451296499993,
+          0.023402151935999996,
+          0.07243775999999988,
+          0.13695263999999976
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_econ_market_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier2_econ_market_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_market_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_econ_market_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier2_econ_market_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_market_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_econ_market_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier2_econ_market_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_market_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_econ_market_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier2_econ_market_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_market_age_02.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "analytical_primary_revision_check": {
+        "parts": 107,
+        "all_authored_vertices_inside_measured_primary": true,
+        "all_existing_and_new_scalar_contact_formulas_pass": true,
+        "scope": "Exact source primitive vertex formulas and declared contact bounds, without Blender normals/UV/Boolean/dependency/runtime evaluation"
+      }
+    },
+    "A3": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -2.962656,
+          -8.2,
+          -0.06
+        ],
+        [
+          2.945078,
+          -1.413125,
+          3.69
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "shop_0"
+        ],
+        "corner_plus_x_front_y": [
+          -2.52,
+          -7.675,
+          2.79
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "shop_0": 0.95,
+          "shop_1": 0.95,
+          "shop_2": 0.95,
+          "shop_3": 0.95,
+          "lane_shade": 0.85,
+          "GoodsStore": 1.12
+        },
+        "debris_area_xy": [
+          [
+            -0.75,
+            -7.2
+          ],
+          [
+            0.6,
+            -6.2
+          ]
+        ],
+        "debris_ground_z": 0.21
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "GoodsStore": 1.1
+        },
+        "remove_groups": [
+          "lane_shade"
+        ],
+        "debris_area_xy": [
+          [
+            -0.75,
+            -7.5
+          ],
+          [
+            0.75,
+            -2.5
+          ]
+        ],
+        "debris_ground_z": 0.21,
+        "debris_count": 90,
+        "fallen_members": [
+          {
+            "a": [
+              -0.44999999999999996,
+              -5.36,
+              0.29
+            ],
+            "b": [
+              0.44999999999999996,
+              -4.64,
+              0.29
+            ],
+            "width": 0.16,
+            "source_group": "lane_shade",
+            "grounding_basis": "Horizontal original member fragment; bottom rests on the named surviving source surface, not a native height claim"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              0.15,
+              -4.6,
+              0.28
+            ],
+            "size": [
+              0.675,
+              0.7,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "shop_0",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "MarketEarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "shop_2_Weight",
+          "StockCabinetFoldedStock"
+        ],
+        "2": [
+          "shop_0_FoldedCloth",
+          "shop_1_Pot",
+          "shop_2_Weight",
+          "shop_3_FoldedCloth",
+          "StockCabinet"
+        ]
+      },
+      "structural_notes": "First actual shop rear masonry bay fails progressively; controlled stock cabinets are within shops, no excluded north store compound. Distinct existing shop/roof tiers and unobstructed 1.80m source lane retained.",
+      "analytical_cut_check": {
+        "method": "Exact inclusion-exclusion union of the existing three rectangular cutter lobes inside an actual closed-solid witness; no Blender Boolean/visual acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            -2.6999999999999997,
+            -7.675,
+            0.24
+          ],
+          [
+            -2.52,
+            -5.7250000000000005,
+            2.79
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.005935451296499993,
+          0.023402151935999996,
+          0.07243775999999987,
+          0.13695263999999974
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_econ_market_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier3_econ_market_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_market_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_econ_market_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier3_econ_market_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_market_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_econ_market_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier3_econ_market_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_market_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_econ_market_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier3_econ_market_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_market_age_03.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "analytical_primary_revision_check": {
+        "parts": 136,
+        "all_authored_vertices_inside_measured_primary": true,
+        "all_existing_and_new_scalar_contact_formulas_pass": true,
+        "scope": "Exact source primitive vertex formulas and declared contact bounds, without Blender normals/UV/Boolean/dependency/runtime evaluation"
+      }
+    },
+    "A4": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -2.964609,
+          -8.2,
+          -0.06
+        ],
+        [
+          2.960703,
+          -0.989297,
+          4.02
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "shop_0"
+        ],
+        "corner_plus_x_front_y": [
+          -2.52,
+          -7.675,
+          2.99
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "shop_0": 0.95,
+          "shop_1": 0.95,
+          "shop_2": 0.95,
+          "shop_3": 0.95,
+          "shop_4": 0.95,
+          "shop_5": 0.95,
+          "lane_shade": 0.85,
+          "GoodsStore": 1.12
+        },
+        "debris_area_xy": [
+          [
+            -0.75,
+            -7.2
+          ],
+          [
+            0.6,
+            -6.2
+          ]
+        ],
+        "debris_ground_z": 0.21
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "GoodsStore": 1.1,
+          "WeightsAndTextileStore": 1.05
+        },
+        "remove_groups": [
+          "lane_shade"
+        ],
+        "debris_area_xy": [
+          [
+            -0.75,
+            -7.5
+          ],
+          [
+            0.75,
+            -2.5
+          ]
+        ],
+        "debris_ground_z": 0.21,
+        "debris_count": 90,
+        "fallen_members": [
+          {
+            "a": [
+              -0.44999999999999996,
+              -5.36,
+              0.29
+            ],
+            "b": [
+              0.44999999999999996,
+              -4.64,
+              0.29
+            ],
+            "width": 0.16,
+            "source_group": "lane_shade",
+            "grounding_basis": "Horizontal original member fragment; bottom rests on the named surviving source surface, not a native height claim"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              0.15,
+              -4.6,
+              0.28
+            ],
+            "size": [
+              0.675,
+              0.7,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "shop_0",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "MarketEarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "shop_2_Weight",
+          "shop_5_Weight",
+          "StockCabinetFoldedStock"
+        ],
+        "2": [
+          "shop_0_FoldedCloth",
+          "shop_1_Pot",
+          "shop_2_Weight",
+          "shop_3_FoldedCloth",
+          "shop_4_Pot",
+          "shop_5_Weight",
+          "StockCabinet"
+        ]
+      },
+      "structural_notes": "First actual shop rear masonry bay fails progressively; controlled stock cabinets are within shops, no excluded north store compound. Distinct existing shop/roof tiers and unobstructed 1.80m source lane retained.",
+      "analytical_cut_check": {
+        "method": "Exact inclusion-exclusion union of the existing three rectangular cutter lobes inside an actual closed-solid witness; no Blender Boolean/visual acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            -2.6999999999999997,
+            -7.675,
+            0.24
+          ],
+          [
+            -2.52,
+            -5.7250000000000005,
+            2.99
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.005935451296499993,
+          0.023402151935999996,
+          0.07243775999999987,
+          0.13695263999999974
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_econ_market_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier4_econ_market_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_market_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_econ_market_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier4_econ_market_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_market_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_econ_market_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier4_econ_market_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_market_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_econ_market_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier4_econ_market_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_market_age_04.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "analytical_primary_revision_check": {
+        "parts": 202,
+        "all_authored_vertices_inside_measured_primary": true,
+        "all_existing_and_new_scalar_contact_formulas_pass": true,
+        "scope": "Exact source primitive vertex formulas and declared contact bounds, without Blender normals/UV/Boolean/dependency/runtime evaluation"
+      }
+    }
+  },
+  "visual_envelope_evidence": "evidence/visual-envelope-contract.json",
+  "verified_envelope_overrides_enabled": false,
+  "envelope_policy": "No conditional possible/category union is enabled as a verified override; strict primary envelope remains until selective source-join and native prop state/activation proof is supplied.",
+  "source_revision": "Primary-envelope bounded original layout; analytical recipe vertex/contact checks only; Blender state/visual acceptance pending",
+  "lod_source_policy": {
+    "source": "lods.py",
+    "target_ratios": [
+      0.5,
+      0.25
+    ],
+    "tolerance_unchanged": 0.1,
+    "generated_acceptance": false,
+    "Blender_executed_by_this_author": false,
+    "method": "Constant-section surviving profile sampling; exact closed orthogonal-member boundary; actual surviving support unions; retained native inputs untouched; no healthy state reconstruction.",
+    "damage_policy": "Sharp jamb/breach/seat corners and profile extrema retained; irregular fractured surfaces use planar-only dissolve, never filled by a healthy bay.",
+    "source_recipe_sha256_after_hook": "11fa75d0bc848946310e97491f812d9cbd7752f5616ce23cb190d61cd5863962",
+    "lods_sha256": "1a5cdc1580960300b9c9bd6fcd1c5db5a0305184153ecafb0142ffa5bd99cef8"
+  }
+}

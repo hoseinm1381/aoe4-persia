@@ -1,0 +1,398 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "mosque",
+  "authored_frame": "Projected stamp-space exactly as original recipe ANCHORS; apply the recorded native inverse once after all source states",
+  "native_hp_thresholds": null,
+  "resource_age_is_not_gameplay_availability": true,
+  "source_art_only": true,
+  "review_status": "Unreviewed structural draft; this worker has not executed Blender or generated acceptance evidence",
+  "recipe_sha256_at_profile_draft": "c824e1ab3b0f877cb6e3a829dfd26e248ee7f3f463967c5c74f339f789be67ac",
+  "profile_basis": "Exact existing body keys, current recipe structural groups/roof and bearing levels; authored failure proposals do not wire native states or thresholds",
+  "lod_support_policy": "Keep roofs, load-bearing posts/beams/joists, floors, stairs, ledgers and access. Explicit omissions select complete loose props or every member of a named furniture assembly, not isolated support legs. Half/quarter targets still need actual measured authored reductions and visual review.",
+  "native_dependencies_policy": "Never Boolean-cut or decimate retained native mechanisms. Existing rig/graph/pose/socket owners and native states remain separately inspectable dependencies; absent dependency geometry is not zero compound overhead.",
+  "compound_budget_qualified": false,
+  "bodies": {
+    "A3": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -5.6,
+          -5.1,
+          -0.06
+        ],
+        [
+          5.6,
+          5.5,
+          6.6
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "court_portico"
+        ],
+        "corner_plus_x_front_y": [
+          -4.045,
+          -3.45,
+          2.68
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "court_portico": 0.85,
+          "prayer_hall": 1.25,
+          "ablution": 0.6
+        },
+        "debris_area_xy": [
+          [
+            -3.5,
+            -2.9
+          ],
+          [
+            -2.6,
+            -1.5
+          ]
+        ],
+        "debris_ground_z": 0.24
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "prayer_hall": 1.2,
+          "court_portico": 0.85
+        },
+        "remove_groups": [],
+        "debris_area_xy": [
+          [
+            -3.3,
+            -2.9
+          ],
+          [
+            3.3,
+            -0.6
+          ]
+        ],
+        "debris_ground_z": 0.24,
+        "debris_count": 72,
+        "fallen_members": [],
+        "fallen_slabs": [
+          {
+            "center": [
+              0.15,
+              -1.35,
+              0.31
+            ],
+            "size": [
+              1.25,
+              0.575,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "court_portico",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "MosqueEarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "PrayerMat"
+        ],
+        "2": [
+          "PrayerMat",
+          "AblutionBenchLeft",
+          "AblutionBenchRight"
+        ]
+      },
+      "structural_notes": [
+        "West A3 versus east A4 portico corner follows actual recipe side; full side-portico group contains roof, arches, outer wall and owner textile.",
+        "All rubble lies on AblutionCourt top .24, clear of healthy basin and bench footprints in partial-damage states.",
+        "Heavy prayer_hall cap removes the A4 dome/transition and upper walls together; winter/prayer portico roof/support groups fail together.",
+        "A3 has no authored structural timber member to invent as a fallen beam; its roof slabs and masonry provide collapse evidence. A4 fallen timber comes from actual prayer-portico posts/beam."
+      ],
+      "analytical_cut_check": {
+        "method": "Exact union of the three rectangular cutter lobes intersected with one actual solid masonry/bearing witness part; not Blender Boolean/state acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            -4.245,
+            -3.45,
+            0.24
+          ],
+          [
+            -4.045,
+            -3.21,
+            2.52
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.001857200399999999,
+          0.013747101696000004,
+          0.028800000000000044,
+          0.042480000000000066
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_unit_religious_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier3_unit_religious_control_ott",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_ott/ott_monastery_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_religious_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier3_unit_religious_control_ott",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_ott/ott_monastery_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_religious_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier3_unit_religious_control_ott",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_ott/ott_monastery_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_religious_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier3_unit_religious_control_ott",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_ott/ott_monastery_age_03.bin",
+          "stamp_instance_index": 0
+        }
+      ]
+    },
+    "A4": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -5.6,
+          -5.1,
+          -0.06
+        ],
+        [
+          5.6,
+          5.5,
+          6.6
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "court_portico"
+        ],
+        "corner_plus_x_front_y": [
+          5.395,
+          -3.45,
+          2.68
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "court_portico": 0.85,
+          "prayer_hall": 1.25,
+          "ablution": 0.6,
+          "winter_hall": 1.08,
+          "prayer_portico": 0.85
+        },
+        "debris_area_xy": [
+          [
+            2.6,
+            -2.9
+          ],
+          [
+            3.5,
+            -1.5
+          ]
+        ],
+        "debris_ground_z": 0.24
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "prayer_hall": 1.2,
+          "winter_hall": 1.08,
+          "court_portico": 0.85
+        },
+        "remove_groups": [
+          "prayer_portico"
+        ],
+        "debris_area_xy": [
+          [
+            -3.3,
+            -2.9
+          ],
+          [
+            3.3,
+            -0.6
+          ]
+        ],
+        "debris_ground_z": 0.24,
+        "debris_count": 72,
+        "fallen_members": [
+          {
+            "a": [
+              -1.1,
+              -1.957,
+              0.32
+            ],
+            "b": [
+              1.1,
+              -1.543,
+              0.32
+            ],
+            "width": 0.16,
+            "source_group": "prayer_portico",
+            "grounding_basis": "Horizontal original member fragment; bottom rests on the named surviving source surface, not a native height claim"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              0.15,
+              -1.35,
+              0.31
+            ],
+            "size": [
+              1.25,
+              0.575,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "court_portico",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "MosqueEarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "PrayerMat"
+        ],
+        "2": [
+          "PrayerMat",
+          "AblutionBenchLeft",
+          "AblutionBenchRight"
+        ]
+      },
+      "structural_notes": [
+        "West A3 versus east A4 portico corner follows actual recipe side; full side-portico group contains roof, arches, outer wall and owner textile.",
+        "All rubble lies on AblutionCourt top .24, clear of healthy basin and bench footprints in partial-damage states.",
+        "Heavy prayer_hall cap removes the A4 dome/transition and upper walls together; winter/prayer portico roof/support groups fail together.",
+        "A3 has no authored structural timber member to invent as a fallen beam; its roof slabs and masonry provide collapse evidence. A4 fallen timber comes from actual prayer-portico posts/beam."
+      ],
+      "analytical_cut_check": {
+        "method": "Exact union of the three rectangular cutter lobes intersected with one actual solid masonry/bearing witness part; not Blender Boolean/state acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            5.195,
+            -3.45,
+            0.24
+          ],
+          [
+            5.395,
+            1.35,
+            2.52
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.001857200399999999,
+          0.015358427135999936,
+          0.0591708159999998,
+          0.12400959999999951
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_unit_religious_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier4_unit_religious_control_ott",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_ott/ott_monastery_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_religious_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier4_unit_religious_control_ott",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_ott/ott_monastery_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_religious_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier4_unit_religious_control_ott",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_ott/ott_monastery_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_religious_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier4_unit_religious_control_ott",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_ott/ott_monastery_age_04.bin",
+          "stamp_instance_index": 0
+        }
+      ]
+    }
+  },
+  "visual_envelope_evidence": "evidence/visual-envelope-contract.json",
+  "verified_envelope_overrides_enabled": false,
+  "envelope_policy": "No conditional possible/category union is enabled as a verified override; strict primary envelope remains until selective source-join and native prop state/activation proof is supplied.",
+  "lod_source_policy": {
+    "source": "lods.py",
+    "target_ratios": [
+      0.5,
+      0.25
+    ],
+    "tolerance_unchanged": 0.1,
+    "generated_acceptance": false,
+    "Blender_executed_by_this_author": false,
+    "method": "Constant-section surviving profile sampling; exact closed orthogonal-member boundary; actual surviving support unions; retained native inputs untouched; no healthy state reconstruction.",
+    "damage_policy": "Sharp jamb/breach/seat corners and profile extrema retained; irregular fractured surfaces use planar-only dissolve, never filled by a healthy bay.",
+    "source_recipe_sha256_after_hook": "a3e6401beb66dfc75d34103909e35b40399972295b9273260ed3bc32bce3a3ff",
+    "lods_sha256": "1a5cdc1580960300b9c9bd6fcd1c5db5a0305184153ecafb0142ffa5bd99cef8"
+  }
+}

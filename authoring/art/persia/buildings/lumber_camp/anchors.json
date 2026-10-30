@@ -1,0 +1,696 @@
+{
+  "A1": {
+    "authored_space": "model-space",
+    "native_body_key": "A1",
+    "ground_top": 0.12,
+    "work_floor_top": 0.2,
+    "front_direction": "-Y",
+    "numerical_interfaces": [
+      {
+        "name": "GuideBraceFootSeat-1",
+        "a": "PSB_lumber_camp_A1_GuideRakingBrace-1",
+        "b": "PSB_lumber_camp_A1_GuideBraceFoot-1",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          -1.93,
+          2.4,
+          0.24000000000000002
+        ],
+        "intentional_socket_overlap_metres": 0.04,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "GuideBracePostSeat-1",
+        "a": "PSB_lumber_camp_A1_GuideRakingBrace-1",
+        "b": "PSB_lumber_camp_A1_GuidePost-1",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          -1.93,
+          3.615234375,
+          4.96
+        ],
+        "intentional_socket_overlap_metres": 0.09,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "GuideBraceFootSeat1",
+        "a": "PSB_lumber_camp_A1_GuideRakingBrace1",
+        "b": "PSB_lumber_camp_A1_GuideBraceFoot1",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          1.93,
+          2.4,
+          0.24000000000000002
+        ],
+        "intentional_socket_overlap_metres": 0.04,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "GuideBracePostSeat1",
+        "a": "PSB_lumber_camp_A1_GuideRakingBrace1",
+        "b": "PSB_lumber_camp_A1_GuidePost1",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          1.93,
+          3.615234375,
+          4.96
+        ],
+        "intentional_socket_overlap_metres": 0.09,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "KneePost-1.88Front",
+        "a": "PSB_lumber_camp_A1_Knee-1.88Front",
+        "b": "PSB_lumber_camp_A1_ShelterPost-1.88_1.6",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          -1.88,
+          1.6,
+          2.3600000000000003
+        ],
+        "intentional_socket_overlap_metres": 0.07,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "KneeRail-1.88Front",
+        "a": "PSB_lumber_camp_A1_Knee-1.88Front",
+        "b": "PSB_lumber_camp_A1_FrontBearing",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          -1.5299999999999998,
+          1.6,
+          2.7350000000000003
+        ],
+        "intentional_socket_overlap_metres": 0.035,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "KneePost-1.88Back",
+        "a": "PSB_lumber_camp_A1_Knee-1.88Back",
+        "b": "PSB_lumber_camp_A1_ShelterPost-1.88_2.86",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          -1.88,
+          2.86,
+          2.3600000000000003
+        ],
+        "intentional_socket_overlap_metres": 0.07,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "KneeRail-1.88Back",
+        "a": "PSB_lumber_camp_A1_Knee-1.88Back",
+        "b": "PSB_lumber_camp_A1_BackBearing",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          -1.5299999999999998,
+          2.86,
+          2.7350000000000003
+        ],
+        "intentional_socket_overlap_metres": 0.035,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "KneePost1.88Front",
+        "a": "PSB_lumber_camp_A1_Knee1.88Front",
+        "b": "PSB_lumber_camp_A1_ShelterPost1.88_1.6",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          1.88,
+          1.6,
+          2.3600000000000003
+        ],
+        "intentional_socket_overlap_metres": 0.07,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "KneeRail1.88Front",
+        "a": "PSB_lumber_camp_A1_Knee1.88Front",
+        "b": "PSB_lumber_camp_A1_FrontBearing",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          1.5299999999999998,
+          1.6,
+          2.7350000000000003
+        ],
+        "intentional_socket_overlap_metres": 0.035,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "KneePost1.88Back",
+        "a": "PSB_lumber_camp_A1_Knee1.88Back",
+        "b": "PSB_lumber_camp_A1_ShelterPost1.88_2.86",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          1.88,
+          2.86,
+          2.3600000000000003
+        ],
+        "intentional_socket_overlap_metres": 0.07,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "KneeRail1.88Back",
+        "a": "PSB_lumber_camp_A1_Knee1.88Back",
+        "b": "PSB_lumber_camp_A1_BackBearing",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          1.5299999999999998,
+          2.86,
+          2.7350000000000003
+        ],
+        "intentional_socket_overlap_metres": 0.035,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "Bench0StretcherSeat-1",
+        "a": "PSB_lumber_camp_A1_Bench0Stretcher",
+        "b": "PSB_lumber_camp_A1_Bench0Leg-1-1",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          -1.515,
+          2.405,
+          0.42000000000000004
+        ],
+        "intentional_socket_overlap_metres": 0.035,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "Bench0StretcherSeat1",
+        "a": "PSB_lumber_camp_A1_Bench0Stretcher",
+        "b": "PSB_lumber_camp_A1_Bench0Leg1-1",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          -0.7849999999999999,
+          2.405,
+          0.42000000000000004
+        ],
+        "intentional_socket_overlap_metres": 0.035,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "Bench1StretcherSeat-1",
+        "a": "PSB_lumber_camp_A1_Bench1Stretcher",
+        "b": "PSB_lumber_camp_A1_Bench1Leg-1-1",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          -0.365,
+          2.405,
+          0.42000000000000004
+        ],
+        "intentional_socket_overlap_metres": 0.035,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "Bench1StretcherSeat1",
+        "a": "PSB_lumber_camp_A1_Bench1Stretcher",
+        "b": "PSB_lumber_camp_A1_Bench1Leg1-1",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          0.365,
+          2.405,
+          0.42000000000000004
+        ],
+        "intentional_socket_overlap_metres": 0.035,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "Bench2StretcherSeat-1",
+        "a": "PSB_lumber_camp_A1_Bench2Stretcher",
+        "b": "PSB_lumber_camp_A1_Bench2Leg-1-1",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          0.7849999999999999,
+          2.405,
+          0.42000000000000004
+        ],
+        "intentional_socket_overlap_metres": 0.035,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "Bench2StretcherSeat1",
+        "a": "PSB_lumber_camp_A1_Bench2Stretcher",
+        "b": "PSB_lumber_camp_A1_Bench2Leg1-1",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          1.515,
+          2.405,
+          0.42000000000000004
+        ],
+        "intentional_socket_overlap_metres": 0.035,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "OwnerBracketFrontBeam",
+        "a": "PSB_lumber_camp_A1_OwnerBracket",
+        "b": "PSB_lumber_camp_A1_FrontBearing",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          1.1,
+          1.53,
+          2.75
+        ],
+        "intentional_socket_overlap_metres": 0.02,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "NativeWheelBearing3",
+        "a": "PSB_lumber_camp_A1_AxleBearing-1",
+        "b": "NLF_rigid_3",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          -1.1689453125,
+          -0.10693359375,
+          2.097864985466003
+        ],
+        "intentional_socket_overlap_metres": 0,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "NativeWheelBearing0",
+        "a": "PSB_lumber_camp_A1_AxleBearing1",
+        "b": "NLF_rigid_0",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          1.1689453125,
+          -0.10693359375,
+          2.097864985466003
+        ],
+        "intentional_socket_overlap_metres": 0,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      },
+      {
+        "name": "NativeCableGuideSeat",
+        "a": "PSB_lumber_camp_A1_GuideLintel",
+        "b": "NLF_skin",
+        "authored_space": "model-space",
+        "authored_contact_point": [
+          -0.014007568359375,
+          3.615234375,
+          5.4765625
+        ],
+        "intentional_socket_overlap_metres": 0,
+        "tolerance": 0.003,
+        "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+      }
+    ],
+    "native_dependency": {
+      "model": "art/civilizations/common/structures/lumber_camp/com_lumber_camp_crane_age01/com_lumber_camp_crane_age01.rgm",
+      "rgm_sha256": "55ad1d5227fc5d14355e6439b6bbf91695fbf1de913f6241b50b087f3997834b",
+      "rrgeom_sha256": "d575467700cb88ecb8625358ef9b3c8afcdb65a74ad0c563a7ca8ecee9c96899",
+      "rgo_sha256": "bc8497f934bfa6f284a85bf393c888d7e152cdd13fa3add43397795c95e8e5e2",
+      "partition": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\LUMBER_FUNCTIONAL_SOURCE_PARTITION.json",
+      "functional_triangles": 1604,
+      "original_architecture_cap": 1136,
+      "stock_compound_cap": 2740,
+      "source_status": "Exact reference hierarchy/weights retained; native playback, physical pivots and working sweep unproved"
+    },
+    "raw_native_rest_bounds": {
+      "min": [
+        -2.28125,
+        -1.365234375,
+        -2.4375
+      ],
+      "max": [
+        2.28125,
+        4.28125,
+        5.7265625
+      ]
+    },
+    "working_clearances": {
+      "shelter_head_above_workfloor": 2.5,
+      "bench_height": 0.7,
+      "seat_height": 0.42,
+      "approach_strip_y": [
+        1.73,
+        2.32
+      ],
+      "payload_reference_zone_y": [
+        3.056640625,
+        4.28125
+      ],
+      "wheel_reference_zone_y": [
+        -1.33984375,
+        1.2900390625
+      ],
+      "working_sweep_qualified": false
+    },
+    "native_bearing_candidates": [
+      {
+        "original_member": "AxleBearing-1",
+        "native_source_index": 3,
+        "point": [
+          -1.1689453125,
+          -0.10693359375,
+          2.097864985466003
+        ],
+        "meaning": "Exact closest native wheel surface point; proposed original bearing contact, not engine physical pivot"
+      },
+      {
+        "original_member": "AxleBearing1",
+        "native_source_index": 0,
+        "point": [
+          1.1689453125,
+          -0.10693359375,
+          2.097864985466003
+        ],
+        "meaning": "Exact closest native wheel surface point; proposed original bearing contact, not engine physical pivot"
+      }
+    ],
+    "native_guide_candidate": {
+      "original_member": "GuideLintel",
+      "point": [
+        -0.014007568359375,
+        3.615234375,
+        5.4765625
+      ],
+      "meaning": "Exact highest base-weighted cable vertex against original lintel underside; guide semantics/operating sweep require parent inspection"
+    },
+    "original_architecture_triangles": 984,
+    "native_active_assembly": {
+      "active_triangles": 1604,
+      "armature": "NLF_armature",
+      "object_names": [
+        "NLF_skin",
+        "NLF_rigid_0",
+        "NLF_rigid_1",
+        "NLF_rigid_3",
+        "NLF_rigid_5",
+        "NLF_rigid_7"
+      ],
+      "original_support_bindings": [
+        {
+          "object": "PSB_lumber_camp_A1_AxlePier-1",
+          "bone": "bone_wheel_base",
+          "reference_world_matrix_error": 5.3395687272670824e-18,
+          "vertex_bake": false,
+          "weights_invented": false
+        },
+        {
+          "object": "PSB_lumber_camp_A1_AxleBearing-1",
+          "bone": "bone_wheel_base",
+          "reference_world_matrix_error": 5.3395687272670824e-18,
+          "vertex_bake": false,
+          "weights_invented": false
+        },
+        {
+          "object": "PSB_lumber_camp_A1_GuidePost-1",
+          "bone": "bone_wheel_base",
+          "reference_world_matrix_error": 5.3395687272670824e-18,
+          "vertex_bake": false,
+          "weights_invented": false
+        },
+        {
+          "object": "PSB_lumber_camp_A1_GuideRakingBrace-1",
+          "bone": "bone_wheel_base",
+          "reference_world_matrix_error": 5.3395687272670824e-18,
+          "vertex_bake": false,
+          "weights_invented": false
+        },
+        {
+          "object": "PSB_lumber_camp_A1_AxlePier1",
+          "bone": "bone_wheel_base",
+          "reference_world_matrix_error": 5.3395687272670824e-18,
+          "vertex_bake": false,
+          "weights_invented": false
+        },
+        {
+          "object": "PSB_lumber_camp_A1_AxleBearing1",
+          "bone": "bone_wheel_base",
+          "reference_world_matrix_error": 5.3395687272670824e-18,
+          "vertex_bake": false,
+          "weights_invented": false
+        },
+        {
+          "object": "PSB_lumber_camp_A1_GuidePost1",
+          "bone": "bone_wheel_base",
+          "reference_world_matrix_error": 5.3395687272670824e-18,
+          "vertex_bake": false,
+          "weights_invented": false
+        },
+        {
+          "object": "PSB_lumber_camp_A1_GuideRakingBrace1",
+          "bone": "bone_wheel_base",
+          "reference_world_matrix_error": 5.3395687272670824e-18,
+          "vertex_bake": false,
+          "weights_invented": false
+        },
+        {
+          "object": "PSB_lumber_camp_A1_GuideLintel",
+          "bone": "bone_wheel_base",
+          "reference_world_matrix_error": 5.3395687272670824e-18,
+          "vertex_bake": false,
+          "weights_invented": false
+        }
+      ],
+      "library_path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\_shared\\mechanisms\\lumber_functional_inputs.blend",
+      "library_sha256": "42926dd710480fcc4bdcfff4cd3f625c4d2ada6ffe2ae5fbc3e335ca3f8d9379",
+      "source_geometry_audits": [
+        {
+          "object": "NLF_skin",
+          "role": "skin",
+          "source_index": null,
+          "triangles": 352,
+          "maximum_position_error": 0.0,
+          "maximum_raw_normal_error": 2.9598950401776847e-08,
+          "maximum_UV_error": 0,
+          "maximum_custom_normal_angle_degrees": 0.006931790405956333,
+          "material_identity": {
+            "name": "crane",
+            "material_class": "structure",
+            "rrmaterial_sha256": "de43d9bd569b26ded385f0724ddfb8dd6be5112920d2c49025f6d5ad33a9a9c2",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "weights": {
+            "vertices_checked": 297,
+            "maximum_weight_error": 0,
+            "exact_native_named_weights_preserved": true,
+            "automatic_weights": false,
+            "LOD_remapped_again": false
+          }
+        },
+        {
+          "object": "NLF_rigid_0",
+          "role": "rigid",
+          "source_index": 0,
+          "triangles": 112,
+          "maximum_position_error": 0.0,
+          "maximum_raw_normal_error": 2.5863592711949934e-08,
+          "maximum_UV_error": 0,
+          "maximum_custom_normal_angle_degrees": 0.003845955314827367,
+          "material_identity": {
+            "name": "crane",
+            "material_class": "structure",
+            "rrmaterial_sha256": "de43d9bd569b26ded385f0724ddfb8dd6be5112920d2c49025f6d5ad33a9a9c2",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "weights": null
+        },
+        {
+          "object": "NLF_rigid_1",
+          "role": "rigid",
+          "source_index": 1,
+          "triangles": 218,
+          "maximum_position_error": 0.0,
+          "maximum_raw_normal_error": 2.968038204098633e-08,
+          "maximum_UV_error": 0,
+          "maximum_custom_normal_angle_degrees": 0.05132478419734533,
+          "material_identity": {
+            "name": "crane",
+            "material_class": "structure",
+            "rrmaterial_sha256": "de43d9bd569b26ded385f0724ddfb8dd6be5112920d2c49025f6d5ad33a9a9c2",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "weights": null
+        },
+        {
+          "object": "NLF_rigid_3",
+          "role": "rigid",
+          "source_index": 3,
+          "triangles": 474,
+          "maximum_position_error": 0.0,
+          "maximum_raw_normal_error": 2.9794636979829647e-08,
+          "maximum_UV_error": 0,
+          "maximum_custom_normal_angle_degrees": 0.0111334251105123,
+          "material_identity": {
+            "name": "crane",
+            "material_class": "structure",
+            "rrmaterial_sha256": "de43d9bd569b26ded385f0724ddfb8dd6be5112920d2c49025f6d5ad33a9a9c2",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "weights": null
+        },
+        {
+          "object": "NLF_rigid_5",
+          "role": "rigid",
+          "source_index": 5,
+          "triangles": 368,
+          "maximum_position_error": 0.0,
+          "maximum_raw_normal_error": 2.9794636979829647e-08,
+          "maximum_UV_error": 0,
+          "maximum_custom_normal_angle_degrees": 0.007692752741322593,
+          "material_identity": {
+            "name": "crane",
+            "material_class": "structure",
+            "rrmaterial_sha256": "de43d9bd569b26ded385f0724ddfb8dd6be5112920d2c49025f6d5ad33a9a9c2",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "weights": null
+        },
+        {
+          "object": "NLF_rigid_7",
+          "role": "rigid",
+          "source_index": 7,
+          "triangles": 80,
+          "maximum_position_error": 0.0,
+          "maximum_raw_normal_error": 2.9761643705050744e-08,
+          "maximum_UV_error": 0,
+          "maximum_custom_normal_angle_degrees": 0.013196259388287047,
+          "material_identity": {
+            "name": "crane",
+            "material_class": "structure",
+            "rrmaterial_sha256": "de43d9bd569b26ded385f0724ddfb8dd6be5112920d2c49025f6d5ad33a9a9c2",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "weights": null
+        }
+      ],
+      "skin_pose_checks": [
+        {
+          "bone": "bone_cable_twist",
+          "radians": 0.035,
+          "exact_native_weighted_vertex_count": 258,
+          "maximum_Blender_scene_displacement": 0.025565070467615542,
+          "maximum_exact_weight_LBS_error": 4.777675730550706e-07,
+          "unweighted_partition_maximum_displacement": 0.0,
+          "restored_reference_maximum_error": 0.0,
+          "reversible_source_pose_passed": true,
+          "clips_created": false,
+          "native_world_pose_qualified": false,
+          "engine_physical_pivot_qualified": false,
+          "qualification": "Reference-source pose/LBS consistency only; actual parent probe required"
+        },
+        {
+          "bone": "bone_wheel_base",
+          "radians": 0.035,
+          "exact_native_weighted_vertex_count": 297,
+          "maximum_Blender_scene_displacement": 0.14482397111519768,
+          "maximum_exact_weight_LBS_error": 2.385349660155493e-07,
+          "unweighted_partition_maximum_displacement": 0,
+          "restored_reference_maximum_error": 0.0,
+          "reversible_source_pose_passed": true,
+          "clips_created": false,
+          "native_world_pose_qualified": false,
+          "engine_physical_pivot_qualified": false,
+          "qualification": "Reference-source pose/LBS consistency only; actual parent probe required"
+        }
+      ],
+      "rigid_pose": {
+        "bone": "bone_wheel",
+        "probe_radians": 0.035,
+        "max_Blender_scene_displacement_by_object": {
+          "NLF_skin": 0.0,
+          "NLF_rigid_0": 0.09749875004055784,
+          "NLF_rigid_1": 0.06228668464199626,
+          "NLF_rigid_3": 0.06264118340699316,
+          "NLF_rigid_5": 0.10038051357167045,
+          "NLF_rigid_7": 0.0
+        },
+        "restored_reference_max_error": 0.0,
+        "reference_restored": true,
+        "rigid_movement_partition": [
+          {
+            "object": "NLF_rigid_0",
+            "expected_move_from_exact_native_parent": true,
+            "observed_move": true,
+            "movement_partition_matches": true
+          },
+          {
+            "object": "NLF_rigid_1",
+            "expected_move_from_exact_native_parent": true,
+            "observed_move": true,
+            "movement_partition_matches": true
+          },
+          {
+            "object": "NLF_rigid_3",
+            "expected_move_from_exact_native_parent": true,
+            "observed_move": true,
+            "movement_partition_matches": true
+          },
+          {
+            "object": "NLF_rigid_5",
+            "expected_move_from_exact_native_parent": true,
+            "observed_move": true,
+            "movement_partition_matches": true
+          },
+          {
+            "object": "NLF_rigid_7",
+            "expected_move_from_exact_native_parent": false,
+            "observed_move": false,
+            "movement_partition_matches": true
+          }
+        ],
+        "keyframes_created": false,
+        "native_world_pose_qualified": false,
+        "qualification": "Reversible source-pose responsiveness only; verify expected bound/static source partition and physical pivot separately"
+      },
+      "frame": "Model reference, whole assembly; no vertex transform or native stamp applied",
+      "clips_created": false,
+      "native_physical_pivot_qualified": false,
+      "native_sweep_qualified": false,
+      "source_acceptance_pending": true
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "model-space",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}
