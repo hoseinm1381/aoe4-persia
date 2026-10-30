@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\sword_short\\e45fde721e1edbbe1ca5\\decoded-static.json",
+  "donor_sha256": "693aef74e5d508bf92b86e6712669b2947a5324dff9b540014c62844671963cc",
+  "logical_path": "art/civilizations/common/weapons/melee/sword_short/sword_short.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "7e5d85128646b7f8f9fdd7e68ed387bd52f191d9024561e7e56f2922bf2a769d",
+    "normal": "53fdb14d0d404eed2bd50703a171446881850c78abac0a2274206ab3d11f5c72",
+    "roughness": "57f6b1b404338030574a413a3e658c86ecd68a176b803edc4b0db10cf69f8d69",
+    "metalness": "fbb2d7d172a282827b65f3a7ec6d4c19afd683d8b57dbed28a58c7762b1946fd",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

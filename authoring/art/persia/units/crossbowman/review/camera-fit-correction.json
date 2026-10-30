@@ -1,0 +1,31 @@
+{
+  "family": "crossbowman",
+  "assemblies": [
+    "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\assemblies\\sul_ranged_crossbow_age03\\assembly.blend",
+    "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\assemblies\\sul_ranged_crossbow_age04\\assembly.blend"
+  ],
+  "layout": "columns: existing body/age selectors ascending; rows: LOD0/1/2; cyclic blue/red/yellow preview colours",
+  "views": [
+    "front",
+    "back",
+    "left",
+    "right",
+    "top",
+    "bottom",
+    "game"
+  ],
+  "review_status": "awaiting single visual inspection",
+  "motion_status": "representative native body idle sampled; other animation uncertain and deferred",
+  "no_runtime_or_integration_changes": true,
+  "camera_fit": "actual evaluated mesh vertices, not undeformed object boxes",
+  "repaired_views": [],
+  "preserved_views": [
+    "front",
+    "back",
+    "left",
+    "right",
+    "top",
+    "bottom",
+    "game"
+  ]
+}

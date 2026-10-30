@@ -1,0 +1,341 @@
+{
+  "family": "assassin",
+  "body": "abb_spy",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\assassin\\assemblies\\abb_spy\\assembly.blend",
+  "sha256": "10b66e510d049a1585f8565690464ceddb83f8f601fae1ab01d5ad10047da3f6",
+  "rig_bones": 73,
+  "rig_contract_sha256": "8c81d2dd0a869994a8b6364b960bca919f9c698716d9515e09259ff9675601e6",
+  "secondary_rigs": {},
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "body",
+      "vertices": 859,
+      "triangles": 1182,
+      "sha256": "7ebfb7950bdb601ff09a2b5916bf99996100c1ec2d2e89ea2cff7e850b35b5ed"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 120,
+      "triangles": 104,
+      "sha256": "11a04db22d3210da7bd028951a338380109fb9cc077b9c43def06db8906f0460"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 226,
+      "triangles": 212,
+      "sha256": "507b14886c1fa6ef596611cd5890f82a974bf75e4a8e57f692960f28689d1734"
+    },
+    {
+      "lod": 1,
+      "component": "body",
+      "vertices": 467,
+      "triangles": 564,
+      "sha256": "c09a38e2a4dcc6b32ea8e356925be59ed6b95a8bf7d6c994f0b76292103dcfe0"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 168,
+      "triangles": 144,
+      "sha256": "649101844c93fa127da97340e37f4c3727ce7d5de98a1a5ae6b54e4c48449dcb"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 98,
+      "triangles": 82,
+      "sha256": "76b8ebf8fb24264bce3bb6c09e8f3954cdf56cd60c678edc7bf92426a15d94c7"
+    },
+    {
+      "lod": 2,
+      "component": "body",
+      "vertices": 271,
+      "triangles": 282,
+      "sha256": "483788c8533333bac9ba461af8a70ff6d33705f40daef33688bed11cecb08d26"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 102,
+      "triangles": 80,
+      "sha256": "28a787e0c171f38bc17c1bddea14fe92baf9762a3c0d0d00122cee308d20c83a"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 74,
+      "triangles": 56,
+      "sha256": "9da3ef3f4e16c9205a6507ed704846382d87fcfcc51aa0a244652b891eadbdc0"
+    }
+  ],
+  "equipment": {
+    "sword_short": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 73,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/campaign_abbasids/humans/abb_spy/abb_spy.rgm",
+        "donor_manifest_sha256": "968f8be2dc0ee405267a6bcdea7ca3630ed94d34f9def14fbf390e5927eaa2cf",
+        "bones_modified": 0
+      },
+      "triangles": [
+        104,
+        82,
+        56
+      ],
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "abb_shamshir": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 73,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/campaign_abbasids/humans/abb_spy/abb_spy.rgm",
+        "donor_manifest_sha256": "968f8be2dc0ee405267a6bcdea7ca3630ed94d34f9def14fbf390e5927eaa2cf",
+        "bones_modified": 0
+      },
+      "triangles": [
+        212,
+        144,
+        80
+      ],
+      "native_marker_evidence": [],
+      "marker_status": "family convention; exact action marker evidence pending"
+    }
+  },
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\assassin\\models\\abb_spy\\model.blend",
+      "sha256": "b498b28391aee5a587532b35ec69698493ec2b86674a702b45997f2852bede54"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\assassin\\models\\sword_short\\model.blend",
+      "sha256": "cf5a3f3ba28594b38fcc94681716e090b8aff3c5daa507356d357e5b502f201b"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\assassin\\models\\abb_shamshir\\model.blend",
+      "sha256": "709e4f37fdf42b75ef45a263a8d737f1858fd1dd625e267b8c3632b400fdd604"
+    }
+  ],
+  "motion_checks": [
+    {
+      "clip": "navigation\\idles\\tense_idle_spear_01",
+      "native_source": {
+        "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_civilian/base_civilian.rhka",
+        "rhka_sha256": "02828e08aa466af35ea9af11af048e08031d50d4eea3573827c817e5cb0295c3",
+        "selection_status": "linked_library_candidate",
+        "runtime_selection_status": "not_decoded"
+      },
+      "body_deformation_samples": [
+        {
+          "frame": 1,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.668711912152679
+        },
+        {
+          "frame": 72,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.705431352101348
+        },
+        {
+          "frame": 143,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.6759278071057588
+        },
+        {
+          "frame": 215,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.6586801777286386
+        },
+        {
+          "frame": 286,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.668711912152679
+        }
+      ],
+      "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+    }
+  ],
+  "source_status": "editable equipped batch candidate; one family review pending",
+  "outstanding_motion_gates": [
+    "full movement/combat/work/death action coverage",
+    "native secondary weapon synchronization",
+    "runtime state selection",
+    "native-game validation"
+  ]
+}

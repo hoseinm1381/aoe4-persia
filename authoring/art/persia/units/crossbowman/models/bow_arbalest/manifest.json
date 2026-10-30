@@ -1,0 +1,189 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "crossbowman",
+  "donor": "art/civilizations/common/weapons/ranged/bow_arbalest/bow_arbalest.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\models\\bow_arbalest\\model.blend",
+  "source_sha256": "26266419e9165c9c88543833b51fa6c479753df94b36a10049336b3901d525f8",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "b8e1b6e3706fba5500f2695f1be4b3e17b838db671b9cf1ade983f29013c8893",
+  "rig_bones": 5,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 719,
+      "triangles": 537,
+      "sha256": "f5aecf6b56fd96889a9bfb08f2c86386d8d1db5b9a22cf24ec8ed0f2a7ddb2aa"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 456,
+      "triangles": 316,
+      "sha256": "203e0e1247ed68cde6248879dd086a908eb2fe6a8533c9a265b7bc0601fd52dd"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 342,
+      "triangles": 222,
+      "sha256": "8a9c771649199a088554608182c82f362e5b06fc77bb8be9df733f8aebf03b97"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_crossbowman_bow_arbalest_LOD0",
+      "vertices": 719,
+      "triangles": 537,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_crossbowman_bow_arbalest_LOD1",
+      "vertices": 456,
+      "triangles": 316,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_crossbowman_bow_arbalest_LOD2",
+      "vertices": 342,
+      "triangles": 222,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    }
+  ],
+  "native_lod_contract": [
+    {
+      "lod": 0,
+      "allowed_bones": [
+        "bone_root",
+        "crossbow_crank",
+        "crossbow_left",
+        "crossbow_right",
+        "crossbow_string"
+      ],
+      "used_bones": [
+        "bone_root",
+        "crossbow_crank",
+        "crossbow_left",
+        "crossbow_right",
+        "crossbow_string"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "kind": "bow",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 54,
+      "changed_vertices": 551,
+      "source_vertices": 719,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 205,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 44,
+      "changed_vertices": 366,
+      "source_vertices": 456,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 186,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 262,
+      "source_vertices": 342,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 15,
+      "protected_string_joint_displacement_m": 0.0
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "bow",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 54,
+      "changed_vertices": 551,
+      "source_vertices": 719,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 205,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 44,
+      "changed_vertices": 366,
+      "source_vertices": 456,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 186,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 262,
+      "source_vertices": 342,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 15,
+      "protected_string_joint_displacement_m": 0.0
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/ranged/bow_arbalest/bow_arbalest.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/ranged/bow_arbalest/bow_arbalest.rgm"
+}

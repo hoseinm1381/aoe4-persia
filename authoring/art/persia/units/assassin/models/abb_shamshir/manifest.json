@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "assassin",
+  "donor": "art/civilizations/abbasids/weapons/abb_shamshir/abb_shamshir.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\assassin\\models\\abb_shamshir\\model.blend",
+  "source_sha256": "709e4f37fdf42b75ef45a263a8d737f1858fd1dd625e267b8c3632b400fdd604",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 226,
+      "triangles": 212,
+      "sha256": "507b14886c1fa6ef596611cd5890f82a974bf75e4a8e57f692960f28689d1734"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 168,
+      "triangles": 144,
+      "sha256": "649101844c93fa127da97340e37f4c3727ce7d5de98a1a5ae6b54e4c48449dcb"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 102,
+      "triangles": 80,
+      "sha256": "28a787e0c171f38bc17c1bddea14fe92baf9762a3c0d0d00122cee308d20c83a"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_assassin_abb_shamshir_LOD0",
+      "vertices": 226,
+      "triangles": 212,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_assassin_abb_shamshir_LOD1",
+      "vertices": 168,
+      "triangles": 144,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_assassin_abb_shamshir_LOD2",
+      "vertices": 102,
+      "triangles": 80,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 114,
+      "changed_vertices": 58,
+      "source_vertices": 226,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 99,
+      "changed_vertices": 46,
+      "source_vertices": 168,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 56,
+      "changed_vertices": 34,
+      "source_vertices": 102,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 114,
+      "changed_vertices": 58,
+      "source_vertices": 226,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 99,
+      "changed_vertices": 46,
+      "source_vertices": 168,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 56,
+      "changed_vertices": 34,
+      "source_vertices": 102,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/abbasids/weapons/abb_shamshir/abb_shamshir.rgm",
+  "geometry_donor": "art/civilizations/abbasids/weapons/abb_shamshir/abb_shamshir.rgm"
+}
