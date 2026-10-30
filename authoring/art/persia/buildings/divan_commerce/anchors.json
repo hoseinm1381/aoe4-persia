@@ -1,0 +1,278 @@
+{
+  "A1": {
+    "ground_top": 0.16,
+    "native_body_key": "A1",
+    "native_model": "art/civilizations/sultanate/structures/wonder_great_mosque_of_delhi/sul_great_mosque_of_delhi_control_age01/sul_great_mosque_of_delhi_control_age01.rgm",
+    "native_model_sha256": "1090b91f30a87fb8c4a568d9138d97f0bd4ed5a9d4118af725d74397eff5ef20",
+    "resource_age_label": 1,
+    "availability": "Unchanged and not inferred from resource age",
+    "source_uses": [
+      {
+        "actor": "ps_building_divan_economy_persia",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_quwwat_ul_islam_sul/landmark_quwwat_ul_islam_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_quwwat_ul_islam.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_divan_economy_persia",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_quwwat_ul_islam_sul/landmark_quwwat_ul_islam_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_quwwat_ul_islam.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_divan_economy_persia",
+        "variant": "hre_brawl",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_quwwat_ul_islam_sul/landmark_quwwat_ul_islam_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_quwwat_ul_islam.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_divan_economy_persia",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_quwwat_ul_islam_sul/landmark_quwwat_ul_islam_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_quwwat_ul_islam.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_divan_economy_persia",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_quwwat_ul_islam_sul/landmark_quwwat_ul_islam_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_quwwat_ul_islam.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "family_inventory_key": "divan_economy",
+    "authoring_bounds_proposal": [
+      [
+        -6.6,
+        -6.0,
+        -0.06
+      ],
+      [
+        6.5,
+        6.5,
+        5.5
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -7.2257812507,
+        -8.2489387393,
+        -1.599609375
+      ],
+      [
+        7.1257812493,
+        7.4893425107,
+        10.25
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -10.2494230362,
+        -9.8506014777,
+        -1.599609375
+      ],
+      [
+        9.7970504069,
+        10.1686149675,
+        10.25
+      ]
+    ],
+    "envelope_proposal_margins": [
+      0.6257812507000002,
+      2.2489387392999998,
+      0.6257812493000001,
+      0.9893425107000002,
+      4.75
+    ],
+    "projected_resource_to_stamp_matrix": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.05000000074505806
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -0.6434699892997742
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.05000000074505806
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -0.6434699892997742
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "authored_space": "projected stamp coordinates; translated half-turn is its own inverse",
+    "public_route": [
+      [
+        -1.3,
+        -4.85,
+        0.16
+      ],
+      [
+        -1.3,
+        1.3,
+        0.16
+      ]
+    ],
+    "service_route": [
+      [
+        4.65,
+        -2.0,
+        0.16
+      ],
+      [
+        4.65,
+        2.1,
+        0.16
+      ]
+    ],
+    "historical_claim": "Original institution-led composition, not the recovered historical Divan of Commerce",
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_market/layout_market.rgm",
+      "layout_skeleton_present": true,
+      "layout_marker_count": 11,
+      "existing_props": [
+        "stone_bench",
+        "sagebush_row"
+      ],
+      "marker_frame": "Bone-local until native skeleton/pose evaluation, not world-space sockets.",
+      "policy": "Retain original layout, physics/repair/auxiliary effect owners and exact native bindings; no new motion.",
+      "clearance_status": "Unqualified: source rest envelope is not native footprint, interaction/production route or terrain clearance."
+    },
+    "native_states": {
+      "life_cycle_values": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95",
+        "healthy",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_4",
+        "damage_5",
+        "ruins",
+        "preview",
+        "targeting"
+      ],
+      "conditional_properties": [
+        "has_collapsed_damage1",
+        "has_collapsed_damage2",
+        "has_collapsed_damage3",
+        "has_collapsed_damage4",
+        "has_collapsed_damage5",
+        "has_collapsed_ruins",
+        "life_cycle_state_previous",
+        "burn_state",
+        "jin_debuff",
+        "debug_static_rig_name"
+      ],
+      "native_primary_skeleton_present": false,
+      "actions": "15 original collapse/repair/static-rig references; no new clips or playback.",
+      "reference": "research/persia_buildings/inventory/FAMILY_NATIVE_STATE_CONTRACTS.json",
+      "status": "Inventory only; native component/effect and repair mappings remain parent work. No HP or gameplay-age assumptions."
+    },
+    "native_clearance_status": "Unqualified: source rest envelope is not native footprint, interaction/production route or terrain clearance.",
+    "visual_inspection": "Not performed; parent serial build required",
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp coordinates; translated half-turn is its own inverse",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -0.05000000074505806
+        ],
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -0.6434699892997742
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}

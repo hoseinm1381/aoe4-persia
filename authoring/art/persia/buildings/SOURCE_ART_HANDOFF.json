@@ -1,0 +1,711 @@
+{
+  "schema": "ccp.persia.source-art-handoff/v1",
+  "scope": "Owner-requested quick20-family source art; one visual review per family; exhaustive audits/native validation deferred",
+  "family_count": 20,
+  "source_body_count": 54,
+  "source_composition_count": 1674,
+  "families": [
+    {
+      "family": "House",
+      "slug": "house",
+      "body_keys": [
+        "A1a",
+        "A2a",
+        "A3a",
+        "A4a",
+        "A1b",
+        "A2b",
+        "A3b",
+        "A4b",
+        "A1c",
+        "A2c",
+        "A3c",
+        "A4c"
+      ],
+      "source_bodies": 12,
+      "source_compositions": 372,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\house\\house.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\house\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "house.blend": "0f2510548b54f4d73e252ab1f51870754c2acf3bb3d4ab3aff07e698345ee834",
+        "state-manifest.json": "18a56ad4adc8c79322aa0374aeaad52d4dbf4f5ae4c9c47dee691e4794885f2d",
+        "recipe.py": "328c287c0307c1d5fdba87210ada6fecd43ef4c6894ea76452c0b7bfad19678f",
+        "anchors.json": "7bf2add5b8806496e4f78d1023d7adba21f5eb096cb4f5734338cda86cc28880",
+        "native-contracts.json": "c76af8bffefa7aaa1f1435ac9617096071ece55cc3f26d484b673eecb2cbb9e6"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "cb682c36bdade2c1c927531a21f458b415ad2c867d73752fd0ece71f96eeff47",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "c6cf40022ec69c7eab74cfe47fa403e97c2314231b0424dd19a4998d7a24b1da",
+        "textures\\roughness.png": "dbad3204027dcc6e28a6d29de988853040753da808f4590e87143b454d9a3444"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\house\\previews\\A4a_healthy_LOD0_blue.png",
+      "preview_sha256": "e60e82520c3003b7551e921ee9204c1d9f9597e99ad5bcbb3cda7baed33cd397",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\house\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\house\\evidence\\acceptance.json"
+    },
+    {
+      "family": "Town Center",
+      "slug": "town_center",
+      "body_keys": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "source_bodies": 4,
+      "source_compositions": 124,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\town_center\\town_center.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\town_center\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "town_center.blend": "02cd968ec422c3111081f25c86459f38ca1e621e76b7bf02c1f527cb23b39e0c",
+        "state-manifest.json": "8749429fe9011b1635ed2227b79924e2a47291af0f4aff44c091457cb3ee252c",
+        "recipe.py": "b5cf386fb26164029339eceb6e5912f62c87f77f803dc1ab262e6aa38af00b04",
+        "anchors.json": "8b417ac45909b82534675340a4ab36b265270b59c3f9ce11b3066bcf672916f5",
+        "native-contracts.json": "a5b99a60435acdda140bef9d31155a1373f7148086cea2179cd63b822595095a"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "cf814e2d8ad95d1d6cee7ed28736d648769e922d17e81dceca4c6730ae45bdd2",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "6f40dc3911e9b9167e3a0f120aad7a6cacf70b030216615b52b367711eab3d26",
+        "textures\\roughness.png": "7798cf74c4553251f8160708d1b208838f661412c64cbc83900bf5c7ea054ee5"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\town_center\\previews\\A4_healthy_LOD0_game_blue.png",
+      "preview_sha256": "2f695f1fb1f3726c5c090a442c06a66eca989330634c0a7f12a91de36bf6f19f",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\town_center\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\town_center\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Mill",
+      "slug": "mill",
+      "body_keys": [
+        "A1"
+      ],
+      "source_bodies": 1,
+      "source_compositions": 31,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mill\\mill.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mill\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "mill.blend": "ec5a7ea9a81a7e92194e0a7721a4b006a6d6fb6868eef70c6a3a0858a7de60a3",
+        "state-manifest.json": "4d9ec00767a8c47a7784dc98bff6d96743d7490425fe159762a5e50227dd8190",
+        "recipe.py": "38828f0cc14e85cc632f9b9173bf55d161498387be48805154ef4bea5408eed2",
+        "anchors.json": "918b6abf4810e0463ab609a00176ac596fcb42244d5d63e4ebc563cb92146e27",
+        "native-contracts.json": "60d26b64b49b3f25b4eab031ee13a8c460082911ea425697d89fd77b688b4dbe"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "3e45eca50a87a3d926e97a8a6549660d58f33d18d28fb3fa97f9f9fd0b2b38a1",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "ef994e527878b76f40be34b0f71e68510043fb52fe18b05f52dec1ec1ccc9a62",
+        "textures\\roughness.png": "823a948786aa82ee8518bf94f7f9df1638f2af7535bf7fb8f5681d77b0e2e493"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mill\\previews\\A1_healthy_LOD0_game_blue.png",
+      "preview_sha256": "a60c1a6ada9d52a8a7ce91614aacf558bc6ce7263a4c9a46ccf384b8cf2565d0",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mill\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mill\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Lumber Camp",
+      "slug": "lumber_camp",
+      "body_keys": [
+        "A1"
+      ],
+      "source_bodies": 1,
+      "source_compositions": 31,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\lumber_camp\\lumber_camp.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\lumber_camp\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "lumber_camp.blend": "1b1c9c4fd8a920730cef8c3d2b2534dfee107a3131945de78b47b435ddbd5adb",
+        "state-manifest.json": "c328b0c7a12f79b24536e7bfdc41e34a2e5fa355246fa1cea1c5b1826555e529",
+        "recipe.py": "9b31e9d8c3cf2d6fff1aad08252859a2f30d8011d66c0faaee1e7037cccdc884",
+        "anchors.json": "60127f279a6e61faf2e220e54041c68620293f43dbd7a928225db39452755e9d",
+        "native-contracts.json": "4c9f6fbc785f5cca110abb98e0d1353913290347b7e44460517531a6f3950408"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "5c0fc80cc4c53261a189e4765f418308e5dbcc1a710dddc171181ba679cbad0a",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "5d2940709f913136824f983880f6b1411fb49676b5effaabd16faccf317925e6",
+        "textures\\roughness.png": "e4bda18a32bee3f05dc77d5ea71a89fce4a6a89dfedea216a03a9e387759e592"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\lumber_camp\\previews\\quick\\A1_healthy_blue.png",
+      "preview_sha256": "3ca0513aca048d31b47b02124d0a67ac2f5c0ad8cf01d2eedd21fb1ce8d48eee",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\lumber_camp\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\lumber_camp\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Mining Camp",
+      "slug": "mining_camp",
+      "body_keys": [
+        "Shared"
+      ],
+      "source_bodies": 1,
+      "source_compositions": 31,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mining_camp\\mining_camp.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mining_camp\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "mining_camp.blend": "d2c36d04b4111eb22fc777fffa720782ac2f127de7bbc1caf524801eff4d9570",
+        "state-manifest.json": "13703ed12a0f7aeb093e18c9d8b67e729a3d277c3911c99aeabba10f034e6ed7",
+        "recipe.py": "7b3afe19912874ed0dca292696e4d19dd2502fd3cf0a5fc13447c8ebb7f41a1a",
+        "anchors.json": "8e18187a3af83cad5bfd3355536b2c45df849d0315c81cfde1f99669384dac82",
+        "native-contracts.json": "45a859179ac979d1f44b23bca5d8fb79cb05a3f9383d7998424e1f138b34bb0f"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "fbfcb3cb4fd47e7b38de418936f699431c2f6f2cf0bfc52e5bb14bbed2de228f",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "d9c25f59b0f64e7241c9dd29ee8cc815983370bff2521fa65d8c8ba5581e04c5",
+        "textures\\roughness.png": "df5b93bf529209ec1b3c777e885f4a5fc18a8c7ecea57e4d791f80faae476462"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mining_camp\\previews\\quick\\Shared_healthy_blue.png",
+      "preview_sha256": "bd03facc798f40b9e1e712a40b4a83e08d9cf0e4e2b383eeaf5d7dddf0ccc9e5",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mining_camp\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mining_camp\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Barracks",
+      "slug": "barracks",
+      "body_keys": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "source_bodies": 4,
+      "source_compositions": 124,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\barracks\\barracks.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\barracks\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "barracks.blend": "969d7f2f9f918659bd33e293f462628b0b9c3821bfdcd223c2a2be70232ede9a",
+        "state-manifest.json": "e7bd068d3600fee8ff2721de876590c612345c4d8b598535b9c24a14cc513d0e",
+        "recipe.py": "bc7e2f6ac376a0d06cada014720265daea13df26692b409b03258f49cb82be05",
+        "anchors.json": "6100fe3b5ce17dbcb0ee4cceea17364a1f3b4bd876ed2b1024f3f3655c5694dd",
+        "native-contracts.json": "2e7a21db9753aa38d89271c919467fbfeda702987b570797e197199f31f7bfce"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "031c9ad1b9feb1914cae037f9615683195f61fd60c5045f19ecc2452d53d0c33",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "dec4b4fc7e11f2a0577e36b5ef997a17ed20a9acab86b3d400c13705cdc68ddf",
+        "textures\\roughness.png": "5bf588b34d3d3d2a7dea8a85dfd9850ce14077a1dd354d226dc213a0e4b42fac"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\barracks\\previews\\quick\\A4_healthy_blue.png",
+      "preview_sha256": "8a657480fc62a9977d56630e53863930341054d65e650e7917b64130c0b0f90c",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\barracks\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\barracks\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Dock",
+      "slug": "dock",
+      "body_keys": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "source_bodies": 3,
+      "source_compositions": 93,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\dock\\dock.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\dock\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "dock.blend": "793a16eee3c17f987e94354364c0fe824e56293681f9f0145a515a704ccd1922",
+        "state-manifest.json": "50d972e7a812517d6bcf0fb9ef6ca67b805648be7ec1d7b8f255869ca460e369",
+        "recipe.py": "7c904c04a09a887cacf06cf4a92983ddf745875f61c1bef5ae517790cb026a2a",
+        "anchors.json": "defeebd7279cdea3ca5e31d3bee7d68c1db7c30e531a1ac2bc833c1986fa9aba",
+        "native-contracts.json": "4daa4887e8a000cc4af62a6c7a63a3f57b3e4e9dbedd0bc3fae1b75b9d9806dd"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "0ee38db02d12a8ea5d5ed83b3ea71342622da77cdb7e502d3b3acbbaa0914539",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "fe8a1aba5c0e11ed95dd8382116241bc5430f6391ef30559ee810cbfcfaf08a4",
+        "textures\\roughness.png": "2a04117464aa41bf06e08c6b31ac6f7fa2870e321cc645fbe311d87b6640a40e"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\dock\\previews\\quick\\A4_healthy_blue.png",
+      "preview_sha256": "2dd6d93f18b955100d3a99f41fee7c9d07542c447238e71f0bb0bddec9e207b9",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\dock\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\dock\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Outpost",
+      "slug": "outpost",
+      "body_keys": [
+        "A1Basic",
+        "A1Fortified"
+      ],
+      "source_bodies": 2,
+      "source_compositions": 62,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\outpost.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "outpost.blend": "86553e402bd17e424343768a857c76469f93e7d61d324c737290b26d09bd73fd",
+        "state-manifest.json": "64473a066963c3d762805d506f516f2f3a52d40992cab713d45aa57eac669f66",
+        "recipe.py": "919e40f25ca2814bdeb2c84a571748703511ff78bd436948cf9f27329d14fbb6",
+        "anchors.json": "6e64f257fc8bcbaa056e7133aac7fc3faf8301366047be6a77f655ece6b7a10a",
+        "native-contracts.json": "3549a57fb9ebdb67627ccf60ce495b689ed4f29f3d0ca37d3d6d49e63c8f7d0e"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "8ff511be81ee04c3594d45a7a5d53056dfbec4f64488cbe96ee718775b23631c",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "4599e5f1bc19c17bbab219b4244f4a5422b483ffafeb76c5f27feb52c19ab8d3",
+        "textures\\roughness.png": "65db029480443a30fa591c247a8c5606a525bd140a83d2e712687a0da58190d1"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\previews\\quick\\A1Fortified_healthy_blue.png",
+      "preview_sha256": "5fe7c4f5d5e69788eeb50bc30001638d82fbcf1170ed66a258bcd309c46ede45",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\README.md",
+      "supplemental_source_artifacts": [
+        {
+          "kind": "Eight legal equipment configurations across all31 source slots",
+          "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\outpost_configurations.blend",
+          "sha256": "a6e03714fa3be25ecb938ed31dc6e4ca1e9d046ad8e10d92bb83f11fbdcd0bce",
+          "configuration_count": 8,
+          "compositions": 248,
+          "manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\configuration-checkpoint.json",
+          "manifest_sha256": "9e4181ba679e6e644dd3941890a3d3e16870c92b98ddb3881c88927b451e4e85",
+          "native_validation": "Deferred; full native gear retained in LODs; exact motion/ratios/markers remain unqualified."
+        }
+      ],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Blacksmith",
+      "slug": "blacksmith",
+      "body_keys": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "source_bodies": 3,
+      "source_compositions": 93,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\blacksmith\\blacksmith.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\blacksmith\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "blacksmith.blend": "c25284e3830e09a271198282274a8c27cb207f506949071af5918d11641bc414",
+        "state-manifest.json": "fea1ed4f37cdae1d839487b8f075377304f50e2b6f4021b6ef7e2d78952e18bd",
+        "recipe.py": "5cf019b93178cef38ce5a0e6c7899c3e3be92cca7d760dc8c45f5c34e6793164",
+        "anchors.json": "4b2c2c331a56efbd8047c5c64dedfdffb1388adafa41ebb7a4ce02ff9b426717",
+        "native-contracts.json": "f25b68e36c34c4abd6956715ffda5d358c07f5363faedad6a31ab7e1ce835ad4"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "bc795ca3eb9d2d517ddaabebbac2062485cea349ddd0d059119a10a8aedf0ca0",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "ab156f9bdae6256bee0f546df30e4cd29b7d3073306552c375e548a7719d72aa",
+        "textures\\roughness.png": "4f1cfb26a28d1967fa25f33ba9735f32c517f94c8d07806ca72e48e6ea98f2f9"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\blacksmith\\previews\\quick\\A4_healthy_blue.png",
+      "preview_sha256": "d12ae9c9815db36df2ebb4db70461a91feacd50f5a9ba6961847c00b88619aba",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\blacksmith\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\blacksmith\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Market",
+      "slug": "market",
+      "body_keys": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "source_bodies": 3,
+      "source_compositions": 93,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\market\\market.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\market\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "market.blend": "dc33e58c3a89ebd6eaff3a831490a1c059edbabe0dd7a1621cefc9e92f336096",
+        "state-manifest.json": "3630c191254ac15522c3b9cb4838bf96f2281ff2a36152f9d4b75083f1c7ff3b",
+        "recipe.py": "11fa75d0bc848946310e97491f812d9cbd7752f5616ce23cb190d61cd5863962",
+        "anchors.json": "f3bf6b19787991d160277763d4f7a58a412956ceab89d6ff13c971bcaf525012",
+        "native-contracts.json": "7317b9abeb25b0e7fd9b1a0ecd52f32d9cc118611ba414cc29c91b501aea6136"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "0d645d0a142adf65e0a8fdff3e61e61d4b5b91202b2cad23192d56808f9166b5",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "40c635b8044dfc6f58b2ad3a86fc80f42927716007ee9f08456dbf2a1b2fa5fc",
+        "textures\\roughness.png": "2a31d8f292d1ab1b0a159d95faeb214a3dd5f07f0840292b6f86a9d34a9b3b07"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\market\\previews\\quick\\A4_healthy_blue.png",
+      "preview_sha256": "a579dfd65d7941c94ef9f1727be31242c464ee7a18c92ccf631f3480e82e5c71",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\market\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\market\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Archery Range",
+      "slug": "archery_range",
+      "body_keys": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "source_bodies": 3,
+      "source_compositions": 93,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\archery_range\\archery_range.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\archery_range\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "archery_range.blend": "f94882713e0102a4f8b74e39cdde920de7c0e8daa148ad29c9301c76492dbe24",
+        "state-manifest.json": "ae442f17671c21c9909c2fa6a39d5cb4b04497d74b735dec461d4cae9233d22f",
+        "recipe.py": "bae9f8a4516959dbfc180a677bbc736d137925f4520617ed7ff0716d0cb64f29",
+        "anchors.json": "538b6bad63b80d40f71a528677091ae619ff3c9b4b33965e3c0ef287b4ddf926",
+        "native-contracts.json": "f3ea57333a307756f86eee68401827653f5ab6df7dc194a9425dba6e688a0ef9"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "03e1be9bd6b211e23d1eaae1479e891c1fd65b7288da17ffd4be03b02332a665",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "d7ef2f46d4f4ad99f1f5ca0f97decce43f2ef9cf65b9007a5237570c9fe96b17",
+        "textures\\roughness.png": "482988f26ae7a35c491a78902e92d22f1e4aca0675226abcb08862fe84276818"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\archery_range\\previews\\quick\\A4_healthy_blue.png",
+      "preview_sha256": "709df3d3c005002b1ef6d46e9874616c5935f20815cc0dccea8f04fec8db9c26",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\archery_range\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\archery_range\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Stable",
+      "slug": "stable",
+      "body_keys": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "source_bodies": 3,
+      "source_compositions": 93,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\stable\\stable.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\stable\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "stable.blend": "2b68f4fd6cddea2111ad4cf3eb16cf0730171bfb37a2372cd6ce3174f7585219",
+        "state-manifest.json": "3a07f2a761e65ec2af75dd6574719a7dd282d6bc956bb43e0038cce70d9942fe",
+        "recipe.py": "e043df23f576e4b5a997def5f6513e9d35803ad801b41b50f775be8cbdc12199",
+        "anchors.json": "2d83b129852021a5cc6c92ba5a6a3ece7eb93d8032e18a4e8b3d3d44a6d71899",
+        "native-contracts.json": "2dc11239de895e1761717f34222fe59a79c2655e32633211301e89607602e1aa"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "f9e62589ac71220cec18b7299ea77e6233a76b43d05a748a9ff463c853ab5327",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "15a1a34cdb7a8a6caf0c74121a6118fa34e32a7245ec36cebb7d9b9c0fa75784",
+        "textures\\roughness.png": "25ca0ef8e3c3a7f827b230ee430e417d95cb2dc0101161c5d836853f5a76b1b8"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\stable\\previews\\quick\\A4_healthy_blue.png",
+      "preview_sha256": "b221d2ed0ef49fdf4a8b2899d7af9f53fc3fdeb8abf7fc6a563e36e87e118861",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\stable\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\stable\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Mosque",
+      "slug": "mosque",
+      "body_keys": [
+        "A3",
+        "A4"
+      ],
+      "source_bodies": 2,
+      "source_compositions": 62,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mosque\\mosque.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mosque\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "mosque.blend": "1dd38d15697fe779430fb0cb84565eaee5e7904d100b0e7651ff3beae7edf0fe",
+        "state-manifest.json": "0fd46a1504523df004e420fa9d7434ba6b3f7abc513e6f9138e373a1b51cbb91",
+        "recipe.py": "a3e6401beb66dfc75d34103909e35b40399972295b9273260ed3bc32bce3a3ff",
+        "anchors.json": "72b2699324062a1278dddda923fdeb73dd3565ec222cade46b7f0d08772cdede",
+        "native-contracts.json": "b45ed51e726d7df066e11675582e28fd85c60bb15f59d7e7aa183897da04a0cc"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "50665c87fe5a3510b605019e130867bb6d990f60abb94c6f81d7ee1c8630a726",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "31261b510797dddf82300e8dbddbc888138eac0c3eef5bb8207e4545593cb41f",
+        "textures\\roughness.png": "a36e14dc7dfcf3d4b6bf041a0870b50b767cb7440dfa7d575a681d58ea932e3c"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mosque\\previews\\quick\\A4_healthy_blue.png",
+      "preview_sha256": "25ded5f34b610bf6ca94493c82b5306badb0f996b2911c4896ad63110c958a9e",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mosque\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\mosque\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Siege Workshop",
+      "slug": "siege_workshop",
+      "body_keys": [
+        "A3",
+        "A4"
+      ],
+      "source_bodies": 2,
+      "source_compositions": 62,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\siege_workshop\\siege_workshop.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\siege_workshop\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "siege_workshop.blend": "0d97b2eece860bedc8c795e9ca828ac004373d02d2346c1a0c81c59ce21a1ebd",
+        "state-manifest.json": "896d44e7009dbaeeb73a069000d95fb2bae2ca9ff580bad8a22ef74bbe20d3c5",
+        "recipe.py": "1b3cc04c9441fd4031daf997b13a31c5d7cc2b529e646a1a731989709d986477",
+        "anchors.json": "be3107b27506a24051d90c54114879784721a44bbf0343631824e3e728ba75f9",
+        "native-contracts.json": "53bb96e37d4da5e1ecfc5f14ba8ab8fbae93df8d3f80be5a52d9e9ea39c2d9b5"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "5caa98ca9bde508932403a00c0b558e12f5312bfd5582a0d33db343a477c63a3",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "69da539e19b24ce37bb3423aa9e3b55e8213c66ad3c5e5508eaaaffdef7743b2",
+        "textures\\roughness.png": "f2d0d5a38816f61c8881dab9659ba5cfa435fdae03809fb8806e2ce57a7aae70"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\siege_workshop\\previews\\quick\\A4_healthy_blue.png",
+      "preview_sha256": "a6b12c1359ea1a0130c16f42414ac4ce5a13db6396948e20d1101a3dae67a622",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\siege_workshop\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\siege_workshop\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Keep",
+      "slug": "keep",
+      "body_keys": [
+        "A3"
+      ],
+      "source_bodies": 1,
+      "source_compositions": 31,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\keep\\keep.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\keep\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "keep.blend": "c92396b7fb6323ce90532f02f8d66685fe788d14a032fd79c20145ccadbc15ad",
+        "state-manifest.json": "4a0eeec8c221894dbdb124556fb110cc589b3783c93f82d62774290cb548bc51",
+        "recipe.py": "de48958aa927f72b240f75f07cb46bb9de1fc2809a9d5fb34f96dde19983adff",
+        "anchors.json": "b27d8d2d5c02c0dfc27ae1dd2928f6164ffc21bb469438d8080dfdf4da7d6d38",
+        "native-contracts.json": "cf02e0832d09bd7fdf93623ef4e142f79b6c2fb27613e0c798497a3661209571"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "0894807549d69de5f1018e7381a26e5d5659a2c155383bf3475f4fe5536e7639",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "aeed5734c332934c3682c3babefb4cff103ac8f02ed35750419f0b6e153d88bd",
+        "textures\\roughness.png": "e6909fa25bcf39fae4cb2b43f5e0eabe850c9abf42035b16317966723ece094b"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\keep\\previews\\quick\\A3_healthy_blue.png",
+      "preview_sha256": "86e329537756057cf9ce3d4c1130ffb1812c8a71d073b6358c621e0fe07ac215",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\keep\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\keep\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Madrasa",
+      "slug": "madrasa",
+      "body_keys": [
+        "A4"
+      ],
+      "source_bodies": 1,
+      "source_compositions": 31,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\madrasa\\madrasa.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\madrasa\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "madrasa.blend": "6198f5b015295cad3b0a7bc322a1fc944a713bc505fa066ff23813c8eddb8774",
+        "state-manifest.json": "dc4767010e3005921497b6f698b862a125040381eed8bc12ba51667e12898416",
+        "recipe.py": "ff31bceffd3a7304c5e639aee477b7b99113a8c7a7e403c87a41edff575eb5d3",
+        "anchors.json": "57466aef9945db56257b4526efcbf5eaecdfc6bfedec4db0e47b76f4be08c94e",
+        "native-contracts.json": "fadc45cffba5ebbff1e274c009e84f52c16747b6548193b64e99bc8b9e3e41f8"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "7ad32a0617af8786b6c235dab7ac3334ed91337e9084f0e34b47a9350cf18ba2",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "914c09553f1b9ad9b6ad282a7d9063e1c2c09bad10ca1fdd2c900fd7d4b124fc",
+        "textures\\roughness.png": "d34e4d1bad7e346b54c9982ecb15d3cd5fd6ce05d57d68156a41c33d29187714"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\madrasa\\previews\\quick\\A4_healthy_blue.png",
+      "preview_sha256": "c88e8110c330be6d4ea048bb7570bfb809f95040be455ea5b542a65a2850575a",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\madrasa\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\madrasa\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Divan of Commerce",
+      "slug": "divan_commerce",
+      "body_keys": [
+        "A1"
+      ],
+      "source_bodies": 1,
+      "source_compositions": 31,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\divan_commerce\\divan_commerce.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\divan_commerce\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "divan_commerce.blend": "b9aa9ce7fd8abeb10ee21bb1cf3b2a367cf867ba02e247131936fca3b4de4f0a",
+        "state-manifest.json": "445e8381470f00082b45ff9f1565184a46e4770d79e005d5f07e80081ed4f222",
+        "recipe.py": "c64974fd5d438d0a03a35ce8437c1558c76da85a0d034f3f96dde1c6d8cea1e2",
+        "anchors.json": "79875893ec4fd02902e2191962f68c3aa3fe1c1ff6f0f6361c43f87b6949bc01",
+        "native-contracts.json": "ff50ae6d379ada8c690cf7b9ce07868194c715fc528e84eea6d131fcec62bd47"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "94a85c981ca85bcb939ed6b4466363f051b7071b22963828f20940e1432a7b20",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "8587727f3a1bf8f85597885dd4e56ebea40b510c8195efe201173d19df88ea1b",
+        "textures\\roughness.png": "801679d4857e1c31bef709842eddd413187df3467e7a64ddedfb9abb7075eb07"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\divan_commerce\\previews\\quick\\A1_healthy_blue.png",
+      "preview_sha256": "f8176e895cfb728b748cc2cc0af9808d13f8e8a5ae96df08ef6ab636d435d8df",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\divan_commerce\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\divan_commerce\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Divan of War",
+      "slug": "divan_war",
+      "body_keys": [
+        "A4",
+        "A3"
+      ],
+      "source_bodies": 2,
+      "source_compositions": 62,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\divan_war\\divan_war.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\divan_war\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "divan_war.blend": "5280e384ec5954869e451ea657395c2009e7a1f97a4eedf303bd9005eb088ada",
+        "state-manifest.json": "60a28713d1e4223039184a9e3e9d4235ff9dffbaed5d62bdfc5c6435f294ded7",
+        "recipe.py": "0551e2c140545cfc89c7b31fa4d088048a65723ee6f1ca4fb9a6436c0803ff16",
+        "anchors.json": "ff3527313ef76847b42cf5c439e43cbe5ffe225ca694ad350b75d659a6a9cc05",
+        "native-contracts.json": "bcc5094c93299426e836ac70b347b0ba6247c30fbaf8bf45cadda58a040866b6"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "97d97dbc34d31d7410aca088824b0c16807818a5ad7b55aef9f95414894ee1c2",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "c0bf3886824dd4a748f56bfc4902dd32ccfc734c1e4f1ee4e37974eb4be9585f",
+        "textures\\roughness.png": "1b58f281033f21793183335b39c093252731617d8d889ed8c483d935a42c8ee5"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\divan_war\\previews\\quick\\A3_healthy_blue.png",
+      "preview_sha256": "8f835290c4fc3aaaf88c6946232181eee3d4dcad8fec749b0e0601e48a7f3187",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\divan_war\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\divan_war\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Caravanserai",
+      "slug": "caravanserai",
+      "body_keys": [
+        "A2"
+      ],
+      "source_bodies": 1,
+      "source_compositions": 31,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\caravanserai\\caravanserai.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\caravanserai\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "caravanserai.blend": "a31bd5cc0770adf7e4bb9f83b7ca9f77c32ce9a25f3f7f7d19c870f578e33f10",
+        "state-manifest.json": "6825d1f51178a1282d48d196eef7255df0fa97082e1749c0bffdb4e669c64243",
+        "recipe.py": "52c773e2cc55ebc3799d2dff9fc6ed7d110cfeef2e92e6a0b542ace1de50b181",
+        "anchors.json": "a46e3b7010bf26661b08c39a2a044cc2630f76400b796f9fbdad65f1e951a3da",
+        "native-contracts.json": "6a537331711bef54650156dd5d9909295d6ab1eadfede90c4e8165c0e25da590"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "9ef41b2f0ac7d1eb5d2a87c456eba805deffa20b4586e9276f8b3671cfdadcfc",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+        "textures\\owner_mask.png": "7600cdc60906439a12bbdee8be3496ef692112515b5a7d1f136d41b48b82e997",
+        "textures\\roughness.png": "aaed9d389b6bf599eb6f0ad996b8b94f524d12358b572e1bc76c76555062f14a"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\caravanserai\\previews\\quick\\A2_healthy_blue.png",
+      "preview_sha256": "15c54853ef07625acd76038622a003fcb59415b98d26296c98322bba45032746",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\caravanserai\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\caravanserai\\evidence\\quick-visual-review.json"
+    },
+    {
+      "family": "Shah Masjid",
+      "slug": "shah_masjid",
+      "body_keys": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "source_bodies": 4,
+      "source_compositions": 124,
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\shah_masjid\\shah_masjid.blend",
+      "state_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\shah_masjid\\state-manifest.json",
+      "consumer_variant_tier_configuration_mapping": "native-contracts.json + state-manifest.json; no invented gameplay tiers",
+      "source_files_sha256": {
+        "shah_masjid.blend": "a4533743c3aff210379bdbac73af02e19a373631092d09fad644d6b0552168df",
+        "state-manifest.json": "aea50083f3e2a25ca3db2649e03f8b12504b0fff11893d2ce38b4c3e9b3409eb",
+        "recipe.py": "50c98dd795ad560dc810b1968804627b39f2bb3d7d7bd97ebf3b0f72248d4fd7",
+        "anchors.json": "34b070abdcae8f568c2bc1b5fc4872514054e4340a8a03d40c0a690df06e2387",
+        "native-contracts.json": "fcda4a164f94b542ae9e23c84e4211c7c6390d73999cace3a7f6b72993119c49"
+      },
+      "original_family_texture_sha256": {
+        "textures\\albedo.png": "fbe01c9f1eebb919deff5648351707e8734fb69668e0c441e2ded22cbf576d00",
+        "textures\\metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+        "textures\\normal.png": "206cd641a6dcdbca1445ae425f20234d9788004a64876e066554f105d3cdc123",
+        "textures\\owner_mask.png": "1ce4c23b5f2a66f18d648dda6bc8c1ebb22a406c55c65ae2d00ad9c7e0c21774",
+        "textures\\roughness.png": "5169715f2cde18788002fd02c1a0c61e8042d53b5f23932fbf4b3d3d30072e33"
+      },
+      "preview": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\shah_masjid\\previews\\quick\\A4_healthy_blue.png",
+      "preview_sha256": "febd8b7546a7525a2eedf652d130c2d86cf752f82c91b3cfef886b3fac0b19f2",
+      "editing_instructions": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\shah_masjid\\README.md",
+      "supplemental_source_artifacts": [],
+      "native_dependencies": "native-contracts.json plus family retained_input_paths and inspectable mechanism libraries",
+      "review_receipt": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\shah_masjid\\evidence\\quick-visual-review.json"
+    }
+  ],
+  "roster_contact_sheet": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\persia_building_roster.png",
+  "roster_sha256": "99951084d84457700f04333cf56c1c5edf10cacc88fe6510af8d3c3d650998b7",
+  "ledger": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\COMPLETION_LEDGER.md",
+  "preservation": "Permanent mod/gameplay/releases/six age-up landmarks unchanged; task owns only the existing temporary source tree",
+  "deferred": [
+    "exhaustive source audits",
+    "exact compound/attachment closure where still open",
+    "native Garrison export/cook/activation",
+    "native team colour",
+    "construction/weapon/destruction/repair playback",
+    "package/import",
+    "multiplayer",
+    "version changes",
+    "promotion",
+    "push",
+    "cleanup"
+  ]
+}

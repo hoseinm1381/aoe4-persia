@@ -1,0 +1,241 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "divan_commerce",
+  "authored_frame": "Projected stamp-space exactly as original recipe ANCHORS; apply the recorded native inverse once after all source states",
+  "native_hp_thresholds": null,
+  "resource_age_is_not_gameplay_availability": true,
+  "source_art_only": true,
+  "review_status": "Unreviewed structural draft; this worker has not executed Blender or generated acceptance evidence",
+  "recipe_sha256_at_profile_draft": "2b1d15b86af50b99b2a26805f089082580a7de4ab1cd8f0cb3742de4014b9d88",
+  "profile_basis": "Exact existing body keys, current recipe structural groups/roof and bearing levels; authored failure proposals do not wire native states or thresholds",
+  "lod_support_policy": "Keep roofs, load-bearing posts/beams/joists, floors, stairs, ledgers and access. Explicit omissions select complete loose props or every member of a named furniture assembly, not isolated support legs. Half/quarter targets still need actual measured authored reductions and visual review.",
+  "native_dependencies_policy": "Never Boolean-cut or decimate retained native mechanisms. Existing rig/graph/pose/socket owners and native states remain separately inspectable dependencies; absent dependency geometry is not zero compound overhead.",
+  "compound_budget_qualified": false,
+  "bodies": {
+    "A1": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -6.6,
+          -6.0,
+          -0.06
+        ],
+        [
+          6.5,
+          6.5,
+          5.5
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "document_delivery"
+        ],
+        "corner_plus_x_front_y": [
+          6.13,
+          -2.33,
+          3.0
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "document_delivery": 0.85,
+          "public_clerks_porch": 0.85,
+          "clerks_range": 1.3,
+          "protected_archive": 1.55,
+          "public_gate": 0.75,
+          "records_work": 0.6
+        },
+        "debris_area_xy": [
+          [
+            4.2,
+            -1.9
+          ],
+          [
+            5.8,
+            -1.1
+          ]
+        ],
+        "debris_ground_z": 0.24
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "clerks_range": 1.2,
+          "protected_archive": 1.4
+        },
+        "remove_groups": [
+          "document_delivery",
+          "public_clerks_porch",
+          "public_gate"
+        ],
+        "debris_area_xy": [
+          [
+            -5.45,
+            -3.8
+          ],
+          [
+            2.4,
+            -0.4
+          ]
+        ],
+        "debris_ground_z": 0.21,
+        "debris_count": 100,
+        "fallen_members": [
+          {
+            "a": [
+              -2.625,
+              -2.406,
+              0.29
+            ],
+            "b": [
+              -0.42500000000000004,
+              -1.794,
+              0.29
+            ],
+            "width": 0.16,
+            "source_group": "public_clerks_porch",
+            "grounding_basis": "Horizontal original member fragment; bottom rests on the named surviving source surface, not a native height claim"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              -1.3750000000000002,
+              -1.7000000000000002,
+              0.28
+            ],
+            "size": [
+              1.25,
+              0.7,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "clerks_range",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "CivilOfficeEarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "SealedDocumentBundle",
+          "MeasurementWeight"
+        ],
+        "2": [
+          "SealedDocumentBundle",
+          "MeasurementWeight",
+          "ArchiveChest",
+          "AssessmentDesk",
+          "DeliveryWeightsTable"
+        ]
+      },
+      "structural_notes": [
+        "Only resource A1 is present; administrative availability is unchanged, never inferred from resource label.",
+        "Delivery notch starts at actual canopy roof corner and front bearing-beam end; posts, both beams, roof and contextual props have the complete document_delivery/records_work heavy-failure coverage.",
+        "Damage debris rests on delivery floor .24 clear of the weights table; ruins rest on PublicAssessmentCourt .21 south of the higher clerks porch floor.",
+        "Broad clerks masonry and taller archive collapse to low supported remnants; no independent flue, talar, minaret or invented royal room is introduced."
+      ],
+      "analytical_cut_check": {
+        "method": "Exact union of the three rectangular cutter lobes intersected with one actual solid masonry/bearing witness part; not Blender Boolean/state acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            3.2,
+            -2.27,
+            2.64
+          ],
+          [
+            6.1,
+            -2.05,
+            2.82
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.0006309413999999975,
+          0.007502512895999984,
+          0.020987359999999976,
+          0.03849119999999996
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_divan_economy_persia",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_quwwat_ul_islam_sul/landmark_quwwat_ul_islam_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_wonder_quwwat_ul_islam.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_divan_economy_persia",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_quwwat_ul_islam_sul/landmark_quwwat_ul_islam_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_wonder_quwwat_ul_islam.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_divan_economy_persia",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_quwwat_ul_islam_sul/landmark_quwwat_ul_islam_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_wonder_quwwat_ul_islam.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_divan_economy_persia",
+          "variant": "hre_brawl",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_quwwat_ul_islam_sul/landmark_quwwat_ul_islam_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_wonder_quwwat_ul_islam.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_divan_economy_persia",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_quwwat_ul_islam_sul/landmark_quwwat_ul_islam_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_wonder_quwwat_ul_islam.bin",
+          "stamp_instance_index": 0
+        }
+      ]
+    }
+  },
+  "visual_envelope_evidence": "evidence/visual-envelope-contract.json",
+  "verified_envelope_overrides_enabled": false,
+  "envelope_policy": "No conditional possible/category union is enabled as a verified override; strict primary envelope remains until selective source-join and native prop state/activation proof is supplied.",
+  "lod_source_policy": {
+    "source": "lods.py",
+    "target_ratios": [
+      0.5,
+      0.25
+    ],
+    "tolerance_unchanged": 0.1,
+    "generated_acceptance": false,
+    "Blender_executed_by_this_author": false,
+    "method": "Constant-section surviving profile sampling; exact closed orthogonal-member boundary; actual surviving support unions; retained native inputs untouched; no healthy state reconstruction.",
+    "damage_policy": "Sharp jamb/breach/seat corners and profile extrema retained; irregular fractured surfaces use planar-only dissolve, never filled by a healthy bay.",
+    "source_recipe_sha256_after_hook": "c64974fd5d438d0a03a35ce8437c1558c76da85a0d034f3f96dde1c6d8cea1e2",
+    "lods_sha256": "1a5cdc1580960300b9c9bd6fcd1c5db5a0305184153ecafb0142ffa5bd99cef8"
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "caravanserai",
+  "authored_frame": "measured native stamp-space before inverse resource projection",
+  "native_hp_thresholds": null,
+  "native_state_wiring": "preserved external contract; ordinal authored damage compositions only",
+  "profile_provenance": {
+    "recipe_sha256": "52c773e2cc55ebc3799d2dff9fc6ed7d110cfeef2e92e6a0b542ace1de50b181",
+    "primary_body_handoff_sha256": "7a7cdd02672ee35884f0c40b6a3131dc0cd3fdbec9fa6bc5bfca07bcecb58f80",
+    "reviewed_against": "actual recipe tags/geometry formulas, current family_states.py and state_geometry.py; no Blender execution",
+    "state_adapter_snapshot_sha256": "d5078dc52da7699ff64d153bcf13c344c33b9338046f76808c3ea31f472c437a",
+    "state_geometry_snapshot_sha256": "f50a85ce85c6d863efd10305ce95a3ac1da20c3bdaaa8c3534c72ca67f7fee90",
+    "native_dependency_policy": "retained native rigs/graphs/markers/conditional attachments stay outside scratch fracture; no new motion, HP values or gameplay tier",
+    "status": "source-reviewed draft; Boolean topology, support after fracture, normal/UV seams and game-camera progression require generated review",
+    "read_only_verification": "All exact body/group/native identities, real support-plane scatter corners/fallen-piece vertices, progressive positive cutter-box overlaps and targeting exclusions checked offline.",
+    "family_lod_module_sha256": "c52667c393e0916a06085a981afaabe1b3697ffc2e5ef17862d152ab98a955e6",
+    "family_lod_verification": "Offline actual geometry formulas: healthy closed raw edge incidence, bounds, existing scalar contacts, unique source identities;7 missing/altered-part anti-healing cases. Actual BMesh dissolve/Boolean/triangulated readback/cold scenes remain parent gates.",
+    "lod_source_status": "Source formula-checked; pending parent serial generation and critique",
+    "quick_completion_boundary": "Owner steering: finish current20-family source batch promptly, one visual review/family; retain actual ratio errors and unchecked gates. No tolerance weakening or acceptance inference."
+  },
+  "adapter_requirements": [],
+  "bodies": {
+    "A2": {
+      "review_status": "recipe-reviewed coordinates/groups; actual generated damage/ruins/LODs uninspected",
+      "native_body_identity": {
+        "model": "art/civilizations/sultanate/structures/wonder_siri_fort/sul_siri_fort_control_age02/sul_siri_fort_control_age02.rgm",
+        "native_model_sha256": "98683e1379db605926685c464b80fb8a4c4f5a1698062ec2b061ebbb4f7107d0",
+        "native_geometry_sha256": "24dadd1b98a49446e73d035d1b69a1de332ac7de39fa76667d1f04e70289f4d0"
+      },
+      "resource_age_label_qualification": "exact existing native body; no added tier",
+      "damage": {
+        "groups": [
+          "EastGuest0"
+        ],
+        "corner_plus_x_front_y": [
+          5.5,
+          -3.65,
+          2.83
+        ],
+        "notch_extents": [
+          0.28,
+          0.48,
+          0.82,
+          1.12
+        ],
+        "heavy_failure_group_caps": {
+          "EastGuest0": 1.08,
+          "EastGuest1": 1.88,
+          "EastGuest2": 2.08,
+          "WestGuest0": 2.28,
+          "WestGuest1": 2.38,
+          "WestGuest2": 2.28,
+          "stable_service": 1.88,
+          "gate": 2.48,
+          "outer_enclosure": 1.48,
+          "owner": 0.08
+        },
+        "debris_area_xy": [
+          [
+            3.44,
+            -3.48
+          ],
+          [
+            3.86,
+            -1.72
+          ]
+        ],
+        "debris_ground_z": 0.33,
+        "failure_programme": "Southeast lodging-vault spring/corner breach, then asymmetric loss of occupied lodging/service roofs; preserve the modest through-gate and unloading court.",
+        "progression_review": [
+          "1: guest-room vault spring/outer wall spall",
+          "2: larger irregular masonry exposure at same lodging corner",
+          "3: real opened vault quarter, not painted soot",
+          "4: enlarged nested vault/outer-wall breach; inspect whether the neighboring room remains closed and supported",
+          "5: several lodging roofs and stable roof are gone at unequal wall heights; through-gate piers still explain a secure inn"
+        ],
+        "debris_grounding_basis": "Scatter on retained raised EastGuestWalk top .33, not on .08 soil underneath it; area lies wholly within walk X3.40..3.90/Y-3.65..2.65.",
+        "support_review": "guest_access remains intact; guest plinth/floor parts below heavy caps remain grounded. Owner support/textile is removed when the gate top fails."
+      },
+      "ruins": {
+        "default_cap": 1.18,
+        "group_caps": {
+          "EastGuest0": 0.88,
+          "EastGuest1": 1.08,
+          "EastGuest2": 1.28,
+          "WestGuest0": 1.18,
+          "WestGuest1": 1.38,
+          "WestGuest2": 1.18,
+          "stable_service": 1.28,
+          "gate": 1.68,
+          "outer_enclosure": 0.88
+        },
+        "remove_groups": [],
+        "preserve_intact_groups": [
+          "guest_access"
+        ],
+        "debris_area_xy": [
+          [
+            -2.95,
+            -3.85
+          ],
+          [
+            2.95,
+            2.15
+          ]
+        ],
+        "debris_ground_z": 0.08,
+        "debris_count": 72,
+        "fallen_members": [
+          {
+            "a": [
+              1.8,
+              -3.82,
+              0.12
+            ],
+            "b": [
+              3.0,
+              -3.47,
+              0.12
+            ],
+            "width": 0.08,
+            "surface": "timber",
+            "source_group": "owner",
+            "grounding_basis": "horizontal member lower face at authored support Z=0.08"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              2.0,
+              -1.9,
+              0.16
+            ],
+            "size": [
+              1.1,
+              0.65,
+              0.16
+            ],
+            "rotation": -0.28,
+            "surface": "brick",
+            "source_group": "EastGuest0",
+            "grounding_basis": "horizontal fragment bottom at authored support Z=0.08"
+          },
+          {
+            "center": [
+              -1.65,
+              1.2,
+              0.17
+            ],
+            "size": [
+              1.6,
+              0.8,
+              0.18
+            ],
+            "rotation": 0.21,
+            "surface": "roof",
+            "source_group": "stable_service",
+            "grounding_basis": "horizontal fragment bottom at authored support Z=0.08"
+          }
+        ],
+        "composition_review": "One unloading court, six uneven lodging/plinth traces, stronger stable-service rear band and single gate remnant; no landmark tower or palace-garden rubble scheme.",
+        "grounding_review": "General rubble/fallen pieces bottom .08 inside low open court X\u00b12.95, away from raised guest walks X\u00b13.40..3.90. Fallen timber is original owner support; masonry pieces represent the lost vault/service roof."
+      },
+      "targeting_omit_name_fragments": [
+        "EarthBed",
+        "EntryTraffic",
+        "StableApproachWear"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "EntryTraffic",
+          "StableApproachWear"
+        ],
+        "2": [
+          "EntryTraffic",
+          "StableApproachWear",
+          "ServiceJar",
+          "TravelerChest"
+        ]
+      },
+      "lod_design_notes": {
+        "implementation": "recipe.build_lod hook delegates to family lods.py; source draft, not generated acceptance",
+        "target_ratios": [
+          0.5,
+          0.25
+        ],
+        "actual_ratios": "Unverified: offline formula counts are not triangulated Blender/readback results. Existing low-poly walls/supports set a floor; no LOD0 inflation, opening loss, damaged-mesh reconstruction or cap/tolerance relaxation used to force .25.",
+        "authored_proxy_policy": [
+          "All six guest openings, two stable passages and one through-gate stay separately readable; raised walk/plinth/threshold support hierarchy remains.",
+          "Only exact unchanged lodging vaults rebuild to10/4 arch segments and one longitudinal span; their closing gables use matching profiles. Actual damaged shells retain fracture boundaries and exposed-core UVs.",
+          "Arched walls8/4 keep their original clear opening dimensions and bearings, without joining rooms across courtyard passages.",
+          "Only a complete intact trough base+four walls may become the exact closed hollow union; the water patch stays separate. Missing walls disable reconstruction.",
+          "Grounded service jar reduces to10/6 sides when intact; optional complete small chests/jar are omitted by distance profile before architecture."
+        ],
+        "source_survival_guard": "Exact float-hex world-coordinate polygon fingerprint of original source; any internal alteration disables analytic healthy reconstruction even when outer AABB is unchanged. Retained native dependencies are cloned unchanged.",
+        "offline_formula_triangles": {
+          "LOD0": 5048,
+          "LOD1": 2584,
+          "LOD2": 1736
+        },
+        "offline_formula_ratios": [
+          0.5118858954041204,
+          0.3438985736925515
+        ],
+        "remaining_gates": [
+          "Real healthy and all surviving state/ruin topology/normal/UV/contact checks",
+          "Actual state-specific triangle ratios; no distance qualification inferred",
+          "Six-direction game-camera review, saved/cold scene readback and native full-compound clearance"
+        ],
+        "parent_baseline_error_types": {
+          "lod_needs_authored_reduction_or_readability_repair": 11
+        },
+        "parent_baseline_report": "evidence/full-source-checks.json; predates final Caravan far-profile4-segment update"
+      },
+      "group_evidence": {
+        "EastGuest0": {
+          "source_part_count": 12,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              3.86,
+              -3.65,
+              0.08
+            ],
+            [
+              5.54,
+              -1.55,
+              3.28
+            ]
+          ]
+        },
+        "EastGuest1": {
+          "source_part_count": 12,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              3.86,
+              -1.55,
+              0.08
+            ],
+            [
+              5.54,
+              0.55,
+              3.28
+            ]
+          ]
+        },
+        "EastGuest2": {
+          "source_part_count": 12,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              3.86,
+              0.55,
+              0.08
+            ],
+            [
+              5.54,
+              2.65,
+              3.28
+            ]
+          ]
+        },
+        "WestGuest0": {
+          "source_part_count": 12,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -5.54,
+              -3.65,
+              0.08
+            ],
+            [
+              -3.86,
+              -1.55,
+              3.28
+            ]
+          ]
+        },
+        "WestGuest1": {
+          "source_part_count": 12,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -5.54,
+              -1.55,
+              0.08
+            ],
+            [
+              -3.86,
+              0.55,
+              3.28
+            ]
+          ]
+        },
+        "WestGuest2": {
+          "source_part_count": 12,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -5.54,
+              0.55,
+              0.08
+            ],
+            [
+              -3.86,
+              2.65,
+              3.28
+            ]
+          ]
+        },
+        "gate": {
+          "source_part_count": 7,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -1.3,
+              -5.2,
+              0.08
+            ],
+            [
+              1.3,
+              -4.1,
+              3.91
+            ]
+          ]
+        },
+        "guest_access": {
+          "source_part_count": 4,
+          "roles": [
+            "architecture"
+          ],
+          "source_bounds": [
+            [
+              -3.9,
+              -3.65,
+              0.08
+            ],
+            [
+              3.9,
+              2.65,
+              0.33
+            ]
+          ]
+        },
+        "outer_enclosure": {
+          "source_part_count": 4,
+          "roles": [
+            "architecture"
+          ],
+          "source_bounds": [
+            [
+              -5.5,
+              -4.8,
+              0.08
+            ],
+            [
+              5.5,
+              -3.65,
+              2.43
+            ]
+          ]
+        },
+        "owner": {
+          "source_part_count": 2,
+          "roles": [
+            "fittings",
+            "owner"
+          ],
+          "source_bounds": [
+            [
+              -0.64,
+              -5.2825,
+              2.61
+            ],
+            [
+              0.64,
+              -5.19,
+              3.07
+            ]
+          ]
+        },
+        "stable_service": {
+          "source_part_count": 12,
+          "roles": [
+            "architecture",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -5.5,
+              2.65,
+              0.08
+            ],
+            [
+              5.5,
+              4.65,
+              2.93
+            ]
+          ]
+        }
+      },
+      "corner_review": [
+        {
+          "authored_level": 1,
+          "aabb_candidate_parts": [
+            "PSB_caravanserai_A2_EastGuest0_Back",
+            "PSB_caravanserai_A2_EastGuest0_Side1",
+            "PSB_caravanserai_A2_EastGuest0_Vault",
+            "PSB_caravanserai_A2_EastGuest0_VaultEnd1"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 2,
+          "aabb_candidate_parts": [
+            "PSB_caravanserai_A2_EastGuest0_Back",
+            "PSB_caravanserai_A2_EastGuest0_Side1",
+            "PSB_caravanserai_A2_EastGuest0_Vault",
+            "PSB_caravanserai_A2_EastGuest0_VaultEnd1"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 3,
+          "aabb_candidate_parts": [
+            "PSB_caravanserai_A2_EastGuest0_Back",
+            "PSB_caravanserai_A2_EastGuest0_Side1",
+            "PSB_caravanserai_A2_EastGuest0_Vault",
+            "PSB_caravanserai_A2_EastGuest0_VaultEnd1"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 4,
+          "aabb_candidate_parts": [
+            "PSB_caravanserai_A2_EastGuest0_Back",
+            "PSB_caravanserai_A2_EastGuest0_Side1",
+            "PSB_caravanserai_A2_EastGuest0_Vault",
+            "PSB_caravanserai_A2_EastGuest0_VaultEnd1"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        }
+      ]
+    }
+  }
+}

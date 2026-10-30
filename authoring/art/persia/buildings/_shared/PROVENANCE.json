@@ -1,0 +1,21 @@
+{
+  "basis": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\grand_caravanserai",
+  "inputs": {
+    "asset_runner.py": "ee87412d6159d156271ca03651facedaeb2dbebb963b5879ed40cb15754e76fc",
+    "make_atlas.py": "7078b305639dad0ed9c0474182578113248471d65ec0a574afb646ac49e4f767"
+  },
+  "purpose": "Reused generic mesh/material/atlas helper methods only; building architecture is authored in family recipes. Original source files remain unchanged.",
+  "changes": [
+    "Parameterize family path, prefix and scene",
+    "Replace fixed landmark-specific metadata",
+    "Tile-local normal generation bounds peak memory"
+  ],
+  "new_task_helpers": {
+    "state_geometry.py": "Independent reusable closed-solid fracture/LOD operations adapted from the House pilot; no landmark architecture or asset pixels copied",
+    "family_states.py": "Family-profile state composition orchestration; no native thresholds or new animation",
+    "build_healthy.py": "Factory-only guarded healthy checkpoints; no family acceptance",
+    "render_family.py": "Read-only source cameras/RGB inspection with saved-master hash guard",
+    "mesh_checks.py": "Actual mesh, UV, winding, contact and envelope checks",
+    "prepare_family_contracts.py": "Compact copied native evidence, not gameplay edits"
+  }
+}

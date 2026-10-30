@@ -1,0 +1,317 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "archery_range",
+  "source_art_only": true,
+  "native_hp_thresholds": null,
+  "authored_frame": "Current recipe stamp-space, before the recorded exact native inverse",
+  "recipe_sha256_at_profile_draft": "1ddfecf9865444fc841e0cdc8e77432a78900caf7af2be19d1712dc538d8860f",
+  "bodies": {
+    "A2": {
+      "native_hp_thresholds": null,
+      "review_status": "Exact recipe-specific failure proposal; actual generation and visual review required",
+      "damage": {
+        "groups": [
+          "EquipmentStore"
+        ],
+        "corner_plus_x_front_y": [
+          1.35,
+          0.8,
+          2.97
+        ],
+        "notch_extents": [
+          0.28,
+          0.48,
+          0.79,
+          1.14
+        ],
+        "heavy_failure_group_caps": {
+          "EquipmentStore": 1.16,
+          "EquipmentShade": 1.16,
+          "training_enclosure": 0.62,
+          "owner": 0.7
+        },
+        "debris_area_xy": [
+          [
+            2.0,
+            -1.5
+          ],
+          [
+            4.2,
+            1.5
+          ]
+        ],
+        "debris_ground_z": 0.08
+      },
+      "ruins": {
+        "default_cap": 0.82,
+        "group_caps": {
+          "EquipmentStore": 1.16,
+          "EquipmentShade": 1.16,
+          "training_enclosure": 0.62
+        },
+        "remove_groups": [],
+        "debris_area_xy": [
+          [
+            2.0,
+            -1.5
+          ],
+          [
+            4.2,
+            1.5
+          ]
+        ],
+        "debris_ground_z": 0.08,
+        "debris_count": 62,
+        "fallen_members": [
+          {
+            "a": [
+              2.15,
+              -1.15,
+              0.15
+            ],
+            "b": [
+              4.05,
+              -0.65,
+              0.15
+            ],
+            "width": 0.14,
+            "source_group": "EquipmentStore",
+            "grounding_basis": "Horizontal original failed timber at court ground + half width"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "EarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "TrafficWear",
+          "PracticeTraffic",
+          "TargetImpactSoil",
+          "BeddedApproach",
+          "TrainingBoardBinding",
+          "ShaftBinding"
+        ],
+        "2": [
+          "TrafficWear",
+          "PracticeTraffic",
+          "TargetImpactSoil",
+          "BeddedApproach",
+          "TrainingBoardBinding",
+          "ShaftBinding",
+          "EquipmentChest",
+          "WaterJar",
+          "PracticeShaft",
+          "ShaftRackFoot"
+        ]
+      },
+      "authored_failure_basis": "Positive X / front Y occupied corner of named current room. Four unequal increasing notches; level five fails named major groups. No engine HP or construction percentages."
+    },
+    "A3": {
+      "native_hp_thresholds": null,
+      "review_status": "Exact recipe-specific failure proposal; actual generation and visual review required",
+      "damage": {
+        "groups": [
+          "StaffCell"
+        ],
+        "corner_plus_x_front_y": [
+          1.35,
+          1.8,
+          3.47
+        ],
+        "notch_extents": [
+          0.28,
+          0.48,
+          0.79,
+          1.14
+        ],
+        "heavy_failure_group_caps": {
+          "EquipmentStore": 1.16,
+          "StaffCell": 1.16,
+          "EquipmentWorkShade": 1.16,
+          "training_enclosure": 0.62,
+          "owner": 0.7
+        },
+        "debris_area_xy": [
+          [
+            2.0,
+            -1.5
+          ],
+          [
+            4.2,
+            1.5
+          ]
+        ],
+        "debris_ground_z": 0.08
+      },
+      "ruins": {
+        "default_cap": 0.82,
+        "group_caps": {
+          "EquipmentStore": 1.16,
+          "StaffCell": 1.16,
+          "EquipmentWorkShade": 1.16,
+          "training_enclosure": 0.62
+        },
+        "remove_groups": [],
+        "debris_area_xy": [
+          [
+            2.0,
+            -1.5
+          ],
+          [
+            4.2,
+            1.5
+          ]
+        ],
+        "debris_ground_z": 0.08,
+        "debris_count": 62,
+        "fallen_members": [
+          {
+            "a": [
+              2.15,
+              -1.15,
+              0.15
+            ],
+            "b": [
+              4.05,
+              -0.65,
+              0.15
+            ],
+            "width": 0.14,
+            "source_group": "StaffCell",
+            "grounding_basis": "Horizontal original failed timber at court ground + half width"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "EarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "TrafficWear",
+          "PracticeTraffic",
+          "TargetImpactSoil",
+          "BeddedApproach",
+          "TrainingBoardBinding",
+          "ShaftBinding"
+        ],
+        "2": [
+          "TrafficWear",
+          "PracticeTraffic",
+          "TargetImpactSoil",
+          "BeddedApproach",
+          "TrainingBoardBinding",
+          "ShaftBinding",
+          "EquipmentChest",
+          "WaterJar",
+          "PracticeShaft",
+          "ShaftRackFoot"
+        ]
+      },
+      "authored_failure_basis": "Positive X / front Y occupied corner of named current room. Four unequal increasing notches; level five fails named major groups. No engine HP or construction percentages."
+    },
+    "A4": {
+      "native_hp_thresholds": null,
+      "review_status": "Exact recipe-specific failure proposal; actual generation and visual review required",
+      "damage": {
+        "groups": [
+          "EquipmentStore"
+        ],
+        "corner_plus_x_front_y": [
+          1.35,
+          0.65,
+          4.07
+        ],
+        "notch_extents": [
+          0.28,
+          0.48,
+          0.79,
+          1.14
+        ],
+        "heavy_failure_group_caps": {
+          "EquipmentStore": 1.16,
+          "GearArcade": 1.16,
+          "FiringLine": 1.16,
+          "training_enclosure": 0.62,
+          "owner": 0.7
+        },
+        "debris_area_xy": [
+          [
+            2.0,
+            -1.5
+          ],
+          [
+            4.2,
+            1.5
+          ]
+        ],
+        "debris_ground_z": 0.08
+      },
+      "ruins": {
+        "default_cap": 0.82,
+        "group_caps": {
+          "EquipmentStore": 1.16,
+          "GearArcade": 1.16,
+          "FiringLine": 1.16,
+          "training_enclosure": 0.62
+        },
+        "remove_groups": [],
+        "debris_area_xy": [
+          [
+            2.0,
+            -1.5
+          ],
+          [
+            4.2,
+            1.5
+          ]
+        ],
+        "debris_ground_z": 0.08,
+        "debris_count": 62,
+        "fallen_members": [
+          {
+            "a": [
+              2.15,
+              -1.15,
+              0.15
+            ],
+            "b": [
+              4.05,
+              -0.65,
+              0.15
+            ],
+            "width": 0.14,
+            "source_group": "EquipmentStore",
+            "grounding_basis": "Horizontal original failed timber at court ground + half width"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "EarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "TrafficWear",
+          "PracticeTraffic",
+          "TargetImpactSoil",
+          "BeddedApproach",
+          "TrainingBoardBinding",
+          "ShaftBinding"
+        ],
+        "2": [
+          "TrafficWear",
+          "PracticeTraffic",
+          "TargetImpactSoil",
+          "BeddedApproach",
+          "TrainingBoardBinding",
+          "ShaftBinding",
+          "EquipmentChest",
+          "WaterJar",
+          "PracticeShaft",
+          "ShaftRackFoot"
+        ]
+      },
+      "authored_failure_basis": "Positive X / front Y occupied corner of named current room. Four unequal increasing notches; level five fails named major groups. No engine HP or construction percentages."
+    }
+  }
+}

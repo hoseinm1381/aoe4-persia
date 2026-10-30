@@ -1,0 +1,1079 @@
+{
+  "A2": {
+    "ground_top": 0.08,
+    "native_body_key": "A2",
+    "native_model": "art/civilizations/sultanate/structures/archery_range/sul_archery_range_control_age02/sul_archery_range_control_age02.rgm",
+    "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+    "chosen_horizontal_bounds": [
+      [
+        -0.35,
+        -3.5
+      ],
+      [
+        4.85,
+        4.05
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -0.35,
+        -3.5,
+        -0.06
+      ],
+      [
+        4.85,
+        4.05,
+        6.2
+      ]
+    ],
+    "native_stamp_rest_bounds": {
+      "min": [
+        -0.6285157203674321,
+        -3.813281238079072,
+        -1.19921875
+      ],
+      "max": [
+        5.053124904632568,
+        4.292187511920929,
+        6.828125
+      ]
+    },
+    "native_resource_bounds": {
+      "min": [
+        -3.9921875,
+        -3.228515625,
+        -1.19921875
+      ],
+      "max": [
+        4.11328125,
+        2.453125,
+        6.828125
+      ]
+    },
+    "resource_to_stamp": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        2.5999999046325684
+      ],
+      [
+        -1.0000000000000002,
+        -2.220446049250313e-16,
+        0.0,
+        0.30000001192092896
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_resource": [
+      [
+        0.0,
+        -1.0000000000000002,
+        0.0,
+        0.300000011920929
+      ],
+      [
+        1.0,
+        -2.220446049250313e-16,
+        0.0,
+        -2.5999999046325684
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier2_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier2_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier2_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier2_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_02.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "private_compiled_source_uses": [
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier2_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier2_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_02.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "official_parent_candidates": [
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier2_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier2_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_02.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "native_dependencies": [
+      {
+        "model": "art/civilizations/common/props/wall_stone_low_segment/wall_stone_low_segment.rgm",
+        "native_model_sha256": "7ed70a4588092b7f4d2b709b5ea07644081b8f50b281ed45c1f31bfa51fdc678",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/props/wall_stone_low_segment/wall_stone_low_segment.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\props\\wall_stone_low_segment\\wall_stone_low_segment.rgo",
+            "sha256": "bdd289d2771f62753fff98809686c6357953855b1eece90d37b12c4d6c4d3039",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      },
+      {
+        "model": "art/civilizations/common/props/stone_bench/stone_bench.rgm",
+        "native_model_sha256": "b8a396055392a1bb728aa6becba58ed887e7af90d98b6bb149e414b662b9ea11",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/props/stone_bench/stone_bench.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\props\\stone_bench\\stone_bench.rgo",
+            "sha256": "276aef5034df51c2ead23b72f86f5813c107b3bc49f2db2343b936a0492526cf",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      },
+      {
+        "model": "art/civilizations/common/banners/banner_archery/banner_archery.rgm",
+        "native_model_sha256": "7d2fe895c3008d5ee8d200a186e708dac63f4f45bb94815c5b84e3025b2e7a92",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/banners/banner_archery/banner_archery.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\banners\\banner_archery\\banner_archery.rgo",
+            "sha256": "42f0cd3627e0c4e95ecab9d53ee454fc7fe1cbb24b768084922dc557a5b40cfc",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      },
+      {
+        "model": "art/civilizations/common/layouts/archetypes/layout_archery/layout_archery.rgm",
+        "native_model_sha256": "c98153444ac8e58b8fb74b2f5f5a19fe01a701af60dc78f27319157b8793e0ca",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/layouts/archetypes/layout_archery/layout_archery.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\layouts\\archetypes\\layout_archery\\layout_archery.rgo",
+            "sha256": "8c432aa37dec7ba188da51d08be6edfb8b37bb0e1093996d113966cf8e7697d6",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      }
+    ],
+    "complete_category_bounds": [
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier2_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -0.6285157203674321,
+            -3.813281238079072,
+            -1.19921875
+          ],
+          "max": [
+            5.053124904632568,
+            4.292187511920929,
+            6.828125
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -5.809341047901136,
+            -6.360332012176514,
+            -3.333984375
+          ],
+          "max": [
+            6.540281590540161,
+            6.104681015014648,
+            6.828125
+          ]
+        }
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier2_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -0.6285157203674321,
+            -3.813281238079072,
+            -1.19921875
+          ],
+          "max": [
+            5.053124904632568,
+            4.292187511920929,
+            6.828125
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -5.392584396541568,
+            -6.360332012176514,
+            -1.19921875
+          ],
+          "max": [
+            6.540281590540161,
+            6.003076812822045,
+            6.828125
+          ]
+        }
+      }
+    ],
+    "terrain_origin_note": "native origin retained; no Z recenter from buried geometry minimum; .08 source surface is provisional",
+    "clearance_status": "Only conservative rest-body envelope; native exits/markers/weapon motion unqualified",
+    "door_dimensions": "original source proposals, not measured stock doorways",
+    "visual_status": "unbuilt and uninspected in Blender",
+    "program": "small gear store + open side equipment shade + two supported targets",
+    "shooting_axis": {
+      "source_start": [
+        3.0,
+        -2.2,
+        0.08
+      ],
+      "toward": [
+        3.0,
+        2.8,
+        0.08
+      ],
+      "status": "compressed original visual programme; no historical shooting-distance or gameplay claim"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -2.220446049250313e-16,
+          -1.0,
+          0.0,
+          0.30000001192092896
+        ],
+        [
+          1.0,
+          0.0,
+          -0.0,
+          -2.5999999046325684
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A3": {
+    "ground_top": 0.08,
+    "native_body_key": "A3",
+    "native_model": "art/civilizations/sultanate/structures/archery_range/sul_archery_range_control_age03/sul_archery_range_control_age03.rgm",
+    "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+    "chosen_horizontal_bounds": [
+      [
+        -0.35,
+        -3.5
+      ],
+      [
+        4.85,
+        4.05
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -0.35,
+        -3.5,
+        -0.06
+      ],
+      [
+        4.85,
+        4.05,
+        6.2
+      ]
+    ],
+    "native_stamp_rest_bounds": {
+      "min": [
+        -0.6285157203674321,
+        -3.813281238079072,
+        -1.19921875
+      ],
+      "max": [
+        5.053124904632568,
+        4.292187511920929,
+        6.828125
+      ]
+    },
+    "native_resource_bounds": {
+      "min": [
+        -3.9921875,
+        -3.228515625,
+        -1.19921875
+      ],
+      "max": [
+        4.11328125,
+        2.453125,
+        6.828125
+      ]
+    },
+    "resource_to_stamp": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        2.5999999046325684
+      ],
+      [
+        -1.0000000000000002,
+        -2.220446049250313e-16,
+        0.0,
+        0.30000001192092896
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_resource": [
+      [
+        0.0,
+        -1.0000000000000002,
+        0.0,
+        0.300000011920929
+      ],
+      [
+        1.0,
+        -2.220446049250313e-16,
+        0.0,
+        -2.5999999046325684
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier3_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier3_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier3_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier3_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_03.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "private_compiled_source_uses": [
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier3_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier3_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_03.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "official_parent_candidates": [
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier3_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier3_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_03.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "native_dependencies": [
+      {
+        "model": "art/civilizations/common/props/wall_stone_low_segment/wall_stone_low_segment.rgm",
+        "native_model_sha256": "7ed70a4588092b7f4d2b709b5ea07644081b8f50b281ed45c1f31bfa51fdc678",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/props/wall_stone_low_segment/wall_stone_low_segment.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\props\\wall_stone_low_segment\\wall_stone_low_segment.rgo",
+            "sha256": "bdd289d2771f62753fff98809686c6357953855b1eece90d37b12c4d6c4d3039",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      },
+      {
+        "model": "art/civilizations/common/props/stone_bench/stone_bench.rgm",
+        "native_model_sha256": "b8a396055392a1bb728aa6becba58ed887e7af90d98b6bb149e414b662b9ea11",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/props/stone_bench/stone_bench.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\props\\stone_bench\\stone_bench.rgo",
+            "sha256": "276aef5034df51c2ead23b72f86f5813c107b3bc49f2db2343b936a0492526cf",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      },
+      {
+        "model": "art/civilizations/common/banners/banner_archery/banner_archery.rgm",
+        "native_model_sha256": "7d2fe895c3008d5ee8d200a186e708dac63f4f45bb94815c5b84e3025b2e7a92",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/banners/banner_archery/banner_archery.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\banners\\banner_archery\\banner_archery.rgo",
+            "sha256": "42f0cd3627e0c4e95ecab9d53ee454fc7fe1cbb24b768084922dc557a5b40cfc",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      },
+      {
+        "model": "art/civilizations/common/layouts/archetypes/layout_archery/layout_archery.rgm",
+        "native_model_sha256": "c98153444ac8e58b8fb74b2f5f5a19fe01a701af60dc78f27319157b8793e0ca",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/layouts/archetypes/layout_archery/layout_archery.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\layouts\\archetypes\\layout_archery\\layout_archery.rgo",
+            "sha256": "8c432aa37dec7ba188da51d08be6edfb8b37bb0e1093996d113966cf8e7697d6",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      }
+    ],
+    "complete_category_bounds": [
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier3_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -0.6285157203674321,
+            -3.813281238079072,
+            -1.19921875
+          ],
+          "max": [
+            5.053124904632568,
+            4.292187511920929,
+            6.828125
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -5.809341047901136,
+            -6.360332012176514,
+            -3.333984375
+          ],
+          "max": [
+            6.540281590540161,
+            6.104681015014648,
+            6.828125
+          ]
+        }
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier3_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -0.6285157203674321,
+            -3.813281238079072,
+            -1.19921875
+          ],
+          "max": [
+            5.053124904632568,
+            4.292187511920929,
+            6.828125
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -5.581677431408688,
+            -6.360332012176514,
+            -1.19921875
+          ],
+          "max": [
+            6.540281590540161,
+            6.003076812822045,
+            6.828125
+          ]
+        }
+      }
+    ],
+    "terrain_origin_note": "native origin retained; no Z recenter from buried geometry minimum; .08 source surface is provisional",
+    "clearance_status": "Only conservative rest-body envelope; native exits/markers/weapon motion unqualified",
+    "door_dimensions": "original source proposals, not measured stock doorways",
+    "visual_status": "unbuilt and uninspected in Blender",
+    "program": "long vaulted gear range + taller rear staff cell + three-target enclosure",
+    "shooting_axis": {
+      "source_start": [
+        3.0,
+        -2.2,
+        0.08
+      ],
+      "toward": [
+        3.0,
+        2.8,
+        0.08
+      ],
+      "status": "compressed original visual programme; no historical shooting-distance or gameplay claim"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -2.220446049250313e-16,
+          -1.0,
+          0.0,
+          0.30000001192092896
+        ],
+        [
+          1.0,
+          0.0,
+          -0.0,
+          -2.5999999046325684
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A4": {
+    "ground_top": 0.08,
+    "native_body_key": "A4",
+    "native_model": "art/civilizations/sultanate/structures/archery_range/sul_archery_range_control_age04/sul_archery_range_control_age04.rgm",
+    "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+    "chosen_horizontal_bounds": [
+      [
+        -0.5,
+        -3.55
+      ],
+      [
+        5.05,
+        4.6
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -0.5,
+        -3.55,
+        -0.06
+      ],
+      [
+        5.05,
+        4.6,
+        7.2
+      ]
+    ],
+    "native_stamp_rest_bounds": {
+      "min": [
+        -0.9507813453674316,
+        -3.907031238079071,
+        -1.19921875
+      ],
+      "max": [
+        5.273828029632568,
+        5.24531251192093,
+        7.9140625
+      ]
+    },
+    "native_resource_bounds": {
+      "min": [
+        -4.9453125,
+        -3.55078125,
+        -1.19921875
+      ],
+      "max": [
+        4.20703125,
+        2.673828125,
+        7.9140625
+      ]
+    },
+    "resource_to_stamp": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        2.5999999046325684
+      ],
+      [
+        -1.0000000000000002,
+        -2.220446049250313e-16,
+        0.0,
+        0.30000001192092896
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_resource": [
+      [
+        0.0,
+        -1.0000000000000002,
+        0.0,
+        0.300000011920929
+      ],
+      [
+        1.0,
+        -2.220446049250313e-16,
+        0.0,
+        -2.5999999046325684
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier4_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier4_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier4_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier4_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_04.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "private_compiled_source_uses": [
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier4_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier4_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_04.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "official_parent_candidates": [
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier4_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier4_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_archery_range_age_04.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "native_dependencies": [
+      {
+        "model": "art/civilizations/common/props/wall_stone_low_segment/wall_stone_low_segment.rgm",
+        "native_model_sha256": "7ed70a4588092b7f4d2b709b5ea07644081b8f50b281ed45c1f31bfa51fdc678",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/props/wall_stone_low_segment/wall_stone_low_segment.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\props\\wall_stone_low_segment\\wall_stone_low_segment.rgo",
+            "sha256": "bdd289d2771f62753fff98809686c6357953855b1eece90d37b12c4d6c4d3039",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      },
+      {
+        "model": "art/civilizations/common/props/stone_bench/stone_bench.rgm",
+        "native_model_sha256": "b8a396055392a1bb728aa6becba58ed887e7af90d98b6bb149e414b662b9ea11",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/props/stone_bench/stone_bench.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\props\\stone_bench\\stone_bench.rgo",
+            "sha256": "276aef5034df51c2ead23b72f86f5813c107b3bc49f2db2343b936a0492526cf",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      },
+      {
+        "model": "art/civilizations/common/banners/banner_archery/banner_archery.rgm",
+        "native_model_sha256": "7d2fe895c3008d5ee8d200a186e708dac63f4f45bb94815c5b84e3025b2e7a92",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/banners/banner_archery/banner_archery.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\banners\\banner_archery\\banner_archery.rgo",
+            "sha256": "42f0cd3627e0c4e95ecab9d53ee454fc7fe1cbb24b768084922dc557a5b40cfc",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      },
+      {
+        "model": "art/civilizations/common/layouts/archetypes/layout_archery/layout_archery.rgm",
+        "native_model_sha256": "c98153444ac8e58b8fb74b2f5f5a19fe01a701af60dc78f27319157b8793e0ca",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/layouts/archetypes/layout_archery/layout_archery.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\layouts\\archetypes\\layout_archery\\layout_archery.rgo",
+            "sha256": "8c432aa37dec7ba188da51d08be6edfb8b37bb0e1093996d113966cf8e7697d6",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      }
+    ],
+    "complete_category_bounds": [
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier4_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -0.9507813453674316,
+            -3.907031238079071,
+            -1.19921875
+          ],
+          "max": [
+            5.273828029632568,
+            5.24531251192093,
+            7.9140625
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -5.809341047901136,
+            -6.360332012176514,
+            -3.333984375
+          ],
+          "max": [
+            6.540281590540161,
+            6.104681015014648,
+            7.9140625
+          ]
+        }
+      },
+      {
+        "actor": "ps_building_unit_ranged_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_ranged_sul/tier4_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -0.9507813453674316,
+            -3.907031238079071,
+            -1.19921875
+          ],
+          "max": [
+            5.273828029632568,
+            5.24531251192093,
+            7.9140625
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -5.581677431408688,
+            -6.360332012176514,
+            -1.19921875
+          ],
+          "max": [
+            6.540281590540161,
+            6.003076812822045,
+            7.9140625
+          ]
+        }
+      }
+    ],
+    "terrain_origin_note": "native origin retained; no Z recenter from buried geometry minimum; .08 source surface is provisional",
+    "clearance_status": "Only conservative rest-body envelope; native exits/markers/weapon motion unqualified",
+    "door_dimensions": "original source proposals, not measured stock doorways",
+    "visual_status": "unbuilt and uninspected in Blender",
+    "program": "taller rear staff store + low gear arcade + transverse covered firing line",
+    "shooting_axis": {
+      "source_start": [
+        3.0,
+        -2.2,
+        0.08
+      ],
+      "toward": [
+        3.0,
+        2.8,
+        0.08
+      ],
+      "status": "compressed original visual programme; no historical shooting-distance or gameplay claim"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -2.220446049250313e-16,
+          -1.0,
+          0.0,
+          0.30000001192092896
+        ],
+        [
+          1.0,
+          0.0,
+          -0.0,
+          -2.5999999046325684
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}

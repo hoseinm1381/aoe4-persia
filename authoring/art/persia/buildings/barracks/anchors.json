@@ -1,0 +1,1326 @@
+{
+  "A1": {
+    "ground_top": 0.08,
+    "native_body_key": "A1",
+    "native_model": "art/civilizations/sultanate/structures/barracks/sul_barracks_combined_age01/sul_barracks_combined_age01.rgm",
+    "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+    "chosen_horizontal_bounds": [
+      [
+        -3.95,
+        -4.35
+      ],
+      [
+        3.95,
+        4.05
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -3.95,
+        -4.35,
+        -0.06
+      ],
+      [
+        3.95,
+        4.05,
+        4.45
+      ]
+    ],
+    "native_stamp_rest_bounds": {
+      "min": [
+        -4.32421875,
+        -4.7939453125,
+        -1.2001953125
+      ],
+      "max": [
+        4.32421875,
+        4.44140625,
+        4.69921875
+      ]
+    },
+    "native_resource_bounds": {
+      "min": [
+        -4.32421875,
+        -7.94140625,
+        -1.2001953125
+      ],
+      "max": [
+        4.32421875,
+        1.2939453125,
+        4.69921875
+      ]
+    },
+    "resource_to_stamp": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -3.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_resource": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -3.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier1_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_01.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier1_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_01.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier1_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_01.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier1_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_01.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "private_compiled_source_uses": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier1_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_01.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier1_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_01.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "official_parent_candidates": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier1_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_01.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier1_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_01.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "native_dependencies": [
+      {
+        "model": "art/civilizations/common/banners/banner_barracks/banner_barracks.rgm",
+        "native_model_sha256": "cb9627694df982492e4202c22ab287325750e7d6516935ecea44031d765f4e58",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/banners/banner_barracks/banner_barracks.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\banners\\banner_barracks\\banner_barracks.rgo",
+            "sha256": "42f0cd3627e0c4e95ecab9d53ee454fc7fe1cbb24b768084922dc557a5b40cfc",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      },
+      {
+        "model": "art/civilizations/common/layouts/archetypes/layout_barracks/layout_barracks.rgm",
+        "native_model_sha256": "293a204a99a48198be87a36758bae0dce30f2619582a5047e03c1ae96d444789",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/layouts/archetypes/layout_barracks/layout_barracks.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\layouts\\archetypes\\layout_barracks\\layout_barracks.rgo",
+            "sha256": "8c432aa37dec7ba188da51d08be6edfb8b37bb0e1093996d113966cf8e7697d6",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      }
+    ],
+    "complete_category_bounds": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier1_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -4.32421875,
+            -4.7939453125,
+            -1.2001953125
+          ],
+          "max": [
+            4.32421875,
+            4.44140625,
+            4.69921875
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -6.625433413409999,
+            -6.677520208188799,
+            -3.333984375
+          ],
+          "max": [
+            6.2494282722473145,
+            6.65603153511463,
+            6.5546875
+          ]
+        }
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier1_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -4.32421875,
+            -4.7939453125,
+            -1.2001953125
+          ],
+          "max": [
+            4.32421875,
+            4.44140625,
+            4.69921875
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -6.625433413409999,
+            -6.677520208188799,
+            -1.2001953125
+          ],
+          "max": [
+            6.222702537779696,
+            6.382978161167268,
+            4.69921875
+          ]
+        }
+      }
+    ],
+    "terrain_origin_note": "native origin retained; no Z recenter from buried geometry minimum; .08 source surface is provisional",
+    "clearance_status": "Only conservative rest-body envelope; native exits/markers/weapon motion unqualified",
+    "door_dimensions": "original source proposals, not measured stock doorways",
+    "visual_status": "unbuilt and uninspected in Blender",
+    "program": "earthen lodging range, low guard room and open preparation lean-to",
+    "training_court": {
+      "center": [
+        0.0,
+        -1.6
+      ],
+      "front_gap": [
+        -1.9,
+        1.9
+      ],
+      "status": "visual source proposal, not pathfinding proof"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -3.5
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A2": {
+    "ground_top": 0.08,
+    "native_body_key": "A2",
+    "native_model": "art/civilizations/sultanate/structures/barracks/sul_barracks_combined_age02/sul_barracks_combined_age02.rgm",
+    "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+    "chosen_horizontal_bounds": [
+      [
+        -4.1,
+        -4.65
+      ],
+      [
+        4.1,
+        4.45
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -4.1,
+        -4.65,
+        -0.06
+      ],
+      [
+        4.1,
+        4.45,
+        5.5
+      ]
+    ],
+    "native_stamp_rest_bounds": {
+      "min": [
+        -4.63671875,
+        -5.130859375,
+        -1.3427734375
+      ],
+      "max": [
+        4.63671875,
+        4.9375,
+        5.90234375
+      ]
+    },
+    "native_resource_bounds": {
+      "min": [
+        -4.63671875,
+        -8.4375,
+        -1.3427734375
+      ],
+      "max": [
+        4.63671875,
+        1.630859375,
+        5.90234375
+      ]
+    },
+    "resource_to_stamp": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -3.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_resource": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -3.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier2_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier2_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier2_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier2_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_02.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "private_compiled_source_uses": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier2_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier2_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_02.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "official_parent_candidates": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier2_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier2_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_02.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "native_dependencies": [
+      {
+        "model": "art/civilizations/common/banners/banner_barracks/banner_barracks.rgm",
+        "native_model_sha256": "cb9627694df982492e4202c22ab287325750e7d6516935ecea44031d765f4e58",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/banners/banner_barracks/banner_barracks.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\banners\\banner_barracks\\banner_barracks.rgo",
+            "sha256": "42f0cd3627e0c4e95ecab9d53ee454fc7fe1cbb24b768084922dc557a5b40cfc",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      },
+      {
+        "model": "art/civilizations/common/layouts/archetypes/layout_barracks/layout_barracks.rgm",
+        "native_model_sha256": "293a204a99a48198be87a36758bae0dce30f2619582a5047e03c1ae96d444789",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/layouts/archetypes/layout_barracks/layout_barracks.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\layouts\\archetypes\\layout_barracks\\layout_barracks.rgo",
+            "sha256": "8c432aa37dec7ba188da51d08be6edfb8b37bb0e1093996d113966cf8e7697d6",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      }
+    ],
+    "complete_category_bounds": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier2_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -4.63671875,
+            -5.130859375,
+            -1.3427734375
+          ],
+          "max": [
+            4.63671875,
+            4.9375,
+            5.90234375
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -6.625433413409999,
+            -6.677520208188799,
+            -3.333984375
+          ],
+          "max": [
+            6.2494282722473145,
+            6.65603153511463,
+            6.5546875
+          ]
+        }
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier2_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -4.63671875,
+            -5.130859375,
+            -1.3427734375
+          ],
+          "max": [
+            4.63671875,
+            4.9375,
+            5.90234375
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -6.625433413409999,
+            -6.677520208188799,
+            -1.3427734375
+          ],
+          "max": [
+            6.222702537779696,
+            6.382978161167268,
+            5.90234375
+          ]
+        }
+      }
+    ],
+    "terrain_origin_note": "native origin retained; no Z recenter from buried geometry minimum; .08 source surface is provisional",
+    "clearance_status": "Only conservative rest-body envelope; native exits/markers/weapon motion unqualified",
+    "door_dimensions": "original source proposals, not measured stock doorways",
+    "visual_status": "unbuilt and uninspected in Blender",
+    "program": "three real vaulted lodging cells, masonry guard room and east equipment shelter",
+    "training_court": {
+      "center": [
+        0.0,
+        -1.6
+      ],
+      "front_gap": [
+        -1.9,
+        1.9
+      ],
+      "status": "visual source proposal, not pathfinding proof"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -3.5
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A3": {
+    "ground_top": 0.08,
+    "native_body_key": "A3",
+    "native_model": "art/civilizations/sultanate/structures/barracks/sul_barracks_combined_age03/sul_barracks_combined_age03.rgm",
+    "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+    "chosen_horizontal_bounds": [
+      [
+        -4.1,
+        -4.65
+      ],
+      [
+        4.1,
+        4.45
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -4.1,
+        -4.65,
+        -0.06
+      ],
+      [
+        4.1,
+        4.45,
+        5.5
+      ]
+    ],
+    "native_stamp_rest_bounds": {
+      "min": [
+        -4.63671875,
+        -5.130859375,
+        -1.3427734375
+      ],
+      "max": [
+        4.63671875,
+        4.9375,
+        5.90234375
+      ]
+    },
+    "native_resource_bounds": {
+      "min": [
+        -4.63671875,
+        -8.4375,
+        -1.3427734375
+      ],
+      "max": [
+        4.63671875,
+        1.630859375,
+        5.90234375
+      ]
+    },
+    "resource_to_stamp": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -3.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_resource": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -3.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier3_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier3_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier3_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier3_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_03.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "private_compiled_source_uses": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier3_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier3_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_03.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "official_parent_candidates": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier3_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier3_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_03.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "native_dependencies": [
+      {
+        "model": "art/civilizations/common/banners/banner_barracks/banner_barracks.rgm",
+        "native_model_sha256": "cb9627694df982492e4202c22ab287325750e7d6516935ecea44031d765f4e58",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/banners/banner_barracks/banner_barracks.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\banners\\banner_barracks\\banner_barracks.rgo",
+            "sha256": "42f0cd3627e0c4e95ecab9d53ee454fc7fe1cbb24b768084922dc557a5b40cfc",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      },
+      {
+        "model": "art/civilizations/common/layouts/archetypes/layout_barracks/layout_barracks.rgm",
+        "native_model_sha256": "293a204a99a48198be87a36758bae0dce30f2619582a5047e03c1ae96d444789",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/layouts/archetypes/layout_barracks/layout_barracks.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\layouts\\archetypes\\layout_barracks\\layout_barracks.rgo",
+            "sha256": "8c432aa37dec7ba188da51d08be6edfb8b37bb0e1093996d113966cf8e7697d6",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      }
+    ],
+    "complete_category_bounds": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier3_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -4.63671875,
+            -5.130859375,
+            -1.3427734375
+          ],
+          "max": [
+            4.63671875,
+            4.9375,
+            5.90234375
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -6.625433413409999,
+            -6.677520208188799,
+            -3.333984375
+          ],
+          "max": [
+            6.2494282722473145,
+            6.65603153511463,
+            6.5546875
+          ]
+        }
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier3_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -4.63671875,
+            -5.130859375,
+            -1.3427734375
+          ],
+          "max": [
+            4.63671875,
+            4.9375,
+            5.90234375
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -6.625433413409999,
+            -6.677520208188799,
+            -1.3427734375
+          ],
+          "max": [
+            6.222702537779696,
+            6.382978161167268,
+            5.90234375
+          ]
+        }
+      }
+    ],
+    "terrain_origin_note": "native origin retained; no Z recenter from buried geometry minimum; .08 source surface is provisional",
+    "clearance_status": "Only conservative rest-body envelope; native exits/markers/weapon motion unqualified",
+    "door_dimensions": "original source proposals, not measured stock doorways",
+    "visual_status": "unbuilt and uninspected in Blender",
+    "program": "long west lodging range joined to a taller rear guard hall; open infantry court",
+    "training_court": {
+      "center": [
+        0.0,
+        -1.6
+      ],
+      "front_gap": [
+        -1.9,
+        1.9
+      ],
+      "status": "visual source proposal, not pathfinding proof"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -3.5
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A4": {
+    "ground_top": 0.08,
+    "native_body_key": "A4",
+    "native_model": "art/civilizations/sultanate/structures/barracks/sul_barracks_combined_age04/sul_barracks_combined_age04.rgm",
+    "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+    "chosen_horizontal_bounds": [
+      [
+        -4.2,
+        -4.65
+      ],
+      [
+        4.2,
+        4.55
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -4.2,
+        -4.65,
+        -0.06
+      ],
+      [
+        4.2,
+        4.55,
+        7.4
+      ]
+    ],
+    "native_stamp_rest_bounds": {
+      "min": [
+        -4.73046875,
+        -5.197265625,
+        -1.513671875
+      ],
+      "max": [
+        4.80078125,
+        5.1015625,
+        8.0625
+      ]
+    },
+    "native_resource_bounds": {
+      "min": [
+        -4.80078125,
+        -8.6015625,
+        -1.513671875
+      ],
+      "max": [
+        4.73046875,
+        1.697265625,
+        8.0625
+      ]
+    },
+    "resource_to_stamp": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -3.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_resource": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -3.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier4_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier4_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier4_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier4_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_04.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "private_compiled_source_uses": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier4_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier4_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_04.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "official_parent_candidates": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier4_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier4_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_barracks_age_04.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "native_dependencies": [
+      {
+        "model": "art/civilizations/common/banners/banner_barracks/banner_barracks.rgm",
+        "native_model_sha256": "cb9627694df982492e4202c22ab287325750e7d6516935ecea44031d765f4e58",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/banners/banner_barracks/banner_barracks.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\banners\\banner_barracks\\banner_barracks.rgo",
+            "sha256": "42f0cd3627e0c4e95ecab9d53ee454fc7fe1cbb24b768084922dc557a5b40cfc",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      },
+      {
+        "model": "art/civilizations/common/layouts/archetypes/layout_barracks/layout_barracks.rgm",
+        "native_model_sha256": "293a204a99a48198be87a36758bae0dce30f2619582a5047e03c1ae96d444789",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/layouts/archetypes/layout_barracks/layout_barracks.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\layouts\\archetypes\\layout_barracks\\layout_barracks.rgo",
+            "sha256": "8c432aa37dec7ba188da51d08be6edfb8b37bb0e1093996d113966cf8e7697d6",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+      }
+    ],
+    "complete_category_bounds": [
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier4_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -4.73046875,
+            -5.197265625,
+            -1.513671875
+          ],
+          "max": [
+            4.80078125,
+            5.1015625,
+            8.0625
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -6.625433413409999,
+            -6.677520208188799,
+            -3.333984375
+          ],
+          "max": [
+            6.2494282722473145,
+            6.65603153511463,
+            8.0625
+          ]
+        }
+      },
+      {
+        "actor": "ps_building_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_infantry_sul/tier4_unit_infantry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -4.73046875,
+            -5.197265625,
+            -1.513671875
+          ],
+          "max": [
+            4.80078125,
+            5.1015625,
+            8.0625
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -6.625433413409999,
+            -6.677520208188799,
+            -1.513671875
+          ],
+          "max": [
+            6.222702537779696,
+            6.382978161167268,
+            8.0625
+          ]
+        }
+      }
+    ],
+    "terrain_origin_note": "native origin retained; no Z recenter from buried geometry minimum; .08 source surface is provisional",
+    "clearance_status": "Only conservative rest-body envelope; native exits/markers/weapon motion unqualified",
+    "door_dimensions": "original source proposals, not measured stock doorways",
+    "visual_status": "unbuilt and uninspected in Blender",
+    "program": "broad lower lodging/preparation hall, west upper duty room, supported stair landing",
+    "training_court": {
+      "center": [
+        0.0,
+        -1.6
+      ],
+      "front_gap": [
+        -1.9,
+        1.9
+      ],
+      "status": "visual source proposal, not pathfinding proof"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -3.5
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}

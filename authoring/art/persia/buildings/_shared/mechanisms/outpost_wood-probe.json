@@ -1,0 +1,2299 @@
+{
+  "target": "outpost_wood",
+  "source_art_only": true,
+  "native_playback_qualified": false,
+  "passed": true,
+  "api": {
+    "module_file": "C:\\Users\\RS\\AppData\\Roaming\\BLENDE~1\\Blender\\5.2\\EXTENS~1\\RAW_GI~1\\garrison\\decode_projection.py",
+    "callables": {
+      "_apply_decoded_static": {
+        "present": true,
+        "signature": "(proxy_object: Any, report: dict[str, typing.Any], *, select_result: bool = True, apply_custom_normals: bool = True, create_controls: bool = False) -> Any",
+        "doc": ""
+      },
+      "_decoded_armature_bones": {
+        "present": true,
+        "signature": "(skeleton: dict[str, typing.Any]) -> list[dict[str, typing.Any]]",
+        "doc": ""
+      }
+    },
+    "observed_UI_call": "_apply_decoded_static(proxy, complete_plan, create_controls=True)",
+    "standalone_cache_hydration_qualified": false
+  },
+  "decoded_bone_projection": {
+    "model": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgm",
+    "public_projector_return_type": "list",
+    "public_projector_bones": [],
+    "native_skeleton_bone_count": 7,
+    "manifest_rest_pose": {
+      "status": "local_reference_transforms_decoded",
+      "transform_count": 7,
+      "space": "parent_local",
+      "semantic": "rest_or_bind_reference_unqualified",
+      "semantic_confidence": "inferred",
+      "record_layout": {
+        "encoding": "float32le",
+        "bytes": 40,
+        "components": [
+          "quaternion_xyzw",
+          "translation_xyz",
+          "scale_xyz"
+        ]
+      },
+      "block_offset_in_skln": 258,
+      "block_bytes": 280,
+      "block_sha256": "57c345b48186cc3cfb14e445a4946e01c490dda8f0562a2c77c36f03b4cc2457",
+      "opaque_prefix_bytes": 58,
+      "opaque_prefix_sha256": "d7894503ce5b9f8091b14bf008c4ca623a9e14983e7eb7f9c533fce03fa62159",
+      "validation": {
+        "quaternion_norm_min": 0.999999982885729,
+        "quaternion_norm_max": 0.999999982885729,
+        "quaternion_norm_max_error": 1.711427100037355e-08,
+        "translation_min": 0.0,
+        "translation_max": 0.0,
+        "scale_min": 1.0,
+        "scale_max": 1.0
+      }
+    },
+    "manifest_deform_layer": {
+      "status": "partial",
+      "authoritative_source": "RGM_SKLN_SKMS_SKIN",
+      "bone_count": 7,
+      "qualified_palette_count": 0,
+      "skinned_group_count": 0,
+      "weighted_vertex_count": 0,
+      "weights_status": "partial_or_unavailable",
+      "weight_diagnostics": {
+        "status": "observed_decoded_skin_streams",
+        "group_count": 0,
+        "vertex_count": 0,
+        "weighted_vertex_count": 0,
+        "zero_weight_vertex_count": 0,
+        "non_unit_weight_sum_vertex_count": 0,
+        "min_weight_sum": 0.0,
+        "max_weight_sum": 0.0,
+        "max_influences_per_vertex": 0,
+        "groups": []
+      },
+      "display_bones": "non_authoritative_guides_only"
+    },
+    "manifest_rig_projection": {
+      "status": "not_applicable",
+      "required_group_count": 0,
+      "decoded_group_count": 0,
+      "unresolved_group_count": 0,
+      "groups": [],
+      "skeleton_hierarchy_status": "hierarchy_decoded",
+      "skeleton_bone_count": 7,
+      "skeleton_rest_pose_status": "local_reference_transforms_decoded",
+      "qualified_skin_palette_count": 0
+    },
+    "standalone_armature_creation_qualified": false,
+    "native_world_pose_qualified": false
+  },
+  "project": {
+    "model": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgm",
+    "collection": "NSRC_outpost_wood",
+    "object_names": [
+      "AoE4 \u00b7 sul_outpost_control_age01",
+      "sul_outpost_control_age01 \u00b7 main",
+      "sul_outpost_control_age01 \u00b7 misc",
+      "sul_outpost_control_age01 \u00b7 roof",
+      "NSRC_outpost_wood_ReferenceHierarchy_Armature"
+    ],
+    "adapter_return_type": "Object",
+    "adapter_return": "bpy.data.objects['AoE4 \u00b7 sul_outpost_control_age01']",
+    "source_pose_qualified": false
+  },
+  "import_audit": {
+    "model": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgm",
+    "actual_objects": [
+      {
+        "name": "AoE4 \u00b7 sul_outpost_control_age01",
+        "type": "EMPTY",
+        "parent": null,
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_display_name",
+          "garrison_archive_path",
+          "garrison_asset_kind",
+          "garrison_source_asset_kind",
+          "garrison_source_card_path",
+          "garrison_static_companion_policy",
+          "garrison_static_decode_route",
+          "garrison_category",
+          "garrison_civilization",
+          "garrison_archive",
+          "garrison_decode_log",
+          "garrison_conversion_status",
+          "garrison_decode_progress",
+          "garrison_decode_phase",
+          "garrison_conversion_message",
+          "garrison_decode_manifest",
+          "garrison_vertex_count",
+          "garrison_triangle_count",
+          "garrison_projected_triangle_count",
+          "garrison_skipped_degenerate_triangle_count",
+          "garrison_available_group_count",
+          "garrison_projected_group_count",
+          "garrison_visible_preview_group_count",
+          "garrison_lod_policy",
+          "garrison_armature_object",
+          "garrison_skeleton_bone_count",
+          "garrison_skinned_mesh_count",
+          "garrison_material_count",
+          "garrison_texture_count",
+          "garrison_structure_collection_contract_status",
+          "garrison_completeness_status",
+          "garrison_rig_projection_status",
+          "garrison_animation_projection_status",
+          "garrison_animated_asset_plan",
+          "garrison_animation_clip_count",
+          "garrison_animation_action_status",
+          "garrison_animation_source",
+          "garrison_conversion_plan",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded",
+          "garrison_conversion_message": "Decoded 3 mesh parts",
+          "garrison_skipped_degenerate_triangle_count": 0,
+          "garrison_skeleton_bone_count": 7,
+          "garrison_rig_projection_status": "not_applicable",
+          "garrison_animation_projection_status": "binding_plan_not_attached",
+          "garrison_animation_clip_count": 0,
+          "garrison_animation_action_status": "blocked",
+          "garrison_animation_source": "",
+          "garrison_conversion_plan": "{\"status\": \"decoded\", \"completeness\": {\"status\": \"complete\", \"decoded_textures\": 65, \"unsupported_textures\": 0, \"missing_texture_references\": 0, \"non_file_texture_sentinels\": 1, \"rig_projection_status\": \"not_applicable\", \"unresolved_rig_groups\": 0, \"animation_projection_status\": \"binding_plan_not_attached\"}, \"rig_projection\": {\"status\": \"not_applicable\", \"required_group_count\": 0, \"decoded_group_count\": 0, \"unresolved_group_count\": 0, \"groups\": [], \"skeleton_hierarchy_status\": \"hierarchy_decoded\", \"skeleton_bone_count\": 7, \"skeleton_rest_pose_status\": \"local_reference_transforms_decoded\", \"qualified_skin_palette_count\": 0}, \"animation_projection\": {\"status\": \"binding_plan_not_attached\", \"resolution\": {\"status\": \"not_configured\"}, \"template\": {\"status\": \"not_resolved\", \"template_id\": null, \"role\": \"unresolved\", \"source_logical_path\": null, \"clip_inventory_status\": \"unavailable\", \"gameplay_action_mapping_status\": \"not_decoded\", \"family_count\": 0, \"families\": []}, \"clip_count\": 0, \"clips\": [], \"action_import_status\": \"blocked\", \"blockers\": [\"animation_binding_plan\"], \"discovery\": {\"status\": \"no_linked_library\", \"rgm_sha256\": \"4cd4f177a84c643303fa5c5d52fa44b7548d43a0f50d58ef62c142831ee47ed9\", \"requested_logical_path\": \"art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgo\", \"candidates\": [], \"warnings\": [\"No direct stock attachment route found\"], \"available_owners\": [], \"selected_owner\": null}}, \"animated_asset_import_plan\": {\"schema\": \"garrison.animated-asset-import-plan/v1\", \"status\": \"deform_ready_animation_binding_missing\", \"source\": {\"logical_path\": \"art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgm\", \"model\": {\"logical_path\": \"art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgm\", \"sha256\": \"4cd4f177a84c643303fa5c5d52fa44b7548d43a0f50d58ef62c142831ee47ed9\"}}, \"layers\": {\"geometry\": {\"status\": \"ready\", \"group_count\": 3, \"vertex_count\": 43523, \"triangle_count\": 23553}, \"materials\": {\"status\": \"ready\", \"material_count\": 6, \"decoded_texture_count\": 65}, \"deform\": {\"status\": \"partial\", \"authoritative_source\": \"RGM_SKLN_SKMS_SKIN\", \"bone_count\": 7, \"qualified_palette_count\": 0, \"skinned_group_count\": 0, \"weighted_vertex_count\": 0, \"weights_status\": \"partial_or_unavailable\", \"weight_diagnostics\": {\"status\": \"observed_decoded_skin_streams\", \"group_count\": 0, \"vertex_count\": 0, \"weighted_vertex_count\": 0, \"zero_weight_vertex_count\": 0, \"non_unit_weight_sum_vertex_count\": 0, \"min_weight_sum\": 0.0, \"max_weight_sum\": 0.0, \"max_influences_per_vertex\": 0, \"groups\": []}, \"display_bones\": \"non_authoritative_guides_only\"}, \"animation\": {\"status\": \"binding_plan_not_attached\", \"resolution\": {\"status\": \"not_configured\"}, \"template\": {\"status\": \"not_resolved\", \"template_id\": null, \"role\": \"unresolved\", \"source_logical_path\": null, \"clip_inventory_status\": \"unavailable\", \"gameplay_action_mapping_status\": \"not_decoded\", \"family_count\": 0, \"families\": []}, \"clip_count\": 0, \"clips\": [], \"action_import_status\": \"blocked\", \"blockers\": [\"animation_binding_plan\"], \"discovery\": {\"status\": \"no_linked_library\", \"rgm_sha256\": \"4cd4f177a84c643303fa5c5d52fa44b7548d43a0f50d58ef62c142831ee47ed9\", \"requested_logical_path\": \"art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgo\", \"candidates\": [], \"warnings\": [\"No direct stock attachment route found\"], \"available_owners\": [], \"selected_owner\": null}}}, \"blender_projection\": {\"mesh_materials\": \"create_now\", \"deform_armature_weights\": \"partial_or_not_applicable\", \"actions\": \"blocked\", \"root_motion\": \"blocked_separate_projection_required\", \"control_rig\": \"deferred_non_authoritative_layer\", \"native_animation_editing\": {\"status\": \"blocked_partial_deform_rig\", \"pose_and_weight_editing\": \"blocked\", \"user_authored_actions\": \"blocked\", \"stock_clip_actions\": \"qualified_clip_payload_required\", \"editors\": [], \"action_data_model\": \"blender_5_2_layered_actions_and_armature_slots\", \"nla_policy\": \"blocked_until_deform_rig_is_ready\", \"pose_library\": \"blocked\", \"source_boundary\": \"native editing never promotes RHKA metadata or candidate samples into a decoded stock Action\"}}, \"retargeting\": {\"status\": \"future_optional_capability\", \"core_dependency\": false, \"policy\": \"capability_probes_for_user_installed_services_and_addons\", \"fallback\": \"native_raw_deform_actions_and_nla\"}, \"claims\": [{\"status\": \"confirmed\", \"claim\": \"decoded geometry and materials share one stock-static import\", \"evidence\": [\"layers.geometry\", \"layers.materials\"]}, {\"status\": \"inferred\", \"claim\": \"qualified RGM palettes bind mesh weights to the authoritative deform armature\", \"evidence\": [\"layers.deform\"]}, {\"status\": \"inferred\", \"claim\": \"linked-library discovery is a preview candidate, not runtime action selection\", \"evidence\": [\"layers.animation.discovery\"]}, {\"status\": \"hypothesis\", \"claim\": \"optional retarget services can improve authoring UX without becoming decoder authorities\", \"evidence\": [\"retargeting\"]}, {\"status\": \"confirmed\", \"claim\": \"native Blender editing is reserved for explicit user-authored or independently qualified Actions\", \"evidence\": [\"blender_projection.native_animation_editing\"]}], \"boundaries\": [\"no Blender Action is created from hierarchy or clip metadata alone\", \"semantic transform samples and a full RHKA-to-RGM basis remain mandatory\", \"root motion is not inferred from hips\", \"retargeting services and add-ons are optional executors\"], \"plan_id\": \"b4f06be9d0f256d863ef3479989b67a61eb875bbd3e2518428d531fa297e2515\"}, \"warnings\": [], \"blockers\": [], \"entity_binding\": {\"status\": \"unresolved\", \"reason\": \"An art RGO/RGM path is not itself a qualified gameplay EBP identity.\", \"stats\": null}, \"encoder_contract\": {\"status\": \"source-preserving-projection\", \"lossless_chunk_sources_retained\": true, \"editable_fields\": [\"positions\", \"normals\", \"UVMap\", \"UV2\", \"material parameters\", \"texture images\"], \"unknown_fields\": \"retained in hash-bound source files; encoder must patch known spans or recook\", \"direct_binary_reencode_enabled\": false, \"official_recook_path\": \"FBX/material/texture source projection -> existing core burner pipeline\", \"confirmed_stock_channel_layouts\": {\"albedoTex\": \"BC1/BC3 sRGB RGB; optional alpha supplied by the semantic slot\", \"normalMap\": \"BC3 R=emissive, G=normal_y, B=ambient_occlusion, A=normal_x\", \"metalTex\": \"BC3 R=metalness, G=dielectric, B=height, A=roughness\", \"maskTex2\": \"BC1 linear R=layer2, G=layer3, B=layer4\", \"maskTex5\": \"BC1 linear R=layer5, G=layer6, B=layer7\"}}}"
+        }
+      },
+      {
+        "name": "sul_outpost_control_age01 \u00b7 main",
+        "type": "MESH",
+        "parent": "AoE4 \u00b7 sul_outpost_control_age01",
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_conversion_status",
+          "garrison_asset_root",
+          "garrison_mesh_index",
+          "garrison_source_part_name",
+          "garrison_group_index",
+          "garrison_material_slot",
+          "garrison_material_assignment_confidence",
+          "garrison_lod_level",
+          "garrison_variant",
+          "garrison_visibility_policy",
+          "garrison_preview_default_visible",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded"
+        },
+        "vertex_count": 8122,
+        "named_vertex_groups": [],
+        "weighted_vertex_count": 0,
+        "armature_modifiers": []
+      },
+      {
+        "name": "sul_outpost_control_age01 \u00b7 misc",
+        "type": "MESH",
+        "parent": "AoE4 \u00b7 sul_outpost_control_age01",
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_conversion_status",
+          "garrison_asset_root",
+          "garrison_mesh_index",
+          "garrison_source_part_name",
+          "garrison_group_index",
+          "garrison_material_slot",
+          "garrison_material_assignment_confidence",
+          "garrison_lod_level",
+          "garrison_variant",
+          "garrison_visibility_policy",
+          "garrison_preview_default_visible",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded"
+        },
+        "vertex_count": 17780,
+        "named_vertex_groups": [],
+        "weighted_vertex_count": 0,
+        "armature_modifiers": []
+      },
+      {
+        "name": "sul_outpost_control_age01 \u00b7 roof",
+        "type": "MESH",
+        "parent": "AoE4 \u00b7 sul_outpost_control_age01",
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_conversion_status",
+          "garrison_asset_root",
+          "garrison_mesh_index",
+          "garrison_source_part_name",
+          "garrison_group_index",
+          "garrison_material_slot",
+          "garrison_material_assignment_confidence",
+          "garrison_lod_level",
+          "garrison_variant",
+          "garrison_visibility_policy",
+          "garrison_preview_default_visible",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded"
+        },
+        "vertex_count": 17621,
+        "named_vertex_groups": [],
+        "weighted_vertex_count": 0,
+        "armature_modifiers": []
+      }
+    ],
+    "native_bound_source_audit": [
+      {
+        "source": "upgrade_cannon_01",
+        "expected_parent_bone": "hlp_upgrade_cannon_01",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "upgrade_arrow_05_combined",
+        "expected_parent_bone": "hlp_upgrade_arrow_05",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "upgrade_arrow_06",
+        "expected_parent_bone": "hlp_upgrade_arrow_06",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "upgrade_arrow_01_combined",
+        "expected_parent_bone": "hlp_upgrade_arrow_01",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "upgrade_springald_01_combined",
+        "expected_parent_bone": "hlp_upgrade_springald_01",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "upgrade_springald_03_combined",
+        "expected_parent_bone": "hlp_upgrade_springald_03",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "upgrade_cannon_02_combined",
+        "expected_parent_bone": "hlp_upgrade_cannon_02",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      }
+    ],
+    "world_pose_qualified": false,
+    "source_pose_qualified": false,
+    "no_skin_weights_is_not_itself_a_failure": true,
+    "skin_palette_contract": {
+      "status": "not_applicable",
+      "bound_group_count": 0,
+      "unbound_group_count": 0,
+      "groups": []
+    }
+  },
+  "mesh_object_names": [
+    "sul_outpost_control_age01 \u00b7 main",
+    "sul_outpost_control_age01 \u00b7 misc",
+    "sul_outpost_control_age01 \u00b7 roof"
+  ],
+  "reference_geometry": {
+    "model": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgm",
+    "coordinate_frame": "Identity-placed Blender reference probe; not native world",
+    "quantization_metres": 1e-05,
+    "expected_triangles": 23553,
+    "imported_triangles": 23553,
+    "missing_triangles": 0,
+    "additional_triangles": 0,
+    "exact_quantized_reference_match": true,
+    "raw_repeated_vertex_index_faces": 0,
+    "expected_triangles_after_repeated_index_filter": 23553,
+    "missing_nonrepeated_index_triangles": 0,
+    "additional_against_repeated_index_filter": 0,
+    "exact_projectable_reference_match": true,
+    "projection_filter_scope": "Only repeated vertex INDEX faces excluded. Zero-area/coincident-position faces with distinct indices remain expected. Original raw manifest retained.",
+    "source_pose_qualified": false
+  },
+  "explicit_reference_hierarchy": {
+    "model": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgm",
+    "collection": "NSRC_outpost_wood_ReferenceHierarchy",
+    "armature": "NSRC_outpost_wood_ReferenceHierarchy_Armature",
+    "object_names": [
+      "NSRC_outpost_wood_ReferenceHierarchy_Armature"
+    ],
+    "bone_count": 7,
+    "reference_bone_audit": {
+      "model": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgm",
+      "bones": [
+        {
+          "name": "hlp_upgrade_cannon_02",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_upgrade_cannon_01",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_upgrade_springald_03",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_upgrade_springald_01",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_upgrade_arrow_05",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_upgrade_arrow_06",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_upgrade_arrow_01",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        }
+      ],
+      "frame": "Armature-local reference comparison; not native world pose",
+      "source_pose_qualified": false
+    },
+    "inverse_reference_contract": {
+      "model": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgm",
+      "bone_count": 7,
+      "bones": [
+        {
+          "name": "hlp_upgrade_cannon_02",
+          "native_index": 0,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              0.0
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "d7b9324b4130bba780377c7fab074c73cda9de5a4d014e3c164e8df88cb34d55"
+        },
+        {
+          "name": "hlp_upgrade_cannon_01",
+          "native_index": 1,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              0.0
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "d7b9324b4130bba780377c7fab074c73cda9de5a4d014e3c164e8df88cb34d55"
+        },
+        {
+          "name": "hlp_upgrade_springald_03",
+          "native_index": 2,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              0.0
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "d7b9324b4130bba780377c7fab074c73cda9de5a4d014e3c164e8df88cb34d55"
+        },
+        {
+          "name": "hlp_upgrade_springald_01",
+          "native_index": 3,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              0.0
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "d7b9324b4130bba780377c7fab074c73cda9de5a4d014e3c164e8df88cb34d55"
+        },
+        {
+          "name": "hlp_upgrade_arrow_05",
+          "native_index": 4,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              0.0
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "d7b9324b4130bba780377c7fab074c73cda9de5a4d014e3c164e8df88cb34d55"
+        },
+        {
+          "name": "hlp_upgrade_arrow_06",
+          "native_index": 5,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              0.0
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "d7b9324b4130bba780377c7fab074c73cda9de5a4d014e3c164e8df88cb34d55"
+        },
+        {
+          "name": "hlp_upgrade_arrow_01",
+          "native_index": 6,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              0.0
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "d7b9324b4130bba780377c7fab074c73cda9de5a4d014e3c164e8df88cb34d55"
+        }
+      ],
+      "native_rgm_sha256": "4cd4f177a84c643303fa5c5d52fa44b7548d43a0f50d58ef62c142831ee47ed9",
+      "SKLN_payload_sha256": "1c7d5d082b50b77c06e6ade6dfbb4d6e31f50c1d62d7129e2a0d6148475007e1",
+      "MSCL_payload_sha256": "7f0f6c83841c59f9646ef2fb603ec9511c5ab122912bca1a4456be9a468ac4c6",
+      "checked_bound_source_count": 7,
+      "maximum_inverse_reference_error": 4.440892098500626e-16,
+      "formula": "B * native_global_reference * K; parent globals recomputed from exact raw local TRS",
+      "qualification": "Exact native reference hierarchy and inverse-reference numeric relation; not engine physical-pivot or animation proof"
+    },
+    "display_tail_length_metres": 0.16,
+    "reference_projection_only": true,
+    "native_engine_physical_pivots_qualified": false,
+    "source_pose_qualified": false,
+    "next_step": "Append object_names to exact public import IDs, then rigid_source_views and reversible pose/static-partition checks"
+  },
+  "reference_bones": [
+    {
+      "model": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgm",
+      "bones": [
+        {
+          "name": "hlp_upgrade_cannon_02",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_upgrade_cannon_01",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_upgrade_springald_03",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_upgrade_springald_01",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_upgrade_arrow_05",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_upgrade_arrow_06",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_upgrade_arrow_01",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        }
+      ],
+      "frame": "Armature-local reference comparison; not native world pose",
+      "source_pose_qualified": false
+    }
+  ],
+  "rigid_views": {
+    "model": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgm",
+    "source_view_objects": [
+      "NSRC_outpost_wood_RigidSources_0",
+      "NSRC_outpost_wood_RigidSources_1",
+      "NSRC_outpost_wood_RigidSources_2",
+      "NSRC_outpost_wood_RigidSources_3",
+      "NSRC_outpost_wood_RigidSources_4",
+      "NSRC_outpost_wood_RigidSources_5",
+      "NSRC_outpost_wood_RigidSources_6",
+      "NSRC_outpost_wood_RigidSources_7",
+      "NSRC_outpost_wood_RigidSources_8",
+      "NSRC_outpost_wood_RigidSources_9",
+      "NSRC_outpost_wood_RigidSources_10",
+      "NSRC_outpost_wood_RigidSources_11",
+      "NSRC_outpost_wood_RigidSources_12",
+      "NSRC_outpost_wood_RigidSources_13",
+      "NSRC_outpost_wood_RigidSources_14",
+      "NSRC_outpost_wood_RigidSources_15",
+      "NSRC_outpost_wood_RigidSources_16",
+      "NSRC_outpost_wood_RigidSources_17",
+      "NSRC_outpost_wood_RigidSources_18",
+      "NSRC_outpost_wood_RigidSources_19",
+      "NSRC_outpost_wood_RigidSources_20",
+      "NSRC_outpost_wood_RigidSources_21",
+      "NSRC_outpost_wood_RigidSources_22",
+      "NSRC_outpost_wood_RigidSources_23",
+      "NSRC_outpost_wood_RigidSources_24",
+      "NSRC_outpost_wood_RigidSources_25",
+      "NSRC_outpost_wood_RigidSources_26",
+      "NSRC_outpost_wood_RigidSources_27",
+      "NSRC_outpost_wood_RigidSources_28",
+      "NSRC_outpost_wood_RigidSources_29",
+      "NSRC_outpost_wood_RigidSources_30",
+      "NSRC_outpost_wood_RigidSources_31",
+      "NSRC_outpost_wood_RigidSources_32",
+      "NSRC_outpost_wood_RigidSources_33",
+      "NSRC_outpost_wood_RigidSources_34",
+      "NSRC_outpost_wood_RigidSources_35",
+      "NSRC_outpost_wood_RigidSources_36",
+      "NSRC_outpost_wood_RigidSources_37",
+      "NSRC_outpost_wood_RigidSources_38",
+      "NSRC_outpost_wood_RigidSources_39",
+      "NSRC_outpost_wood_RigidSources_40",
+      "NSRC_outpost_wood_RigidSources_41",
+      "NSRC_outpost_wood_RigidSources_42",
+      "NSRC_outpost_wood_RigidSources_43",
+      "NSRC_outpost_wood_RigidSources_44",
+      "NSRC_outpost_wood_RigidSources_45",
+      "NSRC_outpost_wood_RigidSources_46",
+      "NSRC_outpost_wood_RigidSources_47",
+      "NSRC_outpost_wood_RigidSources_48",
+      "NSRC_outpost_wood_RigidSources_49",
+      "NSRC_outpost_wood_RigidSources_50",
+      "NSRC_outpost_wood_RigidSources_51",
+      "NSRC_outpost_wood_RigidSources_52",
+      "NSRC_outpost_wood_RigidSources_53",
+      "NSRC_outpost_wood_RigidSources_54",
+      "NSRC_outpost_wood_RigidSources_55",
+      "NSRC_outpost_wood_RigidSources_56",
+      "NSRC_outpost_wood_RigidSources_57",
+      "NSRC_outpost_wood_RigidSources_58",
+      "NSRC_outpost_wood_RigidSources_59",
+      "NSRC_outpost_wood_RigidSources_60",
+      "NSRC_outpost_wood_RigidSources_61",
+      "NSRC_outpost_wood_RigidSources_62",
+      "NSRC_outpost_wood_RigidSources_63",
+      "NSRC_outpost_wood_RigidSources_64",
+      "NSRC_outpost_wood_RigidSources_65",
+      "NSRC_outpost_wood_RigidSources_66",
+      "NSRC_outpost_wood_RigidSources_67",
+      "NSRC_outpost_wood_RigidSources_68",
+      "NSRC_outpost_wood_RigidSources_69",
+      "NSRC_outpost_wood_RigidSources_70",
+      "NSRC_outpost_wood_RigidSources_71",
+      "NSRC_outpost_wood_RigidSources_72",
+      "NSRC_outpost_wood_RigidSources_73",
+      "NSRC_outpost_wood_RigidSources_74",
+      "NSRC_outpost_wood_RigidSources_75",
+      "NSRC_outpost_wood_RigidSources_76",
+      "NSRC_outpost_wood_RigidSources_77",
+      "NSRC_outpost_wood_RigidSources_78",
+      "NSRC_outpost_wood_RigidSources_79",
+      "NSRC_outpost_wood_RigidSources_80",
+      "NSRC_outpost_wood_RigidSources_81",
+      "NSRC_outpost_wood_RigidSources_82",
+      "NSRC_outpost_wood_RigidSources_83",
+      "NSRC_outpost_wood_RigidSources_84",
+      "NSRC_outpost_wood_RigidSources_85",
+      "NSRC_outpost_wood_RigidSources_86",
+      "NSRC_outpost_wood_RigidSources_87",
+      "NSRC_outpost_wood_RigidSources_88",
+      "NSRC_outpost_wood_RigidSources_89",
+      "NSRC_outpost_wood_RigidSources_90",
+      "NSRC_outpost_wood_RigidSources_91"
+    ],
+    "armature": "NSRC_outpost_wood_ReferenceHierarchy_Armature",
+    "reference_geometry_preserved": true,
+    "source_pose_qualified": false,
+    "warning": "Rigid inspection reconstruction only; bone rest matrices/pivots and exact native motion still need comparison"
+  },
+  "reversible_pose": {
+    "bone": "hlp_upgrade_cannon_01",
+    "probe_radians": 0.035,
+    "max_Blender_scene_displacement_by_object": {
+      "NSRC_outpost_wood_RigidSources_0": 0.0,
+      "NSRC_outpost_wood_RigidSources_1": 0.0,
+      "NSRC_outpost_wood_RigidSources_2": 0.0,
+      "NSRC_outpost_wood_RigidSources_3": 0.0,
+      "NSRC_outpost_wood_RigidSources_4": 0.0,
+      "NSRC_outpost_wood_RigidSources_5": 0.0,
+      "NSRC_outpost_wood_RigidSources_6": 0.0,
+      "NSRC_outpost_wood_RigidSources_7": 0.0,
+      "NSRC_outpost_wood_RigidSources_8": 0.0,
+      "NSRC_outpost_wood_RigidSources_9": 0.0,
+      "NSRC_outpost_wood_RigidSources_10": 0.0,
+      "NSRC_outpost_wood_RigidSources_11": 0.0,
+      "NSRC_outpost_wood_RigidSources_12": 0.0,
+      "NSRC_outpost_wood_RigidSources_13": 0.0,
+      "NSRC_outpost_wood_RigidSources_14": 0.0,
+      "NSRC_outpost_wood_RigidSources_15": 0.0,
+      "NSRC_outpost_wood_RigidSources_16": 0.0,
+      "NSRC_outpost_wood_RigidSources_17": 0.0,
+      "NSRC_outpost_wood_RigidSources_18": 0.0,
+      "NSRC_outpost_wood_RigidSources_19": 0.0,
+      "NSRC_outpost_wood_RigidSources_20": 0.0,
+      "NSRC_outpost_wood_RigidSources_21": 0.0,
+      "NSRC_outpost_wood_RigidSources_22": 0.0,
+      "NSRC_outpost_wood_RigidSources_23": 0.0,
+      "NSRC_outpost_wood_RigidSources_24": 0.0,
+      "NSRC_outpost_wood_RigidSources_25": 0.0,
+      "NSRC_outpost_wood_RigidSources_26": 0.0,
+      "NSRC_outpost_wood_RigidSources_27": 0.0,
+      "NSRC_outpost_wood_RigidSources_28": 0.0,
+      "NSRC_outpost_wood_RigidSources_29": 0.0,
+      "NSRC_outpost_wood_RigidSources_30": 0.0,
+      "NSRC_outpost_wood_RigidSources_31": 0.0,
+      "NSRC_outpost_wood_RigidSources_32": 0.0,
+      "NSRC_outpost_wood_RigidSources_33": 0.0,
+      "NSRC_outpost_wood_RigidSources_34": 0.0,
+      "NSRC_outpost_wood_RigidSources_35": 0.0,
+      "NSRC_outpost_wood_RigidSources_36": 0.0,
+      "NSRC_outpost_wood_RigidSources_37": 0.0,
+      "NSRC_outpost_wood_RigidSources_38": 0.0,
+      "NSRC_outpost_wood_RigidSources_39": 0.0,
+      "NSRC_outpost_wood_RigidSources_40": 0.0,
+      "NSRC_outpost_wood_RigidSources_41": 0.0,
+      "NSRC_outpost_wood_RigidSources_42": 0.0,
+      "NSRC_outpost_wood_RigidSources_43": 0.0,
+      "NSRC_outpost_wood_RigidSources_44": 0.0,
+      "NSRC_outpost_wood_RigidSources_45": 0.0,
+      "NSRC_outpost_wood_RigidSources_46": 0.0,
+      "NSRC_outpost_wood_RigidSources_47": 0.0,
+      "NSRC_outpost_wood_RigidSources_48": 0.0,
+      "NSRC_outpost_wood_RigidSources_49": 0.0,
+      "NSRC_outpost_wood_RigidSources_50": 0.0,
+      "NSRC_outpost_wood_RigidSources_51": 0.0,
+      "NSRC_outpost_wood_RigidSources_52": 0.0,
+      "NSRC_outpost_wood_RigidSources_53": 0.0,
+      "NSRC_outpost_wood_RigidSources_54": 0.0,
+      "NSRC_outpost_wood_RigidSources_55": 0.0,
+      "NSRC_outpost_wood_RigidSources_56": 0.0,
+      "NSRC_outpost_wood_RigidSources_57": 0.0,
+      "NSRC_outpost_wood_RigidSources_58": 0.0,
+      "NSRC_outpost_wood_RigidSources_59": 0.0,
+      "NSRC_outpost_wood_RigidSources_60": 0.0,
+      "NSRC_outpost_wood_RigidSources_61": 0.0,
+      "NSRC_outpost_wood_RigidSources_62": 0.0,
+      "NSRC_outpost_wood_RigidSources_63": 0.0,
+      "NSRC_outpost_wood_RigidSources_64": 0.0,
+      "NSRC_outpost_wood_RigidSources_65": 0.0,
+      "NSRC_outpost_wood_RigidSources_66": 0.0,
+      "NSRC_outpost_wood_RigidSources_67": 0.0,
+      "NSRC_outpost_wood_RigidSources_68": 0.0,
+      "NSRC_outpost_wood_RigidSources_69": 0.0,
+      "NSRC_outpost_wood_RigidSources_70": 0.0,
+      "NSRC_outpost_wood_RigidSources_71": 0.0,
+      "NSRC_outpost_wood_RigidSources_72": 0.0,
+      "NSRC_outpost_wood_RigidSources_73": 0.0,
+      "NSRC_outpost_wood_RigidSources_74": 0.0,
+      "NSRC_outpost_wood_RigidSources_75": 0.0,
+      "NSRC_outpost_wood_RigidSources_76": 0.0,
+      "NSRC_outpost_wood_RigidSources_77": 0.0,
+      "NSRC_outpost_wood_RigidSources_78": 0.0,
+      "NSRC_outpost_wood_RigidSources_79": 0.05688583901010671,
+      "NSRC_outpost_wood_RigidSources_80": 0.0,
+      "NSRC_outpost_wood_RigidSources_81": 0.0,
+      "NSRC_outpost_wood_RigidSources_82": 0.0,
+      "NSRC_outpost_wood_RigidSources_83": 0.0,
+      "NSRC_outpost_wood_RigidSources_84": 0.0,
+      "NSRC_outpost_wood_RigidSources_85": 0.0,
+      "NSRC_outpost_wood_RigidSources_86": 0.0,
+      "NSRC_outpost_wood_RigidSources_87": 0.0,
+      "NSRC_outpost_wood_RigidSources_88": 0.0,
+      "NSRC_outpost_wood_RigidSources_89": 0.0,
+      "NSRC_outpost_wood_RigidSources_90": 0.0,
+      "NSRC_outpost_wood_RigidSources_91": 0.0
+    },
+    "restored_reference_max_error": 0.0,
+    "reference_restored": true,
+    "rigid_movement_partition": [
+      {
+        "object": "NSRC_outpost_wood_RigidSources_0",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_1",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_2",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_3",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_4",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_5",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_6",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_7",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_8",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_9",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_10",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_11",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_12",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_13",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_14",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_15",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_16",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_17",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_18",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_19",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_20",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_21",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_22",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_23",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_24",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_25",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_26",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_27",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_28",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_29",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_30",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_31",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_32",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_33",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_34",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_35",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_36",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_37",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_38",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_39",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_40",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_41",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_42",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_43",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_44",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_45",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_46",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_47",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_48",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_49",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_50",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_51",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_52",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_53",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_54",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_55",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_56",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_57",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_58",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_59",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_60",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_61",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_62",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_63",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_64",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_65",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_66",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_67",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_68",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_69",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_70",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_71",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_72",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_73",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_74",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_75",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_76",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_77",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_78",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_79",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_80",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_81",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_82",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_83",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_84",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_85",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_86",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_87",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_88",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_89",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_90",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_outpost_wood_RigidSources_91",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      }
+    ],
+    "keyframes_created": false,
+    "native_world_pose_qualified": false,
+    "qualification": "Reversible source-pose responsiveness only; verify expected bound/static source partition and physical pivot separately"
+  },
+  "sockets": {
+    "model": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgm",
+    "marker_records": [
+      {
+        "object": "NSRC_outpost_wood_Sockets_0",
+        "native_name": "hlp_healthy_geo_prop_12",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_1",
+        "native_name": "fx_muz_arrow_02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_2",
+        "native_name": "fx_critical_damage_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_3",
+        "native_name": "hlp_healthy_geo_prop_05",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_4",
+        "native_name": "fx_muz_cannon_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_5",
+        "native_name": "fx_heraldry",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_6",
+        "native_name": "fx_muz_springald_02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_7",
+        "native_name": "hlp_damaged_geo_wreck_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_8",
+        "native_name": "hlp_healthy_geo_base_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_9",
+        "native_name": "fx_muz_cannon_00",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_10",
+        "native_name": "fx_fire_damage_02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_11",
+        "native_name": "mrk_scaffolding_s_0",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_12",
+        "native_name": "fx_muz_cannon_03",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_13",
+        "native_name": "hlp_healthy_geo_prop_06",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_14",
+        "native_name": "fx_building_damage_02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_15",
+        "native_name": "fx_muz_springald_04",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_16",
+        "native_name": "wep_hardpoint03",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_17",
+        "native_name": "fx_building_damage_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_18",
+        "native_name": "hlp_healthy_geo_prop_13",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_19",
+        "native_name": "fx_muz_cannon_02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_20",
+        "native_name": "fx_muz_springald_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_21",
+        "native_name": "hlp_damaged_geo_wreck_04",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_22",
+        "native_name": "hlp_ruins_geo_wreck_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_23",
+        "native_name": "hlp_ruins_geo_wreck_02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_24",
+        "native_name": "fx_muz_arrow_00",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_25",
+        "native_name": "fx_muz_arrow_03",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_26",
+        "native_name": "fx_impact_ground_02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_27",
+        "native_name": "wep_hardpoint04",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_28",
+        "native_name": "fx_fire_damage_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_29",
+        "native_name": "fx_impact_ground_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_30",
+        "native_name": "wep_hardpoint01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_31",
+        "native_name": "hlp_ruins_geo_base_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_32",
+        "native_name": "hlp_damaged_geo_base_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_33",
+        "native_name": "wep_hardpoint02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_34",
+        "native_name": "fx_muz_springald_03",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_35",
+        "native_name": "hlp_damaged_geo_wreck_02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_36",
+        "native_name": "hlp_ruins_geo_wreck_04",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_37",
+        "native_name": "fx_muz_arrow_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_38",
+        "native_name": "fx_center",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_outpost_wood_Sockets_39",
+        "native_name": "mrk_scaffolding_s_1",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      }
+    ],
+    "native_world_pose_qualified": false
+  },
+  "image_dependencies": [
+    {
+      "name": "00a2880bf731_6708399669590286008_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\00a2880bf731_6708399669590286008_packed.dds"
+    },
+    {
+      "name": "020c1c7c2f5f_5353214082667138300_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\020c1c7c2f5f_5353214082667138300_packed.dds"
+    },
+    {
+      "name": "020d6ccc48c5_16055389955745102068_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\020d6ccc48c5_16055389955745102068_packed.dds"
+    },
+    {
+      "name": "084367467036_10814244130148602656_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\084367467036_10814244130148602656_packed.dds"
+    },
+    {
+      "name": "0d0d8e2d035c_14463274707760256038_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\0d0d8e2d035c_14463274707760256038_packed.dds"
+    },
+    {
+      "name": "0eb8439c962e_black_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\0eb8439c962e_black_msk.dds"
+    },
+    {
+      "name": "1754d19f2037_noise_02_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\1754d19f2037_noise_02_msk.dds"
+    },
+    {
+      "name": "20541db25e50_7266204044315863081_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\20541db25e50_7266204044315863081_packed.dds"
+    },
+    {
+      "name": "2219aa975f24_13477809885520635358_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\2219aa975f24_13477809885520635358_packed.dds"
+    },
+    {
+      "name": "22c1ed3e7bc2_16076287827450372462_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\22c1ed3e7bc2_16076287827450372462_packed.dds"
+    },
+    {
+      "name": "2bea12bb4abc_15145373611479454609_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\2bea12bb4abc_15145373611479454609_packed.dds"
+    },
+    {
+      "name": "311105270000_4452979088582012097_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\311105270000_4452979088582012097_packed.dds"
+    },
+    {
+      "name": "387409c39b1e_3582105961097184256_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\387409c39b1e_3582105961097184256_packed.dds"
+    },
+    {
+      "name": "3c65a0ff38af_16359910029203957817_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\3c65a0ff38af_16359910029203957817_packed.dds"
+    },
+    {
+      "name": "475bc9acf4a0_3806245502923570526_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\475bc9acf4a0_3806245502923570526_packed.dds"
+    },
+    {
+      "name": "47e080e379b0_5454786962469612105_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\47e080e379b0_5454786962469612105_packed.dds"
+    },
+    {
+      "name": "48cddb7559a5_6168797471716932850_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\48cddb7559a5_6168797471716932850_packed.dds"
+    },
+    {
+      "name": "4f285dd37418_168099058656655064_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\4f285dd37418_168099058656655064_packed.dds"
+    },
+    {
+      "name": "5381da0089b5_940685202008631679_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\5381da0089b5_940685202008631679_packed.dds"
+    },
+    {
+      "name": "570e02d83fae_patches_01_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\570e02d83fae_patches_01_msk.dds"
+    },
+    {
+      "name": "57f11cf6fcca_9779992567948095736_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\57f11cf6fcca_9779992567948095736_packed.dds"
+    },
+    {
+      "name": "5d4ef7b92e99_2545594770158528269_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\5d4ef7b92e99_2545594770158528269_packed.dds"
+    },
+    {
+      "name": "5db26348116b_12041615973339707457_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\5db26348116b_12041615973339707457_packed.dds"
+    },
+    {
+      "name": "5f9bd05af7c9_13172195428153707873_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\5f9bd05af7c9_13172195428153707873_packed.dds"
+    },
+    {
+      "name": "5fc583630032_8265643283372413825_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\5fc583630032_8265643283372413825_packed.dds"
+    },
+    {
+      "name": "65f26bec2121_7563849378343465191_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\65f26bec2121_7563849378343465191_packed.dds"
+    },
+    {
+      "name": "6f3011ce41e3_str_damage_charred_01_alb.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\6f3011ce41e3_str_damage_charred_01_alb.dds"
+    },
+    {
+      "name": "6f81fe520eb8_white_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\6f81fe520eb8_white_msk.dds"
+    },
+    {
+      "name": "7076d5e5b5b1_13631000062908908676_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\7076d5e5b5b1_13631000062908908676_packed.dds"
+    },
+    {
+      "name": "749fdf1cd28f_11036164903090725396_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\749fdf1cd28f_11036164903090725396_packed.dds"
+    },
+    {
+      "name": "7673a87f96be_8159667634045765485_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\7673a87f96be_8159667634045765485_packed.dds"
+    },
+    {
+      "name": "794382be660a_10481810468234262313_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\794382be660a_10481810468234262313_packed.dds"
+    },
+    {
+      "name": "7b40de3db86e_13050232062171818572_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\7b40de3db86e_13050232062171818572_packed.dds"
+    },
+    {
+      "name": "7b494a2f28b9_18231663582228185424_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\7b494a2f28b9_18231663582228185424_packed.dds"
+    },
+    {
+      "name": "7be50f6f3786_6567369943232376199_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\7be50f6f3786_6567369943232376199_packed.dds"
+    },
+    {
+      "name": "7daf5f04588c_12238371238700166751_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\7daf5f04588c_12238371238700166751_packed.dds"
+    },
+    {
+      "name": "80618e80782a_1261621370494867862_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\80618e80782a_1261621370494867862_packed.dds"
+    },
+    {
+      "name": "85c59cbb9679_11755559493558267954_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\85c59cbb9679_11755559493558267954_packed.dds"
+    },
+    {
+      "name": "8aef29f7c674_16829290811282025336_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\8aef29f7c674_16829290811282025336_packed.dds"
+    },
+    {
+      "name": "8b40c267a2bf_6526557464448093011_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\8b40c267a2bf_6526557464448093011_packed.dds"
+    },
+    {
+      "name": "90a0ac95bc2b_6231182024022179266_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\90a0ac95bc2b_6231182024022179266_packed.dds"
+    },
+    {
+      "name": "917a195fa6d8_14420659823134052771_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\917a195fa6d8_14420659823134052771_packed.dds"
+    },
+    {
+      "name": "974f8cad2805_14280753757717472514_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\974f8cad2805_14280753757717472514_packed.dds"
+    },
+    {
+      "name": "9b0580f9c890_9588047271182651660_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\9b0580f9c890_9588047271182651660_packed.dds"
+    },
+    {
+      "name": "9d121af4223f_11870108732234244334_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\9d121af4223f_11870108732234244334_packed.dds"
+    },
+    {
+      "name": "9ffc7c966d84_6360044865978419664_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\9ffc7c966d84_6360044865978419664_packed.dds"
+    },
+    {
+      "name": "a90a7b5e9b9e_16982049591069842980_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\a90a7b5e9b9e_16982049591069842980_packed.dds"
+    },
+    {
+      "name": "a9c99e086733_12905800661396229277_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\a9c99e086733_12905800661396229277_packed.dds"
+    },
+    {
+      "name": "b4a337fa0733_942383589919679561_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\b4a337fa0733_942383589919679561_packed.dds"
+    },
+    {
+      "name": "ba3c6d2ca170_9027665386991426331_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\ba3c6d2ca170_9027665386991426331_packed.dds"
+    },
+    {
+      "name": "bc6a19307bd0_13644703210369924864_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\bc6a19307bd0_13644703210369924864_packed.dds"
+    },
+    {
+      "name": "c1eb0b07e1df_leaks_01_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\c1eb0b07e1df_leaks_01_msk.dds"
+    },
+    {
+      "name": "c6ae5f70c76b_14259662789339030955_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\c6ae5f70c76b_14259662789339030955_packed.dds"
+    },
+    {
+      "name": "cec2549b8f99_16288844008555983220_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\cec2549b8f99_16288844008555983220_packed.dds"
+    },
+    {
+      "name": "d314636c3541_2430408601683036952_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\d314636c3541_2430408601683036952_packed.dds"
+    },
+    {
+      "name": "d5ba288445e3_middle_gray_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\d5ba288445e3_middle_gray_msk.dds"
+    },
+    {
+      "name": "d5c6451bb17c_9529285414454481121_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\d5c6451bb17c_9529285414454481121_packed.dds"
+    },
+    {
+      "name": "e17420e5e44a_noise_04_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\e17420e5e44a_noise_04_msk.dds"
+    },
+    {
+      "name": "e56d8f3decf5_7597519659832404014_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\e56d8f3decf5_7597519659832404014_packed.dds"
+    },
+    {
+      "name": "e72f76ec41cc_6066786514291190455_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\e72f76ec41cc_6066786514291190455_packed.dds"
+    },
+    {
+      "name": "e76747582b56_18345724522684246396_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\e76747582b56_18345724522684246396_packed.dds"
+    },
+    {
+      "name": "ef0164b43256_17716732775687444425_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\ef0164b43256_17716732775687444425_packed.dds"
+    },
+    {
+      "name": "f04912e9b532_11978406380669245476_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\f04912e9b532_11978406380669245476_packed.dds"
+    },
+    {
+      "name": "f810df52d0a2_10878935772057367350_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\f810df52d0a2_10878935772057367350_packed.dds"
+    }
+  ],
+  "cached_projection_completed": true,
+  "mechanism_source_qualified": false,
+  "qualification_scope": "Cached public projection completed; inspect geometry, skeleton, binding and pose evidence separately. Success here is not mechanism acceptance.",
+  "saved_file_sha256": "f32f6d64b8455b3de44d51dee380b16ddc2d68f888413a0d4bc151403aab81fa"
+}

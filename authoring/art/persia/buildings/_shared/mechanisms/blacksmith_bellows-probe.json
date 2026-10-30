@@ -1,0 +1,437 @@
+{
+  "target": "blacksmith_bellows",
+  "source_art_only": true,
+  "native_playback_qualified": false,
+  "passed": true,
+  "api": {
+    "module_file": "C:\\Users\\RS\\AppData\\Roaming\\BLENDE~1\\Blender\\5.2\\EXTENS~1\\RAW_GI~1\\garrison\\decode_projection.py",
+    "callables": {
+      "_apply_decoded_static": {
+        "present": true,
+        "signature": "(proxy_object: Any, report: dict[str, typing.Any], *, select_result: bool = True, apply_custom_normals: bool = True, create_controls: bool = False) -> Any",
+        "doc": ""
+      },
+      "_decoded_armature_bones": {
+        "present": true,
+        "signature": "(skeleton: dict[str, typing.Any]) -> list[dict[str, typing.Any]]",
+        "doc": ""
+      }
+    },
+    "observed_UI_call": "_apply_decoded_static(proxy, complete_plan, create_controls=True)",
+    "standalone_cache_hydration_qualified": false
+  },
+  "decoded_bone_projection": {
+    "model": "art/civilizations/common/props/bellows/bellows.rgm",
+    "public_projector_return_type": "list",
+    "public_projector_bones": [],
+    "native_skeleton_bone_count": 0,
+    "manifest_rest_pose": {
+      "status": "not_present"
+    },
+    "manifest_deform_layer": {
+      "status": "not_applicable",
+      "authoritative_source": "RGM_SKLN_SKMS_SKIN",
+      "bone_count": 0,
+      "qualified_palette_count": 0,
+      "skinned_group_count": 0,
+      "weighted_vertex_count": 0,
+      "weights_status": "partial_or_unavailable",
+      "weight_diagnostics": {
+        "status": "observed_decoded_skin_streams",
+        "group_count": 0,
+        "vertex_count": 0,
+        "weighted_vertex_count": 0,
+        "zero_weight_vertex_count": 0,
+        "non_unit_weight_sum_vertex_count": 0,
+        "min_weight_sum": 0.0,
+        "max_weight_sum": 0.0,
+        "max_influences_per_vertex": 0,
+        "groups": []
+      },
+      "display_bones": "non_authoritative_guides_only"
+    },
+    "manifest_rig_projection": {
+      "status": "not_applicable",
+      "required_group_count": 0,
+      "decoded_group_count": 0,
+      "unresolved_group_count": 0,
+      "groups": [],
+      "skeleton_hierarchy_status": "not_present",
+      "skeleton_bone_count": 0,
+      "skeleton_rest_pose_status": "not_present",
+      "qualified_skin_palette_count": 0
+    },
+    "standalone_armature_creation_qualified": false,
+    "native_world_pose_qualified": false
+  },
+  "project": {
+    "model": "art/civilizations/common/props/bellows/bellows.rgm",
+    "collection": "NSRC_blacksmith_bellows",
+    "object_names": [
+      "AoE4 \u00b7 bellows",
+      "bellows \u00b7 bellows"
+    ],
+    "adapter_return_type": "Object",
+    "adapter_return": "bpy.data.objects['AoE4 \u00b7 bellows']",
+    "source_pose_qualified": false
+  },
+  "import_audit": {
+    "model": "art/civilizations/common/props/bellows/bellows.rgm",
+    "actual_objects": [
+      {
+        "name": "AoE4 \u00b7 bellows",
+        "type": "EMPTY",
+        "parent": null,
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_display_name",
+          "garrison_archive_path",
+          "garrison_asset_kind",
+          "garrison_source_asset_kind",
+          "garrison_source_card_path",
+          "garrison_static_companion_policy",
+          "garrison_static_decode_route",
+          "garrison_category",
+          "garrison_civilization",
+          "garrison_archive",
+          "garrison_decode_log",
+          "garrison_conversion_status",
+          "garrison_decode_progress",
+          "garrison_decode_phase",
+          "garrison_conversion_message",
+          "garrison_decode_manifest",
+          "garrison_vertex_count",
+          "garrison_triangle_count",
+          "garrison_projected_triangle_count",
+          "garrison_skipped_degenerate_triangle_count",
+          "garrison_available_group_count",
+          "garrison_projected_group_count",
+          "garrison_visible_preview_group_count",
+          "garrison_lod_policy",
+          "garrison_armature_object",
+          "garrison_skeleton_bone_count",
+          "garrison_skinned_mesh_count",
+          "garrison_material_count",
+          "garrison_texture_count",
+          "garrison_structure_collection_contract_status",
+          "garrison_completeness_status",
+          "garrison_rig_projection_status",
+          "garrison_animation_projection_status",
+          "garrison_animated_asset_plan",
+          "garrison_animation_clip_count",
+          "garrison_animation_action_status",
+          "garrison_animation_source",
+          "garrison_conversion_plan",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded",
+          "garrison_conversion_message": "Decoded 1 mesh parts",
+          "garrison_skipped_degenerate_triangle_count": 0,
+          "garrison_skeleton_bone_count": 0,
+          "garrison_rig_projection_status": "not_applicable",
+          "garrison_animation_projection_status": "not_applicable",
+          "garrison_animation_clip_count": 0,
+          "garrison_animation_action_status": "not_applicable",
+          "garrison_animation_source": "",
+          "garrison_conversion_plan": "{\"status\": \"decoded\", \"completeness\": {\"status\": \"complete\", \"decoded_textures\": 20, \"unsupported_textures\": 0, \"missing_texture_references\": 0, \"non_file_texture_sentinels\": 1, \"rig_projection_status\": \"not_applicable\", \"unresolved_rig_groups\": 0, \"animation_projection_status\": \"not_applicable\"}, \"rig_projection\": {\"status\": \"not_applicable\", \"required_group_count\": 0, \"decoded_group_count\": 0, \"unresolved_group_count\": 0, \"groups\": [], \"skeleton_hierarchy_status\": \"not_present\", \"skeleton_bone_count\": 0, \"skeleton_rest_pose_status\": \"not_present\", \"qualified_skin_palette_count\": 0}, \"animation_projection\": {\"status\": \"not_applicable\", \"resolution\": {\"status\": \"not_applicable\"}, \"template\": {\"status\": \"not_applicable\", \"template_id\": null, \"role\": \"unresolved\", \"source_logical_path\": null, \"clip_inventory_status\": \"unavailable\", \"gameplay_action_mapping_status\": \"not_applicable\", \"family_count\": 0, \"families\": []}, \"clip_count\": 0, \"clips\": [], \"action_import_status\": \"not_applicable\", \"blockers\": []}, \"animated_asset_import_plan\": {\"schema\": \"garrison.animated-asset-import-plan/v1\", \"status\": \"static_asset_ready\", \"source\": {\"logical_path\": \"art/civilizations/common/props/bellows/bellows.rgm\", \"model\": {\"logical_path\": \"art/civilizations/common/props/bellows/bellows.rgm\", \"sha256\": \"2c5fb981a6d6a0b045c2e7465114b324b460fa80a3bdfb9064209ec88a88476a\"}}, \"layers\": {\"geometry\": {\"status\": \"ready\", \"group_count\": 1, \"vertex_count\": 1184, \"triangle_count\": 806}, \"materials\": {\"status\": \"ready\", \"material_count\": 2, \"decoded_texture_count\": 20}, \"deform\": {\"status\": \"not_applicable\", \"authoritative_source\": \"RGM_SKLN_SKMS_SKIN\", \"bone_count\": 0, \"qualified_palette_count\": 0, \"skinned_group_count\": 0, \"weighted_vertex_count\": 0, \"weights_status\": \"partial_or_unavailable\", \"weight_diagnostics\": {\"status\": \"observed_decoded_skin_streams\", \"group_count\": 0, \"vertex_count\": 0, \"weighted_vertex_count\": 0, \"zero_weight_vertex_count\": 0, \"non_unit_weight_sum_vertex_count\": 0, \"min_weight_sum\": 0.0, \"max_weight_sum\": 0.0, \"max_influences_per_vertex\": 0, \"groups\": []}, \"display_bones\": \"non_authoritative_guides_only\"}, \"animation\": {\"status\": \"not_applicable\", \"resolution\": {\"status\": \"not_applicable\"}, \"template\": {\"status\": \"not_applicable\", \"template_id\": null, \"role\": \"unresolved\", \"source_logical_path\": null, \"clip_inventory_status\": \"unavailable\", \"gameplay_action_mapping_status\": \"not_applicable\", \"family_count\": 0, \"families\": []}, \"clip_count\": 0, \"clips\": [], \"action_import_status\": \"not_applicable\", \"blockers\": []}}, \"blender_projection\": {\"mesh_materials\": \"create_now\", \"deform_armature_weights\": \"partial_or_not_applicable\", \"actions\": \"blocked\", \"root_motion\": \"blocked_separate_projection_required\", \"control_rig\": \"deferred_non_authoritative_layer\", \"native_animation_editing\": {\"status\": \"not_applicable\", \"pose_and_weight_editing\": \"not_applicable\", \"user_authored_actions\": \"not_applicable\", \"stock_clip_actions\": \"not_applicable\", \"editors\": [], \"action_data_model\": \"blender_5_2_layered_actions_and_armature_slots\", \"nla_policy\": \"not_applicable\", \"pose_library\": \"not_applicable\", \"source_boundary\": \"native editing never promotes RHKA metadata or candidate samples into a decoded stock Action\"}}, \"retargeting\": {\"status\": \"future_optional_capability\", \"core_dependency\": false, \"policy\": \"capability_probes_for_user_installed_services_and_addons\", \"fallback\": \"native_raw_deform_actions_and_nla\"}, \"claims\": [{\"status\": \"confirmed\", \"claim\": \"decoded geometry and materials share one stock-static import\", \"evidence\": [\"layers.geometry\", \"layers.materials\"]}, {\"status\": \"inferred\", \"claim\": \"qualified RGM palettes bind mesh weights to the authoritative deform armature\", \"evidence\": [\"layers.deform\"]}, {\"status\": \"confirmed\", \"claim\": \"no RHKA binding plan is attached and no animation source is selected\", \"evidence\": [\"layers.animation.status\"]}, {\"status\": \"hypothesis\", \"claim\": \"optional retarget services can improve authoring UX without becoming decoder authorities\", \"evidence\": [\"retargeting\"]}, {\"status\": \"confirmed\", \"claim\": \"native Blender editing is reserved for explicit user-authored or independently qualified Actions\", \"evidence\": [\"blender_projection.native_animation_editing\"]}], \"boundaries\": [\"no Blender Action is created from hierarchy or clip metadata alone\", \"semantic transform samples and a full RHKA-to-RGM basis remain mandatory\", \"root motion is not inferred from hips\", \"retargeting services and add-ons are optional executors\"], \"plan_id\": \"f5c82d1a90ace387d5fbd7ca75fc198ebc51b16b3774124bc9c524e0e154fa26\"}, \"warnings\": [], \"blockers\": [], \"entity_binding\": {\"status\": \"unresolved\", \"reason\": \"An art RGO/RGM path is not itself a qualified gameplay EBP identity.\", \"stats\": null}, \"encoder_contract\": {\"status\": \"source-preserving-projection\", \"lossless_chunk_sources_retained\": true, \"editable_fields\": [\"positions\", \"normals\", \"UVMap\", \"UV2\", \"material parameters\", \"texture images\"], \"unknown_fields\": \"retained in hash-bound source files; encoder must patch known spans or recook\", \"direct_binary_reencode_enabled\": false, \"official_recook_path\": \"FBX/material/texture source projection -> existing core burner pipeline\", \"confirmed_stock_channel_layouts\": {\"albedoTex\": \"BC1/BC3 sRGB RGB; optional alpha supplied by the semantic slot\", \"normalMap\": \"BC3 R=emissive, G=normal_y, B=ambient_occlusion, A=normal_x\", \"metalTex\": \"BC3 R=metalness, G=dielectric, B=height, A=roughness\", \"maskTex2\": \"BC1 linear R=layer2, G=layer3, B=layer4\", \"maskTex5\": \"BC1 linear R=layer5, G=layer6, B=layer7\"}}}"
+        }
+      },
+      {
+        "name": "bellows \u00b7 bellows",
+        "type": "MESH",
+        "parent": "AoE4 \u00b7 bellows",
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_conversion_status",
+          "garrison_asset_root",
+          "garrison_mesh_index",
+          "garrison_source_part_name",
+          "garrison_group_index",
+          "garrison_material_slot",
+          "garrison_material_assignment_confidence",
+          "garrison_lod_level",
+          "garrison_variant",
+          "garrison_visibility_policy",
+          "garrison_preview_default_visible",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded"
+        },
+        "vertex_count": 1184,
+        "named_vertex_groups": [],
+        "weighted_vertex_count": 0,
+        "armature_modifiers": []
+      }
+    ],
+    "native_bound_source_audit": [],
+    "world_pose_qualified": false,
+    "source_pose_qualified": false,
+    "no_skin_weights_is_not_itself_a_failure": true,
+    "skin_palette_contract": {
+      "status": "not_applicable",
+      "bound_group_count": 0,
+      "unbound_group_count": 0,
+      "groups": []
+    }
+  },
+  "mesh_object_names": [
+    "bellows \u00b7 bellows"
+  ],
+  "reference_geometry": {
+    "model": "art/civilizations/common/props/bellows/bellows.rgm",
+    "coordinate_frame": "Identity-placed Blender reference probe; not native world",
+    "quantization_metres": 1e-05,
+    "expected_triangles": 806,
+    "imported_triangles": 806,
+    "missing_triangles": 0,
+    "additional_triangles": 0,
+    "exact_quantized_reference_match": true,
+    "raw_repeated_vertex_index_faces": 0,
+    "expected_triangles_after_repeated_index_filter": 806,
+    "missing_nonrepeated_index_triangles": 0,
+    "additional_against_repeated_index_filter": 0,
+    "exact_projectable_reference_match": true,
+    "projection_filter_scope": "Only repeated vertex INDEX faces excluded. Zero-area/coincident-position faces with distinct indices remain expected. Original raw manifest retained.",
+    "source_pose_qualified": false
+  },
+  "reference_bones": [],
+  "rigid_view_qualification_error": "Traceback (most recent call last):\n  File \"F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\_shared\\probe_native_import.py\", line 32, in main\n    rigid=N.rigid_source_views(target,project['object_names']);doc['rigid_views']=rigid\n  File \"F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\_shared\\native_mechanisms.py\", line 726, in rigid_source_views\n    binding, plan = _bindings(model), retained_plan(target, manifest_path)\n                    ~~~~~~~~~^^^^^^^\n  File \"F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\_shared\\native_mechanisms.py\", line 73, in _bindings\n    raise RuntimeError('No qualified MSCL/SKLN binding inventory for this target; do not invent a rig')\nRuntimeError: No qualified MSCL/SKLN binding inventory for this target; do not invent a rig\n",
+  "sockets": {
+    "model": "art/civilizations/common/props/bellows/bellows.rgm",
+    "marker_records": [
+      {
+        "object": "NSRC_blacksmith_bellows_Sockets_0",
+        "native_name": "mrk_fx01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_blacksmith_bellows_Sockets_1",
+        "native_name": "mrk_fx04",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_blacksmith_bellows_Sockets_2",
+        "native_name": "mrk_fx03",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_blacksmith_bellows_Sockets_3",
+        "native_name": "mrk_fx05",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_blacksmith_bellows_Sockets_4",
+        "native_name": "mrk_fx02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      }
+    ],
+    "native_world_pose_qualified": false
+  },
+  "image_dependencies": [
+    {
+      "name": "032296365f71_16958059157296277627_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\032296365f71_16958059157296277627_packed.dds"
+    },
+    {
+      "name": "16c3f560c6a9_9975474947211593704_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\16c3f560c6a9_9975474947211593704_packed.dds"
+    },
+    {
+      "name": "1754d19f2037_noise_02_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\1754d19f2037_noise_02_msk.dds"
+    },
+    {
+      "name": "1f9de6ec3aa7_9015569867933405553_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\1f9de6ec3aa7_9015569867933405553_packed.dds"
+    },
+    {
+      "name": "26974c8add56_12739525588193220867_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\26974c8add56_12739525588193220867_packed.dds"
+    },
+    {
+      "name": "2cadf66e271a_17827602188748598028_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\2cadf66e271a_17827602188748598028_packed.dds"
+    },
+    {
+      "name": "2dfe8e0f52c5_10258631341892729392_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\2dfe8e0f52c5_10258631341892729392_packed.dds"
+    },
+    {
+      "name": "42f933a1db7c_4654606854657261164_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\42f933a1db7c_4654606854657261164_packed.dds"
+    },
+    {
+      "name": "7c22d0486ae3_13941318900361383208_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\7c22d0486ae3_13941318900361383208_packed.dds"
+    },
+    {
+      "name": "855cd5833259_11354814666121835886_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\855cd5833259_11354814666121835886_packed.dds"
+    },
+    {
+      "name": "869a01710726_5781454954403278728_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\869a01710726_5781454954403278728_packed.dds"
+    },
+    {
+      "name": "94f4addf4e62_6210552344567498668_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\94f4addf4e62_6210552344567498668_packed.dds"
+    },
+    {
+      "name": "96412590465e_10013494484181136093_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\96412590465e_10013494484181136093_packed.dds"
+    },
+    {
+      "name": "9d121af4223f_11870108732234244334_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\9d121af4223f_11870108732234244334_packed.dds"
+    },
+    {
+      "name": "a96041bbf420_3931839379610597857_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\a96041bbf420_3931839379610597857_packed.dds"
+    },
+    {
+      "name": "ab2120457961_9383662019275357276_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\ab2120457961_9383662019275357276_packed.dds"
+    },
+    {
+      "name": "d3783077cd8f_7528673308844090080_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\d3783077cd8f_7528673308844090080_packed.dds"
+    },
+    {
+      "name": "d5ba288445e3_middle_gray_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\d5ba288445e3_middle_gray_msk.dds"
+    },
+    {
+      "name": "e3855518f612_5247744014950306021_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\e3855518f612_5247744014950306021_packed.dds"
+    },
+    {
+      "name": "f274a2dde1b3_9149312462624392865_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\a678476d6b04\\ae05797ba52c78596613\\textures\\f274a2dde1b3_9149312462624392865_packed.dds"
+    }
+  ],
+  "cached_projection_completed": true,
+  "mechanism_source_qualified": false,
+  "qualification_scope": "Cached public projection completed; inspect geometry, skeleton, binding and pose evidence separately. Success here is not mechanism acceptance.",
+  "saved_file_sha256": "a13e90c51c3bb3d0f1c30a3c39f2cb51d7517a3d57a0eb12e5ebe68bee992add"
+}

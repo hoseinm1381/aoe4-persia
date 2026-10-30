@@ -1,0 +1,1809 @@
+{
+  "target": "mining_lift",
+  "source_art_only": true,
+  "native_playback_qualified": false,
+  "passed": true,
+  "api": {
+    "module_file": "C:\\Users\\RS\\AppData\\Roaming\\BLENDE~1\\Blender\\5.2\\EXTENS~1\\RAW_GI~1\\garrison\\decode_projection.py",
+    "callables": {
+      "_apply_decoded_static": {
+        "present": true,
+        "signature": "(proxy_object: Any, report: dict[str, typing.Any], *, select_result: bool = True, apply_custom_normals: bool = True, create_controls: bool = False) -> Any",
+        "doc": ""
+      },
+      "_decoded_armature_bones": {
+        "present": true,
+        "signature": "(skeleton: dict[str, typing.Any]) -> list[dict[str, typing.Any]]",
+        "doc": ""
+      }
+    },
+    "observed_UI_call": "_apply_decoded_static(proxy, complete_plan, create_controls=True)",
+    "standalone_cache_hydration_qualified": false
+  },
+  "decoded_bone_projection": {
+    "model": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm",
+    "public_projector_return_type": "list",
+    "public_projector_bones": [],
+    "native_skeleton_bone_count": 7,
+    "manifest_rest_pose": {
+      "status": "local_reference_transforms_decoded",
+      "transform_count": 7,
+      "space": "parent_local",
+      "semantic": "rest_or_bind_reference_unqualified",
+      "semantic_confidence": "inferred",
+      "record_layout": {
+        "encoding": "float32le",
+        "bytes": 40,
+        "components": [
+          "quaternion_xyzw",
+          "translation_xyz",
+          "scale_xyz"
+        ]
+      },
+      "block_offset_in_skln": 213,
+      "block_bytes": 280,
+      "block_sha256": "0b25ed96a04ebc5816b18d9235398bf83d5608cf56ef4fb757afaedf1459b7c5",
+      "opaque_prefix_bytes": 58,
+      "opaque_prefix_sha256": "d7894503ce5b9f8091b14bf008c4ca623a9e14983e7eb7f9c533fce03fa62159",
+      "validation": {
+        "quaternion_norm_min": 0.99999996373991,
+        "quaternion_norm_max": 1.000000001891357,
+        "quaternion_norm_max_error": 3.626009004165098e-08,
+        "translation_min": -4.197896480560303,
+        "translation_max": 3.3959131240844727,
+        "scale_min": 1.0,
+        "scale_max": 1.0
+      }
+    },
+    "manifest_deform_layer": {
+      "status": "partial",
+      "authoritative_source": "RGM_SKLN_SKMS_SKIN",
+      "bone_count": 7,
+      "qualified_palette_count": 0,
+      "skinned_group_count": 0,
+      "weighted_vertex_count": 0,
+      "weights_status": "partial_or_unavailable",
+      "weight_diagnostics": {
+        "status": "observed_decoded_skin_streams",
+        "group_count": 0,
+        "vertex_count": 0,
+        "weighted_vertex_count": 0,
+        "zero_weight_vertex_count": 0,
+        "non_unit_weight_sum_vertex_count": 0,
+        "min_weight_sum": 0.0,
+        "max_weight_sum": 0.0,
+        "max_influences_per_vertex": 0,
+        "groups": []
+      },
+      "display_bones": "non_authoritative_guides_only"
+    },
+    "manifest_rig_projection": {
+      "status": "not_applicable",
+      "required_group_count": 0,
+      "decoded_group_count": 0,
+      "unresolved_group_count": 0,
+      "groups": [],
+      "skeleton_hierarchy_status": "hierarchy_decoded",
+      "skeleton_bone_count": 7,
+      "skeleton_rest_pose_status": "local_reference_transforms_decoded",
+      "qualified_skin_palette_count": 0
+    },
+    "standalone_armature_creation_qualified": false,
+    "native_world_pose_qualified": false
+  },
+  "project": {
+    "model": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm",
+    "collection": "NSRC_mining_lift",
+    "object_names": [
+      "AoE4 \u00b7 com_mining_camp_combined",
+      "com_mining_camp_combined \u00b7 mining_crane",
+      "com_mining_camp_combined \u00b7 mining_furnace",
+      "NSRC_mining_lift_ReferenceHierarchy_Armature"
+    ],
+    "adapter_return_type": "Object",
+    "adapter_return": "bpy.data.objects['AoE4 \u00b7 com_mining_camp_combined']",
+    "source_pose_qualified": false
+  },
+  "import_audit": {
+    "model": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm",
+    "actual_objects": [
+      {
+        "name": "AoE4 \u00b7 com_mining_camp_combined",
+        "type": "EMPTY",
+        "parent": null,
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_display_name",
+          "garrison_archive_path",
+          "garrison_asset_kind",
+          "garrison_source_asset_kind",
+          "garrison_source_card_path",
+          "garrison_static_companion_policy",
+          "garrison_static_decode_route",
+          "garrison_category",
+          "garrison_civilization",
+          "garrison_archive",
+          "garrison_decode_log",
+          "garrison_conversion_status",
+          "garrison_decode_progress",
+          "garrison_decode_phase",
+          "garrison_conversion_message",
+          "garrison_decode_manifest",
+          "garrison_vertex_count",
+          "garrison_triangle_count",
+          "garrison_projected_triangle_count",
+          "garrison_skipped_degenerate_triangle_count",
+          "garrison_available_group_count",
+          "garrison_projected_group_count",
+          "garrison_visible_preview_group_count",
+          "garrison_lod_policy",
+          "garrison_armature_object",
+          "garrison_skeleton_bone_count",
+          "garrison_skinned_mesh_count",
+          "garrison_material_count",
+          "garrison_texture_count",
+          "garrison_structure_collection_contract_status",
+          "garrison_completeness_status",
+          "garrison_rig_projection_status",
+          "garrison_animation_projection_status",
+          "garrison_animated_asset_plan",
+          "garrison_animation_clip_count",
+          "garrison_animation_action_status",
+          "garrison_animation_source",
+          "garrison_conversion_plan",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded",
+          "garrison_conversion_message": "Decoded 2 mesh parts",
+          "garrison_skipped_degenerate_triangle_count": 0,
+          "garrison_skeleton_bone_count": 7,
+          "garrison_rig_projection_status": "not_applicable",
+          "garrison_animation_projection_status": "binding_plan_not_attached",
+          "garrison_animation_clip_count": 0,
+          "garrison_animation_action_status": "blocked",
+          "garrison_animation_source": "",
+          "garrison_conversion_plan": "{\"status\": \"decoded\", \"completeness\": {\"status\": \"complete\", \"decoded_textures\": 53, \"unsupported_textures\": 0, \"missing_texture_references\": 0, \"non_file_texture_sentinels\": 1, \"rig_projection_status\": \"not_applicable\", \"unresolved_rig_groups\": 0, \"animation_projection_status\": \"binding_plan_not_attached\"}, \"rig_projection\": {\"status\": \"not_applicable\", \"required_group_count\": 0, \"decoded_group_count\": 0, \"unresolved_group_count\": 0, \"groups\": [], \"skeleton_hierarchy_status\": \"hierarchy_decoded\", \"skeleton_bone_count\": 7, \"skeleton_rest_pose_status\": \"local_reference_transforms_decoded\", \"qualified_skin_palette_count\": 0}, \"animation_projection\": {\"status\": \"binding_plan_not_attached\", \"resolution\": {\"status\": \"not_configured\"}, \"template\": {\"status\": \"not_resolved\", \"template_id\": null, \"role\": \"unresolved\", \"source_logical_path\": null, \"clip_inventory_status\": \"unavailable\", \"gameplay_action_mapping_status\": \"not_decoded\", \"family_count\": 0, \"families\": []}, \"clip_count\": 0, \"clips\": [], \"action_import_status\": \"blocked\", \"blockers\": [\"animation_binding_plan\"], \"discovery\": {\"status\": \"no_linked_library\", \"rgm_sha256\": \"2fe9121f3dc2673c266b4c47d00a63767300d7dfb9b811274f8f616e69c36a72\", \"requested_logical_path\": \"art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo\", \"candidates\": [], \"warnings\": [\"No direct stock attachment route found\"], \"available_owners\": [], \"selected_owner\": null}}, \"animated_asset_import_plan\": {\"schema\": \"garrison.animated-asset-import-plan/v1\", \"status\": \"deform_ready_animation_binding_missing\", \"source\": {\"logical_path\": \"art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm\", \"model\": {\"logical_path\": \"art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm\", \"sha256\": \"2fe9121f3dc2673c266b4c47d00a63767300d7dfb9b811274f8f616e69c36a72\"}}, \"layers\": {\"geometry\": {\"status\": \"ready\", \"group_count\": 2, \"vertex_count\": 11125, \"triangle_count\": 6998}, \"materials\": {\"status\": \"ready\", \"material_count\": 4, \"decoded_texture_count\": 53}, \"deform\": {\"status\": \"partial\", \"authoritative_source\": \"RGM_SKLN_SKMS_SKIN\", \"bone_count\": 7, \"qualified_palette_count\": 0, \"skinned_group_count\": 0, \"weighted_vertex_count\": 0, \"weights_status\": \"partial_or_unavailable\", \"weight_diagnostics\": {\"status\": \"observed_decoded_skin_streams\", \"group_count\": 0, \"vertex_count\": 0, \"weighted_vertex_count\": 0, \"zero_weight_vertex_count\": 0, \"non_unit_weight_sum_vertex_count\": 0, \"min_weight_sum\": 0.0, \"max_weight_sum\": 0.0, \"max_influences_per_vertex\": 0, \"groups\": []}, \"display_bones\": \"non_authoritative_guides_only\"}, \"animation\": {\"status\": \"binding_plan_not_attached\", \"resolution\": {\"status\": \"not_configured\"}, \"template\": {\"status\": \"not_resolved\", \"template_id\": null, \"role\": \"unresolved\", \"source_logical_path\": null, \"clip_inventory_status\": \"unavailable\", \"gameplay_action_mapping_status\": \"not_decoded\", \"family_count\": 0, \"families\": []}, \"clip_count\": 0, \"clips\": [], \"action_import_status\": \"blocked\", \"blockers\": [\"animation_binding_plan\"], \"discovery\": {\"status\": \"no_linked_library\", \"rgm_sha256\": \"2fe9121f3dc2673c266b4c47d00a63767300d7dfb9b811274f8f616e69c36a72\", \"requested_logical_path\": \"art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo\", \"candidates\": [], \"warnings\": [\"No direct stock attachment route found\"], \"available_owners\": [], \"selected_owner\": null}}}, \"blender_projection\": {\"mesh_materials\": \"create_now\", \"deform_armature_weights\": \"partial_or_not_applicable\", \"actions\": \"blocked\", \"root_motion\": \"blocked_separate_projection_required\", \"control_rig\": \"deferred_non_authoritative_layer\", \"native_animation_editing\": {\"status\": \"blocked_partial_deform_rig\", \"pose_and_weight_editing\": \"blocked\", \"user_authored_actions\": \"blocked\", \"stock_clip_actions\": \"qualified_clip_payload_required\", \"editors\": [], \"action_data_model\": \"blender_5_2_layered_actions_and_armature_slots\", \"nla_policy\": \"blocked_until_deform_rig_is_ready\", \"pose_library\": \"blocked\", \"source_boundary\": \"native editing never promotes RHKA metadata or candidate samples into a decoded stock Action\"}}, \"retargeting\": {\"status\": \"future_optional_capability\", \"core_dependency\": false, \"policy\": \"capability_probes_for_user_installed_services_and_addons\", \"fallback\": \"native_raw_deform_actions_and_nla\"}, \"claims\": [{\"status\": \"confirmed\", \"claim\": \"decoded geometry and materials share one stock-static import\", \"evidence\": [\"layers.geometry\", \"layers.materials\"]}, {\"status\": \"inferred\", \"claim\": \"qualified RGM palettes bind mesh weights to the authoritative deform armature\", \"evidence\": [\"layers.deform\"]}, {\"status\": \"inferred\", \"claim\": \"linked-library discovery is a preview candidate, not runtime action selection\", \"evidence\": [\"layers.animation.discovery\"]}, {\"status\": \"hypothesis\", \"claim\": \"optional retarget services can improve authoring UX without becoming decoder authorities\", \"evidence\": [\"retargeting\"]}, {\"status\": \"confirmed\", \"claim\": \"native Blender editing is reserved for explicit user-authored or independently qualified Actions\", \"evidence\": [\"blender_projection.native_animation_editing\"]}], \"boundaries\": [\"no Blender Action is created from hierarchy or clip metadata alone\", \"semantic transform samples and a full RHKA-to-RGM basis remain mandatory\", \"root motion is not inferred from hips\", \"retargeting services and add-ons are optional executors\"], \"plan_id\": \"e667d6336d3442962c1baad679906b6642c7f0a2e98ac944bca4f099396e409d\"}, \"warnings\": [], \"blockers\": [], \"entity_binding\": {\"status\": \"unresolved\", \"reason\": \"An art RGO/RGM path is not itself a qualified gameplay EBP identity.\", \"stats\": null}, \"encoder_contract\": {\"status\": \"source-preserving-projection\", \"lossless_chunk_sources_retained\": true, \"editable_fields\": [\"positions\", \"normals\", \"UVMap\", \"UV2\", \"material parameters\", \"texture images\"], \"unknown_fields\": \"retained in hash-bound source files; encoder must patch known spans or recook\", \"direct_binary_reencode_enabled\": false, \"official_recook_path\": \"FBX/material/texture source projection -> existing core burner pipeline\", \"confirmed_stock_channel_layouts\": {\"albedoTex\": \"BC1/BC3 sRGB RGB; optional alpha supplied by the semantic slot\", \"normalMap\": \"BC3 R=emissive, G=normal_y, B=ambient_occlusion, A=normal_x\", \"metalTex\": \"BC3 R=metalness, G=dielectric, B=height, A=roughness\", \"maskTex2\": \"BC1 linear R=layer2, G=layer3, B=layer4\", \"maskTex5\": \"BC1 linear R=layer5, G=layer6, B=layer7\"}}}"
+        }
+      },
+      {
+        "name": "com_mining_camp_combined \u00b7 mining_crane",
+        "type": "MESH",
+        "parent": "AoE4 \u00b7 com_mining_camp_combined",
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_conversion_status",
+          "garrison_asset_root",
+          "garrison_mesh_index",
+          "garrison_source_part_name",
+          "garrison_group_index",
+          "garrison_material_slot",
+          "garrison_material_assignment_confidence",
+          "garrison_lod_level",
+          "garrison_variant",
+          "garrison_visibility_policy",
+          "garrison_preview_default_visible",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded"
+        },
+        "vertex_count": 8831,
+        "named_vertex_groups": [],
+        "weighted_vertex_count": 0,
+        "armature_modifiers": []
+      },
+      {
+        "name": "com_mining_camp_combined \u00b7 mining_furnace",
+        "type": "MESH",
+        "parent": "AoE4 \u00b7 com_mining_camp_combined",
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_conversion_status",
+          "garrison_asset_root",
+          "garrison_mesh_index",
+          "garrison_source_part_name",
+          "garrison_group_index",
+          "garrison_material_slot",
+          "garrison_material_assignment_confidence",
+          "garrison_lod_level",
+          "garrison_variant",
+          "garrison_visibility_policy",
+          "garrison_preview_default_visible",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded"
+        },
+        "vertex_count": 2294,
+        "named_vertex_groups": [],
+        "weighted_vertex_count": 0,
+        "armature_modifiers": []
+      }
+    ],
+    "native_bound_source_audit": [
+      {
+        "source": "geo_prop_10",
+        "expected_parent_bone": "bone_crate_orientation",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_prop_00",
+        "expected_parent_bone": "bone_crate_orientation",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_frag_19",
+        "expected_parent_bone": "bone_crane_turn",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_frag_24",
+        "expected_parent_bone": "bone_crate_orientation",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_prop_03",
+        "expected_parent_bone": "bone_stones_orientation",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_frag_00",
+        "expected_parent_bone": "bone_stones_orientation",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_prop_01",
+        "expected_parent_bone": "bone_stones_orientation",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_prop_04",
+        "expected_parent_bone": "bone_stones_orientation",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_prop_02",
+        "expected_parent_bone": "bone_stones_orientation",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_frag_09",
+        "expected_parent_bone": "bone_crane_tilt",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_frag_23",
+        "expected_parent_bone": "bone_crane_tilt",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_wreck_01",
+        "expected_parent_bone": "bone_crane_turn",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_frag_10",
+        "expected_parent_bone": "bone_crane_tilt",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_wreck_09",
+        "expected_parent_bone": "bone_crane_turn",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_frag_08",
+        "expected_parent_bone": "bone_crane_turn",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_frag_11",
+        "expected_parent_bone": "bone_crane_turn",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_frag_12",
+        "expected_parent_bone": "bone_crane_turn",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_frag_13",
+        "expected_parent_bone": "bone_crane_turn",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_frag_20",
+        "expected_parent_bone": "bone_crane_turn",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      }
+    ],
+    "world_pose_qualified": false,
+    "source_pose_qualified": false,
+    "no_skin_weights_is_not_itself_a_failure": true,
+    "skin_palette_contract": {
+      "status": "not_applicable",
+      "bound_group_count": 0,
+      "unbound_group_count": 0,
+      "groups": []
+    }
+  },
+  "mesh_object_names": [
+    "com_mining_camp_combined \u00b7 mining_crane",
+    "com_mining_camp_combined \u00b7 mining_furnace"
+  ],
+  "reference_geometry": {
+    "model": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm",
+    "coordinate_frame": "Identity-placed Blender reference probe; not native world",
+    "quantization_metres": 1e-05,
+    "expected_triangles": 6998,
+    "imported_triangles": 6998,
+    "missing_triangles": 0,
+    "additional_triangles": 0,
+    "exact_quantized_reference_match": true,
+    "raw_repeated_vertex_index_faces": 0,
+    "expected_triangles_after_repeated_index_filter": 6998,
+    "missing_nonrepeated_index_triangles": 0,
+    "additional_against_repeated_index_filter": 0,
+    "exact_projectable_reference_match": true,
+    "projection_filter_scope": "Only repeated vertex INDEX faces excluded. Zero-area/coincident-position faces with distinct indices remain expected. Original raw manifest retained.",
+    "source_pose_qualified": false
+  },
+  "explicit_reference_hierarchy": {
+    "model": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm",
+    "collection": "NSRC_mining_lift_ReferenceHierarchy",
+    "armature": "NSRC_mining_lift_ReferenceHierarchy_Armature",
+    "object_names": [
+      "NSRC_mining_lift_ReferenceHierarchy_Armature"
+    ],
+    "bone_count": 7,
+    "reference_bone_audit": {
+      "model": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm",
+      "bones": [
+        {
+          "name": "bone_root",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_crane_turn",
+          "present": true,
+          "expected_parent": "bone_root",
+          "actual_parent": "bone_root",
+          "maximum_matrix_residual": 2.0954757928848267e-09,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_crane_tilt",
+          "present": true,
+          "expected_parent": "bone_crane_turn",
+          "actual_parent": "bone_crane_turn",
+          "maximum_matrix_residual": 7.55971996113658e-09,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_stones",
+          "present": true,
+          "expected_parent": "bone_crane_tilt",
+          "actual_parent": "bone_crane_tilt",
+          "maximum_matrix_residual": 4.6566128730773926e-09,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_stones_orientation",
+          "present": true,
+          "expected_parent": "bone_stones",
+          "actual_parent": "bone_stones",
+          "maximum_matrix_residual": 4.6566128730773926e-09,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_crate",
+          "present": true,
+          "expected_parent": "bone_crane_tilt",
+          "actual_parent": "bone_crane_tilt",
+          "maximum_matrix_residual": 4.6566128730773926e-09,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_crate_orientation",
+          "present": true,
+          "expected_parent": "bone_crate",
+          "actual_parent": "bone_crate",
+          "maximum_matrix_residual": 4.6566128730773926e-09,
+          "public_reference_projection_matches": true
+        }
+      ],
+      "frame": "Armature-local reference comparison; not native world pose",
+      "source_pose_qualified": false
+    },
+    "inverse_reference_contract": {
+      "model": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm",
+      "bone_count": 7,
+      "bones": [
+        {
+          "name": "bone_root",
+          "native_index": 0,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.002628921065479517
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              -3.479325823718682e-05
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              -1.8058409690856934
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.002628921065479517,
+            -1.8058409690856934,
+            3.479325823718682e-05,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "94ec47838dead33d0e7d04a5cfe9f740f66141421ce448bfb05e36d6e13113a0"
+        },
+        {
+          "name": "bone_crane_turn",
+          "native_index": 1,
+          "parent_index": 0,
+          "parent_name": "bone_root",
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -6.255158223211765e-05
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              -3.4793258237734125e-05
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.658995389938354
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            -0.0025663694832473993,
+            0.0,
+            2.464836359024048,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "5ca8d2bcc7072bf3b2db6c2b4e36d289523868552bf3cb8437a20a3370dead5d"
+        },
+        {
+          "name": "bone_crane_tilt",
+          "native_index": 2,
+          "parent_index": 1,
+          "parent_name": "bone_crane_turn",
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.00011255463323323056
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              -3.479325823848817e-05
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              4.054908514022825
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            5.000305100111291e-05,
+            0.0,
+            3.3959131240844727,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "30d24fc8058ae87115dbf331ce3fe1b8a87840ed4784034e27f432abe9ecba91"
+        },
+        {
+          "name": "bone_stones",
+          "native_index": 3,
+          "parent_index": 2,
+          "parent_name": "bone_crane_tilt",
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.0026288215231033973
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              2.2736785570377815
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              3.5120179057121264
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0025162668898701668,
+            2.2737133502960205,
+            -0.5428906083106995,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "81a9bb45d917ec29089b727fe026b5b61d49f66aecdf8033206c0576f224549a"
+        },
+        {
+          "name": "bone_stones_orientation",
+          "native_index": 4,
+          "parent_index": 3,
+          "parent_name": "bone_stones",
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.0026288215231033973
+            ],
+            [
+              0.9982307553150288,
+              0.0,
+              0.059458886158308334,
+              2.2736785570377815
+            ],
+            [
+              -0.059458886158308334,
+              0.0,
+              0.9982307553150288,
+              3.5120179057121264
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.02974260039627552,
+            -0.0,
+            0.0,
+            0.9995575547218323,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "3e18aa0d0b2e5d9e059343bbb5cf74befceeec974be45cb11b48386dd219e61b"
+        },
+        {
+          "name": "bone_crate",
+          "native_index": 5,
+          "parent_index": 2,
+          "parent_name": "bone_crane_tilt",
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.0026291046451660804
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              -4.197931273818541
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              5.0957856178283665
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.00251655001193285,
+            -4.197896480560303,
+            1.040877103805542,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "274c87cff03ea1a679e7ff8b0b92ad2566aed61f8a40633e3108b77887f84303"
+        },
+        {
+          "name": "bone_crate_orientation",
+          "native_index": 6,
+          "parent_index": 5,
+          "parent_name": "bone_crate",
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.0026291046451660804
+            ],
+            [
+              0.9999992771789009,
+              0.0,
+              0.0012023484001544285,
+              -4.197931273818541
+            ],
+            [
+              -0.0012023484001544285,
+              0.0,
+              0.9999992771789009,
+              5.095784702301043
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.0006011743098497391,
+            -0.0,
+            0.0,
+            0.9999998211860657,
+            0.0,
+            0.0,
+            -9.155273232863692e-07,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "87f62d8a7fcc14db6c7332eeac3b1c6d72cf82d41cdbe45d498095ee2660d0c8"
+        }
+      ],
+      "native_rgm_sha256": "2fe9121f3dc2673c266b4c47d00a63767300d7dfb9b811274f8f616e69c36a72",
+      "SKLN_payload_sha256": "1cc58b9cbd76369d056ed6f2eaa1bb0719bdaa6321109a12759c3a0cd4dca03e",
+      "MSCL_payload_sha256": "46e37d1f2cab2e7c05b6a1d5f09225e352a51ea3b76681f3367af5c50404b34f",
+      "checked_bound_source_count": 19,
+      "maximum_inverse_reference_error": 1.0694984234520602e-06,
+      "formula": "B * native_global_reference * K; parent globals recomputed from exact raw local TRS",
+      "qualification": "Exact native reference hierarchy and inverse-reference numeric relation; not engine physical-pivot or animation proof"
+    },
+    "display_tail_length_metres": 0.16,
+    "reference_projection_only": true,
+    "native_engine_physical_pivots_qualified": false,
+    "source_pose_qualified": false,
+    "next_step": "Append object_names to exact public import IDs, then rigid_source_views and reversible pose/static-partition checks"
+  },
+  "reference_bones": [
+    {
+      "model": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm",
+      "bones": [
+        {
+          "name": "bone_root",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_crane_turn",
+          "present": true,
+          "expected_parent": "bone_root",
+          "actual_parent": "bone_root",
+          "maximum_matrix_residual": 2.0954757928848267e-09,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_crane_tilt",
+          "present": true,
+          "expected_parent": "bone_crane_turn",
+          "actual_parent": "bone_crane_turn",
+          "maximum_matrix_residual": 7.55971996113658e-09,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_stones",
+          "present": true,
+          "expected_parent": "bone_crane_tilt",
+          "actual_parent": "bone_crane_tilt",
+          "maximum_matrix_residual": 4.6566128730773926e-09,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_stones_orientation",
+          "present": true,
+          "expected_parent": "bone_stones",
+          "actual_parent": "bone_stones",
+          "maximum_matrix_residual": 4.6566128730773926e-09,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_crate",
+          "present": true,
+          "expected_parent": "bone_crane_tilt",
+          "actual_parent": "bone_crane_tilt",
+          "maximum_matrix_residual": 4.6566128730773926e-09,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_crate_orientation",
+          "present": true,
+          "expected_parent": "bone_crate",
+          "actual_parent": "bone_crate",
+          "maximum_matrix_residual": 4.6566128730773926e-09,
+          "public_reference_projection_matches": true
+        }
+      ],
+      "frame": "Armature-local reference comparison; not native world pose",
+      "source_pose_qualified": false
+    }
+  ],
+  "rigid_views": {
+    "model": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm",
+    "source_view_objects": [
+      "NSRC_mining_lift_RigidSources_0",
+      "NSRC_mining_lift_RigidSources_1",
+      "NSRC_mining_lift_RigidSources_2",
+      "NSRC_mining_lift_RigidSources_3",
+      "NSRC_mining_lift_RigidSources_4",
+      "NSRC_mining_lift_RigidSources_5",
+      "NSRC_mining_lift_RigidSources_6",
+      "NSRC_mining_lift_RigidSources_7",
+      "NSRC_mining_lift_RigidSources_8",
+      "NSRC_mining_lift_RigidSources_9",
+      "NSRC_mining_lift_RigidSources_10",
+      "NSRC_mining_lift_RigidSources_11",
+      "NSRC_mining_lift_RigidSources_12",
+      "NSRC_mining_lift_RigidSources_13",
+      "NSRC_mining_lift_RigidSources_14",
+      "NSRC_mining_lift_RigidSources_15",
+      "NSRC_mining_lift_RigidSources_16",
+      "NSRC_mining_lift_RigidSources_17",
+      "NSRC_mining_lift_RigidSources_18",
+      "NSRC_mining_lift_RigidSources_19",
+      "NSRC_mining_lift_RigidSources_20",
+      "NSRC_mining_lift_RigidSources_21",
+      "NSRC_mining_lift_RigidSources_22",
+      "NSRC_mining_lift_RigidSources_23",
+      "NSRC_mining_lift_RigidSources_24",
+      "NSRC_mining_lift_RigidSources_25",
+      "NSRC_mining_lift_RigidSources_26",
+      "NSRC_mining_lift_RigidSources_27",
+      "NSRC_mining_lift_RigidSources_28",
+      "NSRC_mining_lift_RigidSources_29",
+      "NSRC_mining_lift_RigidSources_30",
+      "NSRC_mining_lift_RigidSources_31",
+      "NSRC_mining_lift_RigidSources_32",
+      "NSRC_mining_lift_RigidSources_33",
+      "NSRC_mining_lift_RigidSources_34",
+      "NSRC_mining_lift_RigidSources_35",
+      "NSRC_mining_lift_RigidSources_36",
+      "NSRC_mining_lift_RigidSources_37",
+      "NSRC_mining_lift_RigidSources_38",
+      "NSRC_mining_lift_RigidSources_39",
+      "NSRC_mining_lift_RigidSources_40",
+      "NSRC_mining_lift_RigidSources_41",
+      "NSRC_mining_lift_RigidSources_42",
+      "NSRC_mining_lift_RigidSources_43",
+      "NSRC_mining_lift_RigidSources_44",
+      "NSRC_mining_lift_RigidSources_45",
+      "NSRC_mining_lift_RigidSources_46",
+      "NSRC_mining_lift_RigidSources_47",
+      "NSRC_mining_lift_RigidSources_48",
+      "NSRC_mining_lift_RigidSources_49",
+      "NSRC_mining_lift_RigidSources_50"
+    ],
+    "armature": "NSRC_mining_lift_ReferenceHierarchy_Armature",
+    "reference_geometry_preserved": true,
+    "source_pose_qualified": false,
+    "warning": "Rigid inspection reconstruction only; bone rest matrices/pivots and exact native motion still need comparison"
+  },
+  "reversible_pose": {
+    "bone": "bone_crane_turn",
+    "probe_radians": 0.035,
+    "max_Blender_scene_displacement_by_object": {
+      "NSRC_mining_lift_RigidSources_0": 0.0,
+      "NSRC_mining_lift_RigidSources_1": 0.0,
+      "NSRC_mining_lift_RigidSources_2": 0.0,
+      "NSRC_mining_lift_RigidSources_3": 0.0,
+      "NSRC_mining_lift_RigidSources_4": 0.0,
+      "NSRC_mining_lift_RigidSources_5": 0.0,
+      "NSRC_mining_lift_RigidSources_6": 0.0,
+      "NSRC_mining_lift_RigidSources_7": 0.0,
+      "NSRC_mining_lift_RigidSources_8": 0.0,
+      "NSRC_mining_lift_RigidSources_9": 0.0,
+      "NSRC_mining_lift_RigidSources_10": 0.0,
+      "NSRC_mining_lift_RigidSources_11": 0.0,
+      "NSRC_mining_lift_RigidSources_12": 0.0,
+      "NSRC_mining_lift_RigidSources_13": 0.0,
+      "NSRC_mining_lift_RigidSources_14": 0.0,
+      "NSRC_mining_lift_RigidSources_15": 0.16534478666947547,
+      "NSRC_mining_lift_RigidSources_16": 0.0,
+      "NSRC_mining_lift_RigidSources_17": 0.1749140920532524,
+      "NSRC_mining_lift_RigidSources_18": 0.023529498025562052,
+      "NSRC_mining_lift_RigidSources_19": 0.17861418388168868,
+      "NSRC_mining_lift_RigidSources_20": 0.0951085143793897,
+      "NSRC_mining_lift_RigidSources_21": 0.10247229931575284,
+      "NSRC_mining_lift_RigidSources_22": 0.09964290179138126,
+      "NSRC_mining_lift_RigidSources_23": 0.07416545411529422,
+      "NSRC_mining_lift_RigidSources_24": 0.08971482140415439,
+      "NSRC_mining_lift_RigidSources_25": 0.09597135959743872,
+      "NSRC_mining_lift_RigidSources_26": 0.15520489107436963,
+      "NSRC_mining_lift_RigidSources_27": 0.023527760105274475,
+      "NSRC_mining_lift_RigidSources_28": 0.08765408438483592,
+      "NSRC_mining_lift_RigidSources_29": 0.007000140141777488,
+      "NSRC_mining_lift_RigidSources_30": 0.016436319844422675,
+      "NSRC_mining_lift_RigidSources_31": 0.012402144685902046,
+      "NSRC_mining_lift_RigidSources_32": 0.012397851265101345,
+      "NSRC_mining_lift_RigidSources_33": 0.007000140141777488,
+      "NSRC_mining_lift_RigidSources_34": 0.023524674207333805,
+      "NSRC_mining_lift_RigidSources_35": 0.0,
+      "NSRC_mining_lift_RigidSources_36": 0.0,
+      "NSRC_mining_lift_RigidSources_37": 0.0,
+      "NSRC_mining_lift_RigidSources_38": 0.0,
+      "NSRC_mining_lift_RigidSources_39": 0.0,
+      "NSRC_mining_lift_RigidSources_40": 0.0,
+      "NSRC_mining_lift_RigidSources_41": 0.0,
+      "NSRC_mining_lift_RigidSources_42": 0.0,
+      "NSRC_mining_lift_RigidSources_43": 0.0,
+      "NSRC_mining_lift_RigidSources_44": 0.0,
+      "NSRC_mining_lift_RigidSources_45": 0.0,
+      "NSRC_mining_lift_RigidSources_46": 0.0,
+      "NSRC_mining_lift_RigidSources_47": 0.0,
+      "NSRC_mining_lift_RigidSources_48": 0.0,
+      "NSRC_mining_lift_RigidSources_49": 0.0,
+      "NSRC_mining_lift_RigidSources_50": 0.0
+    },
+    "restored_reference_max_error": 0.0,
+    "reference_restored": true,
+    "rigid_movement_partition": [
+      {
+        "object": "NSRC_mining_lift_RigidSources_0",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_1",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_2",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_3",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_4",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_5",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_6",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_7",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_8",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_9",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_10",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_11",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_12",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_13",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_14",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_15",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_16",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_17",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_18",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_19",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_20",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_21",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_22",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_23",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_24",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_25",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_26",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_27",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_28",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_29",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_30",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_31",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_32",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_33",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_34",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_35",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_36",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_37",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_38",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_39",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_40",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_41",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_42",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_43",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_44",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_45",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_46",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_47",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_48",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_49",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mining_lift_RigidSources_50",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      }
+    ],
+    "keyframes_created": false,
+    "native_world_pose_qualified": false,
+    "qualification": "Reversible source-pose responsiveness only; verify expected bound/static source partition and physical pivot separately"
+  },
+  "sockets": {
+    "model": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm",
+    "marker_records": [
+      {
+        "object": "NSRC_mining_lift_Sockets_0",
+        "native_name": "mrk_scaffolding_nw_1",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_1",
+        "native_name": "mrk_scaffolding_se_0",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_2",
+        "native_name": "fx_critical_damage_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_3",
+        "native_name": "mrk_scaffolding_ne_0",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_4",
+        "native_name": "mrk_scaffolding_ne_2",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_5",
+        "native_name": "mrk_scaffolding_nw_0",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_6",
+        "native_name": "fx_fire_damage_02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_7",
+        "native_name": "mrk_scaffolding_nw_2",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_8",
+        "native_name": "fx_building_damage_02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_9",
+        "native_name": "mrk_scaffolding_se_2",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_10",
+        "native_name": "fx_chimney_stack",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_11",
+        "native_name": "fx_building_damage_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_12",
+        "native_name": "fx_chimney_furnace",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_13",
+        "native_name": "mrk_scaffolding_sw_0",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_14",
+        "native_name": "mrk_scaffolding_se_1",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_15",
+        "native_name": "fx_impact_ground_02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_16",
+        "native_name": "fx_fire_damage_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_17",
+        "native_name": "fx_impact_ground_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_18",
+        "native_name": "mrk_scaffolding_ne_1",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_19",
+        "native_name": "mrk_scaffolding_sw_2",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_20",
+        "native_name": "mrk_scaffolding_sw_1",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mining_lift_Sockets_21",
+        "native_name": "fx_center",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      }
+    ],
+    "native_world_pose_qualified": false
+  },
+  "image_dependencies": [
+    {
+      "name": "00a2880bf731_6708399669590286008_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\00a2880bf731_6708399669590286008_packed.dds"
+    },
+    {
+      "name": "0af84081aca1_8201879285017940677_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\0af84081aca1_8201879285017940677_packed.dds"
+    },
+    {
+      "name": "0c45aee018f0_1547445083758654824_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\0c45aee018f0_1547445083758654824_packed.dds"
+    },
+    {
+      "name": "1dd1ad54ee97_5980617819465002414_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\1dd1ad54ee97_5980617819465002414_packed.dds"
+    },
+    {
+      "name": "2219aa975f24_13477809885520635358_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\2219aa975f24_13477809885520635358_packed.dds"
+    },
+    {
+      "name": "2559e2731a7e_3276630836538442047_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\2559e2731a7e_3276630836538442047_packed.dds"
+    },
+    {
+      "name": "337618354436_17172174451991310957_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\337618354436_17172174451991310957_packed.dds"
+    },
+    {
+      "name": "387409c39b1e_3582105961097184256_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\387409c39b1e_3582105961097184256_packed.dds"
+    },
+    {
+      "name": "3a1f9dc8f631_2246203810557846633_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\3a1f9dc8f631_2246203810557846633_packed.dds"
+    },
+    {
+      "name": "3cb780c39687_1593384043222372501_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\3cb780c39687_1593384043222372501_packed.dds"
+    },
+    {
+      "name": "4262399d98b8_14215314294691043444_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\4262399d98b8_14215314294691043444_packed.dds"
+    },
+    {
+      "name": "47e080e379b0_5454786962469612105_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\47e080e379b0_5454786962469612105_packed.dds"
+    },
+    {
+      "name": "486f820d4832_9698166401299165299_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\486f820d4832_9698166401299165299_packed.dds"
+    },
+    {
+      "name": "502bb6f9929d_11186278755977124889_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\502bb6f9929d_11186278755977124889_packed.dds"
+    },
+    {
+      "name": "5381da0089b5_940685202008631679_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\5381da0089b5_940685202008631679_packed.dds"
+    },
+    {
+      "name": "570e02d83fae_patches_01_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\570e02d83fae_patches_01_msk.dds"
+    },
+    {
+      "name": "5d53df7b2cb3_6644701072977778397_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\5d53df7b2cb3_6644701072977778397_packed.dds"
+    },
+    {
+      "name": "5db26348116b_12041615973339707457_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\5db26348116b_12041615973339707457_packed.dds"
+    },
+    {
+      "name": "6132d6cfedc9_546142312074067063_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\6132d6cfedc9_546142312074067063_packed.dds"
+    },
+    {
+      "name": "6f3011ce41e3_str_damage_charred_01_alb.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\6f3011ce41e3_str_damage_charred_01_alb.dds"
+    },
+    {
+      "name": "6fa73cd0823a_3703233197340776613_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\6fa73cd0823a_3703233197340776613_packed.dds"
+    },
+    {
+      "name": "794382be660a_10481810468234262313_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\794382be660a_10481810468234262313_packed.dds"
+    },
+    {
+      "name": "79d116ead710_noise_03_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\79d116ead710_noise_03_msk.dds"
+    },
+    {
+      "name": "7aeab5c3e3f9_11084874571157810803_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\7aeab5c3e3f9_11084874571157810803_packed.dds"
+    },
+    {
+      "name": "7b494a2f28b9_18231663582228185424_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\7b494a2f28b9_18231663582228185424_packed.dds"
+    },
+    {
+      "name": "7be50f6f3786_6567369943232376199_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\7be50f6f3786_6567369943232376199_packed.dds"
+    },
+    {
+      "name": "7d852478a8d0_13031971443932235790_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\7d852478a8d0_13031971443932235790_packed.dds"
+    },
+    {
+      "name": "7f4f45ac0adc_17887993677779246091_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\7f4f45ac0adc_17887993677779246091_packed.dds"
+    },
+    {
+      "name": "85c59cbb9679_11755559493558267954_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\85c59cbb9679_11755559493558267954_packed.dds"
+    },
+    {
+      "name": "8a0c57466958_8105602522139652154_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\8a0c57466958_8105602522139652154_packed.dds"
+    },
+    {
+      "name": "8a3d4cc884cd_13629605043408125052_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\8a3d4cc884cd_13629605043408125052_packed.dds"
+    },
+    {
+      "name": "94e324d101a6_4917870746854020963_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\94e324d101a6_4917870746854020963_packed.dds"
+    },
+    {
+      "name": "9557c6eaef05_12092838382316440117_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\9557c6eaef05_12092838382316440117_packed.dds"
+    },
+    {
+      "name": "a0c36f589538_17669085643020249560_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\a0c36f589538_17669085643020249560_packed.dds"
+    },
+    {
+      "name": "a283c780c8aa_1620748555145906682_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\a283c780c8aa_1620748555145906682_packed.dds"
+    },
+    {
+      "name": "aec4837faa0e_3296668955868518525_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\aec4837faa0e_3296668955868518525_packed.dds"
+    },
+    {
+      "name": "b99a25dcafb4_12251205429748717218_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\b99a25dcafb4_12251205429748717218_packed.dds"
+    },
+    {
+      "name": "c1eb0b07e1df_leaks_01_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\c1eb0b07e1df_leaks_01_msk.dds"
+    },
+    {
+      "name": "c6ae5f70c76b_14259662789339030955_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\c6ae5f70c76b_14259662789339030955_packed.dds"
+    },
+    {
+      "name": "cafa6b8c35a3_9059938276359498915_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\cafa6b8c35a3_9059938276359498915_packed.dds"
+    },
+    {
+      "name": "d314636c3541_2430408601683036952_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\d314636c3541_2430408601683036952_packed.dds"
+    },
+    {
+      "name": "d5ba288445e3_middle_gray_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\d5ba288445e3_middle_gray_msk.dds"
+    },
+    {
+      "name": "d7a9ba284bbf_leaks_04_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\d7a9ba284bbf_leaks_04_msk.dds"
+    },
+    {
+      "name": "de07b75bfe11_7040795635193093941_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\de07b75bfe11_7040795635193093941_packed.dds"
+    },
+    {
+      "name": "e56d8f3decf5_7597519659832404014_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\e56d8f3decf5_7597519659832404014_packed.dds"
+    },
+    {
+      "name": "e76747582b56_18345724522684246396_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\e76747582b56_18345724522684246396_packed.dds"
+    },
+    {
+      "name": "ec41a9e94ab5_651613341237364139_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\ec41a9e94ab5_651613341237364139_packed.dds"
+    },
+    {
+      "name": "ee65920d614b_12065571509627426358_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\ee65920d614b_12065571509627426358_packed.dds"
+    },
+    {
+      "name": "ef0164b43256_17716732775687444425_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\ef0164b43256_17716732775687444425_packed.dds"
+    },
+    {
+      "name": "f7a490d4bff7_17802351702917263346_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\f7a490d4bff7_17802351702917263346_packed.dds"
+    },
+    {
+      "name": "fd46e4aa73bc_17874727868505240764_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\da4835b270cf\\09d10a518a61cb06f180\\textures\\fd46e4aa73bc_17874727868505240764_packed.dds"
+    }
+  ],
+  "cached_projection_completed": true,
+  "mechanism_source_qualified": false,
+  "qualification_scope": "Cached public projection completed; inspect geometry, skeleton, binding and pose evidence separately. Success here is not mechanism acceptance.",
+  "saved_file_sha256": "f73358e7f088c94be68b941e008947d1816ed95dde1fc2e3b6d071215f5a838e"
+}
