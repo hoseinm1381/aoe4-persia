@@ -1,0 +1,1150 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "dock",
+  "authored_frame": "measured native stamp-space before inverse resource projection",
+  "native_hp_thresholds": null,
+  "native_state_wiring": "preserved external contract; ordinal authored damage compositions only",
+  "profile_provenance": {
+    "recipe_sha256": "7c904c04a09a887cacf06cf4a92983ddf745875f61c1bef5ae517790cb026a2a",
+    "primary_body_handoff_sha256": "7a7cdd02672ee35884f0c40b6a3131dc0cd3fdbec9fa6bc5bfca07bcecb58f80",
+    "reviewed_against": "actual recipe tags/geometry formulas, current family_states.py and state_geometry.py; no Blender execution",
+    "state_adapter_snapshot_sha256": "d5078dc52da7699ff64d153bcf13c344c33b9338046f76808c3ea31f472c437a",
+    "state_geometry_snapshot_sha256": "f50a85ce85c6d863efd10305ce95a3ac1da20c3bdaaa8c3534c72ca67f7fee90",
+    "native_dependency_policy": "retained native rigs/graphs/markers/conditional attachments stay outside scratch fracture; no new motion, HP values or gameplay tier",
+    "status": "source-reviewed draft; Boolean topology, support after fracture, normal/UV seams and game-camera progression require generated review",
+    "read_only_verification": "All exact body/group/native identities, real support-plane scatter corners/fallen-piece vertices, progressive positive cutter-box overlaps and targeting exclusions checked offline.",
+    "family_lod_module_sha256": "897418b2f276eee47253c67a613bd5d9acddb7df1e147054d8327342db4251f9",
+    "family_lod_verification": "Offline actual geometry formulas: healthy closed raw edge incidence, bounds, existing scalar contacts, unique source identities;7 missing/altered-part anti-healing cases. Actual BMesh dissolve/Boolean/triangulated readback/cold scenes remain parent gates.",
+    "lod_source_status": "Source formula-checked; pending parent serial generation and critique",
+    "quick_completion_boundary": "Owner steering: finish current20-family source batch promptly, one visual review/family; retain actual ratio errors and unchecked gates. No tolerance weakening or acceptance inference."
+  },
+  "adapter_requirements": [
+    "ruins.preserve_intact_groups: clone support groups unchanged"
+  ],
+  "bodies": {
+    "A2": {
+      "review_status": "recipe-reviewed coordinates/groups; actual generated damage/ruins/LODs uninspected",
+      "native_body_identity": {
+        "model": "art/civilizations/ottoman/structures/dock/ott_dock_control_age02/ott_dock_control_age02.rgm",
+        "native_model_sha256": "2767507417898cc6f93e125e09a0d6f305c46123477194cc813465a8d6bb4443",
+        "native_geometry_sha256": "cbf750270755e2df5cd55f42d636585f469d19aefb0b92cfc74d6c1abdc1c006"
+      },
+      "resource_age_label_qualification": "exact existing native body; no added tier",
+      "damage": {
+        "groups": [
+          "WorkingShed"
+        ],
+        "corner_plus_x_front_y": [
+          2.75,
+          0.05,
+          3.51
+        ],
+        "notch_extents": [
+          0.22,
+          0.4,
+          0.68,
+          0.98
+        ],
+        "heavy_failure_group_caps": {
+          "WorkingShed": 1.08,
+          "Warehouse": 2.18,
+          "owner": 0.8,
+          "loading_frame": 0.8,
+          "goods": 0.8,
+          "mooring": 0.8
+        },
+        "debris_area_xy": [
+          [
+            0.45,
+            -0.65
+          ],
+          [
+            2.7,
+            0.02
+          ]
+        ],
+        "debris_ground_z": 0.8,
+        "failure_programme": "Eastern open work-shelter eave/post-head failure, distinct from shore warehouse.",
+        "progression_review": [
+          "1: small visible corner roof/eave or parapet loss",
+          "2: broader irregular eave/upper-wall exposure",
+          "3: roof corner and nearby bearing head visibly lost",
+          "4: enlarged nested breach; verify remaining cantilever against actual post/wall bearings",
+          "5: low warehouse walls and broken shelter/access stumps on an intact supported quay"
+        ],
+        "debris_grounding_basis": "All scatter bottoms at authored deck top .80; selected loading-apron rectangle avoids warehouse floors and the A4 counting landing. No waterline or seabed grounding is inferred.",
+        "support_review": "quay_support and quay_deck are excluded from damage cuts. A4 upper room/access/flight collapse together; floating ropes/handling loads are removed through loading_frame."
+      },
+      "ruins": {
+        "default_cap": 1.38,
+        "group_caps": {
+          "Warehouse": 1.68,
+          "WorkingShed": 1.03
+        },
+        "remove_groups": [],
+        "preserve_intact_groups": [
+          "quay_support"
+        ],
+        "debris_area_xy": [
+          [
+            -0.75,
+            -2.7
+          ],
+          [
+            2.65,
+            0.45
+          ]
+        ],
+        "debris_ground_z": 0.8,
+        "debris_count": 38,
+        "fallen_members": [
+          {
+            "a": [
+              -0.55,
+              -1.4,
+              0.89
+            ],
+            "b": [
+              1.8,
+              -1.14,
+              0.89
+            ],
+            "width": 0.18,
+            "surface": "timber",
+            "source_group": "WorkingShed",
+            "grounding_basis": "horizontal member lower face at authored support Z=0.8",
+            "source_dimension_check": {
+              "fallen_length": 2.3643392311595224,
+              "source_beam_length": 2.6,
+              "interpretation": "shorter displaced broken section of the modeled shelter/landing beam"
+            }
+          },
+          {
+            "a": [
+              0.25,
+              -0.45,
+              0.865
+            ],
+            "b": [
+              1.65,
+              -0.1,
+              0.865
+            ],
+            "width": 0.13,
+            "surface": "timber",
+            "source_group": "loading_frame",
+            "grounding_basis": "horizontal member lower face at authored support Z=0.8"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              1.3,
+              -2.25,
+              0.88
+            ],
+            "size": [
+              1.25,
+              0.65,
+              0.16
+            ],
+            "rotation": 0.12,
+            "surface": "brick",
+            "source_group": "Warehouse",
+            "grounding_basis": "horizontal fragment bottom at authored support Z=0.8"
+          }
+        ],
+        "composition_review": "An occupied quay survives as a supported timber platform with low warehouse/shelter traces and displaced handling timbers, not an earth mound in hypothetical water.",
+        "grounding_review": "Every debris footprint is inside DeckPlank extent X\u00b13/Y\u00b13.05; bottom .80. quay_support must clone unchanged so piles/abutment/beams continue bearing the retained ground-role deck.",
+        "native_water_review": "Source negative-Y working edge/waterline/boat exit remain unqualified; these destruction choices authorize no new water/terrain/collision or native boat-exit orientation."
+      },
+      "targeting_omit_name_fragments": [
+        "LoadingWear"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "LoadingWear",
+          "CrateBinding"
+        ],
+        "2": [
+          "LoadingWear",
+          "CrateBinding",
+          "DockBench",
+          "GoodsCrate"
+        ]
+      },
+      "lod_design_notes": {
+        "implementation": "recipe.build_lod hook delegates to family lods.py; source draft, not generated acceptance",
+        "target_ratios": [
+          0.5,
+          0.25
+        ],
+        "actual_ratios": "Unverified: offline formula counts are not triangulated Blender/readback results. Existing low-poly walls/supports set a floor; no LOD0 inflation, opening loss, damaged-mesh reconstruction or cap/tolerance relaxation used to force .25.",
+        "authored_proxy_policy": [
+          "Twelve deck planks coarsen to contiguous2/4-board strips; any missing board or changed profile splits the strip. Pile/beam/quay support grid remains actual.",
+          "Complete unchanged22-part counting stair becomes7/4 matched treads plus two closed toothed stringers. Missing/altered part disables whole-unit reconstruction. The LOD0 and proxy undersides are parallel to the slope, grounded at the computed deck knee.",
+          "Complete canopy rafter run reduces7 to5/3, preserving endpoints/middle and actual bearings; changed/incomplete run is retained.",
+          "Complete unchanged mooring foot/post/cap becomes a grounded closed three-ring distant profile; altered unit remains actual.",
+          "Unchanged arches8/4 and vaults10/6 keep clear access. Fractured curves retain actual breach geometry and core UVs; quay_support is retained intact in ruins."
+        ],
+        "source_survival_guard": "Exact float-hex world-coordinate polygon fingerprint of original source; any internal alteration disables analytic healthy reconstruction even when outer AABB is unchanged. Retained native dependencies are cloned unchanged.",
+        "offline_formula_triangles": {
+          "LOD0": 1140,
+          "LOD1": 840,
+          "LOD2": 708
+        },
+        "offline_formula_ratios": [
+          0.7368421052631579,
+          0.6210526315789474
+        ],
+        "remaining_gates": [
+          "Real healthy and all surviving state/ruin topology/normal/UV/contact checks",
+          "Actual state-specific triangle ratios; no distance qualification inferred",
+          "Six-direction game-camera review, saved/cold scene readback and native full-compound clearance"
+        ],
+        "parent_baseline_error_types": {
+          "lod_needs_authored_reduction_or_readability_repair": 54
+        },
+        "parent_baseline_report": "evidence/full-source-checks.json; predates final Caravan far-profile4-segment update"
+      },
+      "group_evidence": {
+        "Warehouse": {
+          "source_part_count": 15,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -2.65,
+              1.0,
+              0.8
+            ],
+            [
+              -0.45,
+              2.8,
+              3.89
+            ]
+          ]
+        },
+        "WorkingShed": {
+          "source_part_count": 22,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              0.05,
+              0.05,
+              0.8
+            ],
+            [
+              2.75,
+              2.95,
+              3.51
+            ]
+          ]
+        },
+        "goods": {
+          "source_part_count": 12,
+          "roles": [
+            "props"
+          ],
+          "source_bounds": [
+            [
+              -1.425,
+              -0.04,
+              0.8
+            ],
+            [
+              2.59,
+              2.47,
+              1.32
+            ]
+          ]
+        },
+        "loading_frame": {
+          "source_part_count": 7,
+          "roles": [
+            "props"
+          ],
+          "source_bounds": [
+            [
+              1.24,
+              -2.11,
+              0.8
+            ],
+            [
+              2.86,
+              -1.69,
+              3.04
+            ]
+          ]
+        },
+        "mooring": {
+          "source_part_count": 6,
+          "roles": [
+            "props"
+          ],
+          "source_bounds": [
+            [
+              -2.92,
+              -2.92,
+              0.8
+            ],
+            [
+              2.92,
+              -2.58,
+              1.7
+            ]
+          ]
+        },
+        "owner": {
+          "source_part_count": 2,
+          "roles": [
+            "fittings",
+            "owner"
+          ],
+          "source_bounds": [
+            [
+              -2.14,
+              0.9075,
+              2.83
+            ],
+            [
+              -0.96,
+              1.0,
+              3.29
+            ]
+          ]
+        },
+        "quay_support": {
+          "source_part_count": 14,
+          "roles": [
+            "architecture"
+          ],
+          "source_bounds": [
+            [
+              -3.0,
+              -2.73,
+              -1.15
+            ],
+            [
+              3.0,
+              2.975,
+              0.64
+            ]
+          ]
+        }
+      },
+      "corner_review": [
+        {
+          "authored_level": 1,
+          "aabb_candidate_parts": [
+            "PSB_dock_A2_WorkingShed_Roof"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 2,
+          "aabb_candidate_parts": [
+            "PSB_dock_A2_WorkingShed_Beam0",
+            "PSB_dock_A2_WorkingShed_Rafter6",
+            "PSB_dock_A2_WorkingShed_Roof"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 3,
+          "aabb_candidate_parts": [
+            "PSB_dock_A2_WorkingShed_Beam0",
+            "PSB_dock_A2_WorkingShed_Post0_2",
+            "PSB_dock_A2_WorkingShed_Rafter5",
+            "PSB_dock_A2_WorkingShed_Rafter6",
+            "PSB_dock_A2_WorkingShed_Roof"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 4,
+          "aabb_candidate_parts": [
+            "PSB_dock_A2_WorkingShed_Beam0",
+            "PSB_dock_A2_WorkingShed_Post0_2",
+            "PSB_dock_A2_WorkingShed_Rafter4",
+            "PSB_dock_A2_WorkingShed_Rafter5",
+            "PSB_dock_A2_WorkingShed_Rafter6",
+            "PSB_dock_A2_WorkingShed_Roof"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        }
+      ]
+    },
+    "A3": {
+      "review_status": "recipe-reviewed coordinates/groups; actual generated damage/ruins/LODs uninspected",
+      "native_body_identity": {
+        "model": "art/civilizations/ottoman/structures/dock/ott_dock_control_age03/ott_dock_control_age03.rgm",
+        "native_model_sha256": "75d956ea2c0d93cce14ceea46fef89ae058a98889b2dccb625ae65c6fcaaa1ea",
+        "native_geometry_sha256": "eedc6014cf8016a081316bcae61ad8b04b88b41f7b4fe388737b5ce985f69395"
+      },
+      "resource_age_label_qualification": "exact existing native body; no added tier",
+      "damage": {
+        "groups": [
+          "RearGoodsShelter"
+        ],
+        "corner_plus_x_front_y": [
+          3.05,
+          1.2,
+          3.71
+        ],
+        "notch_extents": [
+          0.22,
+          0.4,
+          0.68,
+          0.98
+        ],
+        "heavy_failure_group_caps": {
+          "RearGoodsShelter": 1.08,
+          "Warehouse": 2.38,
+          "owner": 0.8,
+          "loading_frame": 0.8,
+          "goods": 0.8,
+          "mooring": 0.8
+        },
+        "debris_area_xy": [
+          [
+            0.05,
+            0.35
+          ],
+          [
+            2.85,
+            1.1
+          ]
+        ],
+        "debris_ground_z": 0.8,
+        "failure_programme": "Front-starboard corner of the long rear goods shelter loses eave/roof then post heads; west vaulted warehouse stays a separate mass.",
+        "progression_review": [
+          "1: small visible corner roof/eave or parapet loss",
+          "2: broader irregular eave/upper-wall exposure",
+          "3: roof corner and nearby bearing head visibly lost",
+          "4: enlarged nested breach; verify remaining cantilever against actual post/wall bearings",
+          "5: low warehouse walls and broken shelter/access stumps on an intact supported quay"
+        ],
+        "debris_grounding_basis": "All scatter bottoms at authored deck top .80; selected loading-apron rectangle avoids warehouse floors and the A4 counting landing. No waterline or seabed grounding is inferred.",
+        "support_review": "quay_support and quay_deck are excluded from damage cuts. A4 upper room/access/flight collapse together; floating ropes/handling loads are removed through loading_frame."
+      },
+      "ruins": {
+        "default_cap": 1.38,
+        "group_caps": {
+          "Warehouse": 1.68,
+          "RearGoodsShelter": 1.03
+        },
+        "remove_groups": [],
+        "preserve_intact_groups": [
+          "quay_support"
+        ],
+        "debris_area_xy": [
+          [
+            -0.75,
+            -2.7
+          ],
+          [
+            2.65,
+            0.45
+          ]
+        ],
+        "debris_ground_z": 0.8,
+        "debris_count": 38,
+        "fallen_members": [
+          {
+            "a": [
+              -0.65,
+              -1.42,
+              0.89
+            ],
+            "b": [
+              2.45,
+              -1.1,
+              0.89
+            ],
+            "width": 0.18,
+            "surface": "timber",
+            "source_group": "RearGoodsShelter",
+            "grounding_basis": "horizontal member lower face at authored support Z=0.8",
+            "source_dimension_check": {
+              "fallen_length": 3.1164723647098174,
+              "source_beam_length": 3.7,
+              "interpretation": "shorter displaced broken section of the modeled shelter/landing beam"
+            }
+          },
+          {
+            "a": [
+              0.25,
+              -0.45,
+              0.865
+            ],
+            "b": [
+              1.65,
+              -0.1,
+              0.865
+            ],
+            "width": 0.13,
+            "surface": "timber",
+            "source_group": "loading_frame",
+            "grounding_basis": "horizontal member lower face at authored support Z=0.8"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              1.3,
+              -2.25,
+              0.88
+            ],
+            "size": [
+              1.25,
+              0.65,
+              0.16
+            ],
+            "rotation": 0.12,
+            "surface": "brick",
+            "source_group": "Warehouse",
+            "grounding_basis": "horizontal fragment bottom at authored support Z=0.8"
+          }
+        ],
+        "composition_review": "An occupied quay survives as a supported timber platform with low warehouse/shelter traces and displaced handling timbers, not an earth mound in hypothetical water.",
+        "grounding_review": "Every debris footprint is inside DeckPlank extent X\u00b13/Y\u00b13.05; bottom .80. quay_support must clone unchanged so piles/abutment/beams continue bearing the retained ground-role deck.",
+        "native_water_review": "Source negative-Y working edge/waterline/boat exit remain unqualified; these destruction choices authorize no new water/terrain/collision or native boat-exit orientation."
+      },
+      "targeting_omit_name_fragments": [
+        "LoadingWear"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "LoadingWear",
+          "CrateBinding"
+        ],
+        "2": [
+          "LoadingWear",
+          "CrateBinding",
+          "DockBench",
+          "GoodsCrate"
+        ]
+      },
+      "lod_design_notes": {
+        "implementation": "recipe.build_lod hook delegates to family lods.py; source draft, not generated acceptance",
+        "target_ratios": [
+          0.5,
+          0.25
+        ],
+        "actual_ratios": "Unverified: offline formula counts are not triangulated Blender/readback results. Existing low-poly walls/supports set a floor; no LOD0 inflation, opening loss, damaged-mesh reconstruction or cap/tolerance relaxation used to force .25.",
+        "authored_proxy_policy": [
+          "Twelve deck planks coarsen to contiguous2/4-board strips; any missing board or changed profile splits the strip. Pile/beam/quay support grid remains actual.",
+          "Complete unchanged22-part counting stair becomes7/4 matched treads plus two closed toothed stringers. Missing/altered part disables whole-unit reconstruction. The LOD0 and proxy undersides are parallel to the slope, grounded at the computed deck knee.",
+          "Complete canopy rafter run reduces7 to5/3, preserving endpoints/middle and actual bearings; changed/incomplete run is retained.",
+          "Complete unchanged mooring foot/post/cap becomes a grounded closed three-ring distant profile; altered unit remains actual.",
+          "Unchanged arches8/4 and vaults10/6 keep clear access. Fractured curves retain actual breach geometry and core UVs; quay_support is retained intact in ruins."
+        ],
+        "source_survival_guard": "Exact float-hex world-coordinate polygon fingerprint of original source; any internal alteration disables analytic healthy reconstruction even when outer AABB is unchanged. Retained native dependencies are cloned unchanged.",
+        "offline_formula_triangles": {
+          "LOD0": 1720,
+          "LOD1": 1084,
+          "LOD2": 856
+        },
+        "offline_formula_ratios": [
+          0.6302325581395349,
+          0.49767441860465117
+        ],
+        "remaining_gates": [
+          "Real healthy and all surviving state/ruin topology/normal/UV/contact checks",
+          "Actual state-specific triangle ratios; no distance qualification inferred",
+          "Six-direction game-camera review, saved/cold scene readback and native full-compound clearance"
+        ],
+        "parent_baseline_error_types": {
+          "lod_needs_authored_reduction_or_readability_repair": 54
+        },
+        "parent_baseline_report": "evidence/full-source-checks.json; predates final Caravan far-profile4-segment update"
+      },
+      "group_evidence": {
+        "RearGoodsShelter": {
+          "source_part_count": 22,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -0.75,
+              1.2,
+              0.8
+            ],
+            [
+              3.05,
+              3.0,
+              3.71
+            ]
+          ]
+        },
+        "Warehouse": {
+          "source_part_count": 14,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -2.84,
+              -1.46,
+              0.8
+            ],
+            [
+              -0.96,
+              2.26,
+              4.45
+            ]
+          ]
+        },
+        "goods": {
+          "source_part_count": 12,
+          "roles": [
+            "props"
+          ],
+          "source_bounds": [
+            [
+              -2.375,
+              -1.04,
+              0.8
+            ],
+            [
+              2.59,
+              2.47,
+              1.32
+            ]
+          ]
+        },
+        "loading_frame": {
+          "source_part_count": 7,
+          "roles": [
+            "props"
+          ],
+          "source_bounds": [
+            [
+              1.24,
+              -2.11,
+              0.8
+            ],
+            [
+              2.86,
+              -1.69,
+              3.04
+            ]
+          ]
+        },
+        "mooring": {
+          "source_part_count": 6,
+          "roles": [
+            "props"
+          ],
+          "source_bounds": [
+            [
+              -2.92,
+              -2.92,
+              0.8
+            ],
+            [
+              2.92,
+              -2.58,
+              1.7
+            ]
+          ]
+        },
+        "owner": {
+          "source_part_count": 2,
+          "roles": [
+            "fittings",
+            "owner"
+          ],
+          "source_bounds": [
+            [
+              0.46,
+              1.2975,
+              3.03
+            ],
+            [
+              1.84,
+              1.39,
+              3.49
+            ]
+          ]
+        },
+        "quay_support": {
+          "source_part_count": 14,
+          "roles": [
+            "architecture"
+          ],
+          "source_bounds": [
+            [
+              -3.0,
+              -2.73,
+              -1.15
+            ],
+            [
+              3.0,
+              2.975,
+              0.64
+            ]
+          ]
+        }
+      },
+      "corner_review": [
+        {
+          "authored_level": 1,
+          "aabb_candidate_parts": [
+            "PSB_dock_A3_RearGoodsShelter_Roof"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 2,
+          "aabb_candidate_parts": [
+            "PSB_dock_A3_RearGoodsShelter_Beam0",
+            "PSB_dock_A3_RearGoodsShelter_Rafter6",
+            "PSB_dock_A3_RearGoodsShelter_Roof"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 3,
+          "aabb_candidate_parts": [
+            "PSB_dock_A3_RearGoodsShelter_Beam0",
+            "PSB_dock_A3_RearGoodsShelter_Post0_2",
+            "PSB_dock_A3_RearGoodsShelter_Rafter6",
+            "PSB_dock_A3_RearGoodsShelter_Roof"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 4,
+          "aabb_candidate_parts": [
+            "PSB_dock_A3_RearGoodsShelter_Beam0",
+            "PSB_dock_A3_RearGoodsShelter_Post0_2",
+            "PSB_dock_A3_RearGoodsShelter_Rafter5",
+            "PSB_dock_A3_RearGoodsShelter_Rafter6",
+            "PSB_dock_A3_RearGoodsShelter_Roof"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        }
+      ]
+    },
+    "A4": {
+      "review_status": "recipe-reviewed coordinates/groups; actual generated damage/ruins/LODs uninspected",
+      "native_body_identity": {
+        "model": "art/civilizations/ottoman/structures/dock/ott_dock_control_age04/ott_dock_control_age04.rgm",
+        "native_model_sha256": "5b352cc54dad9776d795ffbb61d25a405c90edfeba8e8599502014ddc8594eaf",
+        "native_geometry_sha256": "981cc09538a07651820484d73feafc6f7fdb6bdeddf031d8554f353d41b137d6"
+      },
+      "resource_age_label_qualification": "exact existing native body; no added tier",
+      "damage": {
+        "groups": [
+          "CountingRoom",
+          "owner"
+        ],
+        "corner_plus_x_front_y": [
+          -0.25,
+          1.45,
+          6.27
+        ],
+        "notch_extents": [
+          0.22,
+          0.4,
+          0.68,
+          0.98
+        ],
+        "heavy_failure_group_caps": {
+          "CountingRoom": 0.8,
+          "counting_access": 1.08,
+          "CountingStair": 0.8,
+          "Warehouse": 2.08,
+          "owner": 0.8,
+          "loading_frame": 0.8,
+          "goods": 0.8,
+          "mooring": 0.8
+        },
+        "debris_area_xy": [
+          [
+            -0.1,
+            0.85
+          ],
+          [
+            1.5,
+            1.35
+          ]
+        ],
+        "debris_ground_z": 0.8,
+        "failure_programme": "Upper counting-room east/front roof corner opens progressively; heavy state removes upper room, landing/flight tops and handling frame while retaining the pile-supported quay.",
+        "progression_review": [
+          "1: small visible corner roof/eave or parapet loss",
+          "2: broader irregular eave/upper-wall exposure",
+          "3: roof corner and nearby bearing head visibly lost",
+          "4: enlarged nested breach; verify remaining cantilever against actual post/wall bearings",
+          "5: low warehouse walls and broken shelter/access stumps on an intact supported quay"
+        ],
+        "debris_grounding_basis": "All scatter bottoms at authored deck top .80; selected loading-apron rectangle avoids warehouse floors and the A4 counting landing. No waterline or seabed grounding is inferred.",
+        "support_review": "quay_support and quay_deck are excluded from damage cuts. A4 upper room/access/flight collapse together; floating ropes/handling loads are removed through loading_frame. A4 owner support/textile joins partial corner subtraction to avoid an uncut textile crossing a lost wall corner."
+      },
+      "ruins": {
+        "default_cap": 1.38,
+        "group_caps": {
+          "Warehouse": 1.68,
+          "CountingRoom": 1.03,
+          "counting_access": 1.02
+        },
+        "remove_groups": [
+          "CountingRoom",
+          "CountingStair"
+        ],
+        "preserve_intact_groups": [
+          "quay_support"
+        ],
+        "debris_area_xy": [
+          [
+            -0.75,
+            -2.7
+          ],
+          [
+            2.65,
+            0.45
+          ]
+        ],
+        "debris_ground_z": 0.8,
+        "debris_count": 38,
+        "fallen_members": [
+          {
+            "a": [
+              -0.35,
+              -1.4,
+              0.88
+            ],
+            "b": [
+              1.8,
+              -1.15,
+              0.88
+            ],
+            "width": 0.16,
+            "surface": "timber",
+            "source_group": "counting_access",
+            "grounding_basis": "horizontal member lower face at authored support Z=0.8",
+            "source_dimension_check": {
+              "fallen_length": 2.164486082191336,
+              "source_beam_length": 2.4,
+              "interpretation": "shorter displaced broken section of the modeled shelter/landing beam"
+            }
+          },
+          {
+            "a": [
+              0.25,
+              -0.45,
+              0.865
+            ],
+            "b": [
+              1.65,
+              -0.1,
+              0.865
+            ],
+            "width": 0.13,
+            "surface": "timber",
+            "source_group": "loading_frame",
+            "grounding_basis": "horizontal member lower face at authored support Z=0.8"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              1.3,
+              -2.25,
+              0.88
+            ],
+            "size": [
+              1.25,
+              0.65,
+              0.16
+            ],
+            "rotation": 0.12,
+            "surface": "brick",
+            "source_group": "Warehouse",
+            "grounding_basis": "horizontal fragment bottom at authored support Z=0.8"
+          }
+        ],
+        "composition_review": "An occupied quay survives as a supported timber platform with low warehouse/shelter traces and displaced handling timbers, not an earth mound in hypothetical water.",
+        "grounding_review": "Every debris footprint is inside DeckPlank extent X\u00b13/Y\u00b13.05; bottom .80. quay_support must clone unchanged so piles/abutment/beams continue bearing the retained ground-role deck.",
+        "native_water_review": "Source negative-Y working edge/waterline/boat exit remain unqualified; these destruction choices authorize no new water/terrain/collision or native boat-exit orientation."
+      },
+      "targeting_omit_name_fragments": [
+        "LoadingWear"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "LoadingWear",
+          "CrateBinding"
+        ],
+        "2": [
+          "LoadingWear",
+          "CrateBinding",
+          "DockBench",
+          "GoodsCrate"
+        ]
+      },
+      "lod_design_notes": {
+        "implementation": "recipe.build_lod hook delegates to family lods.py; source draft, not generated acceptance",
+        "target_ratios": [
+          0.5,
+          0.25
+        ],
+        "actual_ratios": "Unverified: offline formula counts are not triangulated Blender/readback results. Existing low-poly walls/supports set a floor; no LOD0 inflation, opening loss, damaged-mesh reconstruction or cap/tolerance relaxation used to force .25.",
+        "authored_proxy_policy": [
+          "Twelve deck planks coarsen to contiguous2/4-board strips; any missing board or changed profile splits the strip. Pile/beam/quay support grid remains actual.",
+          "Complete unchanged22-part counting stair becomes7/4 matched treads plus two closed toothed stringers. Missing/altered part disables whole-unit reconstruction. The LOD0 and proxy undersides are parallel to the slope, grounded at the computed deck knee.",
+          "Complete canopy rafter run reduces7 to5/3, preserving endpoints/middle and actual bearings; changed/incomplete run is retained.",
+          "Complete unchanged mooring foot/post/cap becomes a grounded closed three-ring distant profile; altered unit remains actual.",
+          "Unchanged arches8/4 and vaults10/6 keep clear access. Fractured curves retain actual breach geometry and core UVs; quay_support is retained intact in ruins."
+        ],
+        "source_survival_guard": "Exact float-hex world-coordinate polygon fingerprint of original source; any internal alteration disables analytic healthy reconstruction even when outer AABB is unchanged. Retained native dependencies are cloned unchanged.",
+        "offline_formula_triangles": {
+          "LOD0": 1980,
+          "LOD1": 1292,
+          "LOD2": 1052
+        },
+        "offline_formula_ratios": [
+          0.6525252525252525,
+          0.5313131313131313
+        ],
+        "remaining_gates": [
+          "Real healthy and all surviving state/ruin topology/normal/UV/contact checks",
+          "Actual state-specific triangle ratios; no distance qualification inferred",
+          "Six-direction game-camera review, saved/cold scene readback and native full-compound clearance"
+        ],
+        "parent_baseline_error_types": {
+          "lod_needs_authored_reduction_or_readability_repair": 54
+        },
+        "parent_baseline_report": "evidence/full-source-checks.json; predates final Caravan far-profile4-segment update"
+      },
+      "group_evidence": {
+        "CountingRoom": {
+          "source_part_count": 13,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -2.65,
+              1.45,
+              3.63
+            ],
+            [
+              -0.25,
+              2.85,
+              6.27
+            ]
+          ]
+        },
+        "CountingStair": {
+          "source_part_count": 22,
+          "roles": [
+            "architecture"
+          ],
+          "source_bounds": [
+            [
+              -2.6,
+              -3.0,
+              0.8
+            ],
+            [
+              -1.8,
+              0.55,
+              3.63
+            ]
+          ]
+        },
+        "Warehouse": {
+          "source_part_count": 15,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -2.7,
+              1.45,
+              0.8
+            ],
+            [
+              2.7,
+              2.85,
+              3.79
+            ]
+          ]
+        },
+        "counting_access": {
+          "source_part_count": 14,
+          "roles": [
+            "architecture"
+          ],
+          "source_bounds": [
+            [
+              -2.65,
+              0.55,
+              0.8
+            ],
+            [
+              -0.25,
+              1.45,
+              4.46
+            ]
+          ]
+        },
+        "goods": {
+          "source_part_count": 12,
+          "roles": [
+            "props"
+          ],
+          "source_bounds": [
+            [
+              0.175,
+              -0.89,
+              0.8
+            ],
+            [
+              2.44,
+              0.77,
+              1.32
+            ]
+          ]
+        },
+        "loading_frame": {
+          "source_part_count": 7,
+          "roles": [
+            "props"
+          ],
+          "source_bounds": [
+            [
+              1.24,
+              -2.11,
+              0.8
+            ],
+            [
+              2.86,
+              -1.69,
+              3.04
+            ]
+          ]
+        },
+        "mooring": {
+          "source_part_count": 6,
+          "roles": [
+            "props"
+          ],
+          "source_bounds": [
+            [
+              -2.92,
+              -2.92,
+              0.8
+            ],
+            [
+              2.92,
+              -2.58,
+              1.7
+            ]
+          ]
+        },
+        "owner": {
+          "source_part_count": 2,
+          "roles": [
+            "fittings",
+            "owner"
+          ],
+          "source_bounds": [
+            [
+              -2.04,
+              1.3575,
+              5.18
+            ],
+            [
+              -0.86,
+              1.45,
+              5.64
+            ]
+          ]
+        },
+        "quay_support": {
+          "source_part_count": 14,
+          "roles": [
+            "architecture"
+          ],
+          "source_bounds": [
+            [
+              -3.0,
+              -2.73,
+              -1.15
+            ],
+            [
+              3.0,
+              2.975,
+              0.64
+            ]
+          ]
+        }
+      },
+      "corner_review": [
+        {
+          "authored_level": 1,
+          "aabb_candidate_parts": [
+            "PSB_dock_A4_CountingRoom_ParapetEnd-1",
+            "PSB_dock_A4_CountingRoom_ParapetSide1",
+            "PSB_dock_A4_CountingRoom_RoofBed"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 2,
+          "aabb_candidate_parts": [
+            "PSB_dock_A4_CountingRoom_FrontEnd",
+            "PSB_dock_A4_CountingRoom_ParapetEnd-1",
+            "PSB_dock_A4_CountingRoom_ParapetSide1",
+            "PSB_dock_A4_CountingRoom_RoofBed"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 3,
+          "aabb_candidate_parts": [
+            "PSB_dock_A4_CountingRoom_FrontEnd",
+            "PSB_dock_A4_CountingRoom_ParapetEnd-1",
+            "PSB_dock_A4_CountingRoom_ParapetSide1",
+            "PSB_dock_A4_CountingRoom_RoofBed",
+            "PSB_dock_A4_CountingRoom_Side1"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 4,
+          "aabb_candidate_parts": [
+            "PSB_dock_A4_CountingRoom_Arch0",
+            "PSB_dock_A4_CountingRoom_FrontEnd",
+            "PSB_dock_A4_CountingRoom_ParapetEnd-1",
+            "PSB_dock_A4_CountingRoom_ParapetSide1",
+            "PSB_dock_A4_CountingRoom_RoofBed",
+            "PSB_dock_A4_CountingRoom_Side1"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        }
+      ]
+    }
+  }
+}

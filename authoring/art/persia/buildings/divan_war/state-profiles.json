@@ -1,0 +1,391 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "divan_war",
+  "authored_frame": "Projected stamp-space exactly as original recipe ANCHORS; apply the recorded native inverse once after all source states",
+  "native_hp_thresholds": null,
+  "resource_age_is_not_gameplay_availability": true,
+  "source_art_only": true,
+  "review_status": "Unreviewed structural draft; this worker has not executed Blender or generated acceptance evidence",
+  "recipe_sha256_at_profile_draft": "17b26f4fd809603be4185003d921cb9b24291b3826298fdde36d5786dfe68b8d",
+  "profile_basis": "Exact existing body keys, current recipe structural groups/roof and bearing levels; authored failure proposals do not wire native states or thresholds",
+  "lod_support_policy": "Keep roofs, load-bearing posts/beams/joists, floors, stairs, ledgers and access. Explicit omissions select complete loose props or every member of a named furniture assembly, not isolated support legs. Half/quarter targets still need actual measured authored reductions and visual review.",
+  "native_dependencies_policy": "Never Boolean-cut or decimate retained native mechanisms. Existing rig/graph/pose/socket owners and native states remain separately inspectable dependencies; absent dependency geometry is not zero compound overhead.",
+  "compound_budget_qualified": false,
+  "bodies": {
+    "A3": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -5.6,
+          -5.9,
+          -0.06
+        ],
+        [
+          5.8,
+          4.6,
+          4.55
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "inspection_porch"
+        ],
+        "corner_plus_x_front_y": [
+          -3.35,
+          -1.9,
+          2.7
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "inspection_porch": 0.88,
+          "dispatch_office": 1.15,
+          "pay_register": 1.18,
+          "controlled_gate": 0.8,
+          "register_work": 0.6,
+          "dispatch_court": 0.65,
+          "review_platform": 0.52
+        },
+        "debris_area_xy": [
+          [
+            -4.9,
+            -1.55
+          ],
+          [
+            -3.8,
+            -0.8
+          ]
+        ],
+        "debris_ground_z": 0.24
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "dispatch_office": 1.12,
+          "pay_register": 1.1,
+          "inspection_porch": 0.85,
+          "controlled_gate": 0.75,
+          "review_platform": 0.52
+        },
+        "remove_groups": [
+          "dispatch_court"
+        ],
+        "debris_area_xy": [
+          [
+            -2.5,
+            -4.4
+          ],
+          [
+            2.1,
+            1.6
+          ]
+        ],
+        "debris_ground_z": 0.21,
+        "debris_count": 95,
+        "fallen_members": [],
+        "fallen_slabs": [
+          {
+            "center": [
+              -0.04999999999999996,
+              -1.0,
+              0.28
+            ],
+            "size": [
+              1.25,
+              0.7,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "pay_register",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "MilitaryOfficeEarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "MilitaryRegisterBundle",
+          "InspectionFoldedCloth"
+        ],
+        "2": [
+          "MilitaryRegisterBundle",
+          "InspectionFoldedCloth",
+          "PayRecordChest",
+          "PayRegisterDesk",
+          "InspectionBench"
+        ]
+      },
+      "structural_notes": [
+        "Inspection porch front/east first-bay pier and slab are exact to this branch depth/height, not a shared false bounding-box corner.",
+        "A3 default/parent-candidate arsenal branch and A4 campaign/hre_brawl school branch remain exactly as native source_uses; neither branch is promoted to an age progression.",
+        "Heavy A4 cap removes every upper floor panel/shutter and clips the real grounded stairs with dispatch_office/dispatch_stair together.",
+        "Partial-damage debris lies on InspectionFloor .24; ruin debris on unobstructed MusterReviewPaving .21 avoids the surviving review platform.",
+        "A3 has no authored structural timber roof beam to invent in debris; A4 fallen member is a fragment of the real timber upper floor."
+      ],
+      "analytical_cut_check": {
+        "method": "Exact union of the three rectangular cutter lobes intersected with one actual solid masonry/bearing witness part; not Blender Boolean/state acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            -3.57,
+            -1.9,
+            0.24
+          ],
+          [
+            -3.35,
+            -1.7249999999999999,
+            2.54
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.0018572003999999935,
+          0.011395999999999984,
+          0.023099999999999975,
+          0.034072499999999964
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_divan_military_persia",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_ranged_sul/tier3_tech_unit_ranged_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_arsenal_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_divan_military_persia",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_ranged_sul/tier3_tech_unit_ranged_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_arsenal_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_divan_military_persia",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_ranged_sul/tier3_tech_unit_ranged_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_arsenal_03.bin",
+          "stamp_instance_index": 0
+        }
+      ]
+    },
+    "A4": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -5.9,
+          -5.8,
+          -0.06
+        ],
+        [
+          6.0,
+          5.6,
+          6.3
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "inspection_porch"
+        ],
+        "corner_plus_x_front_y": [
+          -3.35,
+          -2.0,
+          2.88
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "inspection_porch": 0.88,
+          "dispatch_office": 1.15,
+          "pay_register": 1.18,
+          "controlled_gate": 0.8,
+          "register_work": 0.6,
+          "dispatch_court": 0.65,
+          "review_platform": 0.52,
+          "dispatch_stair": 1.02
+        },
+        "debris_area_xy": [
+          [
+            -4.9,
+            -1.55
+          ],
+          [
+            -3.8,
+            -0.8
+          ]
+        ],
+        "debris_ground_z": 0.24
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "dispatch_office": 1.12,
+          "dispatch_stair": 0.9,
+          "pay_register": 1.1,
+          "inspection_porch": 0.85,
+          "controlled_gate": 0.75,
+          "review_platform": 0.52
+        },
+        "remove_groups": [
+          "dispatch_court"
+        ],
+        "debris_area_xy": [
+          [
+            -2.5,
+            -4.4
+          ],
+          [
+            2.1,
+            1.6
+          ]
+        ],
+        "debris_ground_z": 0.21,
+        "debris_count": 95,
+        "fallen_members": [
+          {
+            "a": [
+              -1.3,
+              -1.7600000000000002,
+              0.26
+            ],
+            "b": [
+              0.9000000000000001,
+              -1.04,
+              0.26
+            ],
+            "width": 0.1,
+            "source_group": "dispatch_office",
+            "grounding_basis": "Horizontal original member fragment; bottom rests on the named surviving source surface, not a native height claim"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              -0.04999999999999996,
+              -1.0,
+              0.28
+            ],
+            "size": [
+              1.25,
+              0.7,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "pay_register",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "MilitaryOfficeEarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "MilitaryRegisterBundle",
+          "InspectionFoldedCloth"
+        ],
+        "2": [
+          "MilitaryRegisterBundle",
+          "InspectionFoldedCloth",
+          "PayRecordChest",
+          "PayRegisterDesk",
+          "InspectionBench"
+        ]
+      },
+      "structural_notes": [
+        "Inspection porch front/east first-bay pier and slab are exact to this branch depth/height, not a shared false bounding-box corner.",
+        "A3 default/parent-candidate arsenal branch and A4 campaign/hre_brawl school branch remain exactly as native source_uses; neither branch is promoted to an age progression.",
+        "Heavy A4 cap removes every upper floor panel/shutter and clips the real grounded stairs with dispatch_office/dispatch_stair together.",
+        "Partial-damage debris lies on InspectionFloor .24; ruin debris on unobstructed MusterReviewPaving .21 avoids the surviving review platform.",
+        "A3 has no authored structural timber roof beam to invent in debris; A4 fallen member is a fragment of the real timber upper floor."
+      ],
+      "analytical_cut_check": {
+        "method": "Exact union of the three rectangular cutter lobes intersected with one actual solid masonry/bearing witness part; not Blender Boolean/state acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            -3.57,
+            -2.0,
+            0.24
+          ],
+          [
+            -3.35,
+            -1.825,
+            2.7199999999999998
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.0018572003999999935,
+          0.011395999999999984,
+          0.023099999999999968,
+          0.034072499999999964
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_divan_military_persia",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/building_military_school_ott/tier4_military_school_control_ott",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_ott/ott_military_school_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_divan_military_persia",
+          "variant": "hre_brawl",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/building_military_school_ott/tier4_military_school_control_ott",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_ott/ott_military_school_age_04.bin",
+          "stamp_instance_index": 0
+        }
+      ]
+    }
+  },
+  "visual_envelope_evidence": "evidence/visual-envelope-contract.json",
+  "verified_envelope_overrides_enabled": false,
+  "envelope_policy": "No conditional possible/category union is enabled as a verified override; strict primary envelope remains until selective source-join and native prop state/activation proof is supplied.",
+  "lod_source_policy": {
+    "source": "lods.py",
+    "target_ratios": [
+      0.5,
+      0.25
+    ],
+    "tolerance_unchanged": 0.1,
+    "generated_acceptance": false,
+    "Blender_executed_by_this_author": false,
+    "method": "Constant-section surviving profile sampling; exact closed orthogonal-member boundary; actual surviving support unions; retained native inputs untouched; no healthy state reconstruction.",
+    "damage_policy": "Sharp jamb/breach/seat corners and profile extrema retained; irregular fractured surfaces use planar-only dissolve, never filled by a healthy bay.",
+    "source_recipe_sha256_after_hook": "0551e2c140545cfc89c7b31fa4d088048a65723ee6f1ca4fb9a6436c0803ff16",
+    "lods_sha256": "1a5cdc1580960300b9c9bd6fcd1c5db5a0305184153ecafb0142ffa5bd99cef8"
+  }
+}
