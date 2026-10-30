@@ -1,0 +1,47 @@
+{
+  "GROUND": [
+    0,
+    0,
+    0
+  ],
+  "PAVING_TOP": [
+    0,
+    0,
+    0.24
+  ],
+  "CROSSING_SPRING": [
+    0,
+    0,
+    2.84
+  ],
+  "DOME_BEARING": [
+    0,
+    0,
+    4.6
+  ],
+  "DOME_APEX": [
+    0,
+    0,
+    7.52
+  ],
+  "NORTH_ENTRANCE": [
+    0,
+    5.95,
+    0.24
+  ],
+  "SOUTH_ENTRANCE": [
+    0,
+    -5.95,
+    0.24
+  ],
+  "EAST_ENTRANCE": [
+    5.95,
+    0,
+    0.24
+  ],
+  "WEST_ENTRANCE": [
+    -5.95,
+    0,
+    0.24
+  ]
+}

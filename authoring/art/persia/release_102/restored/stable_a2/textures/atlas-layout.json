@@ -1,0 +1,28 @@
+{
+  "family": "stable",
+  "palette": "1.0.0 retained except neutral dynamic owner and cloth swatches",
+  "size": 1024,
+  "data_channels": "Independent RGB filtering; skin/hair preserved outside explicit cloth/owner tiles",
+  "maps": {
+    "albedo": {
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\release_102\\restored\\stable_a2\\textures\\albedo.png",
+      "sha256": "328dde7f4399bc506540f861a85b62bce3a02553992a3f47f5a048d953c4b9b6"
+    },
+    "normal": {
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\release_102\\restored\\stable_a2\\textures\\normal.png",
+      "sha256": "9d1ce6aff8127511c5f5575ee8f57aff78141c411f6273027fa5d7f281c5968f"
+    },
+    "roughness": {
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\release_102\\restored\\stable_a2\\textures\\roughness.png",
+      "sha256": "3f8349352364afd25e611cb1aba70c6214abbcac1c09097a7fce19ecfb5c8bb4"
+    },
+    "metalness": {
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\release_102\\restored\\stable_a2\\textures\\metalness.png",
+      "sha256": "4cd869d593af012cb2507af68c19470e8b37f9ee70b968d187c79f94f5f3d3e9"
+    },
+    "owner_mask": {
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\release_102\\restored\\stable_a2\\textures\\owner_mask.png",
+      "sha256": "e996e40b2c42b7497154ecbcf3b6d5a0b6a76f786c395ce2c5a4206e0322b8db"
+    }
+  }
+}
