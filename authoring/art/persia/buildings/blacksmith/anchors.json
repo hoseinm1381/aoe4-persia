@@ -1,0 +1,833 @@
+{
+  "A2": {
+    "ground_top": 0.16,
+    "native_body_key": "A2",
+    "native_model": "art/civilizations/sultanate/structures/blacksmith/sul_blacksmith_control_age02/sul_blacksmith_control_age02.rgm",
+    "existing_visual_age": 2,
+    "source_uses": [
+      {
+        "actor": "ps_building_tech_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier2_tech_unit_melee_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_blacksmith_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_tech_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier2_tech_unit_melee_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_blacksmith_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_tech_unit_infantry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier2_tech_unit_melee_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_blacksmith_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_tech_unit_infantry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier2_tech_unit_melee_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_blacksmith_age_02.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -6.2776562977,
+        -6.2,
+        -0.06
+      ],
+      [
+        2.6784374523,
+        2.72609375,
+        5.4
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -6.2976562977,
+        -7.4453125,
+        -1.599609375
+      ],
+      [
+        2.6984374523,
+        2.74609375,
+        6.640625
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -7.9835351764,
+        -7.8833437292,
+        -1.599609375
+      ],
+      [
+        6.5847394551,
+        5.9872415972,
+        6.640625
+      ]
+    ],
+    "authored_space": "projected stamp-space, not raw native/model-root coordinates",
+    "projected_resource_to_stamp_matrix": [
+      [
+        1,
+        0,
+        0,
+        -1.7000000477
+      ],
+      [
+        0,
+        1,
+        0,
+        -1.75
+      ],
+      [
+        0,
+        0,
+        1,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        1,
+        0,
+        0,
+        1.7000000477
+      ],
+      [
+        0,
+        1,
+        0,
+        1.75
+      ],
+      [
+        0,
+        0,
+        1,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "entry": [
+      -0.65,
+      -6.0,
+      0.16
+    ],
+    "forge_front": [
+      -1.6,
+      0.8,
+      0.81
+    ],
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_blacksmith/layout_blacksmith.rgm",
+      "bellows": {
+        "model": "art/civilizations/common/props/bellows/bellows.rgm",
+        "stamp_matrix": [
+          [
+            -0.5297451045,
+            -0.8447244385,
+            -0.0762282577,
+            1.576210022
+          ],
+          [
+            0.8481446287,
+            -0.5280770416,
+            -0.0422531301,
+            1.9819070101
+          ],
+          [
+            -0.0045621412,
+            -0.0870359762,
+            0.9961947228,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "possible_rest_bounds": [
+          [
+            -0.3181049645,
+            0.6392442321,
+            -0.1254559184
+          ],
+          [
+            2.789233351,
+            3.1139238299,
+            2.3499984206
+          ]
+        ],
+        "reserved_review_box": [
+          [
+            -0.45,
+            0.5,
+            -0.15
+          ],
+          [
+            2.92,
+            3.25,
+            2.5
+          ]
+        ],
+        "frame_limit": "Measured stamp rest frame, not a nozzle socket or animated swept volume. Native rig/graph and playback must be inventoried by parent; no replacement bellows is authored."
+      },
+      "other_existing_props": [
+        "blacksmith_anvil_stump",
+        "wood_piles_stacked",
+        "wood_pile_heap",
+        "water_bucket",
+        "cart_2_wheeled"
+      ],
+      "policy": "Keep existing native owners, graphs, transforms and markers. Proposed custom static tools are review sources, not permission to duplicate/replace native attachments.",
+      "clearance_status": "Unqualified: source envelope is conditional compound evidence, not footprint, unit-exit, nozzle contact or motion clearance."
+    },
+    "native_clearance_status": "Unqualified: source envelope is conditional compound evidence, not footprint, unit-exit, nozzle contact or motion clearance.",
+    "visual_inspection": "Not performed; parent must build and inspect serially",
+    "source_primary_revision": {
+      "basis": "Exact native primary body, no conditional prop envelope override",
+      "ground_bounds": [
+        [
+          -6.2776562977,
+          -6.2,
+          -0.06
+        ],
+        [
+          2.6784374523,
+          2.72609375,
+          0.16
+        ]
+      ],
+      "store_front_retained": -0.15,
+      "finishing_bay_relocated_to_south_forecourt": false,
+      "native_markers_and_stamp_frames": "Retained; native actor/route/playback gates remain deferred"
+    },
+    "flue_opening": {
+      "center": [
+        -1.6,
+        2.148046875,
+        4.19
+      ],
+      "clear_width": 0.62,
+      "source_open": true
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp-space, not raw native/model-root coordinates",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          1.7000000476837158
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          1.75
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A3": {
+    "ground_top": 0.16,
+    "native_body_key": "A3",
+    "native_model": "art/civilizations/sultanate/structures/blacksmith/sul_blacksmith_control_age03/sul_blacksmith_control_age03.rgm",
+    "existing_visual_age": 3,
+    "source_uses": [
+      {
+        "actor": "ps_building_tech_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier3_tech_unit_melee_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_blacksmith_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_tech_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier3_tech_unit_melee_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_blacksmith_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_tech_unit_infantry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier3_tech_unit_melee_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_blacksmith_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_tech_unit_infantry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier3_tech_unit_melee_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_blacksmith_age_03.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -6.2827192354,
+        -6.2,
+        -0.06
+      ],
+      [
+        2.6733745146,
+        3.1091427611999998,
+        5.4
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -6.3027192354,
+        -7.0622634888,
+        -1.599609375
+      ],
+      [
+        2.6933745146,
+        3.1291427612,
+        6.640625
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -7.9835351764,
+        -7.8833437292,
+        -1.599609375
+      ],
+      [
+        7.1413099729,
+        5.7874169693,
+        6.640625
+      ]
+    ],
+    "authored_space": "projected stamp-space, not raw native/model-root coordinates",
+    "projected_resource_to_stamp_matrix": [
+      [
+        1,
+        0,
+        0,
+        -1.7050629854
+      ],
+      [
+        0,
+        1,
+        0,
+        -1.3669509888
+      ],
+      [
+        0,
+        0,
+        1,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        1,
+        0,
+        0,
+        1.7050629854
+      ],
+      [
+        0,
+        1,
+        0,
+        1.3669509888
+      ],
+      [
+        0,
+        0,
+        1,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "entry": [
+      -0.65,
+      -6.0,
+      0.16
+    ],
+    "forge_front": [
+      -1.6,
+      0.8,
+      0.81
+    ],
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_blacksmith/layout_blacksmith.rgm",
+      "bellows": {
+        "model": "art/civilizations/common/props/bellows/bellows.rgm",
+        "stamp_matrix": [
+          [
+            -0.5297451045,
+            -0.8447244385,
+            -0.0762282577,
+            1.576210022
+          ],
+          [
+            0.8481446287,
+            -0.5280770416,
+            -0.0422531301,
+            1.9819070101
+          ],
+          [
+            -0.0045621412,
+            -0.0870359762,
+            0.9961947228,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "possible_rest_bounds": [
+          [
+            -0.3181049645,
+            0.6392442321,
+            -0.1254559184
+          ],
+          [
+            2.789233351,
+            3.1139238299,
+            2.3499984206
+          ]
+        ],
+        "reserved_review_box": [
+          [
+            -0.45,
+            0.5,
+            -0.15
+          ],
+          [
+            2.92,
+            3.25,
+            2.5
+          ]
+        ],
+        "frame_limit": "Measured stamp rest frame, not a nozzle socket or animated swept volume. Native rig/graph and playback must be inventoried by parent; no replacement bellows is authored."
+      },
+      "other_existing_props": [
+        "blacksmith_anvil_stump",
+        "wood_piles_stacked",
+        "wood_pile_heap",
+        "water_bucket",
+        "cart_2_wheeled"
+      ],
+      "policy": "Keep existing native owners, graphs, transforms and markers. Proposed custom static tools are review sources, not permission to duplicate/replace native attachments.",
+      "clearance_status": "Unqualified: source envelope is conditional compound evidence, not footprint, unit-exit, nozzle contact or motion clearance."
+    },
+    "native_clearance_status": "Unqualified: source envelope is conditional compound evidence, not footprint, unit-exit, nozzle contact or motion clearance.",
+    "visual_inspection": "Not performed; parent must build and inspect serially",
+    "source_primary_revision": {
+      "basis": "Exact native primary body, no conditional prop envelope override",
+      "ground_bounds": [
+        [
+          -6.2827192354,
+          -6.2,
+          -0.06
+        ],
+        [
+          2.6733745146,
+          3.1091427611999998,
+          0.16
+        ]
+      ],
+      "store_front_retained": -0.15,
+      "finishing_bay_relocated_to_south_forecourt": false,
+      "native_markers_and_stamp_frames": "Retained; native actor/route/playback gates remain deferred"
+    },
+    "flue_opening": {
+      "center": [
+        -1.6,
+        2.3,
+        4.54
+      ],
+      "clear_width": 0.62,
+      "source_open": true
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp-space, not raw native/model-root coordinates",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          1.705062985420227
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          1.3669509887695312
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A4": {
+    "ground_top": 0.16,
+    "native_body_key": "A4",
+    "native_model": "art/civilizations/sultanate/structures/blacksmith/sul_blacksmith_control_age04/sul_blacksmith_control_age04.rgm",
+    "existing_visual_age": 4,
+    "source_uses": [
+      {
+        "actor": "ps_building_tech_unit_infantry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier4_tech_unit_melee_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_blacksmith_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_tech_unit_infantry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier4_tech_unit_melee_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_blacksmith_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_tech_unit_infantry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier4_tech_unit_melee_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_blacksmith_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_tech_unit_infantry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier4_tech_unit_melee_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_blacksmith_age_04.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -6.1655317354,
+        -6.2,
+        -0.06
+      ],
+      [
+        2.6968120146,
+        3.2771115111999998,
+        5.4
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -6.1855317354,
+        -6.6911697388,
+        -1.599609375
+      ],
+      [
+        2.7168120146,
+        3.2971115112,
+        6.671875
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -7.9835351764,
+        -7.8833437292,
+        -1.599609375
+      ],
+      [
+        7.1413099729,
+        5.7874169693,
+        6.671875
+      ]
+    ],
+    "authored_space": "projected stamp-space, not raw native/model-root coordinates",
+    "projected_resource_to_stamp_matrix": [
+      [
+        1,
+        0,
+        0,
+        -1.7050629854
+      ],
+      [
+        0,
+        1,
+        0,
+        -1.3669509888
+      ],
+      [
+        0,
+        0,
+        1,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        1,
+        0,
+        0,
+        1.7050629854
+      ],
+      [
+        0,
+        1,
+        0,
+        1.3669509888
+      ],
+      [
+        0,
+        0,
+        1,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "entry": [
+      -0.65,
+      -6.0,
+      0.16
+    ],
+    "forge_front": [
+      -1.6,
+      0.8,
+      0.81
+    ],
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_blacksmith/layout_blacksmith.rgm",
+      "bellows": {
+        "model": "art/civilizations/common/props/bellows/bellows.rgm",
+        "stamp_matrix": [
+          [
+            -0.5297451045,
+            -0.8447244385,
+            -0.0762282577,
+            1.576210022
+          ],
+          [
+            0.8481446287,
+            -0.5280770416,
+            -0.0422531301,
+            1.9819070101
+          ],
+          [
+            -0.0045621412,
+            -0.0870359762,
+            0.9961947228,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "possible_rest_bounds": [
+          [
+            -0.3181049645,
+            0.6392442321,
+            -0.1254559184
+          ],
+          [
+            2.789233351,
+            3.1139238299,
+            2.3499984206
+          ]
+        ],
+        "reserved_review_box": [
+          [
+            -0.45,
+            0.5,
+            -0.15
+          ],
+          [
+            2.92,
+            3.25,
+            2.5
+          ]
+        ],
+        "frame_limit": "Measured stamp rest frame, not a nozzle socket or animated swept volume. Native rig/graph and playback must be inventoried by parent; no replacement bellows is authored."
+      },
+      "other_existing_props": [
+        "blacksmith_anvil_stump",
+        "wood_piles_stacked",
+        "wood_pile_heap",
+        "water_bucket",
+        "cart_2_wheeled"
+      ],
+      "policy": "Keep existing native owners, graphs, transforms and markers. Proposed custom static tools are review sources, not permission to duplicate/replace native attachments.",
+      "clearance_status": "Unqualified: source envelope is conditional compound evidence, not footprint, unit-exit, nozzle contact or motion clearance."
+    },
+    "native_clearance_status": "Unqualified: source envelope is conditional compound evidence, not footprint, unit-exit, nozzle contact or motion clearance.",
+    "visual_inspection": "Not performed; parent must build and inspect serially",
+    "source_primary_revision": {
+      "basis": "Exact native primary body, no conditional prop envelope override",
+      "ground_bounds": [
+        [
+          -6.1655317354,
+          -6.2,
+          -0.06
+        ],
+        [
+          2.6968120146,
+          3.2771115111999998,
+          0.16
+        ]
+      ],
+      "store_front_retained": -0.15,
+      "finishing_bay_relocated_to_south_forecourt": true,
+      "native_markers_and_stamp_frames": "Retained; native actor/route/playback gates remain deferred"
+    },
+    "flue_opening": {
+      "center": [
+        -1.6,
+        2.3,
+        4.890000000000001
+      ],
+      "clear_width": 0.62,
+      "source_open": true
+    },
+    "cool_finishing_source_bounds": [
+      [
+        -0.225,
+        -6.025,
+        0.16
+      ],
+      [
+        1.825,
+        -4.175,
+        3.0600000000000005
+      ]
+    ],
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp-space, not raw native/model-root coordinates",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          1.705062985420227
+        ],
+        [
+          -0.0,
+          1.0,
+          -0.0,
+          1.3669509887695312
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}

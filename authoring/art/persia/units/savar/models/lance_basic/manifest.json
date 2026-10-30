@@ -1,0 +1,159 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "savar",
+  "donor": "art/civilizations/common/weapons/melee/lance_basic/lance_basic.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\savar\\models\\lance_basic\\model.blend",
+  "source_sha256": "cb3b19dbbe561ab841d800db92be6f5b38cfe3ce3f3002f0b12bfe797f30e64d",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 42,
+      "triangles": 58,
+      "sha256": "c57a566161667ce91f4bf6b9522a7c661d7744eaee0df9a24de61c45019f221c"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 42,
+      "triangles": 58,
+      "sha256": "93d5281c33cef65fb9e5ba620915dacd03f00991fafaeb793fa9999e8b4ccbe6"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 42,
+      "triangles": 58,
+      "sha256": "319577a2f06f8ced0ec6f77803c9f25372dbc82b34cebea2532c73d721eb0d6e"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_savar_lance_basic_LOD0",
+      "vertices": 42,
+      "triangles": 58,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_savar_lance_basic_LOD1",
+      "vertices": 42,
+      "triangles": 58,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_savar_lance_basic_LOD2",
+      "vertices": 42,
+      "triangles": 58,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 7,
+      "source_vertices": 42,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 7,
+      "source_vertices": 42,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 7,
+      "source_vertices": 42,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 7,
+      "source_vertices": 42,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 7,
+      "source_vertices": 42,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 7,
+      "source_vertices": 42,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/melee/lance_basic/lance_basic.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/melee/lance_basic/lance_basic.rgm"
+}

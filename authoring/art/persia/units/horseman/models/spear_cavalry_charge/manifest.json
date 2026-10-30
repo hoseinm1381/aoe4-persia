@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "horseman",
+  "donor": "art/civilizations/common/weapons/melee/spear_cavalry_charge/spear_cavalry_charge.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\horseman\\models\\spear_cavalry_charge\\model.blend",
+  "source_sha256": "884814db0e3388960b96be92f8ab28b075a63f66098d9cac9109af5c6d05f1c0",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "a2b4a75305ad6837a575670a9d8d2b488687e3133743640ba0aadfd52df7fdaa"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "f42f45e5dbb8959bb963a04c4ffe9f588d3b244b4e69f01b4a77b321cd6bd208"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "0f8568740c08633f85c328608f437ec3dec616014fe485a763b3193591af1e0a"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_horseman_spear_cavalry_charge_LOD0",
+      "vertices": 36,
+      "triangles": 30,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_horseman_spear_cavalry_charge_LOD1",
+      "vertices": 36,
+      "triangles": 30,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_horseman_spear_cavalry_charge_LOD2",
+      "vertices": 36,
+      "triangles": 30,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 20,
+      "source_vertices": 36,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 20,
+      "source_vertices": 36,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 20,
+      "source_vertices": 36,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 20,
+      "source_vertices": 36,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 20,
+      "source_vertices": 36,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 20,
+      "source_vertices": 36,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/melee/spear_cavalry_charge/spear_cavalry_charge.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/melee/spear_cavalry_charge/spear_cavalry_charge.rgm"
+}

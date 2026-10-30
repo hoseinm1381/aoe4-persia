@@ -1,0 +1,1054 @@
+{
+  "schema": "persia-family-bindings/v1",
+  "family": "assassin",
+  "permanent_source_read_only": true,
+  "blueprints_and_selectors": [
+    {
+      "key": "ebps/persia/ps_unit_spy_ayy",
+      "family": "assassin",
+      "status": "included",
+      "reached_from": "Explicit approved Assassin scope; ability shajar_convert_to_spy_ayy output uses native state-tree; private output not proven",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\ebps\\persia\\ps_unit_spy_ayy.xml",
+      "source_sha256": "d7b8bbf8f6c837d8638ea3847cf05ba7e28ffc31983d2d66e86f2c53067e74e4",
+      "visual_fields": [
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\core\\units\\unit_villager_1",
+          "path": "instance/list:extensions/template_reference:exts/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "animator_scale",
+          "value": "122",
+          "path": "instance/list:extensions/template_reference:exts/float:animator_scale",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\ayyubid_cmp\\weapons\\wpn_melee_spy_ayy",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_RArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\ayyubid_cmp\\weapons\\wpn_melee_spy_ayy",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_RArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\ayyubid_cmp\\units\\tier1_spy_ayy",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\core\\units\\unit_villager_1",
+          "path": "instance/variant:xp3/list:extensions/template_reference:exts/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "animator_scale",
+          "value": "122",
+          "path": "instance/variant:xp3/list:extensions/template_reference:exts/float:animator_scale",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\ayyubid_cmp\\weapons\\wpn_melee_spy_ayy",
+          "path": "instance/variant:xp3/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_RArmPalmSocket",
+          "path": "instance/variant:xp3/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\ayyubid_cmp\\weapons\\wpn_melee_spy_ayy",
+          "path": "instance/variant:xp3/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_RArmPalmSocket",
+          "path": "instance/variant:xp3/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\ayyubid_cmp\\units\\tier1_spy_ayy",
+          "path": "instance/variant:xp3/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "sbps/persia/ps_unit_spy_ayy",
+      "family": "assassin",
+      "status": "included",
+      "reached_from": "Explicit approved Assassin scope; ability shajar_convert_to_spy_ayy output uses native state-tree; private output not proven",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\sbps\\persia\\ps_unit_spy_ayy.xml",
+      "source_sha256": "1a5f8e74a590c09f86d87a8101fb7d04dc43e8409fe5bfacb0f13b0f3a9e11cb",
+      "visual_fields": []
+    }
+  ],
+  "models": [
+    {
+      "logical_path": "art/civilizations/campaign_abbasids/humans/abb_spy/abb_spy.rgm",
+      "role": "body",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/ayyubid_cmp/units/tier1_spy_ayy",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_spy_ayy"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/ayyubid_cmp/units/tier1_spy_ayy",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_spy_ayy"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\assassin\\models\\abb_spy\\manifest.json",
+      "source_manifest_sha256": "f3be85e9f30e3e4b47ffa293adaa785119b308cbeb2c4e188848ff9f6012c65a",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\assassin\\models\\abb_spy\\model.blend",
+      "source_sha256": "b498b28391aee5a587532b35ec69698493ec2b86674a702b45997f2852bede54",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "8c81d2dd0a869994a8b6364b960bca919f9c698716d9515e09259ff9675601e6",
+        "bones": 73,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "body",
+          "vertices": 859,
+          "triangles": 1182,
+          "sha256": "7ebfb7950bdb601ff09a2b5916bf99996100c1ec2d2e89ea2cff7e850b35b5ed"
+        },
+        {
+          "lod": 1,
+          "component": "body",
+          "vertices": 467,
+          "triangles": 564,
+          "sha256": "c09a38e2a4dcc6b32ea8e356925be59ed6b95a8bf7d6c994f0b76292103dcfe0"
+        },
+        {
+          "lod": 2,
+          "component": "body",
+          "vertices": 271,
+          "triangles": 282,
+          "sha256": "483788c8533333bac9ba461af8a70ff6d33705f40daef33688bed11cecb08d26"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_assassin_abb_spy_body_LOD0",
+          "vertices": 859,
+          "triangles": 1182,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_assassin_abb_spy_body_LOD1",
+          "vertices": 467,
+          "triangles": 564,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_assassin_abb_spy_body_LOD2",
+          "vertices": 271,
+          "triangles": 282,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/common/weapons/melee/sword_short/sword_short.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/ayyubid_cmp/weapons/wpn_melee_spy_ayy",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_spy_ayy"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/ayyubid_cmp/weapons/wpn_melee_spy_ayy",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_spy_ayy"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\assassin\\models\\sword_short\\manifest.json",
+      "source_manifest_sha256": "687fdf07de74feb76338839d1fca34c066311cabfb68af062ed034eceec359b0",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\assassin\\models\\sword_short\\model.blend",
+      "source_sha256": "cf5a3f3ba28594b38fcc94681716e090b8aff3c5daa507356d357e5b502f201b",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "bones": 0,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 120,
+          "triangles": 104,
+          "sha256": "11a04db22d3210da7bd028951a338380109fb9cc077b9c43def06db8906f0460"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 98,
+          "triangles": 82,
+          "sha256": "76b8ebf8fb24264bce3bb6c09e8f3954cdf56cd60c678edc7bf92426a15d94c7"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 74,
+          "triangles": 56,
+          "sha256": "9da3ef3f4e16c9205a6507ed704846382d87fcfcc51aa0a244652b891eadbdc0"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_assassin_sword_short_LOD0",
+          "vertices": 120,
+          "triangles": 104,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_assassin_sword_short_LOD1",
+          "vertices": 98,
+          "triangles": 82,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_assassin_sword_short_LOD2",
+          "vertices": 74,
+          "triangles": 56,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/abbasids/weapons/abb_shamshir/abb_shamshir.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/wpn_melee_manatarms_3_abb",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_spy_ayy"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\assassin\\models\\abb_shamshir\\manifest.json",
+      "source_manifest_sha256": "23e3d88968f78762369bd45123be6676dbd70c4e610d5415e9e950ae69b940dc",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\assassin\\models\\abb_shamshir\\model.blend",
+      "source_sha256": "709e4f37fdf42b75ef45a263a8d737f1858fd1dd625e267b8c3632b400fdd604",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "bones": 0,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 226,
+          "triangles": 212,
+          "sha256": "507b14886c1fa6ef596611cd5890f82a974bf75e4a8e57f692960f28689d1734"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 168,
+          "triangles": 144,
+          "sha256": "649101844c93fa127da97340e37f4c3727ce7d5de98a1a5ae6b54e4c48449dcb"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 102,
+          "triangles": 80,
+          "sha256": "28a787e0c171f38bc17c1bddea14fe92baf9762a3c0d0d00122cee308d20c83a"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_assassin_abb_shamshir_LOD0",
+          "vertices": 226,
+          "triangles": 212,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_assassin_abb_shamshir_LOD1",
+          "vertices": 168,
+          "triangles": 144,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_assassin_abb_shamshir_LOD2",
+          "vertices": 102,
+          "triangles": 80,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/common/humans/archetypes/base_civilian/base_civilian.rgm",
+      "role": "native_animation_owner",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/units/unit_villager_1",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_spy_ayy"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/units/unit_villager_1",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_spy_ayy"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/units/unit_villager_1",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_spy_ayy"
+        }
+      ],
+      "scope": "required",
+      "editable_status": "not modeled"
+    }
+  ],
+  "assemblies": [
+    {
+      "manifest": "art\\persia\\units\\assassin\\assemblies\\abb_spy\\manifest.json",
+      "manifest_sha256": "79ac4e983b6eafba86d40c51d1a7d0ac93c31f1e9cab1708844924ba50ca3679",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\assassin\\assemblies\\abb_spy\\assembly.blend",
+      "sha256": "10b66e510d049a1585f8565690464ceddb83f8f601fae1ab01d5ad10047da3f6",
+      "sockets": {
+        "sword_short": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 73,
+            "max_reference_matrix_error": 9.618142939871177e-06,
+            "donor": "art/civilizations/campaign_abbasids/humans/abb_spy/abb_spy.rgm",
+            "donor_manifest_sha256": "968f8be2dc0ee405267a6bcdea7ca3630ed94d34f9def14fbf390e5927eaa2cf",
+            "bones_modified": 0
+          },
+          "triangles": [
+            104,
+            82,
+            56
+          ],
+          "native_marker_evidence": [
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_scout_1.xml"
+            }
+          ],
+          "marker_status": "explicit native marker"
+        },
+        "abb_shamshir": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 73,
+            "max_reference_matrix_error": 9.618142939871177e-06,
+            "donor": "art/civilizations/campaign_abbasids/humans/abb_spy/abb_spy.rgm",
+            "donor_manifest_sha256": "968f8be2dc0ee405267a6bcdea7ca3630ed94d34f9def14fbf390e5927eaa2cf",
+            "bones_modified": 0
+          },
+          "triangles": [
+            212,
+            144,
+            80
+          ],
+          "native_marker_evidence": [],
+          "marker_status": "family convention; exact action marker evidence pending"
+        }
+      },
+      "rig_contract_sha256": "8c81d2dd0a869994a8b6364b960bca919f9c698716d9515e09259ff9675601e6",
+      "motion_checks": [
+        {
+          "clip": "navigation\\idles\\tense_idle_spear_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_civilian/base_civilian.rhka",
+            "rhka_sha256": "02828e08aa466af35ea9af11af048e08031d50d4eea3573827c817e5cb0295c3",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.668711912152679
+            },
+            {
+              "frame": 72,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.705431352101348
+            },
+            {
+              "frame": 143,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.6759278071057588
+            },
+            {
+              "frame": 215,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.6586801777286386
+            },
+            {
+              "frame": 286,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.668711912152679
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    }
+  ],
+  "reconstruction_inputs": [
+    {
+      "path": "art\\persia\\units\\_donors\\abb_shamshir\\7fcd7cfa60c326e17d3b\\decoded-static.json",
+      "sha256": "0865aea0d536893b9490c6e81d0822bd75ef21bd9911b3dd76e30d498d0da3fe",
+      "bytes": 328895
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_shamshir\\7fcd7cfa60c326e17d3b\\source\\art\\civilizations\\abbasids\\weapons\\abb_shamshir\\11981258629967268672_packed.rrtex",
+      "sha256": "457bd4169901674572e80e594fa28f1dd9316b1f0ca20080f2be5742eafcde75",
+      "bytes": 7463
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_shamshir\\7fcd7cfa60c326e17d3b\\source\\art\\civilizations\\abbasids\\weapons\\abb_shamshir\\12359545859200620099_packed.rrtex",
+      "sha256": "6509fe1f0bdc0337f41a7599b6915eb318baaa1ca7d6fea049c317a688e56196",
+      "bytes": 3962
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_shamshir\\7fcd7cfa60c326e17d3b\\source\\art\\civilizations\\abbasids\\weapons\\abb_shamshir\\666222528761096191_packed.rrtex",
+      "sha256": "29403d7c3adccbb16c6cfa90d4e7ac0b7aadbb66603bc57f721e7be1bf012167",
+      "bytes": 9937
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_shamshir\\7fcd7cfa60c326e17d3b\\source\\art\\civilizations\\abbasids\\weapons\\abb_shamshir\\abb_shamshir.rgm",
+      "sha256": "e2c2883469f58753fef59e7fdaf0221ac55a04294eebcbda66e6c2a8330ddb2b",
+      "bytes": 7986
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_shamshir\\7fcd7cfa60c326e17d3b\\source\\art\\civilizations\\abbasids\\weapons\\abb_shamshir\\abb_shamshir.rrgeom",
+      "sha256": "b57e430537615ce944b8adb996f5fa9e8158d2e57f8feb43e6a116b87e0ec7d6",
+      "bytes": 30074
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_shamshir\\7fcd7cfa60c326e17d3b\\source\\art\\civilizations\\abbasids\\weapons\\abb_shamshir\\abb_shamshir.rrmaterial",
+      "sha256": "0448067ac91cb2434b4d7d133756af15a52170fc90d0529218504274bd855ddf",
+      "bytes": 609
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_shamshir\\7fcd7cfa60c326e17d3b\\textures\\a29ba3a8037b_11981258629967268672_packed.dds",
+      "sha256": "284497e2a8d6ffe38f9deb694f0093362570ceb6c63b5e293cd0757879471c88",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_shamshir\\7fcd7cfa60c326e17d3b\\textures\\d5a6d5ca0562_12359545859200620099_packed.dds",
+      "sha256": "06eb0c55b0cd960d8952bb9d3b816c75e580dd84b952283889edc771c7f5bfd7",
+      "bytes": 5608
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_shamshir\\7fcd7cfa60c326e17d3b\\textures\\e753538bf9b4_666222528761096191_packed.dds",
+      "sha256": "848584c0db788175c01e923cc3482eed0fa26acefa180d6efa30c023935a7e71",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\decoded-static.json",
+      "sha256": "968f8be2dc0ee405267a6bcdea7ca3630ed94d34f9def14fbf390e5927eaa2cf",
+      "bytes": 1916545
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\source\\art\\civilizations\\campaign_abbasids\\humans\\abb_spy\\11828349956040616700_packed.rrtex",
+      "sha256": "b60cae1591e5b5dadf6f6fe8e9b91d7bd8b1ee1692cdc28a246067f6b9f92f8c",
+      "bytes": 32223
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\source\\art\\civilizations\\campaign_abbasids\\humans\\abb_spy\\12676274844044505051_packed.rrtex",
+      "sha256": "93828703319e71116ecf98c361f4474f19b1259fff3ed02765d0a4f258ce8e60",
+      "bytes": 74628
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\source\\art\\civilizations\\campaign_abbasids\\humans\\abb_spy\\15581282866643074460_packed.rrtex",
+      "sha256": "c754f6e1c694cfcd1340ca1bc888f9a35375a3b823c85837a81e4bfecde077b0",
+      "bytes": 47251
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\source\\art\\civilizations\\campaign_abbasids\\humans\\abb_spy\\1814858843765653765_packed.rrtex",
+      "sha256": "5f86c42ca8980a3a0d724e8dba35c598ec29e915a93ce464067a1544a49503a5",
+      "bytes": 75078
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\source\\art\\civilizations\\campaign_abbasids\\humans\\abb_spy\\3485062119632734991_packed.rrtex",
+      "sha256": "6bd86af05ca620c68d091f8e8c7992859ce2fbf1ec0e09442dfc0d6ed2cf81d8",
+      "bytes": 373
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\source\\art\\civilizations\\campaign_abbasids\\humans\\abb_spy\\596200614493191580_packed.rrtex",
+      "sha256": "7fddefc11558464026abbcf9011faa28d47942511eb3afe0ebdb934970909ee5",
+      "bytes": 75010
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\source\\art\\civilizations\\campaign_abbasids\\humans\\abb_spy\\abb_spy.rgm",
+      "sha256": "33c3438e17e2da3cb22e89315646b93d43272550dbb34e6cca7efb1eae505c51",
+      "bytes": 44611
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\source\\art\\civilizations\\campaign_abbasids\\humans\\abb_spy\\abb_spy.rrgeom",
+      "sha256": "6288848ef0c2321efe96dd08fe2c798aa22d31e435bcd2c5ff2ed4cded0d71a0",
+      "bytes": 64542
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\source\\art\\civilizations\\campaign_abbasids\\humans\\abb_spy\\abb_spy.rrmaterial",
+      "sha256": "e2650d4e5837f0e43840e288ffdb88a04dce42cfe100cf82cc0d68e495f6ccea",
+      "bytes": 2259
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\textures\\90e0674c01a4_15581282866643074460_packed.dds",
+      "sha256": "bd8407aaa15101a968b67bb976efde5daafd277961cc681302c55c310c1f210c",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\textures\\9f64fcf7940c_1814858843765653765_packed.dds",
+      "sha256": "1a409e476cd2987a3d24d5a02e5bd3462dbca77534fc25873d5995ec04876253",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\textures\\a489f348079d_596200614493191580_packed.dds",
+      "sha256": "675483a489a5d255b41af0745b6117500d291c6765106d2b421a437ae7eac4f2",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\textures\\bb1d34f4eaa6_11828349956040616700_packed.dds",
+      "sha256": "efb45416334bcdaacd9ffc731495ce89a6a25f07e933185b14df9009006ee1e7",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_spy\\529a0847a859a6ba8e0b\\textures\\db04bb377f4a_3485062119632734991_packed.dds",
+      "sha256": "74a5d3d64a43d21cd67b015b7035058e6c2e094d2fe9a9ab6337c570c5b538ab",
+      "bytes": 176
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sword_short\\e45fde721e1edbbe1ca5\\decoded-static.json",
+      "sha256": "693aef74e5d508bf92b86e6712669b2947a5324dff9b540014c62844671963cc",
+      "bytes": 189705
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sword_short\\e45fde721e1edbbe1ca5\\source\\art\\civilizations\\common\\weapons\\melee\\sword_short\\10958796886893388846_packed.rrtex",
+      "sha256": "068db0ed919b098eebc501fc2f06779284b157280effa778e4d383af70ed4259",
+      "bytes": 4813
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sword_short\\e45fde721e1edbbe1ca5\\source\\art\\civilizations\\common\\weapons\\melee\\sword_short\\16000898624788428045_packed.rrtex",
+      "sha256": "5d782dc96e76ce518d4aefc510c8c7a21bbf1464007def98f8618c107f376878",
+      "bytes": 7263
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sword_short\\e45fde721e1edbbe1ca5\\source\\art\\civilizations\\common\\weapons\\melee\\sword_short\\8665986519614401203_packed.rrtex",
+      "sha256": "c90ece85df82618573bc61ad5c38a2d47d7db7f42a6eb38d88b142335dd13536",
+      "bytes": 10147
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sword_short\\e45fde721e1edbbe1ca5\\source\\art\\civilizations\\common\\weapons\\melee\\sword_short\\sword_short.rgm",
+      "sha256": "ef4cdf7b46f3e40fdb1e854ec25f4bb81cef2873a69452520f1a5c04a8a1450a",
+      "bytes": 4309
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sword_short\\e45fde721e1edbbe1ca5\\source\\art\\civilizations\\common\\weapons\\melee\\sword_short\\sword_short.rrgeom",
+      "sha256": "d1e557c5732574a13b22837177df042b27f622df74272293129f9941f2b06bd6",
+      "bytes": 22129
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sword_short\\e45fde721e1edbbe1ca5\\source\\art\\civilizations\\common\\weapons\\melee\\sword_short\\sword_short.rrmaterial",
+      "sha256": "7732a7531bb122aad88c73db65b255c846a8303cf9dbc5e03ef7ba38927deba3",
+      "bytes": 619
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sword_short\\e45fde721e1edbbe1ca5\\textures\\08494cc25ee6_8665986519614401203_packed.dds",
+      "sha256": "916ab78c7a567e0496135e164cffee9a95bed2b3834195abcec51d859f6d826d",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sword_short\\e45fde721e1edbbe1ca5\\textures\\ac39e176d79c_10958796886893388846_packed.dds",
+      "sha256": "df36136e8996bff38c31319e26517a507e39260c33ae067ca0a856a9c7bc2cfb",
+      "bytes": 5608
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sword_short\\e45fde721e1edbbe1ca5\\textures\\de7fa4a359e1_16000898624788428045_packed.dds",
+      "sha256": "43e5b1640914af30a34003112afd872367cc3f5ce031cb9a0541d9dce3a69fc4",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\abb_shamshir\\albedo.png",
+      "sha256": "f2c4a17c019a4b7285307f529e910f57506c63db5bee6768ce851939fc8ccea1",
+      "bytes": 832168
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\abb_shamshir\\metalness.png",
+      "sha256": "bbf3b44335515497ea1a8ce687cf82b6f334af7973881d8b4e9d724fc56d5578",
+      "bytes": 28540
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\abb_shamshir\\normal.png",
+      "sha256": "b7bec15630bb1a70480db6e6cbd6c99d047c7b009cc19d751abde456d9e7f435",
+      "bytes": 186586
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\abb_shamshir\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\abb_shamshir\\roughness.png",
+      "sha256": "2e212ba2da0411390aa4ebcb6111b9ed720072c3203abf8b4042737ef9603f71",
+      "bytes": 691938
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\abb_shamshir\\sources.json",
+      "sha256": "9a928cf2d57ff8065bb4ec1da2ae945e8559219e6d984b421f3995ff48f22ce1",
+      "bytes": 1536
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\abb_spy\\albedo.png",
+      "sha256": "ba652608abd75b258fb0f2148e2813fbc2553a595dfeafd6c22eae90a6d57549",
+      "bytes": 937890
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\abb_spy\\metalness.png",
+      "sha256": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+      "bytes": 5712
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\abb_spy\\normal.png",
+      "sha256": "25230c6a1a05a32f2ba1e634400cc75903a52a5bf9bb16371db135334bbdd7c0",
+      "bytes": 355901
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\abb_spy\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\abb_spy\\roughness.png",
+      "sha256": "2f3fb7061d4fb3f2060036bc8bc9b468bc025d2177215966b0e47a68130430c2",
+      "bytes": 719152
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\abb_spy\\sources.json",
+      "sha256": "56f0f69d614b53eb0d5072cd66f5a98731ac4cd11bf6f00c1ce2972fd9422344",
+      "bytes": 1529
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\sword_short\\albedo.png",
+      "sha256": "7e5d85128646b7f8f9fdd7e68ed387bd52f191d9024561e7e56f2922bf2a769d",
+      "bytes": 864174
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\sword_short\\metalness.png",
+      "sha256": "fbb2d7d172a282827b65f3a7ec6d4c19afd683d8b57dbed28a58c7762b1946fd",
+      "bytes": 55395
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\sword_short\\normal.png",
+      "sha256": "53fdb14d0d404eed2bd50703a171446881850c78abac0a2274206ab3d11f5c72",
+      "bytes": 209837
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\sword_short\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\sword_short\\roughness.png",
+      "sha256": "57f6b1b404338030574a413a3e658c86ecd68a176b803edc4b0db10cf69f8d69",
+      "bytes": 702716
+    },
+    {
+      "path": "art\\persia\\units\\assassin\\textures\\sword_short\\sources.json",
+      "sha256": "36c51ca5c35c2eade9c6653ca0cf7050c309658a9c39da103521b49c5cc01ad0",
+      "bytes": 1537
+    }
+  ],
+  "recipe_files": [
+    {
+      "path": "tools\\persia_units\\assembly.py",
+      "sha256": "b967a5ccb11320277c7856e9514985580a8b23f532dba5e685df40f159246872"
+    },
+    {
+      "path": "tools\\persia_units\\author.py",
+      "sha256": "d3ffbeb6e657b0946a0b6fd51a93e7f8c35640c252f062912f91a58497cba95e"
+    },
+    {
+      "path": "tools\\persia_units\\batch_family_review.py",
+      "sha256": "04e1170dd2ffac785b88c0c404ab41166a52f075997faa4034efc6d7279f56ae"
+    },
+    {
+      "path": "tools\\persia_units\\batch_human_recipe.py",
+      "sha256": "f7856693f8e454cdfc18c1ed882a7eaf0b6611e5dcc068778d75bd59d444a56f"
+    },
+    {
+      "path": "tools\\persia_units\\batch_support_humans.py",
+      "sha256": "60f9aefe79c4abf3533e57e5dbace5ca8567d7823ae0d37e1c805571682c82e5"
+    },
+    {
+      "path": "tools\\persia_units\\combined_recipe.py",
+      "sha256": "2b4c9e5ba26ed3c253eede63328e7ebc46d6c6737ed1d3e568afc02f0ac2aca8"
+    },
+    {
+      "path": "tools\\persia_units\\contracts.py",
+      "sha256": "4c85a350787b5be10f9a1c1a70319a660b72cfd02711c34bc8b479b6958d7454"
+    },
+    {
+      "path": "tools\\persia_units\\equipment_recipe.py",
+      "sha256": "c902af2a6215a73d354fd34e8ac5d8636fe1c393339807441f24125e427c3caa"
+    },
+    {
+      "path": "tools\\persia_units\\equipment_textures.py",
+      "sha256": "c07f52fa32096a68103e4a8af1a3d06339998348e35fc833b6ee4f9e90c41509"
+    },
+    {
+      "path": "tools\\persia_units\\native_socket.py",
+      "sha256": "4e3a948437d53776c98292314b0a50b010ee43c9c4faa79a1d3ae7559d0baac0"
+    },
+    {
+      "path": "tools\\persia_units\\shared_equipment.py",
+      "sha256": "d352fec4a0f9f526b8e413e62adf6fb789f8fba8bbf237d81885e9633814277b"
+    },
+    {
+      "path": "tools\\persia_units\\surface_normals.py",
+      "sha256": "1c6371a6f3c40bfac22e430b6dc64baf513585a544f42e1fe467ceb2cf2ba090"
+    },
+    {
+      "path": "tools\\persia_units\\textures.py",
+      "sha256": "a47b76b892d54a6d31d29593e9183e741b1f37abc683bd7d37e4bf240f24dfac"
+    },
+    {
+      "path": "tools\\persia_units\\weapon_shape.py",
+      "sha256": "d45fdb02907fddc6634f7e2a165f97ad3a94b0fe728ccf2c6c54961d3309d473"
+    }
+  ],
+  "dependency_scope": "minimal referenced input closure for current candidates; extra exploratory caches retained separately because cleanup is deferred",
+  "coverage": {
+    "required_models": 3,
+    "modeled": 3,
+    "cold_verified": 3,
+    "cold_geometry_current": 3
+  },
+  "editable_source_readiness": "full draft coverage; rubric acceptance and documented source/native gates remain",
+  "verified_deformation": "sampled native preview evidence only; runtime action selection and native physics unverified",
+  "rubric": {
+    "historical_grounding_max": 20,
+    "persian_identity_max": 20,
+    "AoE4_readability_max": 20,
+    "deformation_attachments_max": 25,
+    "LOD_performance_max": 15,
+    "required_total": 90,
+    "required_category_fraction": 0.8,
+    "score": null,
+    "status": "unaccepted until completed review; no automatic score from numeric tests"
+  },
+  "deferred": [
+    "cook",
+    "integration",
+    "packaging",
+    "native-game validation",
+    "promotion",
+    "push",
+    "deletion"
+  ],
+  "cold_evidence_policy": "latest outcome per source; legacy reports retain geometry/readback evidence only; full recipe and attachment equivalence require explicit tested fingerprints and semantics"
+}

@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "villager",
+  "donor": "art/civilizations/common/weapons/tools/res_stone_backpack/res_stone_backpack.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\villager\\models\\res_stone_backpack\\model.blend",
+  "source_sha256": "0d6a1809b8b5f2af894575a366e5a79b9b203cc61ee585eb22172dd9b1f9913b",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 460,
+      "triangles": 488,
+      "sha256": "4bec4229c7d56cbf093f917669e51ae55cac03eda67900ebc03737dd958c48fc"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 254,
+      "triangles": 214,
+      "sha256": "ed6fc64c18fbf8bfad884edb4c7c6a0a3276000c0b93074c9724d29aa2e5d727"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 221,
+      "triangles": 170,
+      "sha256": "5fa9b22057c57983a2fccbe721a1d3b790c396061a8bce2b30f4b04963258412"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_villager_res_stone_backpack_LOD0",
+      "vertices": 460,
+      "triangles": 488,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_res_stone_backpack_LOD1",
+      "vertices": 254,
+      "triangles": 214,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_res_stone_backpack_LOD2",
+      "vertices": 221,
+      "triangles": 170,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 2,
+      "changed_vertices": 301,
+      "source_vertices": 460,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 2,
+      "changed_vertices": 158,
+      "source_vertices": 254,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 2,
+      "changed_vertices": 134,
+      "source_vertices": 221,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 2,
+      "changed_vertices": 301,
+      "source_vertices": 460,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 2,
+      "changed_vertices": 158,
+      "source_vertices": 254,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 2,
+      "changed_vertices": 134,
+      "source_vertices": 221,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/tools/res_stone_backpack/res_stone_backpack.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/tools/res_stone_backpack/res_stone_backpack.rgm"
+}

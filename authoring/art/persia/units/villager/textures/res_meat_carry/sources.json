@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\res_meat_carry\\dbd6669e32f0478a69e8\\decoded-static.json",
+  "donor_sha256": "933901776cf195d4b176215965d4302e76e67730427798e120fef79a03113500",
+  "logical_path": "art/civilizations/common/weapons/tools/res_meat_carry/res_meat_carry.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "9526a1ef8ba3d186d42d502a525dc271051e65b37f09d3114984dd5aed7a89a0",
+    "normal": "c4f9d1ad8799951b374cfe81d8bf55dfdcd004b2c9ca72b9c8c60e0fde0b42da",
+    "roughness": "2a73076bb7f8301c741c01dd1b2d21ddf1c9baf66de1244c6efe99c557ab3a49",
+    "metalness": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

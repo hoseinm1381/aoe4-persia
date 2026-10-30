@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\abb_villager_male_age01\\169d4d0ddbb509f5c7c0\\decoded-static.json",
+  "donor_sha256": "9127854cc8eb187e480e735ca78b16c76c5b86d768181812ba02b6209e41b91f",
+  "logical_path": "art/civilizations/abbasids/humans/abb_villager_male_age01/abb_villager_male_age01.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "d168df43c811f80fe4bc466852e956e6693928a4c55b56fd96a4a72e61a6abd3",
+    "normal": "2cc13e6b6eaf28e99cc82bfafc5d5b3a9a180f457332a936fd93d1bc0ec5850a",
+    "roughness": "b6f80908bb11a8956563b49fb4d6d84ea5e556207df5c422e18a60109d94682e",
+    "metalness": "9c7c89c8c70f9f1bf7d29c60abfaaa9ed04164c4d05656740fb25829a7baf4fe",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

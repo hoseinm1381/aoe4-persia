@@ -1,0 +1,1916 @@
+{
+  "family": "elephant",
+  "body": "sul_elephant_combined_armor_age04",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\elephant\\assemblies\\sul_elephant_combined_armor_age04\\assembly.blend",
+  "sha256": "c6efd88dc84bd5c170cfbe1223a0cceb09a932007783cc2e1fbf37d365ad5860",
+  "rig_bones": 140,
+  "rig_contract_sha256": "6ffbf3ea3fb139a5c9f4d3c5e4bee496ac8a9ae546cab9b7e60037169da09858",
+  "secondary_rigs": {
+    "bow_cross": {
+      "bones": 5,
+      "rig_contract_sha256": "a41717f9f602e872d4f801e65c8fe5a1b33516ed8be4624b970f2be0f1840cf6"
+    },
+    "bow_long": {
+      "bones": 4,
+      "rig_contract_sha256": "4b0a6b286d67e8bb121fad8531276384cfb0810c03f4bf09d3ccd3a07a7ddfb4"
+    },
+    "bow_arbalest": {
+      "bones": 5,
+      "rig_contract_sha256": "b8e1b6e3706fba5500f2695f1be4b3e17b838db671b9cf1ade983f29013c8893"
+    },
+    "bow_short": {
+      "bones": 4,
+      "rig_contract_sha256": "cfaf5aa2440149048d18fd792d9f3fe95f7942424bda9171dd0a5431ca3da137"
+    }
+  },
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "body",
+      "vertices": 1233,
+      "triangles": 1302,
+      "sha256": "a89b45219179dfe6e089fec529a1f78cb734ed96f8cdd4c3eed00fb9e7ed57ae"
+    },
+    {
+      "lod": 0,
+      "component": "body",
+      "vertices": 1233,
+      "triangles": 1302,
+      "sha256": "a89b45219179dfe6e089fec529a1f78cb734ed96f8cdd4c3eed00fb9e7ed57ae"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 570,
+      "triangles": 440,
+      "sha256": "5e19dc1fc6692ce2d44961055eb2d0c8026031f48daf72117263646e77ffa68f"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 570,
+      "triangles": 440,
+      "sha256": "5e19dc1fc6692ce2d44961055eb2d0c8026031f48daf72117263646e77ffa68f"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 570,
+      "triangles": 440,
+      "sha256": "5e19dc1fc6692ce2d44961055eb2d0c8026031f48daf72117263646e77ffa68f"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 48,
+      "triangles": 46,
+      "sha256": "88cc530dd1fa78f470ec9ad283da22fa57772cbe7fa8320cb6310dec7f1448ce"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "95dee7258a05d081a5dff89a08998fecfae5179ec40ec8cd79c092141c726162"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "95dee7258a05d081a5dff89a08998fecfae5179ec40ec8cd79c092141c726162"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "95dee7258a05d081a5dff89a08998fecfae5179ec40ec8cd79c092141c726162"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "a68fbd949ddb32b561615fdc810a4542e7b856713574d0575e315be4e59d6e51"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "a68fbd949ddb32b561615fdc810a4542e7b856713574d0575e315be4e59d6e51"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "a68fbd949ddb32b561615fdc810a4542e7b856713574d0575e315be4e59d6e51"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 29,
+      "triangles": 28,
+      "sha256": "acca7ff5703dba1aff54a5a65c2c21ba2e4f1a02586ba733b724437fc96bc355"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 124,
+      "triangles": 147,
+      "sha256": "ba417248315716bd1e6b600edc590c6c52b1b1b5e3909c8b097bda60c6d654d5"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 719,
+      "triangles": 537,
+      "sha256": "f5aecf6b56fd96889a9bfb08f2c86386d8d1db5b9a22cf24ec8ed0f2a7ddb2aa"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 719,
+      "triangles": 537,
+      "sha256": "f5aecf6b56fd96889a9bfb08f2c86386d8d1db5b9a22cf24ec8ed0f2a7ddb2aa"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 719,
+      "triangles": 537,
+      "sha256": "f5aecf6b56fd96889a9bfb08f2c86386d8d1db5b9a22cf24ec8ed0f2a7ddb2aa"
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "vertices": 4395,
+      "triangles": 5657,
+      "sha256": "c960fdfe3f84d91b722139ee938a344c09ce8ef82d0394522cd1bd92c3f1205f"
+    },
+    {
+      "lod": 0,
+      "component": "rider",
+      "vertices": 1063,
+      "triangles": 1356,
+      "sha256": "ef437c795f9a53a9463f712f52d90910601b787e2b99e9cf44a74ef3f4ca063e"
+    },
+    {
+      "lod": 1,
+      "component": "body",
+      "vertices": 678,
+      "triangles": 620,
+      "sha256": "8cf290690c423f91d9fac52c2273b02289d7920477430f52b821613ae02f8a31"
+    },
+    {
+      "lod": 1,
+      "component": "body",
+      "vertices": 678,
+      "triangles": 620,
+      "sha256": "8cf290690c423f91d9fac52c2273b02289d7920477430f52b821613ae02f8a31"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 48,
+      "triangles": 46,
+      "sha256": "04b6ce1f778322e9b42687ad5c29cb2c1f5bde3db1553ca2af36e42629baf7ea"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 456,
+      "triangles": 316,
+      "sha256": "203e0e1247ed68cde6248879dd086a908eb2fe6a8533c9a265b7bc0601fd52dd"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 456,
+      "triangles": 316,
+      "sha256": "203e0e1247ed68cde6248879dd086a908eb2fe6a8533c9a265b7bc0601fd52dd"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 456,
+      "triangles": 316,
+      "sha256": "203e0e1247ed68cde6248879dd086a908eb2fe6a8533c9a265b7bc0601fd52dd"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 21,
+      "triangles": 18,
+      "sha256": "33952f63dbda5b1e511236312e8c22a6d20044647287cdeda8030c3bc13f9cc5"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "4a65c1a4c07128842cd5d888d2a2acdb6a15413069653697eda0203177f2d801"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "4a65c1a4c07128842cd5d888d2a2acdb6a15413069653697eda0203177f2d801"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "4a65c1a4c07128842cd5d888d2a2acdb6a15413069653697eda0203177f2d801"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 63,
+      "triangles": 76,
+      "sha256": "d8df85c6d1a5103f683c24bf963cdf248c146053b0bc652298060d528befbed3"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 63,
+      "triangles": 76,
+      "sha256": "d8df85c6d1a5103f683c24bf963cdf248c146053b0bc652298060d528befbed3"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 63,
+      "triangles": 76,
+      "sha256": "d8df85c6d1a5103f683c24bf963cdf248c146053b0bc652298060d528befbed3"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 109,
+      "triangles": 123,
+      "sha256": "ecfe683e5f33733e12a131bba4f35bab0be297406762e2193f12733c245f4d2d"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 327,
+      "triangles": 240,
+      "sha256": "f7d89428089a0afc5188eae58fbecff360d9484f14a4e46b175e68445b8ebdd0"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 327,
+      "triangles": 240,
+      "sha256": "f7d89428089a0afc5188eae58fbecff360d9484f14a4e46b175e68445b8ebdd0"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 327,
+      "triangles": 240,
+      "sha256": "f7d89428089a0afc5188eae58fbecff360d9484f14a4e46b175e68445b8ebdd0"
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "vertices": 3095,
+      "triangles": 3759,
+      "sha256": "f9346f4e3922fdbee85ee661c42a69bb23b2c26167e04c81d965d6041c71a545"
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "vertices": 555,
+      "triangles": 578,
+      "sha256": "e86f7525366e16becfdebc659de2bdd05f33e8ad267e0c5b867ee0e356c51b2a"
+    },
+    {
+      "lod": 2,
+      "component": "body",
+      "vertices": 354,
+      "triangles": 297,
+      "sha256": "de33947cd52f1f437f9d9c22dcf79b2e79cafc23d8968bcfd17b7a04cf426270"
+    },
+    {
+      "lod": 2,
+      "component": "body",
+      "vertices": 354,
+      "triangles": 297,
+      "sha256": "de33947cd52f1f437f9d9c22dcf79b2e79cafc23d8968bcfd17b7a04cf426270"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 199,
+      "triangles": 138,
+      "sha256": "069e964b80daf47f5842aa56acb87d493065ea6b5d9e63e830032c4802ae0ccc"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 199,
+      "triangles": 138,
+      "sha256": "069e964b80daf47f5842aa56acb87d493065ea6b5d9e63e830032c4802ae0ccc"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 199,
+      "triangles": 138,
+      "sha256": "069e964b80daf47f5842aa56acb87d493065ea6b5d9e63e830032c4802ae0ccc"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 42,
+      "triangles": 38,
+      "sha256": "076819c045e23fe4c2d914cc864be9a3a628b6c34250a271e67f622ce000ff51"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 46,
+      "triangles": 50,
+      "sha256": "38db5e0e9080fb6604fb056e127bbc43f01595d1b35b3a46551e4bf1adb61429"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 46,
+      "triangles": 50,
+      "sha256": "38db5e0e9080fb6604fb056e127bbc43f01595d1b35b3a46551e4bf1adb61429"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 46,
+      "triangles": 50,
+      "sha256": "38db5e0e9080fb6604fb056e127bbc43f01595d1b35b3a46551e4bf1adb61429"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 342,
+      "triangles": 222,
+      "sha256": "8a9c771649199a088554608182c82f362e5b06fc77bb8be9df733f8aebf03b97"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 342,
+      "triangles": 222,
+      "sha256": "8a9c771649199a088554608182c82f362e5b06fc77bb8be9df733f8aebf03b97"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 342,
+      "triangles": 222,
+      "sha256": "8a9c771649199a088554608182c82f362e5b06fc77bb8be9df733f8aebf03b97"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 14,
+      "triangles": 8,
+      "sha256": "992997577c9f9b62bfd62f14987c6ecd9d4b448b16b6b9162a22165f04dc3d85"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 40,
+      "triangles": 38,
+      "sha256": "b11997f53f20a8efc4a81bd9eeb73fb95ff77216deb69020584353a6e80dc8c1"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 40,
+      "triangles": 38,
+      "sha256": "b11997f53f20a8efc4a81bd9eeb73fb95ff77216deb69020584353a6e80dc8c1"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 40,
+      "triangles": 38,
+      "sha256": "b11997f53f20a8efc4a81bd9eeb73fb95ff77216deb69020584353a6e80dc8c1"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 73,
+      "triangles": 69,
+      "sha256": "e7678fa3d9d2498a419984a06bd2b5bedcbcfed6652ef3443f0b29d98e654c5d"
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "vertices": 2200,
+      "triangles": 2309,
+      "sha256": "70a5083f522623073c832151ca97ff004cc817f6d40cbbcf809234118e2c03fe"
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "vertices": 290,
+      "triangles": 238,
+      "sha256": "a3a3aa48abb009205066cf548155cb6150b8257e07726efcef6240b2291730e5"
+    }
+  ],
+  "equipment": {
+    "sul_spear_goad": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 140,
+        "max_reference_matrix_error": 9.500789929006714e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_elephant_combined_armor_age04/sul_elephant_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "e7bffce5212fc18c69145af4902ae7f78e10946a4af0811c26e680492b371a5f",
+        "bones_modified": 0
+      },
+      "triangles": [
+        147,
+        123,
+        69
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_melee_war_elephant_goad_3_sul",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_melee_war_elephant_goad_3_sul",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_melee_war_elephant_goad_3_sul",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_melee_war_elephant_goad_3_sul",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "spear_short": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 140,
+        "max_reference_matrix_error": 9.500789929006714e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_elephant_combined_armor_age04/sul_elephant_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "e7bffce5212fc18c69145af4902ae7f78e10946a4af0811c26e680492b371a5f",
+        "bones_modified": 0
+      },
+      "triangles": [
+        46,
+        46,
+        38
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_melee_war_elephant_goad_3_sul",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_melee_war_elephant_goad_3_sul",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "bow_cross": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 140,
+        "max_reference_matrix_error": 9.500789929006714e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_elephant_combined_armor_age04/sul_elephant_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "e7bffce5212fc18c69145af4902ae7f78e10946a4af0811c26e680492b371a5f",
+        "bones_modified": 0
+      },
+      "triangles": [
+        440,
+        240,
+        138
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "bow_long": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 140,
+        "max_reference_matrix_error": 9.500789929006714e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_elephant_combined_armor_age04/sul_elephant_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "e7bffce5212fc18c69145af4902ae7f78e10946a4af0811c26e680492b371a5f",
+        "bones_modified": 0
+      },
+      "triangles": [
+        84,
+        84,
+        38
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "bow_arbalest": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 140,
+        "max_reference_matrix_error": 9.500789929006714e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_elephant_combined_armor_age04/sul_elephant_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "e7bffce5212fc18c69145af4902ae7f78e10946a4af0811c26e680492b371a5f",
+        "bones_modified": 0
+      },
+      "triangles": [
+        537,
+        316,
+        222
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_crossbow_4_sul",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_crossbow_4_sul",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_crossbow_4_sul",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_crossbow_4_sul",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_crossbow_4_sul",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_crossbow_4_sul",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "torch": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 140,
+        "max_reference_matrix_error": 9.500789929006714e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_elephant_combined_armor_age04/sul_elephant_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "e7bffce5212fc18c69145af4902ae7f78e10946a4af0811c26e680492b371a5f",
+        "bones_modified": 0
+      },
+      "triangles": [
+        28,
+        18,
+        8
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_siege_torch_sul",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_siege_torch_sul",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_siege_torch_sul",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "bow_short": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 140,
+        "max_reference_matrix_error": 9.500789929006714e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_elephant_combined_armor_age04/sul_elephant_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "e7bffce5212fc18c69145af4902ae7f78e10946a4af0811c26e680492b371a5f",
+        "bones_modified": 0
+      },
+      "triangles": [
+        84,
+        76,
+        50
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_war_elephant_tower_archer_4_sul",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_war_elephant_tower_archer_4_sul",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_war_elephant_tower_archer_4_sul",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_war_elephant_tower_archer_4_sul",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_war_elephant_tower_archer_4_sul",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_war_elephant_tower_archer_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_war_elephant_tower_archer_4_sul",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    }
+  },
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\elephant\\models\\sul_elephant_combined_armor_age04\\model.blend",
+      "sha256": "da3c757d2cc14429a4c053c9762c224d0881b7e6520803da98e0746c52e2bde7"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\elephant\\models\\sul_spear_goad\\model.blend",
+      "sha256": "326184a93f60b1bf33fa652c8884ff28b790c20aecf07aa3a9f81a33f95f1a87"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\elephant\\models\\spear_short\\model.blend",
+      "sha256": "4ae4c4f68f7df5074a84d80b8b2d660050dd5c8aba3361be3f2e428263d1ce4d"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\models\\bow_cross\\model.blend",
+      "sha256": "80cf86157840df1ccf42177ac2478813649e7157429f2fe90aaa6015acabc07c"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\bow_long\\model.blend",
+      "sha256": "73e0fa60b3d01462a227eed9832a38c4c0646bbe33c0f82450c2e47fd89cd2ae"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\models\\bow_arbalest\\model.blend",
+      "sha256": "26266419e9165c9c88543833b51fa6c479753df94b36a10049336b3901d525f8"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\torch\\model.blend",
+      "sha256": "42eefd3da907c9fb02acac2b792b647eaaaa10fc1a0d2727cb39240be61ccc39"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\bow_short\\model.blend",
+      "sha256": "c8c53f8d796d805cf272b92934448780b13026d5397c82e0d7d58e9d3840dfc3"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\models\\bow_cross\\model.blend",
+      "sha256": "80cf86157840df1ccf42177ac2478813649e7157429f2fe90aaa6015acabc07c"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\bow_long\\model.blend",
+      "sha256": "73e0fa60b3d01462a227eed9832a38c4c0646bbe33c0f82450c2e47fd89cd2ae"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\models\\bow_arbalest\\model.blend",
+      "sha256": "26266419e9165c9c88543833b51fa6c479753df94b36a10049336b3901d525f8"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\bow_short\\model.blend",
+      "sha256": "c8c53f8d796d805cf272b92934448780b13026d5397c82e0d7d58e9d3840dfc3"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\elephant\\models\\sul_ranged_bow_age04\\model.blend",
+      "sha256": "e94f0315fada557c1aa673f9d112a97b06bf60ccbc66aff1980fbf9037467ab4"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\models\\bow_cross\\model.blend",
+      "sha256": "80cf86157840df1ccf42177ac2478813649e7157429f2fe90aaa6015acabc07c"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\bow_long\\model.blend",
+      "sha256": "73e0fa60b3d01462a227eed9832a38c4c0646bbe33c0f82450c2e47fd89cd2ae"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\models\\bow_arbalest\\model.blend",
+      "sha256": "26266419e9165c9c88543833b51fa6c479753df94b36a10049336b3901d525f8"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\bow_short\\model.blend",
+      "sha256": "c8c53f8d796d805cf272b92934448780b13026d5397c82e0d7d58e9d3840dfc3"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\elephant\\models\\sul_ranged_bow_age04\\model.blend",
+      "sha256": "e94f0315fada557c1aa673f9d112a97b06bf60ccbc66aff1980fbf9037467ab4"
+    }
+  ],
+  "motion_checks": [
+    {
+      "clip": "navigation\\tense_idle_01",
+      "native_source": {
+        "rhka_logical_path": "art/civilizations/common/animals/archetypes/base_elephant_combined/base_elephant_combined.rhka",
+        "rhka_sha256": "bf5e1be7c4501b7a5361fd1669621c912f603f16260e8dcbba768f3da9c31e54",
+        "selection_status": "linked_library_candidate",
+        "runtime_selection_status": "not_decoded"
+      },
+      "body_deformation_samples": [
+        {
+          "frame": 1,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 4.834301855277395
+        },
+        {
+          "frame": 52,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 5.278638696375575
+        },
+        {
+          "frame": 103,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 5.123506060784601
+        },
+        {
+          "frame": 153,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 4.924303412432116
+        },
+        {
+          "frame": 204,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 4.834301855277395
+        }
+      ],
+      "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+    }
+  ],
+  "source_status": "editable equipped batch candidate; one family review pending",
+  "outstanding_motion_gates": [
+    "full movement/combat/work/death action coverage",
+    "native secondary weapon synchronization",
+    "runtime state selection",
+    "native-game validation",
+    "decode exact mkr_archer01/02 transforms",
+    "native elephant-archer aiming and movement blend",
+    "native crew bow/crossbow secondary synchronization"
+  ],
+  "extra_crew": [
+    {
+      "native_squad_marker": "mkr_archer01",
+      "native_squad_blueprint": "sbps/persia/ps_unit_war_elephant_tower_4_sul",
+      "native_actor_scale_percent": 122,
+      "rig_bones": 48,
+      "rig_contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+      "body_source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\elephant\\models\\sul_ranged_bow_age04\\model.blend",
+      "preview_existing_bone_follower": "basket_m",
+      "preview_local_matrix": [
+        [
+          0.003412559861317277,
+          -0.039964448660612106,
+          1.2783381938934326,
+          -0.12386790663003922
+        ],
+        [
+          -1.219987154006958,
+          -0.0037855859845876694,
+          0.0034369700588285923,
+          0.4464077651500702
+        ],
+        [
+          0.003853964153677225,
+          -1.162954568862915,
+          -0.043940749019384384,
+          0.05415854975581169
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "exact_native_marker_transform": "not decoded; provisional source-art placement, blocking exact attachment validation",
+      "equipment": {
+        "bow_cross": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+            "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+            "bones_modified": 0
+          },
+          "triangles": [
+            440,
+            240,
+            138
+          ]
+        },
+        "bow_long": {
+          "socket": "metarig_larmpalmsocket",
+          "native_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+            "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+            "bones_modified": 0
+          },
+          "triangles": [
+            84,
+            84,
+            38
+          ]
+        },
+        "bow_arbalest": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+            "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+            "bones_modified": 0
+          },
+          "triangles": [
+            537,
+            316,
+            222
+          ]
+        },
+        "bow_short": {
+          "socket": "metarig_larmpalmsocket",
+          "native_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+            "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+            "bones_modified": 0
+          },
+          "triangles": [
+            84,
+            76,
+            50
+          ]
+        }
+      },
+      "preview_native_clip": "reaction\\rec_stab_front_01",
+      "native_clip_json_sha256": "468eb7f886cb575b84880143e1f8d11bada081f99eee38713080b8c26dd5815d"
+    },
+    {
+      "native_squad_marker": "mkr_archer02",
+      "native_squad_blueprint": "sbps/persia/ps_unit_war_elephant_tower_4_sul",
+      "native_actor_scale_percent": 122,
+      "rig_bones": 48,
+      "rig_contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+      "body_source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\elephant\\models\\sul_ranged_bow_age04\\model.blend",
+      "preview_existing_bone_follower": "basket_m",
+      "preview_local_matrix": [
+        [
+          0.003412559861317277,
+          -0.039964448660612106,
+          1.2783381938934326,
+          -0.12369993329048157
+        ],
+        [
+          -1.219987154006958,
+          -0.0037855859845876694,
+          0.0034369700588285923,
+          -0.4535904824733734
+        ],
+        [
+          0.003853964153677225,
+          -1.162954568862915,
+          -0.043940749019384384,
+          0.05488536134362221
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "exact_native_marker_transform": "not decoded; provisional source-art placement, blocking exact attachment validation",
+      "equipment": {
+        "bow_cross": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+            "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+            "bones_modified": 0
+          },
+          "triangles": [
+            440,
+            240,
+            138
+          ]
+        },
+        "bow_long": {
+          "socket": "metarig_larmpalmsocket",
+          "native_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+            "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+            "bones_modified": 0
+          },
+          "triangles": [
+            84,
+            84,
+            38
+          ]
+        },
+        "bow_arbalest": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+            "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+            "bones_modified": 0
+          },
+          "triangles": [
+            537,
+            316,
+            222
+          ]
+        },
+        "bow_short": {
+          "socket": "metarig_larmpalmsocket",
+          "native_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+            "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+            "bones_modified": 0
+          },
+          "triangles": [
+            84,
+            76,
+            50
+          ]
+        }
+      },
+      "preview_native_clip": "reaction\\rec_stab_front_01",
+      "native_clip_json_sha256": "468eb7f886cb575b84880143e1f8d11bada081f99eee38713080b8c26dd5815d"
+    }
+  ],
+  "complete_crew_assembly_budget": {
+    "native_samples": [
+      11147,
+      10777
+    ],
+    "maximum_cap": 11147,
+    "custom_maximum_selected_state": 10838,
+    "within_cap": true,
+    "crew_count": 2,
+    "crew_count_evidence": "current private squad unit_attachments has mkr_archer01 and mkr_archer02",
+    "simultaneous_state": "driver goad plus two arbalest crew"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Persians develop through Economic and Military Divans, specialized landmarks and trade. Field Assassins, Persian handgunners, cavalry and Zamburaks, then combine their strengths to control the right matchups. Flexible development paths reward careful army composition and a well-supported economy.",
+  "summary": "Divans, Mobile Armies, Trade.",
+  "author": "hosein81 and chilly5",
+  "civilization": {
+    "period": "934 - 1629 CE",
+    "difficulty": 3,
+    "tagline": "Divans, Mobile Armies, Trade",
+    "bonuses": [
+      "Divan of Commerce: Supervise economic drop-off buildings to receive 20% bonus resources and accelerate their research. Position Divans to support your gathering sites.",
+      "Divan of War: Supervise military production and technology buildings to increase unit production speed by 150%. Economic and Military Divans support different development paths.",
+      "Iranian Dynasties: Advance through Iranian dynasties using Divan research. Dynastic Reform grants a gathering bonus determined by the dynasty active when it is researched: 4%, 7%, 12% or 19%.",
+      "Caravanserais: Nearby Traders move 30% faster and gain 8 armor. The Grand Caravanserai also makes Traders 33% cheaper. Protect the trade route to maintain these benefits.",
+      "Specialized Armies: Combine Daylamites, mounted Qizilbash, Savars, Hashashin and Zamburaks. Divan research improves specific troops; these upgrades are listed under Unique Technologies.",
+      "Assassin Brotherhood: The landmark provides Spy Network: +50 line of sight for 2 minutes, with a 3-minute cooldown. Assassination Contract costs 100 Gold to deploy a Hashashin at a visible location, with a 1-minute cooldown.",
+      "Imperial Production: Ali Qapu produces discounted mixed armies. Shah Abbas Factory produces siege for Gold only at a 25% discount and provides access to Zamburaks. These benefits require their respective landmarks."
+    ]
+  }
+}

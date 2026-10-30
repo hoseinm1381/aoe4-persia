@@ -1,0 +1,20 @@
+{
+  "scope": "Local ignored diagnostics; not published",
+  "files": [
+    {
+      "path": "archives/diagnostics_011/warnings-before-update.log",
+      "bytes": 533399,
+      "sha256": "54cdc4d1f4ab3ea230cde4d3efd4b6201a1052275e4b720411175bd4d3c23764"
+    },
+    {
+      "path": "archives/diagnostics_011/persia-codex-crash.dmp",
+      "bytes": 542613,
+      "sha256": "eb1475298c476e8465af57c6362056683651eb2058e3f442121bbfb275c980e2"
+    },
+    {
+      "path": "archives/diagnostics_011/persia-codex-crash.xml",
+      "bytes": 785,
+      "sha256": "2f939d1b09bb23da0f25fd37dadc089b30e09eab25205b1e994289e2ea54ddea"
+    }
+  ]
+}

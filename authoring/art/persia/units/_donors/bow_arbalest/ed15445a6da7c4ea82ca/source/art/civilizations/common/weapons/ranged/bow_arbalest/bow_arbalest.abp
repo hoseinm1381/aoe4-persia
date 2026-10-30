@@ -1,0 +1,5 @@
+model =
+{
+	"..\\archetypes\\base_arbalest\\base_arbalest",
+	"/bow_arbalest",
+}

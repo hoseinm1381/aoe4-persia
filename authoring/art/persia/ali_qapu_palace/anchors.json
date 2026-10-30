@@ -1,0 +1,487 @@
+{
+  "anatomy": {
+    "ground_z": 0.18,
+    "terrace_top": 4.22,
+    "shaft_bottom": 4.35,
+    "shaft_top": 8.18,
+    "capital_top": 8.48,
+    "roof_bearing": 8.7,
+    "core_top": 13.3,
+    "column_x": [
+      -5.25,
+      -3.9375,
+      -1.5,
+      1.5,
+      3.9375,
+      5.25
+    ],
+    "column_y": [
+      -5.65,
+      -3.65,
+      -1.45
+    ]
+  },
+  "contacts": [
+    {
+      "name": "PavingPlate to BaseSide-1",
+      "lower": "PavingPlate",
+      "upper": "BaseSide-1"
+    },
+    {
+      "name": "BaseSide-1 to TerraceFloor",
+      "lower": "BaseSide-1",
+      "upper": "TerraceFloor"
+    },
+    {
+      "name": "PavingPlate to PassageBearing-1",
+      "lower": "PavingPlate",
+      "upper": "PassageBearing-1"
+    },
+    {
+      "name": "PassageBearing-1 to GatewayBarrel",
+      "lower": "PassageBearing-1",
+      "upper": "GatewayBarrel"
+    },
+    {
+      "name": "PavingPlate to BaseSide1",
+      "lower": "PavingPlate",
+      "upper": "BaseSide1"
+    },
+    {
+      "name": "BaseSide1 to TerraceFloor",
+      "lower": "BaseSide1",
+      "upper": "TerraceFloor"
+    },
+    {
+      "name": "PavingPlate to PassageBearing1",
+      "lower": "PavingPlate",
+      "upper": "PassageBearing1"
+    },
+    {
+      "name": "PassageBearing1 to GatewayBarrel",
+      "lower": "PassageBearing1",
+      "upper": "GatewayBarrel"
+    },
+    {
+      "name": "PavingPlate to MainGateway",
+      "lower": "PavingPlate",
+      "upper": "MainGateway"
+    },
+    {
+      "name": "MainGateway to TerraceFloor",
+      "lower": "MainGateway",
+      "upper": "TerraceFloor"
+    },
+    {
+      "name": "TerraceFloor to Col0_0Base",
+      "lower": "TerraceFloor",
+      "upper": "Col0_0Base"
+    },
+    {
+      "name": "Col0_0Base to Col0_0ColumnShaft",
+      "lower": "Col0_0Base",
+      "upper": "Col0_0ColumnShaft"
+    },
+    {
+      "name": "Col0_0ColumnShaft to Col0_0Capital",
+      "lower": "Col0_0ColumnShaft",
+      "upper": "Col0_0Capital"
+    },
+    {
+      "name": "Col0_0Capital to RoofLongBeam0",
+      "lower": "Col0_0Capital",
+      "upper": "RoofLongBeam0"
+    },
+    {
+      "name": "TerraceFloor to Col0_1Base",
+      "lower": "TerraceFloor",
+      "upper": "Col0_1Base"
+    },
+    {
+      "name": "Col0_1Base to Col0_1ColumnShaft",
+      "lower": "Col0_1Base",
+      "upper": "Col0_1ColumnShaft"
+    },
+    {
+      "name": "Col0_1ColumnShaft to Col0_1Capital",
+      "lower": "Col0_1ColumnShaft",
+      "upper": "Col0_1Capital"
+    },
+    {
+      "name": "Col0_1Capital to RoofLongBeam0",
+      "lower": "Col0_1Capital",
+      "upper": "RoofLongBeam0"
+    },
+    {
+      "name": "TerraceFloor to Col0_2Base",
+      "lower": "TerraceFloor",
+      "upper": "Col0_2Base"
+    },
+    {
+      "name": "Col0_2Base to Col0_2ColumnShaft",
+      "lower": "Col0_2Base",
+      "upper": "Col0_2ColumnShaft"
+    },
+    {
+      "name": "Col0_2ColumnShaft to Col0_2Capital",
+      "lower": "Col0_2ColumnShaft",
+      "upper": "Col0_2Capital"
+    },
+    {
+      "name": "Col0_2Capital to RoofLongBeam0",
+      "lower": "Col0_2Capital",
+      "upper": "RoofLongBeam0"
+    },
+    {
+      "name": "TerraceFloor to Col0_3Base",
+      "lower": "TerraceFloor",
+      "upper": "Col0_3Base"
+    },
+    {
+      "name": "Col0_3Base to Col0_3ColumnShaft",
+      "lower": "Col0_3Base",
+      "upper": "Col0_3ColumnShaft"
+    },
+    {
+      "name": "Col0_3ColumnShaft to Col0_3Capital",
+      "lower": "Col0_3ColumnShaft",
+      "upper": "Col0_3Capital"
+    },
+    {
+      "name": "Col0_3Capital to RoofLongBeam0",
+      "lower": "Col0_3Capital",
+      "upper": "RoofLongBeam0"
+    },
+    {
+      "name": "TerraceFloor to Col0_4Base",
+      "lower": "TerraceFloor",
+      "upper": "Col0_4Base"
+    },
+    {
+      "name": "Col0_4Base to Col0_4ColumnShaft",
+      "lower": "Col0_4Base",
+      "upper": "Col0_4ColumnShaft"
+    },
+    {
+      "name": "Col0_4ColumnShaft to Col0_4Capital",
+      "lower": "Col0_4ColumnShaft",
+      "upper": "Col0_4Capital"
+    },
+    {
+      "name": "Col0_4Capital to RoofLongBeam0",
+      "lower": "Col0_4Capital",
+      "upper": "RoofLongBeam0"
+    },
+    {
+      "name": "TerraceFloor to Col0_5Base",
+      "lower": "TerraceFloor",
+      "upper": "Col0_5Base"
+    },
+    {
+      "name": "Col0_5Base to Col0_5ColumnShaft",
+      "lower": "Col0_5Base",
+      "upper": "Col0_5ColumnShaft"
+    },
+    {
+      "name": "Col0_5ColumnShaft to Col0_5Capital",
+      "lower": "Col0_5ColumnShaft",
+      "upper": "Col0_5Capital"
+    },
+    {
+      "name": "Col0_5Capital to RoofLongBeam0",
+      "lower": "Col0_5Capital",
+      "upper": "RoofLongBeam0"
+    },
+    {
+      "name": "TerraceFloor to Col1_0Base",
+      "lower": "TerraceFloor",
+      "upper": "Col1_0Base"
+    },
+    {
+      "name": "Col1_0Base to Col1_0ColumnShaft",
+      "lower": "Col1_0Base",
+      "upper": "Col1_0ColumnShaft"
+    },
+    {
+      "name": "Col1_0ColumnShaft to Col1_0Capital",
+      "lower": "Col1_0ColumnShaft",
+      "upper": "Col1_0Capital"
+    },
+    {
+      "name": "Col1_0Capital to RoofLongBeam1",
+      "lower": "Col1_0Capital",
+      "upper": "RoofLongBeam1"
+    },
+    {
+      "name": "TerraceFloor to Col1_1Base",
+      "lower": "TerraceFloor",
+      "upper": "Col1_1Base"
+    },
+    {
+      "name": "Col1_1Base to Col1_1ColumnShaft",
+      "lower": "Col1_1Base",
+      "upper": "Col1_1ColumnShaft"
+    },
+    {
+      "name": "Col1_1ColumnShaft to Col1_1Capital",
+      "lower": "Col1_1ColumnShaft",
+      "upper": "Col1_1Capital"
+    },
+    {
+      "name": "Col1_1Capital to RoofLongBeam1",
+      "lower": "Col1_1Capital",
+      "upper": "RoofLongBeam1"
+    },
+    {
+      "name": "TerraceFloor to Col1_2Base",
+      "lower": "TerraceFloor",
+      "upper": "Col1_2Base"
+    },
+    {
+      "name": "Col1_2Base to Col1_2ColumnShaft",
+      "lower": "Col1_2Base",
+      "upper": "Col1_2ColumnShaft"
+    },
+    {
+      "name": "Col1_2ColumnShaft to Col1_2Capital",
+      "lower": "Col1_2ColumnShaft",
+      "upper": "Col1_2Capital"
+    },
+    {
+      "name": "Col1_2Capital to RoofLongBeam1",
+      "lower": "Col1_2Capital",
+      "upper": "RoofLongBeam1"
+    },
+    {
+      "name": "TerraceFloor to Col1_3Base",
+      "lower": "TerraceFloor",
+      "upper": "Col1_3Base"
+    },
+    {
+      "name": "Col1_3Base to Col1_3ColumnShaft",
+      "lower": "Col1_3Base",
+      "upper": "Col1_3ColumnShaft"
+    },
+    {
+      "name": "Col1_3ColumnShaft to Col1_3Capital",
+      "lower": "Col1_3ColumnShaft",
+      "upper": "Col1_3Capital"
+    },
+    {
+      "name": "Col1_3Capital to RoofLongBeam1",
+      "lower": "Col1_3Capital",
+      "upper": "RoofLongBeam1"
+    },
+    {
+      "name": "TerraceFloor to Col1_4Base",
+      "lower": "TerraceFloor",
+      "upper": "Col1_4Base"
+    },
+    {
+      "name": "Col1_4Base to Col1_4ColumnShaft",
+      "lower": "Col1_4Base",
+      "upper": "Col1_4ColumnShaft"
+    },
+    {
+      "name": "Col1_4ColumnShaft to Col1_4Capital",
+      "lower": "Col1_4ColumnShaft",
+      "upper": "Col1_4Capital"
+    },
+    {
+      "name": "Col1_4Capital to RoofLongBeam1",
+      "lower": "Col1_4Capital",
+      "upper": "RoofLongBeam1"
+    },
+    {
+      "name": "TerraceFloor to Col1_5Base",
+      "lower": "TerraceFloor",
+      "upper": "Col1_5Base"
+    },
+    {
+      "name": "Col1_5Base to Col1_5ColumnShaft",
+      "lower": "Col1_5Base",
+      "upper": "Col1_5ColumnShaft"
+    },
+    {
+      "name": "Col1_5ColumnShaft to Col1_5Capital",
+      "lower": "Col1_5ColumnShaft",
+      "upper": "Col1_5Capital"
+    },
+    {
+      "name": "Col1_5Capital to RoofLongBeam1",
+      "lower": "Col1_5Capital",
+      "upper": "RoofLongBeam1"
+    },
+    {
+      "name": "TerraceFloor to Col2_0Base",
+      "lower": "TerraceFloor",
+      "upper": "Col2_0Base"
+    },
+    {
+      "name": "Col2_0Base to Col2_0ColumnShaft",
+      "lower": "Col2_0Base",
+      "upper": "Col2_0ColumnShaft"
+    },
+    {
+      "name": "Col2_0ColumnShaft to Col2_0Capital",
+      "lower": "Col2_0ColumnShaft",
+      "upper": "Col2_0Capital"
+    },
+    {
+      "name": "Col2_0Capital to RoofLongBeam2",
+      "lower": "Col2_0Capital",
+      "upper": "RoofLongBeam2"
+    },
+    {
+      "name": "TerraceFloor to Col2_1Base",
+      "lower": "TerraceFloor",
+      "upper": "Col2_1Base"
+    },
+    {
+      "name": "Col2_1Base to Col2_1ColumnShaft",
+      "lower": "Col2_1Base",
+      "upper": "Col2_1ColumnShaft"
+    },
+    {
+      "name": "Col2_1ColumnShaft to Col2_1Capital",
+      "lower": "Col2_1ColumnShaft",
+      "upper": "Col2_1Capital"
+    },
+    {
+      "name": "Col2_1Capital to RoofLongBeam2",
+      "lower": "Col2_1Capital",
+      "upper": "RoofLongBeam2"
+    },
+    {
+      "name": "TerraceFloor to Col2_2Base",
+      "lower": "TerraceFloor",
+      "upper": "Col2_2Base"
+    },
+    {
+      "name": "Col2_2Base to Col2_2ColumnShaft",
+      "lower": "Col2_2Base",
+      "upper": "Col2_2ColumnShaft"
+    },
+    {
+      "name": "Col2_2ColumnShaft to Col2_2Capital",
+      "lower": "Col2_2ColumnShaft",
+      "upper": "Col2_2Capital"
+    },
+    {
+      "name": "Col2_2Capital to RoofLongBeam2",
+      "lower": "Col2_2Capital",
+      "upper": "RoofLongBeam2"
+    },
+    {
+      "name": "TerraceFloor to Col2_3Base",
+      "lower": "TerraceFloor",
+      "upper": "Col2_3Base"
+    },
+    {
+      "name": "Col2_3Base to Col2_3ColumnShaft",
+      "lower": "Col2_3Base",
+      "upper": "Col2_3ColumnShaft"
+    },
+    {
+      "name": "Col2_3ColumnShaft to Col2_3Capital",
+      "lower": "Col2_3ColumnShaft",
+      "upper": "Col2_3Capital"
+    },
+    {
+      "name": "Col2_3Capital to RoofLongBeam2",
+      "lower": "Col2_3Capital",
+      "upper": "RoofLongBeam2"
+    },
+    {
+      "name": "TerraceFloor to Col2_4Base",
+      "lower": "TerraceFloor",
+      "upper": "Col2_4Base"
+    },
+    {
+      "name": "Col2_4Base to Col2_4ColumnShaft",
+      "lower": "Col2_4Base",
+      "upper": "Col2_4ColumnShaft"
+    },
+    {
+      "name": "Col2_4ColumnShaft to Col2_4Capital",
+      "lower": "Col2_4ColumnShaft",
+      "upper": "Col2_4Capital"
+    },
+    {
+      "name": "Col2_4Capital to RoofLongBeam2",
+      "lower": "Col2_4Capital",
+      "upper": "RoofLongBeam2"
+    },
+    {
+      "name": "TerraceFloor to Col2_5Base",
+      "lower": "TerraceFloor",
+      "upper": "Col2_5Base"
+    },
+    {
+      "name": "Col2_5Base to Col2_5ColumnShaft",
+      "lower": "Col2_5Base",
+      "upper": "Col2_5ColumnShaft"
+    },
+    {
+      "name": "Col2_5ColumnShaft to Col2_5Capital",
+      "lower": "Col2_5ColumnShaft",
+      "upper": "Col2_5Capital"
+    },
+    {
+      "name": "Col2_5Capital to RoofLongBeam2",
+      "lower": "Col2_5Capital",
+      "upper": "RoofLongBeam2"
+    },
+    {
+      "name": "RoofLongBeam0 to RoofCrossBeam0",
+      "lower": "RoofLongBeam0",
+      "upper": "RoofCrossBeam0"
+    },
+    {
+      "name": "RoofLongBeam0 to RoofCrossBeam1",
+      "lower": "RoofLongBeam0",
+      "upper": "RoofCrossBeam1"
+    },
+    {
+      "name": "RoofLongBeam0 to RoofCrossBeam2",
+      "lower": "RoofLongBeam0",
+      "upper": "RoofCrossBeam2"
+    },
+    {
+      "name": "RoofLongBeam0 to RoofCrossBeam3",
+      "lower": "RoofLongBeam0",
+      "upper": "RoofCrossBeam3"
+    },
+    {
+      "name": "RoofLongBeam0 to RoofCrossBeam4",
+      "lower": "RoofLongBeam0",
+      "upper": "RoofCrossBeam4"
+    },
+    {
+      "name": "RoofLongBeam0 to RoofCrossBeam5",
+      "lower": "RoofLongBeam0",
+      "upper": "RoofCrossBeam5"
+    },
+    {
+      "name": "RoofCrossBeam0 to TerraceRoof",
+      "lower": "RoofCrossBeam0",
+      "upper": "TerraceRoof"
+    },
+    {
+      "name": "CoreRoof to CoreParapetSide1",
+      "lower": "CoreRoof",
+      "upper": "CoreParapetSide1"
+    },
+    {
+      "name": "PavingPlate to Chest0",
+      "lower": "PavingPlate",
+      "upper": "Chest0"
+    },
+    {
+      "name": "PavingPlate to Chest1",
+      "lower": "PavingPlate",
+      "upper": "Chest1"
+    }
+  ],
+  "coordinate_contract": "Blender Z up, ground=0.18; measured decoded donor axes match this source convention; source bounds only."
+}

@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "villager",
+  "donor": "art/civilizations/common/weapons/tools/axe_2hand/axe_2hand.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\villager\\models\\axe_2hand\\model.blend",
+  "source_sha256": "92a31d30768a0004d794036b4cda42713d43e75a4e9437e3102299cde6877709",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 80,
+      "triangles": 64,
+      "sha256": "1bee32f16459738bdd86bb630175dac3b426874e3aef38ff719bd9086f0ba877"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 70,
+      "triangles": 54,
+      "sha256": "c6e634e7463357cd91fdc004ff9ab41ebbeb2ebce09a224cd7c78898de0f6771"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 46,
+      "triangles": 32,
+      "sha256": "b4bd8f9b2234a5883ec6cb3ea140c1fe1a069db950363c0bf408ada6dce3ac96"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_villager_axe_2hand_LOD0",
+      "vertices": 80,
+      "triangles": 64,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_axe_2hand_LOD1",
+      "vertices": 70,
+      "triangles": 54,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_axe_2hand_LOD2",
+      "vertices": 46,
+      "triangles": 32,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 14,
+      "changed_vertices": 46,
+      "source_vertices": 80,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 14,
+      "changed_vertices": 36,
+      "source_vertices": 70,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 21,
+      "source_vertices": 46,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 14,
+      "changed_vertices": 46,
+      "source_vertices": 80,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 14,
+      "changed_vertices": 36,
+      "source_vertices": 70,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 21,
+      "source_vertices": 46,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/tools/axe_2hand/axe_2hand.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/tools/axe_2hand/axe_2hand.rgm"
+}

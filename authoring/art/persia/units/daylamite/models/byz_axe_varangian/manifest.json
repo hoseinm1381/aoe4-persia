@@ -1,0 +1,159 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "daylamite",
+  "donor": "art/civilizations/byzantine/weapons/byz_axe_varangian/byz_axe_varangian.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\byz_axe_varangian\\model.blend",
+  "source_sha256": "f010a8d40e9a2b77757f7e8a7687413239c054ec749afb67104ad068c4500769",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 152,
+      "triangles": 126,
+      "sha256": "670df76ce8a61c268742078e265b7e621668fcd5caac628b49bb35f3a5e590e2"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 98,
+      "triangles": 70,
+      "sha256": "6195822285cfe35f1b2a5bb6e038f18670f3a20dd6d7b0fda4a60750cccdd52f"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 82,
+      "triangles": 56,
+      "sha256": "25f9de895bf02ee0dc7fceb8860f7bf6379aaf87231a9ed409b2ed204abd9c80"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_daylamite_byz_axe_varangian_LOD0",
+      "vertices": 152,
+      "triangles": 126,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_daylamite_byz_axe_varangian_LOD1",
+      "vertices": 98,
+      "triangles": 70,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_daylamite_byz_axe_varangian_LOD2",
+      "vertices": 82,
+      "triangles": 56,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 16,
+      "changed_vertices": 44,
+      "source_vertices": 152,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 40,
+      "source_vertices": 98,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 11,
+      "changed_vertices": 30,
+      "source_vertices": 82,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 16,
+      "changed_vertices": 44,
+      "source_vertices": 152,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 40,
+      "source_vertices": 98,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 11,
+      "changed_vertices": 30,
+      "source_vertices": 82,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/byzantine/weapons/byz_axe_varangian/byz_axe_varangian.rgm",
+  "geometry_donor": "art/civilizations/byzantine/weapons/byz_axe_varangian/byz_axe_varangian.rgm"
+}

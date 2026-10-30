@@ -1,0 +1,159 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "daylamite",
+  "donor": "art/civilizations/common/weapons/melee/axe_dane/axe_dane.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\axe_dane\\model.blend",
+  "source_sha256": "abad2b7349bc9ffc984f7884acf1f532bdb08e32e9215627a03702659ec21930",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 87,
+      "triangles": 68,
+      "sha256": "07a193240181b629d48afa75ec74118da52401863f063c2f4532dfa9d6b32f3c"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 81,
+      "triangles": 62,
+      "sha256": "b2679ca6c2adcffea869a45293340e2868375bc2e348e1ae126e44eaaf39b520"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 60,
+      "triangles": 38,
+      "sha256": "41c0a09a1799350cb2cd3b9ea1103d3d9943881489d0f4dc49b76cc14fc2013d"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_daylamite_axe_dane_LOD0",
+      "vertices": 87,
+      "triangles": 68,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_daylamite_axe_dane_LOD1",
+      "vertices": 81,
+      "triangles": 62,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_daylamite_axe_dane_LOD2",
+      "vertices": 60,
+      "triangles": 38,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 52,
+      "source_vertices": 87,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 51,
+      "source_vertices": 81,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 44,
+      "source_vertices": 60,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 52,
+      "source_vertices": 87,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 51,
+      "source_vertices": 81,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "axe",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 44,
+      "source_vertices": 60,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/melee/axe_dane/axe_dane.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/melee/axe_dane/axe_dane.rgm"
+}

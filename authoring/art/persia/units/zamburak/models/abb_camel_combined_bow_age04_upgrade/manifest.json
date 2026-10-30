@@ -1,0 +1,490 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "zamburak",
+  "donor": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age04_upgrade/abb_camel_combined_bow_age04_upgrade.rgm",
+  "role": "mount",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\zamburak\\models\\abb_camel_combined_bow_age04_upgrade\\model.blend",
+  "source_sha256": "bb781db51eb52ce13d358797822991ed06d83eb64dbd5218a3a25775969fe8b6",
+  "steps": [
+    "camel_swivel_gun_fitted_girths_and_existing_bone_cradle",
+    "clothing_visual_refinement",
+    "donor_clothing_reshape_and_fitted_kaftan",
+    "native_gender_face_retained_with_fitted_headwrap",
+    "reshaped_native_owner_masked_mount_textiles"
+  ],
+  "rig_contract_sha256": "f1f9229dfd4afb559f5e936ad4969d116dc36abaacf87397c3bd7ea04e81305d",
+  "rig_bones": 92,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "rider",
+      "vertices": 1871,
+      "triangles": 1507,
+      "sha256": "a70e46f7566b4e6bfb35b7af0a3858808f8c0cccdfd3e0d34d802f11cb4222eb"
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "vertices": 2090,
+      "triangles": 2740,
+      "sha256": "24520bc4576e77164503c7469651d83dbad18bed114e341a80ec696b1f960787"
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "vertices": 730,
+      "triangles": 503,
+      "sha256": "f4554f1852669052795e3371f77d48e902d79ace4290c90642494078bdeacbd7"
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "vertices": 1272,
+      "triangles": 1358,
+      "sha256": "0d4627ca3f3f9d88a6bc8dba220792450b2956128f1697068fd58a4c94d0a34f"
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "vertices": 414,
+      "triangles": 271,
+      "sha256": "81f58825378fb7714bb2bd4b44b01fa7b8a711e46d2c7deb5c56194ccdd92392"
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "vertices": 585,
+      "triangles": 556,
+      "sha256": "c5c78b82ca66d422eea2d57fa8204404aad80f5e44f6f5b91db6738fdc537310"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_zamburak_abb_camel_combined_bow_age04_upgrade_rider_LOD0",
+      "vertices": 1871,
+      "triangles": 1507,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_zamburak_abb_camel_combined_bow_age04_upgrade_mount_LOD0",
+      "vertices": 2090,
+      "triangles": 2740,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_zamburak_abb_camel_combined_bow_age04_upgrade_rider_LOD1",
+      "vertices": 730,
+      "triangles": 503,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_zamburak_abb_camel_combined_bow_age04_upgrade_mount_LOD1",
+      "vertices": 1272,
+      "triangles": 1358,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_zamburak_abb_camel_combined_bow_age04_upgrade_rider_LOD2",
+      "vertices": 414,
+      "triangles": 271,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_zamburak_abb_camel_combined_bow_age04_upgrade_mount_LOD2",
+      "vertices": 585,
+      "triangles": 556,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    }
+  ],
+  "native_lod_contract": [
+    {
+      "lod": 0,
+      "component": "rider",
+      "allowed_bones": [
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmindex1",
+        "metarig_larmindex2",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmmiddle1",
+        "metarig_larmmiddle2",
+        "metarig_larmmiddle3",
+        "metarig_larmpalm",
+        "metarig_larmthumb1",
+        "metarig_larmthumb2",
+        "metarig_larmthumb3",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_llegankle",
+        "metarig_llegtoe1",
+        "metarig_neck1",
+        "metarig_neck2",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmindex1",
+        "metarig_rarmindex2",
+        "metarig_rarmindex3",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmmiddle1",
+        "metarig_rarmmiddle2",
+        "metarig_rarmmiddle3",
+        "metarig_rarmpalm",
+        "metarig_rarmthumb1",
+        "metarig_rarmthumb2",
+        "metarig_rarmthumb3",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_rlegankle",
+        "metarig_rlegtoe1",
+        "metarig_spine1",
+        "metarig_spine2"
+      ]
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "allowed_bones": [
+        "gaia_c_head",
+        "gaia_c_jaw",
+        "gaia_c_neck1",
+        "gaia_c_neck2",
+        "gaia_c_neck3",
+        "gaia_c_neck4",
+        "gaia_c_pelvis",
+        "gaia_c_spine1",
+        "gaia_c_spine2",
+        "gaia_c_tail1",
+        "gaia_c_tail2",
+        "gaia_c_tail3",
+        "gaia_l_arm_finger",
+        "gaia_l_arm_fingerbase",
+        "gaia_l_arm_lower",
+        "gaia_l_arm_shoulder",
+        "gaia_l_arm_upper",
+        "gaia_l_arm_wrist",
+        "gaia_l_leg_ankle",
+        "gaia_l_leg_lower",
+        "gaia_l_leg_toe",
+        "gaia_l_leg_toebase",
+        "gaia_l_leg_upper",
+        "gaia_r_arm_finger",
+        "gaia_r_arm_fingerbase",
+        "gaia_r_arm_lower",
+        "gaia_r_arm_shoulder",
+        "gaia_r_arm_upper",
+        "gaia_r_arm_wrist",
+        "gaia_r_leg_ankle",
+        "gaia_r_leg_lower",
+        "gaia_r_leg_toe",
+        "gaia_r_leg_toebase",
+        "gaia_r_leg_upper",
+        "gaia_root"
+      ]
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "allowed_bones": [
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmmiddle1",
+        "metarig_larmpalm",
+        "metarig_larmthumb1",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_llegankle",
+        "metarig_neck1",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmmiddle1",
+        "metarig_rarmpalm",
+        "metarig_rarmthumb1",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_rlegankle",
+        "metarig_spine1"
+      ]
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "allowed_bones": [
+        "gaia_c_head",
+        "gaia_c_neck1",
+        "gaia_c_neck2",
+        "gaia_c_neck3",
+        "gaia_c_neck4",
+        "gaia_c_pelvis",
+        "gaia_c_spine1",
+        "gaia_c_spine2",
+        "gaia_c_tail1",
+        "gaia_l_arm_fingerbase",
+        "gaia_l_arm_lower",
+        "gaia_l_arm_shoulder",
+        "gaia_l_arm_upper",
+        "gaia_l_arm_wrist",
+        "gaia_l_leg_ankle",
+        "gaia_l_leg_lower",
+        "gaia_l_leg_toebase",
+        "gaia_l_leg_upper",
+        "gaia_r_arm_fingerbase",
+        "gaia_r_arm_lower",
+        "gaia_r_arm_shoulder",
+        "gaia_r_arm_upper",
+        "gaia_r_arm_wrist",
+        "gaia_r_leg_ankle",
+        "gaia_r_leg_lower",
+        "gaia_r_leg_toebase",
+        "gaia_r_leg_upper",
+        "gaia_root"
+      ]
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "allowed_bones": [
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmpalm",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_neck1",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmpalm",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_spine1",
+        "metarig_spine2"
+      ]
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "allowed_bones": [
+        "gaia_c_head",
+        "gaia_c_neck1",
+        "gaia_c_neck2",
+        "gaia_c_neck3",
+        "gaia_c_neck4",
+        "gaia_c_pelvis",
+        "gaia_c_spine1",
+        "gaia_c_spine2",
+        "gaia_l_arm_lower",
+        "gaia_l_arm_shoulder",
+        "gaia_l_arm_upper",
+        "gaia_l_arm_wrist",
+        "gaia_l_leg_ankle",
+        "gaia_l_leg_lower",
+        "gaia_l_leg_upper",
+        "gaia_r_arm_lower",
+        "gaia_r_arm_shoulder",
+        "gaia_r_arm_upper",
+        "gaia_r_arm_wrist",
+        "gaia_r_leg_ankle",
+        "gaia_r_leg_lower",
+        "gaia_r_leg_upper",
+        "gaia_root"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 516,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "native_gender_face_preserved": true,
+      "headcloth_crown_reshaped_vertices": 66,
+      "face_graft": false
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "complete_native_family_cap": 5090,
+      "reserved_largest_used_weapon_triangles": 520,
+      "body_cap": 1774,
+      "before_body_triangles": 1507,
+      "after_body_triangles": 1507,
+      "concealed_donor_triangles_removed": 1,
+      "budget_met": true,
+      "scope": "density reduction only on replaced donor clothing; grafted face and new panels kept; native hand/foot points preserved"
+    },
+    {
+      "native_owner_mask_selected_textile_vertices_reshaped": 0,
+      "native_anatomy_and_contacts_protected": true
+    },
+    {
+      "zamburak_harness_and_cradle": true,
+      "new_bones": 0,
+      "gun_pivot_world_rest": [
+        0.38,
+        -0.42,
+        2.55
+      ],
+      "historical_compromise": "Safavid camel swivel-gun furnishing; earlier availability is an explicitly documented gameplay interpretation",
+      "motion_gate": "native camel gun firing and rider grip are not certified"
+    },
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 205,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "native_gender_face_preserved": true,
+      "headcloth_crown_reshaped_vertices": 26,
+      "face_graft": false
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "native_owner_mask_selected_textile_vertices_reshaped": 0,
+      "native_anatomy_and_contacts_protected": true
+    },
+    {
+      "zamburak_harness_and_cradle": true,
+      "new_bones": 0,
+      "gun_pivot_world_rest": [
+        0.38,
+        -0.42,
+        2.55
+      ],
+      "historical_compromise": "Safavid camel swivel-gun furnishing; earlier availability is an explicitly documented gameplay interpretation",
+      "motion_gate": "native camel gun firing and rider grip are not certified"
+    },
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 44,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "native_gender_face_preserved": true,
+      "headcloth_crown_reshaped_vertices": 14,
+      "face_graft": false
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "native_owner_mask_selected_textile_vertices_reshaped": 0,
+      "native_anatomy_and_contacts_protected": true
+    },
+    {
+      "zamburak_harness_and_cradle": true,
+      "new_bones": 0,
+      "gun_pivot_world_rest": [
+        0.38,
+        -0.42,
+        2.55
+      ],
+      "historical_compromise": "Safavid camel swivel-gun furnishing; earlier availability is an explicitly documented gameplay interpretation",
+      "motion_gate": "native camel gun firing and rider grip are not certified"
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "editable rare mounted candidate; one family review and equipped assembly pending",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "complete_lod_triangles": [
+    4247,
+    1861,
+    827
+  ],
+  "verified_deformation": "unchanged native skeleton/binds, native LOD palette weights preserved; uncertain native movement/combat/crew/secondary physics deferred"
+}

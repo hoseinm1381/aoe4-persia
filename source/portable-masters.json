@@ -1,0 +1,303 @@
+{
+  "schema": "garrison.portable-masters/v1",
+  "files": {
+    "art/persia/release_102/custom/ali_qapu_palace/ali_qapu_palace.blend": {
+      "bytes": 4868159,
+      "sha256": "7a310e01411b5d49da72cf5b5de163ae06affbeeb9f12327778be5210dd990f8",
+      "original_sha256": "3cbceea9686d5397accde7f6893677b6b34a8984a2b9b7552928bded7c6fe267",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/assassin_brotherhood/assassin_brotherhood.blend": {
+      "bytes": 1752121,
+      "sha256": "45e71b3bc1505f8345159195517488fb82aaad4369d93ca2d61f5b4cccdca1ae",
+      "original_sha256": "57a3b6367a02f23c8cfdbc056ea5276dcb99833fe89f9182f5bd72ed54dedb1f",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/caravanserai_a2/caravanserai_a2.blend": {
+      "bytes": 1115819,
+      "sha256": "7fcbaae6e3295241e74c777b2a3b1bc0821b923431b6d69d55775087798d353e",
+      "original_sha256": "0315153fa20f740e50e171169317817be7e446c00ce7554c371b8ca80bff06fc",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/divan_commerce_a1/divan_commerce_a1.blend": {
+      "bytes": 509267,
+      "sha256": "35ecc96e360d82fba1d75883f2b2576cce11e9816b8e1407e147e6224b1ee535",
+      "original_sha256": "edad21a0e69684e029590476f3f23e87ec2f554cfda9f69c56b76d32f1cd3cab",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/divan_war_a3/divan_war_a3.blend": {
+      "bytes": 293326,
+      "sha256": "ee8bafeb4861c1a58ebf3fcadb0048f489f1ffc0f069572aa20d445ee4622bf4",
+      "original_sha256": "01c3cd444ab54cfcbab3851b6fa0e214cc0fafb5d5ef67c2e6b320455e874b78",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/divan_war_a4/divan_war_a4.blend": {
+      "bytes": 350853,
+      "sha256": "9cbb27be40f90d5fce12e907f9419013ead18e65a9b7c50b0b43bf1510bc0082",
+      "original_sha256": "78a5b28e64a8a9be8a9c2df725e0d0fe04431b8d007bed116011890634265016",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/grand_caravanserai/grand_caravanserai.blend": {
+      "bytes": 7557410,
+      "sha256": "18fc85367db227e0db3c44bd69f12a323bf8a459ceb2d4b1b027d607b5e73c82",
+      "original_sha256": "3c836104bed024e68bd1dc85e7961a9d9bfd1bac3576ce20ed68a0a63a88f6df",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/gundeshapur/gundeshapur.blend": {
+      "bytes": 12480947,
+      "sha256": "11a09afd0dfc4b03828b76855c789809e2837456136d3ccf8b0f03a06738baef",
+      "original_sha256": "8a29b2b14a763bdbf89f71b13a288ee488585427e011d908eb99b2b03c240da0",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/mosque_a3/mosque_a3.blend": {
+      "bytes": 518980,
+      "sha256": "e6c1e25c2a1e6362aabb19f989ef35e4a4ec2444e0143d4fae4eed4a9c45591e",
+      "original_sha256": "413fd455eb77ded7267352e3f47daa7638f49c01f88871fcaf0b1b30aa1f76e0",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/mosque_a4/mosque_a4.blend": {
+      "bytes": 629659,
+      "sha256": "b696c71ff0e4101618468308eb164912b8727e34718c34f7aa6e7f710ff411ad",
+      "original_sha256": "d96bf732d2f5bf6083f29359ce9d7f7415cdfa6b01d6f12bba6f6ebae49f7b94",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/samarkand_bazaar/samarkand_bazaar.blend": {
+      "bytes": 11388960,
+      "sha256": "d46d2f2d3133428cd984832069275afc38f1939669c9fa4bd23af7cb9d161b77",
+      "original_sha256": "98ce95d3b992bad0ea7239e962cc2330603e78d1e89e0e355a0bb82c0ccf7e3a",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/shah_abbas_siege_factory/shah_abbas_siege_factory.blend": {
+      "bytes": 2933613,
+      "sha256": "81467788d5cd7cac3553abc1353ad642b23ea2e1e2c3c130c9165595f7a5c3cb",
+      "original_sha256": "b094c4c02c46f6474b37f4173ab5106530f3aab2e7882b0fee9e9eca86d8694e",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/shah_masjid_a1/shah_masjid_a1.blend": {
+      "bytes": 5041689,
+      "sha256": "45d248b867998181ce2011d4d5684100c219cece4e4ffaaf98242b04c4baa003",
+      "original_sha256": "4c33fe892de540ef0aa257233ebcb8de22612700e7f875ce71e0d0caaf908108",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/shah_masjid_a2/shah_masjid_a2.blend": {
+      "bytes": 6254718,
+      "sha256": "d7a2dbc3ada67a4bee6c418b5eaa350af76694873e1c3f08711e61fb6cbf2c46",
+      "original_sha256": "91dda73c98b1a77ce791158452efe9a21a03673038b0b190258a7598d79b59ff",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/shah_masjid_a3/shah_masjid_a3.blend": {
+      "bytes": 6537345,
+      "sha256": "f426e471da02a96a0cbd77f7ab283d16802dc98c5592a0bc9114fdacf4223216",
+      "original_sha256": "958480e2b2d925814e73c9c9e07f18b10e0ae7c58b84d2550982a6da85b0b891",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/custom/shah_masjid_a4/shah_masjid_a4.blend": {
+      "bytes": 7089971,
+      "sha256": "1906705c568c5e648082933b6bc554ec5fd2e6ca2ed0cd648647a6934810807f",
+      "original_sha256": "820208a3655c033c3cc14fa1676fb640f0427b6b1d73a99521174af1f1994a47",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/archery_range_a2/archery_range_a2.blend": {
+      "bytes": 347365,
+      "sha256": "e77d9cfef2a02e5433bcc9958e06b8ea6b18682aba0255538c387eaf921d75a8",
+      "original_sha256": "2eef11d553408eb1eaa6c891fcd6871c6c8aeec9bb21be1b0de1219f511dd0f9",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/archery_range_a3/archery_range_a3.blend": {
+      "bytes": 593121,
+      "sha256": "e6324d84de6ae5400c6bec41ee8ae098df7c906151f62e0307656cab7964c652",
+      "original_sha256": "73a4a8441edeb24e1425b4cedbaf3dbffa65fd334f60edd7293f9e13ea64fc07",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/archery_range_a4/archery_range_a4.blend": {
+      "bytes": 489618,
+      "sha256": "19a3c2e5553c8bbe1b0dd37c97acdea3457029a14ad0346ed1f1188a514a5170",
+      "original_sha256": "d5f86cc87384e102dd600e584c8cd39b986af41c756414b47afd669f39c14ecc",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/house_a1a/house_a1a.blend": {
+      "bytes": 482102,
+      "sha256": "5287fa66c910a889e1afe0a3c7fe70590ee5a9b62530fb6c43524bda9f9ff860",
+      "original_sha256": "1149b663b94238a7301118a0193ff2cab55ef802a68270748a42a69fdb5dd8d1",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/house_a1b/house_a1b.blend": {
+      "bytes": 473061,
+      "sha256": "bf37311d6dc24f31618f4cff20ac64cc1c6ee26f3fa63f3d0baf7c00ff39ee57",
+      "original_sha256": "41e4aa6dcd84e9c9f15b05d72a1c28e5b8079502bb5f4c558e44953cd31d0c22",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/house_a1c/house_a1c.blend": {
+      "bytes": 449157,
+      "sha256": "9c976c4418551fcfa2520d315d01e0ebe2c8ed2ea909d9276b60dc8b54cea3f2",
+      "original_sha256": "81c2282f1a97a79fd73cb2f41409383c5a3523b6c5d86e36a3c80e23883eb385",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/house_a2a/house_a2a.blend": {
+      "bytes": 518296,
+      "sha256": "2f7ea01546c33328b00a94ea4e1359b28559dcc68158236667a06dc8e956d4b1",
+      "original_sha256": "78bd892898441ec55e46b8e03c78773570a270933c8f952d388bec59796e4596",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/house_a2b/house_a2b.blend": {
+      "bytes": 520518,
+      "sha256": "b897899b412f4add3a47e6630bd3b7b62b7f3b3e1417e81ff19019625e6b34ae",
+      "original_sha256": "04ca38f46fdf0d1500516d63cc31095437ade3804bc8ebeb888ad0e35fb6307d",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/house_a2c/house_a2c.blend": {
+      "bytes": 532262,
+      "sha256": "f878eef3a3ee5ced31edd73a52c535a29c637d1cea8b091b752fc59955fdc787",
+      "original_sha256": "20ca871d3ea1646972ac16a46988a85c226f8341d1a91ce60f471bcbc9a6e30e",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/house_a3a/house_a3a.blend": {
+      "bytes": 528064,
+      "sha256": "7876295ec04fdeb6885f01f0eb602af5b768a6b28962b042a66cb7b95655851b",
+      "original_sha256": "be58ef97154a3ef184e05945645232de21d92ff186d0f785d82cf7fc13eb736e",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/house_a3b/house_a3b.blend": {
+      "bytes": 521148,
+      "sha256": "ce9e15e5bf2d4579c89d7a5713d99c95cc4cc5e46f83096d108687b413c174f2",
+      "original_sha256": "8639d2f116d348d9d2ccbc501a4cab52689eca4f901014369e4f52a9932955f4",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/house_a3c/house_a3c.blend": {
+      "bytes": 475334,
+      "sha256": "5bebf8a56ff4f2ef000c348f0c05fd7f049b4aeeb8ba1f37b8418b9aa85c9618",
+      "original_sha256": "e0afc06cb39043be2140ce60f5018edb16cab1090a98abdb85adb8d553705379",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/house_a4a/house_a4a.blend": {
+      "bytes": 585835,
+      "sha256": "4339163dfb1a23b2bb046af058e1626edf5e6a63a3405e475fb614327780afa5",
+      "original_sha256": "8d562ac0f13f2b3eba069c14df785db13121751d84d73c36572e89cbc6d88b1d",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/house_a4b/house_a4b.blend": {
+      "bytes": 570189,
+      "sha256": "63c767479a8701c7ad708d544c0f32383bc48750df792abed481bbb85ff5ef6f",
+      "original_sha256": "57700da40f308e452734eb2d6881a907d35a08abc57185ab1750c8ca5ee08ae2",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/house_a4c/house_a4c.blend": {
+      "bytes": 590259,
+      "sha256": "4c65d32abe0bc0102af1a9705c5a0b649b9e4ee090e69bfa0028c8c8d6592a16",
+      "original_sha256": "33837b4117c17483810aab57183283f5f528878962e9ad3561b761a24f92640e",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/keep_a3/keep_a3.blend": {
+      "bytes": 566142,
+      "sha256": "be746cdf42268b744c27bcfe4311f5f0215342f44118f114770298bf26d65b4e",
+      "original_sha256": "8993a885d37186ea6aebe825f72c3e4b315435e0337500cb15c54ae321a45dec",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/outpost_a1basic/outpost_a1basic.blend": {
+      "bytes": 333298,
+      "sha256": "072380607959cf69b2a52596ea5a06a8f9aab1b0a4a390f47c0125ee06d7f1f6",
+      "original_sha256": "80425029a9fa871279c62ee23e329ef4b39807969db8951e0c5dcb13f8f8f95f",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/outpost_a1fortified/outpost_a1fortified.blend": {
+      "bytes": 359262,
+      "sha256": "8889ffd4e60673dc59faca7b38dde38d44b48492b3c8eda219ffb2faebfb9113",
+      "original_sha256": "90f40ad3faecf3b89d53cacd4dd0d79d15c8bee29ce19ed2c3d6aae77ac5bba1",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/stable_a2/stable_a2.blend": {
+      "bytes": 286692,
+      "sha256": "5b8b91c42af41867d181a124e75e3236624a5bd5b2da852d8dd71561b9a6aea4",
+      "original_sha256": "917fcd049dc7fda10c1047519a0eff58af35d965d8cf5ea59836905d1a1a9cc3",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/stable_a3/stable_a3.blend": {
+      "bytes": 405564,
+      "sha256": "0920a5183a9d684538a06ac746127a76ed5e5bf3ffa76c1b38ec0b8782a7161b",
+      "original_sha256": "c72fcccdb4e3cbc59ef2630e78806cfb5611274fbccf87e931eaa3232464b792",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/release_102/restored/stable_a4/stable_a4.blend": {
+      "bytes": 339413,
+      "sha256": "351efe6722622f69ef1edaec1c11d1d443c4b557793750c80cd91cba95e138f1",
+      "original_sha256": "a7b07880dea22b1b756ea7186acb111cb8664a75dc216c9e42c8d9234f5da1ec",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/units/archer/models/sul_ranged_bow_age04/model.blend": {
+      "bytes": 669959,
+      "sha256": "a4fa2414ce9c5c23f92c0fc3abb990b57f328bacbe0ac49cf05a5c4495806740",
+      "original_sha256": "23521fc10c00cdd4adb5c0e58a8e204d9859a8a66c5d3ebebfacadfbebe75ae8",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/units/assassin/models/abb_spy/model.blend": {
+      "bytes": 400769,
+      "sha256": "405e7b243b30092286d5c3693fb3d53a397680a7ceeb2fd107c2fe8d770f71e6",
+      "original_sha256": "b498b28391aee5a587532b35ec69698493ec2b86674a702b45997f2852bede54",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/units/elephant/assemblies/sul_elephant_combined_armor_age04/assembly.blend": {
+      "bytes": 4916806,
+      "sha256": "7c8f859e99656c5617581b856823789e89063d5b993b92f7680783a1079b5564",
+      "original_sha256": "c6efd88dc84bd5c170cfbe1223a0cceb09a932007783cc2e1fbf37d365ad5860",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/units/elephant/assemblies/sul_elephant_combined_armor_age04_upgrade/assembly.blend": {
+      "bytes": 4942718,
+      "sha256": "5f6f8dc49d1f11748d2d05ed5504faab199d3c3561c95bf0f5ab2edf38892e6c",
+      "original_sha256": "dd333346907a1bf1d7da3d52c0345b927f9c718f5f53245de9db15111af45a1c",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/units/elephant/models/sul_elephant_combined_armor_age04_upgrade/model.blend": {
+      "bytes": 1929092,
+      "sha256": "730660929e38fc7828afbb761fd9bfe5a0edd80d193f38a0d2188c3642baef93",
+      "original_sha256": "cc65438d00b9c069618cb7b98b3b69a5f6677c2a731e073ab949dbcad8a7bb6a",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/units/elephant/models/sul_ranged_bow_age04/model.blend": {
+      "bytes": 668708,
+      "sha256": "1f43400760251a7338fbc67954d9387d6cc64c0cdb055c752d4f3580b3e4af78",
+      "original_sha256": "e94f0315fada557c1aa673f9d112a97b06bf60ccbc66aff1980fbf9037467ab4",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/units/elephant/models/sul_spear_goad/model.blend": {
+      "bytes": 114056,
+      "sha256": "5fc04f2d0672d0fab3484d0c0ea0ac3a361322c826a21d3774a7e15550ea3af5",
+      "original_sha256": "326184a93f60b1bf33fa652c8884ff28b790c20aecf07aa3a9f81a33f95f1a87",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/units/scout/models/sul_horse_combined_scout_age03/model.blend": {
+      "bytes": 1194413,
+      "sha256": "1e1bf115e733fd8a667b961028d77402c1b30a62c9f7ffa81b9768b462de248b",
+      "original_sha256": "ee3e7f1c0728100133860be4b9bdc40ac7613c220be34202b73f6efb3076f930",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/units/spearman/models/sul_infantry_light_age03/model.blend": {
+      "bytes": 602378,
+      "sha256": "64b1435aa99ad4af2a0655f95064b58031aa6a9e0e922e8d5ed41c4bfe171708",
+      "original_sha256": "d720fb66c816dcc33ca25c126899d355252ca72e6ecfd27a3de09b462a455421",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/units/spearman/models/tug_spear_curvedblade/model.blend": {
+      "bytes": 125476,
+      "sha256": "3bc8e852d76fd81d45c592888bd5f1a3f9cbec080af41bbd3e7f47aaf082c70b",
+      "original_sha256": "8cea9018a4733255a7c26f3cf5a3e444c6e98a84f17d36dbfdad1f971e25c0aa",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/units/villager/models/abb_villager_female_age04/model.blend": {
+      "bytes": 366043,
+      "sha256": "e0dd275aa7d629597e3662ab03c7b53e3f34e6eacbff268a7f44919112f22289",
+      "original_sha256": "0a0c99844ba07dd74f5dcbe341ba7a5fb64e584bc6ca4b57b8b167bcb873a695",
+      "change": "external image/library paths made repository-relative"
+    },
+    "art/persia/units/horseman/models/spear_cavalry_charge/model.blend": {
+      "bytes": 104484,
+      "sha256": "642693cf0bd8bbd197697649e9435b9880e5c63aee863dc65db0e5a7956ce750",
+      "original_sha256": "884814db0e3388960b96be92f8ab28b075a63f66098d9cac9109af5c6d05f1c0",
+      "change": "external image/library paths made repository-relative"
+    }
+  },
+  "checked_blends": 321,
+  "external_dependencies": 5034,
+  "geometry_edits": false,
+  "unresolved": []
+}

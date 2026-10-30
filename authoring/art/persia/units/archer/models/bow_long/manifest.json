@@ -1,0 +1,474 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "archer",
+  "donor": "art/civilizations/common/weapons/ranged/bow_long/bow_long.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\bow_long\\model.blend",
+  "source_sha256": "73e0fa60b3d01462a227eed9832a38c4c0646bbe33c0f82450c2e47fd89cd2ae",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "sampled_native_deformation_checks",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "4b0a6b286d67e8bb121fad8531276384cfb0810c03f4bf09d3ccd3a07a7ddfb4",
+  "rig_bones": 4,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "a68fbd949ddb32b561615fdc810a4542e7b856713574d0575e315be4e59d6e51"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "4a65c1a4c07128842cd5d888d2a2acdb6a15413069653697eda0203177f2d801"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 40,
+      "triangles": 38,
+      "sha256": "b11997f53f20a8efc4a81bd9eeb73fb95ff77216deb69020584353a6e80dc8c1"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_archer_bow_long_LOD0",
+      "vertices": 69,
+      "triangles": 84,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_archer_bow_long_LOD1",
+      "vertices": 69,
+      "triangles": 84,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_archer_bow_long_LOD2",
+      "vertices": 40,
+      "triangles": 38,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    }
+  ],
+  "native_lod_contract": [
+    {
+      "lod": 0,
+      "allowed_bones": [
+        "bone_root",
+        "bow_lower",
+        "bow_string",
+        "bow_upper"
+      ],
+      "used_bones": [
+        "bone_root",
+        "bow_lower",
+        "bow_string",
+        "bow_upper"
+      ],
+      "native_skin_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "lod": 1,
+      "allowed_bones": [
+        "bone_root",
+        "bow_string"
+      ],
+      "used_bones": [
+        "bone_root",
+        "bow_string"
+      ],
+      "native_skin_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "lod": 2,
+      "allowed_bones": [
+        "bone_root"
+      ],
+      "used_bones": [
+        "bone_root"
+      ],
+      "native_skin_indices": [
+        0
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 20,
+      "changed_vertices": 44,
+      "source_vertices": 69,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 5,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 20,
+      "changed_vertices": 44,
+      "source_vertices": 69,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 49,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 16,
+      "changed_vertices": 20,
+      "source_vertices": 40,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 4,
+      "protected_string_joint_displacement_m": 0.0
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_archer_bow_long_LOD0": 0.020133167505264282,
+        "PSU_archer_bow_long_LOD1": 0.020191438496112823,
+        "PSU_archer_bow_long_LOD2": 0
+      },
+      "clip": "rider_ranged\\aim_straight",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        6,
+        11,
+        16,
+        21,
+        26,
+        31,
+        36,
+        41,
+        46,
+        51,
+        56,
+        61
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 1.080078125,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_archer_bow_long_LOD0": 0.4601587653160095,
+        "PSU_archer_bow_long_LOD1": 0.46029144525527954,
+        "PSU_archer_bow_long_LOD2": 0
+      },
+      "clip": "rider_ranged\\shoot_straight",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13,
+        16,
+        19,
+        21,
+        23,
+        26,
+        29,
+        31
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 1.080078125,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_archer_bow_long_LOD0": 0.4503142833709717,
+        "PSU_archer_bow_long_LOD1": 0.4505932927131653,
+        "PSU_archer_bow_long_LOD2": 0
+      },
+      "clip": "rider_ranged\\shoot_left90",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13,
+        16,
+        19,
+        21,
+        23,
+        26,
+        29,
+        31
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 1.088253140449524,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_archer_bow_long_LOD0": 0.47999995946884155,
+        "PSU_archer_bow_long_LOD1": 0.47999998927116394,
+        "PSU_archer_bow_long_LOD2": 0
+      },
+      "clip": "rider_ranged\\shoot_right90",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13,
+        16,
+        19,
+        21,
+        23,
+        26,
+        29,
+        31
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 1.080078125,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_archer_bow_long_LOD0": 0.010185766965150833,
+        "PSU_archer_bow_long_LOD1": 0.010250203311443329,
+        "PSU_archer_bow_long_LOD2": 0
+      },
+      "clip": "rider_ranged\\aim_straight_up",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        6,
+        11,
+        16,
+        21,
+        26,
+        31,
+        36,
+        41,
+        46,
+        51,
+        56,
+        61
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 1.080078125,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_archer_bow_long_LOD0": 0.3100000023841858,
+        "PSU_archer_bow_long_LOD1": 0.3100000023841858,
+        "PSU_archer_bow_long_LOD2": 0
+      },
+      "clip": "rider_ranged\\shoot_straight_up",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13,
+        16,
+        19,
+        21,
+        23,
+        26,
+        29,
+        31
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 1.080078125,
+      "runtime_action_selection": "not established by offline preview"
+    }
+  ],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 20,
+      "changed_vertices": 44,
+      "source_vertices": 69,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 5,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 20,
+      "changed_vertices": 44,
+      "source_vertices": 69,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 49,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 16,
+      "changed_vertices": 20,
+      "source_vertices": 40,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 4,
+      "protected_string_joint_displacement_m": 0.0
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/ranged/bow_long/bow_long.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/ranged/bow_long/bow_long.rgm"
+}

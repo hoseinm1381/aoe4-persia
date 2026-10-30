@@ -1,0 +1,2325 @@
+{
+  "target": "mill",
+  "source_art_only": true,
+  "native_playback_qualified": false,
+  "passed": true,
+  "api": {
+    "module_file": "C:\\Users\\RS\\AppData\\Roaming\\BLENDE~1\\Blender\\5.2\\EXTENS~1\\RAW_GI~1\\garrison\\decode_projection.py",
+    "callables": {
+      "_apply_decoded_static": {
+        "present": true,
+        "signature": "(proxy_object: Any, report: dict[str, typing.Any], *, select_result: bool = True, apply_custom_normals: bool = True, create_controls: bool = False) -> Any",
+        "doc": ""
+      },
+      "_decoded_armature_bones": {
+        "present": true,
+        "signature": "(skeleton: dict[str, typing.Any]) -> list[dict[str, typing.Any]]",
+        "doc": ""
+      }
+    },
+    "observed_UI_call": "_apply_decoded_static(proxy, complete_plan, create_controls=True)",
+    "standalone_cache_hydration_qualified": false
+  },
+  "decoded_bone_projection": {
+    "model": "art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgm",
+    "public_projector_return_type": "list",
+    "public_projector_bones": [],
+    "native_skeleton_bone_count": 5,
+    "manifest_rest_pose": {
+      "status": "local_reference_transforms_decoded",
+      "transform_count": 5,
+      "space": "parent_local",
+      "semantic": "rest_or_bind_reference_unqualified",
+      "semantic_confidence": "inferred",
+      "record_layout": {
+        "encoding": "float32le",
+        "bytes": 40,
+        "components": [
+          "quaternion_xyzw",
+          "translation_xyz",
+          "scale_xyz"
+        ]
+      },
+      "block_offset_in_skln": 163,
+      "block_bytes": 200,
+      "block_sha256": "ec33e399963a1262460abfdd8654d3f08573f47cdcef042229547163581da02b",
+      "opaque_prefix_bytes": 58,
+      "opaque_prefix_sha256": "0d80fc7964a1c21aa32bca34eda4303e6715269425def75b90892077e576f811",
+      "validation": {
+        "quaternion_norm_min": 0.999999982885729,
+        "quaternion_norm_max": 0.9999999828857326,
+        "quaternion_norm_max_error": 1.711427100037355e-08,
+        "translation_min": -3.399632453918457,
+        "translation_max": 1.4652467966079712,
+        "scale_min": 1.0,
+        "scale_max": 1.0
+      }
+    },
+    "manifest_deform_layer": {
+      "status": "partial",
+      "authoritative_source": "RGM_SKLN_SKMS_SKIN",
+      "bone_count": 5,
+      "qualified_palette_count": 0,
+      "skinned_group_count": 0,
+      "weighted_vertex_count": 0,
+      "weights_status": "partial_or_unavailable",
+      "weight_diagnostics": {
+        "status": "observed_decoded_skin_streams",
+        "group_count": 0,
+        "vertex_count": 0,
+        "weighted_vertex_count": 0,
+        "zero_weight_vertex_count": 0,
+        "non_unit_weight_sum_vertex_count": 0,
+        "min_weight_sum": 0.0,
+        "max_weight_sum": 0.0,
+        "max_influences_per_vertex": 0,
+        "groups": []
+      },
+      "display_bones": "non_authoritative_guides_only"
+    },
+    "manifest_rig_projection": {
+      "status": "not_applicable",
+      "required_group_count": 0,
+      "decoded_group_count": 0,
+      "unresolved_group_count": 0,
+      "groups": [],
+      "skeleton_hierarchy_status": "hierarchy_decoded",
+      "skeleton_bone_count": 5,
+      "skeleton_rest_pose_status": "local_reference_transforms_decoded",
+      "qualified_skin_palette_count": 0
+    },
+    "standalone_armature_creation_qualified": false,
+    "native_world_pose_qualified": false
+  },
+  "project": {
+    "model": "art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgm",
+    "collection": "NSRC_mill",
+    "object_names": [
+      "AoE4 \u00b7 chi_gristmill_control_age01",
+      "chi_gristmill_control_age01 \u00b7 extra",
+      "chi_gristmill_control_age01 \u00b7 main",
+      "chi_gristmill_control_age01 \u00b7 roof",
+      "NSRC_mill_ReferenceHierarchy_Armature"
+    ],
+    "adapter_return_type": "Object",
+    "adapter_return": "bpy.data.objects['AoE4 \u00b7 chi_gristmill_control_age01']",
+    "source_pose_qualified": false
+  },
+  "import_audit": {
+    "model": "art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgm",
+    "actual_objects": [
+      {
+        "name": "AoE4 \u00b7 chi_gristmill_control_age01",
+        "type": "EMPTY",
+        "parent": null,
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_display_name",
+          "garrison_archive_path",
+          "garrison_asset_kind",
+          "garrison_source_asset_kind",
+          "garrison_source_card_path",
+          "garrison_static_companion_policy",
+          "garrison_static_decode_route",
+          "garrison_category",
+          "garrison_civilization",
+          "garrison_archive",
+          "garrison_decode_log",
+          "garrison_conversion_status",
+          "garrison_decode_progress",
+          "garrison_decode_phase",
+          "garrison_conversion_message",
+          "garrison_decode_manifest",
+          "garrison_vertex_count",
+          "garrison_triangle_count",
+          "garrison_projected_triangle_count",
+          "garrison_skipped_degenerate_triangle_count",
+          "garrison_available_group_count",
+          "garrison_projected_group_count",
+          "garrison_visible_preview_group_count",
+          "garrison_lod_policy",
+          "garrison_armature_object",
+          "garrison_skeleton_bone_count",
+          "garrison_skinned_mesh_count",
+          "garrison_material_count",
+          "garrison_texture_count",
+          "garrison_structure_collection_contract_status",
+          "garrison_completeness_status",
+          "garrison_rig_projection_status",
+          "garrison_animation_projection_status",
+          "garrison_animated_asset_plan",
+          "garrison_animation_clip_count",
+          "garrison_animation_action_status",
+          "garrison_animation_source",
+          "garrison_conversion_plan",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded",
+          "garrison_conversion_message": "Decoded 3 mesh parts",
+          "garrison_skipped_degenerate_triangle_count": 18,
+          "garrison_skeleton_bone_count": 5,
+          "garrison_rig_projection_status": "not_applicable",
+          "garrison_animation_projection_status": "binding_plan_not_attached",
+          "garrison_animation_clip_count": 0,
+          "garrison_animation_action_status": "blocked",
+          "garrison_animation_source": "",
+          "garrison_conversion_plan": "{\"status\": \"decoded\", \"completeness\": {\"status\": \"complete\", \"decoded_textures\": 72, \"unsupported_textures\": 0, \"missing_texture_references\": 0, \"non_file_texture_sentinels\": 1, \"rig_projection_status\": \"not_applicable\", \"unresolved_rig_groups\": 0, \"animation_projection_status\": \"binding_plan_not_attached\"}, \"rig_projection\": {\"status\": \"not_applicable\", \"required_group_count\": 0, \"decoded_group_count\": 0, \"unresolved_group_count\": 0, \"groups\": [], \"skeleton_hierarchy_status\": \"hierarchy_decoded\", \"skeleton_bone_count\": 5, \"skeleton_rest_pose_status\": \"local_reference_transforms_decoded\", \"qualified_skin_palette_count\": 0}, \"animation_projection\": {\"status\": \"binding_plan_not_attached\", \"resolution\": {\"status\": \"not_configured\"}, \"template\": {\"status\": \"not_resolved\", \"template_id\": null, \"role\": \"unresolved\", \"source_logical_path\": null, \"clip_inventory_status\": \"unavailable\", \"gameplay_action_mapping_status\": \"not_decoded\", \"family_count\": 0, \"families\": []}, \"clip_count\": 0, \"clips\": [], \"action_import_status\": \"blocked\", \"blockers\": [\"animation_binding_plan\"], \"discovery\": {\"status\": \"no_linked_library\", \"rgm_sha256\": \"ad48c681f820bf851123aab9aaa9b32b019d5d9bfc855bcf68b0b01037252fee\", \"requested_logical_path\": \"art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgo\", \"candidates\": [], \"warnings\": [\"No direct stock attachment route found\"], \"available_owners\": [], \"selected_owner\": null}}, \"animated_asset_import_plan\": {\"schema\": \"garrison.animated-asset-import-plan/v1\", \"status\": \"deform_ready_animation_binding_missing\", \"source\": {\"logical_path\": \"art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgm\", \"model\": {\"logical_path\": \"art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgm\", \"sha256\": \"ad48c681f820bf851123aab9aaa9b32b019d5d9bfc855bcf68b0b01037252fee\"}}, \"layers\": {\"geometry\": {\"status\": \"ready\", \"group_count\": 3, \"vertex_count\": 26267, \"triangle_count\": 14674}, \"materials\": {\"status\": \"ready\", \"material_count\": 6, \"decoded_texture_count\": 72}, \"deform\": {\"status\": \"partial\", \"authoritative_source\": \"RGM_SKLN_SKMS_SKIN\", \"bone_count\": 5, \"qualified_palette_count\": 0, \"skinned_group_count\": 0, \"weighted_vertex_count\": 0, \"weights_status\": \"partial_or_unavailable\", \"weight_diagnostics\": {\"status\": \"observed_decoded_skin_streams\", \"group_count\": 0, \"vertex_count\": 0, \"weighted_vertex_count\": 0, \"zero_weight_vertex_count\": 0, \"non_unit_weight_sum_vertex_count\": 0, \"min_weight_sum\": 0.0, \"max_weight_sum\": 0.0, \"max_influences_per_vertex\": 0, \"groups\": []}, \"display_bones\": \"non_authoritative_guides_only\"}, \"animation\": {\"status\": \"binding_plan_not_attached\", \"resolution\": {\"status\": \"not_configured\"}, \"template\": {\"status\": \"not_resolved\", \"template_id\": null, \"role\": \"unresolved\", \"source_logical_path\": null, \"clip_inventory_status\": \"unavailable\", \"gameplay_action_mapping_status\": \"not_decoded\", \"family_count\": 0, \"families\": []}, \"clip_count\": 0, \"clips\": [], \"action_import_status\": \"blocked\", \"blockers\": [\"animation_binding_plan\"], \"discovery\": {\"status\": \"no_linked_library\", \"rgm_sha256\": \"ad48c681f820bf851123aab9aaa9b32b019d5d9bfc855bcf68b0b01037252fee\", \"requested_logical_path\": \"art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgo\", \"candidates\": [], \"warnings\": [\"No direct stock attachment route found\"], \"available_owners\": [], \"selected_owner\": null}}}, \"blender_projection\": {\"mesh_materials\": \"create_now\", \"deform_armature_weights\": \"partial_or_not_applicable\", \"actions\": \"blocked\", \"root_motion\": \"blocked_separate_projection_required\", \"control_rig\": \"deferred_non_authoritative_layer\", \"native_animation_editing\": {\"status\": \"blocked_partial_deform_rig\", \"pose_and_weight_editing\": \"blocked\", \"user_authored_actions\": \"blocked\", \"stock_clip_actions\": \"qualified_clip_payload_required\", \"editors\": [], \"action_data_model\": \"blender_5_2_layered_actions_and_armature_slots\", \"nla_policy\": \"blocked_until_deform_rig_is_ready\", \"pose_library\": \"blocked\", \"source_boundary\": \"native editing never promotes RHKA metadata or candidate samples into a decoded stock Action\"}}, \"retargeting\": {\"status\": \"future_optional_capability\", \"core_dependency\": false, \"policy\": \"capability_probes_for_user_installed_services_and_addons\", \"fallback\": \"native_raw_deform_actions_and_nla\"}, \"claims\": [{\"status\": \"confirmed\", \"claim\": \"decoded geometry and materials share one stock-static import\", \"evidence\": [\"layers.geometry\", \"layers.materials\"]}, {\"status\": \"inferred\", \"claim\": \"qualified RGM palettes bind mesh weights to the authoritative deform armature\", \"evidence\": [\"layers.deform\"]}, {\"status\": \"inferred\", \"claim\": \"linked-library discovery is a preview candidate, not runtime action selection\", \"evidence\": [\"layers.animation.discovery\"]}, {\"status\": \"hypothesis\", \"claim\": \"optional retarget services can improve authoring UX without becoming decoder authorities\", \"evidence\": [\"retargeting\"]}, {\"status\": \"confirmed\", \"claim\": \"native Blender editing is reserved for explicit user-authored or independently qualified Actions\", \"evidence\": [\"blender_projection.native_animation_editing\"]}], \"boundaries\": [\"no Blender Action is created from hierarchy or clip metadata alone\", \"semantic transform samples and a full RHKA-to-RGM basis remain mandatory\", \"root motion is not inferred from hips\", \"retargeting services and add-ons are optional executors\"], \"plan_id\": \"aa5b4974137d05c3d899c6c8431820b3fbc32886cbf47e18a650ce87688609c2\"}, \"warnings\": [], \"blockers\": [], \"entity_binding\": {\"status\": \"unresolved\", \"reason\": \"An art RGO/RGM path is not itself a qualified gameplay EBP identity.\", \"stats\": null}, \"encoder_contract\": {\"status\": \"source-preserving-projection\", \"lossless_chunk_sources_retained\": true, \"editable_fields\": [\"positions\", \"normals\", \"UVMap\", \"UV2\", \"material parameters\", \"texture images\"], \"unknown_fields\": \"retained in hash-bound source files; encoder must patch known spans or recook\", \"direct_binary_reencode_enabled\": false, \"official_recook_path\": \"FBX/material/texture source projection -> existing core burner pipeline\", \"confirmed_stock_channel_layouts\": {\"albedoTex\": \"BC1/BC3 sRGB RGB; optional alpha supplied by the semantic slot\", \"normalMap\": \"BC3 R=emissive, G=normal_y, B=ambient_occlusion, A=normal_x\", \"metalTex\": \"BC3 R=metalness, G=dielectric, B=height, A=roughness\", \"maskTex2\": \"BC1 linear R=layer2, G=layer3, B=layer4\", \"maskTex5\": \"BC1 linear R=layer5, G=layer6, B=layer7\"}}}"
+        }
+      },
+      {
+        "name": "chi_gristmill_control_age01 \u00b7 extra",
+        "type": "MESH",
+        "parent": "AoE4 \u00b7 chi_gristmill_control_age01",
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_conversion_status",
+          "garrison_asset_root",
+          "garrison_mesh_index",
+          "garrison_source_part_name",
+          "garrison_group_index",
+          "garrison_material_slot",
+          "garrison_material_assignment_confidence",
+          "garrison_lod_level",
+          "garrison_variant",
+          "garrison_visibility_policy",
+          "garrison_preview_default_visible",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded"
+        },
+        "vertex_count": 7208,
+        "named_vertex_groups": [],
+        "weighted_vertex_count": 0,
+        "armature_modifiers": []
+      },
+      {
+        "name": "chi_gristmill_control_age01 \u00b7 main",
+        "type": "MESH",
+        "parent": "AoE4 \u00b7 chi_gristmill_control_age01",
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_conversion_status",
+          "garrison_asset_root",
+          "garrison_mesh_index",
+          "garrison_source_part_name",
+          "garrison_group_index",
+          "garrison_material_slot",
+          "garrison_material_assignment_confidence",
+          "garrison_lod_level",
+          "garrison_variant",
+          "garrison_visibility_policy",
+          "garrison_preview_default_visible",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded"
+        },
+        "vertex_count": 11429,
+        "named_vertex_groups": [],
+        "weighted_vertex_count": 0,
+        "armature_modifiers": []
+      },
+      {
+        "name": "chi_gristmill_control_age01 \u00b7 roof",
+        "type": "MESH",
+        "parent": "AoE4 \u00b7 chi_gristmill_control_age01",
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_conversion_status",
+          "garrison_asset_root",
+          "garrison_mesh_index",
+          "garrison_source_part_name",
+          "garrison_group_index",
+          "garrison_material_slot",
+          "garrison_material_assignment_confidence",
+          "garrison_lod_level",
+          "garrison_variant",
+          "garrison_visibility_policy",
+          "garrison_preview_default_visible",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded"
+        },
+        "vertex_count": 7630,
+        "named_vertex_groups": [],
+        "weighted_vertex_count": 0,
+        "armature_modifiers": []
+      }
+    ],
+    "native_bound_source_audit": [
+      {
+        "source": "geo_stage03_debris_29",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_prop_16",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_wreck_08",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_prop_15",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_prop_14",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage02_prop_06",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage01_prop_06",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_wreck_01",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage02_prop_08",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_prop_10",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_prop_09",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_prop_06",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_prop_03",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage01_prop_01",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage01_prop_03",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage02_prop_01",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_prop_01",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_12",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_13",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_14",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_15",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_16",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_17",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_19",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_23",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_24",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_37",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage02_debris_03",
+        "expected_parent_bone": "bone_4quaternary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage02_debris_05",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_31",
+        "expected_parent_bone": "bone_4quaternary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage02_debris_06",
+        "expected_parent_bone": "bone_1primary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_32",
+        "expected_parent_bone": "bone_3tertiary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_11",
+        "expected_parent_bone": "bone_2secondary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_20",
+        "expected_parent_bone": "bone_2secondary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_05",
+        "expected_parent_bone": "bone_2secondary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_34",
+        "expected_parent_bone": "bone_2secondary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_35",
+        "expected_parent_bone": "bone_2secondary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_36",
+        "expected_parent_bone": "bone_2secondary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_33",
+        "expected_parent_bone": "bone_3tertiary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_38",
+        "expected_parent_bone": "bone_3tertiary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "geo_stage03_debris_30",
+        "expected_parent_bone": "bone_4quaternary",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      }
+    ],
+    "world_pose_qualified": false,
+    "source_pose_qualified": false,
+    "no_skin_weights_is_not_itself_a_failure": true,
+    "skin_palette_contract": {
+      "status": "not_applicable",
+      "bound_group_count": 0,
+      "unbound_group_count": 0,
+      "groups": []
+    }
+  },
+  "mesh_object_names": [
+    "chi_gristmill_control_age01 \u00b7 extra",
+    "chi_gristmill_control_age01 \u00b7 main",
+    "chi_gristmill_control_age01 \u00b7 roof"
+  ],
+  "reference_geometry": {
+    "model": "art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgm",
+    "coordinate_frame": "Identity-placed Blender reference probe; not native world",
+    "quantization_metres": 1e-05,
+    "expected_triangles": 14674,
+    "imported_triangles": 14656,
+    "missing_triangles": 18,
+    "additional_triangles": 0,
+    "exact_quantized_reference_match": false,
+    "raw_repeated_vertex_index_faces": 18,
+    "expected_triangles_after_repeated_index_filter": 14656,
+    "missing_nonrepeated_index_triangles": 0,
+    "additional_against_repeated_index_filter": 0,
+    "exact_projectable_reference_match": true,
+    "projection_filter_scope": "Only repeated vertex INDEX faces excluded. Zero-area/coincident-position faces with distinct indices remain expected. Original raw manifest retained.",
+    "source_pose_qualified": false
+  },
+  "explicit_reference_hierarchy": {
+    "model": "art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgm",
+    "collection": "NSRC_mill_ReferenceHierarchy",
+    "armature": "NSRC_mill_ReferenceHierarchy_Armature",
+    "object_names": [
+      "NSRC_mill_ReferenceHierarchy_Armature"
+    ],
+    "bone_count": 5,
+    "reference_bone_audit": {
+      "model": "art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgm",
+      "bones": [
+        {
+          "name": "bone_root",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_4quaternary",
+          "present": true,
+          "expected_parent": "bone_root",
+          "actual_parent": "bone_root",
+          "maximum_matrix_residual": 5.960464477539063e-08,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_3tertiary",
+          "present": true,
+          "expected_parent": "bone_root",
+          "actual_parent": "bone_root",
+          "maximum_matrix_residual": 5.960464477539063e-08,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_2secondary",
+          "present": true,
+          "expected_parent": "bone_root",
+          "actual_parent": "bone_root",
+          "maximum_matrix_residual": 1.6858739115832577e-07,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_1primary",
+          "present": true,
+          "expected_parent": "bone_root",
+          "actual_parent": "bone_root",
+          "maximum_matrix_residual": 5.960464477539063e-08,
+          "public_reference_projection_matches": true
+        }
+      ],
+      "frame": "Armature-local reference comparison; not native world pose",
+      "source_pose_qualified": false
+    },
+    "inverse_reference_contract": {
+      "model": "art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgm",
+      "bone_count": 5,
+      "bones": [
+        {
+          "name": "bone_root",
+          "native_index": 0,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              0.0
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "d7b9324b4130bba780377c7fab074c73cda9de5a4d014e3c164e8df88cb34d55"
+        },
+        {
+          "name": "bone_4quaternary",
+          "native_index": 1,
+          "parent_index": 0,
+          "parent_name": "bone_root",
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              3.323171854019165
+            ],
+            [
+              -1.6858739715353008e-07,
+              0.0,
+              -0.9999999999999856,
+              1.0779230594635005
+            ],
+            [
+              0.9999999999999856,
+              0.0,
+              -1.6858739715353008e-07,
+              1.0207079648971558
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            0.7071068286895752,
+            0.0,
+            0.0,
+            0.7071067094802856,
+            -3.323171854019165,
+            1.077923059463501,
+            1.0207079648971558,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "35254e755be41606cf76d6a53e33a518c23e4a90f720171dc1f944a47514c038"
+        },
+        {
+          "name": "bone_3tertiary",
+          "native_index": 2,
+          "parent_index": 0,
+          "parent_name": "bone_root",
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              3.399632453918457
+            ],
+            [
+              -1.6858739715353008e-07,
+              0.0,
+              -0.9999999999999856,
+              0.08284799754619579
+            ],
+            [
+              0.9999999999999856,
+              0.0,
+              -1.6858739715353008e-07,
+              0.8017985820770261
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            0.7071068286895752,
+            0.0,
+            0.0,
+            0.7071067094802856,
+            -3.399632453918457,
+            0.08284799754619598,
+            0.8017985820770264,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "7fd70e3fd780ff3d1868256d1eca3f6ee261c44c91842d8c8a125add16685db5"
+        },
+        {
+          "name": "bone_2secondary",
+          "native_index": 3,
+          "parent_index": 0,
+          "parent_name": "bone_root",
+          "expected_reference_matrix_row_major": [
+            [
+              0.9999999999999858,
+              1.685873969314855e-07,
+              -1.0390001387704171e-39,
+              1.5067479610443115
+            ],
+            [
+              -1.6858739693148547e-07,
+              0.9999999999999856,
+              -2.220446049250313e-16,
+              0.03389973193407037
+            ],
+            [
+              -3.7433921946991133e-23,
+              2.2204460492502818e-16,
+              0.9999999999999998,
+              0.9433366060256956
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            4.3578822888126344e-33,
+            -4.3578822888126344e-33,
+            0.7071068286895752,
+            0.7071067094802856,
+            -1.5067479610443115,
+            0.03389973193407059,
+            0.9433366060256958,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "568c471e8e9727a4c23a22d6fb26e6bcd967f871910b164ee86bdfa7075c68f8"
+        },
+        {
+          "name": "bone_1primary",
+          "native_index": 4,
+          "parent_index": 0,
+          "parent_name": "bone_root",
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              2.2888183792701966e-08
+            ],
+            [
+              -1.6858739715353008e-07,
+              0.0,
+              -0.9999999999999856,
+              6.10351588236642e-08
+            ],
+            [
+              0.9999999999999856,
+              0.0,
+              -1.6858739715353008e-07,
+              1.465246796607971
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            0.7071068286895752,
+            0.0,
+            0.0,
+            0.7071067094802856,
+            -2.2888183792701966e-08,
+            6.103515914901436e-08,
+            1.4652467966079712,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "c813b69880e45c16ab870ccf65ab3d09bfb599d917c20bc0c9bcd8371f29e7c7"
+        }
+      ],
+      "native_rgm_sha256": "ad48c681f820bf851123aab9aaa9b32b019d5d9bfc855bcf68b0b01037252fee",
+      "SKLN_payload_sha256": "6dce8e86f3ad78f084100f6679774b30b55cd6584c3c9f2f75858729e05f9fc0",
+      "MSCL_payload_sha256": "e511cf81ab1eba0e20760d429bef84f5f68986c402e436a31f225734ae4fa93b",
+      "checked_bound_source_count": 41,
+      "maximum_inverse_reference_error": 3.210739223464329e-07,
+      "formula": "B * native_global_reference * K; parent globals recomputed from exact raw local TRS",
+      "qualification": "Exact native reference hierarchy and inverse-reference numeric relation; not engine physical-pivot or animation proof"
+    },
+    "display_tail_length_metres": 0.16,
+    "reference_projection_only": true,
+    "native_engine_physical_pivots_qualified": false,
+    "source_pose_qualified": false,
+    "next_step": "Append object_names to exact public import IDs, then rigid_source_views and reversible pose/static-partition checks"
+  },
+  "reference_bones": [
+    {
+      "model": "art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgm",
+      "bones": [
+        {
+          "name": "bone_root",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_4quaternary",
+          "present": true,
+          "expected_parent": "bone_root",
+          "actual_parent": "bone_root",
+          "maximum_matrix_residual": 5.960464477539063e-08,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_3tertiary",
+          "present": true,
+          "expected_parent": "bone_root",
+          "actual_parent": "bone_root",
+          "maximum_matrix_residual": 5.960464477539063e-08,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_2secondary",
+          "present": true,
+          "expected_parent": "bone_root",
+          "actual_parent": "bone_root",
+          "maximum_matrix_residual": 1.6858739115832577e-07,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "bone_1primary",
+          "present": true,
+          "expected_parent": "bone_root",
+          "actual_parent": "bone_root",
+          "maximum_matrix_residual": 5.960464477539063e-08,
+          "public_reference_projection_matches": true
+        }
+      ],
+      "frame": "Armature-local reference comparison; not native world pose",
+      "source_pose_qualified": false
+    }
+  ],
+  "rigid_views": {
+    "model": "art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgm",
+    "source_view_objects": [
+      "NSRC_mill_RigidSources_0",
+      "NSRC_mill_RigidSources_1",
+      "NSRC_mill_RigidSources_2",
+      "NSRC_mill_RigidSources_3",
+      "NSRC_mill_RigidSources_4",
+      "NSRC_mill_RigidSources_5",
+      "NSRC_mill_RigidSources_6",
+      "NSRC_mill_RigidSources_7",
+      "NSRC_mill_RigidSources_8",
+      "NSRC_mill_RigidSources_9",
+      "NSRC_mill_RigidSources_10",
+      "NSRC_mill_RigidSources_11",
+      "NSRC_mill_RigidSources_12",
+      "NSRC_mill_RigidSources_13",
+      "NSRC_mill_RigidSources_14",
+      "NSRC_mill_RigidSources_15",
+      "NSRC_mill_RigidSources_16",
+      "NSRC_mill_RigidSources_17",
+      "NSRC_mill_RigidSources_18",
+      "NSRC_mill_RigidSources_19",
+      "NSRC_mill_RigidSources_20",
+      "NSRC_mill_RigidSources_21",
+      "NSRC_mill_RigidSources_22",
+      "NSRC_mill_RigidSources_23",
+      "NSRC_mill_RigidSources_24",
+      "NSRC_mill_RigidSources_25",
+      "NSRC_mill_RigidSources_26",
+      "NSRC_mill_RigidSources_27",
+      "NSRC_mill_RigidSources_28",
+      "NSRC_mill_RigidSources_29",
+      "NSRC_mill_RigidSources_30",
+      "NSRC_mill_RigidSources_31",
+      "NSRC_mill_RigidSources_32",
+      "NSRC_mill_RigidSources_33",
+      "NSRC_mill_RigidSources_34",
+      "NSRC_mill_RigidSources_35",
+      "NSRC_mill_RigidSources_36",
+      "NSRC_mill_RigidSources_37",
+      "NSRC_mill_RigidSources_38",
+      "NSRC_mill_RigidSources_39",
+      "NSRC_mill_RigidSources_40",
+      "NSRC_mill_RigidSources_41",
+      "NSRC_mill_RigidSources_42",
+      "NSRC_mill_RigidSources_43",
+      "NSRC_mill_RigidSources_44",
+      "NSRC_mill_RigidSources_45",
+      "NSRC_mill_RigidSources_46",
+      "NSRC_mill_RigidSources_47",
+      "NSRC_mill_RigidSources_48",
+      "NSRC_mill_RigidSources_49",
+      "NSRC_mill_RigidSources_50",
+      "NSRC_mill_RigidSources_51",
+      "NSRC_mill_RigidSources_52",
+      "NSRC_mill_RigidSources_53",
+      "NSRC_mill_RigidSources_54",
+      "NSRC_mill_RigidSources_55",
+      "NSRC_mill_RigidSources_56",
+      "NSRC_mill_RigidSources_57",
+      "NSRC_mill_RigidSources_58",
+      "NSRC_mill_RigidSources_59",
+      "NSRC_mill_RigidSources_60",
+      "NSRC_mill_RigidSources_61",
+      "NSRC_mill_RigidSources_62",
+      "NSRC_mill_RigidSources_63",
+      "NSRC_mill_RigidSources_64",
+      "NSRC_mill_RigidSources_65",
+      "NSRC_mill_RigidSources_66",
+      "NSRC_mill_RigidSources_67",
+      "NSRC_mill_RigidSources_68",
+      "NSRC_mill_RigidSources_69",
+      "NSRC_mill_RigidSources_70",
+      "NSRC_mill_RigidSources_71",
+      "NSRC_mill_RigidSources_72",
+      "NSRC_mill_RigidSources_73",
+      "NSRC_mill_RigidSources_74",
+      "NSRC_mill_RigidSources_75",
+      "NSRC_mill_RigidSources_76",
+      "NSRC_mill_RigidSources_77",
+      "NSRC_mill_RigidSources_78",
+      "NSRC_mill_RigidSources_79",
+      "NSRC_mill_RigidSources_80",
+      "NSRC_mill_RigidSources_81",
+      "NSRC_mill_RigidSources_82",
+      "NSRC_mill_RigidSources_83",
+      "NSRC_mill_RigidSources_84",
+      "NSRC_mill_RigidSources_85",
+      "NSRC_mill_RigidSources_86",
+      "NSRC_mill_RigidSources_87",
+      "NSRC_mill_RigidSources_88",
+      "NSRC_mill_RigidSources_89",
+      "NSRC_mill_RigidSources_90",
+      "NSRC_mill_RigidSources_91",
+      "NSRC_mill_RigidSources_92"
+    ],
+    "armature": "NSRC_mill_ReferenceHierarchy_Armature",
+    "reference_geometry_preserved": true,
+    "source_pose_qualified": false,
+    "warning": "Rigid inspection reconstruction only; bone rest matrices/pivots and exact native motion still need comparison"
+  },
+  "reversible_pose": {
+    "bone": "bone_4quaternary",
+    "probe_radians": 0.035,
+    "max_Blender_scene_displacement_by_object": {
+      "NSRC_mill_RigidSources_0": 0.0,
+      "NSRC_mill_RigidSources_1": 0.0,
+      "NSRC_mill_RigidSources_2": 0.0,
+      "NSRC_mill_RigidSources_3": 0.0,
+      "NSRC_mill_RigidSources_4": 0.0,
+      "NSRC_mill_RigidSources_5": 0.0,
+      "NSRC_mill_RigidSources_6": 0.0,
+      "NSRC_mill_RigidSources_7": 0.0,
+      "NSRC_mill_RigidSources_8": 0.023953196452254147,
+      "NSRC_mill_RigidSources_9": 0.02794008965785497,
+      "NSRC_mill_RigidSources_10": 0.0,
+      "NSRC_mill_RigidSources_11": 0.0,
+      "NSRC_mill_RigidSources_12": 0.0,
+      "NSRC_mill_RigidSources_13": 0.0,
+      "NSRC_mill_RigidSources_14": 0.0,
+      "NSRC_mill_RigidSources_15": 0.0,
+      "NSRC_mill_RigidSources_16": 0.0,
+      "NSRC_mill_RigidSources_17": 0.0,
+      "NSRC_mill_RigidSources_18": 0.0,
+      "NSRC_mill_RigidSources_19": 0.0,
+      "NSRC_mill_RigidSources_20": 0.027845056261325496,
+      "NSRC_mill_RigidSources_21": 0.0,
+      "NSRC_mill_RigidSources_22": 0.0,
+      "NSRC_mill_RigidSources_23": 0.0,
+      "NSRC_mill_RigidSources_24": 0.0,
+      "NSRC_mill_RigidSources_25": 0.0,
+      "NSRC_mill_RigidSources_26": 0.0,
+      "NSRC_mill_RigidSources_27": 0.0,
+      "NSRC_mill_RigidSources_28": 0.0,
+      "NSRC_mill_RigidSources_29": 0.0,
+      "NSRC_mill_RigidSources_30": 0.0,
+      "NSRC_mill_RigidSources_31": 0.0,
+      "NSRC_mill_RigidSources_32": 0.0,
+      "NSRC_mill_RigidSources_33": 0.0,
+      "NSRC_mill_RigidSources_34": 0.0,
+      "NSRC_mill_RigidSources_35": 0.0,
+      "NSRC_mill_RigidSources_36": 0.0,
+      "NSRC_mill_RigidSources_37": 0.0,
+      "NSRC_mill_RigidSources_38": 0.0,
+      "NSRC_mill_RigidSources_39": 0.0,
+      "NSRC_mill_RigidSources_40": 0.0,
+      "NSRC_mill_RigidSources_41": 0.0,
+      "NSRC_mill_RigidSources_42": 0.0,
+      "NSRC_mill_RigidSources_43": 0.0,
+      "NSRC_mill_RigidSources_44": 0.0,
+      "NSRC_mill_RigidSources_45": 0.0,
+      "NSRC_mill_RigidSources_46": 0.0,
+      "NSRC_mill_RigidSources_47": 0.0,
+      "NSRC_mill_RigidSources_48": 0.0,
+      "NSRC_mill_RigidSources_49": 0.0,
+      "NSRC_mill_RigidSources_50": 0.0,
+      "NSRC_mill_RigidSources_51": 0.0,
+      "NSRC_mill_RigidSources_52": 0.0,
+      "NSRC_mill_RigidSources_53": 0.0,
+      "NSRC_mill_RigidSources_54": 0.0,
+      "NSRC_mill_RigidSources_55": 0.0,
+      "NSRC_mill_RigidSources_56": 0.0,
+      "NSRC_mill_RigidSources_57": 0.0,
+      "NSRC_mill_RigidSources_58": 0.0,
+      "NSRC_mill_RigidSources_59": 0.0,
+      "NSRC_mill_RigidSources_60": 0.0,
+      "NSRC_mill_RigidSources_61": 0.0,
+      "NSRC_mill_RigidSources_62": 0.0,
+      "NSRC_mill_RigidSources_63": 0.0,
+      "NSRC_mill_RigidSources_64": 0.0,
+      "NSRC_mill_RigidSources_65": 0.0,
+      "NSRC_mill_RigidSources_66": 0.0,
+      "NSRC_mill_RigidSources_67": 0.0,
+      "NSRC_mill_RigidSources_68": 0.0,
+      "NSRC_mill_RigidSources_69": 0.0,
+      "NSRC_mill_RigidSources_70": 0.0,
+      "NSRC_mill_RigidSources_71": 0.0,
+      "NSRC_mill_RigidSources_72": 0.0,
+      "NSRC_mill_RigidSources_73": 0.0,
+      "NSRC_mill_RigidSources_74": 0.0,
+      "NSRC_mill_RigidSources_75": 0.0,
+      "NSRC_mill_RigidSources_76": 0.0,
+      "NSRC_mill_RigidSources_77": 0.0,
+      "NSRC_mill_RigidSources_78": 0.0,
+      "NSRC_mill_RigidSources_79": 0.0,
+      "NSRC_mill_RigidSources_80": 0.0,
+      "NSRC_mill_RigidSources_81": 0.0,
+      "NSRC_mill_RigidSources_82": 0.0,
+      "NSRC_mill_RigidSources_83": 0.0,
+      "NSRC_mill_RigidSources_84": 0.0,
+      "NSRC_mill_RigidSources_85": 0.0,
+      "NSRC_mill_RigidSources_86": 0.0,
+      "NSRC_mill_RigidSources_87": 0.0,
+      "NSRC_mill_RigidSources_88": 0.0,
+      "NSRC_mill_RigidSources_89": 0.0,
+      "NSRC_mill_RigidSources_90": 0.0,
+      "NSRC_mill_RigidSources_91": 0.0,
+      "NSRC_mill_RigidSources_92": 0.0
+    },
+    "restored_reference_max_error": 0.0,
+    "reference_restored": true,
+    "rigid_movement_partition": [
+      {
+        "object": "NSRC_mill_RigidSources_0",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_1",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_2",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_3",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_4",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_5",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_6",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_7",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_8",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_9",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_10",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_11",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_12",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_13",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_14",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_15",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_16",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_17",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_18",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_19",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_20",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_21",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_22",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_23",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_24",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_25",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_26",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_27",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_28",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_29",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_30",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_31",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_32",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_33",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_34",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_35",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_36",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_37",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_38",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_39",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_40",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_41",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_42",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_43",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_44",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_45",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_46",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_47",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_48",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_49",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_50",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_51",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_52",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_53",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_54",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_55",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_56",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_57",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_58",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_59",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_60",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_61",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_62",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_63",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_64",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_65",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_66",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_67",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_68",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_69",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_70",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_71",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_72",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_73",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_74",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_75",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_76",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_77",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_78",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_79",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_80",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_81",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_82",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_83",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_84",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_85",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_86",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_87",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_88",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_89",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_90",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_91",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_mill_RigidSources_92",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      }
+    ],
+    "keyframes_created": false,
+    "native_world_pose_qualified": false,
+    "qualification": "Reversible source-pose responsiveness only; verify expected bound/static source partition and physical pivot separately"
+  },
+  "sockets": {
+    "model": "art/civilizations/chinese/structures/gristmill/chi_gristmill_control_age01/chi_gristmill_control_age01.rgm",
+    "marker_records": [
+      {
+        "object": "NSRC_mill_Sockets_0",
+        "native_name": "fx_critical_damage_01",
+        "root_local_projection_only": false,
+        "bone_local_transform_quarantined": true
+      },
+      {
+        "object": "NSRC_mill_Sockets_1",
+        "native_name": "hlp_damaged_geo_wreck_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mill_Sockets_2",
+        "native_name": "fx_fire_damage_02",
+        "root_local_projection_only": false,
+        "bone_local_transform_quarantined": true
+      },
+      {
+        "object": "NSRC_mill_Sockets_3",
+        "native_name": "hlp_ruins_geo_base",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mill_Sockets_4",
+        "native_name": "fx_building_damage_02",
+        "root_local_projection_only": false,
+        "bone_local_transform_quarantined": true
+      },
+      {
+        "object": "NSRC_mill_Sockets_5",
+        "native_name": "hlp_healthy_geo_stage01_prop_07",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mill_Sockets_6",
+        "native_name": "fx_building_damage_01",
+        "root_local_projection_only": false,
+        "bone_local_transform_quarantined": true
+      },
+      {
+        "object": "NSRC_mill_Sockets_7",
+        "native_name": "hlp_healthy_geo_stage01_prop_05",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mill_Sockets_8",
+        "native_name": "hlp_ruins_geo_wreck_01",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mill_Sockets_9",
+        "native_name": "hlp_ruins_geo_wreck_02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mill_Sockets_10",
+        "native_name": "hlp_healthy_geo_base",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mill_Sockets_11",
+        "native_name": "fx_impact_ground_02",
+        "root_local_projection_only": false,
+        "bone_local_transform_quarantined": true
+      },
+      {
+        "object": "NSRC_mill_Sockets_12",
+        "native_name": "fx_fire_damage_01",
+        "root_local_projection_only": false,
+        "bone_local_transform_quarantined": true
+      },
+      {
+        "object": "NSRC_mill_Sockets_13",
+        "native_name": "fx_impact_ground_01",
+        "root_local_projection_only": false,
+        "bone_local_transform_quarantined": true
+      },
+      {
+        "object": "NSRC_mill_Sockets_14",
+        "native_name": "hlp_healthy_geo_stage03_debris_25",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mill_Sockets_15",
+        "native_name": "hlp_damaged_geo_wreck_02",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mill_Sockets_16",
+        "native_name": "hlp_healthy_geo_stage03_debris_26",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      },
+      {
+        "object": "NSRC_mill_Sockets_17",
+        "native_name": "fx_center",
+        "root_local_projection_only": false,
+        "bone_local_transform_quarantined": true
+      },
+      {
+        "object": "NSRC_mill_Sockets_18",
+        "native_name": "hlp_damaged_geo_base",
+        "root_local_projection_only": true,
+        "bone_local_transform_quarantined": false
+      }
+    ],
+    "native_world_pose_qualified": false
+  },
+  "image_dependencies": [
+    {
+      "name": "0072bb6c4e06_18271245589306174688_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\0072bb6c4e06_18271245589306174688_packed.dds"
+    },
+    {
+      "name": "00a2880bf731_6708399669590286008_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\00a2880bf731_6708399669590286008_packed.dds"
+    },
+    {
+      "name": "020d6ccc48c5_16055389955745102068_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\020d6ccc48c5_16055389955745102068_packed.dds"
+    },
+    {
+      "name": "06d78895dd28_14302697369861826596_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\06d78895dd28_14302697369861826596_packed.dds"
+    },
+    {
+      "name": "0ba18b4fba40_8030263791745781732_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\0ba18b4fba40_8030263791745781732_packed.dds"
+    },
+    {
+      "name": "0eb8439c962e_black_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\0eb8439c962e_black_msk.dds"
+    },
+    {
+      "name": "1271947f6c71_9275931416171658643_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\1271947f6c71_9275931416171658643_packed.dds"
+    },
+    {
+      "name": "142949d12c74_13894898983353294404_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\142949d12c74_13894898983353294404_packed.dds"
+    },
+    {
+      "name": "1615052613e9_12038213607294951617_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\1615052613e9_12038213607294951617_packed.dds"
+    },
+    {
+      "name": "1754d19f2037_noise_02_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\1754d19f2037_noise_02_msk.dds"
+    },
+    {
+      "name": "21b07693d5d9_16076243782349524396_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\21b07693d5d9_16076243782349524396_packed.dds"
+    },
+    {
+      "name": "2559e2731a7e_3276630836538442047_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\2559e2731a7e_3276630836538442047_packed.dds"
+    },
+    {
+      "name": "2bea12bb4abc_15145373611479454609_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\2bea12bb4abc_15145373611479454609_packed.dds"
+    },
+    {
+      "name": "311105270000_4452979088582012097_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\311105270000_4452979088582012097_packed.dds"
+    },
+    {
+      "name": "31e2873773b6_8586745135143675682_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\31e2873773b6_8586745135143675682_packed.dds"
+    },
+    {
+      "name": "35e374f00eb2_10740321618852791956_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\35e374f00eb2_10740321618852791956_packed.dds"
+    },
+    {
+      "name": "3cb780c39687_1593384043222372501_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\3cb780c39687_1593384043222372501_packed.dds"
+    },
+    {
+      "name": "3daa7f6d3ca8_16763265880960646977_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\3daa7f6d3ca8_16763265880960646977_packed.dds"
+    },
+    {
+      "name": "465a783bb72e_3446424199042384619_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\465a783bb72e_3446424199042384619_packed.dds"
+    },
+    {
+      "name": "47e080e379b0_5454786962469612105_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\47e080e379b0_5454786962469612105_packed.dds"
+    },
+    {
+      "name": "48cddb7559a5_6168797471716932850_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\48cddb7559a5_6168797471716932850_packed.dds"
+    },
+    {
+      "name": "49c07d1e9af0_17918020542829511918_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\49c07d1e9af0_17918020542829511918_packed.dds"
+    },
+    {
+      "name": "4aa7961d96b0_934894132820687482_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\4aa7961d96b0_934894132820687482_packed.dds"
+    },
+    {
+      "name": "52cbeba2ade3_4188623932284049833_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\52cbeba2ade3_4188623932284049833_packed.dds"
+    },
+    {
+      "name": "5381da0089b5_940685202008631679_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\5381da0089b5_940685202008631679_packed.dds"
+    },
+    {
+      "name": "570e02d83fae_patches_01_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\570e02d83fae_patches_01_msk.dds"
+    },
+    {
+      "name": "5d4ef7b92e99_2545594770158528269_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\5d4ef7b92e99_2545594770158528269_packed.dds"
+    },
+    {
+      "name": "5db26348116b_12041615973339707457_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\5db26348116b_12041615973339707457_packed.dds"
+    },
+    {
+      "name": "6f3011ce41e3_str_damage_charred_01_alb.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\6f3011ce41e3_str_damage_charred_01_alb.dds"
+    },
+    {
+      "name": "70d89960d679_9246724600858030448_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\70d89960d679_9246724600858030448_packed.dds"
+    },
+    {
+      "name": "749e0abed60a_11960922676069564585_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\749e0abed60a_11960922676069564585_packed.dds"
+    },
+    {
+      "name": "754bdfb9b65b_17539401051898683028_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\754bdfb9b65b_17539401051898683028_packed.dds"
+    },
+    {
+      "name": "794382be660a_10481810468234262313_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\794382be660a_10481810468234262313_packed.dds"
+    },
+    {
+      "name": "7a398fe77221_10527405107968455992_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\7a398fe77221_10527405107968455992_packed.dds"
+    },
+    {
+      "name": "7aeab5c3e3f9_11084874571157810803_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\7aeab5c3e3f9_11084874571157810803_packed.dds"
+    },
+    {
+      "name": "7b40de3db86e_13050232062171818572_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\7b40de3db86e_13050232062171818572_packed.dds"
+    },
+    {
+      "name": "7b494a2f28b9_18231663582228185424_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\7b494a2f28b9_18231663582228185424_packed.dds"
+    },
+    {
+      "name": "7dd862539da6_275850665497418999_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\7dd862539da6_275850665497418999_packed.dds"
+    },
+    {
+      "name": "85c59cbb9679_11755559493558267954_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\85c59cbb9679_11755559493558267954_packed.dds"
+    },
+    {
+      "name": "8a3d4cc884cd_13629605043408125052_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\8a3d4cc884cd_13629605043408125052_packed.dds"
+    },
+    {
+      "name": "917a195fa6d8_14420659823134052771_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\917a195fa6d8_14420659823134052771_packed.dds"
+    },
+    {
+      "name": "96d8a13d686b_2133029386071531582_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\96d8a13d686b_2133029386071531582_packed.dds"
+    },
+    {
+      "name": "b383967b5381_989199437486514571_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\b383967b5381_989199437486514571_packed.dds"
+    },
+    {
+      "name": "b3f6d09ad587_18080175334831858491_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\b3f6d09ad587_18080175334831858491_packed.dds"
+    },
+    {
+      "name": "b4ee9a603852_4240303804329410511_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\b4ee9a603852_4240303804329410511_packed.dds"
+    },
+    {
+      "name": "b8e4ce9f853c_8075824890169796949_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\b8e4ce9f853c_8075824890169796949_packed.dds"
+    },
+    {
+      "name": "ba60e8638e93_4527451530596841932_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\ba60e8638e93_4527451530596841932_packed.dds"
+    },
+    {
+      "name": "ba8df49cc5c0_17630634612017306847_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\ba8df49cc5c0_17630634612017306847_packed.dds"
+    },
+    {
+      "name": "bc28339fe36b_3312449786661181044_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\bc28339fe36b_3312449786661181044_packed.dds"
+    },
+    {
+      "name": "c06bd3c278e6_12606630311466598031_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\c06bd3c278e6_12606630311466598031_packed.dds"
+    },
+    {
+      "name": "c1eb0b07e1df_leaks_01_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\c1eb0b07e1df_leaks_01_msk.dds"
+    },
+    {
+      "name": "c510889e34b5_2645151546205869145_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\c510889e34b5_2645151546205869145_packed.dds"
+    },
+    {
+      "name": "c6ae5f70c76b_14259662789339030955_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\c6ae5f70c76b_14259662789339030955_packed.dds"
+    },
+    {
+      "name": "cc7c92b07a68_6160559002667147252_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\cc7c92b07a68_6160559002667147252_packed.dds"
+    },
+    {
+      "name": "cd4acf8d1f4c_4513912576748255737_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\cd4acf8d1f4c_4513912576748255737_packed.dds"
+    },
+    {
+      "name": "d314636c3541_2430408601683036952_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\d314636c3541_2430408601683036952_packed.dds"
+    },
+    {
+      "name": "d5ba288445e3_middle_gray_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\d5ba288445e3_middle_gray_msk.dds"
+    },
+    {
+      "name": "d8cf10f0c2c9_2094981487401786293_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\d8cf10f0c2c9_2094981487401786293_packed.dds"
+    },
+    {
+      "name": "dfed50002bbc_noise_01_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\dfed50002bbc_noise_01_msk.dds"
+    },
+    {
+      "name": "e043715de529_13131658399207029852_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\e043715de529_13131658399207029852_packed.dds"
+    },
+    {
+      "name": "e0ceeab01b78_9485489795600170585_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\e0ceeab01b78_9485489795600170585_packed.dds"
+    },
+    {
+      "name": "e16c00b94bb7_16769109965280493992_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\e16c00b94bb7_16769109965280493992_packed.dds"
+    },
+    {
+      "name": "e56d8f3decf5_7597519659832404014_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\e56d8f3decf5_7597519659832404014_packed.dds"
+    },
+    {
+      "name": "e76747582b56_18345724522684246396_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\e76747582b56_18345724522684246396_packed.dds"
+    },
+    {
+      "name": "ec41a9e94ab5_651613341237364139_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\ec41a9e94ab5_651613341237364139_packed.dds"
+    },
+    {
+      "name": "ee73c6027e66_1009459321084219101_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\ee73c6027e66_1009459321084219101_packed.dds"
+    },
+    {
+      "name": "ee7701e70f35_3073305326982814406_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\ee7701e70f35_3073305326982814406_packed.dds"
+    },
+    {
+      "name": "ef0164b43256_17716732775687444425_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\ef0164b43256_17716732775687444425_packed.dds"
+    },
+    {
+      "name": "f46c95d4fa41_14731713576706565098_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\f46c95d4fa41_14731713576706565098_packed.dds"
+    },
+    {
+      "name": "f5934cc6ec3f_14288726234287490928_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\f5934cc6ec3f_14288726234287490928_packed.dds"
+    },
+    {
+      "name": "fc68f83c9dee_4373456093999725211_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\98735a7437a6\\400919c5af5a72a0cb14\\textures\\fc68f83c9dee_4373456093999725211_packed.dds"
+    }
+  ],
+  "cached_projection_completed": true,
+  "mechanism_source_qualified": false,
+  "qualification_scope": "Cached public projection completed; inspect geometry, skeleton, binding and pose evidence separately. Success here is not mechanism acceptance.",
+  "saved_file_sha256": "99d61a2597461e1631042d9fc00bef05ab9a03644e9f0fbddfdb9543cb1f6d22"
+}

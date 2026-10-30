@@ -1,0 +1,10 @@
+F:\aoe_4_temp\New_custom_civilization\aoe4-persia\source\scar\persia\blueprints.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-persia\source\scar\persia\lifecycle.scar
+  WARNING players-contract: `PLAYERS` is used without a visible `cardinal.scar` import; confirm the loader provides it.
+  Summary: 0 error(s), 1 warning(s)
+F:\aoe_4_temp\New_custom_civilization\aoe4-persia\source\scar\persia\initialization.scar
+  WARNING sgroup-lifetime:23: Temporary squad group `squads` from `Player_GetSquads` is not visibly destroyed.
+  Summary: 0 error(s), 1 warning(s)
+F:\aoe_4_temp\New_custom_civilization\aoe4-persia\source\scar\garrison\persia\dispatcher.scar
+  OK: no static diagnostics

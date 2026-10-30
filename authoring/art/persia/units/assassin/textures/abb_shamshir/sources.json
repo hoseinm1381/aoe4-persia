@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\abb_shamshir\\7fcd7cfa60c326e17d3b\\decoded-static.json",
+  "donor_sha256": "0865aea0d536893b9490c6e81d0822bd75ef21bd9911b3dd76e30d498d0da3fe",
+  "logical_path": "art/civilizations/abbasids/weapons/abb_shamshir/abb_shamshir.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "f2c4a17c019a4b7285307f529e910f57506c63db5bee6768ce851939fc8ccea1",
+    "normal": "b7bec15630bb1a70480db6e6cbd6c99d047c7b009cc19d751abde456d9e7f435",
+    "roughness": "2e212ba2da0411390aa4ebcb6111b9ed720072c3203abf8b4042737ef9603f71",
+    "metalness": "bbf3b44335515497ea1a8ce687cf82b6f334af7973881d8b4e9d724fc56d5578",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

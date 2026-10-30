@@ -1,0 +1,25 @@
+{
+  "schema": "persia-original-atlas/1",
+  "family": "mining_camp",
+  "seed": 270204,
+  "size": [
+    2048,
+    2048
+  ],
+  "source_files": {
+    "_shared/atlas_source.py": "f575b88e729252c4c1fea0496e6f89d64af1fabca84f32658cc32307d315f445",
+    "_shared/make_original_atlas.py": "0ea7d63c3030530407b8dfe74ff451c96401aa5173d6828472efeef2d923e36d"
+  },
+  "image_sha256": {
+    "albedo.png": "fbfcb3cb4fd47e7b38de418936f699431c2f6f2cf0bfc52e5bb14bbed2de228f",
+    "normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+    "roughness.png": "df5b93bf529209ec1b3c777e885f4a5fc18a8c7ecea57e4d791f80faae476462",
+    "metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+    "owner_mask.png": "d9c25f59b0f64e7241c9dd29ee8cc815983370bff2521fa65d8c8ba5581e04c5"
+  },
+  "original_painted_pixels": true,
+  "stock_or_photographic_pixels_used": false,
+  "owner_colour": "Neutral source textile plus owner mask; red/blue/yellow is a preview shader parameter, not baked albedo.",
+  "manual_edit_policy": "Retain edited PNG originals. Repainting refuses changed image hashes; geometry rebuilds consume these retained images directly.",
+  "native_shader": "unverified; source-only"
+}

@@ -1,0 +1,159 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "daylamite",
+  "donor": "art/civilizations/ottoman/weapons/ott_shield_round_2/ott_shield_round_2.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\ott_shield_round_2\\model.blend",
+  "source_sha256": "0c37c771c044941784c327b3eb3c3200be78f49aa181afc69d14365427886a3c",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 127,
+      "triangles": 150,
+      "sha256": "29b8a6141464249717eeaa4b61ba5dc40ef5ded5ce2c3b2fcaed8656d5a0fa90"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 107,
+      "triangles": 120,
+      "sha256": "cc0f4e065faa65ce25200e8a550fbccef24b838a407d60c4cd722d555508d675"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 79,
+      "triangles": 92,
+      "sha256": "fe6d8c51f9cecb210015c2168947575899f2bc6e7095061ea920f249e2af01ed"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_daylamite_ott_shield_round_2_LOD0",
+      "vertices": 127,
+      "triangles": 150,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_daylamite_ott_shield_round_2_LOD1",
+      "vertices": 107,
+      "triangles": 120,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_daylamite_ott_shield_round_2_LOD2",
+      "vertices": 79,
+      "triangles": 92,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 29,
+      "changed_vertices": 70,
+      "source_vertices": 127,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 23,
+      "changed_vertices": 67,
+      "source_vertices": 107,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 22,
+      "changed_vertices": 47,
+      "source_vertices": 79,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 29,
+      "changed_vertices": 70,
+      "source_vertices": 127,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 23,
+      "changed_vertices": 67,
+      "source_vertices": 107,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 22,
+      "changed_vertices": 47,
+      "source_vertices": 79,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/ottoman/weapons/ott_shield_round_2/ott_shield_round_2.rgm",
+  "geometry_donor": "art/civilizations/ottoman/weapons/ott_shield_round_2/ott_shield_round_2.rgm"
+}

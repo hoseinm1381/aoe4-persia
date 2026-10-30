@@ -1,0 +1,272 @@
+{
+  "family": "handcannoneer",
+  "body": "sul_ranged_cannoneer_age04",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\handcannoneer\\assemblies\\sul_ranged_cannoneer_age04\\assembly.blend",
+  "sha256": "6aabd68db80405989d403832b3da16dd40ef6d23694c5480babc50df73d6606d",
+  "rig_bones": 48,
+  "rig_contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+  "secondary_rigs": {},
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "body",
+      "vertices": 1142,
+      "triangles": 1293,
+      "sha256": "39e6477d9f1de22f26a26a58dfd95e11bd5921d82bc23d6f0569618e9da5a4be"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 84,
+      "triangles": 72,
+      "sha256": "f1b6b91e8320f8aa5379c2fb2d5227cea6ca3afe2a4062b0bfbd35a18555827b"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 168,
+      "triangles": 148,
+      "sha256": "fea3c17d50f21d0f105df6d8b3ea01cbb5c8979b453f73ea15ea683ee19b7152"
+    },
+    {
+      "lod": 1,
+      "component": "body",
+      "vertices": 717,
+      "triangles": 703,
+      "sha256": "3a9ccbb77970d09da89ef9250bea6fe717c49bcf34cd612018d02ca5d04a8f9e"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 84,
+      "triangles": 72,
+      "sha256": "ec61e0d271e82e4ca8e3118177a6e9172e11d4d45f54314bccc423224683163a"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 168,
+      "triangles": 148,
+      "sha256": "fc870f97dbe3ae1ec6f4b5ce34ad1ab2a66cd4de308d8b2b014f4470add6bc0c"
+    },
+    {
+      "lod": 2,
+      "component": "body",
+      "vertices": 388,
+      "triangles": 340,
+      "sha256": "2be7a697ef6ec3c6a3ca8e12dd2e3b71f49b3e52532425f4b610b4b9d92024ea"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 66,
+      "triangles": 52,
+      "sha256": "35f7dfbad1271163d28de3f5d1e87bd6aef88b09200fcd9bdf127f69afb45a79"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 82,
+      "triangles": 80,
+      "sha256": "4a2bfa3e82bab259514d7a3b0d0118aacf6e064b130b6722a8a8ef6306af1e40"
+    }
+  ],
+  "equipment": {
+    "cannon_hand": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_ranged_cannoneer_age04/sul_ranged_cannoneer_age04.rgm",
+        "donor_manifest_sha256": "a07eb9328411f0e63499a4280c82384de72ff0de6c26debe3a8566daeecf7dc5",
+        "bones_modified": 0
+      },
+      "triangles": [
+        72,
+        72,
+        52
+      ]
+    },
+    "ott_gun_janissary": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_ranged_cannoneer_age04/sul_ranged_cannoneer_age04.rgm",
+        "donor_manifest_sha256": "a07eb9328411f0e63499a4280c82384de72ff0de6c26debe3a8566daeecf7dc5",
+        "bones_modified": 0
+      },
+      "triangles": [
+        148,
+        148,
+        80
+      ]
+    }
+  },
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\handcannoneer\\models\\sul_ranged_cannoneer_age04\\model.blend",
+      "sha256": "96aea57530dfaf92d6702b4c8f855f9976bd18ba13df71bee6285055eb802edc"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\handcannoneer\\models\\cannon_hand\\model.blend",
+      "sha256": "03b50c1215f8b3c94a4792445844c016400fd70e5373d9ddcfa5018cd10ba1f9"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\handcannoneer\\models\\ott_gun_janissary\\model.blend",
+      "sha256": "856da7a8b076384dec6c27d02bfedbaee4602369977dc60a7248889453abb613"
+    }
+  ],
+  "motion_checks": [
+    {
+      "clip": "arquebus\\idle_tense_01",
+      "native_source": {
+        "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_archer/base_archer.rhka",
+        "rhka_sha256": "6a20c42abe69eb0f5217bda35153a3d577dc4f0c47e6291572b8d3f2c8c46c0a",
+        "selection_status": "linked_library_candidate",
+        "runtime_selection_status": "not_decoded"
+      },
+      "body_deformation_samples": [
+        {
+          "frame": 1,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7166239235810796
+        },
+        {
+          "frame": 74,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.730783909586156
+        },
+        {
+          "frame": 147,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7036176273096988
+        },
+        {
+          "frame": 221,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7070396399128134
+        },
+        {
+          "frame": 294,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7166239235810796
+        }
+      ],
+      "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+    }
+  ],
+  "source_status": "editable equipped batch candidate; one family review pending",
+  "outstanding_motion_gates": [
+    "full movement/combat/work/death action coverage",
+    "native secondary weapon synchronization",
+    "runtime state selection",
+    "native-game validation"
+  ]
+}

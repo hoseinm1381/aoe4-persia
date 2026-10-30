@@ -1,0 +1,2499 @@
+{
+  "schema": "ccp.persia.outpost-equipment-library/v1",
+  "library": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\native_equipment_inputs.blend",
+  "library_sha256": "97f0c49388b2efe4bb3f256c2a4cb6c8033834b6ce6ffb97baa739c4a8482828",
+  "source_contract_sha256": "cb334a3bf40c2e1dffb61ed2f959a6ed70a57c216d7881d7576cddfc45fccdeb",
+  "objects": {
+    "outpost_wood": {
+      "armature": "NSRC_OutpostEquipment_outpost_wood_ReferenceForest",
+      "fragments": {
+        "outpost_wood:79": "NSRC_OutpostEquipment_outpost_wood_7_mesh",
+        "outpost_wood:80": "NSRC_OutpostEquipment_outpost_wood_8_mesh",
+        "outpost_wood:81": "NSRC_OutpostEquipment_outpost_wood_15_mesh",
+        "outpost_wood:82": "NSRC_OutpostEquipment_outpost_wood_16_mesh",
+        "outpost_wood:83": "NSRC_OutpostEquipment_outpost_wood_18_mesh",
+        "outpost_wood:84": "NSRC_OutpostEquipment_outpost_wood_19_mesh",
+        "outpost_wood:85": "NSRC_OutpostEquipment_outpost_wood_21_mesh",
+        "outpost_wood:86": "NSRC_OutpostEquipment_outpost_wood_25_mesh",
+        "outpost_wood:87": "NSRC_OutpostEquipment_outpost_wood_26_mesh",
+        "outpost_wood:88": "NSRC_OutpostEquipment_outpost_wood_28_mesh",
+        "outpost_wood:89": "NSRC_OutpostEquipment_outpost_wood_29_mesh",
+        "outpost_wood:90": "NSRC_OutpostEquipment_outpost_wood_32_mesh",
+        "outpost_wood:91": "NSRC_OutpostEquipment_outpost_wood_33_mesh"
+      }
+    },
+    "outpost_fortified": {
+      "armature": null,
+      "fragments": {
+        "outpost_fortified:78": "NSRC_OutpostEquipment_outpost_fortified_5_mesh",
+        "outpost_fortified:79": "NSRC_OutpostEquipment_outpost_fortified_14_mesh",
+        "outpost_fortified:80": "NSRC_OutpostEquipment_outpost_fortified_16_mesh",
+        "outpost_fortified:81": "NSRC_OutpostEquipment_outpost_fortified_17_mesh",
+        "outpost_fortified:82": "NSRC_OutpostEquipment_outpost_fortified_67_mesh",
+        "outpost_fortified:83": "NSRC_OutpostEquipment_outpost_fortified_69_mesh",
+        "outpost_fortified:84": "NSRC_OutpostEquipment_outpost_fortified_70_mesh",
+        "outpost_fortified:85": "NSRC_OutpostEquipment_outpost_fortified_71_mesh",
+        "outpost_fortified:86": "NSRC_OutpostEquipment_outpost_fortified_72_mesh",
+        "outpost_fortified:87": "NSRC_OutpostEquipment_outpost_fortified_73_mesh",
+        "outpost_fortified:88": "NSRC_OutpostEquipment_outpost_fortified_74_mesh",
+        "outpost_fortified:89": "NSRC_OutpostEquipment_outpost_fortified_75_mesh",
+        "outpost_fortified:90": "NSRC_OutpostEquipment_outpost_fortified_76_mesh",
+        "outpost_fortified:91": "NSRC_OutpostEquipment_outpost_fortified_77_mesh",
+        "outpost_fortified:92": "NSRC_OutpostEquipment_outpost_fortified_78_mesh",
+        "outpost_fortified:93": "NSRC_OutpostEquipment_outpost_fortified_79_mesh",
+        "outpost_fortified:94": "NSRC_OutpostEquipment_outpost_fortified_80_mesh"
+      }
+    }
+  },
+  "reports": {
+    "outpost_wood": {
+      "appearance": {
+        "outpost_wood:79": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_wood",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_wood_7_mesh",
+                "public_group": "sul_outpost_control_age01 \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 eee04198",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01 \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 156,
+                "maximum_normal_error": 1.196097582578659e-05,
+                "maximum_normal_angular_error_degrees": 0.0007679201435482877,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_wood:80": {
+          "qualified": false,
+          "error": "Applied custom normal mismatch; raw retained; exact audit={\"object\":\"NSRC_OutpostEquipment_outpost_wood_8_mesh\",\"mesh_index\":2,\"group_index\":0,\"api\":\"Mesh.normals_split_custom_set(corner_vectors); Mesh.update(); Mesh.corner_normals[].vector\",\"expected_corner_count\":7965,\"actual_corner_count\":7965,\"maximum_component_error\":0.0077739255502820015,\"corners_exceeding_original_provisional_component_tolerance\":18,\"maximum_angular_error_degrees\":0.4454182805364213,\"angular_fidelity_limit_degrees\":0.1,\"maximum_normal_length_error\":1.7192733103854607e-07,\"raw_native_normals_authoritative\":true,\"Blender_normals_mathematically_identical\":false,\"native_normal_attribute_retained\":true,\"has_custom_normals\":true,\"normals_domain\":\"CORNER\",\"polygon_count\":2655,\"degenerate_polygon_indices\":[1070,1550],\"worst_corners\":[{\"loop\":6167,\"polygon\":2055,\"vertex\":6382,\"maximum_component_error\":0.0077739255502820015,\"expected\":[0.862905740737915,0.0077739255502820015,-0.5053051710128784],\"actual\":[0.8629248738288879,0.0,-0.5053321719169617],\"angular_error_degrees\":0.4454182805364213,\"actual_length\":0.9999999701976772,\"dot_expected_actual\":0.9999697804450989,\"polygon_area\":2.384185791015625e-06,\"polygon_normal\":[0.0,0.0,-1.0],\"degenerate_polygon\":false},{\"loop\":1217,\"polygon\":405,\"vertex\":6156,\"maximum_component_error\":0.0038080804515630007,\"expected\":[-0.984862744808197,-0.0,0.17333585023880005],\"actual\":[-0.9848548173904419,-0.0038080804515630007,0.17333918809890747],\"angular_error_degrees\":0.21818763015418338,\"actual_length\":0.9999999845595083,\"dot_expected_actual\":0.9999926965683699,\"polygon_area\":0.010157552547752857,\"polygon_normal\":[-0.9501485824584961,-0.004318857099860907,-0.31176748871803284],\"degenerate_polygon\":false},{\"loop\":5570,\"polygon\":1856,\"vertex\":2494,\"maximum_component_error\":0.0008029192686080933,\"expected\":[-0.9768983721733093,-0.15884526073932648,0.14296074211597443],\"actual\":[-0.9767729640007019,-0.15964818000793457,0.1429235339164734],\"angular_error_degrees\":0.046610424997603525,\"actual_length\":1.0000000437721601,\"dot_expected_actual\":0.9999997075647116,\"polygon_area\":0.0018364886054769158,\"polygon_normal\":[-0.9845781326293945,-0.16007183492183685,0.07059027999639511],\"degenerate_polygon\":false},{\"loop\":6443,\"polygon\":2147,\"vertex\":5027,\"maximum_component_error\":0.0007817447185516357,\"expected\":[0.38580286502838135,-0.8897086381912231,-0.2440793514251709],\"actual\":[0.386584609746933,-0.8893848657608032,-0.24402227997779846],\"angular_error_degrees\":0.048590421425125464,\"actual_length\":0.9999999850988387,\"dot_expected_actual\":0.9999996349215508,\"polygon_area\":0.003251496935263276,\"polygon_normal\":[0.38540035486221313,-0.9080665707588196,-0.16395646333694458],\"degenerate_polygon\":false},{\"loop\":6445,\"polygon\":2148,\"vertex\":5027,\"maximum_component_error\":0.0007817447185516357,\"expected\":[0.38580286502838135,-0.8897086381912231,-0.2440793514251709],\"actual\":[0.386584609746933,-0.8893848657608032,-0.24402227997779846],\"angular_error_degrees\":0.048590421425125464,\"actual_length\":0.9999999850988387,\"dot_expected_actual\":0.9999996349215508,\"polygon_area\":0.004158794414252043,\"polygon_normal\":[0.39006495475769043,-0.9071704745292664,-0.15776878595352173],\"degenerate_polygon\":false},{\"loop\":687,\"polygon\":229,\"vertex\":309,\"maximum_component_error\":0.0002908147871494293,\"expected\":[-0.0317300483584404,-0.0,0.9994964599609375],\"actual\":[-0.03143923357129097,0.0,0.9995056986808777],\"angular_error_degrees\":0.01667086561156017,\"actual_length\":1.0000000306172292,\"dot_expected_actual\":0.9999999654246494,\"polygon_area\":0.01583429053425789,\"polygon_normal\":[-0.03143923729658127,0.0,0.9995056986808777],\"degenerate_polygon\":false},{\"loop\":688,\"polygon\":229,\"vertex\":303,\"maximum_component_error\":0.0002908147871494293,\"expected\":[-0.0317300483584404,-0.0,0.9994964599609375],\"actual\":[-0.03143923357129097,0.0,0.9995056986808777],\"angular_error_degrees\":0.01667086561156017,\"actual_length\":1.0000000306172292,\"dot_expected_actual\":0.9999999654246494,\"polygon_area\":0.01583429053425789,\"polygon_normal\":[-0.03143923729658127,0.0,0.9995056986808777],\"degenerate_polygon\":false},{\"loop\":689,\"polygon\":229,\"vertex\":2210,\"maximum_component_error\":0.0002908147871494293,\"expected\":[-0.0317300483584404,-0.0,0.9994964599609375],\"actual\":[-0.03143923357129097,0.0,0.9995056986808777],\"angular_error_degrees\":0.01667086561156017,\"actual_length\":1.0000000306172292,\"dot_expected_actual\":0.9999999654246494,\"polygon_area\":0.01583429053425789,\"polygon_normal\":[-0.03143923729658127,0.0,0.9995056986808777],\"degenerate_polygon\":false}]}",
+          "original_zero_area_faces": [
+            1070,
+            1550
+          ]
+        },
+        "outpost_wood:81": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_wood",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_wood_15_mesh",
+                "public_group": "sul_outpost_control_age01 \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 eee04198",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01 \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 2298,
+                "maximum_normal_error": 0.0006115911528468132,
+                "maximum_normal_angular_error_degrees": 0.03538153078537152,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_wood:82": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_wood",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_wood_16_mesh",
+                "public_group": "sul_outpost_control_age01 \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 eee04198",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01 \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 180,
+                "maximum_normal_error": 0.0001595830253791064,
+                "maximum_normal_angular_error_degrees": 0.010085555618535408,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_wood:83": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_wood",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_wood_18_mesh",
+                "public_group": "sul_outpost_control_age01 \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 eee04198",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01 \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 2280,
+                "maximum_normal_error": 8.827447891235352e-05,
+                "maximum_normal_angular_error_degrees": 0.00548401004436586,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_wood:84": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_wood",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_wood_19_mesh",
+                "public_group": "sul_outpost_control_age01 \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 eee04198",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01 \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 180,
+                "maximum_normal_error": 0.00016141396190505475,
+                "maximum_normal_angular_error_degrees": 0.010072483340585707,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_wood:85": {
+          "qualified": false,
+          "error": "Applied custom normal mismatch; raw retained; exact audit={\"object\":\"NSRC_OutpostEquipment_outpost_wood_21_mesh\",\"mesh_index\":2,\"group_index\":0,\"api\":\"Mesh.normals_split_custom_set(corner_vectors); Mesh.update(); Mesh.corner_normals[].vector\",\"expected_corner_count\":2796,\"actual_corner_count\":2796,\"maximum_component_error\":0.5792397260665894,\"corners_exceeding_original_provisional_component_tolerance\":7,\"maximum_angular_error_degrees\":52.37071865714222,\"angular_fidelity_limit_degrees\":0.1,\"maximum_normal_length_error\":0.38952547311782837,\"raw_native_normals_authoritative\":true,\"Blender_normals_mathematically_identical\":false,\"native_normal_attribute_retained\":true,\"has_custom_normals\":true,\"normals_domain\":\"CORNER\",\"polygon_count\":932,\"degenerate_polygon_indices\":[268,346,376,377],\"worst_corners\":[{\"loop\":1127,\"polygon\":375,\"vertex\":515,\"maximum_component_error\":0.5792397260665894,\"expected\":[0.5792397260665894,-0.5401018857955933,-0.6105499863624573],\"actual\":[0.0,0.0,-0.6104745268821716],\"angular_error_degrees\":52.37071865714222,\"actual_length\":0.6104745237469441,\"dot_expected_actual\":0.3727252185344696,\"polygon_area\":5.960464477539063e-08,\"polygon_normal\":[0.0,0.0,1.0],\"degenerate_polygon\":false},{\"loop\":1129,\"polygon\":376,\"vertex\":515,\"maximum_component_error\":0.5792397260665894,\"expected\":[0.5792397260665894,-0.5401018857955933,-0.6105499863624573],\"actual\":[0.0,0.0,-0.6104745268821716],\"angular_error_degrees\":52.37071865714222,\"actual_length\":0.6104745237469441,\"dot_expected_actual\":0.3727252185344696,\"polygon_area\":0.0,\"polygon_normal\":[0.0,0.0,1.0],\"degenerate_polygon\":true},{\"loop\":1037,\"polygon\":345,\"vertex\":358,\"maximum_component_error\":0.5448048338294029,\"expected\":[0.9878259301185608,-0.12445051223039627,-0.09333788603544235],\"actual\":[0.4666796028614044,-0.029167475178837776,0.45146694779396057],\"angular_error_degrees\":49.45750964717444,\"actual_length\":0.6499715411930793,\"dot_expected_actual\":0.4224891432095319,\"polygon_area\":0.00012276780034881085,\"polygon_normal\":[0.9943186640739441,-0.062144916504621506,-0.08642027527093887],\"degenerate_polygon\":false},{\"loop\":1039,\"polygon\":346,\"vertex\":358,\"maximum_component_error\":0.5448048338294029,\"expected\":[0.9878259301185608,-0.12445051223039627,-0.09333788603544235],\"actual\":[0.4666796028614044,-0.029167475178837776,0.45146694779396057],\"angular_error_degrees\":49.45750964717444,\"actual_length\":0.6499715411930793,\"dot_expected_actual\":0.4224891432095319,\"polygon_area\":0.0,\"polygon_normal\":[0.0,0.0,1.0],\"degenerate_polygon\":true},{\"loop\":1500,\"polygon\":500,\"vertex\":1021,\"maximum_component_error\":0.005200877785682678,\"expected\":[0.9904058575630188,-0.03899235650897026,-0.13257400691509247],\"actual\":[0.9906061291694641,-0.03379147872328758,-0.13250580430030823],\"angular_error_degrees\":0.2982351198484527,\"actual_length\":1.0000000927247996,\"dot_expected_actual\":0.9999865444842726,\"polygon_area\":0.0018716298509389162,\"polygon_normal\":[0.937557578086853,-0.03821566328406334,0.34572434425354004],\"degenerate_polygon\":false},{\"loop\":1188,\"polygon\":396,\"vertex\":1189,\"maximum_component_error\":0.00036222487688064575,\"expected\":[-0.03906846418976784,0.8204377889633179,0.5703995823860168],\"actual\":[-0.03943068906664848,0.8204231262207031,0.5703956484794617],\"angular_error_degrees\":0.020772174814878717,\"actual_length\":1.0000000407453618,\"dot_expected_actual\":1.0000000740401447,\"polygon_area\":0.008793905377388,\"polygon_normal\":[-0.03947477787733078,0.7925320267677307,0.6085513830184937],\"degenerate_polygon\":false},{\"loop\":1341,\"polygon\":447,\"vertex\":113,\"maximum_component_error\":0.0002997592091560364,\"expected\":[0.8206632137298584,0.031263358891010284,0.5705563426017761],\"actual\":[0.8206667304039001,0.030963599681854248,0.5705674886703491],\"angular_error_degrees\":0.017187987311095214,\"actual_length\":0.9999999273859403,\"dot_expected_actual\":0.9999999274732545,\"polygon_area\":0.01120389997959137,\"polygon_normal\":[0.7996159195899963,0.03098362684249878,0.5997118949890137],\"degenerate_polygon\":false},{\"loop\":2291,\"polygon\":763,\"vertex\":1308,\"maximum_component_error\":0.0001481771469116211,\"expected\":[0.9572636485099792,0.2646094560623169,-0.11673947423696518],\"actual\":[0.9572218060493469,0.2647576332092285,-0.11674679070711136],\"angular_error_degrees\":0.008831878026280637,\"actual_length\":1.0000000055879354,\"dot_expected_actual\":0.9999999767169356,\"polygon_area\":0.0008899372187443078,\"polygon_normal\":[0.9601713418960571,0.26576170325279236,-0.08626539260149002],\"degenerate_polygon\":false}]}",
+          "original_zero_area_faces": [
+            268,
+            346,
+            376,
+            377
+          ]
+        },
+        "outpost_wood:86": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_wood",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_wood_25_mesh",
+                "public_group": "sul_outpost_control_age01 \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 eee04198",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01 \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 180,
+                "maximum_normal_error": 5.878403317183256e-05,
+                "maximum_normal_angular_error_degrees": 0.004176525988568444,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_wood:87": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_wood",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_wood_26_mesh",
+                "public_group": "sul_outpost_control_age01 \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 eee04198",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01 \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 180,
+                "maximum_normal_error": 0.00011748075485229492,
+                "maximum_normal_angular_error_degrees": 0.007377155262560379,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_wood:88": {
+          "qualified": false,
+          "error": "Applied custom normal mismatch; raw retained; exact audit={\"object\":\"NSRC_OutpostEquipment_outpost_wood_28_mesh\",\"mesh_index\":2,\"group_index\":0,\"api\":\"Mesh.normals_split_custom_set(corner_vectors); Mesh.update(); Mesh.corner_normals[].vector\",\"expected_corner_count\":6330,\"actual_corner_count\":6330,\"maximum_component_error\":0.0032719597220420837,\"corners_exceeding_original_provisional_component_tolerance\":17,\"maximum_angular_error_degrees\":0.2646429644857321,\"angular_fidelity_limit_degrees\":0.1,\"maximum_normal_length_error\":1.984577920888242e-07,\"raw_native_normals_authoritative\":true,\"Blender_normals_mathematically_identical\":false,\"native_normal_attribute_retained\":true,\"has_custom_normals\":true,\"normals_domain\":\"CORNER\",\"polygon_count\":2110,\"degenerate_polygon_indices\":[1374,1392],\"worst_corners\":[{\"loop\":5292,\"polygon\":1764,\"vertex\":2812,\"maximum_component_error\":0.0032719597220420837,\"expected\":[-0.055351968854665756,-0.4902603030204773,0.8698166608810425],\"actual\":[-0.05208000913262367,-0.4931803345680237,0.8683668971061707],\"angular_error_degrees\":0.2646429644857321,\"actual_length\":1.000000105821522,\"dot_expected_actual\":0.9999894769862294,\"polygon_area\":5.4305687626765575e-06,\"polygon_normal\":[0.7024489641189575,0.6365943551063538,0.3182971775531769],\"degenerate_polygon\":false},{\"loop\":5788,\"polygon\":1929,\"vertex\":4078,\"maximum_component_error\":0.0017611533403396606,\"expected\":[0.9955044984817505,-0.08622480183839798,0.03919309005141258],\"actual\":[0.9953506588935852,-0.08798595517873764,0.03918585181236267],\"angular_error_degrees\":0.10129175796633132,\"actual_length\":1.000000006693881,\"dot_expected_actual\":0.9999984645983204,\"polygon_area\":0.0013005902292206883,\"polygon_normal\":[0.9825720191001892,-0.08982468396425247,-0.16273848712444305],\"degenerate_polygon\":false},{\"loop\":4409,\"polygon\":1469,\"vertex\":2574,\"maximum_component_error\":0.0012047886848449707,\"expected\":[-0.2141643464565277,-0.5473088622093201,0.8090652823448181],\"actual\":[-0.2139241248369217,-0.548513650894165,0.8083125948905945],\"angular_error_degrees\":0.08254890239664088,\"actual_length\":1.0000000037252903,\"dot_expected_actual\":0.9999989457428455,\"polygon_area\":4.397837255964987e-05,\"polygon_normal\":[0.0,-0.5421268939971924,0.8402966856956482],\"degenerate_polygon\":false},{\"loop\":4412,\"polygon\":1470,\"vertex\":2574,\"maximum_component_error\":0.0012047886848449707,\"expected\":[-0.2141643464565277,-0.5473088622093201,0.8090652823448181],\"actual\":[-0.2139241248369217,-0.548513650894165,0.8083125948905945],\"angular_error_degrees\":0.08254890239664088,\"actual_length\":1.0000000037252903,\"dot_expected_actual\":0.9999989457428455,\"polygon_area\":0.000533061393070966,\"polygon_normal\":[-0.22184239327907562,-0.54118812084198,0.8111112713813782],\"degenerate_polygon\":false},{\"loop\":2041,\"polygon\":680,\"vertex\":718,\"maximum_component_error\":0.0009906888008117676,\"expected\":[0.9533451795578003,0.14726470410823822,-0.2635262906551361],\"actual\":[0.9532097578048706,0.14825539290905,-0.26346057653427124],\"angular_error_degrees\":0.057413738256715335,\"actual_length\":0.9999999972060323,\"dot_expected_actual\":0.9999995306134224,\"polygon_area\":0.003036203794181347,\"polygon_normal\":[0.9850203990936279,0.1507684290409088,-0.08368825912475586],\"degenerate_polygon\":false},{\"loop\":2936,\"polygon\":978,\"vertex\":3426,\"maximum_component_error\":0.0006021857261657715,\"expected\":[0.9512399435043335,0.28849080204963684,-0.10915867984294891],\"actual\":[0.9510586857795715,0.2890929877758026,-0.10914493352174759],\"angular_error_degrees\":0.03604041112662932,\"actual_length\":1.0000000088475645,\"dot_expected_actual\":0.9999998044222593,\"polygon_area\":0.0023723223712295294,\"polygon_normal\":[0.9567607045173645,0.2904452085494995,-0.01582876220345497],\"degenerate_polygon\":false},{\"loop\":2939,\"polygon\":979,\"vertex\":3426,\"maximum_component_error\":0.0006021857261657715,\"expected\":[0.9512399435043335,0.28849080204963684,-0.10915867984294891],\"actual\":[0.9510586857795715,0.2890929877758026,-0.10914493352174759],\"angular_error_degrees\":0.03604041112662932,\"actual_length\":1.0000000088475645,\"dot_expected_actual\":0.9999998044222593,\"polygon_area\":0.003907158505171537,\"polygon_normal\":[0.9568087458610535,0.29027673602104187,-0.016018003225326538],\"degenerate_polygon\":false},{\"loop\":4792,\"polygon\":1597,\"vertex\":2490,\"maximum_component_error\":0.0005428194999694824,\"expected\":[0.9955044984817505,-0.08622480183839798,0.03919309005141258],\"actual\":[0.9954585433006287,-0.08676762133836746,0.03916215896606445],\"angular_error_degrees\":0.031262796358482656,\"actual_length\":1.000000002386514,\"dot_expected_actual\":0.9999998932471499,\"polygon_area\":0.00031009313534013927,\"polygon_normal\":[0.9841423034667969,-0.08841903507709503,-0.153772234916687],\"degenerate_polygon\":false}]}",
+          "original_zero_area_faces": [
+            1374,
+            1392
+          ]
+        },
+        "outpost_wood:89": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_wood",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_wood_29_mesh",
+                "public_group": "sul_outpost_control_age01 \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 eee04198",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01 \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 300,
+                "maximum_normal_error": 1.196097582578659e-05,
+                "maximum_normal_angular_error_degrees": 0.0007679201435482877,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_wood:90": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_wood",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_wood_32_mesh",
+                "public_group": "sul_outpost_control_age01 \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 eee04198",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01 \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 300,
+                "maximum_normal_error": 1.196097582578659e-05,
+                "maximum_normal_angular_error_degrees": 0.0007679201435482877,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_wood:91": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_wood",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_wood_33_mesh",
+                "public_group": "sul_outpost_control_age01 \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 eee04198",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01 \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 468,
+                "maximum_normal_error": 1.196097582578659e-05,
+                "maximum_normal_angular_error_degrees": 0.0007679201435482877,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        }
+      },
+      "geometry": [
+        {
+          "object": "NSRC_OutpostEquipment_outpost_wood_7_mesh",
+          "native_source_name": "upgrade_cannon_01",
+          "triangles": 52,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 5.528006497002025e-09,
+          "native_parent_bone": "hlp_upgrade_cannon_01",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_wood_8_mesh",
+          "native_source_name": "upgrade_arrow_05_combined",
+          "triangles": 2655,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.9794618772172043e-08,
+          "native_parent_bone": "hlp_upgrade_arrow_05",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_wood_15_mesh",
+          "native_source_name": "upgrade_arrow_02",
+          "triangles": 766,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.9781320076693873e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_wood_16_mesh",
+          "native_source_name": "upgrade_cannon_06",
+          "triangles": 60,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.6525631580121e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_wood_18_mesh",
+          "native_source_name": "upgrade_arrow_03",
+          "triangles": 760,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.969907830774332e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_wood_19_mesh",
+          "native_source_name": "upgrade_cannon_07",
+          "triangles": 60,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.577606417197842e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_wood_21_mesh",
+          "native_source_name": "upgrade_arrow_06",
+          "triangles": 932,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.9794636979829647e-08,
+          "native_parent_bone": "hlp_upgrade_arrow_06",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_wood_25_mesh",
+          "native_source_name": "upgrade_cannon_04",
+          "triangles": 60,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.9794636979829647e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_wood_26_mesh",
+          "native_source_name": "upgrade_cannon_05",
+          "triangles": 60,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.3487330302884857e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_wood_28_mesh",
+          "native_source_name": "upgrade_arrow_01_combined",
+          "triangles": 2110,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.9794636979829647e-08,
+          "native_parent_bone": "hlp_upgrade_arrow_01",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_wood_29_mesh",
+          "native_source_name": "upgrade_springald_01_combined",
+          "triangles": 100,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 5.528006497002025e-09,
+          "native_parent_bone": "hlp_upgrade_springald_01",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_wood_32_mesh",
+          "native_source_name": "upgrade_springald_03_combined",
+          "triangles": 100,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 5.528006497002025e-09,
+          "native_parent_bone": "hlp_upgrade_springald_03",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_wood_33_mesh",
+          "native_source_name": "upgrade_cannon_02_combined",
+          "triangles": 156,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 5.528006497002025e-09,
+          "native_parent_bone": "hlp_upgrade_cannon_02",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "eee04198c71f10386af7abf506d29b296bbd30d3ac35caabd02a3847ec382dd1",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        }
+      ],
+      "reversible_reference_poses": [
+        {
+          "bone": "hlp_upgrade_cannon_02",
+          "probe_radians": 0.035,
+          "max_Blender_scene_displacement_by_object": {
+            "NSRC_OutpostEquipment_outpost_wood_7_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_8_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_15_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_16_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_18_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_19_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_21_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_25_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_26_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_28_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_29_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_32_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_33_mesh": 0.05868159962861541
+          },
+          "restored_reference_max_error": 0.0,
+          "reference_restored": true,
+          "rigid_movement_partition": [
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_7_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_8_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_15_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_16_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_18_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_19_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_21_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_25_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_26_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_28_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_29_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_32_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_33_mesh",
+              "expected_move_from_exact_native_parent": true,
+              "observed_move": true,
+              "movement_partition_matches": true
+            }
+          ],
+          "keyframes_created": false,
+          "native_world_pose_qualified": false,
+          "qualification": "Reversible source-pose responsiveness only; verify expected bound/static source partition and physical pivot separately"
+        },
+        {
+          "bone": "hlp_upgrade_cannon_01",
+          "probe_radians": 0.035,
+          "max_Blender_scene_displacement_by_object": {
+            "NSRC_OutpostEquipment_outpost_wood_7_mesh": 0.05688583901010671,
+            "NSRC_OutpostEquipment_outpost_wood_8_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_15_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_16_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_18_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_19_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_21_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_25_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_26_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_28_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_29_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_32_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_33_mesh": 0.0
+          },
+          "restored_reference_max_error": 0.0,
+          "reference_restored": true,
+          "rigid_movement_partition": [
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_7_mesh",
+              "expected_move_from_exact_native_parent": true,
+              "observed_move": true,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_8_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_15_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_16_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_18_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_19_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_21_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_25_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_26_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_28_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_29_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_32_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_33_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            }
+          ],
+          "keyframes_created": false,
+          "native_world_pose_qualified": false,
+          "qualification": "Reversible source-pose responsiveness only; verify expected bound/static source partition and physical pivot separately"
+        },
+        {
+          "bone": "hlp_upgrade_springald_03",
+          "probe_radians": 0.035,
+          "max_Blender_scene_displacement_by_object": {
+            "NSRC_OutpostEquipment_outpost_wood_7_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_8_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_15_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_16_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_18_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_19_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_21_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_25_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_26_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_28_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_29_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_32_mesh": 0.058964604302019163,
+            "NSRC_OutpostEquipment_outpost_wood_33_mesh": 0.0
+          },
+          "restored_reference_max_error": 0.0,
+          "reference_restored": true,
+          "rigid_movement_partition": [
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_7_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_8_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_15_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_16_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_18_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_19_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_21_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_25_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_26_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_28_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_29_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_32_mesh",
+              "expected_move_from_exact_native_parent": true,
+              "observed_move": true,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_33_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            }
+          ],
+          "keyframes_created": false,
+          "native_world_pose_qualified": false,
+          "qualification": "Reversible source-pose responsiveness only; verify expected bound/static source partition and physical pivot separately"
+        },
+        {
+          "bone": "hlp_upgrade_springald_01",
+          "probe_radians": 0.035,
+          "max_Blender_scene_displacement_by_object": {
+            "NSRC_OutpostEquipment_outpost_wood_7_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_8_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_15_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_16_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_18_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_19_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_21_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_25_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_26_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_28_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_29_mesh": 0.05856098709453713,
+            "NSRC_OutpostEquipment_outpost_wood_32_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_33_mesh": 0.0
+          },
+          "restored_reference_max_error": 0.0,
+          "reference_restored": true,
+          "rigid_movement_partition": [
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_7_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_8_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_15_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_16_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_18_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_19_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_21_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_25_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_26_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_28_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_29_mesh",
+              "expected_move_from_exact_native_parent": true,
+              "observed_move": true,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_32_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_33_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            }
+          ],
+          "keyframes_created": false,
+          "native_world_pose_qualified": false,
+          "qualification": "Reversible source-pose responsiveness only; verify expected bound/static source partition and physical pivot separately"
+        },
+        {
+          "bone": "hlp_upgrade_arrow_05",
+          "probe_radians": 0.035,
+          "max_Blender_scene_displacement_by_object": {
+            "NSRC_OutpostEquipment_outpost_wood_7_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_8_mesh": 0.1134924933237128,
+            "NSRC_OutpostEquipment_outpost_wood_15_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_16_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_18_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_19_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_21_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_25_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_26_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_28_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_29_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_32_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_33_mesh": 0.0
+          },
+          "restored_reference_max_error": 0.0,
+          "reference_restored": true,
+          "rigid_movement_partition": [
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_7_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_8_mesh",
+              "expected_move_from_exact_native_parent": true,
+              "observed_move": true,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_15_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_16_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_18_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_19_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_21_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_25_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_26_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_28_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_29_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_32_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_33_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            }
+          ],
+          "keyframes_created": false,
+          "native_world_pose_qualified": false,
+          "qualification": "Reversible source-pose responsiveness only; verify expected bound/static source partition and physical pivot separately"
+        },
+        {
+          "bone": "hlp_upgrade_arrow_06",
+          "probe_radians": 0.035,
+          "max_Blender_scene_displacement_by_object": {
+            "NSRC_OutpostEquipment_outpost_wood_7_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_8_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_15_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_16_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_18_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_19_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_21_mesh": 0.11333966187957681,
+            "NSRC_OutpostEquipment_outpost_wood_25_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_26_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_28_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_29_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_32_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_33_mesh": 0.0
+          },
+          "restored_reference_max_error": 0.0,
+          "reference_restored": true,
+          "rigid_movement_partition": [
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_7_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_8_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_15_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_16_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_18_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_19_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_21_mesh",
+              "expected_move_from_exact_native_parent": true,
+              "observed_move": true,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_25_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_26_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_28_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_29_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_32_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_33_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            }
+          ],
+          "keyframes_created": false,
+          "native_world_pose_qualified": false,
+          "qualification": "Reversible source-pose responsiveness only; verify expected bound/static source partition and physical pivot separately"
+        },
+        {
+          "bone": "hlp_upgrade_arrow_01",
+          "probe_radians": 0.035,
+          "max_Blender_scene_displacement_by_object": {
+            "NSRC_OutpostEquipment_outpost_wood_7_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_8_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_15_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_16_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_18_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_19_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_21_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_25_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_26_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_28_mesh": 0.11240372230221335,
+            "NSRC_OutpostEquipment_outpost_wood_29_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_32_mesh": 0.0,
+            "NSRC_OutpostEquipment_outpost_wood_33_mesh": 0.0
+          },
+          "restored_reference_max_error": 0.0,
+          "reference_restored": true,
+          "rigid_movement_partition": [
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_7_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_8_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_15_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_16_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_18_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_19_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_21_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_25_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_26_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_28_mesh",
+              "expected_move_from_exact_native_parent": true,
+              "observed_move": true,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_29_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_32_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            },
+            {
+              "object": "NSRC_OutpostEquipment_outpost_wood_33_mesh",
+              "expected_move_from_exact_native_parent": false,
+              "observed_move": false,
+              "movement_partition_matches": true
+            }
+          ],
+          "keyframes_created": false,
+          "native_world_pose_qualified": false,
+          "qualification": "Reversible source-pose responsiveness only; verify expected bound/static source partition and physical pivot separately"
+        }
+      ],
+      "native_reference_bones": 7,
+      "native_aim_recoil_motion_qualified": false
+    },
+    "outpost_fortified": {
+      "appearance": {
+        "outpost_fortified:78": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_5_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 180,
+                "maximum_normal_error": 0.00025016069412231445,
+                "maximum_normal_angular_error_degrees": 0.01599831297476129,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:79": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_14_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 180,
+                "maximum_normal_error": 0.00030550360679626465,
+                "maximum_normal_angular_error_degrees": 0.019535519437470047,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:80": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_16_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 180,
+                "maximum_normal_error": 0.00017838686471804976,
+                "maximum_normal_angular_error_degrees": 0.01022745169495647,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:81": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_17_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 180,
+                "maximum_normal_error": 3.248453140258789e-05,
+                "maximum_normal_angular_error_degrees": 0.001975781923911455,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:82": {
+          "qualified": false,
+          "error": "Zero normal cannot be a qualified source-view direction",
+          "original_zero_area_faces": [
+            250,
+            268,
+            293,
+            339,
+            477,
+            557,
+            644
+          ]
+        },
+        "outpost_fortified:83": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_69_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 1272,
+                "maximum_normal_error": 0.00012862682342529297,
+                "maximum_normal_angular_error_degrees": 0.008753342807646548,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:84": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_70_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 1272,
+                "maximum_normal_error": 7.149628072511405e-05,
+                "maximum_normal_angular_error_degrees": 0.005875890680637603,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:85": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_71_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 1272,
+                "maximum_normal_error": 0.0002599399595055729,
+                "maximum_normal_angular_error_degrees": 0.015011642310946994,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:86": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_72_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 1272,
+                "maximum_normal_error": 6.770342588424683e-05,
+                "maximum_normal_angular_error_degrees": 0.004320979531140481,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:87": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_73_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 948,
+                "maximum_normal_error": 7.48385937185958e-05,
+                "maximum_normal_angular_error_degrees": 0.004345623547535386,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:88": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_74_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 948,
+                "maximum_normal_error": 8.191168308258057e-05,
+                "maximum_normal_angular_error_degrees": 0.004812626422923503,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:89": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_75_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 948,
+                "maximum_normal_error": 0.00034209247678518295,
+                "maximum_normal_angular_error_degrees": 0.01962196115001412,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:90": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_76_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 948,
+                "maximum_normal_error": 0.000197654590010643,
+                "maximum_normal_angular_error_degrees": 0.011399043312297399,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:91": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_77_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 3942,
+                "maximum_normal_error": 0.0002663806080818176,
+                "maximum_normal_angular_error_degrees": 0.015309365734492972,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:92": {
+          "qualified": false,
+          "error": "Zero normal cannot be a qualified source-view direction",
+          "original_zero_area_faces": [
+            141,
+            160,
+            166,
+            191,
+            215,
+            534,
+            684
+          ]
+        },
+        "outpost_fortified:93": {
+          "qualified": true,
+          "report": {
+            "target": "outpost_fortified",
+            "objects": [
+              {
+                "object": "NSRC_OutpostEquipment_outpost_fortified_79_mesh",
+                "public_group": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "material": "AoE IV \u00b7 misc \u00b7 6676cb5c",
+                "native_slot": "misc",
+                "authority": "exact_native_MSCL_collection_slot",
+                "material_source_public_object": "sul_outpost_control_age01_upgrade_stone \u00b7 misc",
+                "original_public_assigned_slot": "misc",
+                "public_cyclic_assignment_corrected_on_view_only": false,
+                "exact_material_identity": {
+                  "name": "misc",
+                  "material_class": "structure",
+                  "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+                  "schema": "garrison.structure-preview-graph/v2"
+                },
+                "custom_normal_corners": 3888,
+                "maximum_normal_error": 0.0002116970717906952,
+                "maximum_normal_angular_error_degrees": 0.012628440515647096,
+                "normal_angular_limit_degrees": 0.1,
+                "raw_normal_attribute_retained": true
+              }
+            ],
+            "original_material_datablocks_shared": true,
+            "original_nodes_and_texture_references_preserved": true,
+            "custom_normals_applied": true,
+            "native_engine_shader_equivalence_qualified": false,
+            "clips_created": false
+          }
+        },
+        "outpost_fortified:94": {
+          "qualified": false,
+          "error": "Applied custom normal mismatch; raw retained; exact audit={\"object\":\"NSRC_OutpostEquipment_outpost_fortified_80_mesh\",\"mesh_index\":2,\"group_index\":0,\"api\":\"Mesh.normals_split_custom_set(corner_vectors); Mesh.update(); Mesh.corner_normals[].vector\",\"expected_corner_count\":6798,\"actual_corner_count\":6798,\"maximum_component_error\":1.0,\"corners_exceeding_original_provisional_component_tolerance\":17,\"maximum_angular_error_degrees\":90.0,\"angular_fidelity_limit_degrees\":0.1,\"maximum_normal_length_error\":0.9999976277390488,\"raw_native_normals_authoritative\":true,\"Blender_normals_mathematically_identical\":false,\"native_normal_attribute_retained\":true,\"has_custom_normals\":true,\"normals_domain\":\"CORNER\",\"polygon_count\":2266,\"degenerate_polygon_indices\":[237,282,314,786,787,1081,1115,1130,1138,1177,1220,1246,1471,1488,1500],\"worst_corners\":[{\"loop\":4414,\"polygon\":1471,\"vertex\":506,\"maximum_component_error\":1.0,\"expected\":[-0.0,1.0,0.0],\"actual\":[0.0,0.0,-1.804431485652458e-05],\"angular_error_degrees\":90.0,\"actual_length\":1.8044314869850095e-05,\"dot_expected_actual\":0.0,\"polygon_area\":0.0,\"polygon_normal\":[0.0,0.0,1.0],\"degenerate_polygon\":true},{\"loop\":847,\"polygon\":282,\"vertex\":3532,\"maximum_component_error\":0.9999690055847168,\"expected\":[0.9999690055847168,0.007873771712183952,0.0],\"actual\":[0.0,0.0,6.393590410880279e-06],\"angular_error_degrees\":90.0,\"actual_length\":6.393590454706258e-06,\"dot_expected_actual\":0.0,\"polygon_area\":0.0,\"polygon_normal\":[0.0,0.0,1.0],\"degenerate_polygon\":true},{\"loop\":3390,\"polygon\":1130,\"vertex\":3579,\"maximum_component_error\":0.9999690055847168,\"expected\":[0.9999690055847168,0.007873771712183952,0.0],\"actual\":[0.0,0.0,-2.3722609512333293e-06],\"angular_error_degrees\":90.0,\"actual_length\":2.372260960827804e-06,\"dot_expected_actual\":0.0,\"polygon_area\":0.0,\"polygon_normal\":[0.0,0.0,1.0],\"degenerate_polygon\":true},{\"loop\":4466,\"polygon\":1488,\"vertex\":2708,\"maximum_component_error\":0.9999690055847168,\"expected\":[0.007873771712183952,0.9999690055847168,0.0],\"actual\":[0.0,0.0,7.106066186679527e-05],\"angular_error_degrees\":90.0,\"actual_length\":7.106066150086124e-05,\"dot_expected_actual\":0.0,\"polygon_area\":0.0,\"polygon_normal\":[0.0,0.0,1.0],\"degenerate_polygon\":true},{\"loop\":3242,\"polygon\":1080,\"vertex\":3533,\"maximum_component_error\":0.7734658718109131,\"expected\":[-0.7507105469703674,0.18767763674259186,-0.6334120035171509],\"actual\":[-0.18020693957805634,0.036587245762348175,0.1400538682937622],\"angular_error_degrees\":76.63297935267875,\"actual_length\":0.23114552251092893,\"dot_expected_actual\":0.053438056260347366,\"polygon_area\":0.0015424813609570265,\"polygon_normal\":[-0.7552202343940735,0.1533316671848297,-0.6372846961021423],\"degenerate_polygon\":false},{\"loop\":3244,\"polygon\":1081,\"vertex\":3533,\"maximum_component_error\":0.7734658718109131,\"expected\":[-0.7507105469703674,0.18767763674259186,-0.6334120035171509],\"actual\":[-0.18020693957805634,0.036587245762348175,0.1400538682937622],\"angular_error_degrees\":76.63297935267875,\"actual_length\":0.23114552251092893,\"dot_expected_actual\":0.053438056260347366,\"polygon_area\":0.0,\"polygon_normal\":[0.0,0.0,1.0],\"degenerate_polygon\":true},{\"loop\":711,\"polygon\":237,\"vertex\":3570,\"maximum_component_error\":0.34688112139701843,\"expected\":[0.7625983953475952,-0.18082229793071747,0.6210852861404419],\"actual\":[0.4157172739505768,-0.11026657372713089,0.8089685440063477],\"angular_error_degrees\":23.625399653695794,\"actual_length\":0.9161930253045202,\"dot_expected_actual\":0.839402474462986,\"polygon_area\":0.0,\"polygon_normal\":[0.0,0.0,1.0],\"degenerate_polygon\":true},{\"loop\":714,\"polygon\":238,\"vertex\":3570,\"maximum_component_error\":0.34688112139701843,\"expected\":[0.7625983953475952,-0.18082229793071747,0.6210852861404419],\"actual\":[0.4157172739505768,-0.11026657372713089,0.8089685440063477],\"angular_error_degrees\":23.625399653695794,\"actual_length\":0.9161930253045202,\"dot_expected_actual\":0.839402474462986,\"polygon_area\":0.00018806738080456853,\"polygon_normal\":[0.40567347407341003,-0.8113469481468201,0.42088621854782104],\"degenerate_polygon\":false}]}",
+          "original_zero_area_faces": [
+            237,
+            282,
+            314,
+            786,
+            787,
+            1081,
+            1115,
+            1130,
+            1138,
+            1177,
+            1220,
+            1246,
+            1471,
+            1488,
+            1500
+          ]
+        }
+      },
+      "geometry": [
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_5_mesh",
+          "native_source_name": "geo_upgrade_cannon_04",
+          "triangles": 60,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.9481687979782123e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_14_mesh",
+          "native_source_name": "geo_upgrade_cannon_05",
+          "triangles": 60,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.5576530227056082e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_16_mesh",
+          "native_source_name": "geo_upgrade_cannon_08",
+          "triangles": 60,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.330545301187925e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_17_mesh",
+          "native_source_name": "geo_upgrade_cannon_06",
+          "triangles": 60,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.339265658957146e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_67_mesh",
+          "native_source_name": "geo_upgrade_arrow_05",
+          "triangles": 806,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.967592260816332e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_69_mesh",
+          "native_source_name": "geo_upgrade_springald_04",
+          "triangles": 424,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.967592260816332e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_70_mesh",
+          "native_source_name": "geo_upgrade_springald_03",
+          "triangles": 424,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.969907830774332e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_71_mesh",
+          "native_source_name": "geo_upgrade_springald_02",
+          "triangles": 424,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.967592260816332e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_72_mesh",
+          "native_source_name": "geo_upgrade_springald_01",
+          "triangles": 424,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.969907830774332e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_73_mesh",
+          "native_source_name": "geo_upgrade_cannon_03",
+          "triangles": 316,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.969907830774332e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_74_mesh",
+          "native_source_name": "geo_upgrade_cannon_02",
+          "triangles": 316,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.9736875295505172e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_75_mesh",
+          "native_source_name": "geo_upgrade_cannon_01",
+          "triangles": 316,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.962263634387341e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_76_mesh",
+          "native_source_name": "geo_upgrade_cannon_07",
+          "triangles": 316,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.969907830774332e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_77_mesh",
+          "native_source_name": "geo_upgrade_arrow_04",
+          "triangles": 1314,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.9794636979829647e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_78_mesh",
+          "native_source_name": "geo_upgrade_arrow_03",
+          "triangles": 1372,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.9794636979829647e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_79_mesh",
+          "native_source_name": "geo_upgrade_arrow_02",
+          "triangles": 1296,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.9794636979829647e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        },
+        {
+          "object": "NSRC_OutpostEquipment_outpost_fortified_80_mesh",
+          "native_source_name": "geo_upgrade_arrow_01",
+          "triangles": 2266,
+          "position_max_error": 0.0,
+          "UV_max_error": 0,
+          "raw_normal_max_error": 2.9794636979829647e-08,
+          "native_parent_bone": "",
+          "material_identity": {
+            "name": "misc",
+            "material_class": "structure",
+            "rrmaterial_sha256": "6676cb5c3bb7f2c26fab1728c6ad758602b8362103cadef0bbf47e4f21d752cd",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "passed": true
+        }
+      ],
+      "reversible_reference_poses": [],
+      "native_reference_bones": 0,
+      "native_aim_recoil_motion_qualified": false
+    }
+  },
+  "image_dependencies": [
+    {
+      "image": "7daf5f04588c_12238371238700166751_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\7daf5f04588c_12238371238700166751_packed.dds",
+      "sha256": "c9927ff2220693e4867c3a6e466ceb0a89a8cbc02a11264e7dfaaf90cc6efec2"
+    },
+    {
+      "image": "8aef29f7c674_16829290811282025336_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\8aef29f7c674_16829290811282025336_packed.dds",
+      "sha256": "4727d38fc0bf4a63494411446e8f602976f26da8acf0b6c9eb609272717f5475"
+    },
+    {
+      "image": "c6ae5f70c76b_14259662789339030955_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\c6ae5f70c76b_14259662789339030955_packed.dds",
+      "sha256": "6be1dac639f6b816267fa2985ae32b138109129a900bc2473594de8f1bbde507"
+    },
+    {
+      "image": "d314636c3541_2430408601683036952_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\d314636c3541_2430408601683036952_packed.dds",
+      "sha256": "8e6ff39821b415fdde670c0682ebaf0b1084510e1eaa707088180fea933bb336"
+    },
+    {
+      "image": "e76747582b56_18345724522684246396_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\e76747582b56_18345724522684246396_packed.dds",
+      "sha256": "803a62d2855840ab3e321511c5a8b3bd098ad62a08d2804baae857f43d0a02b5"
+    },
+    {
+      "image": "e56d8f3decf5_7597519659832404014_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\e56d8f3decf5_7597519659832404014_packed.dds",
+      "sha256": "2f1a5a751c1a8cb6fe77e89daff5978e4ed9f1a67dad15233eb0d80062fc780b"
+    },
+    {
+      "image": "020d6ccc48c5_16055389955745102068_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\020d6ccc48c5_16055389955745102068_packed.dds",
+      "sha256": "3bb4096f49cec6376b273e959f6ce67778f373c1ca96ac073b6fc423dc9505f3"
+    },
+    {
+      "image": "47e080e379b0_5454786962469612105_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\47e080e379b0_5454786962469612105_packed.dds",
+      "sha256": "dadba0e30a3ab1a74976aa54ce047090ace4c940772151986b3c9d1b4ee72542"
+    },
+    {
+      "image": "d5ba288445e3_middle_gray_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\d5ba288445e3_middle_gray_msk.dds",
+      "sha256": "70c3a38f82ec5141b6ed18d999b91fb62837048cef37b96ebac696ddf5ef6cb3"
+    },
+    {
+      "image": "2219aa975f24_13477809885520635358_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\2219aa975f24_13477809885520635358_packed.dds",
+      "sha256": "eda04b9b5e90470cf48a8082da121be0e3307f131b849c9f4aac2069f135fa31"
+    },
+    {
+      "image": "387409c39b1e_3582105961097184256_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\387409c39b1e_3582105961097184256_packed.dds",
+      "sha256": "43a097f3643e620198dfd266af54bd3467f5d1e5e6f862303fe841c0944a9c10"
+    },
+    {
+      "image": "7be50f6f3786_6567369943232376199_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\7be50f6f3786_6567369943232376199_packed.dds",
+      "sha256": "1e62e308afad94dabb17417899e2c9b4bcb5a2523d4a46aa70e7e72a6e2a7926"
+    },
+    {
+      "image": "917a195fa6d8_14420659823134052771_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\917a195fa6d8_14420659823134052771_packed.dds",
+      "sha256": "f2e0f76025d93bbd5f381e64e80376f5c68b787d078a55892af601d63a34b367"
+    },
+    {
+      "image": "7b40de3db86e_13050232062171818572_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\7b40de3db86e_13050232062171818572_packed.dds",
+      "sha256": "08231243b86b494a28c8760a75328128ae18a2a1517ce5671afc3f8dc1ca074d"
+    },
+    {
+      "image": "5d4ef7b92e99_2545594770158528269_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\5d4ef7b92e99_2545594770158528269_packed.dds",
+      "sha256": "98eed4d3daffb0ee465d79fa3213cf55a6676ba71663fd49886dfc5ea96b8007"
+    },
+    {
+      "image": "57f11cf6fcca_9779992567948095736_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\57f11cf6fcca_9779992567948095736_packed.dds",
+      "sha256": "4f998b2405b8aabc26e175c20c06788d5f7dd30199837e42c83fda9c720a99ca"
+    },
+    {
+      "image": "f04912e9b532_11978406380669245476_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\f04912e9b532_11978406380669245476_packed.dds",
+      "sha256": "ca9165a5be95894d401d3d03d1c6ee7d5a3db6071e9712a2308027fc27d3f051"
+    },
+    {
+      "image": "e72f76ec41cc_6066786514291190455_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\e72f76ec41cc_6066786514291190455_packed.dds",
+      "sha256": "7a5b6c00f8a0510a6047880280d2e6732dc67116434a0c3ad40c4499ecd47517"
+    },
+    {
+      "image": "e17420e5e44a_noise_04_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\e17420e5e44a_noise_04_msk.dds",
+      "sha256": "8d494825cbc688fb1cb5604c075c5241590643712ccf9ff93b8a9d5afd7fb742"
+    },
+    {
+      "image": "ba3c6d2ca170_9027665386991426331_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\ba3c6d2ca170_9027665386991426331_packed.dds",
+      "sha256": "52df786b405530db3c9805695cce5d3f8e7a463094006b5beb7fdec78d891114"
+    },
+    {
+      "image": "cec2549b8f99_16288844008555983220_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\cec2549b8f99_16288844008555983220_packed.dds",
+      "sha256": "72901074ed5a232b559f29f456ce5f1a2dc662fd4943d6c4e8c6504e87ea15c0"
+    },
+    {
+      "image": "7673a87f96be_8159667634045765485_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\7673a87f96be_8159667634045765485_packed.dds",
+      "sha256": "4892b740a73b21dedb5be6ac228bae336d63e7b45bf4deab665d3b7c7db11316"
+    },
+    {
+      "image": "c1eb0b07e1df_leaks_01_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\c1eb0b07e1df_leaks_01_msk.dds",
+      "sha256": "19358e3276cb85e7170d5055722ccf19eec3cf6d02db20a37526977630f8affb"
+    },
+    {
+      "image": "7076d5e5b5b1_13631000062908908676_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\7076d5e5b5b1_13631000062908908676_packed.dds",
+      "sha256": "3323b25a260779038594f2a0c4d54429f4875025db554f50e087596dcecbc8bf"
+    },
+    {
+      "image": "bc6a19307bd0_13644703210369924864_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\bc6a19307bd0_13644703210369924864_packed.dds",
+      "sha256": "0b7410d99480d13382ff61d265d4c9d3ae62950fab78970093df5878aab88943"
+    },
+    {
+      "image": "20541db25e50_7266204044315863081_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\20541db25e50_7266204044315863081_packed.dds",
+      "sha256": "dc4c9b9751073798515ba2a6d23117a02464eaabffa9790f42b37ad36234e67f"
+    },
+    {
+      "image": "90a0ac95bc2b_6231182024022179266_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\90a0ac95bc2b_6231182024022179266_packed.dds",
+      "sha256": "e4703120b6ab7ad8256021ae586914277140c563f55571c6d455d00ad43334ba"
+    },
+    {
+      "image": "d5c6451bb17c_9529285414454481121_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\d5c6451bb17c_9529285414454481121_packed.dds",
+      "sha256": "15ba3a6c76d468725936279bf9425f923d1d2ad362ca34eb5871eebc4e5c03f5"
+    },
+    {
+      "image": "6f81fe520eb8_white_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\6f81fe520eb8_white_msk.dds",
+      "sha256": "f172e130e5a861fa1e5d2f7b01576b9e5530d22f87673de1bbac0bee37927d39"
+    },
+    {
+      "image": "6f3011ce41e3_str_damage_charred_01_alb.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\6f3011ce41e3_str_damage_charred_01_alb.dds",
+      "sha256": "c4250b78de37fe140ba3d62d38967f59bbb22c444d872c660f772f906556ac0d"
+    },
+    {
+      "image": "85c59cbb9679_11755559493558267954_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\85c59cbb9679_11755559493558267954_packed.dds",
+      "sha256": "db13cd404d960308375d8c50bbd34faf49eaec874c3b74789c26f89111c5c0c3"
+    },
+    {
+      "image": "475bc9acf4a0_3806245502923570526_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\475bc9acf4a0_3806245502923570526_packed.dds",
+      "sha256": "0a741707b5b9b9b9cf3c3d9c28a0facb64a6b6bbc3846ab25a3da70446aeaaf3"
+    },
+    {
+      "image": "1754d19f2037_noise_02_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\6a4ce2bb4cd1\\e6baa2dbb45495aad261\\textures\\1754d19f2037_noise_02_msk.dds",
+      "sha256": "d9b600f9791e94ebf90aacf76aebaf5c7d0ef44f670066ec184ff2a4abdc270a"
+    },
+    {
+      "image": "88553f897afc_5816920753185335090_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\88553f897afc_5816920753185335090_packed.dds",
+      "sha256": "833b65ca46ecdd1fb3186489a0a493030debabbe8ff16a51c5f062d157563f0b"
+    },
+    {
+      "image": "b58cfd375084_5990530133264978010_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\b58cfd375084_5990530133264978010_packed.dds",
+      "sha256": "e985ef1dc5bc30064c771a58f5ee662d7433e8710a87472eeff2ce43128851f1"
+    },
+    {
+      "image": "c6ae5f70c76b_14259662789339030955_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\c6ae5f70c76b_14259662789339030955_packed.dds",
+      "sha256": "6be1dac639f6b816267fa2985ae32b138109129a900bc2473594de8f1bbde507"
+    },
+    {
+      "image": "d314636c3541_2430408601683036952_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\d314636c3541_2430408601683036952_packed.dds",
+      "sha256": "8e6ff39821b415fdde670c0682ebaf0b1084510e1eaa707088180fea933bb336"
+    },
+    {
+      "image": "e76747582b56_18345724522684246396_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\e76747582b56_18345724522684246396_packed.dds",
+      "sha256": "803a62d2855840ab3e321511c5a8b3bd098ad62a08d2804baae857f43d0a02b5"
+    },
+    {
+      "image": "2219aa975f24_13477809885520635358_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\2219aa975f24_13477809885520635358_packed.dds",
+      "sha256": "eda04b9b5e90470cf48a8082da121be0e3307f131b849c9f4aac2069f135fa31"
+    },
+    {
+      "image": "387409c39b1e_3582105961097184256_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\387409c39b1e_3582105961097184256_packed.dds",
+      "sha256": "43a097f3643e620198dfd266af54bd3467f5d1e5e6f862303fe841c0944a9c10"
+    },
+    {
+      "image": "7be50f6f3786_6567369943232376199_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\7be50f6f3786_6567369943232376199_packed.dds",
+      "sha256": "1e62e308afad94dabb17417899e2c9b4bcb5a2523d4a46aa70e7e72a6e2a7926"
+    },
+    {
+      "image": "d5ba288445e3_middle_gray_msk.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\d5ba288445e3_middle_gray_msk.dds",
+      "sha256": "70c3a38f82ec5141b6ed18d999b91fb62837048cef37b96ebac696ddf5ef6cb3"
+    },
+    {
+      "image": "917a195fa6d8_14420659823134052771_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\917a195fa6d8_14420659823134052771_packed.dds",
+      "sha256": "f2e0f76025d93bbd5f381e64e80376f5c68b787d078a55892af601d63a34b367"
+    },
+    {
+      "image": "7b40de3db86e_13050232062171818572_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\7b40de3db86e_13050232062171818572_packed.dds",
+      "sha256": "08231243b86b494a28c8760a75328128ae18a2a1517ce5671afc3f8dc1ca074d"
+    },
+    {
+      "image": "5d4ef7b92e99_2545594770158528269_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\5d4ef7b92e99_2545594770158528269_packed.dds",
+      "sha256": "98eed4d3daffb0ee465d79fa3213cf55a6676ba71663fd49886dfc5ea96b8007"
+    },
+    {
+      "image": "57f11cf6fcca_9779992567948095736_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\57f11cf6fcca_9779992567948095736_packed.dds",
+      "sha256": "4f998b2405b8aabc26e175c20c06788d5f7dd30199837e42c83fda9c720a99ca"
+    },
+    {
+      "image": "f04912e9b532_11978406380669245476_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\f04912e9b532_11978406380669245476_packed.dds",
+      "sha256": "ca9165a5be95894d401d3d03d1c6ee7d5a3db6071e9712a2308027fc27d3f051"
+    },
+    {
+      "image": "e72f76ec41cc_6066786514291190455_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\e72f76ec41cc_6066786514291190455_packed.dds",
+      "sha256": "7a5b6c00f8a0510a6047880280d2e6732dc67116434a0c3ad40c4499ecd47517"
+    },
+    {
+      "image": "c09436dcac7f_18273366715095270203_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\c09436dcac7f_18273366715095270203_packed.dds",
+      "sha256": "320c166edc1aa3d3fd90b112e9759d5818ddbe6154471893d75c1cb2605b5122"
+    },
+    {
+      "image": "821e14766c2e_18289392133429751606_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\821e14766c2e_18289392133429751606_packed.dds",
+      "sha256": "5536cc6118a3ea606a068cbad38fce9d9a637c675547511adadd2dc6d1edeb79"
+    },
+    {
+      "image": "ec9dd3e7c629_16716896894753729325_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\ec9dd3e7c629_16716896894753729325_packed.dds",
+      "sha256": "f3e3a4897bcacef393039ec7a66a37ea4dd509fd24e4a28d153d9d95b677c962"
+    },
+    {
+      "image": "1c9e7a84ef01_13189189603914443928_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\1c9e7a84ef01_13189189603914443928_packed.dds",
+      "sha256": "dd1637ce368dcfbb0eb606a92ef1332a0b15f96f7597ef79f72d3f547c6cddaf"
+    },
+    {
+      "image": "79a94ea3de9a_2638457677172936806_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\79a94ea3de9a_2638457677172936806_packed.dds",
+      "sha256": "31b69f97e81fae633e6d4c2f4988cb9f9c95e89be07f2ca7d54efb1add76349c"
+    },
+    {
+      "image": "de89f49173d9_22913718980364637_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\de89f49173d9_22913718980364637_packed.dds",
+      "sha256": "3625a67719448a8011dda88322565549357d84a159aae4be5390a345f9fc00b0"
+    },
+    {
+      "image": "5db26348116b_12041615973339707457_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\5db26348116b_12041615973339707457_packed.dds",
+      "sha256": "b521fb8fb1b507df9550325ea794848d62ec0b945fb4b92a830ac6597c205d3f"
+    },
+    {
+      "image": "7b494a2f28b9_18231663582228185424_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\7b494a2f28b9_18231663582228185424_packed.dds",
+      "sha256": "e0944c2bd22660a1bd64694e472a5e6c34590fa13a3747bccc944ef5ebb2b7e9"
+    },
+    {
+      "image": "794382be660a_10481810468234262313_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\794382be660a_10481810468234262313_packed.dds",
+      "sha256": "87b1ac976668ace7502a8ae10a21b46b6a4466439e579815384ca8db4a30d54a"
+    },
+    {
+      "image": "228343680686_2858329689992628190_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\228343680686_2858329689992628190_packed.dds",
+      "sha256": "e4703120b6ab7ad8256021ae586914277140c563f55571c6d455d00ad43334ba"
+    },
+    {
+      "image": "0eb8439c962e_black_msk.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\0eb8439c962e_black_msk.dds",
+      "sha256": "2de449c853b4e538a88d2788f105a9b0d2c8c4e5db1a86eaee32355fdbf4d7cf"
+    },
+    {
+      "image": "dbdc9c4c109f_11179865085653961212_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\dbdc9c4c109f_11179865085653961212_packed.dds",
+      "sha256": "c45b9a08eba9c3c7f16e6ac4a7057eed23b53d742dfc5eb171d43afd77a9a4a5"
+    },
+    {
+      "image": "570e02d83fae_patches_01_msk.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\570e02d83fae_patches_01_msk.dds",
+      "sha256": "903d8aac0f3a290e1f0957fe9a90cb843eb542fe8b720e48cd6b8006f9ce5b33"
+    },
+    {
+      "image": "6f3011ce41e3_str_damage_charred_01_alb.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\6f3011ce41e3_str_damage_charred_01_alb.dds",
+      "sha256": "c4250b78de37fe140ba3d62d38967f59bbb22c444d872c660f772f906556ac0d"
+    },
+    {
+      "image": "85c59cbb9679_11755559493558267954_packed.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\85c59cbb9679_11755559493558267954_packed.dds",
+      "sha256": "db13cd404d960308375d8c50bbd34faf49eaec874c3b74789c26f89111c5c0c3"
+    },
+    {
+      "image": "8c6259b7cbd2_11895242577240627730_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\8c6259b7cbd2_11895242577240627730_packed.dds",
+      "sha256": "2a1b2f1d1a77742150bdd50ecc9021c4411844a6ddb9a88eb4ac7c9fdf79a063"
+    },
+    {
+      "image": "1754d19f2037_noise_02_msk.dds.001",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\b218d8f1101c\\b27b05b1106369a49ede\\textures\\1754d19f2037_noise_02_msk.dds",
+      "sha256": "d9b600f9791e94ebf90aacf76aebaf5c7d0ef44f670066ec184ff2a4abdc270a"
+    }
+  ],
+  "complete_raw_reference_libraries_retained": true,
+  "original_tower_main_roof_geometry_in_library": false,
+  "inspectable_source_extraction_completed": true,
+  "all_component_appearance_qualified": false,
+  "native_motion_playback_qualified": false,
+  "clips_created": false
+}

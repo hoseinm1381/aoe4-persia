@@ -1,0 +1,87 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\ott_infantry_armor_age03\\1c056c8f24768dec3065\\decoded-static.json",
+  "donor_sha256": "54b56b081fa1e374311d63c092dea76137fe3fad745ca413fa37c99b405248a4",
+  "logical_path": "art/civilizations/ottoman/humans/ott_infantry_armor_age03/ott_infantry_armor_age03.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "e90328ead3a0c2ed921d054c19e8ca1cf7f8e9b310048585ecd2d8bce62a43da",
+    "normal": "becbb621734b3c75f933d47639e1361aa748cfec45f9d736aee8259c53d0ccdc",
+    "roughness": "62d3098d37c2adf636590530bf3dc60ff94a253623788ef00b0552668f23aefc",
+    "metalness": "8ba58b14626c1016529369de5a376953faf5bcfefdab4d620c7e29f8fcd71bd9",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  },
+  "head_graft": {
+    "logical_path": "art/civilizations/sultanate/humans/sul_infantry_light_age02/sul_infantry_light_age02.rgm",
+    "manifest": "F:/aoe_4_temp/Temp_before_github_push/art/persia/units/_donors/sul_infantry_light_age02/51380bcf239e368f82a8/decoded-static.json",
+    "tile": [
+      0,
+      3
+    ],
+    "uv_transform": [
+      0.25,
+      0.25,
+      0,
+      0
+    ],
+    "skin_hair_cloth_metalness": 0
+  }
+}

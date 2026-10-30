@@ -1,0 +1,322 @@
+{
+  "family": "religious",
+  "body": "sul_infantry_monk_age01",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\assemblies\\sul_infantry_monk_age01\\assembly.blend",
+  "sha256": "8f0716e1cb5a3384d583998f637d027b5232fd8f4ba32c5cb073cb269c82f118",
+  "rig_bones": 73,
+  "rig_contract_sha256": "8c81d2dd0a869994a8b6364b960bca919f9c698716d9515e09259ff9675601e6",
+  "secondary_rigs": {},
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "body",
+      "vertices": 861,
+      "triangles": 1221,
+      "sha256": "afda9f4381dbba3b176fe927ac27afd8586baa2e41e6f058daf315b30d3f32cb"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 163,
+      "triangles": 222,
+      "sha256": "9c207d54972d8add162fd29d46e76e3a6f83dacc7a68a2e137781b956a54493b"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 132,
+      "triangles": 156,
+      "sha256": "ecd7ea1fd482cde0b8e27b662078d322e14426976bb57c4c6f55541c20186286"
+    },
+    {
+      "lod": 1,
+      "component": "body",
+      "vertices": 480,
+      "triangles": 578,
+      "sha256": "bd5e4bfce2ce27ded6215cf6fc07bd6fec66f393e7e67cbf2fcdba0bbb67d93c"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 92,
+      "triangles": 110,
+      "sha256": "852350c6104dcb14037b8258e530e6044aa6b802bf22f8218d0ace73a64df8f8"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 97,
+      "triangles": 96,
+      "sha256": "c0afba18746db0072ee8475dbfe0409179a2bd8b02bb46b6c8aa6b8494f386e1"
+    },
+    {
+      "lod": 2,
+      "component": "body",
+      "vertices": 229,
+      "triangles": 230,
+      "sha256": "dfd0723bc57f2e9eb4ae39e11ac9d024c7d8db46719376bbc9a55fd8711e8205"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 53,
+      "triangles": 46,
+      "sha256": "392d00a4b4090e798543764e376fe3e8e7e36baa75c97d115a56df7d6a845bee"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 59,
+      "triangles": 62,
+      "sha256": "7921f364fe7022a91bcbbe7ee71262d79a6de2e1860cce1f9005b381f408cb86"
+    }
+  ],
+  "equipment": {
+    "staff_crozier": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 73,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_monk_age01/sul_infantry_monk_age01.rgm",
+        "donor_manifest_sha256": "bffb746e7376c056867c1ada88c4adacb9b08455bd224a334c3cd1ebade9f7e7",
+        "bones_modified": 0
+      },
+      "triangles": [
+        222,
+        110,
+        62
+      ],
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_monk_sul.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_monk_sul.xml"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "staff_wood": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 73,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_monk_age01/sul_infantry_monk_age01.rgm",
+        "donor_manifest_sha256": "bffb746e7376c056867c1ada88c4adacb9b08455bd224a334c3cd1ebade9f7e7",
+        "bones_modified": 0
+      },
+      "triangles": [
+        156,
+        96,
+        46
+      ],
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier1_monk_sul.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_monk_sul.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_monk_sul.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_monk_sul.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_monk_sul.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    }
+  },
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\models\\sul_infantry_monk_age01\\model.blend",
+      "sha256": "7a97e9d553ac502d28061849e32603b2c48b1f3b3c7fcdea3ba06a7f7bf4f289"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\models\\staff_crozier\\model.blend",
+      "sha256": "5428caab0fed0d7281bebb0498c41f94eeb8045358c4fa0f855e1066d8040fd0"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\models\\staff_wood\\model.blend",
+      "sha256": "6f82d6330f3e7f69c08063948ab01f1e9a6ab7ff3c139284d2ce449759341eee"
+    }
+  ],
+  "motion_checks": [
+    {
+      "clip": "navigation\\monk_relic_idle_01",
+      "native_source": {
+        "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_monk/base_monk.rhka",
+        "rhka_sha256": "819d5859b63be7cedff28259bac25e9b37c3ac4eb7492abf9a50d1966248191d",
+        "selection_status": "linked_library_candidate",
+        "runtime_selection_status": "not_decoded"
+      },
+      "body_deformation_samples": [
+        {
+          "frame": 1,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.8957316615344921
+        },
+        {
+          "frame": 38,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.900953211656134
+        },
+        {
+          "frame": 75,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.8963013987587352
+        },
+        {
+          "frame": 113,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.8999208048931167
+        },
+        {
+          "frame": 150,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.8956724200197863
+        }
+      ],
+      "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+    }
+  ],
+  "source_status": "editable equipped batch candidate; one family review pending",
+  "outstanding_motion_gates": [
+    "full movement/combat/work/death action coverage",
+    "native secondary weapon synchronization",
+    "runtime state selection",
+    "native-game validation"
+  ]
+}

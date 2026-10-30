@@ -1,0 +1,84 @@
+{
+  "official_donor": "Sultanate",
+  "positions": [
+    {
+      "squad": "067d2031d0824348b3e756d973932702:ps_unit_villager_1_sul",
+      "before": [
+        -2.0,
+        -8.0
+      ],
+      "after": [
+        -2.200000047683716,
+        0.0
+      ]
+    },
+    {
+      "squad": "067d2031d0824348b3e756d973932702:ps_unit_villager_1_sul",
+      "before": [
+        -1.0,
+        -8.0
+      ],
+      "after": [
+        -3.299999952316284,
+        -2.0
+      ]
+    },
+    {
+      "squad": "067d2031d0824348b3e756d973932702:ps_unit_villager_1_sul",
+      "before": [
+        0.0,
+        -8.0
+      ],
+      "after": [
+        -1.0,
+        -2.0
+      ]
+    },
+    {
+      "squad": "067d2031d0824348b3e756d973932702:ps_unit_villager_1_sul",
+      "before": [
+        1.0,
+        -8.0
+      ],
+      "after": [
+        -2.0,
+        -4.0
+      ]
+    },
+    {
+      "squad": "067d2031d0824348b3e756d973932702:ps_unit_villager_1_sul",
+      "before": [
+        2.0,
+        -8.0
+      ],
+      "after": [
+        0.0,
+        -4.0
+      ]
+    },
+    {
+      "squad": "067d2031d0824348b3e756d973932702:ps_unit_villager_1_sul",
+      "before": [
+        3.0,
+        -8.0
+      ],
+      "after": [
+        -1.0,
+        -6.0
+      ]
+    },
+    {
+      "squad": "067d2031d0824348b3e756d973932702:ps_unit_scout_1_sul",
+      "before": [
+        6.0,
+        -8.0
+      ],
+      "after": [
+        -4.0,
+        10.0
+      ]
+    }
+  ],
+  "scope": "Only scout and worker offsets. Counts, blueprints, resources, caps and optional extra Buffalo/sheep stay unchanged.",
+  "native_retest": "pending"
+}

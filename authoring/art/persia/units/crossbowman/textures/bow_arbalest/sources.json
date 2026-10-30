@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\bow_arbalest\\ed15445a6da7c4ea82ca\\decoded-static.json",
+  "donor_sha256": "42640268d765aa37576da1d8b32919c237f6839ff2d0626f01a1798813865701",
+  "logical_path": "art/civilizations/common/weapons/ranged/bow_arbalest/bow_arbalest.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "c026087c2d3e31293a4335a06f8d48b53717c1ee9f4944ee9a8b4502ec3f6225",
+    "normal": "3f089fc6e8c7da8806662b19a845d4d74ddcbdc22bb3197ddebc4995d694d3b7",
+    "roughness": "ac5d909e75d5e9cd20510bf3eb8cf9aa7d4188abd3a479fb7147c86f2a00a5f0",
+    "metalness": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

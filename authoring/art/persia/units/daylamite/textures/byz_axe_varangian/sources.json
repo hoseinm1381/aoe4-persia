@@ -1,0 +1,73 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\byz_axe_varangian\\2b19ec98147ef24e6823\\decoded-static.json",
+  "donor_sha256": "8f3a1bb1a124555c35639ac8ae68801871dc4678a9029ce9f856c86b03aa6121",
+  "logical_path": "art/civilizations/byzantine/weapons/byz_axe_varangian/byz_axe_varangian.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "8af3e19344ea7cccdd8d7ae8da064a42f863e994cbf7d141668d12192d2d11b4",
+    "normal": "be1ffcb1e583981b4b4574c9321f2594bb14f51810a43c71efbf36d26986cea9",
+    "roughness": "162f4600f8a68cf6c269eb135becce591c01b55ed0c86456c0831a9d2fc8d7b4",
+    "metalness": "663be1a7af340d23487197300aee3bd4a76750bafdb8bd4611527af7adea7fd7",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  },
+  "equipment_surface_recipe": "continuous forged metal, longitudinal wood; interpreted eight-lobed painted shield field, not attributed to a surviving medieval object"
+}

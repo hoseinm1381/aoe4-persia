@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\sickle_farming\\f3cb99780c394a28f705\\decoded-static.json",
+  "donor_sha256": "1522bdc3539396beab76684c770a8809ae9c5bb66c41967f2e1de9fdf3d6c366",
+  "logical_path": "art/civilizations/common/weapons/tools/sickle_farming/sickle_farming.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "eab5f54842b763c2a347dd52d50de50caa4f4540721587bee922cf5132728d0c",
+    "normal": "5e9f319613c5e41615d384d11b2c9cb059811987088dd85d402ed2ebe176272c",
+    "roughness": "75fe73532a0dea246634e23f116b43314cd10b7a2a0bf781ae34a4efb66a9445",
+    "metalness": "09c3755ec011c910d26a058eb30ddd6f95ccb8e325a080911624674669a6dc11",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

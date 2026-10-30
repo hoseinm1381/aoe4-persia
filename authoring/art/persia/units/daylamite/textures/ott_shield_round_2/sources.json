@@ -1,0 +1,73 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\ott_shield_round_2\\620a2fe001fa40d7745c\\decoded-static.json",
+  "donor_sha256": "7550df6f7d509aff9fa36d57e22ef6bfd5868986991f5d23a06dac387193950c",
+  "logical_path": "art/civilizations/ottoman/weapons/ott_shield_round_2/ott_shield_round_2.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "7c7d5ddb828213bb347cda2d89a91a267f5cb5671d464833df98a95291d64a17",
+    "normal": "82e6262df51d6a941bc5a706f39ce4fe965d8ee644f17fed031ecc9953eafc48",
+    "roughness": "02d67fa74f12ce7069bbaab27658754ae911f7518b6bcb931cf041c4ee9894ed",
+    "metalness": "61555d41b77b42743b5b1d97eedc5ad6ef90510a2e40255ed29b1d7a74a27c23",
+    "pattern": "816a49028d13b547d3b146af3988d5929bfec6bcf61849b6fa33961f811abe74"
+  },
+  "equipment_surface_recipe": "continuous forged metal, longitudinal wood; interpreted eight-lobed painted shield field, not attributed to a surviving medieval object"
+}

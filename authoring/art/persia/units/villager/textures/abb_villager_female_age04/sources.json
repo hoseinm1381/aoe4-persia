@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\abb_villager_female_age04\\1e465e631104117a001f\\decoded-static.json",
+  "donor_sha256": "3d2a6f1f07e777fd560b3b596118d7b69e9bfc85b9c59cc6fc16b4d4f94726e5",
+  "logical_path": "art/civilizations/abbasids/humans/abb_villager_female_age04/abb_villager_female_age04.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "142e13c9e3d57f6f9b0a3d1e725420e00258fdda627dfa8092b7b689cd0b7624",
+    "normal": "4a0ebdca8229c23aa5aa5bae3d2cc65f8966af7c46e3d19ddc8f7205ec303f27",
+    "roughness": "9531b212c281e2d048d501f843b9d75de104e1bf5142a6d4d22f07bdf83eec66",
+    "metalness": "45ff8c7b342d1eb94d77f84b2a5b013485325ef081aeca2b8125bf8383fde139",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

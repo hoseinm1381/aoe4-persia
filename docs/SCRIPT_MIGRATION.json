@@ -1,0 +1,18 @@
+{
+  "persia/blueprints.scar": {
+    "sha256": "32e93c0759feca2e92c9c78529865e82b2fc8bd722573ca0a7e8cb4856e3b261",
+    "original_sha256": "232047e1d2c42bd9c6207d897bb137b5fa6e38af2d462b91334b8dea855398cf"
+  },
+  "persia/lifecycle.scar": {
+    "sha256": "011775abd17d1a7d7efa1c8f883948094650f3e4b334cec393baf25ba7e9adb1",
+    "original_sha256": "b51edc963eac5905ecd5acb442c0a4ff526992ece5e2a1e220d4e6c4b383bb7a"
+  },
+  "persia/initialization.scar": {
+    "sha256": "bcd0ee6a1e5a7c7e09f3cb861de468c1cfdeffe5ba02ee9e8b8ec2e032c6d6b5",
+    "original_sha256": "70a89595860b70d37e1a5118a74094a94cd096f1c23758c8d25969b827b7b5fb"
+  },
+  "garrison/persia/dispatcher.scar": {
+    "sha256": "c0617ebedbeaa02903d77dddcb08d737333cec86d98fb21f3b8d8898da43aa0e",
+    "original_sha256": null
+  }
+}

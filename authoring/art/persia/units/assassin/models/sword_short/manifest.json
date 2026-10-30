@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "assassin",
+  "donor": "art/civilizations/common/weapons/melee/sword_short/sword_short.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\assassin\\models\\sword_short\\model.blend",
+  "source_sha256": "cf5a3f3ba28594b38fcc94681716e090b8aff3c5daa507356d357e5b502f201b",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 120,
+      "triangles": 104,
+      "sha256": "11a04db22d3210da7bd028951a338380109fb9cc077b9c43def06db8906f0460"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 98,
+      "triangles": 82,
+      "sha256": "76b8ebf8fb24264bce3bb6c09e8f3954cdf56cd60c678edc7bf92426a15d94c7"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 74,
+      "triangles": 56,
+      "sha256": "9da3ef3f4e16c9205a6507ed704846382d87fcfcc51aa0a244652b891eadbdc0"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_assassin_sword_short_LOD0",
+      "vertices": 120,
+      "triangles": 104,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_assassin_sword_short_LOD1",
+      "vertices": 98,
+      "triangles": 82,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_assassin_sword_short_LOD2",
+      "vertices": 74,
+      "triangles": 56,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 64,
+      "changed_vertices": 8,
+      "source_vertices": 120,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 8,
+      "source_vertices": 98,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 20,
+      "changed_vertices": 8,
+      "source_vertices": 74,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 64,
+      "changed_vertices": 8,
+      "source_vertices": 120,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 8,
+      "source_vertices": 98,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 20,
+      "changed_vertices": 8,
+      "source_vertices": 74,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/melee/sword_short/sword_short.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/melee/sword_short/sword_short.rgm"
+}

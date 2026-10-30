@@ -1,0 +1,159 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "spearman",
+  "donor": "art/civilizations/common/weapons/melee/spear_basic/spear_basic.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\spearman\\models\\spear_basic\\model.blend",
+  "source_sha256": "e07a4da406a97fdbc4465a882cecaf06f5502e3cafa4b23f366a4b40ab9ec01a",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "645eb54811b01001e68db0e1062274c37ff26572cd20ecdffd259fa24cdb9990"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "9cbcfa795f03614485d8d6556f97a55c057347364cbd53c38c6dd3227c653173"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "c7d1632821f17f4b2faf5a236e645e785128d30c49c7f53a24536046d9e4fa55"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_spearman_spear_basic_LOD0",
+      "vertices": 36,
+      "triangles": 30,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_spearman_spear_basic_LOD1",
+      "vertices": 36,
+      "triangles": 30,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_spearman_spear_basic_LOD2",
+      "vertices": 36,
+      "triangles": 30,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 20,
+      "source_vertices": 36,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 20,
+      "source_vertices": 36,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 20,
+      "source_vertices": 36,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 20,
+      "source_vertices": 36,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 20,
+      "source_vertices": 36,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 20,
+      "source_vertices": 36,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/melee/spear_basic/spear_basic.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/melee/spear_basic/spear_basic.rgm"
+}

@@ -1,0 +1,303 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "villager",
+  "donor": "art/civilizations/abbasids/humans/abb_villager_female_age03/abb_villager_female_age03.rgm",
+  "role": "body",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\villager\\models\\abb_villager_female_age03\\model.blend",
+  "source_sha256": "cea253e8a356ec9a1cfa5ae5464b3379b41507b551d00abebb1d98b09531e55a",
+  "steps": [
+    "clothing_visual_refinement",
+    "donor_clothing_reshape_and_fitted_kaftan",
+    "native_gender_face_retained_with_fitted_headwrap"
+  ],
+  "rig_contract_sha256": "7a17e5baa9e63a0c5b57836b38e36271ac40bb043bcaccdd01b605af3f34f581",
+  "rig_bones": 73,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "body",
+      "vertices": 843,
+      "triangles": 1231,
+      "sha256": "1ee30ba53ce5fa32f51b97bf19d0d083217183d06041368344ebf00644b8d7be"
+    },
+    {
+      "lod": 1,
+      "component": "body",
+      "vertices": 338,
+      "triangles": 410,
+      "sha256": "b91e6525e7a850ce93ef494be2c5f0d2368eb005cd3e5be8c4b66e3305cde339"
+    },
+    {
+      "lod": 2,
+      "component": "body",
+      "vertices": 233,
+      "triangles": 252,
+      "sha256": "97949a7b43b478998f0ad146cf9ba9c87cf88ebe75d3b8d052a568c9f3b11bfe"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_villager_abb_villager_female_age03_body_LOD0",
+      "vertices": 843,
+      "triangles": 1231,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_villager_abb_villager_female_age03_body_LOD1",
+      "vertices": 338,
+      "triangles": 410,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_villager_abb_villager_female_age03_body_LOD2",
+      "vertices": 233,
+      "triangles": 252,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    }
+  ],
+  "native_lod_contract": [
+    {
+      "lod": 0,
+      "allowed_bones": [
+        "metarig_cloth_l_b_01",
+        "metarig_cloth_l_b_02",
+        "metarig_cloth_l_b_03",
+        "metarig_cloth_l_f_01",
+        "metarig_cloth_l_f_02",
+        "metarig_cloth_l_f_03",
+        "metarig_cloth_r_b_01",
+        "metarig_cloth_r_b_02",
+        "metarig_cloth_r_b_03",
+        "metarig_cloth_r_f_01",
+        "metarig_cloth_r_f_02",
+        "metarig_cloth_r_f_03",
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmindex1",
+        "metarig_larmindex2",
+        "metarig_larmindex3",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmmiddle1",
+        "metarig_larmmiddle2",
+        "metarig_larmmiddle3",
+        "metarig_larmpalm",
+        "metarig_larmthumb1",
+        "metarig_larmthumb2",
+        "metarig_larmthumb3",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg2",
+        "metarig_llegankle",
+        "metarig_llegtoe1",
+        "metarig_neck1",
+        "metarig_neck2",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmindex1",
+        "metarig_rarmindex2",
+        "metarig_rarmindex3",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmmiddle1",
+        "metarig_rarmmiddle2",
+        "metarig_rarmmiddle3",
+        "metarig_rarmpalm",
+        "metarig_rarmthumb1",
+        "metarig_rarmthumb2",
+        "metarig_rarmthumb3",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_rlegankle",
+        "metarig_rlegtoe1",
+        "metarig_spine1",
+        "metarig_spine2"
+      ],
+      "source": "actual native donor LOD"
+    },
+    {
+      "lod": 1,
+      "allowed_bones": [
+        "metarig_cloth_l_b_01",
+        "metarig_cloth_l_b_02",
+        "metarig_cloth_l_f_01",
+        "metarig_cloth_l_f_02",
+        "metarig_cloth_r_b_01",
+        "metarig_cloth_r_b_02",
+        "metarig_cloth_r_f_01",
+        "metarig_cloth_r_f_02",
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmmiddle1",
+        "metarig_larmpalm",
+        "metarig_larmthumb1",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg2",
+        "metarig_llegankle",
+        "metarig_neck1",
+        "metarig_neck2",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmmiddle1",
+        "metarig_rarmpalm",
+        "metarig_rarmthumb1",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg2",
+        "metarig_rlegankle",
+        "metarig_spine1",
+        "metarig_spine2"
+      ],
+      "source": "actual native donor LOD"
+    },
+    {
+      "lod": 2,
+      "allowed_bones": [
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmpalm",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_neck1",
+        "metarig_neck2",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmpalm",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_spine1",
+        "metarig_spine2"
+      ],
+      "source": "actual native donor LOD"
+    }
+  ],
+  "contacts": [
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 293,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "native_gender_face_preserved": true,
+      "headcloth_crown_reshaped_vertices": 16,
+      "face_graft": false
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "complete_native_family_cap": 2654,
+      "reserved_largest_used_weapon_triangles": 919,
+      "body_cap": 1735,
+      "before_body_triangles": 1231,
+      "after_body_triangles": 1231,
+      "concealed_donor_triangles_removed": 1,
+      "budget_met": true,
+      "scope": "density reduction only on replaced donor clothing; grafted face and new panels kept; native hand/foot points preserved"
+    },
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 100,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "native_gender_face_preserved": true,
+      "headcloth_crown_reshaped_vertices": 7,
+      "face_graft": false
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 42,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "native_gender_face_preserved": true,
+      "headcloth_crown_reshaped_vertices": 2,
+      "face_graft": false
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "editable support-human batch candidate; one family review pending",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "complete_lod_triangles": [
+    1231,
+    410,
+    252
+  ],
+  "verified_deformation": "native73-bone hierarchy/binds and normalized LOD palette weights retained; uncertain action checks deferred"
+}

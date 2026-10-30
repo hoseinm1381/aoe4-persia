@@ -1,0 +1,338 @@
+{
+  "anatomy": {
+    "ground_z": 0.18,
+    "rear_wall_top": 3.15,
+    "side_spring": 2.3,
+    "canopy_post_top": 2.8,
+    "frame_top": 5.32,
+    "layout": "rear vaulted hall, left casting/store bays, right carriage canopy, open work court"
+  },
+  "contacts": [
+    {
+      "name": "PavingPlate to RearBackWall",
+      "lower": "PavingPlate",
+      "upper": "RearBackWall"
+    },
+    {
+      "name": "PavingPlate to RearBay0Bearing-1",
+      "lower": "PavingPlate",
+      "upper": "RearBay0Bearing-1"
+    },
+    {
+      "name": "PavingPlate to RearBay0Bearing1",
+      "lower": "PavingPlate",
+      "upper": "RearBay0Bearing1"
+    },
+    {
+      "name": "RearBay0Bearing-1 to RearBay0Vault",
+      "lower": "RearBay0Bearing-1",
+      "upper": "RearBay0Vault"
+    },
+    {
+      "name": "RearBay0Bearing1 to RearBay0Vault",
+      "lower": "RearBay0Bearing1",
+      "upper": "RearBay0Vault"
+    },
+    {
+      "name": "PavingPlate to LeftBay0Bearing-1",
+      "lower": "PavingPlate",
+      "upper": "LeftBay0Bearing-1"
+    },
+    {
+      "name": "PavingPlate to LeftBay0Bearing1",
+      "lower": "PavingPlate",
+      "upper": "LeftBay0Bearing1"
+    },
+    {
+      "name": "LeftBay0Bearing-1 to LeftBay0Vault",
+      "lower": "LeftBay0Bearing-1",
+      "upper": "LeftBay0Vault"
+    },
+    {
+      "name": "LeftBay0Bearing1 to LeftBay0Vault",
+      "lower": "LeftBay0Bearing1",
+      "upper": "LeftBay0Vault"
+    },
+    {
+      "name": "PavingPlate to RearBay1Bearing-1",
+      "lower": "PavingPlate",
+      "upper": "RearBay1Bearing-1"
+    },
+    {
+      "name": "PavingPlate to RearBay1Bearing1",
+      "lower": "PavingPlate",
+      "upper": "RearBay1Bearing1"
+    },
+    {
+      "name": "RearBay1Bearing-1 to RearBay1Vault",
+      "lower": "RearBay1Bearing-1",
+      "upper": "RearBay1Vault"
+    },
+    {
+      "name": "RearBay1Bearing1 to RearBay1Vault",
+      "lower": "RearBay1Bearing1",
+      "upper": "RearBay1Vault"
+    },
+    {
+      "name": "PavingPlate to LeftBay1Bearing-1",
+      "lower": "PavingPlate",
+      "upper": "LeftBay1Bearing-1"
+    },
+    {
+      "name": "PavingPlate to LeftBay1Bearing1",
+      "lower": "PavingPlate",
+      "upper": "LeftBay1Bearing1"
+    },
+    {
+      "name": "LeftBay1Bearing-1 to LeftBay1Vault",
+      "lower": "LeftBay1Bearing-1",
+      "upper": "LeftBay1Vault"
+    },
+    {
+      "name": "LeftBay1Bearing1 to LeftBay1Vault",
+      "lower": "LeftBay1Bearing1",
+      "upper": "LeftBay1Vault"
+    },
+    {
+      "name": "PavingPlate to RearBay2Bearing-1",
+      "lower": "PavingPlate",
+      "upper": "RearBay2Bearing-1"
+    },
+    {
+      "name": "PavingPlate to RearBay2Bearing1",
+      "lower": "PavingPlate",
+      "upper": "RearBay2Bearing1"
+    },
+    {
+      "name": "RearBay2Bearing-1 to RearBay2Vault",
+      "lower": "RearBay2Bearing-1",
+      "upper": "RearBay2Vault"
+    },
+    {
+      "name": "RearBay2Bearing1 to RearBay2Vault",
+      "lower": "RearBay2Bearing1",
+      "upper": "RearBay2Vault"
+    },
+    {
+      "name": "PavingPlate to LeftBay2Bearing-1",
+      "lower": "PavingPlate",
+      "upper": "LeftBay2Bearing-1"
+    },
+    {
+      "name": "PavingPlate to LeftBay2Bearing1",
+      "lower": "PavingPlate",
+      "upper": "LeftBay2Bearing1"
+    },
+    {
+      "name": "LeftBay2Bearing-1 to LeftBay2Vault",
+      "lower": "LeftBay2Bearing-1",
+      "upper": "LeftBay2Vault"
+    },
+    {
+      "name": "LeftBay2Bearing1 to LeftBay2Vault",
+      "lower": "LeftBay2Bearing1",
+      "upper": "LeftBay2Vault"
+    },
+    {
+      "name": "PavingPlate to CanopyPost0_0",
+      "lower": "PavingPlate",
+      "upper": "CanopyPost0_0"
+    },
+    {
+      "name": "PavingPlate to CanopyPost0_1",
+      "lower": "PavingPlate",
+      "upper": "CanopyPost0_1"
+    },
+    {
+      "name": "CanopyPost0_0 to CanopyLongBeam0",
+      "lower": "CanopyPost0_0",
+      "upper": "CanopyLongBeam0"
+    },
+    {
+      "name": "CanopyPost0_1 to CanopyLongBeam0",
+      "lower": "CanopyPost0_1",
+      "upper": "CanopyLongBeam0"
+    },
+    {
+      "name": "PavingPlate to CanopyPost1_0",
+      "lower": "PavingPlate",
+      "upper": "CanopyPost1_0"
+    },
+    {
+      "name": "PavingPlate to CanopyPost1_1",
+      "lower": "PavingPlate",
+      "upper": "CanopyPost1_1"
+    },
+    {
+      "name": "CanopyPost1_0 to CanopyLongBeam1",
+      "lower": "CanopyPost1_0",
+      "upper": "CanopyLongBeam1"
+    },
+    {
+      "name": "CanopyPost1_1 to CanopyLongBeam1",
+      "lower": "CanopyPost1_1",
+      "upper": "CanopyLongBeam1"
+    },
+    {
+      "name": "CanopyLongBeam0 to CanopyCross0",
+      "lower": "CanopyLongBeam0",
+      "upper": "CanopyCross0"
+    },
+    {
+      "name": "CanopyLongBeam0 to CanopyCross1",
+      "lower": "CanopyLongBeam0",
+      "upper": "CanopyCross1"
+    },
+    {
+      "name": "CanopyLongBeam0 to CanopyCross2",
+      "lower": "CanopyLongBeam0",
+      "upper": "CanopyCross2"
+    },
+    {
+      "name": "CanopyLongBeam0 to CanopyCross3",
+      "lower": "CanopyLongBeam0",
+      "upper": "CanopyCross3"
+    },
+    {
+      "name": "CanopyCross0 to CanopyRoof",
+      "lower": "CanopyCross0",
+      "upper": "CanopyRoof"
+    },
+    {
+      "name": "CastingBed to PitSide-1",
+      "lower": "CastingBed",
+      "upper": "PitSide-1"
+    },
+    {
+      "name": "CastingBed to PitEnd-1",
+      "lower": "CastingBed",
+      "upper": "PitEnd-1"
+    },
+    {
+      "name": "CastingBed to PitSide1",
+      "lower": "CastingBed",
+      "upper": "PitSide1"
+    },
+    {
+      "name": "CastingBed to PitEnd1",
+      "lower": "CastingBed",
+      "upper": "PitEnd1"
+    },
+    {
+      "name": "CastingBed to ClayMould",
+      "lower": "CastingBed",
+      "upper": "ClayMould"
+    },
+    {
+      "name": "CastingBed to CoreSpindle",
+      "lower": "CastingBed",
+      "upper": "CoreSpindle"
+    },
+    {
+      "name": "PavingPlate to FurnaceFace",
+      "lower": "PavingPlate",
+      "upper": "FurnaceFace"
+    },
+    {
+      "name": "FurnaceBack to FurnaceRoof",
+      "lower": "FurnaceBack",
+      "upper": "FurnaceRoof"
+    },
+    {
+      "name": "FurnaceRoof to FurnaceVent",
+      "lower": "FurnaceRoof",
+      "upper": "FurnaceVent"
+    },
+    {
+      "name": "CarriageRail0 to GunBearing0",
+      "lower": "CarriageRail0",
+      "upper": "GunBearing0"
+    },
+    {
+      "name": "CarriageAxle0 to CarriageRail0",
+      "lower": "CarriageAxle0",
+      "upper": "CarriageRail0"
+    },
+    {
+      "name": "CarriageAxle1 to CarriageRail0",
+      "lower": "CarriageAxle1",
+      "upper": "CarriageRail0"
+    },
+    {
+      "name": "CarriageRail1 to GunBearing1",
+      "lower": "CarriageRail1",
+      "upper": "GunBearing1"
+    },
+    {
+      "name": "CarriageAxle0 to CarriageRail1",
+      "lower": "CarriageAxle0",
+      "upper": "CarriageRail1"
+    },
+    {
+      "name": "CarriageAxle1 to CarriageRail1",
+      "lower": "CarriageAxle1",
+      "upper": "CarriageRail1"
+    },
+    {
+      "name": "GunBearing0 to GunTrunnion0",
+      "lower": "GunBearing0",
+      "upper": "GunTrunnion0"
+    },
+    {
+      "name": "GunBearing1 to GunTrunnion1",
+      "lower": "GunBearing1",
+      "upper": "GunTrunnion1"
+    },
+    {
+      "name": "SwivelBench to SwivelPivot",
+      "lower": "SwivelBench",
+      "upper": "SwivelPivot"
+    },
+    {
+      "name": "PavingPlate to LiftFoot-1",
+      "lower": "PavingPlate",
+      "upper": "LiftFoot-1"
+    },
+    {
+      "name": "LiftFoot-1 to LiftUpright-1",
+      "lower": "LiftFoot-1",
+      "upper": "LiftUpright-1"
+    },
+    {
+      "name": "PavingPlate to LiftFoot1",
+      "lower": "PavingPlate",
+      "upper": "LiftFoot1"
+    },
+    {
+      "name": "LiftFoot1 to LiftUpright1",
+      "lower": "LiftFoot1",
+      "upper": "LiftUpright1"
+    },
+    {
+      "name": "LiftUpright-1 to LiftHeader",
+      "lower": "LiftUpright-1",
+      "upper": "LiftHeader"
+    },
+    {
+      "name": "LiftUpright1 to LiftHeader",
+      "lower": "LiftUpright1",
+      "upper": "LiftHeader"
+    },
+    {
+      "name": "PulleyCheek-1 to LiftHeader",
+      "lower": "PulleyCheek-1",
+      "upper": "LiftHeader"
+    },
+    {
+      "name": "PulleyCheek1 to LiftHeader",
+      "lower": "PulleyCheek1",
+      "upper": "LiftHeader"
+    },
+    {
+      "name": "PulleyAxle to PulleyWheel",
+      "lower": "PulleyAxle",
+      "upper": "PulleyWheel"
+    }
+  ],
+  "limits": "Measured source contacts and source envelope only; native clearance deferred."
+}

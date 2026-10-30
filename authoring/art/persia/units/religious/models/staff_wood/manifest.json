@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "religious",
+  "donor": "art/civilizations/common/weapons/melee/staff_wood/staff_wood.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\models\\staff_wood\\model.blend",
+  "source_sha256": "6f82d6330f3e7f69c08063948ab01f1e9a6ab7ff3c139284d2ce449759341eee",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 132,
+      "triangles": 156,
+      "sha256": "ecd7ea1fd482cde0b8e27b662078d322e14426976bb57c4c6f55541c20186286"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 97,
+      "triangles": 96,
+      "sha256": "c0afba18746db0072ee8475dbfe0409179a2bd8b02bb46b6c8aa6b8494f386e1"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 53,
+      "triangles": 46,
+      "sha256": "392d00a4b4090e798543764e376fe3e8e7e36baa75c97d115a56df7d6a845bee"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_religious_staff_wood_LOD0",
+      "vertices": 132,
+      "triangles": 156,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_religious_staff_wood_LOD1",
+      "vertices": 97,
+      "triangles": 96,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_religious_staff_wood_LOD2",
+      "vertices": 53,
+      "triangles": 46,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "staff",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 122,
+      "source_vertices": 132,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "staff",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 85,
+      "source_vertices": 97,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "staff",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 43,
+      "source_vertices": 53,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "staff",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 122,
+      "source_vertices": 132,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "staff",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 12,
+      "changed_vertices": 85,
+      "source_vertices": 97,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "staff",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 43,
+      "source_vertices": 53,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/melee/staff_wood/staff_wood.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/melee/staff_wood/staff_wood.rgm"
+}

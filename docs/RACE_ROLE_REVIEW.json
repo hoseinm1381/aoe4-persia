@@ -1,0 +1,13 @@
+{
+  "official_donor": "sultanate",
+  "korea_role_template": "direct private counterparts already wired",
+  "filled_actual_private_roles": [],
+  "speech_values": {
+    "intel_speaker_code": "sultanate",
+    "race_code": "sultanate",
+    "music_race_code": "no_race",
+    "ally_intel_speaker_code": "smally"
+  },
+  "stock_start_actions": "not copied; new native army and preserved civ lifecycle own the start",
+  "native_test": "pending"
+}

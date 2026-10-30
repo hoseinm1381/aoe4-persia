@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\res_stone_backpack\\75ecd6049a4f1bcc0b85\\decoded-static.json",
+  "donor_sha256": "45e705e25c32081a61b8316347f92b43b6373b95bc8ced066e06c5027afa0a84",
+  "logical_path": "art/civilizations/common/weapons/tools/res_stone_backpack/res_stone_backpack.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "c852f6cbfb65bb64f812265516a5b58a930a34e06f6788c87a3d9019408818ef",
+    "normal": "de0eab2a8e3922cd588d88d9a1d2a86621ee959f774803c1f273c0080e5765d6",
+    "roughness": "eadd1befdd51d5219609009487119ae0e4f47d4b4fd5ff0f2ee8c74156802614",
+    "metalness": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

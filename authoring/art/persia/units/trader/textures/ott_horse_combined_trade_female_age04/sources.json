@@ -1,0 +1,95 @@
+{
+  "donor": "art/civilizations/ottoman/animals/ott_horse_combined_trade_female_age04/ott_horse_combined_trade_female_age04.rgm",
+  "atlas_size": 2048,
+  "native_component_uv_transforms": {
+    "0": [
+      0.375,
+      0.375,
+      0.0,
+      0.625
+    ],
+    "1": [
+      0.375,
+      0.375,
+      0.375,
+      0.625
+    ],
+    "2": [
+      0.375,
+      0.375,
+      0.0,
+      0.25
+    ],
+    "3": [
+      0.375,
+      0.375,
+      0.375,
+      0.25
+    ]
+  },
+  "tiles": {
+    "owner": [
+      6,
+      0
+    ],
+    "indigo": [
+      7,
+      0
+    ],
+    "madder": [
+      6,
+      1
+    ],
+    "leather": [
+      7,
+      1
+    ],
+    "iron": [
+      6,
+      2
+    ],
+    "bronze": [
+      7,
+      2
+    ],
+    "mail": [
+      6,
+      3
+    ],
+    "linen": [
+      7,
+      3
+    ],
+    "dark": [
+      6,
+      4
+    ],
+    "wood": [
+      7,
+      4
+    ],
+    "trim": [
+      6,
+      5
+    ],
+    "lamellar": [
+      7,
+      5
+    ],
+    "horse_owner": [
+      0,
+      6
+    ]
+  },
+  "atlas_grid": 8,
+  "native_owner_skin_hair_masks_preserved": true,
+  "player_colour_baked": false,
+  "source_projection_size_per_component": 768,
+  "files": {
+    "albedo": "5f921d706bd21caa939e62f812c20b84f05b9208052683803f08a6e2a34e027d",
+    "normal": "8fe18a119c0460acadd38489aa2ab868597317792c22c196e957894ccc1ef406",
+    "roughness": "a356cac18eec664d284cfb732034d9c54ba3433b68f4ff97258a16193634231d",
+    "metalness": "4e106e9355a85c89f67bafcbffa07c7e754e7acbb8eb5ca7d539b5b1934b1bfe",
+    "pattern": "e030844ba393abbbbc307b9c7af6213c792abcdab924c2b126cc11829fcdc788"
+  }
+}

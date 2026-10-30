@@ -1,0 +1,530 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "keep",
+  "authored_frame": "measured native stamp-space before inverse resource projection",
+  "native_hp_thresholds": null,
+  "native_state_wiring": "preserved external contract; ordinal authored damage compositions only",
+  "profile_provenance": {
+    "recipe_sha256": "de48958aa927f72b240f75f07cb46bb9de1fc2809a9d5fb34f96dde19983adff",
+    "primary_body_handoff_sha256": "7a7cdd02672ee35884f0c40b6a3131dc0cd3fdbec9fa6bc5bfca07bcecb58f80",
+    "reviewed_against": "actual recipe tags/geometry formulas, current family_states.py and state_geometry.py; no Blender execution",
+    "state_adapter_snapshot_sha256": "d5078dc52da7699ff64d153bcf13c344c33b9338046f76808c3ea31f472c437a",
+    "state_geometry_snapshot_sha256": "f50a85ce85c6d863efd10305ce95a3ac1da20c3bdaaa8c3534c72ca67f7fee90",
+    "native_dependency_policy": "retained native rigs/graphs/markers/conditional attachments stay outside scratch fracture; no new motion, HP values or gameplay tier",
+    "status": "source-reviewed draft; Boolean topology, support after fracture, normal/UV seams and game-camera progression require generated review",
+    "read_only_verification": "All exact body/group/native identities, real support-plane scatter corners/fallen-piece vertices, progressive positive cutter-box overlaps and targeting exclusions checked offline.",
+    "family_lod_module_sha256": "e6f80adc030b490191c6ac78487bf88a063c923c00205c02dcdcd981eb0bba48",
+    "family_lod_verification": "Offline actual geometry formulas: healthy closed raw edge incidence, bounds, existing scalar contacts, unique source identities;7 missing/altered-part anti-healing cases. Actual BMesh dissolve/Boolean/triangulated readback/cold scenes remain parent gates.",
+    "lod_source_status": "Source formula-checked; pending parent serial generation and critique",
+    "quick_completion_boundary": "Owner steering: finish current20-family source batch promptly, one visual review/family; retain actual ratio errors and unchecked gates. No tolerance weakening or acceptance inference."
+  },
+  "adapter_requirements": [],
+  "bodies": {
+    "A3": {
+      "review_status": "recipe-reviewed coordinates/groups; actual generated damage/ruins/LODs uninspected",
+      "native_body_identity": {
+        "model": "art/civilizations/sultanate/structures/keep/sul_keep_control_age03/sul_keep_control_age03.rgm",
+        "native_model_sha256": "816cc7e3b929dbcd05100dcdb7ce409524a4233ffa7e64eba84851436386c3c1",
+        "native_geometry_sha256": "ec4eb90758d78696ae3583094d6bf29c6d784441a4e2539ad4f30dba88412bc9"
+      },
+      "resource_age_label_qualification": "exact existing native body; no added tier",
+      "damage": {
+        "groups": [
+          "EastGatePlatform"
+        ],
+        "corner_plus_x_front_y": [
+          6.3,
+          -6.4,
+          5.22
+        ],
+        "notch_extents": [
+          0.28,
+          0.5,
+          0.84,
+          1.24
+        ],
+        "heavy_failure_group_caps": {
+          "EastGatePlatform": 2.08,
+          "WestGatePlatform": 3.48,
+          "gatehouse": 3.02,
+          "curtain_FrontEast": 2.48,
+          "curtain_FrontWest": 3.48,
+          "curtain_EastCurtain": 2.78,
+          "curtain_WestCurtain": 3.68,
+          "curtain_RearCurtain": 3.28,
+          "strong_hall": 5.28,
+          "strong_defense": 5.28,
+          "roof_access": 5.28,
+          "CourtToCurtain": 3.28,
+          "WalkToStrongRoof": 5.28,
+          "owner": 0.08
+        },
+        "debris_area_xy": [
+          [
+            2.1,
+            -6.82
+          ],
+          [
+            3.72,
+            -6.12
+          ]
+        ],
+        "debris_ground_z": 0.08,
+        "failure_programme": "Progressive breach of chamfered eastern gate-platform parapet and walk; heavy loss lowers the defensive ring asymmetrically and strips the strong-hall crown.",
+        "progression_review": [
+          "1: exposed masonry at east platform chamfer/parapet elbow",
+          "2: broader missing parapet elbow, still a standing defensive walk",
+          "3: irregular parapet and walk-skin breach",
+          "4: breach enters upper platform core; nearby gate remains identifiable",
+          "5: east flank and gate ring drop lower than west; strong roof/parapets and upper stair flight are cut away together"
+        ],
+        "debris_grounding_basis": "EarthBed top .08; front-east apron X2.10..3.72/Y-6.82..-6.12 is clear of FrontEast wall (front=-6.0) and chamfered platform.",
+        "support_review": "Heavy caps co-limit strong_hall/strong_defense/roof_access/upper flight so an intact parapet or upper stair does not hover above a lost roof."
+      },
+      "ruins": {
+        "default_cap": 1.28,
+        "group_caps": {
+          "strong_hall": 2.08,
+          "gatehouse": 1.58,
+          "EastGatePlatform": 0.98,
+          "WestGatePlatform": 1.48,
+          "curtain_FrontEast": 0.88,
+          "curtain_FrontWest": 1.18,
+          "curtain_EastCurtain": 0.98,
+          "curtain_WestCurtain": 1.28,
+          "curtain_RearCurtain": 1.18,
+          "roof_access": 0.88,
+          "CourtToCurtain": 0.68
+        },
+        "remove_groups": [
+          "strong_defense",
+          "WalkToStrongRoof"
+        ],
+        "preserve_intact_groups": [],
+        "debris_area_xy": [
+          [
+            -1.05,
+            -3.85
+          ],
+          [
+            4.6,
+            -0.15
+          ]
+        ],
+        "debris_ground_z": 0.08,
+        "debris_count": 88,
+        "fallen_members": [
+          {
+            "a": [
+              -0.85,
+              -3.45,
+              0.12
+            ],
+            "b": [
+              0.8,
+              -3.12,
+              0.12
+            ],
+            "width": 0.08,
+            "surface": "timber",
+            "source_group": "owner",
+            "grounding_basis": "horizontal member lower face at authored support Z=0.08"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              2.05,
+              -1.15,
+              0.17
+            ],
+            "size": [
+              1.9,
+              1.05,
+              0.18
+            ],
+            "rotation": 0.24,
+            "surface": "roof",
+            "source_group": "strong_hall",
+            "grounding_basis": "horizontal fragment bottom at authored support Z=0.08"
+          },
+          {
+            "center": [
+              1.05,
+              -2.85,
+              0.12
+            ],
+            "size": [
+              1.09,
+              2.06,
+              0.08
+            ],
+            "rotation": -0.18,
+            "surface": "timber",
+            "source_group": "strong_hall",
+            "grounding_basis": "horizontal fragment bottom at authored support Z=0.08"
+          }
+        ],
+        "composition_review": "Thick defensive perimeter traces, asymmetric gate-platform stumps and stronger sanctuary-like hall footprint; no standing needle tower and no flat identical-height ring.",
+        "grounding_review": "Debris/slabs lie on .08 court EarthBed, south of hall floor Y.70 and east of stair/podium X-1.25. Timber slab is displaced StrongDoorLeaf; slender member is gate-owner support, not invented timber roof trusses."
+      },
+      "targeting_omit_name_fragments": [
+        "EarthBed",
+        "GateTraffic",
+        "StairApproachPaver"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "GateTraffic",
+          "StairApproachPaver"
+        ],
+        "2": [
+          "GateTraffic",
+          "StairApproachPaver",
+          "GuardSupplyChest",
+          "CisternHatch"
+        ]
+      },
+      "lod_design_notes": {
+        "implementation": "recipe.build_lod hook delegates to family lods.py; source draft, not generated acceptance",
+        "target_ratios": [
+          0.5,
+          0.25
+        ],
+        "actual_ratios": "Unverified: offline formula counts are not triangulated Blender/readback results. Existing low-poly walls/supports set a floor; no LOD0 inflation, opening loss, damaged-mesh reconstruction or cap/tolerance relaxation used to force .25.",
+        "authored_proxy_policy": [
+          "Intact CourtToCurtain29-step flight becomes9/5 major risers; WalkToStrongRoof24-step flight becomes8/4, with original landings, clear passages and bearing extents.",
+          "Missing step indices split intact contiguous runs. Any altered step invokes exact union of actual surviving meshes, never a restored healthy flight; real Boolean remains unverified.",
+          "A complete unchanged merlon course alone may use fewer broader spaced distant merlons, keeping outer extent and real separating gaps. Missing/chipped members disable this proxy.",
+          "Gate arches8/4 and unchanged vaults10/6 segments retain their actual openings/supports. Changed curves keep actual fractured solids with strict UV-preserving planar cleanup.",
+          "Complete unchanged cistern becomes one grounded distant vessel; roof/curtain/platform bearings and retained native dependencies remain."
+        ],
+        "source_survival_guard": "Exact float-hex world-coordinate polygon fingerprint of original source; any internal alteration disables analytic healthy reconstruction even when outer AABB is unchanged. Retained native dependencies are cloned unchanged.",
+        "offline_formula_triangles": {
+          "LOD0": 2192,
+          "LOD1": 1348,
+          "LOD2": 1144
+        },
+        "offline_formula_ratios": [
+          0.614963503649635,
+          0.5218978102189781
+        ],
+        "remaining_gates": [
+          "Real healthy and all surviving state/ruin topology/normal/UV/contact checks",
+          "Actual state-specific triangle ratios; no distance qualification inferred",
+          "Six-direction game-camera review, saved/cold scene readback and native full-compound clearance"
+        ],
+        "parent_baseline_error_types": {
+          "lod_needs_authored_reduction_or_readability_repair": 16
+        },
+        "parent_baseline_report": "evidence/full-source-checks.json; predates final Caravan far-profile4-segment update"
+      },
+      "group_evidence": {
+        "CourtToCurtain": {
+          "source_part_count": 29,
+          "roles": [
+            "architecture"
+          ],
+          "source_bounds": [
+            [
+              -4.85,
+              -3.8,
+              0.08
+            ],
+            [
+              -3.75,
+              2.6,
+              4.46
+            ]
+          ]
+        },
+        "EastGatePlatform": {
+          "source_part_count": 8,
+          "roles": [
+            "architecture",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              3.843934,
+              -6.7,
+              0.08
+            ],
+            [
+              6.7,
+              -3.843934,
+              5.22
+            ]
+          ]
+        },
+        "WalkToStrongRoof": {
+          "source_part_count": 24,
+          "roles": [
+            "architecture"
+          ],
+          "source_bounds": [
+            [
+              -2.65,
+              -2.6,
+              4.46
+            ],
+            [
+              -1.55,
+              2.6,
+              7.96
+            ]
+          ]
+        },
+        "WestGatePlatform": {
+          "source_part_count": 8,
+          "roles": [
+            "architecture",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -6.7,
+              -6.7,
+              0.08
+            ],
+            [
+              -3.843934,
+              -3.843934,
+              5.22
+            ]
+          ]
+        },
+        "curtain_EastCurtain": {
+          "source_part_count": 9,
+          "roles": [
+            "architecture",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              4.95,
+              -3.95,
+              0.08
+            ],
+            [
+              6.05,
+              5.35,
+              5.44
+            ]
+          ]
+        },
+        "curtain_FrontEast": {
+          "source_part_count": 5,
+          "roles": [
+            "architecture",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              2.0,
+              -6.0,
+              0.08
+            ],
+            [
+              3.95,
+              -5.0,
+              5.44
+            ]
+          ]
+        },
+        "curtain_FrontWest": {
+          "source_part_count": 5,
+          "roles": [
+            "architecture",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -3.95,
+              -6.0,
+              0.08
+            ],
+            [
+              -2.0,
+              -5.0,
+              5.44
+            ]
+          ]
+        },
+        "curtain_RearCurtain": {
+          "source_part_count": 11,
+          "roles": [
+            "architecture",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -6.05,
+              5.35,
+              0.08
+            ],
+            [
+              6.05,
+              6.25,
+              5.44
+            ]
+          ]
+        },
+        "curtain_WestCurtain": {
+          "source_part_count": 9,
+          "roles": [
+            "architecture",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -6.05,
+              -3.95,
+              0.08
+            ],
+            [
+              -4.95,
+              5.35,
+              5.44
+            ]
+          ]
+        },
+        "gatehouse": {
+          "source_part_count": 6,
+          "roles": [
+            "architecture",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -2.0,
+              -6.15,
+              0.08
+            ],
+            [
+              2.0,
+              -4.15,
+              5.22
+            ]
+          ]
+        },
+        "owner": {
+          "source_part_count": 2,
+          "roles": [
+            "fittings",
+            "owner"
+          ],
+          "source_bounds": [
+            [
+              -0.865,
+              -6.2325,
+              3.26
+            ],
+            [
+              0.865,
+              -6.14,
+              3.72
+            ]
+          ]
+        },
+        "roof_access": {
+          "source_part_count": 8,
+          "roles": [
+            "architecture",
+            "ground"
+          ],
+          "source_bounds": [
+            [
+              -4.95,
+              -4.73,
+              0.08
+            ],
+            [
+              -1.25,
+              3.3,
+              7.96
+            ]
+          ]
+        },
+        "strong_defense": {
+          "source_part_count": 8,
+          "roles": [
+            "architecture"
+          ],
+          "source_bounds": [
+            [
+              -1.25,
+              0.7,
+              7.96
+            ],
+            [
+              4.15,
+              5.1,
+              9.16
+            ]
+          ]
+        },
+        "strong_hall": {
+          "source_part_count": 12,
+          "roles": [
+            "architecture",
+            "fittings",
+            "roofs"
+          ],
+          "source_bounds": [
+            [
+              -1.25,
+              0.7,
+              0.08
+            ],
+            [
+              4.15,
+              5.1,
+              7.96
+            ]
+          ]
+        }
+      },
+      "corner_review": [
+        {
+          "authored_level": 1,
+          "aabb_candidate_parts": [
+            "PSB_keep_A3_EastGatePlatform_Parapet0",
+            "PSB_keep_A3_EastGatePlatform_Parapet1"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 2,
+          "aabb_candidate_parts": [
+            "PSB_keep_A3_EastGatePlatform_Parapet0",
+            "PSB_keep_A3_EastGatePlatform_Parapet1",
+            "PSB_keep_A3_EastGatePlatform_Parapet2"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 3,
+          "aabb_candidate_parts": [
+            "PSB_keep_A3_EastGatePlatform_Parapet0",
+            "PSB_keep_A3_EastGatePlatform_Parapet1",
+            "PSB_keep_A3_EastGatePlatform_Parapet2",
+            "PSB_keep_A3_EastGatePlatform_Walk"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        },
+        {
+          "authored_level": 4,
+          "aabb_candidate_parts": [
+            "PSB_keep_A3_EastGatePlatform_Core",
+            "PSB_keep_A3_EastGatePlatform_Parapet0",
+            "PSB_keep_A3_EastGatePlatform_Parapet1",
+            "PSB_keep_A3_EastGatePlatform_Parapet2",
+            "PSB_keep_A3_EastGatePlatform_Walk"
+          ],
+          "limit": "positive exact cutter-box/AABB overlap only; Boolean shape and visual progression require Blender review"
+        }
+      ]
+    }
+  }
+}

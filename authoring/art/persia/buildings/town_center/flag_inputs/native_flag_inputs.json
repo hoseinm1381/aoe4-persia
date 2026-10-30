@@ -1,0 +1,22 @@
+{
+  "schema": "ccp.persia.native-flag-library/v1",
+  "library": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\town_center\\flag_inputs\\native_flag_inputs.blend",
+  "library_sha256": "e9696e6002105b55aae16caa08e92a3edd79d9b0e7cddf9800ccb26fc44ee838",
+  "contract_sha256": "6a1d67d9b76efa9237f3c2a4dd728c65b8236897623dac49aca57176ccf6301c",
+  "object": "NativeFlag_ExactRest",
+  "text": "NativeFlag_SourceContract.json",
+  "audit": {
+    "vertices": 414,
+    "triangles": 304,
+    "position_max_error": 0.0,
+    "UV_max_error": 0.0,
+    "raw_normal_max_error": 2.734738302478945e-08,
+    "maximum_custom_normal_angle_degrees": 0.011679724636485807,
+    "native_skeleton_bones": 0,
+    "rest_atlas_preview": "Original primary albedo + maskAlpha red + normalMap; layered Sails parity unqualified",
+    "native_wind_playback_qualified": false,
+    "passed": true
+  },
+  "complete_native_stream_preserved_in_hashed_RRGeom": true,
+  "clips_created": false
+}

@@ -1,0 +1,469 @@
+{
+  "family": "crossbowman",
+  "body": "sul_ranged_crossbow_age04",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\assemblies\\sul_ranged_crossbow_age04\\assembly.blend",
+  "sha256": "9d587617f9251291448ba29aa60147750b3e819a07a085f2d6ad9c28ae7f52b7",
+  "rig_bones": 48,
+  "rig_contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+  "secondary_rigs": {
+    "bow_cross": {
+      "bones": 5,
+      "rig_contract_sha256": "a41717f9f602e872d4f801e65c8fe5a1b33516ed8be4624b970f2be0f1840cf6"
+    },
+    "bow_arbalest": {
+      "bones": 5,
+      "rig_contract_sha256": "b8e1b6e3706fba5500f2695f1be4b3e17b838db671b9cf1ade983f29013c8893"
+    }
+  },
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "body",
+      "vertices": 1281,
+      "triangles": 1505,
+      "sha256": "4965aeb6a139c67e41440c5082abba20590f055083111ed868bec338547c61c3"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 570,
+      "triangles": 440,
+      "sha256": "5e19dc1fc6692ce2d44961055eb2d0c8026031f48daf72117263646e77ffa68f"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 719,
+      "triangles": 537,
+      "sha256": "f5aecf6b56fd96889a9bfb08f2c86386d8d1db5b9a22cf24ec8ed0f2a7ddb2aa"
+    },
+    {
+      "lod": 1,
+      "component": "body",
+      "vertices": 622,
+      "triangles": 641,
+      "sha256": "9d754d76a687b750ce1fa58034570df3800bac593949c35b592d79c1106ca912"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 456,
+      "triangles": 316,
+      "sha256": "203e0e1247ed68cde6248879dd086a908eb2fe6a8533c9a265b7bc0601fd52dd"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 327,
+      "triangles": 240,
+      "sha256": "f7d89428089a0afc5188eae58fbecff360d9484f14a4e46b175e68445b8ebdd0"
+    },
+    {
+      "lod": 2,
+      "component": "body",
+      "vertices": 351,
+      "triangles": 306,
+      "sha256": "96d115b1cfe598a92d8ff6d70f5490734fc23b394087a0f58e9b215d16dbd6a3"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 199,
+      "triangles": 138,
+      "sha256": "069e964b80daf47f5842aa56acb87d493065ea6b5d9e63e830032c4802ae0ccc"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 342,
+      "triangles": 222,
+      "sha256": "8a9c771649199a088554608182c82f362e5b06fc77bb8be9df733f8aebf03b97"
+    }
+  ],
+  "equipment": {
+    "bow_cross": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_ranged_crossbow_age04/sul_ranged_crossbow_age04.rgm",
+        "donor_manifest_sha256": "af2afe7ac470ad7232ff9ac8e64cedf13c61f9006bca0b4fd91c9a5f3f1ddcf3",
+        "bones_modified": 0
+      },
+      "triangles": [
+        440,
+        240,
+        138
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_crossbow_3_sul",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_crossbow_3_sul",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_crossbow_3_sul",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_crossbow_3_ott",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_crossbow_3_ott",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_crossbow_3_ott",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_crossbow_3_ott",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_crossbow_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "bow_arbalest": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_ranged_crossbow_age04/sul_ranged_crossbow_age04.rgm",
+        "donor_manifest_sha256": "af2afe7ac470ad7232ff9ac8e64cedf13c61f9006bca0b4fd91c9a5f3f1ddcf3",
+        "bones_modified": 0
+      },
+      "triangles": [
+        537,
+        316,
+        222
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_crossbow_4_sul",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_crossbow_4_sul",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_crossbow_4_sul",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_crossbow_4_ott",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_crossbow_4_ott",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_crossbow_4_ott",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_crossbowman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_crossbow_4_ott",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    }
+  },
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\models\\sul_ranged_crossbow_age04\\model.blend",
+      "sha256": "5ae6d1a2b234bd6a6c736eb7ba1af8d4991fe3308e7a2b3961a6431c64203ddd"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\models\\bow_cross\\model.blend",
+      "sha256": "80cf86157840df1ccf42177ac2478813649e7157429f2fe90aaa6015acabc07c"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\models\\bow_arbalest\\model.blend",
+      "sha256": "26266419e9165c9c88543833b51fa6c479753df94b36a10049336b3901d525f8"
+    }
+  ],
+  "motion_checks": [
+    {
+      "clip": "crossbow\\idle_tense_01",
+      "native_source": {
+        "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_archer/base_archer.rhka",
+        "rhka_sha256": "6a20c42abe69eb0f5217bda35153a3d577dc4f0c47e6291572b8d3f2c8c46c0a",
+        "selection_status": "linked_library_candidate",
+        "runtime_selection_status": "not_decoded"
+      },
+      "body_deformation_samples": [
+        {
+          "frame": 1,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7780267856432763
+        },
+        {
+          "frame": 95,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7882794229148973
+        },
+        {
+          "frame": 190,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7932147200687392
+        },
+        {
+          "frame": 285,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.8033181290978437
+        },
+        {
+          "frame": 379,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7780267856432763
+        }
+      ],
+      "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+    }
+  ],
+  "source_status": "editable equipped batch candidate; one family review pending",
+  "outstanding_motion_gates": [
+    "full movement/combat/work/death action coverage",
+    "native secondary weapon synchronization",
+    "runtime state selection",
+    "native-game validation"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\axe_dane\\94d446521b752ff56ec4\\decoded-static.json",
+  "donor_sha256": "7ede294fbb94d85af2340a18ea9e1c78895b4e60f4d8551a7fb9cb5e27892cac",
+  "logical_path": "art/civilizations/common/weapons/melee/axe_dane/axe_dane.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "9dc965ed950da8d72356eeea4f408b34763276ab81a679eb8e03d0c531ffa900",
+    "normal": "7aa1ed1e65ede1e1736b90a6159f4ceb87225810826a9cc63f879f1c743ebafd",
+    "roughness": "2cfa0e82aa559f38d4783738aa716c0ef42cacc436785c2fee241a62e199ec49",
+    "metalness": "32d995420d49b349c65b421a4e290568d3243af9f1c7195afe245bce384e47f0",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  },
+  "equipment_surface_recipe": "continuous forged metal, longitudinal wood; interpreted eight-lobed painted shield field, not attributed to a surviving medieval object"
+}

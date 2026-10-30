@@ -1,0 +1,946 @@
+{
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "body",
+      "vertices": 1368,
+      "triangles": 1798,
+      "sha256": "05282df6a3bbbf57358aafe81c920b388cd0faf5212eb986c3fe92164f5048f5"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 87,
+      "triangles": 68,
+      "sha256": "07a193240181b629d48afa75ec74118da52401863f063c2f4532dfa9d6b32f3c"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 111,
+      "triangles": 123,
+      "sha256": "19e07477f21975ecd952952ef16a8caa4ebce59a89e6a5ad69d2e9a9889a64a8"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 127,
+      "triangles": 150,
+      "sha256": "29b8a6141464249717eeaa4b61ba5dc40ef5ded5ce2c3b2fcaed8656d5a0fa90"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 110,
+      "triangles": 134,
+      "sha256": "596aca6e0abc881983a13bd5b97d99af656b6198b3a27b2847d51a0c0a4d070e"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 185,
+      "triangles": 194,
+      "sha256": "5d6438f48966e3b2b839e879ec5be2ead757f30f0258c71b21b0a74228c6f798"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 152,
+      "triangles": 126,
+      "sha256": "670df76ce8a61c268742078e265b7e621668fcd5caac628b49bb35f3a5e590e2"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 147,
+      "triangles": 108,
+      "sha256": "886ceb0a8df4b40ef552fcb5095b8cd82d68e37319893dcb77b5a1792435d324"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 29,
+      "triangles": 28,
+      "sha256": "acca7ff5703dba1aff54a5a65c2c21ba2e4f1a02586ba733b724437fc96bc355"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "d6bc36b27a0e00dcf7c718500aa18de97ae856daa103e7961477091d68ab7ced"
+    },
+    {
+      "lod": 1,
+      "component": "body",
+      "vertices": 668,
+      "triangles": 688,
+      "sha256": "eb23bf3305ad6e66c5b70f69cd68c774c3a22e17498f85a7a80c2d73fdb72db6"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 110,
+      "triangles": 134,
+      "sha256": "114b8d6e83e6607f67406a28fb4ea294d113efed2bae2624e808e671be321795"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 116,
+      "triangles": 137,
+      "sha256": "278e2c78bb9c7ced376680b570d9d1e8c7bba160efeb04438e6ada4a0ad4b46b"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 21,
+      "triangles": 18,
+      "sha256": "33952f63dbda5b1e511236312e8c22a6d20044647287cdeda8030c3bc13f9cc5"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 98,
+      "triangles": 70,
+      "sha256": "6195822285cfe35f1b2a5bb6e038f18670f3a20dd6d7b0fda4a60750cccdd52f"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "67371cad11f39be37835e980e0c9d5a8b6446a48321bdf1e89e815db17d25045"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 81,
+      "triangles": 62,
+      "sha256": "b2679ca6c2adcffea869a45293340e2868375bc2e348e1ae126e44eaaf39b520"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 80,
+      "triangles": 62,
+      "sha256": "c09ced1ce1050482eaf093265372a80da1648bf41eb7764fed4788ad9baec4cc"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 107,
+      "triangles": 120,
+      "sha256": "cc0f4e065faa65ce25200e8a550fbccef24b838a407d60c4cd722d555508d675"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 143,
+      "triangles": 100,
+      "sha256": "d26a49e81c03cd024033a421f8d29fc9c704c3d8a1d7afe4e4993604c36769e6"
+    },
+    {
+      "lod": 2,
+      "component": "body",
+      "vertices": 394,
+      "triangles": 346,
+      "sha256": "ff75b58c39389df17e9a89fd0442bde55d952614627fe12a0cd3105b53e01720"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 82,
+      "triangles": 56,
+      "sha256": "25f9de895bf02ee0dc7fceb8860f7bf6379aaf87231a9ed409b2ed204abd9c80"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 110,
+      "triangles": 134,
+      "sha256": "34c9c68f935ac3ceb6da333d47b22462392787746c9e99a234ee3cc021bcb9e3"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 60,
+      "triangles": 38,
+      "sha256": "41c0a09a1799350cb2cd3b9ea1103d3d9943881489d0f4dc49b76cc14fc2013d"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 72,
+      "triangles": 77,
+      "sha256": "515650aa18d87071e0c8db4793daa387477957fcc4784dc76dc9c7602288ac99"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 64,
+      "triangles": 44,
+      "sha256": "6fab9325b505f13b0e24b0010f1b6d3601d24b4515dbb0a8dfafdabc460e2f99"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 57,
+      "triangles": 37,
+      "sha256": "9696c6a2a863af4cb952aaab21403ab24b33cbe58489e79cbf865d9db8649978"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 14,
+      "triangles": 8,
+      "sha256": "992997577c9f9b62bfd62f14987c6ecd9d4b448b16b6b9162a22165f04dc3d85"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "ba9eb4c45e13e7123b6a3811360bcbb9208e4c7e991c0d4b7a6152774859376c"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 79,
+      "triangles": 92,
+      "sha256": "fe6d8c51f9cecb210015c2168947575899f2bc6e7095061ea920f249e2af01ed"
+    }
+  ],
+  "family": "daylamite",
+  "body": "sul_infantry_armor_age04",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\assemblies\\sul_infantry_armor_age04\\assembly.blend",
+  "sha256": "bb6c674cc1ba77628cd2b1394c5e65074d00d26bac77b463f6cf892f02323db5",
+  "rig_contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+  "rig_bones": 48,
+  "equipment": {
+    "axe_dane": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_armor_age04/sul_infantry_armor_age04.rgm",
+        "donor_manifest_sha256": "fe52b653adca5d8844e4a4f19733770a7ac8dde4ec79012e57507221d47da6d6",
+        "bones_modified": 0
+      },
+      "transform": "identity local, installed WORLD COPY_TRANSFORMS socket anchor",
+      "triangles": [
+        68,
+        62,
+        38
+      ]
+    },
+    "torch": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_armor_age04/sul_infantry_armor_age04.rgm",
+        "donor_manifest_sha256": "fe52b653adca5d8844e4a4f19733770a7ac8dde4ec79012e57507221d47da6d6",
+        "bones_modified": 0
+      },
+      "transform": "identity local, installed WORLD COPY_TRANSFORMS socket anchor",
+      "triangles": [
+        28,
+        18,
+        8
+      ]
+    },
+    "sul_shield_round_1": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_armor_age04/sul_infantry_armor_age04.rgm",
+        "donor_manifest_sha256": "fe52b653adca5d8844e4a4f19733770a7ac8dde4ec79012e57507221d47da6d6",
+        "bones_modified": 0
+      },
+      "transform": "identity local, installed WORLD COPY_TRANSFORMS socket anchor",
+      "triangles": [
+        288,
+        288,
+        288
+      ]
+    },
+    "ott_shield_round_2": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_armor_age04/sul_infantry_armor_age04.rgm",
+        "donor_manifest_sha256": "fe52b653adca5d8844e4a4f19733770a7ac8dde4ec79012e57507221d47da6d6",
+        "bones_modified": 0
+      },
+      "transform": "identity local, installed WORLD COPY_TRANSFORMS socket anchor",
+      "triangles": [
+        150,
+        120,
+        92
+      ]
+    },
+    "byz_axe_varangian": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_armor_age04/sul_infantry_armor_age04.rgm",
+        "donor_manifest_sha256": "fe52b653adca5d8844e4a4f19733770a7ac8dde4ec79012e57507221d47da6d6",
+        "bones_modified": 0
+      },
+      "transform": "identity local, installed WORLD COPY_TRANSFORMS socket anchor",
+      "triangles": [
+        126,
+        70,
+        56
+      ]
+    },
+    "sul_sword_kilij": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_armor_age04/sul_infantry_armor_age04.rgm",
+        "donor_manifest_sha256": "fe52b653adca5d8844e4a4f19733770a7ac8dde4ec79012e57507221d47da6d6",
+        "bones_modified": 0
+      },
+      "transform": "identity local, installed WORLD COPY_TRANSFORMS socket anchor",
+      "triangles": [
+        123,
+        137,
+        77
+      ]
+    },
+    "sul_sword_khanda": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_armor_age04/sul_infantry_armor_age04.rgm",
+        "donor_manifest_sha256": "fe52b653adca5d8844e4a4f19733770a7ac8dde4ec79012e57507221d47da6d6",
+        "bones_modified": 0
+      },
+      "transform": "identity local, installed WORLD COPY_TRANSFORMS socket anchor",
+      "triangles": [
+        134,
+        134,
+        134
+      ]
+    },
+    "axe_pole": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_armor_age04/sul_infantry_armor_age04.rgm",
+        "donor_manifest_sha256": "fe52b653adca5d8844e4a4f19733770a7ac8dde4ec79012e57507221d47da6d6",
+        "bones_modified": 0
+      },
+      "transform": "identity local, installed WORLD COPY_TRANSFORMS socket anchor",
+      "triangles": [
+        108,
+        100,
+        37
+      ]
+    },
+    "byz_axe_varangian_age04": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_armor_age04/sul_infantry_armor_age04.rgm",
+        "donor_manifest_sha256": "fe52b653adca5d8844e4a4f19733770a7ac8dde4ec79012e57507221d47da6d6",
+        "bones_modified": 0
+      },
+      "transform": "identity local, installed WORLD COPY_TRANSFORMS socket anchor",
+      "triangles": [
+        194,
+        62,
+        44
+      ]
+    }
+  },
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\sul_infantry_armor_age04\\model.blend",
+      "sha256": "12d275c439f3d15de4d851fa2c3651203d775717bbe008bdeee349f42b95980a"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\axe_dane\\model.blend",
+      "sha256": "abad2b7349bc9ffc984f7884acf1f532bdb08e32e9215627a03702659ec21930"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\torch\\model.blend",
+      "sha256": "42eefd3da907c9fb02acac2b792b647eaaaa10fc1a0d2727cb39240be61ccc39"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\sul_shield_round_1\\model.blend",
+      "sha256": "58a65e87afc81aa761f87e28150597f9eabc68384aa71f8065fcc25e115bc6c9"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\ott_shield_round_2\\model.blend",
+      "sha256": "0c37c771c044941784c327b3eb3c3200be78f49aa181afc69d14365427886a3c"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\byz_axe_varangian\\model.blend",
+      "sha256": "f010a8d40e9a2b77757f7e8a7687413239c054ec749afb67104ad068c4500769"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\sul_sword_kilij\\model.blend",
+      "sha256": "d754b9b8acf8a42c41f123a5720323363a26b10e1a5f31ab4057073e7d1a5ad9"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\sul_sword_khanda\\model.blend",
+      "sha256": "bec24f299c494b41afa0dbaf789fdc7cc9bfb22b1ad4e23c85127233b3c51531"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\axe_pole\\model.blend",
+      "sha256": "48de8644b7503c2d86838539dc68a7af97bde0202717e067c953c050c211d266"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\byz_axe_varangian_age04\\model.blend",
+      "sha256": "6ba80f4694a6e1c16ea8ddd072853e08798a40b441477fc6903ac1923f8962ea"
+    }
+  ],
+  "motion_checks": [
+    {
+      "clip": "navigation\\idle_tense_01",
+      "samples": 13,
+      "all_equipment_and_lods_socket_origin_max_error_m": 0.0,
+      "max_world_radius_m": 2.0863929958432452,
+      "source_sha256": "92b90f7ab063695927644fc682b5a795a7eef56c8cbf8775130e446deee846d3",
+      "runtime_selection": "not verified"
+    },
+    {
+      "clip": "navigation\\walk_tense_f_01",
+      "samples": 13,
+      "all_equipment_and_lods_socket_origin_max_error_m": 0.0,
+      "max_world_radius_m": 2.141710197730552,
+      "source_sha256": "92b90f7ab063695927644fc682b5a795a7eef56c8cbf8775130e446deee846d3",
+      "runtime_selection": "not verified"
+    },
+    {
+      "clip": "navigation\\run_tense_f_01",
+      "samples": 13,
+      "all_equipment_and_lods_socket_origin_max_error_m": 0.0,
+      "max_world_radius_m": 2.3700476348583224,
+      "source_sha256": "92b90f7ab063695927644fc682b5a795a7eef56c8cbf8775130e446deee846d3",
+      "runtime_selection": "not verified"
+    },
+    {
+      "clip": "attack\\attack_r2l_down_01",
+      "samples": 13,
+      "all_equipment_and_lods_socket_origin_max_error_m": 0.0,
+      "max_world_radius_m": 2.8273011925628464,
+      "source_sha256": "92b90f7ab063695927644fc682b5a795a7eef56c8cbf8775130e446deee846d3",
+      "runtime_selection": "not verified"
+    },
+    {
+      "clip": "attack\\attack_charge_01",
+      "samples": 13,
+      "all_equipment_and_lods_socket_origin_max_error_m": 0.0,
+      "max_world_radius_m": 2.387806161596999,
+      "source_sha256": "92b90f7ab063695927644fc682b5a795a7eef56c8cbf8775130e446deee846d3",
+      "runtime_selection": "not verified"
+    },
+    {
+      "clip": "reaction\\death_stab_front_01",
+      "samples": 13,
+      "all_equipment_and_lods_socket_origin_max_error_m": 0.0,
+      "max_world_radius_m": 3.2090031246872734,
+      "source_sha256": "92b90f7ab063695927644fc682b5a795a7eef56c8cbf8775130e446deee846d3",
+      "runtime_selection": "not verified"
+    },
+    {
+      "clip": "torch\\idle_torch_01",
+      "samples": 13,
+      "all_equipment_and_lods_socket_origin_max_error_m": 0.0,
+      "max_world_radius_m": 2.6630709738288254,
+      "source_sha256": "92b90f7ab063695927644fc682b5a795a7eef56c8cbf8775130e446deee846d3",
+      "runtime_selection": "not verified"
+    }
+  ],
+  "status": "candidate; visual contact and cold readback review pending",
+  "cook": "deferred",
+  "integration": "deferred"
+}

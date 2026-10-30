@@ -1,0 +1,159 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "savar",
+  "donor": "art/civilizations/common/weapons/melee/mace_flanged/mace_flanged.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\savar\\models\\mace_flanged\\model.blend",
+  "source_sha256": "3687a7275198124c80c48bbbf82f48b370c5034b5f75d9eba77e5249d4d056be",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 209,
+      "triangles": 188,
+      "sha256": "2de9c9c8cd3f6473e8e4765a273d6d4d5573d6846822f8cb2daee832415f5847"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 147,
+      "triangles": 104,
+      "sha256": "0c78714ddcf8831af2d6e7a1e74211bab5c7dba070d87b20d2ecb3bb8f23b834"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 79,
+      "triangles": 48,
+      "sha256": "d5bbfe47fabf063284c8e959562abf98b6d0cc97ad959ba42e9da71fd5cb7bf6"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_savar_mace_flanged_LOD0",
+      "vertices": 209,
+      "triangles": 188,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_savar_mace_flanged_LOD1",
+      "vertices": 147,
+      "triangles": 104,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_savar_mace_flanged_LOD2",
+      "vertices": 79,
+      "triangles": 48,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "mace",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 15,
+      "changed_vertices": 170,
+      "source_vertices": 209,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "mace",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 106,
+      "source_vertices": 147,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "mace",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 52,
+      "source_vertices": 79,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "mace",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 15,
+      "changed_vertices": 170,
+      "source_vertices": 209,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "mace",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 106,
+      "source_vertices": 147,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "mace",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 52,
+      "source_vertices": 79,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/melee/mace_flanged/mace_flanged.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/melee/mace_flanged/mace_flanged.rgm"
+}

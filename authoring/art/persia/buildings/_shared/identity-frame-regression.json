@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "identity_preserves_mesh_world_and_parent": true,
+  "nonidentity_parent_graph_rejected": true,
+  "scope": "Coordinate-adapter guard only; actual native pose/binding compatibility requires separate source probes"
+}

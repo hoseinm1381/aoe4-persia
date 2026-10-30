@@ -1,0 +1,72 @@
+{
+  "size": 2048,
+  "tile_size": 512,
+  "tiles": {
+    "plaster": [
+      0,
+      0
+    ],
+    "brick": [
+      1,
+      0
+    ],
+    "stone": [
+      2,
+      0
+    ],
+    "timber": [
+      3,
+      0
+    ],
+    "owner": [
+      0,
+      1
+    ],
+    "cloth": [
+      1,
+      1
+    ],
+    "roof": [
+      2,
+      1
+    ],
+    "earth": [
+      3,
+      1
+    ],
+    "leaves": [
+      0,
+      2
+    ],
+    "rubble": [
+      1,
+      2
+    ],
+    "ink": [
+      2,
+      2
+    ],
+    "paper": [
+      3,
+      2
+    ],
+    "metal": [
+      0,
+      3
+    ],
+    "grime": [
+      1,
+      3
+    ],
+    "carving": [
+      2,
+      3
+    ],
+    "pottery": [
+      3,
+      3
+    ]
+  },
+  "authorship": "Original deterministic painted atlas from make_atlas.py; no external image dependency",
+  "owner_mask": "R owner colour, G/B zero; neutral albedo; source-only preview"
+}

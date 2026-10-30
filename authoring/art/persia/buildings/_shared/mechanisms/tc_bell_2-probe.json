@@ -1,0 +1,1752 @@
+{
+  "target": "tc_bell_2",
+  "source_art_only": true,
+  "native_playback_qualified": false,
+  "passed": true,
+  "api": {
+    "module_file": "C:\\Users\\RS\\AppData\\Roaming\\BLENDE~1\\Blender\\5.2\\EXTENS~1\\RAW_GI~1\\garrison\\decode_projection.py",
+    "callables": {
+      "_apply_decoded_static": {
+        "present": true,
+        "signature": "(proxy_object: Any, report: dict[str, typing.Any], *, select_result: bool = True, apply_custom_normals: bool = True, create_controls: bool = False) -> Any",
+        "doc": ""
+      },
+      "_decoded_armature_bones": {
+        "present": true,
+        "signature": "(skeleton: dict[str, typing.Any]) -> list[dict[str, typing.Any]]",
+        "doc": ""
+      }
+    },
+    "observed_UI_call": "_apply_decoded_static(proxy, complete_plan, create_controls=True)",
+    "standalone_cache_hydration_qualified": false
+  },
+  "decoded_bone_projection": {
+    "model": "art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgm",
+    "public_projector_return_type": "list",
+    "public_projector_bones": [],
+    "native_skeleton_bone_count": 12,
+    "manifest_rest_pose": {
+      "status": "local_reference_transforms_decoded",
+      "transform_count": 12,
+      "space": "parent_local",
+      "semantic": "rest_or_bind_reference_unqualified",
+      "semantic_confidence": "inferred",
+      "record_layout": {
+        "encoding": "float32le",
+        "bytes": 40,
+        "components": [
+          "quaternion_xyzw",
+          "translation_xyz",
+          "scale_xyz"
+        ]
+      },
+      "block_offset_in_skln": 493,
+      "block_bytes": 480,
+      "block_sha256": "766f12a391fc6f5b1e3d3bba7087de830d2b1cf16ad3f936483727143f531a3d",
+      "opaque_prefix_bytes": 58,
+      "opaque_prefix_sha256": "facab19cce59b972cb2a31426bc7e4429628fa3be54ea762ce893b9fe56e44de",
+      "validation": {
+        "quaternion_norm_min": 0.999999982885729,
+        "quaternion_norm_max": 0.999999982885729,
+        "quaternion_norm_max_error": 1.711427100037355e-08,
+        "translation_min": -1.1852413415908813,
+        "translation_max": 2.362008571624756,
+        "scale_min": 1.0,
+        "scale_max": 1.0
+      }
+    },
+    "manifest_deform_layer": {
+      "status": "partial",
+      "authoritative_source": "RGM_SKLN_SKMS_SKIN",
+      "bone_count": 12,
+      "qualified_palette_count": 0,
+      "skinned_group_count": 0,
+      "weighted_vertex_count": 0,
+      "weights_status": "partial_or_unavailable",
+      "weight_diagnostics": {
+        "status": "observed_decoded_skin_streams",
+        "group_count": 0,
+        "vertex_count": 0,
+        "weighted_vertex_count": 0,
+        "zero_weight_vertex_count": 0,
+        "non_unit_weight_sum_vertex_count": 0,
+        "min_weight_sum": 0.0,
+        "max_weight_sum": 0.0,
+        "max_influences_per_vertex": 0,
+        "groups": []
+      },
+      "display_bones": "non_authoritative_guides_only"
+    },
+    "manifest_rig_projection": {
+      "status": "not_applicable",
+      "required_group_count": 0,
+      "decoded_group_count": 0,
+      "unresolved_group_count": 0,
+      "groups": [],
+      "skeleton_hierarchy_status": "hierarchy_decoded",
+      "skeleton_bone_count": 12,
+      "skeleton_rest_pose_status": "local_reference_transforms_decoded",
+      "qualified_skin_palette_count": 0
+    },
+    "standalone_armature_creation_qualified": false,
+    "native_world_pose_qualified": false
+  },
+  "project": {
+    "model": "art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgm",
+    "collection": "NSRC_tc_bell_2",
+    "object_names": [
+      "AoE4 \u00b7 mon_towncenter_bellarch_age02",
+      "mon_towncenter_bellarch_age02 \u00b7 main",
+      "NSRC_tc_bell_2_ReferenceHierarchy_Armature"
+    ],
+    "adapter_return_type": "Object",
+    "adapter_return": "bpy.data.objects['AoE4 \u00b7 mon_towncenter_bellarch_age02']",
+    "source_pose_qualified": false
+  },
+  "import_audit": {
+    "model": "art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgm",
+    "actual_objects": [
+      {
+        "name": "AoE4 \u00b7 mon_towncenter_bellarch_age02",
+        "type": "EMPTY",
+        "parent": null,
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_display_name",
+          "garrison_archive_path",
+          "garrison_asset_kind",
+          "garrison_source_asset_kind",
+          "garrison_source_card_path",
+          "garrison_static_companion_policy",
+          "garrison_static_decode_route",
+          "garrison_category",
+          "garrison_civilization",
+          "garrison_archive",
+          "garrison_decode_log",
+          "garrison_conversion_status",
+          "garrison_decode_progress",
+          "garrison_decode_phase",
+          "garrison_conversion_message",
+          "garrison_decode_manifest",
+          "garrison_vertex_count",
+          "garrison_triangle_count",
+          "garrison_projected_triangle_count",
+          "garrison_skipped_degenerate_triangle_count",
+          "garrison_available_group_count",
+          "garrison_projected_group_count",
+          "garrison_visible_preview_group_count",
+          "garrison_lod_policy",
+          "garrison_armature_object",
+          "garrison_skeleton_bone_count",
+          "garrison_skinned_mesh_count",
+          "garrison_material_count",
+          "garrison_texture_count",
+          "garrison_structure_collection_contract_status",
+          "garrison_completeness_status",
+          "garrison_rig_projection_status",
+          "garrison_animation_projection_status",
+          "garrison_animated_asset_plan",
+          "garrison_animation_clip_count",
+          "garrison_animation_action_status",
+          "garrison_animation_source",
+          "garrison_conversion_plan",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded",
+          "garrison_conversion_message": "Decoded 1 mesh parts",
+          "garrison_skipped_degenerate_triangle_count": 0,
+          "garrison_skeleton_bone_count": 12,
+          "garrison_rig_projection_status": "not_applicable",
+          "garrison_animation_projection_status": "binding_plan_not_attached",
+          "garrison_animation_clip_count": 0,
+          "garrison_animation_action_status": "blocked",
+          "garrison_animation_source": "",
+          "garrison_conversion_plan": "{\"status\": \"decoded\", \"completeness\": {\"status\": \"complete\", \"decoded_textures\": 30, \"unsupported_textures\": 0, \"missing_texture_references\": 0, \"non_file_texture_sentinels\": 1, \"rig_projection_status\": \"not_applicable\", \"unresolved_rig_groups\": 0, \"animation_projection_status\": \"binding_plan_not_attached\"}, \"rig_projection\": {\"status\": \"not_applicable\", \"required_group_count\": 0, \"decoded_group_count\": 0, \"unresolved_group_count\": 0, \"groups\": [], \"skeleton_hierarchy_status\": \"hierarchy_decoded\", \"skeleton_bone_count\": 12, \"skeleton_rest_pose_status\": \"local_reference_transforms_decoded\", \"qualified_skin_palette_count\": 0}, \"animation_projection\": {\"status\": \"binding_plan_not_attached\", \"resolution\": {\"status\": \"not_configured\"}, \"template\": {\"status\": \"not_resolved\", \"template_id\": null, \"role\": \"unresolved\", \"source_logical_path\": null, \"clip_inventory_status\": \"unavailable\", \"gameplay_action_mapping_status\": \"not_decoded\", \"family_count\": 0, \"families\": []}, \"clip_count\": 0, \"clips\": [], \"action_import_status\": \"blocked\", \"blockers\": [\"animation_binding_plan\"], \"discovery\": {\"status\": \"no_linked_library\", \"rgm_sha256\": \"c08c2dac730822a629c99ed40b7c318de14f5d507a1092c4f098cbad8aa1b828\", \"requested_logical_path\": \"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgo\", \"candidates\": [], \"warnings\": [\"No direct stock attachment route found\"], \"available_owners\": [], \"selected_owner\": null}}, \"animated_asset_import_plan\": {\"schema\": \"garrison.animated-asset-import-plan/v1\", \"status\": \"deform_ready_animation_binding_missing\", \"source\": {\"logical_path\": \"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgm\", \"model\": {\"logical_path\": \"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgm\", \"sha256\": \"c08c2dac730822a629c99ed40b7c318de14f5d507a1092c4f098cbad8aa1b828\"}}, \"layers\": {\"geometry\": {\"status\": \"ready\", \"group_count\": 1, \"vertex_count\": 2088, \"triangle_count\": 1504}, \"materials\": {\"status\": \"ready\", \"material_count\": 2, \"decoded_texture_count\": 30}, \"deform\": {\"status\": \"partial\", \"authoritative_source\": \"RGM_SKLN_SKMS_SKIN\", \"bone_count\": 12, \"qualified_palette_count\": 0, \"skinned_group_count\": 0, \"weighted_vertex_count\": 0, \"weights_status\": \"partial_or_unavailable\", \"weight_diagnostics\": {\"status\": \"observed_decoded_skin_streams\", \"group_count\": 0, \"vertex_count\": 0, \"weighted_vertex_count\": 0, \"zero_weight_vertex_count\": 0, \"non_unit_weight_sum_vertex_count\": 0, \"min_weight_sum\": 0.0, \"max_weight_sum\": 0.0, \"max_influences_per_vertex\": 0, \"groups\": []}, \"display_bones\": \"non_authoritative_guides_only\"}, \"animation\": {\"status\": \"binding_plan_not_attached\", \"resolution\": {\"status\": \"not_configured\"}, \"template\": {\"status\": \"not_resolved\", \"template_id\": null, \"role\": \"unresolved\", \"source_logical_path\": null, \"clip_inventory_status\": \"unavailable\", \"gameplay_action_mapping_status\": \"not_decoded\", \"family_count\": 0, \"families\": []}, \"clip_count\": 0, \"clips\": [], \"action_import_status\": \"blocked\", \"blockers\": [\"animation_binding_plan\"], \"discovery\": {\"status\": \"no_linked_library\", \"rgm_sha256\": \"c08c2dac730822a629c99ed40b7c318de14f5d507a1092c4f098cbad8aa1b828\", \"requested_logical_path\": \"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgo\", \"candidates\": [], \"warnings\": [\"No direct stock attachment route found\"], \"available_owners\": [], \"selected_owner\": null}}}, \"blender_projection\": {\"mesh_materials\": \"create_now\", \"deform_armature_weights\": \"partial_or_not_applicable\", \"actions\": \"blocked\", \"root_motion\": \"blocked_separate_projection_required\", \"control_rig\": \"deferred_non_authoritative_layer\", \"native_animation_editing\": {\"status\": \"blocked_partial_deform_rig\", \"pose_and_weight_editing\": \"blocked\", \"user_authored_actions\": \"blocked\", \"stock_clip_actions\": \"qualified_clip_payload_required\", \"editors\": [], \"action_data_model\": \"blender_5_2_layered_actions_and_armature_slots\", \"nla_policy\": \"blocked_until_deform_rig_is_ready\", \"pose_library\": \"blocked\", \"source_boundary\": \"native editing never promotes RHKA metadata or candidate samples into a decoded stock Action\"}}, \"retargeting\": {\"status\": \"future_optional_capability\", \"core_dependency\": false, \"policy\": \"capability_probes_for_user_installed_services_and_addons\", \"fallback\": \"native_raw_deform_actions_and_nla\"}, \"claims\": [{\"status\": \"confirmed\", \"claim\": \"decoded geometry and materials share one stock-static import\", \"evidence\": [\"layers.geometry\", \"layers.materials\"]}, {\"status\": \"inferred\", \"claim\": \"qualified RGM palettes bind mesh weights to the authoritative deform armature\", \"evidence\": [\"layers.deform\"]}, {\"status\": \"inferred\", \"claim\": \"linked-library discovery is a preview candidate, not runtime action selection\", \"evidence\": [\"layers.animation.discovery\"]}, {\"status\": \"hypothesis\", \"claim\": \"optional retarget services can improve authoring UX without becoming decoder authorities\", \"evidence\": [\"retargeting\"]}, {\"status\": \"confirmed\", \"claim\": \"native Blender editing is reserved for explicit user-authored or independently qualified Actions\", \"evidence\": [\"blender_projection.native_animation_editing\"]}], \"boundaries\": [\"no Blender Action is created from hierarchy or clip metadata alone\", \"semantic transform samples and a full RHKA-to-RGM basis remain mandatory\", \"root motion is not inferred from hips\", \"retargeting services and add-ons are optional executors\"], \"plan_id\": \"56dbbc07bae1362f244cca989d1f0f273f1fd4222c5ac4dd8ab7b8b6848f1e87\"}, \"warnings\": [], \"blockers\": [], \"entity_binding\": {\"status\": \"unresolved\", \"reason\": \"An art RGO/RGM path is not itself a qualified gameplay EBP identity.\", \"stats\": null}, \"encoder_contract\": {\"status\": \"source-preserving-projection\", \"lossless_chunk_sources_retained\": true, \"editable_fields\": [\"positions\", \"normals\", \"UVMap\", \"UV2\", \"material parameters\", \"texture images\"], \"unknown_fields\": \"retained in hash-bound source files; encoder must patch known spans or recook\", \"direct_binary_reencode_enabled\": false, \"official_recook_path\": \"FBX/material/texture source projection -> existing core burner pipeline\", \"confirmed_stock_channel_layouts\": {\"albedoTex\": \"BC1/BC3 sRGB RGB; optional alpha supplied by the semantic slot\", \"normalMap\": \"BC3 R=emissive, G=normal_y, B=ambient_occlusion, A=normal_x\", \"metalTex\": \"BC3 R=metalness, G=dielectric, B=height, A=roughness\", \"maskTex2\": \"BC1 linear R=layer2, G=layer3, B=layer4\", \"maskTex5\": \"BC1 linear R=layer5, G=layer6, B=layer7\"}}}"
+        }
+      },
+      {
+        "name": "mon_towncenter_bellarch_age02 \u00b7 main",
+        "type": "MESH",
+        "parent": "AoE4 \u00b7 mon_towncenter_bellarch_age02",
+        "parent_type": "OBJECT",
+        "parent_bone": "",
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_in_Blender_probe": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "custom_property_names": [
+          "garrison_logical_path",
+          "garrison_conversion_status",
+          "garrison_asset_root",
+          "garrison_mesh_index",
+          "garrison_source_part_name",
+          "garrison_group_index",
+          "garrison_material_slot",
+          "garrison_material_assignment_confidence",
+          "garrison_lod_level",
+          "garrison_variant",
+          "garrison_visibility_policy",
+          "garrison_preview_default_visible",
+          "native_probe_model",
+          "native_probe_manifest",
+          "native_probe_manifest_sha256",
+          "native_probe_owner"
+        ],
+        "bounded_garrison_projection_properties": {
+          "garrison_conversion_status": "decoded"
+        },
+        "vertex_count": 2088,
+        "named_vertex_groups": [],
+        "weighted_vertex_count": 0,
+        "armature_modifiers": []
+      }
+    ],
+    "native_bound_source_audit": [
+      {
+        "source": "frag_main_dest_floor_01_004",
+        "expected_parent_bone": "hlp_frag_main_dest_floor_01_004",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "frag_main_dest_pillar_02_002",
+        "expected_parent_bone": "hlp_frag_main_dest_pillar_02_002",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "frag_main_dest_pillar_02_001",
+        "expected_parent_bone": "hlp_frag_main_dest_pillar_02_001",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "frag_main_dest_pillar_01_001",
+        "expected_parent_bone": "hlp_frag_main_dest_pillar_01_001",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "frag_main_dest_pillar_01_002",
+        "expected_parent_bone": "hlp_frag_main_dest_pillar_01_002",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "frag_main_dest_beams_01_002",
+        "expected_parent_bone": "hlp_frag_main_dest_beams_01_002",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "frag_main_dest_beams_01_001",
+        "expected_parent_bone": "hlp_frag_main_dest_beams_01_001",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "main_dest_bell_01",
+        "expected_parent_bone": "hlp_main_dest_bell_01",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "frag_main_dest_floor_01_003",
+        "expected_parent_bone": "hlp_frag_main_dest_floor_01_003",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "frag_main_dest_floor_01_002",
+        "expected_parent_bone": "hlp_frag_main_dest_floor_01_002",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      },
+      {
+        "source": "frag_main_dest_floor_01_001",
+        "expected_parent_bone": "hlp_frag_main_dest_floor_01_001",
+        "exact_source_identity_matches": [],
+        "direct_native_bone_parent_confirmed": false,
+        "status": "Unresolved source-node association; do not claim missing weights imply missing rigid binding"
+      }
+    ],
+    "world_pose_qualified": false,
+    "source_pose_qualified": false,
+    "no_skin_weights_is_not_itself_a_failure": true,
+    "skin_palette_contract": {
+      "status": "not_applicable",
+      "bound_group_count": 0,
+      "unbound_group_count": 0,
+      "groups": []
+    }
+  },
+  "mesh_object_names": [
+    "mon_towncenter_bellarch_age02 \u00b7 main"
+  ],
+  "reference_geometry": {
+    "model": "art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgm",
+    "coordinate_frame": "Identity-placed Blender reference probe; not native world",
+    "quantization_metres": 1e-05,
+    "expected_triangles": 1504,
+    "imported_triangles": 1504,
+    "missing_triangles": 0,
+    "additional_triangles": 0,
+    "exact_quantized_reference_match": true,
+    "raw_repeated_vertex_index_faces": 0,
+    "expected_triangles_after_repeated_index_filter": 1504,
+    "missing_nonrepeated_index_triangles": 0,
+    "additional_against_repeated_index_filter": 0,
+    "exact_projectable_reference_match": true,
+    "projection_filter_scope": "Only repeated vertex INDEX faces excluded. Zero-area/coincident-position faces with distinct indices remain expected. Original raw manifest retained.",
+    "source_pose_qualified": false
+  },
+  "explicit_reference_hierarchy": {
+    "model": "art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgm",
+    "collection": "NSRC_tc_bell_2_ReferenceHierarchy",
+    "armature": "NSRC_tc_bell_2_ReferenceHierarchy_Armature",
+    "object_names": [
+      "NSRC_tc_bell_2_ReferenceHierarchy_Armature"
+    ],
+    "bone_count": 12,
+    "reference_bone_audit": {
+      "model": "art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgm",
+      "bones": [
+        {
+          "name": "hlp_main_dest_bell_01",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_quadrant_none_0_",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_floor_01_001",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_floor_01_002",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_floor_01_003",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_floor_01_004",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_beams_01_001",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_beams_01_002",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_pillar_01_002",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_pillar_01_001",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_pillar_02_001",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_pillar_02_002",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        }
+      ],
+      "frame": "Armature-local reference comparison; not native world pose",
+      "source_pose_qualified": false
+    },
+    "inverse_reference_contract": {
+      "model": "art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgm",
+      "bone_count": 12,
+      "bones": [
+        {
+          "name": "hlp_main_dest_bell_01",
+          "native_index": 0,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.01317165419459343
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              -0.010347778908908367
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              2.020827531814575
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.01317165419459343,
+            2.020827531814575,
+            0.010347778908908367,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "55076ab5d32ed0df75f8cb8cc19f008e5f41caab392b953f07b85cb1c2d76f5c"
+        },
+        {
+          "name": "hlp_quadrant_none_0_",
+          "native_index": 1,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.0006894836551509798
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              0.02782910130918026
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              1.411177396774292
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0006894836551509798,
+            1.411177396774292,
+            -0.02782910130918026,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "377f203f6e75c42a5b5fa22984079a3cc9684d096eae355f5908afee0f7b3639"
+        },
+        {
+          "name": "hlp_frag_main_dest_floor_01_001",
+          "native_index": 2,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.7398788928985596
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              -0.17650869488716125
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.1062859520316124
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            -0.7398788928985596,
+            0.1062859520316124,
+            0.17650869488716125,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "4ced577c0ff9228ab584f428f7218de16d8d8a447bbe8159f535aca7d471480d"
+        },
+        {
+          "name": "hlp_frag_main_dest_floor_01_002",
+          "native_index": 3,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.09756547957658768
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              0.6283504962921143
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.10628592222929001
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            -0.09756547957658768,
+            0.10628592222929001,
+            -0.6283504962921143,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "76b83df2c5150267df89a07917c9526c2101a22447d8b8bb07db72cec2a6fe5b"
+        },
+        {
+          "name": "hlp_frag_main_dest_floor_01_003",
+          "native_index": 4,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -2.117157055181451e-05
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              -0.7487835884094238
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.10628616064786911
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            2.117157055181451e-05,
+            0.10628616064786911,
+            0.7487835884094238,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "a47cc666dce3df25b4fc76e7ef75a53c3f3677f5533d7607ed779c7dbb84b103"
+        },
+        {
+          "name": "hlp_frag_main_dest_floor_01_004",
+          "native_index": 5,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.8425474762916565
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              -3.0517577442878974e-07
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.10628610849380493
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.8425474762916565,
+            0.10628610849380493,
+            3.0517577442878974e-07,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "32104e618f7b5c77cd8e394b87dfef23f722c7f235c524dbf50a903ae75afa25"
+        },
+        {
+          "name": "hlp_frag_main_dest_beams_01_001",
+          "native_index": 6,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.004735223948955536
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              -0.7061536908149719
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              2.362008571624756
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            -0.004735223948955536,
+            2.362008571624756,
+            0.7061536908149719,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "d5667c9de35b267c40fba3b50bc491f96250d04dcb48728441208aa5ba548ca4"
+        },
+        {
+          "name": "hlp_frag_main_dest_beams_01_002",
+          "native_index": 7,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.004837146494537592
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              0.6184961199760437
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              2.357771396636963
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.004837146494537592,
+            2.357771396636963,
+            -0.6184961199760437,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "d662010644e6f30667e8e1fa2ae6226bcfd0c5a9408a6c066fceb2e96cbed045"
+        },
+        {
+          "name": "hlp_frag_main_dest_pillar_01_002",
+          "native_index": 8,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.0011728067183867097
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              1.1852413415908813
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.8774719834327698
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0011728067183867097,
+            0.8774719834327698,
+            -1.1852413415908813,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "d122a6de8037855909971bff0ede56b3bff479a5b8d33255a78bcf32800744b4"
+        },
+        {
+          "name": "hlp_frag_main_dest_pillar_01_001",
+          "native_index": 9,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.007023751735687256
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              1.1842609643936157
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              1.8528369665145874
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.007023751735687256,
+            1.8528369665145874,
+            -1.1842609643936157,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "5a0efc4557d0c6a66a86753aeb831229bf9119871b9d51bc302592d8a56a8ee1"
+        },
+        {
+          "name": "hlp_frag_main_dest_pillar_02_001",
+          "native_index": 10,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.00011030578752979636
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              -1.1450836658477783
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              0.9352831244468689
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            -0.00011030578752979636,
+            0.9352831244468689,
+            1.1450836658477783,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "18c06339c3b6b0d2bb9f2248e851b250d9b4b61bb54a9e229c99cc34f7876967"
+        },
+        {
+          "name": "hlp_frag_main_dest_pillar_02_002",
+          "native_index": 11,
+          "parent_index": -1,
+          "parent_name": null,
+          "expected_reference_matrix_row_major": [
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.010792973451316357
+            ],
+            [
+              0.9999999999999998,
+              0.0,
+              -2.220446049250313e-16,
+              -1.1441189050674438
+            ],
+            [
+              2.220446049250313e-16,
+              0.0,
+              0.9999999999999998,
+              1.9022456407546997
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            -0.010792973451316357,
+            1.9022456407546997,
+            1.1441189050674438,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "SKLN_record_sha256": "e1e16af4d5596c9b2c2587db3e71b80c4de4117e54116d7c05deccfca227da21"
+        }
+      ],
+      "native_rgm_sha256": "c08c2dac730822a629c99ed40b7c318de14f5d507a1092c4f098cbad8aa1b828",
+      "SKLN_payload_sha256": "eec7634eeda8b6ce3eba7761e16230fddc3e1a7883f54b92c0c57162a6632673",
+      "MSCL_payload_sha256": "2833f8ae9493da7d4f345de13e4fa2f45008c939897b5560564d1195a9b1a34b",
+      "checked_bound_source_count": 11,
+      "maximum_inverse_reference_error": 2.3841857954794934e-07,
+      "formula": "B * native_global_reference * K; parent globals recomputed from exact raw local TRS",
+      "qualification": "Exact native reference hierarchy and inverse-reference numeric relation; not engine physical-pivot or animation proof"
+    },
+    "display_tail_length_metres": 0.16,
+    "reference_projection_only": true,
+    "native_engine_physical_pivots_qualified": false,
+    "source_pose_qualified": false,
+    "next_step": "Append object_names to exact public import IDs, then rigid_source_views and reversible pose/static-partition checks"
+  },
+  "reference_bones": [
+    {
+      "model": "art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgm",
+      "bones": [
+        {
+          "name": "hlp_main_dest_bell_01",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_quadrant_none_0_",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_floor_01_001",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_floor_01_002",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_floor_01_003",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_floor_01_004",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_beams_01_001",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_beams_01_002",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_pillar_01_002",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_pillar_01_001",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_pillar_02_001",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        },
+        {
+          "name": "hlp_frag_main_dest_pillar_02_002",
+          "present": true,
+          "expected_parent": null,
+          "actual_parent": null,
+          "maximum_matrix_residual": 0.0,
+          "public_reference_projection_matches": true
+        }
+      ],
+      "frame": "Armature-local reference comparison; not native world pose",
+      "source_pose_qualified": false
+    }
+  ],
+  "rigid_views": {
+    "model": "art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgm",
+    "source_view_objects": [
+      "NSRC_tc_bell_2_RigidSources_0",
+      "NSRC_tc_bell_2_RigidSources_1",
+      "NSRC_tc_bell_2_RigidSources_2",
+      "NSRC_tc_bell_2_RigidSources_3",
+      "NSRC_tc_bell_2_RigidSources_4",
+      "NSRC_tc_bell_2_RigidSources_5",
+      "NSRC_tc_bell_2_RigidSources_6",
+      "NSRC_tc_bell_2_RigidSources_7",
+      "NSRC_tc_bell_2_RigidSources_8",
+      "NSRC_tc_bell_2_RigidSources_9",
+      "NSRC_tc_bell_2_RigidSources_10",
+      "NSRC_tc_bell_2_RigidSources_11"
+    ],
+    "armature": "NSRC_tc_bell_2_ReferenceHierarchy_Armature",
+    "reference_geometry_preserved": true,
+    "source_pose_qualified": false,
+    "warning": "Rigid inspection reconstruction only; bone rest matrices/pivots and exact native motion still need comparison"
+  },
+  "reversible_pose": {
+    "bone": "hlp_main_dest_bell_01",
+    "probe_radians": 0.035,
+    "max_Blender_scene_displacement_by_object": {
+      "NSRC_tc_bell_2_RigidSources_0": 0.0,
+      "NSRC_tc_bell_2_RigidSources_1": 0.0,
+      "NSRC_tc_bell_2_RigidSources_2": 0.0,
+      "NSRC_tc_bell_2_RigidSources_3": 0.0,
+      "NSRC_tc_bell_2_RigidSources_4": 0.0,
+      "NSRC_tc_bell_2_RigidSources_5": 0.0,
+      "NSRC_tc_bell_2_RigidSources_6": 0.0,
+      "NSRC_tc_bell_2_RigidSources_7": 0.0,
+      "NSRC_tc_bell_2_RigidSources_8": 0.026855478817013067,
+      "NSRC_tc_bell_2_RigidSources_9": 0.0,
+      "NSRC_tc_bell_2_RigidSources_10": 0.0,
+      "NSRC_tc_bell_2_RigidSources_11": 0.0
+    },
+    "restored_reference_max_error": 0.0,
+    "reference_restored": true,
+    "rigid_movement_partition": [
+      {
+        "object": "NSRC_tc_bell_2_RigidSources_0",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_tc_bell_2_RigidSources_1",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_tc_bell_2_RigidSources_2",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_tc_bell_2_RigidSources_3",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_tc_bell_2_RigidSources_4",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_tc_bell_2_RigidSources_5",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_tc_bell_2_RigidSources_6",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_tc_bell_2_RigidSources_7",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_tc_bell_2_RigidSources_8",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_tc_bell_2_RigidSources_9",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_tc_bell_2_RigidSources_10",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NSRC_tc_bell_2_RigidSources_11",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      }
+    ],
+    "keyframes_created": false,
+    "native_world_pose_qualified": false,
+    "qualification": "Reversible source-pose responsiveness only; verify expected bound/static source partition and physical pivot separately"
+  },
+  "native_public_appearance": {
+    "target": "tc_bell_2",
+    "groups": [
+      {
+        "object": "mon_towncenter_bellarch_age02 \u00b7 main",
+        "mesh_index": 0,
+        "group_index": 0,
+        "garrison_logical_path": "art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgm",
+        "garrison_material_slot": "main",
+        "garrison_material_assignment_confidence": "inferred_rgm_mscl_partition",
+        "expected_native_slot": [
+          "main",
+          "exact_native_MSCL_collection_slot"
+        ],
+        "materials": [
+          {
+            "slot": 0,
+            "name": "AoE IV \u00b7 main \u00b7 f8082f1d",
+            "custom_properties": {
+              "garrison_structure_graph_version": 9,
+              "garrison_rrmaterial_sha256": "f8082f1d4b0af48e9d30f2068107609af850cc774464bf18707ffbd13a409f27",
+              "garrison_material_class": "structure",
+              "garrison_pixel_semantics_qualified": false,
+              "garrison_runtime_section_join_confirmed": false,
+              "garrison_structure_mask_contract_json": "{\"maskTex2\":{\"format\":\"BC1_UNORM\",\"channels\":{\"R\":2,\"G\":3,\"B\":4}},\"maskTex5\":{\"format\":\"BC1_UNORM\",\"channels\":{\"R\":5,\"G\":6,\"B\":7}},\"maskAlpha\":{\"format\":\"BC1_UNORM\",\"channels\":{\"R\":\"alpha\",\"G\":\"charred\",\"B\":\"terrain\"}}}",
+              "garrison_parameters_json": "[{\"name\":\"terrainblend_maskoffsetscale\",\"type\":\"Float4\",\"values\":[1.0,1.0,1.0,1.0],\"raw_values\":[\"1.0\",\"1.0\",\"1.0\",\"1.0\"]},{\"name\":\"terrainblend_falloff\",\"type\":\"Float4\",\"values\":[1.0,0.0,0.5,0.5],\"raw_values\":[\"1.0\",\"0.0\",\"0.5\",\"0.5\"]},{\"name\":\"preserveBaseNormal234\",\"type\":\"Float4\",\"values\":[0.0,0.0,1.0,0.0],\"raw_values\":[\"0.0\",\"0.0\",\"1.0\",\"0.0\"]},{\"name\":\"heightBias1234\",\"type\":\"Float4\",\"values\":[-0.05000000074505806,0.0,0.0,0.0],\"raw_values\":[\"-0.05000000074505806\",\"0.0\",\"0.0\",\"0.0\"]},{\"name\":\"mask23LevelMinMax\",\"type\":\"Float4\",\"values\":[0.0,1.0,0.0,1.0],\"raw_values\":[\"0.0\",\"1.0\",\"0.0\",\"1.0\"]},{\"name\":\"mask45LevelMinMax\",\"type\":\"Float4\",\"values\":[0.0,1.0,0.0,1.0],\"raw_values\":[\"0.0\",\"1.0\",\"0.0\",\"1.0\"]},{\"name\":\"mask67LevelMinMax\",\"type\":\"Float4\",\"values\":[0.0,1.0,0.0,1.0],\"raw_values\":[\"0.0\",\"1.0\",\"0.0\",\"1.0\"]},{\"name\":\"secondaryMaskStrength234\",\"type\":\"Float4\",\"values\":[0.0,0.0,0.0,0.0],\"raw_values\":[\"0.0\",\"0.0\",\"0.0\",\"0.0\"]},{\"name\":\"highlightColor1\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"midtoneColor1\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"shadowColor1\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"highlightColor2\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"midtoneColor2\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"shadowColor2\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"highlightColor3\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"midtoneColor3\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"shadowColor3\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"highlightColor4\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"midtoneColor4\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"shadowColor4\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"maskToNormalIntensities234\",\"type\":\"Float4\",\"values\":[0.0,0.0,0.0,0.0],\"raw_values\":[\"0.0\",\"0.0\",\"0.0\",\"0.0\"]},{\"name\":\"maskToNormalWidths234\",\"type\":\"Float4\",\"values\":[0.0,0.0,0.0,0.0],\"raw_values\":[\"0.0\",\"0.0\",\"0.0\",\"0.0\"]},{\"name\":\"options\",\"type\":\"Float4\",\"values\":[127.0,0.0,0.0,8.0],\"raw_values\":[\"127.0\",\"0.0\",\"0.0\",\"8.0\"]},{\"name\":\"highlightColor5\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"midtoneColor5\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"shadowColor5\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"highlightColor6\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"midtoneColor6\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"shadowColor6\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"highlightColor7\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"midtoneColor7\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"shadowColor7\",\"type\":\"Float4\",\"values\":[0.5,0.5,0.5,1.0],\"raw_values\":[\"0.5\",\"0.5\",\"0.5\",\"1.0\"]},{\"name\":\"maskToNormalIntensities567\",\"type\":\"Float4\",\"values\":[0.0,0.0,0.0,0.0],\"raw_values\":[\"0.0\",\"0.0\",\"0.0\",\"0.0\"]},{\"name\":\"maskToNormalWidths567\",\"type\":\"Float4\",\"values\":[0.0,0.0,0.0,0.0],\"raw_values\":[\"0.0\",\"0.0\",\"0.0\",\"0.0\"]},{\"name\":\"heightBias567\",\"type\":\"Float4\",\"values\":[0.0,0.0,0.0,0.0],\"raw_values\":[\"0.0\",\"0.0\",\"0.0\",\"0.0\"]},{\"name\":\"secondaryMaskStrength567\",\"type\":\"Float4\",\"values\":[0.0,0.0,0.0,0.0],\"raw_values\":[\"0.0\",\"0.0\",\"0.0\",\"0.0\"]},{\"name\":\"preserveBaseNormal567\",\"type\":\"Float4\",\"values\":[0.0,0.0,0.0,0.0],\"raw_values\":[\"0.0\",\"0.0\",\"0.0\",\"0.0\"]}]",
+              "garrison_texture_bindings_json": "[{\"name\":\"albedoTex\",\"logical_path\":\"art/material_library/substances/structures/wood/483035969372513265_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\be87e5af018e_483035969372513265_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/wood/str_wood_mon_planks_01_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},{\"name\":\"albedoTex2\",\"logical_path\":\"art/material_library/substances/structures/metal/7241555012125033584_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\9462e17b1f53_7241555012125033584_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/metal/str_metal_bronze_01_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},{\"name\":\"albedoTex3\",\"logical_path\":\"art/material_library/substances/structures/building_kits/5438319526367779973_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\b3a3d5a0a220_5438319526367779973_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/building_kits/str_building_kits_mon_civilian_01_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},{\"name\":\"albedoTex4\",\"logical_path\":\"art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\5db26348116b_12041615973339707457_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/plaster/str_plaster_cob_01_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},{\"name\":\"__default\",\"logical_path\":\"__default\",\"projection_path\":null},{\"name\":\"normalMap\",\"logical_path\":\"art/material_library/substances/structures/wood/16719058979467564904_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d13fac608962_16719058979467564904_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/wood/str_wood_mon_planks_01_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"normalMap2\",\"logical_path\":\"art/material_library/substances/structures/metal/4632695196058202317_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\e8f364dd7d42_4632695196058202317_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/metal/str_metal_bronze_01_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"normalMap3\",\"logical_path\":\"art/material_library/substances/structures/building_kits/7962883804097126265_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\71fc35227468_7962883804097126265_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/building_kits/str_building_kits_mon_civilian_01_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"normalMap4\",\"logical_path\":\"art/material_library/substances/structures/plaster/18231663582228185424_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\7b494a2f28b9_18231663582228185424_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/plaster/str_plaster_cob_01_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"secondaryMaskTex2\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},{\"name\":\"secondaryMaskTex3\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},{\"name\":\"secondaryMaskTex4\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},{\"name\":\"metalTex\",\"logical_path\":\"art/material_library/substances/structures/wood/7313872086830609367_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\42e22064a7ec_7313872086830609367_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/wood/str_wood_mon_planks_01_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"metalTex2\",\"logical_path\":\"art/material_library/substances/structures/metal/1072835348066581770_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\5919e951bdd5_1072835348066581770_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/metal/str_metal_bronze_01_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"metalTex3\",\"logical_path\":\"art/material_library/substances/structures/building_kits/5406619423465961107_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\148bf8ec194c_5406619423465961107_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/building_kits/str_building_kits_mon_civilian_01_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"metalTex4\",\"logical_path\":\"art/material_library/substances/structures/plaster/10481810468234262313_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\794382be660a_10481810468234262313_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/plaster/str_plaster_cob_01_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"maskTex2\",\"logical_path\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/17182622396638895020_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\a92cf3197cd5_17182622396638895020_packed.dds\",\"texture_name\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02_main_mask2\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},{\"name\":\"maskAlpha\",\"logical_path\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/17080821180384490439_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\57fb9ef59d8b_17080821180384490439_packed.dds\",\"texture_name\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02_main_maskalpha\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},{\"name\":\"overlay1Mask\",\"logical_path\":\"art/material_library/painter_materials/textures/white_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\6f81fe520eb8_white_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/white_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},{\"name\":\"overlay2Mask\",\"logical_path\":\"art/material_library/painter_materials/textures/black_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\0eb8439c962e_black_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/black_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},{\"name\":\"overlay1Albedo\",\"logical_path\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/7326295115712489074_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\ad22c98be0ae_7326295115712489074_packed.dds\",\"texture_name\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02_main_overlay1_ovralb\",\"projection_format\":\"BC3_UNORM_SRGB\",\"internal_format\":23},{\"name\":\"overlay2Albedo\",\"logical_path\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/4655537433773678389_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\c91dd0bda8c4_4655537433773678389_packed.dds\",\"texture_name\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02_main_overlay2_ovralb\",\"projection_format\":\"BC3_UNORM_SRGB\",\"internal_format\":23},{\"name\":\"albedoTexCharred\",\"logical_path\":\"art/material_library/substances/structures/damage/str_damage_charred_01_alb.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\6f3011ce41e3_str_damage_charred_01_alb.dds\",\"texture_name\":\"art/material_library/substances/structures/damage/str_damage_charred_01_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},{\"name\":\"metalTexCharred\",\"logical_path\":\"art/material_library/substances/structures/damage/11755559493558267954_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\85c59cbb9679_11755559493558267954_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/damage/str_damage_charred_01_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"normalMapCharred\",\"logical_path\":\"art/material_library/substances/structures/damage/11844705194956636559_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\2b5e473bc500_11844705194956636559_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/damage/str_damage_charred_01_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"terrainBlendMask\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},{\"name\":\"albedoTex5\",\"logical_path\":\"art/material_library/substances/structures/debug/6708399669590286008_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\00a2880bf731_6708399669590286008_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/debug/str_debug_team_color_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},{\"name\":\"albedoTex6\",\"logical_path\":\"art/material_library/substances/structures/wood/7667768985313965080_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\52905c99f11a_7667768985313965080_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/wood/str_wood_mon_generic_01_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},{\"name\":\"__default\",\"logical_path\":\"__default\",\"projection_path\":null},{\"name\":\"normalMap5\",\"logical_path\":\"art/material_library/substances/structures/debug/940685202008631679_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\5381da0089b5_940685202008631679_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/debug/str_debug_team_color_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"normalMap6\",\"logical_path\":\"art/material_library/substances/structures/wood/3929457005248636182_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\813030d76ecf_3929457005248636182_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/wood/str_wood_mon_generic_01_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"normalMap7\",\"logical_path\":\"art/default/default_texture/11870108732234244334_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\9d121af4223f_11870108732234244334_packed.dds\",\"texture_name\":\"art/default/default_texture/default_texture_nrm\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"secondaryMaskTex5\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},{\"name\":\"secondaryMaskTex6\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},{\"name\":\"secondaryMaskTex7\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},{\"name\":\"metalTex5\",\"logical_path\":\"art/material_library/substances/structures/debug/17716732775687444425_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\ef0164b43256_17716732775687444425_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/debug/str_debug_team_color_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"metalTex6\",\"logical_path\":\"art/material_library/substances/structures/wood/11180676380638925904_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\df671db50834_11180676380638925904_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/wood/str_wood_mon_generic_01_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},{\"name\":\"__default\",\"logical_path\":\"__default\",\"projection_path\":null},{\"name\":\"maskTex5\",\"logical_path\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/17330684654254522221_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\b6d68652a26a_17330684654254522221_packed.dds\",\"texture_name\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02_main_mask5\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18}]",
+              "garrison_structure_preview_contract_json": "{\"schema\":\"garrison.structure-preview-graph/v2\",\"material_name\":\"main\",\"material_class\":\"structure\",\"layers\":[{\"layer\":1,\"albedo\":{\"name\":\"albedoTex\",\"logical_path\":\"art/material_library/substances/structures/wood/483035969372513265_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\be87e5af018e_483035969372513265_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/wood/str_wood_mon_planks_01_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},\"normal\":{\"name\":\"normalMap\",\"logical_path\":\"art/material_library/substances/structures/wood/16719058979467564904_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d13fac608962_16719058979467564904_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/wood/str_wood_mon_planks_01_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"packed\":{\"name\":\"metalTex\",\"logical_path\":\"art/material_library/substances/structures/wood/7313872086830609367_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\42e22064a7ec_7313872086830609367_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/wood/str_wood_mon_planks_01_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"secondary_mask\":null,\"group_mask\":null,\"group_mask_channel\":null},{\"layer\":2,\"albedo\":{\"name\":\"albedoTex2\",\"logical_path\":\"art/material_library/substances/structures/metal/7241555012125033584_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\9462e17b1f53_7241555012125033584_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/metal/str_metal_bronze_01_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},\"normal\":{\"name\":\"normalMap2\",\"logical_path\":\"art/material_library/substances/structures/metal/4632695196058202317_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\e8f364dd7d42_4632695196058202317_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/metal/str_metal_bronze_01_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"packed\":{\"name\":\"metalTex2\",\"logical_path\":\"art/material_library/substances/structures/metal/1072835348066581770_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\5919e951bdd5_1072835348066581770_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/metal/str_metal_bronze_01_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"secondary_mask\":{\"name\":\"secondaryMaskTex2\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},\"group_mask\":\"maskTex2\",\"group_mask_channel\":\"Red\"},{\"layer\":3,\"albedo\":{\"name\":\"albedoTex3\",\"logical_path\":\"art/material_library/substances/structures/building_kits/5438319526367779973_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\b3a3d5a0a220_5438319526367779973_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/building_kits/str_building_kits_mon_civilian_01_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},\"normal\":{\"name\":\"normalMap3\",\"logical_path\":\"art/material_library/substances/structures/building_kits/7962883804097126265_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\71fc35227468_7962883804097126265_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/building_kits/str_building_kits_mon_civilian_01_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"packed\":{\"name\":\"metalTex3\",\"logical_path\":\"art/material_library/substances/structures/building_kits/5406619423465961107_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\148bf8ec194c_5406619423465961107_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/building_kits/str_building_kits_mon_civilian_01_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"secondary_mask\":{\"name\":\"secondaryMaskTex3\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},\"group_mask\":\"maskTex2\",\"group_mask_channel\":\"Green\"},{\"layer\":4,\"albedo\":{\"name\":\"albedoTex4\",\"logical_path\":\"art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\5db26348116b_12041615973339707457_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/plaster/str_plaster_cob_01_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},\"normal\":{\"name\":\"normalMap4\",\"logical_path\":\"art/material_library/substances/structures/plaster/18231663582228185424_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\7b494a2f28b9_18231663582228185424_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/plaster/str_plaster_cob_01_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"packed\":{\"name\":\"metalTex4\",\"logical_path\":\"art/material_library/substances/structures/plaster/10481810468234262313_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\794382be660a_10481810468234262313_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/plaster/str_plaster_cob_01_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"secondary_mask\":{\"name\":\"secondaryMaskTex4\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},\"group_mask\":\"maskTex2\",\"group_mask_channel\":\"Blue\"},{\"layer\":5,\"albedo\":{\"name\":\"albedoTex5\",\"logical_path\":\"art/material_library/substances/structures/debug/6708399669590286008_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\00a2880bf731_6708399669590286008_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/debug/str_debug_team_color_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},\"normal\":{\"name\":\"normalMap5\",\"logical_path\":\"art/material_library/substances/structures/debug/940685202008631679_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\5381da0089b5_940685202008631679_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/debug/str_debug_team_color_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"packed\":{\"name\":\"metalTex5\",\"logical_path\":\"art/material_library/substances/structures/debug/17716732775687444425_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\ef0164b43256_17716732775687444425_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/debug/str_debug_team_color_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"secondary_mask\":{\"name\":\"secondaryMaskTex5\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},\"group_mask\":\"maskTex5\",\"group_mask_channel\":\"Red\"},{\"layer\":6,\"albedo\":{\"name\":\"albedoTex6\",\"logical_path\":\"art/material_library/substances/structures/wood/7667768985313965080_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\52905c99f11a_7667768985313965080_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/wood/str_wood_mon_generic_01_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},\"normal\":{\"name\":\"normalMap6\",\"logical_path\":\"art/material_library/substances/structures/wood/3929457005248636182_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\813030d76ecf_3929457005248636182_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/wood/str_wood_mon_generic_01_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"packed\":{\"name\":\"metalTex6\",\"logical_path\":\"art/material_library/substances/structures/wood/11180676380638925904_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\df671db50834_11180676380638925904_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/wood/str_wood_mon_generic_01_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"secondary_mask\":{\"name\":\"secondaryMaskTex6\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},\"group_mask\":\"maskTex5\",\"group_mask_channel\":\"Green\"},{\"layer\":7,\"albedo\":null,\"normal\":{\"name\":\"normalMap7\",\"logical_path\":\"art/default/default_texture/11870108732234244334_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\9d121af4223f_11870108732234244334_packed.dds\",\"texture_name\":\"art/default/default_texture/default_texture_nrm\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"packed\":null,\"secondary_mask\":{\"name\":\"secondaryMaskTex7\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},\"group_mask\":\"maskTex5\",\"group_mask_channel\":\"Blue\"}],\"group_masks\":{\"maskTex2\":{\"texture\":{\"name\":\"maskTex2\",\"logical_path\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/17182622396638895020_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\a92cf3197cd5_17182622396638895020_packed.dds\",\"texture_name\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02_main_mask2\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},\"layers\":{\"Red\":2,\"Green\":3,\"Blue\":4},\"format\":\"BC1_UNORM\",\"confidence\":\"confirmed_edf_standard_swizzle\"},\"maskTex5\":{\"texture\":{\"name\":\"maskTex5\",\"logical_path\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/17330684654254522221_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\b6d68652a26a_17330684654254522221_packed.dds\",\"texture_name\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02_main_mask5\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},\"layers\":{\"Red\":5,\"Green\":6,\"Blue\":7},\"format\":\"BC1_UNORM\",\"confidence\":\"confirmed_edf_standard_swizzle\"}},\"packed_layouts\":{\"normal\":{\"format\":\"BC3_UNORM\",\"channels\":{\"Red\":\"emissive\",\"Green\":\"normal_y\",\"Blue\":\"ambient_occlusion\",\"Alpha\":\"normal_x\"},\"confidence\":\"confirmed_edf_standard_swizzle\"},\"material\":{\"format\":\"BC3_UNORM\",\"channels\":{\"Red\":\"metalness\",\"Green\":\"dielectric\",\"Blue\":\"height\",\"Alpha\":\"roughness\"},\"confidence\":\"confirmed_edf_standard_swizzle\"}},\"team_colour\":{\"layer\":5,\"detected\":true,\"mask\":{\"texture\":\"maskTex5\",\"channel\":\"Red\"},\"preview_factor\":0.0,\"runtime_sources\":[\"TeamColourLut\",\"g_teamColourLutIdx\"],\"confidence\":\"confirmed_resources_inferred_structure_application\"},\"painter_overlays\":[{\"index\":1,\"albedo\":{\"name\":\"overlay1Albedo\",\"logical_path\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/7326295115712489074_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\ad22c98be0ae_7326295115712489074_packed.dds\",\"texture_name\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02_main_overlay1_ovralb\",\"projection_format\":\"BC3_UNORM_SRGB\",\"internal_format\":23},\"mask\":{\"name\":\"overlay1Mask\",\"logical_path\":\"art/material_library/painter_materials/textures/white_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\6f81fe520eb8_white_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/white_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},\"coordinate_space\":\"tiled_material_uv\",\"packed_channels\":{\"RGB\":\"albedo\",\"Alpha\":\"roughness\"},\"confidence\":\"confirmed_edf_channels_inferred_tiled_coordinates\"},{\"index\":2,\"albedo\":{\"name\":\"overlay2Albedo\",\"logical_path\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/4655537433773678389_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\c91dd0bda8c4_4655537433773678389_packed.dds\",\"texture_name\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02_main_overlay2_ovralb\",\"projection_format\":\"BC3_UNORM_SRGB\",\"internal_format\":23},\"mask\":{\"name\":\"overlay2Mask\",\"logical_path\":\"art/material_library/painter_materials/textures/black_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\0eb8439c962e_black_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/black_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},\"coordinate_space\":\"tiled_material_uv\",\"packed_channels\":{\"RGB\":\"albedo\",\"Alpha\":\"roughness\"},\"confidence\":\"confirmed_edf_channels_inferred_tiled_coordinates\"}],\"damage\":{\"albedo\":{\"name\":\"albedoTexCharred\",\"logical_path\":\"art/material_library/substances/structures/damage/str_damage_charred_01_alb.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\6f3011ce41e3_str_damage_charred_01_alb.dds\",\"texture_name\":\"art/material_library/substances/structures/damage/str_damage_charred_01_alb\",\"projection_format\":\"BC1_UNORM_SRGB\",\"internal_format\":19},\"normal\":{\"name\":\"normalMapCharred\",\"logical_path\":\"art/material_library/substances/structures/damage/11844705194956636559_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\2b5e473bc500_11844705194956636559_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/damage/str_damage_charred_01_emi\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"packed\":{\"name\":\"metalTexCharred\",\"logical_path\":\"art/material_library/substances/structures/damage/11755559493558267954_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\85c59cbb9679_11755559493558267954_packed.dds\",\"texture_name\":\"art/material_library/substances/structures/damage/str_damage_charred_01_mtl\",\"projection_format\":\"BC3_UNORM\",\"internal_format\":22},\"preview_factor\":0.0,\"confidence\":\"manual_preview_only\"},\"sails\":{\"detected\":false,\"base_normal\":null,\"deformation_masks\":null,\"charred_gradient\":null,\"geometry_stream\":\"SailsPositionDataStream\",\"coordinate_space\":\"UVMap\",\"deformation_preview\":\"preserved_not_simulated\",\"confidence\":\"confirmed_serialized_resources_and_stream\"},\"unresolved\":{\"maskAlpha\":{\"name\":\"maskAlpha\",\"logical_path\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/17080821180384490439_packed.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\57fb9ef59d8b_17080821180384490439_packed.dds\",\"texture_name\":\"art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02_main_maskalpha\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},\"terrainBlendMask\":{\"name\":\"terrainBlendMask\",\"logical_path\":\"art/material_library/painter_materials/textures/middle_gray_msk.rrtex\",\"projection_path\":\"F:\\\\aoe_4_temp\\\\Temp_before_github_push\\\\research\\\\persia_buildings\\\\inventory\\\\decode\\\\09e2b44a31c1\\\\0d1b86bbde9496b9cd10\\\\textures\\\\d5ba288445e3_middle_gray_msk.dds\",\"texture_name\":\"art/material_library/painter_materials/textures/middle_gray_msk\",\"projection_format\":\"BC1_UNORM\",\"internal_format\":18},\"secondary_mask_formula\":\"unresolved\",\"runtime_section_join_confirmed\":false}}",
+              "garrison_material_controls_json": "[{\"id\":\"team_colour\",\"socket\":\"Team Colour\",\"kind\":\"color\",\"default\":[0.025,0.18,0.8,1.0]},{\"id\":\"team_colour_strength\",\"socket\":\"Team Colour Strength\",\"kind\":\"factor\",\"default\":0.0},{\"id\":\"overlay_1\",\"socket\":\"Overlay 1\",\"kind\":\"factor\",\"default\":0.0},{\"id\":\"overlay_2\",\"socket\":\"Overlay 2\",\"kind\":\"factor\",\"default\":0.0},{\"id\":\"charred\",\"socket\":\"Charred Preview\",\"kind\":\"factor\",\"default\":0.0}]",
+              "garrison_ambient_occlusion_preview": "BC3 normalMap blue channel retained; Blender Principled has no direct AO socket"
+            },
+            "images": [
+              {
+                "node": "Essence \u00b7 maskTex2",
+                "image": "a92cf3197cd5_17182622396638895020_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\a92cf3197cd5_17182622396638895020_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 maskTex5",
+                "image": "b6d68652a26a_17330684654254522221_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\b6d68652a26a_17330684654254522221_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 albedoTex",
+                "image": "be87e5af018e_483035969372513265_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\be87e5af018e_483035969372513265_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 normalMap",
+                "image": "d13fac608962_16719058979467564904_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\d13fac608962_16719058979467564904_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 metalTex",
+                "image": "42e22064a7ec_7313872086830609367_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\42e22064a7ec_7313872086830609367_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 albedoTex2",
+                "image": "9462e17b1f53_7241555012125033584_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\9462e17b1f53_7241555012125033584_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 normalMap2",
+                "image": "e8f364dd7d42_4632695196058202317_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\e8f364dd7d42_4632695196058202317_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 metalTex2",
+                "image": "5919e951bdd5_1072835348066581770_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\5919e951bdd5_1072835348066581770_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 secondaryMaskTex2",
+                "image": "d5ba288445e3_middle_gray_msk.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\d5ba288445e3_middle_gray_msk.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 albedoTex3",
+                "image": "b3a3d5a0a220_5438319526367779973_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\b3a3d5a0a220_5438319526367779973_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 normalMap3",
+                "image": "71fc35227468_7962883804097126265_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\71fc35227468_7962883804097126265_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 metalTex3",
+                "image": "148bf8ec194c_5406619423465961107_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\148bf8ec194c_5406619423465961107_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 secondaryMaskTex3",
+                "image": "d5ba288445e3_middle_gray_msk.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\d5ba288445e3_middle_gray_msk.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 albedoTex4",
+                "image": "5db26348116b_12041615973339707457_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\5db26348116b_12041615973339707457_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 normalMap4",
+                "image": "7b494a2f28b9_18231663582228185424_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\7b494a2f28b9_18231663582228185424_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 metalTex4",
+                "image": "794382be660a_10481810468234262313_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\794382be660a_10481810468234262313_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 secondaryMaskTex4",
+                "image": "d5ba288445e3_middle_gray_msk.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\d5ba288445e3_middle_gray_msk.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 albedoTex5",
+                "image": "00a2880bf731_6708399669590286008_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\00a2880bf731_6708399669590286008_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 normalMap5",
+                "image": "5381da0089b5_940685202008631679_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\5381da0089b5_940685202008631679_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 metalTex5",
+                "image": "ef0164b43256_17716732775687444425_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\ef0164b43256_17716732775687444425_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 secondaryMaskTex5",
+                "image": "d5ba288445e3_middle_gray_msk.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\d5ba288445e3_middle_gray_msk.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 albedoTex6",
+                "image": "52905c99f11a_7667768985313965080_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\52905c99f11a_7667768985313965080_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 normalMap6",
+                "image": "813030d76ecf_3929457005248636182_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\813030d76ecf_3929457005248636182_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 metalTex6",
+                "image": "df671db50834_11180676380638925904_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\df671db50834_11180676380638925904_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 secondaryMaskTex6",
+                "image": "d5ba288445e3_middle_gray_msk.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\d5ba288445e3_middle_gray_msk.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 normalMap7",
+                "image": "9d121af4223f_11870108732234244334_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\9d121af4223f_11870108732234244334_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 secondaryMaskTex7",
+                "image": "d5ba288445e3_middle_gray_msk.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\d5ba288445e3_middle_gray_msk.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 overlay1Albedo",
+                "image": "ad22c98be0ae_7326295115712489074_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\ad22c98be0ae_7326295115712489074_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 overlay1Mask",
+                "image": "6f81fe520eb8_white_msk.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\6f81fe520eb8_white_msk.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 overlay2Albedo",
+                "image": "c91dd0bda8c4_4655537433773678389_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\c91dd0bda8c4_4655537433773678389_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 overlay2Mask",
+                "image": "0eb8439c962e_black_msk.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\0eb8439c962e_black_msk.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 albedoTexCharred",
+                "image": "6f3011ce41e3_str_damage_charred_01_alb.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\6f3011ce41e3_str_damage_charred_01_alb.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 metalTexCharred",
+                "image": "85c59cbb9679_11755559493558267954_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\85c59cbb9679_11755559493558267954_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 maskAlpha",
+                "image": "57fb9ef59d8b_17080821180384490439_packed.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\57fb9ef59d8b_17080821180384490439_packed.dds",
+                "packed": false
+              },
+              {
+                "node": "Essence \u00b7 terrainBlendMask",
+                "image": "d5ba288445e3_middle_gray_msk.dds",
+                "filepath": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\d5ba288445e3_middle_gray_msk.dds",
+                "packed": false
+              }
+            ]
+          }
+        ],
+        "polygon_material_indices": [
+          0
+        ],
+        "vertices": 2088,
+        "polygons": 1504
+      }
+    ],
+    "read_only": true,
+    "manifest_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\decoded-static.json",
+    "source_contract_error": null
+  },
+  "appearance_qualification_error": "Traceback (most recent call last):\n  File \"F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\_shared\\probe_native_import.py\", line 58, in main\n    doc['native_source_appearance']=appearance.preserve(target,project['object_names'],views)\n                                    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\_shared\\native_source_appearance.py\", line 258, in preserve\n    _require(len(actual)==len(corners) and maximum_angle<=NORMAL_ANGULAR_LIMIT_DEGREES and maximum_length_error<.0001,\n    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        'Applied custom normal mismatch; raw retained; exact audit='+json.dumps(audit,separators=(',',':')))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\_shared\\native_source_appearance.py\", line 29, in _require\n    raise RuntimeError(message)\nRuntimeError: Applied custom normal mismatch; raw retained; exact audit={\"object\":\"NSRC_tc_bell_2_RigidSources_4\",\"mesh_index\":0,\"group_index\":0,\"api\":\"Mesh.normals_split_custom_set(corner_vectors); Mesh.update(); Mesh.corner_normals[].vector\",\"expected_corner_count\":168,\"actual_corner_count\":168,\"maximum_component_error\":0.9998425841331482,\"corners_exceeding_original_provisional_component_tolerance\":3,\"maximum_angular_error_degrees\":89.09064818981965,\"angular_fidelity_limit_degrees\":0.1,\"maximum_normal_length_error\":0.9840790685266256,\"raw_native_normals_authoritative\":true,\"Blender_normals_mathematically_identical\":false,\"native_normal_attribute_retained\":true,\"has_custom_normals\":true,\"normals_domain\":\"CORNER\",\"polygon_count\":56,\"degenerate_polygon_indices\":[14,48],\"worst_corners\":[{\"loop\":43,\"polygon\":14,\"vertex\":45,\"maximum_component_error\":0.9998425841331482,\"expected\":[-0.9998425841331482,0.00793525855988264,0.01587051711976528],\"actual\":[0.0,0.0,0.015920931473374367],\"angular_error_degrees\":89.09064818981965,\"actual_length\":0.01592093141021571,\"dot_expected_actual\":0.000252673402428627,\"polygon_area\":0.0,\"polygon_normal\":[0.0,0.0,1.0],\"degenerate_polygon\":true},{\"loop\":144,\"polygon\":48,\"vertex\":63,\"maximum_component_error\":0.9368981942534447,\"expected\":[0.22665935754776,-0.3751603066921234,-0.8988215923309326],\"actual\":[0.05765405669808388,-0.09137137234210968,0.038076601922512054],\"angular_error_degrees\":83.42205381873669,\"actual_length\":0.11455367878162322,\"dot_expected_actual\":0.013122671283781528,\"polygon_area\":0.0,\"polygon_normal\":[0.0,0.0,1.0],\"degenerate_polygon\":true},{\"loop\":148,\"polygon\":49,\"vertex\":63,\"maximum_component_error\":0.9368981942534447,\"expected\":[0.22665935754776,-0.3751603066921234,-0.8988215923309326],\"actual\":[0.05765405669808388,-0.09137137234210968,0.038076601922512054],\"angular_error_degrees\":83.42205381873669,\"actual_length\":0.11455367878162322,\"dot_expected_actual\":0.013122671283781528,\"polygon_area\":5.940813207416795e-05,\"polygon_normal\":[0.22474095225334167,-0.3561742901802063,-0.9069902896881104],\"degenerate_polygon\":false},{\"loop\":120,\"polygon\":40,\"vertex\":33,\"maximum_component_error\":3.88026237487793e-05,\"expected\":[0.388719767332077,0.4120429456233978,-0.8240858912467957],\"actual\":[0.38868096470832825,0.41206103563308716,-0.8240951895713806],\"angular_error_degrees\":0.002510150050811338,\"actual_length\":1.000000029802322,\"dot_expected_actual\":1.0,\"polygon_area\":0.0007421646150760353,\"polygon_normal\":[0.3919220268726349,0.4069805145263672,-0.8250842094421387],\"degenerate_polygon\":false},{\"loop\":123,\"polygon\":41,\"vertex\":33,\"maximum_component_error\":3.88026237487793e-05,\"expected\":[0.388719767332077,0.4120429456233978,-0.8240858912467957],\"actual\":[0.38868096470832825,0.41206103563308716,-0.8240951895713806],\"angular_error_degrees\":0.002510150050811338,\"actual_length\":1.000000029802322,\"dot_expected_actual\":1.0,\"polygon_area\":0.0039750076830387115,\"polygon_normal\":[0.38638728857040405,0.420669287443161,-0.8208181262016296],\"degenerate_polygon\":false},{\"loop\":126,\"polygon\":42,\"vertex\":33,\"maximum_component_error\":3.88026237487793e-05,\"expected\":[0.388719767332077,0.4120429456233978,-0.8240858912467957],\"actual\":[0.38868096470832825,0.41206103563308716,-0.8240951895713806],\"angular_error_degrees\":0.002510150050811338,\"actual_length\":1.000000029802322,\"dot_expected_actual\":1.0,\"polygon_area\":0.003508587833493948,\"polygon_normal\":[0.38135144114494324,0.4126649796962738,-0.8272113800048828],\"degenerate_polygon\":false},{\"loop\":39,\"polygon\":13,\"vertex\":64,\"maximum_component_error\":3.6232173442840576e-05,\"expected\":[-0.9938837289810181,0.11043152958154678,0.0],\"actual\":[-0.9938878417015076,0.11039529740810394,-7.241964340209961e-06],\"angular_error_degrees\":0.002130080488006773,\"actual_length\":1.0000000885018636,\"dot_expected_actual\":1.0000000642612576,\"polygon_area\":1.772343966877088e-05,\"polygon_normal\":[-0.9685556292533875,0.24550195038318634,0.04035648703575134],\"degenerate_polygon\":false},{\"loop\":44,\"polygon\":14,\"vertex\":64,\"maximum_component_error\":3.6232173442840576e-05,\"expected\":[-0.9938837289810181,0.11043152958154678,0.0],\"actual\":[-0.9938878417015076,0.11039529740810394,-7.241964340209961e-06],\"angular_error_degrees\":0.002130080488006773,\"actual_length\":1.0000000885018636,\"dot_expected_actual\":1.0000000642612576,\"polygon_area\":0.0,\"polygon_normal\":[0.0,0.0,1.0],\"degenerate_polygon\":true}]}\n",
+  "healthy_bell_subset": {
+    "target": "tc_bell_2",
+    "collection": "NSRC_tc_bell_2_HealthyBellOnly",
+    "object_names": [
+      "NSRC_tc_bell_2_HealthyBellOnly_Bell"
+    ],
+    "triangles": 212,
+    "native_reference_geometry_maximum_error": 0.0,
+    "appearance": {
+      "target": "tc_bell_2",
+      "objects": [
+        {
+          "object": "NSRC_tc_bell_2_HealthyBellOnly_Bell",
+          "public_group": "mon_towncenter_bellarch_age02 \u00b7 main",
+          "material": "AoE IV \u00b7 main \u00b7 f8082f1d",
+          "native_slot": "main",
+          "authority": "exact_native_MSCL_collection_slot",
+          "material_source_public_object": "mon_towncenter_bellarch_age02 \u00b7 main",
+          "original_public_assigned_slot": "main",
+          "public_cyclic_assignment_corrected_on_view_only": false,
+          "exact_material_identity": {
+            "name": "main",
+            "material_class": "structure",
+            "rrmaterial_sha256": "f8082f1d4b0af48e9d30f2068107609af850cc774464bf18707ffbd13a409f27",
+            "schema": "garrison.structure-preview-graph/v2"
+          },
+          "custom_normal_corners": 636,
+          "maximum_normal_error": 6.976723670959473e-05,
+          "maximum_normal_angular_error_degrees": 0.004497796356873715,
+          "normal_angular_limit_degrees": 0.1,
+          "raw_normal_attribute_retained": true
+        }
+      ],
+      "original_material_datablocks_shared": true,
+      "original_nodes_and_texture_references_preserved": true,
+      "custom_normals_applied": true,
+      "native_engine_shader_equivalence_qualified": false,
+      "clips_created": false
+    },
+    "selected_inventory_category": null,
+    "category_placement": null,
+    "native_healthy_parent_preserved": "unbound",
+    "native_damaged_bell_parent": "hlp_main_dest_bell_01",
+    "active_source_subset_created": true,
+    "Persia_dynamic_category_activation_proven": false,
+    "native_ringing_clip_proven": false,
+    "source_fit_inspection_pending": true,
+    "clips_created": false
+  },
+  "sockets": {
+    "model": "art/civilizations/mongols/structures/towncenter/mon_towncenter_bellarch_age02/mon_towncenter_bellarch_age02.rgm",
+    "marker_records": [
+      {
+        "object": "NSRC_tc_bell_2_Sockets_0",
+        "native_name": "mrk_quadrant_none_0_",
+        "root_local_projection_only": false,
+        "bone_local_transform_quarantined": true
+      }
+    ],
+    "native_world_pose_qualified": false
+  },
+  "image_dependencies": [
+    {
+      "name": "00a2880bf731_6708399669590286008_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\00a2880bf731_6708399669590286008_packed.dds"
+    },
+    {
+      "name": "0eb8439c962e_black_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\0eb8439c962e_black_msk.dds"
+    },
+    {
+      "name": "148bf8ec194c_5406619423465961107_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\148bf8ec194c_5406619423465961107_packed.dds"
+    },
+    {
+      "name": "42e22064a7ec_7313872086830609367_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\42e22064a7ec_7313872086830609367_packed.dds"
+    },
+    {
+      "name": "52905c99f11a_7667768985313965080_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\52905c99f11a_7667768985313965080_packed.dds"
+    },
+    {
+      "name": "5381da0089b5_940685202008631679_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\5381da0089b5_940685202008631679_packed.dds"
+    },
+    {
+      "name": "57fb9ef59d8b_17080821180384490439_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\57fb9ef59d8b_17080821180384490439_packed.dds"
+    },
+    {
+      "name": "5919e951bdd5_1072835348066581770_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\5919e951bdd5_1072835348066581770_packed.dds"
+    },
+    {
+      "name": "5db26348116b_12041615973339707457_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\5db26348116b_12041615973339707457_packed.dds"
+    },
+    {
+      "name": "6f3011ce41e3_str_damage_charred_01_alb.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\6f3011ce41e3_str_damage_charred_01_alb.dds"
+    },
+    {
+      "name": "6f81fe520eb8_white_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\6f81fe520eb8_white_msk.dds"
+    },
+    {
+      "name": "71fc35227468_7962883804097126265_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\71fc35227468_7962883804097126265_packed.dds"
+    },
+    {
+      "name": "794382be660a_10481810468234262313_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\794382be660a_10481810468234262313_packed.dds"
+    },
+    {
+      "name": "7b494a2f28b9_18231663582228185424_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\7b494a2f28b9_18231663582228185424_packed.dds"
+    },
+    {
+      "name": "813030d76ecf_3929457005248636182_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\813030d76ecf_3929457005248636182_packed.dds"
+    },
+    {
+      "name": "85c59cbb9679_11755559493558267954_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\85c59cbb9679_11755559493558267954_packed.dds"
+    },
+    {
+      "name": "9462e17b1f53_7241555012125033584_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\9462e17b1f53_7241555012125033584_packed.dds"
+    },
+    {
+      "name": "9d121af4223f_11870108732234244334_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\9d121af4223f_11870108732234244334_packed.dds"
+    },
+    {
+      "name": "a92cf3197cd5_17182622396638895020_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\a92cf3197cd5_17182622396638895020_packed.dds"
+    },
+    {
+      "name": "ad22c98be0ae_7326295115712489074_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\ad22c98be0ae_7326295115712489074_packed.dds"
+    },
+    {
+      "name": "b3a3d5a0a220_5438319526367779973_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\b3a3d5a0a220_5438319526367779973_packed.dds"
+    },
+    {
+      "name": "b6d68652a26a_17330684654254522221_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\b6d68652a26a_17330684654254522221_packed.dds"
+    },
+    {
+      "name": "be87e5af018e_483035969372513265_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\be87e5af018e_483035969372513265_packed.dds"
+    },
+    {
+      "name": "c91dd0bda8c4_4655537433773678389_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\c91dd0bda8c4_4655537433773678389_packed.dds"
+    },
+    {
+      "name": "d13fac608962_16719058979467564904_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\d13fac608962_16719058979467564904_packed.dds"
+    },
+    {
+      "name": "d5ba288445e3_middle_gray_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\d5ba288445e3_middle_gray_msk.dds"
+    },
+    {
+      "name": "df671db50834_11180676380638925904_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\df671db50834_11180676380638925904_packed.dds"
+    },
+    {
+      "name": "e8f364dd7d42_4632695196058202317_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\e8f364dd7d42_4632695196058202317_packed.dds"
+    },
+    {
+      "name": "ef0164b43256_17716732775687444425_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\09e2b44a31c1\\0d1b86bbde9496b9cd10\\textures\\ef0164b43256_17716732775687444425_packed.dds"
+    }
+  ],
+  "cached_projection_completed": true,
+  "mechanism_source_qualified": false,
+  "qualification_scope": "Cached public projection completed; inspect geometry, skeleton, binding and pose evidence separately. Success here is not mechanism acceptance.",
+  "saved_file_sha256": "08d0d6992cf8597d32828917512adfc7fbc2464f4d52ab33e7867a79717bb520"
+}

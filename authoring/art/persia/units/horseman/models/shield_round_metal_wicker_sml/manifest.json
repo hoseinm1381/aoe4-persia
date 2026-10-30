@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "horseman",
+  "donor": "art/civilizations/common/weapons/defense/shield_round_metal_wicker_sml/shield_round_metal_wicker_sml.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\horseman\\models\\shield_round_metal_wicker_sml\\model.blend",
+  "source_sha256": "c1d5711531fa4ef379db619729b8c78b4e7ab4f1fc4ff97b3c35ed2adb2ac926",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 107,
+      "triangles": 150,
+      "sha256": "ffc942be8c6ac2c788ced0373bef839520aaf0ea3cee3c4454c64b423b19a7de"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 107,
+      "triangles": 150,
+      "sha256": "ffc942be8c6ac2c788ced0373bef839520aaf0ea3cee3c4454c64b423b19a7de"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 107,
+      "triangles": 150,
+      "sha256": "ffc942be8c6ac2c788ced0373bef839520aaf0ea3cee3c4454c64b423b19a7de"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_horseman_shield_round_metal_wicker_sml_LOD0",
+      "vertices": 107,
+      "triangles": 150,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_horseman_shield_round_metal_wicker_sml_LOD1",
+      "vertices": 107,
+      "triangles": 150,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_horseman_shield_round_metal_wicker_sml_LOD2",
+      "vertices": 107,
+      "triangles": 150,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 37,
+      "changed_vertices": 40,
+      "source_vertices": 107,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 37,
+      "changed_vertices": 40,
+      "source_vertices": 107,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 37,
+      "changed_vertices": 40,
+      "source_vertices": 107,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 37,
+      "changed_vertices": 40,
+      "source_vertices": 107,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 37,
+      "changed_vertices": 40,
+      "source_vertices": 107,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 37,
+      "changed_vertices": 40,
+      "source_vertices": 107,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/defense/shield_round_metal_wicker_sml/shield_round_metal_wicker_sml.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/defense/shield_round_metal_wicker_sml/shield_round_metal_wicker_sml.rgm"
+}

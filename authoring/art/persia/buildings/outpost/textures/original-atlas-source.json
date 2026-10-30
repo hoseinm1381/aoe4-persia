@@ -1,0 +1,25 @@
+{
+  "schema": "persia-original-atlas/1",
+  "family": "outpost",
+  "seed": 270213,
+  "size": [
+    2048,
+    2048
+  ],
+  "source_files": {
+    "_shared/atlas_source.py": "f575b88e729252c4c1fea0496e6f89d64af1fabca84f32658cc32307d315f445",
+    "_shared/make_original_atlas.py": "0ea7d63c3030530407b8dfe74ff451c96401aa5173d6828472efeef2d923e36d"
+  },
+  "image_sha256": {
+    "albedo.png": "8ff511be81ee04c3594d45a7a5d53056dfbec4f64488cbe96ee718775b23631c",
+    "normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+    "roughness.png": "65db029480443a30fa591c247a8c5606a525bd140a83d2e712687a0da58190d1",
+    "metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+    "owner_mask.png": "4599e5f1bc19c17bbab219b4244f4a5422b483ffafeb76c5f27feb52c19ab8d3"
+  },
+  "original_painted_pixels": true,
+  "stock_or_photographic_pixels_used": false,
+  "owner_colour": "Neutral source textile plus owner mask; red/blue/yellow is a preview shader parameter, not baked albedo.",
+  "manual_edit_policy": "Retain edited PNG originals. Repainting refuses changed image hashes; geometry rebuilds consume these retained images directly.",
+  "native_shader": "unverified; source-only"
+}

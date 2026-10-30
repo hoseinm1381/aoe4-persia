@@ -1,0 +1,22 @@
+{
+  "source": "implemented accepted civilization mechanics; qualitative overview, no balance edits",
+  "overview": {
+    "tagline": "Divans, Mobile Armies, Trade",
+    "rows": [
+      [
+        "Divans",
+        "Economic and Military Divans provide different development paths."
+      ],
+      [
+        "Persian Armies",
+        "Field Assassins, Persian handgunners, cavalry and Zamburaks."
+      ],
+      [
+        "Landmarks and Trade",
+        "Persian landmarks grant specialized military, economic and trade benefits."
+      ]
+    ]
+  },
+  "traits_0": "summary hidden by native overview; visible rows start at 1",
+  "native_visual_test": "pending"
+}

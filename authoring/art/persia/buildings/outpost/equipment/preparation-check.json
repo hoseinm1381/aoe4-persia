@@ -1,0 +1,21 @@
+{
+  "schema": "ccp.persia.outpost-equipment-preparation/v1",
+  "static_syntax": "PASS",
+  "exact8_native_config_mapping": "PASS",
+  "native_main_roof_source_groups_excluded": "PASS",
+  "native_fortified_skeleton_not_invented": "PASS",
+  "Blender_executed": false,
+  "actual_library_compile_and8configuration_outputs_required": true,
+  "scripts": {
+    "prepare_contract.py": "f0b05b156c08d6c3175815b4539813a05afb5d4b22afcb53c27f55daaf221e8b",
+    "native_equipment.py": "ab9161653bf7ea6487b0c285510d4b8f310f05c91f3f8410d8738899ba6f441f",
+    "build_configurations.py": "c177d0c4783cb11ac97e9994068147f19276f68852cf623f820a0519a95255c4",
+    "authored_equipment.py": "f895a7a23e75176541702f05e52e43373c0820844b27edc26d8aeae0a6ae8e40"
+  },
+  "existing_configuration_source_manual_edits_guard": "Matching configuration-checkpoint saved hash required before overwrite; factory save versions disabled",
+  "render_preview_hashes": "Recorded after actual render",
+  "actual_compile_failure_fix": "Immutable requested name tuples separate from Blender-mutated load lists, in compile and cold append routes; actual retry pending",
+  "exact248_state_slot_membership": "PASS offline mapping; actual generation pending",
+  "construction_empty_proof": "All20 construct00..95 exact empty component selections in each of8 configurations",
+  "one_pass_visible_corrections": "Syntax ready; actual corrected generation pending"
+}

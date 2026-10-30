@@ -1,0 +1,84 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\sul_ranged_crossbow_age04\\51515dc7ca9836b91542\\decoded-static.json",
+  "donor_sha256": "af2afe7ac470ad7232ff9ac8e64cedf13c61f9006bca0b4fd91c9a5f3f1ddcf3",
+  "logical_path": "art/civilizations/sultanate/humans/sul_ranged_crossbow_age04/sul_ranged_crossbow_age04.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "66352d62341c2b6b4dc11aa994108130da1e18659c32cec55ce488f174400663",
+    "normal": "757b5dd19293760aeb0071354f9f24d1c9f7c2fdbf7107673f1b4dfab8d8ee89",
+    "roughness": "c4d712a0b9b84a9a3b4236fef0ec7aba80cdd08d96bb649a32215cca380da0b0",
+    "metalness": "911c81339a6a97f13652046bc5a8a861a4b42a19ce891dd94eb18451233aff5d",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  },
+  "reserved_face_tile": [
+    0,
+    3
+  ],
+  "face_uv": [
+    0.25,
+    0.25,
+    0,
+    0
+  ],
+  "source_face": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\textures\\sul_infantry_light_age02",
+  "headwear_dark_tile_used": false
+}

@@ -1,0 +1,237 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "madrasa",
+  "authored_frame": "Projected stamp-space exactly as original recipe ANCHORS; apply the recorded native inverse once after all source states",
+  "native_hp_thresholds": null,
+  "resource_age_is_not_gameplay_availability": true,
+  "source_art_only": true,
+  "review_status": "Unreviewed structural draft; this worker has not executed Blender or generated acceptance evidence",
+  "recipe_sha256_at_profile_draft": "8cc222c157d74849e306286c321c6b89b45dc7dfaf03fdaef72bf13044d4d082",
+  "profile_basis": "Exact existing body keys, current recipe structural groups/roof and bearing levels; authored failure proposals do not wire native states or thresholds",
+  "lod_support_policy": "Keep roofs, load-bearing posts/beams/joists, floors, stairs, ledgers and access. Explicit omissions select complete loose props or every member of a named furniture assembly, not isolated support legs. Half/quarter targets still need actual measured authored reductions and visual review.",
+  "native_dependencies_policy": "Never Boolean-cut or decimate retained native mechanisms. Existing rig/graph/pose/socket owners and native states remain separately inspectable dependencies; absent dependency geometry is not zero compound overhead.",
+  "compound_budget_qualified": false,
+  "bodies": {
+    "A4": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -6.5,
+          -5.5,
+          -0.06
+        ],
+        [
+          4.85,
+          5.65,
+          5.3
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "study_cell_0"
+        ],
+        "corner_plus_x_front_y": [
+          -3.8,
+          -3.85,
+          2.83
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "study_cell_0": 0.98,
+          "study_cell_1": 0.98,
+          "study_cell_2": 0.98,
+          "study_cell_3": 0.98,
+          "study_cell_4": 0.98,
+          "study_cell_5": 0.98,
+          "study_cell_6": 0.98,
+          "teaching_loggia": 1.25,
+          "library": 1.08,
+          "writing_store": 1.05,
+          "entrance": 0.85,
+          "scholarly_work": 0.6,
+          "library_furniture": 0.65
+        },
+        "debris_area_xy": [
+          [
+            -3.3,
+            -3.5
+          ],
+          [
+            -2.35,
+            -2.0
+          ]
+        ],
+        "debris_ground_z": 0.21
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "teaching_loggia": 1.22,
+          "library": 1.05,
+          "writing_store": 1.05,
+          "entrance": 0.85
+        },
+        "remove_groups": [
+          "library_furniture"
+        ],
+        "debris_area_xy": [
+          [
+            -3.25,
+            -3.45
+          ],
+          [
+            2.05,
+            2.8
+          ]
+        ],
+        "debris_ground_z": 0.21,
+        "debris_count": 100,
+        "fallen_members": [
+          {
+            "a": [
+              -1.7000000000000002,
+              -0.6850000000000002,
+              0.29
+            ],
+            "b": [
+              0.5,
+              0.03499999999999981,
+              0.29
+            ],
+            "width": 0.16,
+            "source_group": "entrance",
+            "grounding_basis": "Horizontal original member fragment; bottom rests on the named surviving source surface, not a native height claim"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              -0.45000000000000007,
+              0.07499999999999984,
+              0.28
+            ],
+            "size": [
+              1.25,
+              0.7,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "study_cell_0",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "StudyCourtEarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "BundledBooks",
+          "CellReedMat"
+        ],
+        "2": [
+          "BundledBooks",
+          "CellReedMat",
+          "TeachingDesk",
+          "CellDesk"
+        ]
+      },
+      "structural_notes": [
+        "Only existing A4; failure begins on west study_cell_0 court/front pier and its exact roof edge.",
+        "Heavy caps list all seven cells, teaching room, library, writing store and entrance; scholarly desks/mats and shelf/book groups are removed together.",
+        "Damage/ruin fragments sit on TeachingCourtPaving .21; no placed debris assumes the higher .24 cell floors or .26 teaching floor.",
+        "Far desk omission matches all tabletop, legs and writing boards for each complete desk; library cheeks/shelves remain together, with loose bundled books omitted."
+      ],
+      "analytical_cut_check": {
+        "method": "Exact union of the three rectangular cutter lobes intersected with one actual solid masonry/bearing witness part; not Blender Boolean/state acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            -4.0,
+            -3.85,
+            0.24
+          ],
+          [
+            -3.8,
+            -3.4,
+            2.66
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.0016647443999999979,
+          0.014724366336000008,
+          0.04856289600000003,
+          0.0787500000000001
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_tech_university_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/abbasid/buildings/tech_university_abb/tier4_tech_university_control_abb",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_abbasid/abb_university.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_tech_university_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/abbasid/buildings/tech_university_abb/tier4_tech_university_control_abb",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_abbasid/abb_university.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_tech_university_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/abbasid/buildings/tech_university_abb/tier4_tech_university_control_abb",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_abbasid/abb_university.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_tech_university_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/abbasid/buildings/tech_university_abb/tier4_tech_university_control_abb",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_abbasid/abb_university.bin",
+          "stamp_instance_index": 0
+        }
+      ]
+    }
+  },
+  "visual_envelope_evidence": "evidence/visual-envelope-contract.json",
+  "verified_envelope_overrides_enabled": false,
+  "envelope_policy": "No conditional possible/category union is enabled as a verified override; strict primary envelope remains until selective source-join and native prop state/activation proof is supplied.",
+  "lod_source_policy": {
+    "source": "lods.py",
+    "target_ratios": [
+      0.5,
+      0.25
+    ],
+    "tolerance_unchanged": 0.1,
+    "generated_acceptance": false,
+    "Blender_executed_by_this_author": false,
+    "method": "Constant-section surviving profile sampling; exact closed orthogonal-member boundary; actual surviving support unions; retained native inputs untouched; no healthy state reconstruction.",
+    "damage_policy": "Sharp jamb/breach/seat corners and profile extrema retained; irregular fractured surfaces use planar-only dissolve, never filled by a healthy bay.",
+    "source_recipe_sha256_after_hook": "ff31bceffd3a7304c5e639aee477b7b99113a8c7a7e403c87a41edff575eb5d3",
+    "lods_sha256": "1a5cdc1580960300b9c9bd6fcd1c5db5a0305184153ecafb0142ffa5bd99cef8"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "lumber_camp",
+  "authored_frame": "model-space: exact original recipe coordinates, before native stamp; no world-space claim",
+  "native_hp_thresholds": null,
+  "source_art_only": true,
+  "review_status": "Revised source draft: original984-triangle architecture plus exact1604-triangle moving assembly; parent Blender verification required",
+  "recipe_sha256_at_profile_draft": "cd338cfb1afbc9eb1f292ebd7df8275dbe96510b43eee3b2916f07e968973e1e",
+  "profile_basis": "Exact current recipe groups and bearing levels. Authored failure proposals are not native HP/progress wiring.",
+  "lod_support_policy": "Dedicated original closed-frame fabrications plus separately copied native rigid wheels. Primary bearings, guide frame and roof load paths retained; actual contacts/fidelity/ratios require parent execution.",
+  "native_dependencies_policy": "Full native references unchanged. Active wheel/payload/SKMS source identities follow exact retained string selectors. Only separate rigid-wheel LOD copies may change topology after source surface/UV/rim/contact and reversible-pose qualification; all SKMS352/297 weights/palette and payload80 stay exact. No native clips created.",
+  "bodies": {
+    "A1": {
+      "review_status": "Unreviewed: scripts prepared; no worker Blender execution",
+      "native_hp_thresholds": null,
+      "damage": {
+        "groups": [
+          "shelter"
+        ],
+        "corner_plus_x_front_y": [
+          2.1,
+          1.42,
+          3.04
+        ],
+        "notch_extents": [
+          0.28,
+          0.48,
+          0.82,
+          1.18
+        ],
+        "heavy_failure_group_caps": {
+          "shelter": 0.92,
+          "tool_store": 0.78,
+          "owner": 0.7
+        },
+        "debris_area_xy": [
+          [
+            -0.92,
+            0.16
+          ],
+          [
+            0.92,
+            1.08
+          ]
+        ],
+        "debris_ground_z": 0.12
+      },
+      "ruins": {
+        "default_cap": 0.78,
+        "group_caps": {
+          "tool_store": 0.82
+        },
+        "remove_groups": [
+          "shelter"
+        ],
+        "debris_area_xy": [
+          [
+            -0.92,
+            0.16
+          ],
+          [
+            0.92,
+            1.08
+          ]
+        ],
+        "debris_ground_z": 0.12,
+        "debris_count": 32,
+        "fallen_members": [
+          {
+            "a": [
+              -0.7,
+              0.35,
+              0.18
+            ],
+            "b": [
+              0.7,
+              0.7,
+              0.18
+            ],
+            "width": 0.12,
+            "source_group": "shelter",
+            "grounding_basis": "Horizontal original roof member, bottom on EarthBed .12"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              0.1,
+              0.78,
+              0.17
+            ],
+            "size": [
+              0.65,
+              0.3,
+              0.1
+            ],
+            "source_group": "shelter",
+            "surface": "roof",
+            "rotation": 0.12,
+            "grounding_basis": "Bottom .12 on original EarthBed"
+          }
+        ],
+        "preserve_intact_groups": [
+          "axle_frame",
+          "guide_frame"
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "EarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "Stool",
+          "BenchStock",
+          "BenchScuff",
+          "IncomingLog1",
+          "IncomingLog2",
+          "Board1_",
+          "Knee",
+          "Bench1",
+          "Bench2"
+        ],
+        "2": []
+      },
+      "structural_notes": [
+        "Single actual A1 source body. Original open work shelter, low tool windscreen, three legged seated-height benches, organized intake/boards and owner textile; no humans.",
+        "New axle/guide supports bind explicitly to existing bone_wheel_base while preserving model-reference world geometry and identity local basis; parent numeric pose/contact qualification required.",
+        "All five native bones, pivots, exact inverse references, full original source meshes and original clips/owner graph dependencies remain inspectable in the retained full library.",
+        "Retained healthy moving assembly1604 = wheel1172 +payload80 +completeSKMS352. No active original donor timber support geometry; original replacement budget1136 and unchanged stock cap2740.",
+        "Early damage fractures the front-right original shelter corner. Axle and tall guide frame stay intact to bear the retained reference mechanism. Heavy shelter failure exposes the working yard.",
+        "Exact native ruins selectors omit wheel fragment0 and SKMS; the remaining payload receives a separately declared source-authored resting pose through existing bone_cable_translate_z. This is no Action/clip and not native collapse playback.",
+        "Rubble is grounded on EarthBed .12. Family adapter bounds generated debris count to the remaining2740-triangle allowance; it never raises cap or changes native selectors.",
+        "LOD1 keeps primary roof joists/posts/beams and one readable bench; LOD2 uses separately authored closed U frames, seated solid piers, triangular rakers, continuous roof deck and a readable log. Parent visual review required."
+      ],
+      "source_debris_max_count": {
+        "damage_1": 5,
+        "damage_2": 9,
+        "damage_3": 12,
+        "damage_4": 16,
+        "damage_5": 25,
+        "ruins": 32
+      }
+    }
+  }
+}

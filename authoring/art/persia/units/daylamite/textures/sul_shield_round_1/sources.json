@@ -1,0 +1,73 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\sul_shield_round_1\\0534de4542f7d5df8835\\decoded-static.json",
+  "donor_sha256": "4a5b830d57d24460fc0948efda12f33cd29209d0b738ad4783a79c98abde12e2",
+  "logical_path": "art/civilizations/sultanate/weapons/sul_shield_round_1/sul_shield_round_1.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "c7e1cbc037f84a31ee63f6b47f14277f11bb6628b349c7bcee57eaaa19695dcb",
+    "normal": "9e19072a8945e5bf124ae41c650651921d8f054a1a6df8f0bba9a291c8b670dd",
+    "roughness": "5d6bb4560b2d73ad2a867288c9f1443debb6c4b8f1868a63c7f6409b20ed54bd",
+    "metalness": "d3952709e7fb03aaee3c0fc42434c6509f8ad9be619f3f7d99534ff2e55a9852",
+    "pattern": "816a49028d13b547d3b146af3988d5929bfec6bcf61849b6fa33961f811abe74"
+  },
+  "equipment_surface_recipe": "continuous forged metal, longitudinal wood; interpreted eight-lobed painted shield field, not attributed to a surviving medieval object"
+}

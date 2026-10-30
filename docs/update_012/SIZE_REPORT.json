@@ -1,0 +1,157 @@
+{
+  "version": "0.1.2",
+  "race": "persia",
+  "zip_bytes": 261791288,
+  "archive_bytes": 642044758,
+  "baseline_011_zip_bytes": 262957204,
+  "incremental_compressed_zip_bytes": -1165916,
+  "zip_reduction_bytes": 1165916,
+  "zip_reduction_percent": 0.44338621732531047,
+  "native_input_bytes": 628914125,
+  "native_audio_bytes": 0,
+  "native_texture_members": 514,
+  "texture_parse_failures": [],
+  "native_texture_mip_payload_bytes_by_path": 269674264,
+  "decoded_rgba8_mips_bytes_by_path": 1221784232,
+  "decoded_rgba8_mips_bytes_unique_content": 1221778408,
+  "working_bytes_excluding_git_output_release_archives": 2625278166,
+  "working_categories": {
+    "root": {
+      "files": 11,
+      "bytes": 13925
+    },
+    "inputs": {
+      "files": 1380,
+      "bytes": 629248924
+    },
+    "source": {
+      "files": 581,
+      "bytes": 132059810
+    },
+    "authoring": {
+      "files": 4189,
+      "bytes": 1856962787
+    },
+    "docs": {
+      "files": 76,
+      "bytes": 6194102
+    },
+    "tools": {
+      "files": 9,
+      "bytes": 49027
+    },
+    "tests": {
+      "files": 7,
+      "bytes": 749591
+    }
+  },
+  "retained_rollback_zip_bytes": 520503944,
+  "verified_staging_removed_logical_bytes": 6308356389,
+  "budget": {
+    "complete_import_zip_below_600MB": true,
+    "preferred_zip_below_300MB": true,
+    "note": "Below the 300MB standalone target."
+  },
+  "measurement": "Actual final archive/ZIP/member bytes. Decoded RGBA8 is the expansion estimate for all packaged mip levels, not measured runtime residency or VRAM. Native art/texture members are byte-identical to tested 0.1.1; no runtime FPS/VRAM improvement is claimed. Source working totals exclude retained history, Git and generated staging.",
+  "native_performance": "not measured",
+  "largest_texture_estimates": [
+    {
+      "member": "ui/images/garrison/persia/presentation/flag_background.rrtex",
+      "sha256": "d90eeef36939736616d9392173b40797f0d333127a46e3ee74d2087c2f7ceabd",
+      "archive_member_bytes": 558689,
+      "native_mip_payload_bytes": 2073600,
+      "decoded_rgba8_mips_bytes": 8294400,
+      "mips": 1
+    },
+    {
+      "member": "ui/images/garrison/persia/presentation/flag_loading.rrtex",
+      "sha256": "13ef11fdf4386a46863f7002e7ecf965e556d6f7ce70dbb4e0c0f70cb36b19b5",
+      "archive_member_bytes": 558686,
+      "native_mip_payload_bytes": 2073600,
+      "decoded_rgba8_mips_bytes": 8294400,
+      "mips": 1
+    },
+    {
+      "member": "ui/images/garrison/persia/presentation_011/flag_loading.rrtex",
+      "sha256": "21866ea7e325ba2df3d801ec5361fff2b8a0b79d2d6aba3607f141e22f71bd46",
+      "archive_member_bytes": 1415521,
+      "native_mip_payload_bytes": 2073600,
+      "decoded_rgba8_mips_bytes": 8294400,
+      "mips": 1
+    },
+    {
+      "member": "art/persia/release_100/textures/0b5e881e1b4e7bdd/13886322276941545304_packed.rrtex",
+      "sha256": "7f075713585198d35572561a711fc00ce73c7844875ec311f76ac178fdbb2757",
+      "archive_member_bytes": 310622,
+      "native_mip_payload_bytes": 1398128,
+      "decoded_rgba8_mips_bytes": 5592404,
+      "mips": 11
+    },
+    {
+      "member": "art/persia/release_100/textures/0b5e881e1b4e7bdd/17357813315187575549_packed.rrtex",
+      "sha256": "7c7322eeba8cedc773f437fbe14a8af4b0849d4ae9e4638181e1a0fb3fdf16b0",
+      "archive_member_bytes": 660754,
+      "native_mip_payload_bytes": 1398128,
+      "decoded_rgba8_mips_bytes": 5592404,
+      "mips": 11
+    },
+    {
+      "member": "art/persia/release_100/textures/0b5e881e1b4e7bdd/9033553736901664647_packed.rrtex",
+      "sha256": "cf485a45e8d1c02054d207ed272ef3e550d8276511514c14f94d91a1976d8366",
+      "archive_member_bytes": 23885,
+      "native_mip_payload_bytes": 1398128,
+      "decoded_rgba8_mips_bytes": 5592404,
+      "mips": 11
+    },
+    {
+      "member": "art/persia/release_100/textures/0b5e881e1b4e7bdd/albedo.rrtex",
+      "sha256": "ed4a1699db3676c00879c644e3bff5179c009e450fad6fff4519fa9085540b50",
+      "archive_member_bytes": 431688,
+      "native_mip_payload_bytes": 699064,
+      "decoded_rgba8_mips_bytes": 5592404,
+      "mips": 11
+    },
+    {
+      "member": "art/persia/release_100/textures/206131811d18657b/11473866450434718256_packed.rrtex",
+      "sha256": "3028251983ca83d6404eec0fb9824d53f22e5473def417bfed1ab836970ecf8e",
+      "archive_member_bytes": 474881,
+      "native_mip_payload_bytes": 1398128,
+      "decoded_rgba8_mips_bytes": 5592404,
+      "mips": 11
+    },
+    {
+      "member": "art/persia/release_100/textures/206131811d18657b/15037800166461936041_packed.rrtex",
+      "sha256": "8c6d10d433b7a900daddb8367585e2e7cef7ed16a42a485af33ec8292449f6ae",
+      "archive_member_bytes": 705703,
+      "native_mip_payload_bytes": 1398128,
+      "decoded_rgba8_mips_bytes": 5592404,
+      "mips": 11
+    },
+    {
+      "member": "art/persia/release_100/textures/206131811d18657b/4953142457160428958_packed.rrtex",
+      "sha256": "36b5038a1ad95ab1827ffc2c6d1f7f229ad83da5f3f07e6aee9d9c91807cb395",
+      "archive_member_bytes": 43883,
+      "native_mip_payload_bytes": 1398128,
+      "decoded_rgba8_mips_bytes": 5592404,
+      "mips": 11
+    },
+    {
+      "member": "art/persia/release_100/textures/206131811d18657b/albedo.rrtex",
+      "sha256": "99543ec46a466a9ac1852640ee60f7bb65bbc41bce59afdf8e3646cf3bc2e5fb",
+      "archive_member_bytes": 381886,
+      "native_mip_payload_bytes": 1398128,
+      "decoded_rgba8_mips_bytes": 5592404,
+      "mips": 11
+    },
+    {
+      "member": "art/persia/release_100/textures/2c2dd6353e86ff5b/15225508339423136077_packed.rrtex",
+      "sha256": "d4f274f113a1726a7cfaaec13b1c3659d2f09b34a635cd93a68427170442ee06",
+      "archive_member_bytes": 70209,
+      "native_mip_payload_bytes": 1398128,
+      "decoded_rgba8_mips_bytes": 5592404,
+      "mips": 11
+    }
+  ],
+  "packaged_rrtex_member_count": 514,
+  "decoded_texture_estimate_complete": true
+}

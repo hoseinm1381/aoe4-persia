@@ -1,0 +1,298 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "crossbowman",
+  "donor": "art/civilizations/sultanate/humans/sul_ranged_crossbow_age04/sul_ranged_crossbow_age04.rgm",
+  "role": "body",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\crossbowman\\models\\sul_ranged_crossbow_age04\\model.blend",
+  "source_sha256": "5ae6d1a2b234bd6a6c736eb7ba1af8d4991fe3308e7a2b3961a6431c64203ddd",
+  "steps": [
+    "clothing_visual_refinement",
+    "compatible_official_face_graft",
+    "donor_clothing_reshape_and_fitted_kaftan",
+    "role_specific_persian_wrapped_headwear"
+  ],
+  "rig_contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+  "rig_bones": 48,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "body",
+      "vertices": 1281,
+      "triangles": 1505,
+      "sha256": "4965aeb6a139c67e41440c5082abba20590f055083111ed868bec338547c61c3"
+    },
+    {
+      "lod": 1,
+      "component": "body",
+      "vertices": 622,
+      "triangles": 641,
+      "sha256": "9d754d76a687b750ce1fa58034570df3800bac593949c35b592d79c1106ca912"
+    },
+    {
+      "lod": 2,
+      "component": "body",
+      "vertices": 351,
+      "triangles": 306,
+      "sha256": "96d115b1cfe598a92d8ff6d70f5490734fc23b394087a0f58e9b215d16dbd6a3"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_crossbowman_sul_ranged_crossbow_age04_body_LOD0",
+      "vertices": 1281,
+      "triangles": 1505,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_crossbowman_sul_ranged_crossbow_age04_body_LOD1",
+      "vertices": 622,
+      "triangles": 641,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_crossbowman_sul_ranged_crossbow_age04_body_LOD2",
+      "vertices": 351,
+      "triangles": 306,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    }
+  ],
+  "native_lod_contract": [
+    {
+      "lod": 0,
+      "allowed_bones": [
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmindex1",
+        "metarig_larmindex2",
+        "metarig_larmindex3",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmmiddle1",
+        "metarig_larmmiddle2",
+        "metarig_larmmiddle3",
+        "metarig_larmpalm",
+        "metarig_larmthumb1",
+        "metarig_larmthumb2",
+        "metarig_larmthumb3",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_llegankle",
+        "metarig_llegtoe1",
+        "metarig_neck1",
+        "metarig_neck2",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmindex1",
+        "metarig_rarmindex2",
+        "metarig_rarmindex3",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmmiddle1",
+        "metarig_rarmmiddle2",
+        "metarig_rarmmiddle3",
+        "metarig_rarmpalm",
+        "metarig_rarmthumb1",
+        "metarig_rarmthumb2",
+        "metarig_rarmthumb3",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_rlegankle",
+        "metarig_rlegtoe1",
+        "metarig_spine1",
+        "metarig_spine2"
+      ],
+      "source": "remodeled native donor LOD"
+    },
+    {
+      "lod": 1,
+      "allowed_bones": [
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmmiddle1",
+        "metarig_larmpalm",
+        "metarig_larmthumb1",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_llegankle",
+        "metarig_neck1",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmmiddle1",
+        "metarig_rarmpalm",
+        "metarig_rarmthumb1",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_rlegankle",
+        "metarig_spine1",
+        "metarig_spine2"
+      ],
+      "source": "remodeled native donor LOD"
+    },
+    {
+      "lod": 2,
+      "allowed_bones": [
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmpalm",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_neck1",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmpalm",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_spine1",
+        "metarig_spine2"
+      ],
+      "source": "remodeled native donor LOD"
+    }
+  ],
+  "contacts": [
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 324,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 30,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "complete_native_family_cap": 2163,
+      "reserved_largest_used_weapon_triangles": 537,
+      "body_cap": 1626,
+      "before_body_triangles": 1505,
+      "after_body_triangles": 1505,
+      "concealed_donor_triangles_removed": 0,
+      "budget_met": true,
+      "scope": "density reduction only on replaced donor clothing; grafted face and new panels kept; native hand/foot points preserved"
+    },
+    {
+      "lod": 0,
+      "face_graft": {
+        "logical_path": "art/civilizations/sultanate/humans/sul_infantry_light_age02/sul_infantry_light_age02.rgm",
+        "bind_max_element_error": 0.0,
+        "retained_vertices": 192,
+        "weighted_mesh_rest_retarget": false
+      }
+    },
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 159,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "lod": 1,
+      "face_graft": {
+        "logical_path": "art/civilizations/sultanate/humans/sul_infantry_light_age02/sul_infantry_light_age02.rgm",
+        "bind_max_element_error": 0.0,
+        "retained_vertices": 96,
+        "weighted_mesh_rest_retarget": false
+      }
+    },
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 38,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "lod": 2,
+      "face_graft": {
+        "logical_path": "art/civilizations/sultanate/humans/sul_infantry_light_age02/sul_infantry_light_age02.rgm",
+        "bind_max_element_error": 0.0,
+        "retained_vertices": 35,
+        "weighted_mesh_rest_retarget": false
+      }
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "editable modeled candidate; representative family review pending",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "complete_lod_triangles": [
+    1505,
+    641,
+    306
+  ],
+  "batch_workflow": "compatible48bone source construction; one family-level review after coverage",
+  "verified_deformation": "rig hierarchy/binds and normalized native-palette weights preserved; native-motion uncertainties recorded for later family review"
+}

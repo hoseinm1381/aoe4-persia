@@ -1,0 +1,3410 @@
+{
+  "schema": "persia-building-source-contract/1",
+  "family": "mining_camp",
+  "inventory_family": "mining_camp",
+  "body_keys": [
+    "Shared"
+  ],
+  "bodies": {
+    "Shared": {
+      "model": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm",
+      "native_age_label_from_resource_name": null,
+      "body_choice": "shared",
+      "native_model_local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\structures\\mining_camp\\com_mining_camp_combined\\com_mining_camp_combined.rgm",
+      "native_model_sha256": "2fe9121f3dc2673c266b4c47d00a63767300d7dfb9b811274f8f616e69c36a72",
+      "native_geometry_local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\structures\\mining_camp\\com_mining_camp_combined\\com_mining_camp_combined.rrgeom",
+      "native_geometry_sha256": "416191c558fa02bca7c26a27e1eed2d7aa5b950962bb53570e6f6336cc2debef",
+      "healthy_lod0_triangle_interval": [
+        6998,
+        6998
+      ],
+      "healthy_definite_rest_bounds": {
+        "min": [
+          -6.13671875,
+          -5.078125,
+          -4.46484375
+        ],
+        "max": [
+          1.3388671875,
+          2.8828125,
+          5.30859375
+        ]
+      },
+      "healthy_possible_rest_bounds": {
+        "min": [
+          -6.13671875,
+          -5.078125,
+          -4.46484375
+        ],
+        "max": [
+          1.3388671875,
+          2.8828125,
+          5.30859375
+        ]
+      },
+      "native_animation_graphs": [
+        {
+          "logical_path": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\structures\\mining_camp\\com_mining_camp_combined\\com_mining_camp_combined.rgo",
+          "sha256": "0e63d76e2189bff700926604e2303ff9d474d076eece33323192c946dd206fb9"
+        }
+      ],
+      "source_uses": [
+        {
+          "actor": "ps_building_econ_mining_camp_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/english/buildings/econ_mining_camp_eng/tier1_econ_mining_camp_control_eng",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_common/com_mining_camp.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_econ_mining_camp_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/english/buildings/econ_mining_camp_eng/tier1_econ_mining_camp_control_eng",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_common/com_mining_camp.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_econ_mining_camp_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/english/buildings/econ_mining_camp_eng/tier1_econ_mining_camp_control_eng",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_common/com_mining_camp.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_econ_mining_camp_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/english/buildings/econ_mining_camp_eng/tier1_econ_mining_camp_control_eng",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_common/com_mining_camp.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "resource_age_is_not_gameplay_availability": true,
+      "stamp_contracts": [
+        {
+          "native_transform_xyzw_translation_scale": [
+            0.0,
+            -0.13052600622177124,
+            0.0,
+            0.991445004940033,
+            -2.0,
+            0.0,
+            -2.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "blender_matrix_row_major": [
+            [
+              0.9659259314451827,
+              -0.25881865265423976,
+              0.0,
+              2.0
+            ],
+            [
+              0.25881865265423976,
+              0.9659259314451827,
+              0.0,
+              2.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "healthy_definite_stamp_space_rest_bounds": {
+            "min": [
+              -3.343757290595933,
+              -3.036776720261533,
+              -4.46484375
+            ],
+            "max": [
+              3.889899958910942,
+              4.917025706657228,
+              5.30859375
+            ]
+          },
+          "healthy_possible_stamp_space_rest_bounds": {
+            "min": [
+              -3.343757290595933,
+              -3.036776720261533,
+              -4.46484375
+            ],
+            "max": [
+              3.889899958910942,
+              4.917025706657228,
+              5.30859375
+            ]
+          }
+        }
+      ],
+      "actual_geometry_lifecycle_values": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_4",
+        "damage_5",
+        "healthy",
+        "preview",
+        "ruins",
+        "targeting"
+      ],
+      "geometry_property_values": {
+        "life_cycle_state": [
+          "construct_00",
+          "construct_05",
+          "construct_10",
+          "construct_15",
+          "construct_20",
+          "construct_25",
+          "construct_30",
+          "construct_35",
+          "construct_40",
+          "construct_45",
+          "construct_50",
+          "construct_55",
+          "construct_60",
+          "construct_65",
+          "construct_70",
+          "construct_75",
+          "construct_80",
+          "construct_85",
+          "construct_90",
+          "construct_95",
+          "damage_1",
+          "damage_2",
+          "damage_3",
+          "damage_4",
+          "damage_5",
+          "healthy",
+          "preview",
+          "ruins",
+          "targeting"
+        ],
+        "has_collapsed_ruins": [
+          "false"
+        ]
+      },
+      "native_markers": {
+        "valid": true,
+        "count": 22,
+        "payload_sha256": "faebfd615d2e071d39c707a6c2f591f0e6c25eb1efbd90953f987ed466279f3f",
+        "markers": [
+          {
+            "name": "mrk_scaffolding_nw_1",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.5609855651855469,
+              -0.43045929074287415,
+              -0.43045932054519653,
+              0.5609855651855469
+            ],
+            "translation": [
+              3.6616363525390625,
+              1.616984248161316,
+              3.45517635345459
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "mrk_scaffolding_se_0",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.4304593801498413,
+              0.5609855055809021,
+              0.5609855055809021,
+              0.4304593801498413
+            ],
+            "translation": [
+              4.981164455413818,
+              0.016984179615974426,
+              0.6559173464775085
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "fx_critical_damage_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              1.07940673828125,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "mrk_scaffolding_ne_0",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.7010574340820312,
+              0.09229594469070435,
+              0.09229593724012375,
+              0.7010573744773865
+            ],
+            "translation": [
+              5.579181671142578,
+              0.016984179615974426,
+              2.9413704872131348
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "mrk_scaffolding_ne_2",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.7010574340820312,
+              0.09229594469070435,
+              0.09229593724012375,
+              0.7010573744773865
+            ],
+            "translation": [
+              5.579181671142578,
+              3.216984272003174,
+              2.9413704872131348
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "mrk_scaffolding_nw_0",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.5609855651855469,
+              -0.43045929074287415,
+              -0.43045932054519653,
+              0.5609855651855469
+            ],
+            "translation": [
+              3.6616363525390625,
+              0.016984179615974426,
+              3.4551758766174316
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "fx_fire_damage_02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.9107756614685059,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "mrk_scaffolding_nw_2",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.5609855651855469,
+              -0.43045929074287415,
+              -0.43045932054519653,
+              0.5609855651855469
+            ],
+            "translation": [
+              3.6616363525390625,
+              3.216984272003174,
+              3.4551758766174316
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "fx_building_damage_02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.6679379940032959,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "mrk_scaffolding_se_2",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.4304593801498413,
+              0.5609855055809021,
+              0.5609855055809021,
+              0.4304593801498413
+            ],
+            "translation": [
+              4.981164455413818,
+              3.216984272003174,
+              0.6559175848960876
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "fx_chimney_stack",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.13052619993686676,
+              0.0,
+              0.9914448857307434
+            ],
+            "translation": [
+              4.199141979217529,
+              4.187310695648193,
+              1.9847770929336548
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_building_damage_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.13052618503570557,
+              0.0,
+              0.9914448857307434
+            ],
+            "translation": [
+              4.304807186126709,
+              2.8485496044158936,
+              1.9328213930130005
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_chimney_furnace",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.7933533787727356,
+              0.0,
+              0.6087614297866821
+            ],
+            "translation": [
+              5.4329729080200195,
+              0.6182108521461487,
+              1.687325119972229
+            ],
+            "scale": [
+              0.9999999403953552,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "mrk_scaffolding_sw_0",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.09229599684476852,
+              0.7010573744773865,
+              0.7010574340820312,
+              -0.09229598939418793
+            ],
+            "translation": [
+              3.0359761714935303,
+              0.016984179615974426,
+              1.1771292686462402
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "mrk_scaffolding_se_1",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.4304593801498413,
+              0.5609855055809021,
+              0.5609855055809021,
+              0.4304593801498413
+            ],
+            "translation": [
+              4.981164455413818,
+              1.616984248161316,
+              0.6559175848960876
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "fx_impact_ground_02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              3.369704484939575,
+              0.0,
+              -2.222773551940918
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_fire_damage_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.13052618503570557,
+              0.0,
+              0.9914448857307434
+            ],
+            "translation": [
+              4.291006565093994,
+              1.614709496498108,
+              2.0341668128967285
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_impact_ground_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.13052618503570557,
+              0.0,
+              0.9914448857307434
+            ],
+            "translation": [
+              5.086323261260986,
+              0.0,
+              4.853915214538574
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "mrk_scaffolding_ne_1",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.7010574340820312,
+              0.09229594469070435,
+              0.09229593724012375,
+              0.7010573744773865
+            ],
+            "translation": [
+              5.579181671142578,
+              1.616984248161316,
+              2.9413704872131348
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "mrk_scaffolding_sw_2",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.09229599684476852,
+              0.7010573744773865,
+              0.7010574340820312,
+              -0.09229598939418793
+            ],
+            "translation": [
+              3.0359771251678467,
+              3.216984272003174,
+              1.1771293878555298
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "mrk_scaffolding_sw_1",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.09229599684476852,
+              0.7010573744773865,
+              0.7010574340820312,
+              -0.09229598939418793
+            ],
+            "translation": [
+              3.0359761714935303,
+              1.616984248161316,
+              1.1771293878555298
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "fx_center",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.13052618503570557,
+              0.0,
+              0.9914448857307434
+            ],
+            "translation": [
+              4.311655044555664,
+              0.44767090678215027,
+              2.004128932952881
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          }
+        ],
+        "frame": "Empty parent_bone/flag0 is model-root frame; named parent_bone/flag1 is a native bone-local transform. World transforms require the native skeleton/pose."
+      },
+      "native_skeleton": {
+        "present": true,
+        "SKLN_payload_sha256": [
+          "1cc58b9cbd76369d056ed6f2eaa1bb0719bdaa6321109a12759c3a0cd4dca03e"
+        ],
+        "skinned_mesh_names": [],
+        "bone_tables": [
+          {
+            "valid_name_parent_table": true,
+            "chunk_version": 6,
+            "name": "",
+            "bone_count": 7,
+            "bones": [
+              {
+                "index": 0,
+                "name": "bone_root",
+                "parent_index": -1
+              },
+              {
+                "index": 1,
+                "name": "bone_crane_turn",
+                "parent_index": 0
+              },
+              {
+                "index": 2,
+                "name": "bone_crane_tilt",
+                "parent_index": 1
+              },
+              {
+                "index": 3,
+                "name": "bone_stones",
+                "parent_index": 2
+              },
+              {
+                "index": 4,
+                "name": "bone_stones_orientation",
+                "parent_index": 3
+              },
+              {
+                "index": 5,
+                "name": "bone_crate",
+                "parent_index": 2
+              },
+              {
+                "index": 6,
+                "name": "bone_crate_orientation",
+                "parent_index": 5
+              }
+            ],
+            "remaining_rest_pose_and_metadata_bytes": 338,
+            "payload_sha256": "1cc58b9cbd76369d056ed6f2eaa1bb0719bdaa6321109a12759c3a0cd4dca03e",
+            "limits": "Native bone names/parents parsed; rest/pose matrices not projected or retargeted."
+          }
+        ]
+      },
+      "animation_graphs": [
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "sha256": "0e63d76e2189bff700926604e2303ff9d474d076eece33323192c946dd206fb9",
+          "string_state_machine_values": {
+            "preview": [
+              "off",
+              "planned",
+              "targeting"
+            ],
+            "life_cycle_state": [
+              "construct_00",
+              "construct_05",
+              "construct_10",
+              "construct_15",
+              "construct_20",
+              "construct_25",
+              "construct_30",
+              "construct_35",
+              "construct_40",
+              "construct_45",
+              "construct_50",
+              "construct_55",
+              "construct_60",
+              "construct_65",
+              "construct_70",
+              "construct_75",
+              "construct_80",
+              "construct_85",
+              "construct_90",
+              "construct_95",
+              "damage_1",
+              "damage_2",
+              "damage_3",
+              "damage_4",
+              "damage_5",
+              "healthy",
+              "preview",
+              "ruins",
+              "targeting"
+            ],
+            "has_collapsed_damage1": [
+              "false",
+              "true"
+            ],
+            "has_collapsed_damage2": [
+              "false",
+              "true"
+            ],
+            "has_collapsed_damage3": [
+              "false",
+              "true"
+            ],
+            "has_collapsed_ruins": [
+              "false",
+              "true"
+            ],
+            "life_cycle_state_previous": [
+              "damage_1",
+              "damage_2",
+              "damage_3",
+              "damage_4",
+              "damage_5",
+              "healthy",
+              "preview",
+              "ruins",
+              "targeting"
+            ],
+            "has_collapsed_damage4": [
+              "false",
+              "true"
+            ],
+            "has_collapsed_damage5": [
+              "false",
+              "true"
+            ],
+            "burn_state": [
+              "off",
+              "on"
+            ],
+            "debug_static_rig_name": [
+              "damaged",
+              "healthy",
+              "ruins"
+            ]
+          },
+          "setstate_destinations": [
+            {
+              "action": "set_lifecycle_construct_00",
+              "state_machine": "life_cycle_state",
+              "state": "construct_00"
+            },
+            {
+              "action": "set_lifecycle_construct_20",
+              "state_machine": "life_cycle_state",
+              "state": "construct_20"
+            },
+            {
+              "action": "set_lifecycle_construct_40",
+              "state_machine": "life_cycle_state",
+              "state": "construct_40"
+            },
+            {
+              "action": "set_lifecycle_construct_60",
+              "state_machine": "life_cycle_state",
+              "state": "construct_60"
+            },
+            {
+              "action": "set_lifecycle_construct_80",
+              "state_machine": "life_cycle_state",
+              "state": "construct_80"
+            },
+            {
+              "action": "set_lifecycle_damage1",
+              "state_machine": "life_cycle_state",
+              "state": "damage_1"
+            },
+            {
+              "action": "set_lifecycle_damage1",
+              "state_machine": "life_cycle_state_previous",
+              "state": "damage_1"
+            },
+            {
+              "action": "set_lifecycle_damage2",
+              "state_machine": "life_cycle_state",
+              "state": "damage_2"
+            },
+            {
+              "action": "set_lifecycle_damage2",
+              "state_machine": "life_cycle_state_previous",
+              "state": "damage_2"
+            },
+            {
+              "action": "set_lifecycle_healthy",
+              "state_machine": "life_cycle_state",
+              "state": "healthy"
+            },
+            {
+              "action": "set_lifecycle_healthy",
+              "state_machine": "life_cycle_state_previous",
+              "state": "healthy"
+            },
+            {
+              "action": "set_lifecycle_preview",
+              "state_machine": "life_cycle_state",
+              "state": "preview"
+            },
+            {
+              "action": "set_lifecycle_preview",
+              "state_machine": "life_cycle_state_previous",
+              "state": "preview"
+            },
+            {
+              "action": "set_lifecycle_ruins",
+              "state_machine": "life_cycle_state",
+              "state": "ruins"
+            },
+            {
+              "action": "set_lifecycle_ruins",
+              "state_machine": "life_cycle_state_previous",
+              "state": "ruins"
+            },
+            {
+              "action": "set_lifecycle_targeting",
+              "state_machine": "life_cycle_state",
+              "state": "targeting"
+            },
+            {
+              "action": "set_lifecycle_targeting",
+              "state_machine": "life_cycle_state_previous",
+              "state": "targeting"
+            },
+            {
+              "action": "act_collapse_to_damage1",
+              "state_machine": "has_collapsed_damage1",
+              "state": "true"
+            },
+            {
+              "action": "act_collapse_to_damage2",
+              "state_machine": "has_collapsed_damage2",
+              "state": "true"
+            },
+            {
+              "action": "act_collapse_to_damage3",
+              "state_machine": "has_collapsed_damage3",
+              "state": "true"
+            },
+            {
+              "action": "act_collapse_to_ruins",
+              "state_machine": "has_collapsed_ruins",
+              "state": "true"
+            },
+            {
+              "action": "act_repair_to_damage1",
+              "state_machine": "has_collapsed_damage2",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_damage1",
+              "state_machine": "has_collapsed_damage3",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_damage1",
+              "state_machine": "has_collapsed_damage4",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_damage1",
+              "state_machine": "has_collapsed_damage5",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_damage1",
+              "state_machine": "has_collapsed_ruins",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_damage2",
+              "state_machine": "has_collapsed_damage3",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_damage2",
+              "state_machine": "has_collapsed_damage4",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_damage2",
+              "state_machine": "has_collapsed_damage5",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_damage2",
+              "state_machine": "has_collapsed_ruins",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_healthy",
+              "state_machine": "has_collapsed_damage1",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_healthy",
+              "state_machine": "has_collapsed_damage2",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_healthy",
+              "state_machine": "has_collapsed_damage3",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_healthy",
+              "state_machine": "has_collapsed_damage4",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_healthy",
+              "state_machine": "has_collapsed_damage5",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_healthy",
+              "state_machine": "has_collapsed_ruins",
+              "state": "false"
+            },
+            {
+              "action": "act_collapse_to_damage4",
+              "state_machine": "has_collapsed_damage4",
+              "state": "true"
+            },
+            {
+              "action": "act_collapse_to_damage5",
+              "state_machine": "has_collapsed_damage5",
+              "state": "true"
+            },
+            {
+              "action": "act_repair_to_damage3",
+              "state_machine": "has_collapsed_damage4",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_damage3",
+              "state_machine": "has_collapsed_damage5",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_damage3",
+              "state_machine": "has_collapsed_ruins",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_damage4",
+              "state_machine": "has_collapsed_damage5",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_damage4",
+              "state_machine": "has_collapsed_ruins",
+              "state": "false"
+            },
+            {
+              "action": "act_repair_to_damage5",
+              "state_machine": "has_collapsed_ruins",
+              "state": "false"
+            },
+            {
+              "action": "phy_act_static_rig_healthy",
+              "state_machine": "debug_static_rig_name",
+              "state": "healthy"
+            },
+            {
+              "action": "phy_act_static_rig_damaged",
+              "state_machine": "debug_static_rig_name",
+              "state": "damaged"
+            },
+            {
+              "action": "phy_act_static_rig_ruins",
+              "state_machine": "debug_static_rig_name",
+              "state": "ruins"
+            },
+            {
+              "action": "set_burnstate_on",
+              "state_machine": "burn_state",
+              "state": "on"
+            },
+            {
+              "action": "set_burnstate_off",
+              "state_machine": "burn_state",
+              "state": "off"
+            },
+            {
+              "action": "act_startup_set_collapse_flags",
+              "state_machine": "has_collapsed_damage1",
+              "state": "false"
+            },
+            {
+              "action": "act_startup_set_collapse_flags",
+              "state_machine": "has_collapsed_damage2",
+              "state": "false"
+            },
+            {
+              "action": "act_startup_set_collapse_flags",
+              "state_machine": "has_collapsed_damage3",
+              "state": "false"
+            },
+            {
+              "action": "act_startup_set_collapse_flags",
+              "state_machine": "has_collapsed_damage4",
+              "state": "false"
+            },
+            {
+              "action": "act_startup_set_collapse_flags",
+              "state_machine": "has_collapsed_damage5",
+              "state": "false"
+            },
+            {
+              "action": "act_startup_set_collapse_flags",
+              "state_machine": "has_collapsed_ruins",
+              "state": "false"
+            }
+          ],
+          "behavior_names": [
+            "fx_bhv_gold_worker_small",
+            "bhv_set_lifecycle_construct_00",
+            "bhv_set_lifecycle_construct_20",
+            "bhv_set_lifecycle_construct_40",
+            "bhv_set_lifecycle_construct_60",
+            "bhv_set_lifecycle_construct_80",
+            "bhv_set_lifecycle_damage1",
+            "bhv_set_lifecycle_damage2",
+            "bhv_set_lifecycle_healthy",
+            "bhv_ambient_fx",
+            "bhv_set_lifecycle_preview",
+            "bhv_set_lifecycle_ruins",
+            "bhv_set_lifecycle_targeting",
+            "bhv_collapse_damage1",
+            "bhv_collapse_damage2",
+            "bhv_collapse_damage3",
+            "bhv_collapse_ruins",
+            "bhv_repair_to_damage1",
+            "bhv_repair_to_damage2",
+            "bhv_repair_to_healthy",
+            "bhv_collapse_damage4",
+            "bhv_collapse_damage5",
+            "bhv_repair_to_damage3",
+            "bhv_repair_to_damage4",
+            "bhv_repair_to_damage5",
+            "bhv_switch_static_rig_damaged",
+            "bhv_switch_static_rig_ruins",
+            "bhv_switch_static_rig_healthy",
+            "bhv_set_burnstate_on",
+            "bhv_set_burnstate_off",
+            "bhv_construct_sound_play_05",
+            "bhv_construct_sound_play_10",
+            "bhv_construct_sound_play_15",
+            "bhv_construct_sound_play_20",
+            "bhv_construct_sound_play_25",
+            "bhv_construct_sound_play_30",
+            "bhv_construct_sound_play_35",
+            "bhv_construct_sound_play_40",
+            "bhv_construct_sound_play_45",
+            "bhv_construct_sound_play_50",
+            "bhv_construct_sound_play_55",
+            "bhv_construct_sound_play_60",
+            "bhv_construct_sound_play_65",
+            "bhv_construct_sound_play_70",
+            "bhv_construct_sound_play_75",
+            "bhv_construct_sound_play_80",
+            "bhv_construct_sound_play_85",
+            "bhv_construct_sound_play_90",
+            "bhv_construct_sound_play_95",
+            "bhv_fire_extinguished",
+            "bhv_fire_burning_critical",
+            "bhv_fire_burning",
+            "bhv_smoke_column_heavy",
+            "bhv_smoke_column_light",
+            "bhv_fire_audio",
+            "bhv_fire_audio_critical",
+            "bhv_fire_burnout_ruins"
+          ],
+          "typed_numeric_predicate_count": 38,
+          "parse_failures": 0
+        }
+      ],
+      "mechanism_and_rig_action_references": [
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_collapse_to_damage1",
+          "operations": [
+            {
+              "native_action_kind": "physics_orphan",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_1_debris"
+                },
+                {
+                  "key": "actionTriggered",
+                  "value": "<none>"
+                },
+                {
+                  "key": "lifeTime",
+                  "value": "6"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_collapse_to_damage2",
+          "operations": [
+            {
+              "native_action_kind": "physics_orphan",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_2_debris"
+                },
+                {
+                  "key": "actionTriggered",
+                  "value": "<none>"
+                },
+                {
+                  "key": "lifeTime",
+                  "value": "6"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_collapse_to_damage3",
+          "operations": [
+            {
+              "native_action_kind": "physics_orphan",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_3_debris"
+                },
+                {
+                  "key": "actionTriggered",
+                  "value": "<none>"
+                },
+                {
+                  "key": "lifeTime",
+                  "value": "6"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_repair_to_damage1",
+          "operations": [
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_2_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_3_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_4_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_2_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_2_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_3_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_3_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_4_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_4_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_repair_to_damage2",
+          "operations": [
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_3_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_4_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_3_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_3_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_4_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_4_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_repair_to_healthy",
+          "operations": [
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_1_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_2_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_3_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_4_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_1_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_1_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_2_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_2_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_3_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_3_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_4_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_4_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_collapse_to_ruins",
+          "operations": [
+            {
+              "native_action_kind": "physics_orphan",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_debris"
+                },
+                {
+                  "key": "actionTriggered",
+                  "value": "<none>"
+                },
+                {
+                  "key": "lifeTime",
+                  "value": "6"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_collapse_to_damage4",
+          "operations": [
+            {
+              "native_action_kind": "physics_orphan",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_4_debris"
+                },
+                {
+                  "key": "actionTriggered",
+                  "value": "<none>"
+                },
+                {
+                  "key": "lifeTime",
+                  "value": "6"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_collapse_to_damage5",
+          "operations": [
+            {
+              "native_action_kind": "physics_orphan",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_debris"
+                },
+                {
+                  "key": "actionTriggered",
+                  "value": "<none>"
+                },
+                {
+                  "key": "lifeTime",
+                  "value": "6"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_repair_to_damage3",
+          "operations": [
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_4_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_4_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_4_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_repair_to_damage4",
+          "operations": [
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damage_5_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_repair_to_damage5",
+          "operations": [
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_debris"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_repair"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "true"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins_repair"
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_static_rig_healthy",
+          "operations": [
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damaged"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_healthy"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "false"
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_static_rig_damaged",
+          "operations": [
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_healthy"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damaged"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "false"
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        },
+        {
+          "graph": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "native_action_name": "phy_act_static_rig_ruins",
+          "operations": [
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_healthy"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_subtract",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_damaged"
+                }
+              ],
+              "native_trailing_float": 0.0
+            },
+            {
+              "native_action_kind": "physics_rig_add",
+              "parameters": [
+                {
+                  "key": "rigName",
+                  "value": "sel_ruins"
+                },
+                {
+                  "key": "behaviour",
+                  "value": ""
+                },
+                {
+                  "key": "resetFixedBodyPositions",
+                  "value": "false"
+                }
+              ],
+              "native_trailing_float": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "coordinate_projection": "B(native)=(-native.x,-native.z,native.y)",
+  "native_stamp_transform_order": "B * T(native translation) * R(normalized xyzw quaternion) * S(native scale) * B^-1",
+  "mechanism_dependencies": {
+    "art/civilizations/common/layouts/archetypes/layout_stonecamp/layout_stonecamp.rgm": {
+      "model": "art/civilizations/common/layouts/archetypes/layout_stonecamp/layout_stonecamp.rgm",
+      "used_by_families": [
+        "mining_camp"
+      ],
+      "native_model_local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\layouts\\archetypes\\layout_stonecamp\\layout_stonecamp.rgm",
+      "native_geometry_local_path": null,
+      "native_model_sha256": "82275e4c5044f85c10fb91da3e8fff7fd329befacc12b04493a1ccf4b2097b45",
+      "native_skeleton": {
+        "present": true,
+        "SKLN_payload_sha256": [
+          "1cc58b9cbd76369d056ed6f2eaa1bb0719bdaa6321109a12759c3a0cd4dca03e"
+        ],
+        "skinned_mesh_names": [],
+        "bone_tables": [
+          {
+            "valid_name_parent_table": true,
+            "chunk_version": 6,
+            "name": "",
+            "bone_count": 7,
+            "bones": [
+              {
+                "index": 0,
+                "name": "bone_root",
+                "parent_index": -1
+              },
+              {
+                "index": 1,
+                "name": "bone_crane_turn",
+                "parent_index": 0
+              },
+              {
+                "index": 2,
+                "name": "bone_crane_tilt",
+                "parent_index": 1
+              },
+              {
+                "index": 3,
+                "name": "bone_stones",
+                "parent_index": 2
+              },
+              {
+                "index": 4,
+                "name": "bone_stones_orientation",
+                "parent_index": 3
+              },
+              {
+                "index": 5,
+                "name": "bone_crate",
+                "parent_index": 2
+              },
+              {
+                "index": 6,
+                "name": "bone_crate_orientation",
+                "parent_index": 5
+              }
+            ],
+            "remaining_rest_pose_and_metadata_bytes": 338,
+            "payload_sha256": "1cc58b9cbd76369d056ed6f2eaa1bb0719bdaa6321109a12759c3a0cd4dca03e",
+            "limits": "Native bone names/parents parsed; rest/pose matrices not projected or retargeted."
+          }
+        ]
+      },
+      "markers": {
+        "valid": true,
+        "count": 12,
+        "payload_sha256": "80678ab0950936a451b3449b5213b62c0cc9ec743d149223966bcfcd8aae0832",
+        "markers": [
+          {
+            "name": "spawn_vehicle",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              -2.699340581893921,
+              0.0,
+              2.0185961723327637
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "spawn point",
+              "marker_subtype": "vehicle",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "road_point_04",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              0.0033400878310203552,
+              0.0,
+              -4.009414196014404
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "interaction",
+              "marker_subtype": "start_point",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "spawn_human",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              -2.0179245471954346,
+              0.0,
+              2.549936532974243
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "spawn point",
+              "marker_subtype": "human",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "spawn_bounty",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              -3.2040820121765137,
+              0.0,
+              3.2007949352264404
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "spawn point",
+              "marker_subtype": "human",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "road_point_06",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              -4.011026859283447,
+              0.0,
+              -0.037099119275808334
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "interaction",
+              "marker_subtype": "start_point",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "road_point_07",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              -4.446545124053955,
+              0.0,
+              4.324710369110107
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "interaction",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "road_point_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              4.424806594848633,
+              0.0,
+              4.280239105224609
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "interaction",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "road_point_03",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              4.466568470001221,
+              0.0,
+              -4.473647594451904
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "interaction",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "road_point_02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              3.994175672531128,
+              0.0,
+              -0.039794921875
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "interaction",
+              "marker_subtype": "start_point",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "road_point_08",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              0.000849853502586484,
+              0.0,
+              4.016299247741699
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "interaction",
+              "marker_subtype": "start_point",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "road_point_05",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              -4.246046543121338,
+              0.0,
+              -4.343774318695068
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "interaction",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "starting_position",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              -2.019139289855957,
+              0.0,
+              2.0248608589172363
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "spawn point",
+              "marker_subtype": "starting position",
+              "marker_radius": 1.0
+            }
+          }
+        ],
+        "frame": "Empty parent_bone/flag0 is model-root frame; named parent_bone/flag1 is a native bone-local transform. World transforms require the native skeleton/pose."
+      },
+      "marker_contract": "Only fully consumed valid=true records are usable. Empty parent_bone/flag0 is native model-root; named parent_bone/flag1 is native bone-local. No marker record here is a world-space socket.",
+      "native_owner_graphs": [
+        {
+          "logical_path": "art/civilizations/common/layouts/archetypes/layout_stonecamp/layout_stonecamp.rgo",
+          "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\layouts\\archetypes\\layout_stonecamp\\layout_stonecamp.rgo",
+          "sha256": "b151fabe832c65aba5f706933347697e19a160920cd0ff25ca33af02f85b45d1",
+          "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+        }
+      ],
+      "sails_action_operations": [],
+      "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+    },
+    "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm": {
+      "model": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm",
+      "used_by_families": [
+        "mining_camp"
+      ],
+      "native_model_local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\structures\\mining_camp\\com_mining_camp_combined\\com_mining_camp_combined.rgm",
+      "native_geometry_local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\structures\\mining_camp\\com_mining_camp_combined\\com_mining_camp_combined.rrgeom",
+      "native_model_sha256": "2fe9121f3dc2673c266b4c47d00a63767300d7dfb9b811274f8f616e69c36a72",
+      "native_skeleton": {
+        "present": true,
+        "SKLN_payload_sha256": [
+          "1cc58b9cbd76369d056ed6f2eaa1bb0719bdaa6321109a12759c3a0cd4dca03e"
+        ],
+        "skinned_mesh_names": [],
+        "bone_tables": [
+          {
+            "valid_name_parent_table": true,
+            "chunk_version": 6,
+            "name": "",
+            "bone_count": 7,
+            "bones": [
+              {
+                "index": 0,
+                "name": "bone_root",
+                "parent_index": -1
+              },
+              {
+                "index": 1,
+                "name": "bone_crane_turn",
+                "parent_index": 0
+              },
+              {
+                "index": 2,
+                "name": "bone_crane_tilt",
+                "parent_index": 1
+              },
+              {
+                "index": 3,
+                "name": "bone_stones",
+                "parent_index": 2
+              },
+              {
+                "index": 4,
+                "name": "bone_stones_orientation",
+                "parent_index": 3
+              },
+              {
+                "index": 5,
+                "name": "bone_crate",
+                "parent_index": 2
+              },
+              {
+                "index": 6,
+                "name": "bone_crate_orientation",
+                "parent_index": 5
+              }
+            ],
+            "remaining_rest_pose_and_metadata_bytes": 338,
+            "payload_sha256": "1cc58b9cbd76369d056ed6f2eaa1bb0719bdaa6321109a12759c3a0cd4dca03e",
+            "limits": "Native bone names/parents parsed; rest/pose matrices not projected or retargeted."
+          }
+        ]
+      },
+      "markers": {
+        "valid": true,
+        "count": 22,
+        "payload_sha256": "faebfd615d2e071d39c707a6c2f591f0e6c25eb1efbd90953f987ed466279f3f",
+        "markers": [
+          {
+            "name": "mrk_scaffolding_nw_1",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.5609855651855469,
+              -0.43045929074287415,
+              -0.43045932054519653,
+              0.5609855651855469
+            ],
+            "translation": [
+              3.6616363525390625,
+              1.616984248161316,
+              3.45517635345459
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "mrk_scaffolding_se_0",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.4304593801498413,
+              0.5609855055809021,
+              0.5609855055809021,
+              0.4304593801498413
+            ],
+            "translation": [
+              4.981164455413818,
+              0.016984179615974426,
+              0.6559173464775085
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "fx_critical_damage_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              1.07940673828125,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "mrk_scaffolding_ne_0",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.7010574340820312,
+              0.09229594469070435,
+              0.09229593724012375,
+              0.7010573744773865
+            ],
+            "translation": [
+              5.579181671142578,
+              0.016984179615974426,
+              2.9413704872131348
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "mrk_scaffolding_ne_2",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.7010574340820312,
+              0.09229594469070435,
+              0.09229593724012375,
+              0.7010573744773865
+            ],
+            "translation": [
+              5.579181671142578,
+              3.216984272003174,
+              2.9413704872131348
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "mrk_scaffolding_nw_0",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.5609855651855469,
+              -0.43045929074287415,
+              -0.43045932054519653,
+              0.5609855651855469
+            ],
+            "translation": [
+              3.6616363525390625,
+              0.016984179615974426,
+              3.4551758766174316
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "fx_fire_damage_02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.9107756614685059,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "mrk_scaffolding_nw_2",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.5609855651855469,
+              -0.43045929074287415,
+              -0.43045932054519653,
+              0.5609855651855469
+            ],
+            "translation": [
+              3.6616363525390625,
+              3.216984272003174,
+              3.4551758766174316
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "fx_building_damage_02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.6679379940032959,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "mrk_scaffolding_se_2",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.4304593801498413,
+              0.5609855055809021,
+              0.5609855055809021,
+              0.4304593801498413
+            ],
+            "translation": [
+              4.981164455413818,
+              3.216984272003174,
+              0.6559175848960876
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "fx_chimney_stack",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.13052619993686676,
+              0.0,
+              0.9914448857307434
+            ],
+            "translation": [
+              4.199141979217529,
+              4.187310695648193,
+              1.9847770929336548
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_building_damage_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.13052618503570557,
+              0.0,
+              0.9914448857307434
+            ],
+            "translation": [
+              4.304807186126709,
+              2.8485496044158936,
+              1.9328213930130005
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_chimney_furnace",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.7933533787727356,
+              0.0,
+              0.6087614297866821
+            ],
+            "translation": [
+              5.4329729080200195,
+              0.6182108521461487,
+              1.687325119972229
+            ],
+            "scale": [
+              0.9999999403953552,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "mrk_scaffolding_sw_0",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.09229599684476852,
+              0.7010573744773865,
+              0.7010574340820312,
+              -0.09229598939418793
+            ],
+            "translation": [
+              3.0359761714935303,
+              0.016984179615974426,
+              1.1771292686462402
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "mrk_scaffolding_se_1",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.4304593801498413,
+              0.5609855055809021,
+              0.5609855055809021,
+              0.4304593801498413
+            ],
+            "translation": [
+              4.981164455413818,
+              1.616984248161316,
+              0.6559175848960876
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "fx_impact_ground_02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              3.369704484939575,
+              0.0,
+              -2.222773551940918
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_fire_damage_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.13052618503570557,
+              0.0,
+              0.9914448857307434
+            ],
+            "translation": [
+              4.291006565093994,
+              1.614709496498108,
+              2.0341668128967285
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_impact_ground_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.13052618503570557,
+              0.0,
+              0.9914448857307434
+            ],
+            "translation": [
+              5.086323261260986,
+              0.0,
+              4.853915214538574
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "mrk_scaffolding_ne_1",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              -0.7010574340820312,
+              0.09229594469070435,
+              0.09229593724012375,
+              0.7010573744773865
+            ],
+            "translation": [
+              5.579181671142578,
+              1.616984248161316,
+              2.9413704872131348
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "mrk_scaffolding_sw_2",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.09229599684476852,
+              0.7010573744773865,
+              0.7010574340820312,
+              -0.09229598939418793
+            ],
+            "translation": [
+              3.0359771251678467,
+              3.216984272003174,
+              1.1771293878555298
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "mrk_scaffolding_sw_1",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.09229599684476852,
+              0.7010573744773865,
+              0.7010574340820312,
+              -0.09229598939418793
+            ],
+            "translation": [
+              3.0359761714935303,
+              1.616984248161316,
+              1.1771293878555298
+            ],
+            "scale": [
+              1.0,
+              0.9999999403953552,
+              1.0
+            ],
+            "attributes": {
+              "marker_type": "attachment_marker",
+              "marker_subtype": "none",
+              "marker_radius": 1.0
+            }
+          },
+          {
+            "name": "fx_center",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.13052618503570557,
+              0.0,
+              0.9914448857307434
+            ],
+            "translation": [
+              4.311655044555664,
+              0.44767090678215027,
+              2.004128932952881
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          }
+        ],
+        "frame": "Empty parent_bone/flag0 is model-root frame; named parent_bone/flag1 is a native bone-local transform. World transforms require the native skeleton/pose."
+      },
+      "marker_contract": "Only fully consumed valid=true records are usable. Empty parent_bone/flag0 is native model-root; named parent_bone/flag1 is native bone-local. No marker record here is a world-space socket.",
+      "native_owner_graphs": [
+        {
+          "logical_path": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgo",
+          "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\structures\\mining_camp\\com_mining_camp_combined\\com_mining_camp_combined.rgo",
+          "sha256": "0e63d76e2189bff700926604e2303ff9d474d076eece33323192c946dd206fb9",
+          "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+        }
+      ],
+      "sails_action_operations": [],
+      "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records."
+    }
+  },
+  "preservation": "Native actors, source consumers, gameplay footprints, markers, rigs and graph binaries are retained inputs; this source milestone does not rebind them.",
+  "limits": "Rest/model/stamp coordinates only. Bounds are envelopes, not collision or posed swept volumes. Numeric HP thresholds are not inferred.",
+  "input_contract_sha256": {
+    "PRIMARY_BODY_HANDOFF.json": "7a7cdd02672ee35884f0c40b6a3131dc0cd3fdbec9fa6bc5bfca07bcecb58f80",
+    "FAMILY_NATIVE_STATE_CONTRACTS.json": "edd6e347cecd6e44e813e87129de29b61837b0b021b4571b4102d6bfa14fff09",
+    "HEALTHY_REST_BOUNDS.json": "9eb74c72701f72aaee15ead7c8af0e31dbe3cfd075c5786cd8a7a881aea43484",
+    "MECHANISM_DEPENDENCIES.json": "36fdc45fae1dc2f92193f10bc51ebc79fea2f50a6b7605e3c78fb0321c7f82f1",
+    "ALL_FAMILY_TRIANGLE_BUDGETS.json": "d5a03255df734f775ef562c745cfc65128d344a8ed5cd843ffad83658c8d3518"
+  }
+}

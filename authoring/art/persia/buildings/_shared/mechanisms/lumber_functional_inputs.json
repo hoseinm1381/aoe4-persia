@@ -1,0 +1,460 @@
+{
+  "schema": "ccp.persia.lumber-functional-library/v1",
+  "objects": {
+    "armature": "NLF_armature",
+    "skin": "NLF_skin",
+    "rigid_0": "NLF_rigid_0",
+    "rigid_1": "NLF_rigid_1",
+    "rigid_3": "NLF_rigid_3",
+    "rigid_5": "NLF_rigid_5",
+    "rigid_7": "NLF_rigid_7"
+  },
+  "source_library": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\_shared\\mechanisms\\lumber_crane.blend",
+  "source_library_sha256": "771c0fc0cbac7fc1c4412fdb60258091cc5461e896a8a339b753a576032d02eb",
+  "source_probe": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\_shared\\mechanisms\\lumber_crane-probe.json",
+  "source_probe_sha256": "49e8a6a30f1161ef797237374403c69b29526499b19263cf2e6851916a3ec25e",
+  "native_rgm_sha256": "55ad1d5227fc5d14355e6439b6bbf91695fbf1de913f6241b50b087f3997834b",
+  "native_rrgeom_sha256": "d575467700cb88ecb8625358ef9b3c8afcdb65a74ad0c563a7ca8ecee9c96899",
+  "public_plan_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\decoded-static.json",
+  "public_plan_sha256": "7edeec84d2690be91cf00393e923981d75b421f47332dc207a107e9e93bfe92a",
+  "partition_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\LUMBER_FUNCTIONAL_SOURCE_PARTITION.json",
+  "partition_sha256": "8079483a079fbf31184a7373a8bea8080967af536c46e7714d9c54f948ac8abb",
+  "audits": [
+    {
+      "object": "NLF_skin",
+      "role": "skin",
+      "source_index": null,
+      "triangles": 352,
+      "maximum_position_error": 0.0,
+      "maximum_raw_normal_error": 2.9598950401776847e-08,
+      "maximum_UV_error": 0,
+      "maximum_custom_normal_angle_degrees": 0.006931790405956333,
+      "material_identity": {
+        "name": "crane",
+        "material_class": "structure",
+        "rrmaterial_sha256": "de43d9bd569b26ded385f0724ddfb8dd6be5112920d2c49025f6d5ad33a9a9c2",
+        "schema": "garrison.structure-preview-graph/v2"
+      },
+      "weights": {
+        "vertices_checked": 297,
+        "maximum_weight_error": 0,
+        "exact_native_named_weights_preserved": true,
+        "automatic_weights": false,
+        "LOD_remapped_again": false
+      }
+    },
+    {
+      "object": "NLF_rigid_0",
+      "role": "rigid",
+      "source_index": 0,
+      "triangles": 112,
+      "maximum_position_error": 0.0,
+      "maximum_raw_normal_error": 2.5863592711949934e-08,
+      "maximum_UV_error": 0,
+      "maximum_custom_normal_angle_degrees": 0.003845955314827367,
+      "material_identity": {
+        "name": "crane",
+        "material_class": "structure",
+        "rrmaterial_sha256": "de43d9bd569b26ded385f0724ddfb8dd6be5112920d2c49025f6d5ad33a9a9c2",
+        "schema": "garrison.structure-preview-graph/v2"
+      },
+      "weights": null
+    },
+    {
+      "object": "NLF_rigid_1",
+      "role": "rigid",
+      "source_index": 1,
+      "triangles": 218,
+      "maximum_position_error": 0.0,
+      "maximum_raw_normal_error": 2.968038204098633e-08,
+      "maximum_UV_error": 0,
+      "maximum_custom_normal_angle_degrees": 0.05132478419734533,
+      "material_identity": {
+        "name": "crane",
+        "material_class": "structure",
+        "rrmaterial_sha256": "de43d9bd569b26ded385f0724ddfb8dd6be5112920d2c49025f6d5ad33a9a9c2",
+        "schema": "garrison.structure-preview-graph/v2"
+      },
+      "weights": null
+    },
+    {
+      "object": "NLF_rigid_3",
+      "role": "rigid",
+      "source_index": 3,
+      "triangles": 474,
+      "maximum_position_error": 0.0,
+      "maximum_raw_normal_error": 2.9794636979829647e-08,
+      "maximum_UV_error": 0,
+      "maximum_custom_normal_angle_degrees": 0.0111334251105123,
+      "material_identity": {
+        "name": "crane",
+        "material_class": "structure",
+        "rrmaterial_sha256": "de43d9bd569b26ded385f0724ddfb8dd6be5112920d2c49025f6d5ad33a9a9c2",
+        "schema": "garrison.structure-preview-graph/v2"
+      },
+      "weights": null
+    },
+    {
+      "object": "NLF_rigid_5",
+      "role": "rigid",
+      "source_index": 5,
+      "triangles": 368,
+      "maximum_position_error": 0.0,
+      "maximum_raw_normal_error": 2.9794636979829647e-08,
+      "maximum_UV_error": 0,
+      "maximum_custom_normal_angle_degrees": 0.007692752741322593,
+      "material_identity": {
+        "name": "crane",
+        "material_class": "structure",
+        "rrmaterial_sha256": "de43d9bd569b26ded385f0724ddfb8dd6be5112920d2c49025f6d5ad33a9a9c2",
+        "schema": "garrison.structure-preview-graph/v2"
+      },
+      "weights": null
+    },
+    {
+      "object": "NLF_rigid_7",
+      "role": "rigid",
+      "source_index": 7,
+      "triangles": 80,
+      "maximum_position_error": 0.0,
+      "maximum_raw_normal_error": 2.9761643705050744e-08,
+      "maximum_UV_error": 0,
+      "maximum_custom_normal_angle_degrees": 0.013196259388287047,
+      "material_identity": {
+        "name": "crane",
+        "material_class": "structure",
+        "rrmaterial_sha256": "de43d9bd569b26ded385f0724ddfb8dd6be5112920d2c49025f6d5ad33a9a9c2",
+        "schema": "garrison.structure-preview-graph/v2"
+      },
+      "weights": null
+    }
+  ],
+  "reference_bones": {
+    "model": "art/civilizations/common/structures/lumber_camp/com_lumber_camp_crane_age01/com_lumber_camp_crane_age01.rgm",
+    "bones": [
+      {
+        "name": "bone_root",
+        "present": true,
+        "expected_parent": null,
+        "actual_parent": null,
+        "maximum_matrix_residual": 0.0,
+        "public_reference_projection_matches": true
+      },
+      {
+        "name": "bone_wheel_base",
+        "present": true,
+        "expected_parent": "bone_root",
+        "actual_parent": "bone_root",
+        "maximum_matrix_residual": 6.51925802230835e-09,
+        "public_reference_projection_matches": true
+      },
+      {
+        "name": "bone_cable_translate_z",
+        "present": true,
+        "expected_parent": "bone_wheel_base",
+        "actual_parent": "bone_wheel_base",
+        "maximum_matrix_residual": 0.0,
+        "public_reference_projection_matches": true
+      },
+      {
+        "name": "bone_cable_twist",
+        "present": true,
+        "expected_parent": "bone_cable_translate_z",
+        "actual_parent": "bone_cable_translate_z",
+        "maximum_matrix_residual": 1.1175870895385742e-07,
+        "public_reference_projection_matches": true
+      },
+      {
+        "name": "bone_wheel",
+        "present": true,
+        "expected_parent": "bone_wheel_base",
+        "actual_parent": "bone_wheel_base",
+        "maximum_matrix_residual": 1.1920928955078125e-07,
+        "public_reference_projection_matches": true
+      }
+    ],
+    "frame": "Armature-local reference comparison; not native world pose",
+    "source_pose_qualified": false
+  },
+  "skin_pose_checks": [
+    {
+      "bone": "bone_cable_twist",
+      "radians": 0.035,
+      "exact_native_weighted_vertex_count": 258,
+      "maximum_Blender_scene_displacement": 0.025565070467615542,
+      "maximum_exact_weight_LBS_error": 4.777675730550706e-07,
+      "unweighted_partition_maximum_displacement": 0.0,
+      "restored_reference_maximum_error": 0.0,
+      "reversible_source_pose_passed": true,
+      "clips_created": false,
+      "native_world_pose_qualified": false,
+      "engine_physical_pivot_qualified": false,
+      "qualification": "Reference-source pose/LBS consistency only; actual parent probe required"
+    },
+    {
+      "bone": "bone_wheel_base",
+      "radians": 0.035,
+      "exact_native_weighted_vertex_count": 297,
+      "maximum_Blender_scene_displacement": 0.14482397111519768,
+      "maximum_exact_weight_LBS_error": 2.385349660155493e-07,
+      "unweighted_partition_maximum_displacement": 0,
+      "restored_reference_maximum_error": 0.0,
+      "reversible_source_pose_passed": true,
+      "clips_created": false,
+      "native_world_pose_qualified": false,
+      "engine_physical_pivot_qualified": false,
+      "qualification": "Reference-source pose/LBS consistency only; actual parent probe required"
+    }
+  ],
+  "rigid_pose": {
+    "bone": "bone_wheel",
+    "probe_radians": 0.035,
+    "max_Blender_scene_displacement_by_object": {
+      "NLF_rigid_0": 0.09749875004055784,
+      "NLF_rigid_1": 0.06228668464199626,
+      "NLF_rigid_3": 0.06264118340699316,
+      "NLF_rigid_5": 0.10038051357167045,
+      "NLF_rigid_7": 0.0
+    },
+    "restored_reference_max_error": 0.0,
+    "reference_restored": true,
+    "rigid_movement_partition": [
+      {
+        "object": "NLF_rigid_0",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NLF_rigid_1",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NLF_rigid_3",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NLF_rigid_5",
+        "expected_move_from_exact_native_parent": true,
+        "observed_move": true,
+        "movement_partition_matches": true
+      },
+      {
+        "object": "NLF_rigid_7",
+        "expected_move_from_exact_native_parent": false,
+        "observed_move": false,
+        "movement_partition_matches": true
+      }
+    ],
+    "keyframes_created": false,
+    "native_world_pose_qualified": false,
+    "qualification": "Reversible source-pose responsiveness only; verify expected bound/static source partition and physical pivot separately"
+  },
+  "image_dependencies": [
+    {
+      "image": "793a967fa5d5_9805201238585044371_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\793a967fa5d5_9805201238585044371_packed.dds",
+      "sha256": "a736b44e188a1551f648bcccfe4b1d11c0a6584d8f8cb622e04a75ae2a5b7984",
+      "bytes": 43832
+    },
+    {
+      "image": "8e2a8b723e19_8741042176221059778_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\8e2a8b723e19_8741042176221059778_packed.dds",
+      "sha256": "d03747fbcf8d84ae8b0ce79c1da11d22ed1488ebf9742dfd30a800556274dfb9",
+      "bytes": 43832
+    },
+    {
+      "image": "c6ae5f70c76b_14259662789339030955_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\c6ae5f70c76b_14259662789339030955_packed.dds",
+      "sha256": "6be1dac639f6b816267fa2985ae32b138109129a900bc2473594de8f1bbde507",
+      "bytes": 174904
+    },
+    {
+      "image": "d314636c3541_2430408601683036952_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\d314636c3541_2430408601683036952_packed.dds",
+      "sha256": "8e6ff39821b415fdde670c0682ebaf0b1084510e1eaa707088180fea933bb336",
+      "bytes": 349680
+    },
+    {
+      "image": "e76747582b56_18345724522684246396_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\e76747582b56_18345724522684246396_packed.dds",
+      "sha256": "803a62d2855840ab3e321511c5a8b3bd098ad62a08d2804baae857f43d0a02b5",
+      "bytes": 349680
+    },
+    {
+      "image": "2219aa975f24_13477809885520635358_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\2219aa975f24_13477809885520635358_packed.dds",
+      "sha256": "eda04b9b5e90470cf48a8082da121be0e3307f131b849c9f4aac2069f135fa31",
+      "bytes": 174904
+    },
+    {
+      "image": "387409c39b1e_3582105961097184256_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\387409c39b1e_3582105961097184256_packed.dds",
+      "sha256": "43a097f3643e620198dfd266af54bd3467f5d1e5e6f862303fe841c0944a9c10",
+      "bytes": 349680
+    },
+    {
+      "image": "7be50f6f3786_6567369943232376199_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\7be50f6f3786_6567369943232376199_packed.dds",
+      "sha256": "1e62e308afad94dabb17417899e2c9b4bcb5a2523d4a46aa70e7e72a6e2a7926",
+      "bytes": 349680
+    },
+    {
+      "image": "d5ba288445e3_middle_gray_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\d5ba288445e3_middle_gray_msk.dds",
+      "sha256": "70c3a38f82ec5141b6ed18d999b91fb62837048cef37b96ebac696ddf5ef6cb3",
+      "bytes": 152
+    },
+    {
+      "image": "e56d8f3decf5_7597519659832404014_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\e56d8f3decf5_7597519659832404014_packed.dds",
+      "sha256": "2f1a5a751c1a8cb6fe77e89daff5978e4ed9f1a67dad15233eb0d80062fc780b",
+      "bytes": 174904
+    },
+    {
+      "image": "020d6ccc48c5_16055389955745102068_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\020d6ccc48c5_16055389955745102068_packed.dds",
+      "sha256": "3bb4096f49cec6376b273e959f6ce67778f373c1ca96ac073b6fc423dc9505f3",
+      "bytes": 349680
+    },
+    {
+      "image": "47e080e379b0_5454786962469612105_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\47e080e379b0_5454786962469612105_packed.dds",
+      "sha256": "dadba0e30a3ab1a74976aa54ce047090ace4c940772151986b3c9d1b4ee72542",
+      "bytes": 349680
+    },
+    {
+      "image": "11be4541ea43_5598713892470299334_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\11be4541ea43_5598713892470299334_packed.dds",
+      "sha256": "073f1433ae0eeb75ffa058eab61b51a3822bcfe3ed00405f639207ec1393935e",
+      "bytes": 174904
+    },
+    {
+      "image": "190025f95441_18429806129848399363_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\190025f95441_18429806129848399363_packed.dds",
+      "sha256": "f0c1a3dc002f8169cf413604cb059825c414f89ec1cdc40e4541374745d01e53",
+      "bytes": 349680
+    },
+    {
+      "image": "1878ae6af0eb_14828503663624541535_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\1878ae6af0eb_14828503663624541535_packed.dds",
+      "sha256": "21f74d55fb9f8f38b5d5e249728d8e98a8860d48c7d798e24acf157b0b07a045",
+      "bytes": 349680
+    },
+    {
+      "image": "00a2880bf731_6708399669590286008_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\00a2880bf731_6708399669590286008_packed.dds",
+      "sha256": "f172e130e5a861fa1e5d2f7b01576b9e5530d22f87673de1bbac0bee37927d39",
+      "bytes": 152
+    },
+    {
+      "image": "5381da0089b5_940685202008631679_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\5381da0089b5_940685202008631679_packed.dds",
+      "sha256": "de7a0c4d0867b196ebb8a87ee44f7eed23d4895d8cd3ccc4303b77e0330cf82d",
+      "bytes": 176
+    },
+    {
+      "image": "ef0164b43256_17716732775687444425_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\ef0164b43256_17716732775687444425_packed.dds",
+      "sha256": "d3765056a38c03a20de2c005165843957d1573155a2176ed7cba56e9dd068b77",
+      "bytes": 176
+    },
+    {
+      "image": "79d116ead710_noise_03_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\79d116ead710_noise_03_msk.dds",
+      "sha256": "170f9ef9198d369b73f4ee1d216db44902f204ab39b5a5c235a5e87e8031a68a",
+      "bytes": 699192
+    },
+    {
+      "image": "9ecc4e5a059e_6258180502197242187_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\9ecc4e5a059e_6258180502197242187_packed.dds",
+      "sha256": "84bd6eff555a818641eec83af452cb879856e1f482663f46bd259fa7c3d40e71",
+      "bytes": 174904
+    },
+    {
+      "image": "651c41eb18b0_420887538007200027_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\651c41eb18b0_420887538007200027_packed.dds",
+      "sha256": "b8f8cd28b2155c147781e4b08d7e952a87c610091ed3bd1103070327ea6c4558",
+      "bytes": 349680
+    },
+    {
+      "image": "ac180966adf8_17416495092992481213_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\ac180966adf8_17416495092992481213_packed.dds",
+      "sha256": "163f580cf5bbf2c0693f7c774803b92e260bf1d042cc81c59e94ae89be2b700f",
+      "bytes": 349680
+    },
+    {
+      "image": "2559e2731a7e_3276630836538442047_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\2559e2731a7e_3276630836538442047_packed.dds",
+      "sha256": "833c034c4f6563a267404347fe1a6831a2d4b2f4dd91da51c3fdb88b3eb3019b",
+      "bytes": 174904
+    },
+    {
+      "image": "b8e4ce9f853c_8075824890169796949_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\b8e4ce9f853c_8075824890169796949_packed.dds",
+      "sha256": "9030933b1d41aa0a7c824f962f4d2dc1070dc7ddc9450963da802924a5336e85",
+      "bytes": 349680
+    },
+    {
+      "image": "ec41a9e94ab5_651613341237364139_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\ec41a9e94ab5_651613341237364139_packed.dds",
+      "sha256": "f63eb2bf83d9b0f1c81f49e0e9870ddc3dfd1329140192aba6db84663fcb2a1e",
+      "bytes": 349680
+    },
+    {
+      "image": "e2965e62dca8_15243018561692585019_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\e2965e62dca8_15243018561692585019_packed.dds",
+      "sha256": "e4703120b6ab7ad8256021ae586914277140c563f55571c6d455d00ad43334ba",
+      "bytes": 196
+    },
+    {
+      "image": "1754d19f2037_noise_02_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\1754d19f2037_noise_02_msk.dds",
+      "sha256": "d9b600f9791e94ebf90aacf76aebaf5c7d0ef44f670066ec184ff2a4abdc270a",
+      "bytes": 699192
+    },
+    {
+      "image": "924543c65c30_2380588332224472286_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\924543c65c30_2380588332224472286_packed.dds",
+      "sha256": "95db46889d254b13d29b32bac53622242f808c73b14cd1dc6abd952a0c4b7fba",
+      "bytes": 87556
+    },
+    {
+      "image": "570e02d83fae_patches_01_msk.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\570e02d83fae_patches_01_msk.dds",
+      "sha256": "903d8aac0f3a290e1f0957fe9a90cb843eb542fe8b720e48cd6b8006f9ce5b33",
+      "bytes": 699192
+    },
+    {
+      "image": "6f3011ce41e3_str_damage_charred_01_alb.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\6f3011ce41e3_str_damage_charred_01_alb.dds",
+      "sha256": "c4250b78de37fe140ba3d62d38967f59bbb22c444d872c660f772f906556ac0d",
+      "bytes": 174904
+    },
+    {
+      "image": "85c59cbb9679_11755559493558267954_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\85c59cbb9679_11755559493558267954_packed.dds",
+      "sha256": "db13cd404d960308375d8c50bbd34faf49eaec874c3b74789c26f89111c5c0c3",
+      "bytes": 349680
+    },
+    {
+      "image": "e9cf8b550492_6402078192227338723_packed.dds",
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\decode\\ee2222ede4b1\\4b74ca17799bb3dbcb6f\\textures\\e9cf8b550492_6402078192227338723_packed.dds",
+      "sha256": "d2ec3be47d1c6cfa0088e63871b66f8932b40f03a0e7c0921f1e1f04cb40ff8b",
+      "bytes": 43832
+    }
+  ],
+  "active_triangles": 1604,
+  "full_native_reference_library_preserved": true,
+  "all_five_bones_preserved": true,
+  "stock_static_timber_triangles_excluded": 880,
+  "deep_foundation_triangles_excluded": 256,
+  "clips_created": false,
+  "native_playback_qualified": false,
+  "library_path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\_shared\\mechanisms\\lumber_functional_inputs.blend",
+  "library_sha256": "42926dd710480fcc4bdcfff4cd3f625c4d2ada6ffe2ae5fbc3e335ca3f8d9379"
+}

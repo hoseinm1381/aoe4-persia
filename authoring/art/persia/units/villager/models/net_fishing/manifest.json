@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "villager",
+  "donor": "art/civilizations/common/weapons/tools/net_fishing/net_fishing.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\villager\\models\\net_fishing\\model.blend",
+  "source_sha256": "eb528b3fe3f0b3ea574e2dba5cc1fdacde77e2b846b04ad31c68e025ac066f80",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 617,
+      "triangles": 919,
+      "sha256": "d7270677b60320da3335b4ccd071bdae2518737000bc7a0a941fb139b8594c42"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 617,
+      "triangles": 919,
+      "sha256": "e7437575805d11aac4a745d968ed11a0b379c60a94e959c471b015e12a68ed7c"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 620,
+      "triangles": 919,
+      "sha256": "c5494b5c16ac530eb03f413b8b0e46a55860495ece2befb88936805deac5db7e"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_villager_net_fishing_LOD0",
+      "vertices": 617,
+      "triangles": 919,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_net_fishing_LOD1",
+      "vertices": 617,
+      "triangles": 919,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_net_fishing_LOD2",
+      "vertices": 620,
+      "triangles": 919,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "carried",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 86,
+      "changed_vertices": 398,
+      "source_vertices": 617,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 80,
+      "changed_vertices": 398,
+      "source_vertices": 617,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 82,
+      "changed_vertices": 401,
+      "source_vertices": 620,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "carried",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 86,
+      "changed_vertices": 398,
+      "source_vertices": 617,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 80,
+      "changed_vertices": 398,
+      "source_vertices": 617,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 82,
+      "changed_vertices": 401,
+      "source_vertices": 620,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/tools/net_fishing/net_fishing.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/tools/net_fishing/net_fishing.rgm"
+}

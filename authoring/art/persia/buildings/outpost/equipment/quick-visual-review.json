@@ -1,0 +1,574 @@
+{
+  "schema": "ccp.persia.outpost-quick-visual-review/v2",
+  "review_scope": "One initial24-image source visual pass plus one corrected24-image confirmation; no worker Blender execution",
+  "saved_source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\outpost_configurations.blend",
+  "saved_source_sha256": "a6e03714fa3be25ecb938ed31dc6e4ca1e9d046ad8e10d92bb83f11fbdcd0bce",
+  "configuration_checkpoint_sha256": "9e4181ba679e6e644dd3941890a3d3e16870c92b98ddb3881c88927b451e4e85",
+  "native_library_sha256": "97f0c49388b2efe4bb3f256c2a4cb6c8033834b6ce6ffb97baa739c4a8482828",
+  "configuration_count": 8,
+  "authored_composition_count": 248,
+  "reviewed_previews": [
+    {
+      "configuration": "wood__none",
+      "state": "healthy",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__none.png",
+      "sha256": "988e48c5dc1b96a60668d5c5e34dcb8d787969bdabf16ae2d9f80f53664f5671",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "wood__none",
+      "state": "damage_5",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__none__damage_5.png",
+      "sha256": "d7a8b8a71d413d8123bc892e2121dfc598643efadb23ed39aec4f9e26e3d9bd5",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "wood__none",
+      "state": "ruins",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__none__ruins.png",
+      "sha256": "f9776563c019896edfbdc71ca573c7bc05b5d1b90dae9a3267a768ec8b12d9eb",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "state": "healthy",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__arrowslits.png",
+      "sha256": "96f36c9103bd7d493236813a4f8b9c429ea52e0958fed7969c5ded797df40fd8",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "state": "damage_5",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__arrowslits__damage_5.png",
+      "sha256": "4f898abebb4e7f8f1d33ad3cb415342cb8c3a6170fcbccabd3ce2564f7bba7b4",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "state": "ruins",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__arrowslits__ruins.png",
+      "sha256": "d987703d20603c69e8f2b3a049e262b5e3336ec2fbbfdf814c13f7aa7115318b",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "wood__springald",
+      "state": "healthy",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__springald.png",
+      "sha256": "2b54ea5a6b7080180a3864f19d109b75716f0c6532c4f1b49c5bb508f4810b3d",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "wood__springald",
+      "state": "damage_5",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__springald__damage_5.png",
+      "sha256": "9abe7bfe4f9fae7ff6a713f31cb8b74de8f297cb08d45e6120fa9e6fe5b8319d",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "wood__springald",
+      "state": "ruins",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__springald__ruins.png",
+      "sha256": "16bce202430e69abe079ce42f271677c119cba92769e4dce0a65491277a5e1bb",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "wood__cannon",
+      "state": "healthy",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__cannon.png",
+      "sha256": "bba03bff8b8c8cb700688c3d4431cf0bbf4f4ce4e37871e9a2c636322549d351",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "wood__cannon",
+      "state": "damage_5",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__cannon__damage_5.png",
+      "sha256": "c1a70b0e5b2cd8fb4b62d1db8565d0d53215ae7d41b5379be6b4ac2a72003297",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "wood__cannon",
+      "state": "ruins",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__cannon__ruins.png",
+      "sha256": "76bfd07e3b88c7ee3ab872d801181d4ed0a6af601cd3c177298b96e69f9cf4a8",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "fortified__none",
+      "state": "healthy",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__none.png",
+      "sha256": "e76fabd559a3023dc55b4081d417f7fb441c9bab01142eec18eda9581902eeed",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "fortified__none",
+      "state": "damage_5",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__none__damage_5.png",
+      "sha256": "97517c0a7ab1cd097a2bda1eb37387a82cd35d40cb6084114e4cc7ac9e595d77",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "fortified__none",
+      "state": "ruins",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__none__ruins.png",
+      "sha256": "a2a951bd92fd4fd1651810a14d88e349e409c8e21d55c1098ce81525ffc2a6b7",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "state": "healthy",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__arrowslits.png",
+      "sha256": "f2969947998c32cc07d44bfb2f0dbdddb36812b4180fc207a86ee475e30be3f6",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "state": "damage_5",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__arrowslits__damage_5.png",
+      "sha256": "9356f29ee2327c8223fa061f2df1ddd3a7c963ba19e754c7ee621292ec311271",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "state": "ruins",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__arrowslits__ruins.png",
+      "sha256": "b938373ae311e6e7c28e4d9965c1d1d5c6cdad76db9ba1be7acc37ed030ede87",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "fortified__springald",
+      "state": "healthy",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__springald.png",
+      "sha256": "869a99c4a4a88ecce39182030291c51020d3b20772cca9a49d40ea40fb2475a9",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "fortified__springald",
+      "state": "damage_5",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__springald__damage_5.png",
+      "sha256": "bb7da6cb0f373acc6dd2089848666a829b08cee755dd316d3c1bc801c82b15b8",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "fortified__springald",
+      "state": "ruins",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__springald__ruins.png",
+      "sha256": "53c2f13b98c71da58286c77ef0b2406dd53dce104d09d188793d43fc37919686",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "fortified__cannon",
+      "state": "healthy",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__cannon.png",
+      "sha256": "e1ace954402c24d5e566b60e9eac78b0e71c8e30391b2707fd2482a5dd2f45cd",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "fortified__cannon",
+      "state": "damage_5",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__cannon__damage_5.png",
+      "sha256": "12080890d92ea0ee1a1023478f4708c759bf43644a84ed134e1fe87aa42b4ba4",
+      "targeted_visible_defects_remaining": []
+    },
+    {
+      "configuration": "fortified__cannon",
+      "state": "ruins",
+      "lod": 0,
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__cannon__ruins.png",
+      "sha256": "72b04e0f721324e4cce72f4ac9901b4fc0ecce6c8cc55e4306992bed6dc09f99",
+      "targeted_visible_defects_remaining": []
+    }
+  ],
+  "inspected_contact_sheets": [
+    {
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\quick-review-corrected-healthy.png",
+      "sha256": "bd1067c07958ebc986c81b5d3651621dea55cf7975a3191b804effda627d3970"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\quick-review-corrected-damage_5.png",
+      "sha256": "b6619d6065f76729d3689b996287b473755a43423794e0b3f683abb2a8e1bf98"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\quick-review-corrected-ruins.png",
+      "sha256": "0a907a56482c438f0ff0becb36817eaf79925e20d3669e3c589cc52f6ed2fccc"
+    }
+  ],
+  "status": "PASS targeted quick source visual correction: all3 identified integration defects cleared in current24 previews",
+  "broader_art_owner_acceptance": false,
+  "exhaustive_source_validation_pass_claimed": false,
+  "native_runtime_qualified": false,
+  "findings": [
+    {
+      "id": "arrow_housing_duplicate_architecture",
+      "status": "cleared",
+      "evidence": "Both arrow variants retain one original roof/silhouette. New original slitted guards sit in the correct original gallery; striped donor room and duplicate roof/band absent. Heavy/ruins have no intact donor hut or roof through walls.",
+      "raw_reference_policy": "Exact native arrow housing remains inactive and inspectable; not counted as visible"
+    },
+    {
+      "id": "native_carrier_seating",
+      "status": "cleared",
+      "evidence": "Fortified cannon carriers visibly seat on individual original stone plinths down to actual gallery; the previous large gap is absent. Basic cannon/springald and fortified springald have small seated foot supports. Native roots/pivots unchanged."
+    },
+    {
+      "id": "heavy_intact_compound_wall_intersections",
+      "status": "cleared_by_explicit_source_visibility_choice",
+      "evidence": "All heavy/ruin previews show surviving original walls without upright weapon housings cutting through doorways or protruding as false pillar ruins.",
+      "qualification": "Weapons omitted from authored active heavy/ruin source; exact native lifecycle-selected alternative kept inactive. This is not engine visibility or native collapse proof."
+    }
+  ],
+  "targeted_visual_defects_remaining": [],
+  "additional_fix_requested": false,
+  "healthy_visible_triangle_truth": [
+    {
+      "configuration": "wood__none",
+      "original_body": 1192,
+      "active_original_guards": 0,
+      "active_original_carrier_plinths": 0,
+      "active_native_equipment": 0,
+      "inactive_native_reference": 0,
+      "total_visible": 1192
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "original_body": 1192,
+      "active_original_guards": 240,
+      "active_original_carrier_plinths": 0,
+      "active_native_equipment": 0,
+      "inactive_native_reference": 7223,
+      "total_visible": 1432
+    },
+    {
+      "configuration": "wood__springald",
+      "original_body": 1192,
+      "active_original_guards": 0,
+      "active_original_carrier_plinths": 96,
+      "active_native_equipment": 200,
+      "inactive_native_reference": 0,
+      "total_visible": 1488
+    },
+    {
+      "configuration": "wood__cannon",
+      "original_body": 1192,
+      "active_original_guards": 0,
+      "active_original_carrier_plinths": 96,
+      "active_native_equipment": 448,
+      "inactive_native_reference": 0,
+      "total_visible": 1736
+    },
+    {
+      "configuration": "fortified__none",
+      "original_body": 1360,
+      "active_original_guards": 0,
+      "active_original_carrier_plinths": 0,
+      "active_native_equipment": 0,
+      "inactive_native_reference": 0,
+      "total_visible": 1360
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "original_body": 1360,
+      "active_original_guards": 240,
+      "active_original_carrier_plinths": 0,
+      "active_native_equipment": 0,
+      "inactive_native_reference": 7054,
+      "total_visible": 1600
+    },
+    {
+      "configuration": "fortified__springald",
+      "original_body": 1360,
+      "active_original_guards": 0,
+      "active_original_carrier_plinths": 48,
+      "active_native_equipment": 1696,
+      "inactive_native_reference": 0,
+      "total_visible": 3104
+    },
+    {
+      "configuration": "fortified__cannon",
+      "original_body": 1360,
+      "active_original_guards": 0,
+      "active_original_carrier_plinths": 48,
+      "active_native_equipment": 1504,
+      "inactive_native_reference": 0,
+      "total_visible": 2912
+    }
+  ],
+  "saved_presentation": {
+    "active_scene": "OutpostConfig_fortified__cannon",
+    "visible_source_slot": "healthy_LOD0",
+    "evidence": "Parent confirmed final config loop explicitly assigns window.scene; script restores each scene healthyLOD0 before save",
+    "worker_source_code_checked": true,
+    "worker_direct_binary_scene_inspection": false,
+    "presentation_resave_required": false
+  },
+  "previous_pass_evidence": {
+    "saved_source_sha256": "6547acf4c70c9262a675e27a767c8c32bc985f33e81de594bd43ffd65deed3e3",
+    "reviewed_previews": [
+      {
+        "configuration": "wood__none",
+        "state": "healthy",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__none.png",
+        "sha256": "7d1069bf9df14eff7f907bea307e5159a34a4d1b152d11d98309d4ff75ebf14f"
+      },
+      {
+        "configuration": "wood__none",
+        "state": "damage_5",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__none__damage_5.png",
+        "sha256": "ebede66641c52347ccc216ac46f8bf105e9d5f5c526eca530c4982c1122e80c7"
+      },
+      {
+        "configuration": "wood__none",
+        "state": "ruins",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__none__ruins.png",
+        "sha256": "b8923ba08588e50b223988811619e66acdb9eedc668a244813bf46dd8a667e6c"
+      },
+      {
+        "configuration": "wood__arrowslits",
+        "state": "healthy",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__arrowslits.png",
+        "sha256": "aff3b8c2d5b36f610994a4c03405343610d87ca39cff1aa16ab24d518e93c0f8"
+      },
+      {
+        "configuration": "wood__arrowslits",
+        "state": "damage_5",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__arrowslits__damage_5.png",
+        "sha256": "1366319c964cdb5e1c8eed5f5d984117aa24e06fab3c068920aa8892d5728bb1"
+      },
+      {
+        "configuration": "wood__arrowslits",
+        "state": "ruins",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__arrowslits__ruins.png",
+        "sha256": "02221d8f38eb55d30ec909347739ad4ce02070082117313d581843428a473f9c"
+      },
+      {
+        "configuration": "wood__springald",
+        "state": "healthy",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__springald.png",
+        "sha256": "49f353a73b59954b454c367d56b97b294671265dd7e4372c8fd4345d12511586"
+      },
+      {
+        "configuration": "wood__springald",
+        "state": "damage_5",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__springald__damage_5.png",
+        "sha256": "f015f94d6d440fca6838a7d3e1f3fce6bb10fd754973145d9b4bf2d035726d78"
+      },
+      {
+        "configuration": "wood__springald",
+        "state": "ruins",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__springald__ruins.png",
+        "sha256": "d230278953de6fa17b65081f616a4ed664caa521ba0a6bb2bb61acf14a97ddf4"
+      },
+      {
+        "configuration": "wood__cannon",
+        "state": "healthy",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__cannon.png",
+        "sha256": "37aacba6e61a9016f393bb20f3cde843b68d2e243c6c63d96f56ef7e65e101d4"
+      },
+      {
+        "configuration": "wood__cannon",
+        "state": "damage_5",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__cannon__damage_5.png",
+        "sha256": "d8b781e6b49149641fc336ed36833d946e9aef69c932eb400f28645f8c3d34e4"
+      },
+      {
+        "configuration": "wood__cannon",
+        "state": "ruins",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\wood__cannon__ruins.png",
+        "sha256": "7d5c859dc646bba406a2ca7c17460d671d4f58bed048e0950b667bd53e1866c4"
+      },
+      {
+        "configuration": "fortified__none",
+        "state": "healthy",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__none.png",
+        "sha256": "1181c0144a559ea1ea4e39ed1fa197561ba1bc27de6e8c2654e9c427269c202e"
+      },
+      {
+        "configuration": "fortified__none",
+        "state": "damage_5",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__none__damage_5.png",
+        "sha256": "f173354a099d9304213da458564a76a419518da738c56b85a6e8d563e5a23cee"
+      },
+      {
+        "configuration": "fortified__none",
+        "state": "ruins",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__none__ruins.png",
+        "sha256": "7f65987afcc5827b4820ab2f3b778c9a79b5aa2b77de3868e4d69a7432423842"
+      },
+      {
+        "configuration": "fortified__arrowslits",
+        "state": "healthy",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__arrowslits.png",
+        "sha256": "f73b1b34ce116fe7b3f0bb0e836bb566565ac472b609e3839b21692c27c7c69a"
+      },
+      {
+        "configuration": "fortified__arrowslits",
+        "state": "damage_5",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__arrowslits__damage_5.png",
+        "sha256": "f8f3c87e124a019e2da9aeb63f3aeb8206af164f30547c2fc14cabc78be32783"
+      },
+      {
+        "configuration": "fortified__arrowslits",
+        "state": "ruins",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__arrowslits__ruins.png",
+        "sha256": "4922af205bed2df3c8bdee85677901d70ab12f57ca6dd9650cb7794328dce9a3"
+      },
+      {
+        "configuration": "fortified__springald",
+        "state": "healthy",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__springald.png",
+        "sha256": "ecc474205f7322016694c4a5ebd18eb1fbc83bfd1167f42143f8c1b2be95b51e"
+      },
+      {
+        "configuration": "fortified__springald",
+        "state": "damage_5",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__springald__damage_5.png",
+        "sha256": "f52dab639e13c535e7a52fac0ccf918f46c26810815ccf773fffd755603f6ee5"
+      },
+      {
+        "configuration": "fortified__springald",
+        "state": "ruins",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__springald__ruins.png",
+        "sha256": "47dfe730f961b6b22e39ef8ff0bef972783dddd5857f5a277516ede0ae48b664"
+      },
+      {
+        "configuration": "fortified__cannon",
+        "state": "healthy",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__cannon.png",
+        "sha256": "70ea6baadd9c83644cdc00796a652c4bc0d65d67c68b489bc430299c65618f54"
+      },
+      {
+        "configuration": "fortified__cannon",
+        "state": "damage_5",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__cannon__damage_5.png",
+        "sha256": "6de94f0f8d65f393f1b2f3b77075cbae23bd6ce6363d0845f7c57c1b587fa6e3"
+      },
+      {
+        "configuration": "fortified__cannon",
+        "state": "ruins",
+        "lod": 0,
+        "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\previews\\fortified__cannon__ruins.png",
+        "sha256": "ade1d0e58ffd47f8971cfae6df40ffb5eaea709f2ae1340fc65b42cd2baa451c"
+      }
+    ],
+    "contact_sheets": [
+      "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\quick-review-healthy.png",
+      "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\quick-review-damage_5.png",
+      "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\buildings\\outpost\\equipment\\quick-review-ruins.png"
+    ],
+    "defects": [
+      {
+        "id": "arrow_housing_duplicate_architecture",
+        "severity": "high",
+        "configurations": [
+          "wood__arrowslits",
+          "fortified__arrowslits"
+        ],
+        "states": [
+          "healthy",
+          "damage_5",
+          "ruins"
+        ],
+        "observation": "Native arrow components visibly add an entire striped donor room/roof or an internal duplicate roof. Ground rest creates intact foreign hut or roof band through surviving walls.",
+        "minimal_fix": "Retain exact native housing only as inactive inspectable reference. Add original small slitted guards seated on existing body gallery/breastwork; no second roof; omit guards when bearer gone."
+      },
+      {
+        "id": "fortified_cannon_float",
+        "severity": "high",
+        "configurations": [
+          "fortified__cannon"
+        ],
+        "states": [
+          "healthy"
+        ],
+        "observation": "Native carrier bottoms float above actual gallery floor; conspicuous empty vertical gap.",
+        "measured_gap_metres": 0.6245312500000004,
+        "minimal_fix": "Original individual carrier-foot plinths from actual deck5.52 to exact native bottom6.14453125; no native displacement."
+      },
+      {
+        "id": "minor_other_carrier_seating",
+        "severity": "medium",
+        "configurations": [
+          "wood__cannon",
+          "wood__springald",
+          "fortified__springald"
+        ],
+        "states": [
+          "healthy"
+        ],
+        "measured_gap_metres": {
+          "wood__cannon": 0.11757812500000009,
+          "wood__springald": 0.06875000000000009,
+          "fortified__springald": 0.07765625000000043
+        },
+        "observation": "Smaller unsupported carrier-foot gaps share the same seating defect.",
+        "minimal_fix": "Small original per-foot seats derived from connected exact native bottom faces."
+      },
+      {
+        "id": "heavy_intact_compound_wall_intersections",
+        "severity": "high",
+        "configurations": [
+          "wood__springald",
+          "wood__cannon",
+          "fortified__springald",
+          "fortified__cannon"
+        ],
+        "states": [
+          "damage_5",
+          "ruins"
+        ],
+        "observation": "Translation-only rest inserts upright equipment housings into surviving walls/doorways or leaves pillar-like parts above ruin rims.",
+        "minimal_fix": "Explicit authored source choice: omit intact compounds from visible heavy/ruin assemblies, retain exact lifecycle-selected alternatives inactive and inspectable; no invented collapse clip/pivot."
+      }
+    ]
+  },
+  "remaining_unchecked": [
+    "224 other authored source compositions not visually reviewed in this quick pass.",
+    "Full saved/cold geometry/contact/LOD/selector qualification beyond this scope deferred.",
+    "Native muzzle/frame/motion, engine visibility, export/cook/import/runtime gates remain unverified.",
+    "No 90-point/full production-art acceptance score inferred from this limited correction review."
+  ]
+}

@@ -1,0 +1,4690 @@
+{
+  "schema": "ccp.persia.outpost-248-source-slot-preparation/v1",
+  "Blender_executed": false,
+  "actual_assemblies_not_yet_generated": true,
+  "slot_count": 248,
+  "construction_proofs": {
+    "wood__none": {
+      "literal_native_cases": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95"
+      ],
+      "all_twenty_component_selections_identically_empty": true,
+      "first_three_authored_stages": "Empty native equipment proven for ALL construct00..95 cases; no progress thresholds invented",
+      "finish": "Exact healthy native equipment in authored complete source stage; not a native construct100 state"
+    },
+    "wood__arrowslits": {
+      "literal_native_cases": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95"
+      ],
+      "all_twenty_component_selections_identically_empty": true,
+      "first_three_authored_stages": "Empty native equipment proven for ALL construct00..95 cases; no progress thresholds invented",
+      "finish": "Exact healthy native equipment in authored complete source stage; not a native construct100 state"
+    },
+    "wood__springald": {
+      "literal_native_cases": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95"
+      ],
+      "all_twenty_component_selections_identically_empty": true,
+      "first_three_authored_stages": "Empty native equipment proven for ALL construct00..95 cases; no progress thresholds invented",
+      "finish": "Exact healthy native equipment in authored complete source stage; not a native construct100 state"
+    },
+    "wood__cannon": {
+      "literal_native_cases": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95"
+      ],
+      "all_twenty_component_selections_identically_empty": true,
+      "first_three_authored_stages": "Empty native equipment proven for ALL construct00..95 cases; no progress thresholds invented",
+      "finish": "Exact healthy native equipment in authored complete source stage; not a native construct100 state"
+    },
+    "fortified__none": {
+      "literal_native_cases": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95"
+      ],
+      "all_twenty_component_selections_identically_empty": true,
+      "first_three_authored_stages": "Empty native equipment proven for ALL construct00..95 cases; no progress thresholds invented",
+      "finish": "Exact healthy native equipment in authored complete source stage; not a native construct100 state"
+    },
+    "fortified__arrowslits": {
+      "literal_native_cases": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95"
+      ],
+      "all_twenty_component_selections_identically_empty": true,
+      "first_three_authored_stages": "Empty native equipment proven for ALL construct00..95 cases; no progress thresholds invented",
+      "finish": "Exact healthy native equipment in authored complete source stage; not a native construct100 state"
+    },
+    "fortified__springald": {
+      "literal_native_cases": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95"
+      ],
+      "all_twenty_component_selections_identically_empty": true,
+      "first_three_authored_stages": "Empty native equipment proven for ALL construct00..95 cases; no progress thresholds invented",
+      "finish": "Exact healthy native equipment in authored complete source stage; not a native construct100 state"
+    },
+    "fortified__cannon": {
+      "literal_native_cases": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95"
+      ],
+      "all_twenty_component_selections_identically_empty": true,
+      "first_three_authored_stages": "Empty native equipment proven for ALL construct00..95 cases; no progress thresholds invented",
+      "finish": "Exact healthy native equipment in authored complete source stage; not a native construct100 state"
+    }
+  },
+  "slots": [
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "healthy",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "healthy",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "healthy",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_1",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_1",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_1",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_2",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_2",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_2",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_3",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_3",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_3",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_4",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_4",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_4",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_5",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_5",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "damage_5",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "ruins",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "ruins",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "ruins",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "preview",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "preview",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "preview",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "targeting",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "targeting",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "targeting",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "construct_foundation",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "construct_walls",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "construct_vaults",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__none",
+      "body_key": "A1Basic",
+      "source_state": "construct_finish",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "healthy",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "healthy",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "healthy",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_1",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_1",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_1",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_2",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_2",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_2",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_3",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_3",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_3",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_4",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_4",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_4",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_5",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_5",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "damage_5",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "ruins",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        5697,
+        5697
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "ruins",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        5697,
+        5697
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "ruins",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        5697,
+        5697
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "preview",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "preview",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "preview",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "targeting",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "targeting",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "targeting",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "construct_foundation",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "construct_walls",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "construct_vaults",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "source_state": "construct_finish",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7223,
+        7223
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "healthy",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "healthy",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "healthy",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_1",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_1",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_1",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_2",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_2",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_2",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_3",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_3",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_3",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_4",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_4",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_4",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_5",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_5",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "damage_5",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "ruins",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "ruins",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "ruins",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "preview",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "preview",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "preview",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "targeting",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "targeting",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "targeting",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "construct_foundation",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "construct_walls",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "construct_vaults",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__springald",
+      "body_key": "A1Basic",
+      "source_state": "construct_finish",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        200,
+        200
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "healthy",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "healthy",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "healthy",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_1",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_1",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_1",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_2",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_2",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_2",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_3",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_3",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_3",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_4",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_4",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_4",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_5",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_5",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "damage_5",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "ruins",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        208,
+        208
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "ruins",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        208,
+        208
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "ruins",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        208,
+        208
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "preview",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "preview",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "preview",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "targeting",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "targeting",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "targeting",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "construct_foundation",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "construct_walls",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "construct_vaults",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "wood__cannon",
+      "body_key": "A1Basic",
+      "source_state": "construct_finish",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        448,
+        448
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "healthy",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "healthy",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "healthy",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_1",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_1",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_1",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_2",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_2",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_2",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_3",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_3",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_3",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_4",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_4",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_4",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_5",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_5",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "damage_5",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "ruins",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "ruins",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "ruins",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "preview",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "preview",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "preview",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "targeting",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "targeting",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "targeting",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "construct_foundation",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "construct_walls",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "construct_vaults",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__none",
+      "body_key": "A1Fortified",
+      "source_state": "construct_finish",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "healthy",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "healthy",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "healthy",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_1",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_1",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_1",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_2",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_2",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_2",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_3",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_3",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_3",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_4",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_4",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_4",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_5",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_5",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "damage_5",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "ruins",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "ruins",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "ruins",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "preview",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "preview",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "preview",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "targeting",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "targeting",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "targeting",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "construct_foundation",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "construct_walls",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "construct_vaults",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "source_state": "construct_finish",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        7054,
+        7054
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "healthy",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "healthy",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "healthy",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_1",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_1",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_1",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_2",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_2",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_2",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_3",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_3",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_3",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_4",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_4",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_4",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_5",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_5",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "damage_5",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "ruins",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "ruins",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "ruins",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "preview",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "preview",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "preview",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "targeting",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "targeting",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "targeting",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "construct_foundation",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "construct_walls",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "construct_vaults",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__springald",
+      "body_key": "A1Fortified",
+      "source_state": "construct_finish",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1696,
+        1696
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "healthy",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "healthy",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "healthy",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_1",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_1",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_1",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_1",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_2",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_2",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_2",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_2",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_3",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_3",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_3",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_3",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_4",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_4",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_4",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_4",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_5",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_5",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "damage_5",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "damage_5",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "ruins",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1264,
+        1264
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "ruins",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1264,
+        1264
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "ruins",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "ruins",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1264,
+        1264
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "preview",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "preview",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "preview",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "preview",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "targeting",
+      "lod": 0,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "targeting",
+      "lod": 1,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "targeting",
+      "lod": 2,
+      "native_context": {
+        "life_cycle_state": "targeting",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "construct_foundation",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "construct_walls",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "construct_vaults",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "construct_00",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        0,
+        0
+      ]
+    },
+    {
+      "configuration": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "source_state": "construct_finish",
+      "lod": null,
+      "native_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "simultaneous_triangles": [
+        1504,
+        1504
+      ]
+    }
+  ]
+}

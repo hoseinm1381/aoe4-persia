@@ -1,0 +1,495 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "authored_frame": "stamp-space before inverse projection",
+  "native_hp_thresholds": null,
+  "bodies": {
+    "A1": {
+      "review_status": "authored profile; requires generated state critique",
+      "damage": {
+        "groups": [
+          "ServiceWing1"
+        ],
+        "corner_plus_x_front_y": [
+          6.3,
+          1.1500000000000001,
+          2.41
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.84,
+          1.17
+        ],
+        "heavy_failure_group_caps": {
+          "ServiceWing1": 0.98,
+          "public_hall": 2.38,
+          "upper_office": 2.96,
+          "upper_council": 2.96,
+          "office_access": 1.12,
+          "council_access": 1.12,
+          "porch_support": 2.2,
+          "upper_porch": 2.2
+        },
+        "debris_area_xy": [
+          [
+            4.15,
+            0.4500000000000002
+          ],
+          [
+            6.5,
+            2.0500000000000003
+          ]
+        ],
+        "debris_ground_z": 0.16
+      },
+      "ruins": {
+        "default_cap": 1.1199999999999999,
+        "group_caps": {
+          "court_boundary": 0.88,
+          "office_access": 1.12,
+          "council_access": 1.12,
+          "porch_support": 1.12
+        },
+        "remove_groups": [
+          "upper_office",
+          "upper_council"
+        ],
+        "debris_area_xy": [
+          [
+            -5.9,
+            -4.9
+          ],
+          [
+            5.9,
+            4.6
+          ]
+        ],
+        "debris_ground_z": 0.16,
+        "debris_count": 105,
+        "fallen_members": [
+          {
+            "a": [
+              -2.6,
+              1.8,
+              0.26
+            ],
+            "b": [
+              0.7,
+              3.0,
+              0.26
+            ],
+            "width": 0.2,
+            "source_group": "public_hall",
+            "grounding_basis": "horizontal beam bottom at court top"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              1.3,
+              2.2,
+              0.25
+            ],
+            "size": [
+              1.8,
+              1.15,
+              0.18
+            ],
+            "rotation": 0.25,
+            "source_group": "public_hall",
+            "grounding_basis": "slab bottom at court top"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "EarthCourtBed",
+        "PublicApron"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "Hall_Joist",
+          "ApproachPaver",
+          "DoorSlat"
+        ],
+        "2": [
+          "Hall_Joist",
+          "ApproachPaver",
+          "DoorSlat",
+          "Jar",
+          "Basket",
+          "Food",
+          "Scroll",
+          "ClothFold",
+          "CarvedBand"
+        ]
+      },
+      "lod_policy": "family-specific lods.py: contiguous surviving coping runs, full-step proxies only when intact, true arch/vault profile reduction, structural bearing names retained"
+    },
+    "A2": {
+      "review_status": "authored profile; requires generated state critique",
+      "damage": {
+        "groups": [
+          "ServiceWing1"
+        ],
+        "corner_plus_x_front_y": [
+          6.3,
+          1.2,
+          2.6100000000000003
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.84,
+          1.17
+        ],
+        "heavy_failure_group_caps": {
+          "ServiceWing1": 0.98,
+          "public_hall": 2.491,
+          "upper_office": 2.96,
+          "upper_council": 2.96,
+          "office_access": 1.12,
+          "council_access": 1.12,
+          "porch_support": 2.2,
+          "upper_porch": 2.2
+        },
+        "debris_area_xy": [
+          [
+            3.9499999999999993,
+            0.5
+          ],
+          [
+            6.5,
+            2.1
+          ]
+        ],
+        "debris_ground_z": 0.16
+      },
+      "ruins": {
+        "default_cap": 1.1199999999999999,
+        "group_caps": {
+          "court_boundary": 0.88,
+          "office_access": 1.12,
+          "council_access": 1.12,
+          "porch_support": 1.12
+        },
+        "remove_groups": [
+          "upper_office",
+          "upper_council"
+        ],
+        "debris_area_xy": [
+          [
+            -5.9,
+            -4.9
+          ],
+          [
+            5.9,
+            4.6
+          ]
+        ],
+        "debris_ground_z": 0.16,
+        "debris_count": 105,
+        "fallen_members": [
+          {
+            "a": [
+              -2.6,
+              1.8,
+              0.26
+            ],
+            "b": [
+              0.7,
+              3.0,
+              0.26
+            ],
+            "width": 0.2,
+            "source_group": "public_hall",
+            "grounding_basis": "horizontal beam bottom at court top"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              1.3,
+              2.2,
+              0.25
+            ],
+            "size": [
+              1.8,
+              1.15,
+              0.18
+            ],
+            "rotation": 0.25,
+            "source_group": "public_hall",
+            "grounding_basis": "slab bottom at court top"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "EarthCourtBed",
+        "PublicApron"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "Hall_Joist",
+          "ApproachPaver",
+          "DoorSlat"
+        ],
+        "2": [
+          "Hall_Joist",
+          "ApproachPaver",
+          "DoorSlat",
+          "Jar",
+          "Basket",
+          "Food",
+          "Scroll",
+          "ClothFold",
+          "CarvedBand"
+        ]
+      },
+      "lod_policy": "family-specific lods.py: contiguous surviving coping runs, full-step proxies only when intact, true arch/vault profile reduction, structural bearing names retained"
+    },
+    "A3": {
+      "review_status": "authored profile; requires generated state critique",
+      "damage": {
+        "groups": [
+          "ServiceWing1"
+        ],
+        "corner_plus_x_front_y": [
+          6.3,
+          0.8999999999999999,
+          2.6100000000000003
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.84,
+          1.17
+        ],
+        "heavy_failure_group_caps": {
+          "ServiceWing1": 0.98,
+          "public_hall": 2.4688000000000003,
+          "upper_office": 2.96,
+          "upper_council": 2.96,
+          "office_access": 1.12,
+          "council_access": 1.12,
+          "porch_support": 2.2,
+          "upper_porch": 2.2
+        },
+        "debris_area_xy": [
+          [
+            4.449999999999999,
+            0.19999999999999996
+          ],
+          [
+            6.5,
+            1.7999999999999998
+          ]
+        ],
+        "debris_ground_z": 0.16
+      },
+      "ruins": {
+        "default_cap": 1.1199999999999999,
+        "group_caps": {
+          "court_boundary": 0.88,
+          "office_access": 1.12,
+          "council_access": 1.12,
+          "porch_support": 1.12
+        },
+        "remove_groups": [
+          "upper_office",
+          "upper_council"
+        ],
+        "debris_area_xy": [
+          [
+            -5.9,
+            -4.9
+          ],
+          [
+            5.9,
+            4.6
+          ]
+        ],
+        "debris_ground_z": 0.16,
+        "debris_count": 105,
+        "fallen_members": [
+          {
+            "a": [
+              -2.6,
+              1.8,
+              0.26
+            ],
+            "b": [
+              0.7,
+              3.0,
+              0.26
+            ],
+            "width": 0.2,
+            "source_group": "public_hall",
+            "grounding_basis": "horizontal beam bottom at court top"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              1.3,
+              2.2,
+              0.25
+            ],
+            "size": [
+              1.8,
+              1.15,
+              0.18
+            ],
+            "rotation": 0.25,
+            "source_group": "public_hall",
+            "grounding_basis": "slab bottom at court top"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "EarthCourtBed",
+        "PublicApron"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "Hall_Joist",
+          "ApproachPaver",
+          "DoorSlat"
+        ],
+        "2": [
+          "Hall_Joist",
+          "ApproachPaver",
+          "DoorSlat",
+          "Jar",
+          "Basket",
+          "Food",
+          "Scroll",
+          "ClothFold",
+          "CarvedBand"
+        ]
+      },
+      "lod_policy": "family-specific lods.py: contiguous surviving coping runs, full-step proxies only when intact, true arch/vault profile reduction, structural bearing names retained"
+    },
+    "A4": {
+      "review_status": "authored profile; requires generated state critique",
+      "damage": {
+        "groups": [
+          "ServiceWing1"
+        ],
+        "corner_plus_x_front_y": [
+          6.300000000000001,
+          1.3,
+          2.66
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.84,
+          1.17
+        ],
+        "heavy_failure_group_caps": {
+          "ServiceWing1": 0.98,
+          "public_hall": 2.4688000000000003,
+          "upper_office": 2.96,
+          "upper_council": 2.96,
+          "office_access": 1.12,
+          "council_access": 1.12,
+          "porch_support": 2.2,
+          "upper_porch": 2.2
+        },
+        "debris_area_xy": [
+          [
+            4.55,
+            0.6000000000000001
+          ],
+          [
+            6.500000000000001,
+            2.2
+          ]
+        ],
+        "debris_ground_z": 0.16
+      },
+      "ruins": {
+        "default_cap": 1.1199999999999999,
+        "group_caps": {
+          "court_boundary": 0.88,
+          "office_access": 1.12,
+          "council_access": 1.12,
+          "porch_support": 1.12
+        },
+        "remove_groups": [
+          "upper_office",
+          "upper_council"
+        ],
+        "debris_area_xy": [
+          [
+            -5.9,
+            -4.9
+          ],
+          [
+            5.9,
+            4.6
+          ]
+        ],
+        "debris_ground_z": 0.16,
+        "debris_count": 105,
+        "fallen_members": [
+          {
+            "a": [
+              -2.6,
+              1.8,
+              0.26
+            ],
+            "b": [
+              0.7,
+              3.0,
+              0.26
+            ],
+            "width": 0.2,
+            "source_group": "public_hall",
+            "grounding_basis": "horizontal beam bottom at court top"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              1.3,
+              2.2,
+              0.25
+            ],
+            "size": [
+              1.8,
+              1.15,
+              0.18
+            ],
+            "rotation": 0.25,
+            "source_group": "public_hall",
+            "grounding_basis": "slab bottom at court top"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "EarthCourtBed",
+        "PublicApron"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "Hall_Joist",
+          "ApproachPaver",
+          "DoorSlat"
+        ],
+        "2": [
+          "Hall_Joist",
+          "ApproachPaver",
+          "DoorSlat",
+          "Jar",
+          "Basket",
+          "Food",
+          "Scroll",
+          "ClothFold",
+          "CarvedBand"
+        ]
+      },
+      "lod_policy": "family-specific lods.py: contiguous surviving coping runs, full-step proxies only when intact, true arch/vault profile reduction, structural bearing names retained"
+    }
+  }
+}

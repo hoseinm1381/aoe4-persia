@@ -1,0 +1,536 @@
+{
+  "A3": {
+    "ground_top": 0.16,
+    "native_body_key": "A3",
+    "native_model": "art/civilizations/ottoman/structures/monastery/ott_monastery_control_age03/ott_monastery_control_age03.rgm",
+    "existing_visual_age": 3,
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_religious_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier3_unit_religious_control_ott",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_ott/ott_monastery_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_religious_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier3_unit_religious_control_ott",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_ott/ott_monastery_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_religious_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier3_unit_religious_control_ott",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_ott/ott_monastery_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_religious_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier3_unit_religious_control_ott",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_ott/ott_monastery_age_03.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "authored_space": "projected stamp-space; this half-turn matrix is its own inverse",
+    "projected_resource_to_stamp_matrix": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -5.6,
+        -5.1,
+        -0.06
+      ],
+      [
+        5.6,
+        5.5,
+        6.6
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -6.046875,
+        -5.6015625,
+        -1.6005859375
+      ],
+      [
+        6.046875,
+        5.81640625,
+        9.71875
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -7.4661189859,
+        -8.3109178132,
+        -1.6005859375
+      ],
+      [
+        7.962542878,
+        8.6953136002,
+        9.71875
+      ]
+    ],
+    "envelope_proposal_margins": [
+      0.44687500000000036,
+      0.5015625000000004,
+      0.44687500000000036,
+      0.31640625,
+      3.1187500000000004
+    ],
+    "entry": [
+      0.0,
+      -4.9,
+      0.16
+    ],
+    "ablution": [
+      -0.15,
+      -2.1,
+      0.24
+    ],
+    "qibla_orientation": "Original composition axis only; not a claim of a real-world geographic bearing in the game map.",
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_monastery/layout_monastery.rgm",
+      "native_layout_skeleton": true,
+      "layout_markers": 9,
+      "existing_props": [
+        "stone_bench",
+        "tree_small_garden",
+        "sagebush_row"
+      ],
+      "marker_frame": "Bone-local until native skeleton/pose evaluation; never asserted world-space sockets.",
+      "policy": "Retain original layout, religious effects, physics/repair graph owners, markers and legal attachments; no new motion/rig.",
+      "clearance_status": "Unqualified: rest geometry is not native footprint, monk exit, interaction marker, terrain placement or runtime clearance proof."
+    },
+    "native_states": {
+      "life_cycle_values": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95",
+        "healthy",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_4",
+        "damage_5",
+        "ruins",
+        "preview",
+        "targeting"
+      ],
+      "conditional_properties": [
+        "has_collapsed_ruins",
+        "has_collapsed_damage1",
+        "has_collapsed_damage2",
+        "has_collapsed_damage3",
+        "has_collapsed_damage4",
+        "has_collapsed_damage5",
+        "life_cycle_state_previous",
+        "burn_state",
+        "jin_debuff",
+        "debug_static_rig_name"
+      ],
+      "shared_layout_graph_contexts": {
+        "preview": [
+          "off",
+          "planned",
+          "targeting",
+          "targeting_invalid"
+        ],
+        "regicide_crown_state": [
+          "on"
+        ],
+        "gold_ink_longer_pulse": [
+          "off"
+        ],
+        "building_heal_buff_state": [
+          "on"
+        ]
+      },
+      "physics_actions": "Original RGO collapse/repair/static-rig actions exist; no new animation clips are authored.",
+      "primary_skeleton_present": false,
+      "inventory_reference": "research/persia_buildings/inventory/FAMILY_NATIVE_STATE_CONTRACTS.json",
+      "status": "Exact inventory contexts, not proof that every auxiliary ability is reachable. Native visibility/effects/repair and additional component mappings remain parent work; no HP thresholds inferred."
+    },
+    "native_clearance_status": "Unqualified: rest geometry is not native footprint, monk exit, interaction marker, terrain placement or runtime clearance proof.",
+    "visual_inspection": "Not performed; parent builds and reviews serially",
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp-space; this half-turn matrix is its own inverse",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A4": {
+    "ground_top": 0.16,
+    "native_body_key": "A4",
+    "native_model": "art/civilizations/ottoman/structures/monastery/ott_monastery_control_age04/ott_monastery_control_age04.rgm",
+    "existing_visual_age": 4,
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_religious_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier4_unit_religious_control_ott",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_ott/ott_monastery_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_religious_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier4_unit_religious_control_ott",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_ott/ott_monastery_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_religious_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier4_unit_religious_control_ott",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_ott/ott_monastery_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_religious_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/unit_religious_ott/tier4_unit_religious_control_ott",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_ott/ott_monastery_age_04.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "authored_space": "projected stamp-space; this half-turn matrix is its own inverse",
+    "projected_resource_to_stamp_matrix": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -5.6,
+        -5.1,
+        -0.06
+      ],
+      [
+        5.6,
+        5.5,
+        6.6
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -6.02734375,
+        -5.54296875,
+        -1.5986328125
+      ],
+      [
+        6.02734375,
+        5.8125,
+        11.7578125
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -7.4661189859,
+        -8.3109178132,
+        -1.5986328125
+      ],
+      [
+        7.962542878,
+        8.6953136002,
+        11.7578125
+      ]
+    ],
+    "envelope_proposal_margins": [
+      0.42734375000000036,
+      0.44296875000000036,
+      0.42734375000000036,
+      0.3125,
+      5.1578125
+    ],
+    "entry": [
+      0.0,
+      -4.9,
+      0.16
+    ],
+    "ablution": [
+      -0.15,
+      -2.1,
+      0.24
+    ],
+    "qibla_orientation": "Original composition axis only; not a claim of a real-world geographic bearing in the game map.",
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_monastery/layout_monastery.rgm",
+      "native_layout_skeleton": true,
+      "layout_markers": 9,
+      "existing_props": [
+        "stone_bench",
+        "tree_small_garden",
+        "sagebush_row"
+      ],
+      "marker_frame": "Bone-local until native skeleton/pose evaluation; never asserted world-space sockets.",
+      "policy": "Retain original layout, religious effects, physics/repair graph owners, markers and legal attachments; no new motion/rig.",
+      "clearance_status": "Unqualified: rest geometry is not native footprint, monk exit, interaction marker, terrain placement or runtime clearance proof."
+    },
+    "native_states": {
+      "life_cycle_values": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95",
+        "healthy",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_4",
+        "damage_5",
+        "ruins",
+        "preview",
+        "targeting"
+      ],
+      "conditional_properties": [
+        "has_collapsed_ruins",
+        "has_collapsed_damage1",
+        "has_collapsed_damage2",
+        "has_collapsed_damage3",
+        "has_collapsed_damage4",
+        "has_collapsed_damage5",
+        "life_cycle_state_previous",
+        "burn_state",
+        "jin_debuff",
+        "debug_static_rig_name"
+      ],
+      "shared_layout_graph_contexts": {
+        "preview": [
+          "off",
+          "planned",
+          "targeting",
+          "targeting_invalid"
+        ],
+        "regicide_crown_state": [
+          "on"
+        ],
+        "gold_ink_longer_pulse": [
+          "off"
+        ],
+        "building_heal_buff_state": [
+          "on"
+        ]
+      },
+      "physics_actions": "Original RGO collapse/repair/static-rig actions exist; no new animation clips are authored.",
+      "primary_skeleton_present": false,
+      "inventory_reference": "research/persia_buildings/inventory/FAMILY_NATIVE_STATE_CONTRACTS.json",
+      "status": "Exact inventory contexts, not proof that every auxiliary ability is reachable. Native visibility/effects/repair and additional component mappings remain parent work; no HP thresholds inferred."
+    },
+    "native_clearance_status": "Unqualified: rest geometry is not native footprint, monk exit, interaction marker, terrain placement or runtime clearance proof.",
+    "visual_inspection": "Not performed; parent builds and reviews serially",
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp-space; this half-turn matrix is its own inverse",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}

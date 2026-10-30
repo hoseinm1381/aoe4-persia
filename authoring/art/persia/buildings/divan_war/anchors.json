@@ -1,0 +1,525 @@
+{
+  "A4": {
+    "ground_top": 0.16,
+    "native_body_key": "A4",
+    "native_model": "art/civilizations/ottoman/structures/military_academy/ott_military_academy_control_age04/ott_military_academy_control_age04.rgm",
+    "native_model_sha256": "80dfd9482362b286e1b87ee7bdf6513e974158660b278a40ae9898319d39c888",
+    "resource_age_label": 4,
+    "availability": "Unchanged; resource label is not an age-up chain",
+    "source_uses": [
+      {
+        "actor": "ps_building_divan_military_persia",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/building_military_school_ott/tier4_military_school_control_ott",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_ott/ott_military_school_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_divan_military_persia",
+        "variant": "hre_brawl",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/ottoman/buildings/building_military_school_ott/tier4_military_school_control_ott",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_ott/ott_military_school_age_04.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "family_inventory_key": "divan_military",
+    "authoring_bounds_proposal": [
+      [
+        -5.9,
+        -5.8,
+        -0.06
+      ],
+      [
+        6.0,
+        5.6,
+        6.3
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -6.616406247,
+        -6.1226562485,
+        -1.6171875
+      ],
+      [
+        6.453906253,
+        5.9515625015,
+        7.8515625
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -9.2112478148,
+        -8.008605368,
+        -2.2587890027
+      ],
+      [
+        8.974105835,
+        7.9602437019,
+        7.8515625
+      ]
+    ],
+    "envelope_proposal_margins": [
+      0.7164062469999992,
+      0.3226562485000004,
+      0.4539062530000004,
+      0.3515625015000001,
+      1.5515625000000002
+    ],
+    "projected_resource_to_stamp_matrix": [
+      [
+        -2.220446049250313e-16,
+        -1.0000000000000002,
+        0.0,
+        0.20000000298023224
+      ],
+      [
+        1.0000000000000002,
+        -2.220446049250313e-16,
+        0.0,
+        0.10000000149011612
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.10000000149011612
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.20000000298023224
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "authored_space": "projected stamp-space; inverse returns projected resource frame",
+    "review_lane": [
+      [
+        -0.8,
+        -4.9,
+        0.16
+      ],
+      [
+        -0.8,
+        2.65,
+        0.16
+      ]
+    ],
+    "historical_claim": "Original military administration interpretation; no standing troop diorama or recovered historical office",
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_market/layout_market.rgm",
+      "layout_skeleton_present": true,
+      "layout_marker_count": 11,
+      "other_existing_owners": [
+        "wood_pieces",
+        "banner_barracks",
+        "banner_archery",
+        "banner_stables"
+      ],
+      "branch_difference": "Default arsenal props and campaign military-school props differ; retain actual branch legal membership, never merge them.",
+      "marker_frame": "Bone-local until native skeleton/pose evaluation; no world-space socket claim.",
+      "policy": "Preserve native layout, branch-specific graphs, markers and legal attachments. No new moving rig, troops or animals.",
+      "clearance_status": "Unqualified: static fit and source open lane do not establish footprint, courier/horse route, native exit or terrain clearance."
+    },
+    "native_states": {
+      "life_cycle_values": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95",
+        "healthy",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_4",
+        "damage_5",
+        "ruins",
+        "preview",
+        "targeting"
+      ],
+      "conditional_properties": [
+        "has_collapsed_damage1",
+        "has_collapsed_damage2",
+        "has_collapsed_damage3",
+        "has_collapsed_damage4",
+        "has_collapsed_damage5",
+        "has_collapsed_ruins",
+        "life_cycle_state_previous",
+        "burn_state",
+        "jin_debuff",
+        "debug_static_rig_name"
+      ],
+      "native_primary_skeleton_present": false,
+      "native_actions": "15 original collapse/repair/static-rig references per primary body; no new clip/playback.",
+      "reference": "research/persia_buildings/inventory/FAMILY_NATIVE_STATE_CONTRACTS.json",
+      "status": "Inventory only; preserve branch-specific physics/visibility/effect owners and exact mappings; no HP, age admission or new variant inference."
+    },
+    "native_clearance_status": "Unqualified: static fit and source open lane do not establish footprint, courier/horse route, native exit or terrain clearance.",
+    "visual_inspection": "Not performed; parent serial build required",
+    "upper_stair": {
+      "hole_bounds": [
+        [
+          -5.18,
+          -4.88
+        ],
+        [
+          -4.48,
+          -2.8
+        ]
+      ],
+      "walking_top": 2.71,
+      "last_rear_y": -2.8,
+      "landing_front_y": -2.8,
+      "landing_depth": 0.5599999999999996,
+      "status": "Analytic source interfaces only; parent must inspect real tread/landing/headroom and accessibility."
+    },
+    "gate_opening": {
+      "center": [
+        -0.8,
+        -5.1,
+        0.16
+      ],
+      "clear_width": 1.7,
+      "arch_spring": 1.8,
+      "arch_rise": 0.45,
+      "native_mounted_clearance": "Unverified"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp-space; inverse returns projected resource frame",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -2.220446049250313e-16,
+          1.0,
+          0.0,
+          -0.10000000149011612
+        ],
+        [
+          -1.0,
+          -2.220446049250313e-16,
+          -0.0,
+          0.20000000298023224
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A3": {
+    "ground_top": 0.16,
+    "native_body_key": "A3",
+    "native_model": "art/civilizations/sultanate/structures/arsenal/sul_arsenal_control_age03/sul_arsenal_control_age03.rgm",
+    "native_model_sha256": "85e9cb03e8d11e2a1a948a046643a108b481552bde5882829bfcbe1277309138",
+    "resource_age_label": 3,
+    "availability": "Unchanged; resource label is not an age-up chain",
+    "source_uses": [
+      {
+        "actor": "ps_building_divan_military_persia",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_ranged_sul/tier3_tech_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_arsenal_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_divan_military_persia",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_ranged_sul/tier3_tech_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_arsenal_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_divan_military_persia",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_ranged_sul/tier3_tech_unit_ranged_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_arsenal_03.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "family_inventory_key": "divan_military",
+    "authoring_bounds_proposal": [
+      [
+        -5.6,
+        -5.9,
+        -0.06
+      ],
+      [
+        5.8,
+        4.6,
+        4.55
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -5.90625,
+        -6.4453125,
+        -1.599609375
+      ],
+      [
+        6.2890625,
+        4.92578125,
+        4.6640625
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -7.6878341514,
+        -8.3690498081,
+        -1.599609375
+      ],
+      [
+        6.8992946928,
+        6.5843862787,
+        4.6640625
+      ]
+    ],
+    "envelope_proposal_margins": [
+      0.30625000000000036,
+      0.5453124999999996,
+      0.4890625000000002,
+      0.32578125000000036,
+      0.11406250000000018
+    ],
+    "projected_resource_to_stamp_matrix": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -1.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -1.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "authored_space": "projected stamp-space; inverse returns projected resource frame",
+    "review_lane": [
+      [
+        -0.8,
+        -4.9,
+        0.16
+      ],
+      [
+        -0.8,
+        1.65,
+        0.16
+      ]
+    ],
+    "historical_claim": "Original military administration interpretation; no standing troop diorama or recovered historical office",
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_market/layout_market.rgm",
+      "layout_skeleton_present": true,
+      "layout_marker_count": 11,
+      "other_existing_owners": [
+        "wood_pieces",
+        "banner_barracks",
+        "banner_archery",
+        "banner_stables"
+      ],
+      "branch_difference": "Default arsenal props and campaign military-school props differ; retain actual branch legal membership, never merge them.",
+      "marker_frame": "Bone-local until native skeleton/pose evaluation; no world-space socket claim.",
+      "policy": "Preserve native layout, branch-specific graphs, markers and legal attachments. No new moving rig, troops or animals.",
+      "clearance_status": "Unqualified: static fit and source open lane do not establish footprint, courier/horse route, native exit or terrain clearance."
+    },
+    "native_states": {
+      "life_cycle_values": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95",
+        "healthy",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_4",
+        "damage_5",
+        "ruins",
+        "preview",
+        "targeting"
+      ],
+      "conditional_properties": [
+        "has_collapsed_damage1",
+        "has_collapsed_damage2",
+        "has_collapsed_damage3",
+        "has_collapsed_damage4",
+        "has_collapsed_damage5",
+        "has_collapsed_ruins",
+        "life_cycle_state_previous",
+        "burn_state",
+        "jin_debuff",
+        "debug_static_rig_name"
+      ],
+      "native_primary_skeleton_present": false,
+      "native_actions": "15 original collapse/repair/static-rig references per primary body; no new clip/playback.",
+      "reference": "research/persia_buildings/inventory/FAMILY_NATIVE_STATE_CONTRACTS.json",
+      "status": "Inventory only; preserve branch-specific physics/visibility/effect owners and exact mappings; no HP, age admission or new variant inference."
+    },
+    "native_clearance_status": "Unqualified: static fit and source open lane do not establish footprint, courier/horse route, native exit or terrain clearance.",
+    "visual_inspection": "Not performed; parent serial build required",
+    "gate_opening": {
+      "center": [
+        -0.8,
+        -5.1,
+        0.16
+      ],
+      "clear_width": 1.7,
+      "arch_spring": 1.8,
+      "arch_rise": 0.45,
+      "native_mounted_clearance": "Unverified"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp-space; inverse returns projected resource frame",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}

@@ -1,0 +1,761 @@
+{
+  "A2": {
+    "ground_top": 0.16,
+    "native_body_key": "A2",
+    "native_model": "art/civilizations/sultanate/structures/market/sul_market_control_age02/sul_market_control_age02.rgm",
+    "source_uses": [
+      {
+        "actor": "ps_building_econ_market_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier2_econ_market_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_market_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_econ_market_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier2_econ_market_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_market_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_econ_market_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier2_econ_market_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_market_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_econ_market_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier2_econ_market_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_market_age_02.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "existing_visual_age": 2,
+    "authored_space": "projected stamp frame; inverse below targets projected resource coordinates, not raw native axes",
+    "projected_resource_to_stamp_matrix": [
+      [
+        -2.220446049250313e-16,
+        -1.0000000000000002,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        -4.1999998093
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        4.1999998093
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -2.97265625,
+        -8.6218748093,
+        -1.599609375
+      ],
+      [
+        2.955078125,
+        -1.4031248093,
+        5.54296875
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -7.7481794357,
+        -8.6218748093,
+        -1.599609375
+      ],
+      [
+        8.2651555734,
+        7.6802797577,
+        5.54296875
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -2.96265625,
+        -8.2,
+        -0.06
+      ],
+      [
+        2.945078125,
+        -1.4131248093,
+        4.6
+      ]
+    ],
+    "entry": [
+      0.0,
+      -8.05,
+      0.16
+    ],
+    "lane_clear_width": 1.8,
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_market/layout_market.rgm",
+      "native_layout_skeleton": true,
+      "layout_markers": 11,
+      "marker_frame": "Bone-local until native skeleton/pose evaluation; not world-space exits.",
+      "policy": "Preserve native layout, physics/repair graphs, markers and existing legal prop/animal owners; no new moving rig.",
+      "clearance_status": "Unqualified: conditional whole-compound rest bounds do not prove footprint, trader route, stock prop overlap or runtime swept clearance."
+    },
+    "native_states": {
+      "life_cycle_values": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95",
+        "healthy",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_4",
+        "damage_5",
+        "ruins",
+        "preview",
+        "targeting"
+      ],
+      "geometry_condition": "has_collapsed_ruins=false appears in component predicates; source aliases are not new lifecycle names",
+      "primary_graph_properties": [
+        "preview",
+        "life_cycle_state",
+        "has_collapsed_damage1",
+        "has_collapsed_damage2",
+        "has_collapsed_damage3",
+        "has_collapsed_damage4",
+        "has_collapsed_damage5",
+        "has_collapsed_ruins",
+        "life_cycle_state_previous",
+        "burn_state",
+        "jin_debuff",
+        "debug_static_rig_name"
+      ],
+      "physics_actions": "Native collapse/repair/static-rig actions exist in the original RGO; they are not newly authored animation clips.",
+      "primary_skeleton_present": false,
+      "inventory_reference": "research/persia_buildings/inventory/FAMILY_NATIVE_STATE_CONTRACTS.json",
+      "status": "Inventory only. Additional native contexts, component mapping, effects and transitions require parent adapter review; no HP thresholds or playback claims."
+    },
+    "native_clearance_status": "Unqualified: conditional whole-compound rest bounds do not prove footprint, trader route, stock prop overlap or runtime swept clearance.",
+    "visual_inspection": "Not performed; parent builds and reviews serially",
+    "source_primary_revision": {
+      "ground_bounds": [
+        [
+          -2.96265625,
+          -8.2,
+          -0.06
+        ],
+        [
+          2.945078125,
+          -1.4131248093,
+          0.16
+        ]
+      ],
+      "storage": "Supported cabinets inside merchant bays replace the excluded north store compounds",
+      "merchant_standing_rectangle_per_bay": "Counter rear to back wall: .72m; central unobstructed length .80m, storage kept at one end",
+      "native_route_status": "Original markers/branches unchanged; source lane 1.80m wide, native route clearance deferred"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp frame; inverse below targets projected resource coordinates, not raw native axes",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.199999809265137
+        ],
+        [
+          -1.0,
+          -2.220446049250313e-16,
+          -0.0,
+          -9.325872983334841e-16
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A3": {
+    "ground_top": 0.16,
+    "native_body_key": "A3",
+    "native_model": "art/civilizations/sultanate/structures/market/sul_market_control_age03/sul_market_control_age03.rgm",
+    "source_uses": [
+      {
+        "actor": "ps_building_econ_market_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier3_econ_market_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_market_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_econ_market_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier3_econ_market_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_market_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_econ_market_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier3_econ_market_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_market_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_econ_market_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier3_econ_market_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_market_age_03.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "existing_visual_age": 3,
+    "authored_space": "projected stamp frame; inverse below targets projected resource coordinates, not raw native axes",
+    "projected_resource_to_stamp_matrix": [
+      [
+        -2.220446049250313e-16,
+        -1.0000000000000002,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        -4.1999998093
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        4.1999998093
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -2.97265625,
+        -8.6218748093,
+        -1.599609375
+      ],
+      [
+        2.955078125,
+        -1.4031248093,
+        5.54296875
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -8.2836378599,
+        -8.6218748093,
+        -1.599609375
+      ],
+      [
+        8.2651555734,
+        7.6802797577,
+        5.54296875
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -2.96265625,
+        -8.2,
+        -0.06
+      ],
+      [
+        2.945078125,
+        -1.4131248093,
+        4.6
+      ]
+    ],
+    "entry": [
+      0.0,
+      -8.05,
+      0.16
+    ],
+    "lane_clear_width": 1.8,
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_market/layout_market.rgm",
+      "native_layout_skeleton": true,
+      "layout_markers": 11,
+      "marker_frame": "Bone-local until native skeleton/pose evaluation; not world-space exits.",
+      "policy": "Preserve native layout, physics/repair graphs, markers and existing legal prop/animal owners; no new moving rig.",
+      "clearance_status": "Unqualified: conditional whole-compound rest bounds do not prove footprint, trader route, stock prop overlap or runtime swept clearance."
+    },
+    "native_states": {
+      "life_cycle_values": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95",
+        "healthy",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_4",
+        "damage_5",
+        "ruins",
+        "preview",
+        "targeting"
+      ],
+      "geometry_condition": "has_collapsed_ruins=false appears in component predicates; source aliases are not new lifecycle names",
+      "primary_graph_properties": [
+        "preview",
+        "life_cycle_state",
+        "has_collapsed_damage1",
+        "has_collapsed_damage2",
+        "has_collapsed_damage3",
+        "has_collapsed_damage4",
+        "has_collapsed_damage5",
+        "has_collapsed_ruins",
+        "life_cycle_state_previous",
+        "burn_state",
+        "jin_debuff",
+        "debug_static_rig_name"
+      ],
+      "physics_actions": "Native collapse/repair/static-rig actions exist in the original RGO; they are not newly authored animation clips.",
+      "primary_skeleton_present": false,
+      "inventory_reference": "research/persia_buildings/inventory/FAMILY_NATIVE_STATE_CONTRACTS.json",
+      "status": "Inventory only. Additional native contexts, component mapping, effects and transitions require parent adapter review; no HP thresholds or playback claims."
+    },
+    "native_clearance_status": "Unqualified: conditional whole-compound rest bounds do not prove footprint, trader route, stock prop overlap or runtime swept clearance.",
+    "visual_inspection": "Not performed; parent builds and reviews serially",
+    "source_primary_revision": {
+      "ground_bounds": [
+        [
+          -2.96265625,
+          -8.2,
+          -0.06
+        ],
+        [
+          2.945078125,
+          -1.4131248093,
+          0.16
+        ]
+      ],
+      "storage": "Supported cabinets inside merchant bays replace the excluded north store compounds",
+      "merchant_standing_rectangle_per_bay": "Counter rear to back wall: .72m; central unobstructed length .80m, storage kept at one end",
+      "native_route_status": "Original markers/branches unchanged; source lane 1.80m wide, native route clearance deferred"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp frame; inverse below targets projected resource coordinates, not raw native axes",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.199999809265137
+        ],
+        [
+          -1.0,
+          -2.220446049250313e-16,
+          -0.0,
+          -9.325872983334841e-16
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A4": {
+    "ground_top": 0.16,
+    "native_body_key": "A4",
+    "native_model": "art/civilizations/sultanate/structures/market/sul_market_control_age04/sul_market_control_age04.rgm",
+    "source_uses": [
+      {
+        "actor": "ps_building_econ_market_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier4_econ_market_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_market_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_econ_market_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier4_econ_market_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_market_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_econ_market_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier4_econ_market_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_market_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_econ_market_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/econ_market_sul/tier4_econ_market_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_market_age_04.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "existing_visual_age": 4,
+    "authored_space": "projected stamp frame; inverse below targets projected resource coordinates, not raw native axes",
+    "projected_resource_to_stamp_matrix": [
+      [
+        -2.220446049250313e-16,
+        -1.0000000000000002,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        -4.1999998093
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        4.1999998093
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -2.974609375,
+        -8.6218748093,
+        -1.5517578125
+      ],
+      [
+        2.970703125,
+        -0.9792966843,
+        5.49609375
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -8.2836378599,
+        -8.6218748093,
+        -1.5517578125
+      ],
+      [
+        8.2651555734,
+        7.6802797577,
+        5.49609375
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -2.964609375,
+        -8.2,
+        -0.06
+      ],
+      [
+        2.960703125,
+        -0.9892966843000001,
+        4.6
+      ]
+    ],
+    "entry": [
+      0.0,
+      -8.05,
+      0.16
+    ],
+    "lane_clear_width": 1.8,
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_market/layout_market.rgm",
+      "native_layout_skeleton": true,
+      "layout_markers": 11,
+      "marker_frame": "Bone-local until native skeleton/pose evaluation; not world-space exits.",
+      "policy": "Preserve native layout, physics/repair graphs, markers and existing legal prop/animal owners; no new moving rig.",
+      "clearance_status": "Unqualified: conditional whole-compound rest bounds do not prove footprint, trader route, stock prop overlap or runtime swept clearance."
+    },
+    "native_states": {
+      "life_cycle_values": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95",
+        "healthy",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_4",
+        "damage_5",
+        "ruins",
+        "preview",
+        "targeting"
+      ],
+      "geometry_condition": "has_collapsed_ruins=false appears in component predicates; source aliases are not new lifecycle names",
+      "primary_graph_properties": [
+        "preview",
+        "life_cycle_state",
+        "has_collapsed_damage1",
+        "has_collapsed_damage2",
+        "has_collapsed_damage3",
+        "has_collapsed_damage4",
+        "has_collapsed_damage5",
+        "has_collapsed_ruins",
+        "life_cycle_state_previous",
+        "burn_state",
+        "jin_debuff",
+        "debug_static_rig_name"
+      ],
+      "physics_actions": "Native collapse/repair/static-rig actions exist in the original RGO; they are not newly authored animation clips.",
+      "primary_skeleton_present": false,
+      "inventory_reference": "research/persia_buildings/inventory/FAMILY_NATIVE_STATE_CONTRACTS.json",
+      "status": "Inventory only. Additional native contexts, component mapping, effects and transitions require parent adapter review; no HP thresholds or playback claims."
+    },
+    "native_clearance_status": "Unqualified: conditional whole-compound rest bounds do not prove footprint, trader route, stock prop overlap or runtime swept clearance.",
+    "visual_inspection": "Not performed; parent builds and reviews serially",
+    "source_primary_revision": {
+      "ground_bounds": [
+        [
+          -2.964609375,
+          -8.2,
+          -0.06
+        ],
+        [
+          2.960703125,
+          -0.9892966843000001,
+          0.16
+        ]
+      ],
+      "storage": "Supported cabinets inside merchant bays replace the excluded north store compounds",
+      "merchant_standing_rectangle_per_bay": "Counter rear to back wall: .72m; central unobstructed length .80m, storage kept at one end",
+      "native_route_status": "Original markers/branches unchanged; source lane 1.80m wide, native route clearance deferred"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp frame; inverse below targets projected resource coordinates, not raw native axes",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.199999809265137
+        ],
+        [
+          -1.0,
+          -2.220446049250313e-16,
+          -0.0,
+          -9.325872983334841e-16
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}

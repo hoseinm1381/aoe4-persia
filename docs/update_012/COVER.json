@@ -1,0 +1,8 @@
+{
+  "old_bytes": 2962845,
+  "new_bytes": 2494971,
+  "decoded_rgba_sha256": "922791c30f0e4898c137ba1752283f65ca111ff2d0ba7c98e2db6f22570f7934",
+  "identical_decoded_pixels": true,
+  "method": "sharp PNG compression9, adaptive filtering, no palette quantization",
+  "sharp": "0.35.5"
+}

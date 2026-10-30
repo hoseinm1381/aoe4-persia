@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\tug_spear_curvedblade\\928698ad58a0d64a9fe9\\decoded-static.json",
+  "donor_sha256": "9ad3b0b48954647f57c620991a987713ad137bc56ea817153321edbd48596173",
+  "logical_path": "art/civilizations/sultanate_ha_tug/weapons/tug_spear_curvedblade/tug_spear_curvedblade.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "27f314089532c9c6dcaac753317c7833cdbea06824945711ca32596a95b0c15d",
+    "normal": "da14f6a27efdfaf2850914e490634ffbeafec6c651de1a9ea385d572f340963d",
+    "roughness": "a69e7c2cbb30cea4476a41fd02b127e9c65676e32cbef9eca0e60126811b4240",
+    "metalness": "0e0133105e8bee151b1f6e7535fa2d0a190fcdbec8c373bbbdef19a6dbc755cb",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "Shared": {
+    "authored_space": "model-space",
+    "native_body_key": "Shared",
+    "ground_top": 0.12,
+    "store_floor_top": 0.24,
+    "store_vault_spring": 2.1399999999999997,
+    "front_direction": "-Y",
+    "numerical_interfaces": [
+      {
+        "name": "SortKneePost-1.91",
+        "a": "PSB_mining_camp_Shared_SortKnee-1.91",
+        "b": "PSB_mining_camp_Shared_SortPost-1.91-2.28",
+        "authored_contact_point": [
+          -1.91,
+          -2.28,
+          1.6799999999999997
+        ],
+        "intentional_socket_overlap_metres": 0.065,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "SortKneeRail-1.91",
+        "a": "PSB_mining_camp_Shared_SortKnee-1.91",
+        "b": "PSB_mining_camp_Shared_SortBearing-2.28",
+        "authored_contact_point": [
+          -1.5799999999999998,
+          -2.28,
+          2.03
+        ],
+        "intentional_socket_overlap_metres": 0.025,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "SortKneePost0.2",
+        "a": "PSB_mining_camp_Shared_SortKnee0.2",
+        "b": "PSB_mining_camp_Shared_SortPost0.2-2.28",
+        "authored_contact_point": [
+          0.2,
+          -2.28,
+          1.6799999999999997
+        ],
+        "intentional_socket_overlap_metres": 0.065,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "SortKneeRail0.2",
+        "a": "PSB_mining_camp_Shared_SortKnee0.2",
+        "b": "PSB_mining_camp_Shared_SortBearing-2.28",
+        "authored_contact_point": [
+          -0.13,
+          -2.28,
+          2.03
+        ],
+        "intentional_socket_overlap_metres": 0.025,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "LiftFootStaySocket-1",
+        "a": "PSB_mining_camp_Shared_LiftFootStay-1",
+        "b": "PSB_mining_camp_Shared_LiftUpright",
+        "authored_contact_point": [
+          -1.28,
+          0.91,
+          1.11
+        ],
+        "intentional_socket_overlap_metres": 0.095,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "LiftFootStayBase-1",
+        "a": "PSB_mining_camp_Shared_LiftFootStay-1",
+        "b": "PSB_mining_camp_Shared_LiftFoot",
+        "authored_contact_point": [
+          -1.55,
+          0.91,
+          0.36
+        ],
+        "intentional_socket_overlap_metres": 0.025,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "LiftFootStaySocket1",
+        "a": "PSB_mining_camp_Shared_LiftFootStay1",
+        "b": "PSB_mining_camp_Shared_LiftUpright",
+        "authored_contact_point": [
+          -1.28,
+          0.91,
+          1.11
+        ],
+        "intentional_socket_overlap_metres": 0.095,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "LiftFootStayBase1",
+        "a": "PSB_mining_camp_Shared_LiftFootStay1",
+        "b": "PSB_mining_camp_Shared_LiftFoot",
+        "authored_contact_point": [
+          -1.01,
+          0.91,
+          0.36
+        ],
+        "intentional_socket_overlap_metres": 0.025,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "LiftBoomPivot",
+        "a": "PSB_mining_camp_Shared_LiftBoom",
+        "b": "PSB_mining_camp_Shared_LiftUpright",
+        "authored_contact_point": [
+          -1.28,
+          0.91,
+          2.38
+        ],
+        "intentional_socket_overlap_metres": 0.095,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "LiftStayPost",
+        "a": "PSB_mining_camp_Shared_LiftBoomStay",
+        "b": "PSB_mining_camp_Shared_LiftUpright",
+        "authored_contact_point": [
+          -1.28,
+          0.91,
+          1.5
+        ],
+        "intentional_socket_overlap_metres": 0.095,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "LiftStayBoom",
+        "a": "PSB_mining_camp_Shared_LiftBoomStay",
+        "b": "PSB_mining_camp_Shared_LiftBoom",
+        "authored_contact_point": [
+          -2.39,
+          0.41,
+          2.89
+        ],
+        "intentional_socket_overlap_metres": 0.075,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "LiftLineBoom",
+        "a": "PSB_mining_camp_Shared_LiftLine",
+        "b": "PSB_mining_camp_Shared_LiftBoom",
+        "authored_contact_point": [
+          -2.68,
+          0.28,
+          3.03
+        ],
+        "intentional_socket_overlap_metres": 0.035,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "StoreOwnerBracketWall",
+        "a": "PSB_mining_camp_Shared_StoreOwnerBracket",
+        "b": "PSB_mining_camp_Shared_StoreFrontArch",
+        "authored_contact_point": [
+          -4.869999999999999,
+          -0.41000000000000014,
+          1.96
+        ],
+        "intentional_socket_overlap_metres": 0.02,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "WashChuteUpperSeat",
+        "a": "PSB_mining_camp_Shared_WashDrainChute",
+        "b": "PSB_mining_camp_Shared_WashTroughFloor",
+        "authored_contact_point": [
+          -0.54,
+          -1.37,
+          0.82
+        ],
+        "intentional_socket_overlap_metres": 0.02,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      },
+      {
+        "name": "WashChuteLowerSeat",
+        "a": "PSB_mining_camp_Shared_WashDrainChute",
+        "b": "PSB_mining_camp_Shared_DryDrainBed",
+        "authored_contact_point": [
+          -0.54,
+          -1.54,
+          0.26
+        ],
+        "intentional_socket_overlap_metres": 0.02,
+        "verification": "Endpoint plan only; actual generated mesh interface must be measured by parent."
+      }
+    ],
+    "chosen_horizontal_bounds": [
+      [
+        -5.72,
+        -4.65
+      ],
+      [
+        0.7,
+        2.34
+      ]
+    ],
+    "raw_native_rest_bounds": {
+      "min": [
+        -6.13671875,
+        -5.078125,
+        -4.46484375
+      ],
+      "max": [
+        1.3388671875,
+        2.8828125,
+        5.30859375
+      ]
+    },
+    "native_dependency": {
+      "model": "art/civilizations/common/structures/mining_camp/com_mining_camp_combined/com_mining_camp_combined.rgm",
+      "native_rgm": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\structures\\mining_camp\\com_mining_camp_combined\\com_mining_camp_combined.rgm",
+      "native_rrgeom": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\structures\\mining_camp\\com_mining_camp_combined\\com_mining_camp_combined.rrgeom",
+      "native_rgo": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\structures\\mining_camp\\com_mining_camp_combined\\com_mining_camp_combined.rgo",
+      "rgm_sha256": "2fe9121f3dc2673c266b4c47d00a63767300d7dfb9b811274f8f616e69c36a72",
+      "rrgeom_sha256": "416191c558fa02bca7c26a27e1eed2d7aa5b950962bb53570e6f6336cc2debef",
+      "rgo_sha256": "0e63d76e2189bff700926604e2303ff9d474d076eece33323192c946dd206fb9",
+      "bone_parent_names": {
+        "bone_root": null,
+        "bone_crane_turn": "bone_root",
+        "bone_crane_tilt": "bone_crane_turn",
+        "bone_stones": "bone_crane_tilt",
+        "bone_stones_orientation": "bone_stones",
+        "bone_crate": "bone_crane_tilt",
+        "bone_crate_orientation": "bone_crate"
+      },
+      "socket_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\MECHANISM_DEPENDENCIES.json",
+      "status": "Static proxy only. Retain/rebind native seven-bone crane and official owner; no rest-pose conversion, world sockets, retargeting or new playback qualified."
+    },
+    "lift_proxy_status": "Static source geometry for review, not mapped to the native pose or motions",
+    "sorting_floor_top": 0.21,
+    "store_door_clearance": {
+      "width": 0.7,
+      "arch_spring_above_floor": 1.37,
+      "arch_rise": 0.43,
+      "front_y": -0.42000000000000015,
+      "note": "Closed healthy door; no door motion claimed"
+    },
+    "wash_trough": {
+      "inner_floor_z": 0.82,
+      "rim_top_z": 0.9299999999999999,
+      "open_inner_width": 1.03,
+      "open_inner_depth": 0.4,
+      "drain_gap_x": [
+        -0.59,
+        -0.49
+      ],
+      "water_rendering": "Dry source trough only; no water material/effect or flow claimed"
+    },
+    "lift_proxy": {
+      "upright_pivot": [
+        -1.28,
+        0.91,
+        2.38
+      ],
+      "boom_tip": [
+        -2.68,
+        0.28,
+        3.03
+      ],
+      "line_end": [
+        -2.68,
+        0.28,
+        0.79
+      ],
+      "receiving_tray_top": 0.22999999999999998,
+      "native_binding": "Unbound static proxy. Native turn/tilt/stones/crate hierarchy and poses remain retained/deferred."
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "model-space",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}

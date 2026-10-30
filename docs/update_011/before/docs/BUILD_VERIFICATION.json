@@ -1,0 +1,20 @@
+{
+  "race": "persia",
+  "version": "0.1.0-trial.1",
+  "owner": "067d2031-d082-4348-b3e7-56d973932702",
+  "source_fingerprint": "2dea2460ccde8e18baee4c4182563b4b846fb4a67fbe6164d612d86a962dd3b6",
+  "tables": 530,
+  "members": 1906,
+  "archive_bytes": 639641890,
+  "archive_sha256": "8391e133726183c076c2b89910cee4e5c30c0b857f0ef5594131dbd5e5e63e12",
+  "zip_name": "Persia-Garrison-0.1.0-trial.1.zip",
+  "zip_bytes": 257546740,
+  "zip_sha256": "add431f73dd827f52a9c907e4413cd2c6aa94d55c17786106554ccb7baea75ad",
+  "all_member_readback_sha256": true,
+  "native_crc_sha1": true,
+  "zip_crc": true,
+  "preserved_native_media_members": 1330,
+  "native_game_test": "pending",
+  "multiplayer_save_ai_performance": "not qualified",
+  "publication": "not performed"
+}

@@ -1,0 +1,4041 @@
+{
+  "schema": "persia-family-bindings/v1",
+  "family": "trader",
+  "permanent_source_read_only": true,
+  "blueprints_and_selectors": [
+    {
+      "key": "ebps/persia/ps_unit_trade_cart_sul",
+      "family": "trader",
+      "status": "included",
+      "reached_from": "sbps/persia/ps_unit_trade_cart_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\ebps\\persia\\ps_unit_trade_cart_sul.xml",
+      "source_sha256": "50c9400efe5ee78e2a4b48925e6546d71b605ec659de8603d9b09c136ff980a5",
+      "visual_fields": [
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\core\\units\\unit_trade_cart",
+          "path": "instance/list:extensions/template_reference:exts/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "animator_scale",
+          "value": "122",
+          "path": "instance/list:extensions/template_reference:exts/float:animator_scale",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\ottoman\\units\\tier2_trade_cart_ott",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\ottoman\\units\\tier3_trade_cart_ott",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\dev\\ages\\castle_age",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\ottoman\\units\\tier4_trade_cart_ott",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\dev\\ages\\imperial_age",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_trade_cart",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\core\\units\\unit_trade_cart",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "animator_scale",
+          "value": "122",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/float:animator_scale",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\ottoman\\units\\tier2_trade_cart_ott",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\ottoman\\units\\tier3_trade_cart_ott",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\dev\\ages\\castle_age",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\ottoman\\units\\tier4_trade_cart_ott",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\dev\\ages\\imperial_age",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_trade_cart",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "sbps/persia/ps_unit_trade_cart_cheap_sul",
+      "family": "trader",
+      "status": "included",
+      "reached_from": "ebps/persia/ps_building_econ_market_control_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\sbps\\persia\\ps_unit_trade_cart_cheap_sul.xml",
+      "source_sha256": "193fb1ca7687c652e2569b783eb06640f4e059dd3a156dff3ae4498fd45aaa25",
+      "visual_fields": [
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_trade_cart",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_trade_cart",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "sbps/persia/ps_unit_trade_cart_sul",
+      "family": "trader",
+      "status": "included",
+      "reached_from": "ebps/persia/ps_building_econ_market_control_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\sbps\\persia\\ps_unit_trade_cart_sul.xml",
+      "source_sha256": "6e7f91ba90500ad39e85ae8e5f8483ee27b8cea0834e04e733d0667cc1ff0182",
+      "visual_fields": [
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_trade_cart",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_trade_cart",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "logical_path": "art/civilizations/english/animals/eng_horse_combined_trade_age04/eng_horse_combined_trade_age04.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier4_trade_cart_eng",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier4_trade_cart_eng",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier4_trade_cart_eng",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        }
+      ],
+      "scope": "inherited_candidate",
+      "editable_status": "excluded from modeled coverage pending effective-selector evidence"
+    },
+    {
+      "logical_path": "art/civilizations/english/animals/eng_horse_combined_trade_female_age04/eng_horse_combined_trade_female_age04.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier4_trade_cart_eng",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier4_trade_cart_eng",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier4_trade_cart_eng",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        }
+      ],
+      "scope": "inherited_candidate",
+      "editable_status": "excluded from modeled coverage pending effective-selector evidence"
+    },
+    {
+      "logical_path": "art/civilizations/common/animals/archetypes/base_horse_combined/base_horse_combined.rgm",
+      "role": "native_animation_owner",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_trade_cart",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/units/unit_trade_cart",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_trade_cart",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_trade_cart",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/units/unit_trade_cart",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/units/unit_trade_cart",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        }
+      ],
+      "scope": "required",
+      "editable_status": "not modeled"
+    },
+    {
+      "logical_path": "art/civilizations/english/animals/eng_horse_combined_trade_age03/eng_horse_combined_trade_age03.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier3_trade_cart_eng",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier3_trade_cart_eng",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier3_trade_cart_eng",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        }
+      ],
+      "scope": "inherited_candidate",
+      "editable_status": "excluded from modeled coverage pending effective-selector evidence"
+    },
+    {
+      "logical_path": "art/civilizations/english/animals/eng_horse_combined_trade_female_age03/eng_horse_combined_trade_female_age03.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier3_trade_cart_eng",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier3_trade_cart_eng",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier3_trade_cart_eng",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        }
+      ],
+      "scope": "inherited_candidate",
+      "editable_status": "excluded from modeled coverage pending effective-selector evidence"
+    },
+    {
+      "logical_path": "art/civilizations/english/animals/eng_horse_combined_trade_age02/eng_horse_combined_trade_age02.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier2_trade_cart_eng",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier2_trade_cart_eng",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier2_trade_cart_eng",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        }
+      ],
+      "scope": "inherited_candidate",
+      "editable_status": "excluded from modeled coverage pending effective-selector evidence"
+    },
+    {
+      "logical_path": "art/civilizations/english/animals/eng_horse_combined_trade_female_age02/eng_horse_combined_trade_female_age02.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier2_trade_cart_eng",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier2_trade_cart_eng",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/tier2_trade_cart_eng",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        }
+      ],
+      "scope": "inherited_candidate",
+      "editable_status": "excluded from modeled coverage pending effective-selector evidence"
+    },
+    {
+      "logical_path": "art/civilizations/ottoman/animals/ott_horse_combined_trade_age04/ott_horse_combined_trade_age04.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/ottoman/units/tier4_trade_cart_ott",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\trader\\models\\ott_horse_combined_trade_age04\\manifest.json",
+      "source_manifest_sha256": "4c19b64c02730c19d99574b7db16bcf09b09e5f13cf9dce214b9fd5e86e8cd34",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\models\\ott_horse_combined_trade_age04\\model.blend",
+      "source_sha256": "d5cb2b7f36087ce10b3baae69b1cc273341a940c57ecb953e356590684442d85",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+        "bones": 127,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "rider",
+          "vertices": 1407,
+          "triangles": 1716,
+          "sha256": "98f2d03f32d158ea4a0d04d25b24f85c064894dd8c83e8bdb266c634000e286c"
+        },
+        {
+          "lod": 0,
+          "component": "mount",
+          "vertices": 2140,
+          "triangles": 2810,
+          "sha256": "cf9dad9f824b0594fbe0abc15191e2a9308ffa23ac64e3bab0a89f243bb90a8a"
+        },
+        {
+          "lod": 0,
+          "component": "cart",
+          "vertices": 2078,
+          "triangles": 3122,
+          "sha256": "69c2b6a63f0c605c08b6ff28553a992f67fdbf7a2174d78e4bf7b166a4871f11"
+        },
+        {
+          "lod": 0,
+          "component": "load",
+          "vertices": 462,
+          "triangles": 710,
+          "sha256": "9730753c465ca7aa46a23117440325c155c96914d2018266c91662c14d8afddc"
+        },
+        {
+          "lod": 1,
+          "component": "rider",
+          "vertices": 497,
+          "triangles": 606,
+          "sha256": "bd039dd0a9a2a3bb64668bf46457b97c0446a9cfa68a7c55d2295c70b4b5fea6"
+        },
+        {
+          "lod": 1,
+          "component": "mount",
+          "vertices": 1019,
+          "triangles": 1104,
+          "sha256": "c8376c6ee6b1560e25c78c383109f5990d8dc3b49bb29c4a89d78c45a6d3de16"
+        },
+        {
+          "lod": 1,
+          "component": "cart",
+          "vertices": 979,
+          "triangles": 1280,
+          "sha256": "b9daaac6c284f7db640649102bef52b32a8428d436ae63543ab189f3cb9d372e"
+        },
+        {
+          "lod": 1,
+          "component": "load",
+          "vertices": 830,
+          "triangles": 298,
+          "sha256": "3419f9d48c2fb4ed875b5e2b4bd141b5ebceaff14c77ea8eb2f88a1f4b30e26d"
+        },
+        {
+          "lod": 2,
+          "component": "rider",
+          "vertices": 365,
+          "triangles": 384,
+          "sha256": "5ef771af5a0db72b8a5657bc90076a8de96ffc5a67750f09cef94272cb9e85ac"
+        },
+        {
+          "lod": 2,
+          "component": "mount",
+          "vertices": 301,
+          "triangles": 281,
+          "sha256": "154d2d238ed91cd1540ca13753b46e26a370d845abf72150a8d30ff67274279f"
+        },
+        {
+          "lod": 2,
+          "component": "cart",
+          "vertices": 548,
+          "triangles": 586,
+          "sha256": "ed6f85ed3aa952dbbff5484db6e698a3ddb090d2f4860067a97202609a39b046"
+        },
+        {
+          "lod": 2,
+          "component": "load",
+          "vertices": 418,
+          "triangles": 166,
+          "sha256": "76722af079d4cd90e60c9ec07c8e663211648b01f95221db5cd2291092cf71cd"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age04_rider_LOD0",
+          "vertices": 1407,
+          "triangles": 1716,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age04_mount_LOD0",
+          "vertices": 2140,
+          "triangles": 2810,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age04_cart_LOD0",
+          "vertices": 2078,
+          "triangles": 3122,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age04_load_LOD0",
+          "vertices": 462,
+          "triangles": 710,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age04_rider_LOD1",
+          "vertices": 497,
+          "triangles": 606,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age04_mount_LOD1",
+          "vertices": 1019,
+          "triangles": 1104,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age04_cart_LOD1",
+          "vertices": 979,
+          "triangles": 1280,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age04_load_LOD1",
+          "vertices": 830,
+          "triangles": 298,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age04_rider_LOD2",
+          "vertices": 365,
+          "triangles": 384,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age04_mount_LOD2",
+          "vertices": 301,
+          "triangles": 281,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age04_cart_LOD2",
+          "vertices": 548,
+          "triangles": 586,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age04_load_LOD2",
+          "vertices": 418,
+          "triangles": 166,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/ottoman/animals/ott_horse_combined_trade_female_age04/ott_horse_combined_trade_female_age04.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/ottoman/units/tier4_trade_cart_ott",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\trader\\models\\ott_horse_combined_trade_female_age04\\manifest.json",
+      "source_manifest_sha256": "df697e561fe5dab724fa48820465a77532a53b625c28616bd154ce4b42838573",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\models\\ott_horse_combined_trade_female_age04\\model.blend",
+      "source_sha256": "568cf9847983eb54bc19fe6d5b6b73da55d3e0e4fe560e30a444e01aa936741c",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+        "bones": 127,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "rider",
+          "vertices": 1369,
+          "triangles": 1827,
+          "sha256": "b79fa38aade0bd1a2b94def7710e069a3e8af29ae415597f418a50b79b133e38"
+        },
+        {
+          "lod": 0,
+          "component": "mount",
+          "vertices": 2140,
+          "triangles": 2810,
+          "sha256": "cf9dad9f824b0594fbe0abc15191e2a9308ffa23ac64e3bab0a89f243bb90a8a"
+        },
+        {
+          "lod": 0,
+          "component": "cart",
+          "vertices": 2078,
+          "triangles": 3122,
+          "sha256": "69c2b6a63f0c605c08b6ff28553a992f67fdbf7a2174d78e4bf7b166a4871f11"
+        },
+        {
+          "lod": 0,
+          "component": "load",
+          "vertices": 462,
+          "triangles": 710,
+          "sha256": "9730753c465ca7aa46a23117440325c155c96914d2018266c91662c14d8afddc"
+        },
+        {
+          "lod": 1,
+          "component": "rider",
+          "vertices": 646,
+          "triangles": 728,
+          "sha256": "f5ef62e4a0cabef147e6bab07a97a27ff49b32a1b957980fe30b5c364bc4864b"
+        },
+        {
+          "lod": 1,
+          "component": "mount",
+          "vertices": 1019,
+          "triangles": 1104,
+          "sha256": "c8376c6ee6b1560e25c78c383109f5990d8dc3b49bb29c4a89d78c45a6d3de16"
+        },
+        {
+          "lod": 1,
+          "component": "cart",
+          "vertices": 979,
+          "triangles": 1280,
+          "sha256": "b9daaac6c284f7db640649102bef52b32a8428d436ae63543ab189f3cb9d372e"
+        },
+        {
+          "lod": 1,
+          "component": "load",
+          "vertices": 830,
+          "triangles": 298,
+          "sha256": "3419f9d48c2fb4ed875b5e2b4bd141b5ebceaff14c77ea8eb2f88a1f4b30e26d"
+        },
+        {
+          "lod": 2,
+          "component": "rider",
+          "vertices": 310,
+          "triangles": 300,
+          "sha256": "24e9eb93c5dfabd6ca8c94314bbc15eb9f026d00c369a413801fd11ec5f7d85d"
+        },
+        {
+          "lod": 2,
+          "component": "mount",
+          "vertices": 301,
+          "triangles": 281,
+          "sha256": "154d2d238ed91cd1540ca13753b46e26a370d845abf72150a8d30ff67274279f"
+        },
+        {
+          "lod": 2,
+          "component": "cart",
+          "vertices": 548,
+          "triangles": 586,
+          "sha256": "ed6f85ed3aa952dbbff5484db6e698a3ddb090d2f4860067a97202609a39b046"
+        },
+        {
+          "lod": 2,
+          "component": "load",
+          "vertices": 418,
+          "triangles": 166,
+          "sha256": "76722af079d4cd90e60c9ec07c8e663211648b01f95221db5cd2291092cf71cd"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age04_rider_LOD0",
+          "vertices": 1369,
+          "triangles": 1827,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age04_mount_LOD0",
+          "vertices": 2140,
+          "triangles": 2810,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age04_cart_LOD0",
+          "vertices": 2078,
+          "triangles": 3122,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age04_load_LOD0",
+          "vertices": 462,
+          "triangles": 710,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age04_rider_LOD1",
+          "vertices": 646,
+          "triangles": 728,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age04_mount_LOD1",
+          "vertices": 1019,
+          "triangles": 1104,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age04_cart_LOD1",
+          "vertices": 979,
+          "triangles": 1280,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age04_load_LOD1",
+          "vertices": 830,
+          "triangles": 298,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age04_rider_LOD2",
+          "vertices": 310,
+          "triangles": 300,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age04_mount_LOD2",
+          "vertices": 301,
+          "triangles": 281,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age04_cart_LOD2",
+          "vertices": 548,
+          "triangles": 586,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age04_load_LOD2",
+          "vertices": 418,
+          "triangles": 166,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/ottoman/animals/ott_horse_combined_trade_age03/ott_horse_combined_trade_age03.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/ottoman/units/tier3_trade_cart_ott",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\trader\\models\\ott_horse_combined_trade_age03\\manifest.json",
+      "source_manifest_sha256": "6f0c4a9e60733d494bab08435f3785032b7d0b880d9a14238d6afc0ab086a260",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\models\\ott_horse_combined_trade_age03\\model.blend",
+      "source_sha256": "89fb6c7f4aa6bf227b81a02268aaf6ec07ad8b3d498225d0d01bf4c232fabb52",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+        "bones": 127,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "rider",
+          "vertices": 1250,
+          "triangles": 1602,
+          "sha256": "b82a7409eab0d5588ac82d144b111b7719528e0f91ac0ad0fa87153eb9407365"
+        },
+        {
+          "lod": 0,
+          "component": "mount",
+          "vertices": 1818,
+          "triangles": 2206,
+          "sha256": "ba72e081f8bed74258d148338a025707e6e3c9e43b1725bfdbd8cd26b9255907"
+        },
+        {
+          "lod": 0,
+          "component": "cart",
+          "vertices": 2794,
+          "triangles": 4632,
+          "sha256": "33ca8634eae3ba28c0cc1e28a2f7ead78b1cc776b3fd7d4493dae94849b593b2"
+        },
+        {
+          "lod": 0,
+          "component": "load",
+          "vertices": 584,
+          "triangles": 896,
+          "sha256": "403efb54ca383c6b205a3ed7bf7b909b5bb47319f8ccd382b212dfdf1ceed6bc"
+        },
+        {
+          "lod": 1,
+          "component": "rider",
+          "vertices": 583,
+          "triangles": 638,
+          "sha256": "91533d68aa8b0de1a215753c2d173e25ed93f7365f78a5be018fc60d9d9a87a3"
+        },
+        {
+          "lod": 1,
+          "component": "mount",
+          "vertices": 889,
+          "triangles": 908,
+          "sha256": "82dab0524eb37d56db9a60d461388cd33ccd9df6634b376afd7c538c01a89361"
+        },
+        {
+          "lod": 1,
+          "component": "cart",
+          "vertices": 1024,
+          "triangles": 1266,
+          "sha256": "3d3dc3453e250e99c2ea130525ed0564c0084e89e1726a5dbf03e76af65f1f99"
+        },
+        {
+          "lod": 1,
+          "component": "load",
+          "vertices": 316,
+          "triangles": 384,
+          "sha256": "b9c405933d17fb1a43ba6f468695fcb53967150dec488614f3b0391bef6d5f44"
+        },
+        {
+          "lod": 2,
+          "component": "rider",
+          "vertices": 371,
+          "triangles": 358,
+          "sha256": "77f575bf89dc3967676599ae2bd0f87c5e628d940e7bfd7d40afbe4751aab75e"
+        },
+        {
+          "lod": 2,
+          "component": "mount",
+          "vertices": 219,
+          "triangles": 207,
+          "sha256": "f07ce22bae9f42d3823d6f5de813251da9dea8cc303f7d544e09c37118db8ba2"
+        },
+        {
+          "lod": 2,
+          "component": "cart",
+          "vertices": 777,
+          "triangles": 656,
+          "sha256": "09153e004b04ff2446f1d8e907fd4ef34fc7ff1708e19c38612cb66fc7fc0859"
+        },
+        {
+          "lod": 2,
+          "component": "load",
+          "vertices": 316,
+          "triangles": 384,
+          "sha256": "b9c405933d17fb1a43ba6f468695fcb53967150dec488614f3b0391bef6d5f44"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age03_rider_LOD0",
+          "vertices": 1250,
+          "triangles": 1602,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age03_mount_LOD0",
+          "vertices": 1818,
+          "triangles": 2206,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age03_cart_LOD0",
+          "vertices": 2794,
+          "triangles": 4632,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age03_load_LOD0",
+          "vertices": 584,
+          "triangles": 896,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age03_rider_LOD1",
+          "vertices": 583,
+          "triangles": 638,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age03_mount_LOD1",
+          "vertices": 889,
+          "triangles": 908,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age03_cart_LOD1",
+          "vertices": 1024,
+          "triangles": 1266,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age03_load_LOD1",
+          "vertices": 316,
+          "triangles": 384,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age03_rider_LOD2",
+          "vertices": 371,
+          "triangles": 358,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age03_mount_LOD2",
+          "vertices": 219,
+          "triangles": 207,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age03_cart_LOD2",
+          "vertices": 777,
+          "triangles": 656,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age03_load_LOD2",
+          "vertices": 316,
+          "triangles": 384,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/ottoman/animals/ott_horse_combined_trade_female_age03/ott_horse_combined_trade_female_age03.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/ottoman/units/tier3_trade_cart_ott",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\trader\\models\\ott_horse_combined_trade_female_age03\\manifest.json",
+      "source_manifest_sha256": "964c7c657a46b583786e80aeb1c01900d27b8ed27e40ff92760d958f179ae643",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\models\\ott_horse_combined_trade_female_age03\\model.blend",
+      "source_sha256": "efc2c188656b43369dfaa024d7227ed5f6fa2b9b918cd01c16fddc0146da9168",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+        "bones": 127,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "rider",
+          "vertices": 1675,
+          "triangles": 2175,
+          "sha256": "3a38501b6f221ef4b969da97c33f6e103188bd1c193311874a8e6fa4655a48ed"
+        },
+        {
+          "lod": 0,
+          "component": "mount",
+          "vertices": 1818,
+          "triangles": 2206,
+          "sha256": "ba72e081f8bed74258d148338a025707e6e3c9e43b1725bfdbd8cd26b9255907"
+        },
+        {
+          "lod": 0,
+          "component": "cart",
+          "vertices": 2794,
+          "triangles": 4632,
+          "sha256": "33ca8634eae3ba28c0cc1e28a2f7ead78b1cc776b3fd7d4493dae94849b593b2"
+        },
+        {
+          "lod": 0,
+          "component": "load",
+          "vertices": 584,
+          "triangles": 896,
+          "sha256": "403efb54ca383c6b205a3ed7bf7b909b5bb47319f8ccd382b212dfdf1ceed6bc"
+        },
+        {
+          "lod": 1,
+          "component": "rider",
+          "vertices": 782,
+          "triangles": 899,
+          "sha256": "9250cd3ae4581b60e1366a06d0165015830f39881f83121e72f6197983a79e41"
+        },
+        {
+          "lod": 1,
+          "component": "mount",
+          "vertices": 889,
+          "triangles": 908,
+          "sha256": "82dab0524eb37d56db9a60d461388cd33ccd9df6634b376afd7c538c01a89361"
+        },
+        {
+          "lod": 1,
+          "component": "cart",
+          "vertices": 1024,
+          "triangles": 1266,
+          "sha256": "3d3dc3453e250e99c2ea130525ed0564c0084e89e1726a5dbf03e76af65f1f99"
+        },
+        {
+          "lod": 1,
+          "component": "load",
+          "vertices": 316,
+          "triangles": 384,
+          "sha256": "b9c405933d17fb1a43ba6f468695fcb53967150dec488614f3b0391bef6d5f44"
+        },
+        {
+          "lod": 2,
+          "component": "rider",
+          "vertices": 422,
+          "triangles": 381,
+          "sha256": "367dab47b05c637db97503727eb4b236462f7a23cf901eb409fd57d059795f64"
+        },
+        {
+          "lod": 2,
+          "component": "mount",
+          "vertices": 219,
+          "triangles": 207,
+          "sha256": "f07ce22bae9f42d3823d6f5de813251da9dea8cc303f7d544e09c37118db8ba2"
+        },
+        {
+          "lod": 2,
+          "component": "cart",
+          "vertices": 777,
+          "triangles": 656,
+          "sha256": "09153e004b04ff2446f1d8e907fd4ef34fc7ff1708e19c38612cb66fc7fc0859"
+        },
+        {
+          "lod": 2,
+          "component": "load",
+          "vertices": 316,
+          "triangles": 384,
+          "sha256": "b9c405933d17fb1a43ba6f468695fcb53967150dec488614f3b0391bef6d5f44"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age03_rider_LOD0",
+          "vertices": 1675,
+          "triangles": 2175,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age03_mount_LOD0",
+          "vertices": 1818,
+          "triangles": 2206,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age03_cart_LOD0",
+          "vertices": 2794,
+          "triangles": 4632,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age03_load_LOD0",
+          "vertices": 584,
+          "triangles": 896,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age03_rider_LOD1",
+          "vertices": 782,
+          "triangles": 899,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age03_mount_LOD1",
+          "vertices": 889,
+          "triangles": 908,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age03_cart_LOD1",
+          "vertices": 1024,
+          "triangles": 1266,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age03_load_LOD1",
+          "vertices": 316,
+          "triangles": 384,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age03_rider_LOD2",
+          "vertices": 422,
+          "triangles": 381,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age03_mount_LOD2",
+          "vertices": 219,
+          "triangles": 207,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age03_cart_LOD2",
+          "vertices": 777,
+          "triangles": 656,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age03_load_LOD2",
+          "vertices": 316,
+          "triangles": 384,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/ottoman/animals/ott_horse_combined_trade_age02/ott_horse_combined_trade_age02.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/ottoman/units/tier2_trade_cart_ott",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\trader\\models\\ott_horse_combined_trade_age02\\manifest.json",
+      "source_manifest_sha256": "d7f286460447d759394d7ef2f2adaf4f0032a541558be6e3da8f8814da38291b",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\models\\ott_horse_combined_trade_age02\\model.blend",
+      "source_sha256": "bbbcc66f4a63f7448e8b6ad45bbf4cb339f5d0cd163a230d2dfbcb7662888ead",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+        "bones": 127,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "rider",
+          "vertices": 1036,
+          "triangles": 1458,
+          "sha256": "49fcf7f39bb9a50c5f244e3db5bd653a466104bd875372e3d82d275ebd2839fe"
+        },
+        {
+          "lod": 0,
+          "component": "mount",
+          "vertices": 1557,
+          "triangles": 2054,
+          "sha256": "64402b4aaf0db51d41ce1a104b489b58900006cd2ba82b18a1cd80fdf5c5c378"
+        },
+        {
+          "lod": 0,
+          "component": "cart",
+          "vertices": 876,
+          "triangles": 1344,
+          "sha256": "05b8679348e701c645afdf51ab20dde0c828010ec9b39099f4c923fbcf1672b6"
+        },
+        {
+          "lod": 0,
+          "component": "load",
+          "vertices": 1820,
+          "triangles": 2690,
+          "sha256": "09dbe3f02ac4ba5f13f1e9d34d61b3441425ee5bc8a24ab9e026789f89d8e540"
+        },
+        {
+          "lod": 1,
+          "component": "rider",
+          "vertices": 513,
+          "triangles": 612,
+          "sha256": "c0f4bf2a45c54ebeb4fdef51a417e19c8e4357e6e8c2a84afab4995039f2bad5"
+        },
+        {
+          "lod": 1,
+          "component": "mount",
+          "vertices": 737,
+          "triangles": 820,
+          "sha256": "0b31575418b345851fa8652e7ad2f90f16e976af00937540c96a4b950aa3c496"
+        },
+        {
+          "lod": 1,
+          "component": "cart",
+          "vertices": 474,
+          "triangles": 576,
+          "sha256": "07ee75c6ad5c4fa42a53d0a94b911d3c99373b21097294ff029322f0aa77da8d"
+        },
+        {
+          "lod": 1,
+          "component": "load",
+          "vertices": 750,
+          "triangles": 880,
+          "sha256": "f7e95c752598beeae096204815e7c29e0f56bb969259f9d95c716c01738e061f"
+        },
+        {
+          "lod": 2,
+          "component": "rider",
+          "vertices": 318,
+          "triangles": 328,
+          "sha256": "7b6a2d8ff3bc4082eb74f8f74df036c3c22e2315d552f39c1ad5dfb1fc7b2b68"
+        },
+        {
+          "lod": 2,
+          "component": "mount",
+          "vertices": 197,
+          "triangles": 189,
+          "sha256": "61ee183e267fc89b37b08fdaa31575a0ac4fa80e95da53a655b24328a37a2e01"
+        },
+        {
+          "lod": 2,
+          "component": "cart",
+          "vertices": 306,
+          "triangles": 312,
+          "sha256": "f16720293c0b766d904dae07f6e6bb69545c91097bde2afae75f6d490c14eff6"
+        },
+        {
+          "lod": 2,
+          "component": "load",
+          "vertices": 396,
+          "triangles": 444,
+          "sha256": "c2505327a50bea4e56c2d6da096b62d9027ea155fd0f218baf3da6624689c1c3"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age02_rider_LOD0",
+          "vertices": 1036,
+          "triangles": 1458,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age02_mount_LOD0",
+          "vertices": 1557,
+          "triangles": 2054,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age02_cart_LOD0",
+          "vertices": 876,
+          "triangles": 1344,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age02_load_LOD0",
+          "vertices": 1820,
+          "triangles": 2690,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age02_rider_LOD1",
+          "vertices": 513,
+          "triangles": 612,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age02_mount_LOD1",
+          "vertices": 737,
+          "triangles": 820,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age02_cart_LOD1",
+          "vertices": 474,
+          "triangles": 576,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age02_load_LOD1",
+          "vertices": 750,
+          "triangles": 880,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age02_rider_LOD2",
+          "vertices": 318,
+          "triangles": 328,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age02_mount_LOD2",
+          "vertices": 197,
+          "triangles": 189,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age02_cart_LOD2",
+          "vertices": 306,
+          "triangles": 312,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_age02_load_LOD2",
+          "vertices": 396,
+          "triangles": 444,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/ottoman/animals/ott_horse_combined_trade_female_age02/ott_horse_combined_trade_female_age02.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/ottoman/units/tier2_trade_cart_ott",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_skin_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_trade_cart_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\trader\\models\\ott_horse_combined_trade_female_age02\\manifest.json",
+      "source_manifest_sha256": "0dfd96cbf2fed696d9f75cf42dbaaa26047066caf7e49136e1813c0e2c1840c8",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\models\\ott_horse_combined_trade_female_age02\\model.blend",
+      "source_sha256": "0497d95ca3fb64d7b85c1dff31063bfc57b0cbc3d7734df2c1757f1c64431ffb",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+        "bones": 127,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "rider",
+          "vertices": 1513,
+          "triangles": 2046,
+          "sha256": "794a37d2a8e4237b02cdd5226d6152d6eb6cb0da4ded121490338623846fbea3"
+        },
+        {
+          "lod": 0,
+          "component": "mount",
+          "vertices": 1557,
+          "triangles": 2054,
+          "sha256": "64402b4aaf0db51d41ce1a104b489b58900006cd2ba82b18a1cd80fdf5c5c378"
+        },
+        {
+          "lod": 0,
+          "component": "cart",
+          "vertices": 876,
+          "triangles": 1344,
+          "sha256": "05b8679348e701c645afdf51ab20dde0c828010ec9b39099f4c923fbcf1672b6"
+        },
+        {
+          "lod": 0,
+          "component": "load",
+          "vertices": 1820,
+          "triangles": 2690,
+          "sha256": "09dbe3f02ac4ba5f13f1e9d34d61b3441425ee5bc8a24ab9e026789f89d8e540"
+        },
+        {
+          "lod": 1,
+          "component": "rider",
+          "vertices": 733,
+          "triangles": 818,
+          "sha256": "24658cfdb6daa3e1fda93ebfa097ef4a47a73e924428856f49e21e46f81a2571"
+        },
+        {
+          "lod": 1,
+          "component": "mount",
+          "vertices": 737,
+          "triangles": 820,
+          "sha256": "0b31575418b345851fa8652e7ad2f90f16e976af00937540c96a4b950aa3c496"
+        },
+        {
+          "lod": 1,
+          "component": "cart",
+          "vertices": 474,
+          "triangles": 576,
+          "sha256": "07ee75c6ad5c4fa42a53d0a94b911d3c99373b21097294ff029322f0aa77da8d"
+        },
+        {
+          "lod": 1,
+          "component": "load",
+          "vertices": 750,
+          "triangles": 880,
+          "sha256": "f7e95c752598beeae096204815e7c29e0f56bb969259f9d95c716c01738e061f"
+        },
+        {
+          "lod": 2,
+          "component": "rider",
+          "vertices": 392,
+          "triangles": 374,
+          "sha256": "eb8acb80334b5c4b516759cdeba1b3e5efa8f5484da4495864de7e97b5b4fdc9"
+        },
+        {
+          "lod": 2,
+          "component": "mount",
+          "vertices": 197,
+          "triangles": 189,
+          "sha256": "61ee183e267fc89b37b08fdaa31575a0ac4fa80e95da53a655b24328a37a2e01"
+        },
+        {
+          "lod": 2,
+          "component": "cart",
+          "vertices": 306,
+          "triangles": 312,
+          "sha256": "f16720293c0b766d904dae07f6e6bb69545c91097bde2afae75f6d490c14eff6"
+        },
+        {
+          "lod": 2,
+          "component": "load",
+          "vertices": 396,
+          "triangles": 444,
+          "sha256": "c2505327a50bea4e56c2d6da096b62d9027ea155fd0f218baf3da6624689c1c3"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age02_rider_LOD0",
+          "vertices": 1513,
+          "triangles": 2046,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age02_mount_LOD0",
+          "vertices": 1557,
+          "triangles": 2054,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age02_cart_LOD0",
+          "vertices": 876,
+          "triangles": 1344,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age02_load_LOD0",
+          "vertices": 1820,
+          "triangles": 2690,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age02_rider_LOD1",
+          "vertices": 733,
+          "triangles": 818,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age02_mount_LOD1",
+          "vertices": 737,
+          "triangles": 820,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age02_cart_LOD1",
+          "vertices": 474,
+          "triangles": 576,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age02_load_LOD1",
+          "vertices": 750,
+          "triangles": 880,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age02_rider_LOD2",
+          "vertices": 392,
+          "triangles": 374,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age02_mount_LOD2",
+          "vertices": 197,
+          "triangles": 189,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age02_cart_LOD2",
+          "vertices": 306,
+          "triangles": 312,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_trader_ott_horse_combined_trade_female_age02_load_LOD2",
+          "vertices": 396,
+          "triangles": 444,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    }
+  ],
+  "assemblies": [
+    {
+      "manifest": "art\\persia\\units\\trader\\assemblies\\ott_horse_combined_trade_age02\\manifest.json",
+      "manifest_sha256": "a1bbf6fc1be8968a20984f58ba9ce636c46d2b896d6d923093032b4d43cfb508",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\assemblies\\ott_horse_combined_trade_age02\\assembly.blend",
+      "sha256": "bd0254656b1b03871aefa395673da3c2629bd9378881f8fa191572ab4f78b6d5",
+      "sockets": {},
+      "rig_contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+      "motion_checks": [
+        {
+          "clip": "rider_sword_shield_navigation\\idle_tense_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/animals/archetypes/base_horse_combined/base_horse_combined.rhka",
+            "rhka_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.592398332889839
+            },
+            {
+              "frame": 51,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.592398332889839
+            },
+            {
+              "frame": 101,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.592398332889839
+            },
+            {
+              "frame": 151,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.592398332889839
+            },
+            {
+              "frame": 201,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.592398332889839
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    },
+    {
+      "manifest": "art\\persia\\units\\trader\\assemblies\\ott_horse_combined_trade_age03\\manifest.json",
+      "manifest_sha256": "91e71191249c0f4e2bf2e3709a24c0b72e0f4dda5d526726204b146dc231e6ac",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\assemblies\\ott_horse_combined_trade_age03\\assembly.blend",
+      "sha256": "29026f8a123d412f0bfae233167cf4c935f921c34e3a4f82f081eced2b194048",
+      "sockets": {},
+      "rig_contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+      "motion_checks": [
+        {
+          "clip": "rider_sword_shield_navigation\\idle_tense_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/animals/archetypes/base_horse_combined/base_horse_combined.rhka",
+            "rhka_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107504387352
+            },
+            {
+              "frame": 51,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107504387352
+            },
+            {
+              "frame": 101,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107504387352
+            },
+            {
+              "frame": 151,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107504387352
+            },
+            {
+              "frame": 201,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107504387352
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    },
+    {
+      "manifest": "art\\persia\\units\\trader\\assemblies\\ott_horse_combined_trade_age04\\manifest.json",
+      "manifest_sha256": "ae14ba173f9ba03cc267b265165b37a5ceb38efd1894853590f25901b41c2ae5",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\assemblies\\ott_horse_combined_trade_age04\\assembly.blend",
+      "sha256": "5cb1e69232a3c6b75dea3296259426b5b21ae78bd401417447f02129de42067e",
+      "sockets": {},
+      "rig_contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+      "motion_checks": [
+        {
+          "clip": "rider_sword_shield_navigation\\idle_tense_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/animals/archetypes/base_horse_combined/base_horse_combined.rhka",
+            "rhka_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107546207717
+            },
+            {
+              "frame": 51,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107546207717
+            },
+            {
+              "frame": 101,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107546207717
+            },
+            {
+              "frame": 151,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107546207717
+            },
+            {
+              "frame": 201,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107546207717
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    },
+    {
+      "manifest": "art\\persia\\units\\trader\\assemblies\\ott_horse_combined_trade_female_age02\\manifest.json",
+      "manifest_sha256": "8e9f21a6141b43dab3c994e2b5c474fbae369bcce8a2fb16ba4be9b6ff85f504",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\assemblies\\ott_horse_combined_trade_female_age02\\assembly.blend",
+      "sha256": "aadf471e814360edd1d6c48d2149c5a90e419d0076345715207bfe0cd6e43fdb",
+      "sockets": {},
+      "rig_contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+      "motion_checks": [
+        {
+          "clip": "rider_sword_shield_navigation\\idle_tense_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/animals/archetypes/base_horse_combined/base_horse_combined.rhka",
+            "rhka_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.592398332889839
+            },
+            {
+              "frame": 51,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.592398332889839
+            },
+            {
+              "frame": 101,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.592398332889839
+            },
+            {
+              "frame": 151,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.592398332889839
+            },
+            {
+              "frame": 201,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.592398332889839
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    },
+    {
+      "manifest": "art\\persia\\units\\trader\\assemblies\\ott_horse_combined_trade_female_age03\\manifest.json",
+      "manifest_sha256": "1e8cb4e0146a096a80fc38bf802e97f02017b9aaa1e8adf54d15c996cd2a28df",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\assemblies\\ott_horse_combined_trade_female_age03\\assembly.blend",
+      "sha256": "092c4912a4a51c9f697cce36b3af7766ea90fb8d2e7e2986f7e0692df0381b93",
+      "sockets": {},
+      "rig_contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+      "motion_checks": [
+        {
+          "clip": "rider_sword_shield_navigation\\idle_tense_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/animals/archetypes/base_horse_combined/base_horse_combined.rhka",
+            "rhka_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107504387352
+            },
+            {
+              "frame": 51,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107504387352
+            },
+            {
+              "frame": 101,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107504387352
+            },
+            {
+              "frame": 151,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107504387352
+            },
+            {
+              "frame": 201,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107504387352
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    },
+    {
+      "manifest": "art\\persia\\units\\trader\\assemblies\\ott_horse_combined_trade_female_age04\\manifest.json",
+      "manifest_sha256": "28408c8c86c50c0587743e4bd364492e7930c7a7ca67cb0caeebcfe81e51bb45",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\assemblies\\ott_horse_combined_trade_female_age04\\assembly.blend",
+      "sha256": "95447b0fcff2d4f3eccc68d0e681a6add8de251fe21d6a8a85ea5b79d9e7d985",
+      "sockets": {},
+      "rig_contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+      "motion_checks": [
+        {
+          "clip": "rider_sword_shield_navigation\\idle_tense_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/animals/archetypes/base_horse_combined/base_horse_combined.rhka",
+            "rhka_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107546207717
+            },
+            {
+              "frame": 51,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107546207717
+            },
+            {
+              "frame": 101,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107546207717
+            },
+            {
+              "frame": 151,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107546207717
+            },
+            {
+              "frame": 201,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.6793107546207717
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    }
+  ],
+  "reconstruction_inputs": [
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\decoded-static.json",
+      "sha256": "cc81e5b4128a9170fe0fa345d6b94a766d20e18e75a82733054cbacab4941320",
+      "bytes": 6962527
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\6470214614182662057_packed.rrtex",
+      "sha256": "fc59060b9b0eebcae48c8ad3940898ee6a99f96d4d8d956e554602b61120086a",
+      "bytes": 7957
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\8187671035040617839_packed.rrtex",
+      "sha256": "559a7d7638c7daf840c87ac44c5a28302d180f0a588959ac721056c62f4ec912",
+      "bytes": 12974
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\9089605333971173130_packed.rrtex",
+      "sha256": "55932e8fdada920cce0e17bea1bf8670cb2db5a5bb7687e071f2ded6374eaa0f",
+      "bytes": 19483
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age02\\12115290552297231612_packed.rrtex",
+      "sha256": "e17e9e89896e60bf81d94db02820762b1f17cf86fc8f47bf457123af1ed36d33",
+      "bytes": 9940
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age02\\13316488631867783152_packed.rrtex",
+      "sha256": "3f64b2ecd1184221c3f8e78899b8acb681c2d8b82eef60208022900a3695ed22",
+      "bytes": 116568
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age02\\1423263103533089379_packed.rrtex",
+      "sha256": "784aed60328ca07e841032389decef3d70217caf26b9504945c006e210ff3049",
+      "bytes": 305109
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age02\\524560193360487594_packed.rrtex",
+      "sha256": "35ec095bae9c7709c4b129506c0a4396f2f4293d0e0ccfebc91a602694809374",
+      "bytes": 306810
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age02\\5378933557546301930_packed.rrtex",
+      "sha256": "320cc7244eb0a75e491f97cf593ebd169d15c43c895a8bd5503df079e2bb6e60",
+      "bytes": 269770
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age02\\6853926943446510308_packed.rrtex",
+      "sha256": "987f517c357872c3be8c7ea572652a796842480b56089a9cfebf93274d26dd34",
+      "bytes": 306662
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age02\\10779594476868038686_packed.rrtex",
+      "sha256": "de7c0ec779947e440e256ab57d846bdced671ae0c898192c55af91b7df3924f4",
+      "bytes": 76948
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age02\\11760925358178903941_packed.rrtex",
+      "sha256": "de7c0ec779947e440e256ab57d846bdced671ae0c898192c55af91b7df3924f4",
+      "bytes": 76948
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age02\\14892972059155880147_packed.rrtex",
+      "sha256": "de7c0ec779947e440e256ab57d846bdced671ae0c898192c55af91b7df3924f4",
+      "bytes": 76948
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age02\\5127298659853210416_packed.rrtex",
+      "sha256": "01d15d89cf559bedc9e05a027e77132f979ec05ee4e01c96957b765aade7c323",
+      "bytes": 61956
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age02\\5353059560332297741_packed.rrtex",
+      "sha256": "d54e417e3236708edce03225e361cc763892730841a500f3d4896158408dd430",
+      "bytes": 3255
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age02\\6747956287715517613_packed.rrtex",
+      "sha256": "60ca6b8cba8603a012e68b5c119826be836a5dc2b6137adb0571125291686f3d",
+      "bytes": 32838
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_age02\\ott_horse_combined_trade_age02.rgm",
+      "sha256": "62e23e690e9a1281f438f7bbe311916bc960c369271ad87c5822515e2c97b825",
+      "bytes": 157557
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_age02\\ott_horse_combined_trade_age02.rrgeom",
+      "sha256": "5e669ed0a5bde70cbcfb697e8414c6275aa65b32e59ba49935c839bd1aba64f9",
+      "bytes": 368115
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_age02\\ott_horse_combined_trade_age02.rrmaterial",
+      "sha256": "5543b87d636fec6ace107c9f3663e87f51136b3be2a6cf0dd4d97f503ef26042",
+      "bytes": 8340
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age02\\11691906758543106260_packed.rrtex",
+      "sha256": "4cf5e9b0aaa0a45ddb1947a8e8d425e1a163e29f61125cb65cd40c10be414155",
+      "bytes": 271893
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age02\\11940173804789823034_packed.rrtex",
+      "sha256": "d8ca4e1fa9606967e5c2903be182baab915be074eb20c2856190831bf699bea8",
+      "bytes": 276572
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age02\\12001687117643384777_packed.rrtex",
+      "sha256": "17172e528d388a441a6440b0c53a71de33dae13d5df79cc25835fd767e017e27",
+      "bytes": 104152
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age02\\15930170187568113875_packed.rrtex",
+      "sha256": "dc6073271cdd8cae339c3a393cdb6e9e137ef0063e41e8ba1d9becf2ddb32614",
+      "bytes": 281089
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age02\\4892227893585155561_packed.rrtex",
+      "sha256": "7a361eb86934b084edc9d64770c24fa8a59a9a09f9eafd1d5b6baabb364c5ef8",
+      "bytes": 20880
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age02\\6151035586007363529_packed.rrtex",
+      "sha256": "f1133a5e7bd044df5ca9a17fe98d481b5831de5f0720e108e97d77bdf5e4ee47",
+      "bytes": 213499
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\source\\art\\civilizations\\ottoman\\humans\\tints\\ott_skin_tinting_lut.rrtex",
+      "sha256": "f7a7038adcf247469c4f564212ed7052bae3968a029930a01fcf5903c79322d9",
+      "bytes": 509
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\01b8aa291799_5378933557546301930_packed.dds",
+      "sha256": "a2f217d205cd0083f721ccd3146942f4c60192724f4dcf8674030c9d29d8b97c",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\1279c9d702a3_6151035586007363529_packed.dds",
+      "sha256": "e129f7f307adcdc2e8e36d084d642b9d9b561c6bbcfa4161ed12e1e77156ec17",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\23022c969f54_15930170187568113875_packed.dds",
+      "sha256": "7e0a1d719b6957085a63e7d35ae85ec814353261e18349c96b624271d4617ab5",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\25c7a874e698_4892227893585155561_packed.dds",
+      "sha256": "64b16b785bb91062bfc20a115a9ebe84be4356b9bd02e51742a150f94aa0fab0",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\37841b20a7c9_10779594476868038686_packed.dds",
+      "sha256": "b3b5086ff6d37fdf2151fbd1fe5aaac658cc6bbc086c37dfdf9547bc75330e96",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\3d2e6168f7d6_524560193360487594_packed.dds",
+      "sha256": "56758a6cb17534aba0a3a7456ccd27f7f095aadc9f3d6a28a14e6b5806a0a13d",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\4ce44dd6ffdb_11691906758543106260_packed.dds",
+      "sha256": "83055c18729fe75f138acdf151031fed7535f6b9e4d832b7d632b8a12648c24a",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\51c5a822c599_8187671035040617839_packed.dds",
+      "sha256": "3d3e618f2c6c4a52347d45cba4a13713125d01997c919d34213ce81d042b6eee",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\5a2d9f27e127_5353059560332297741_packed.dds",
+      "sha256": "6597bda08feadee26e4cc6780793faa1cc9ea7123fb9c52632ec0f68e7da3ae2",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\5fb71dac9605_14892972059155880147_packed.dds",
+      "sha256": "b3b5086ff6d37fdf2151fbd1fe5aaac658cc6bbc086c37dfdf9547bc75330e96",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\6ee2dbe5e1a0_12115290552297231612_packed.dds",
+      "sha256": "116f531789617d91ea26538425f07ad14eb268a8cd9507204d84378520cc4fc5",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\70076cfdfc71_1423263103533089379_packed.dds",
+      "sha256": "aaeac337b49c6f959f97c3aad6f522857fe3461cb644e2bcd20da5808ca2dd5b",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\7186fd7dddfe_11760925358178903941_packed.dds",
+      "sha256": "b3b5086ff6d37fdf2151fbd1fe5aaac658cc6bbc086c37dfdf9547bc75330e96",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\77355095137c_ott_skin_tinting_lut.dds",
+      "sha256": "50bb81d7fc6f05ef0291ef612621fac26b5fdb1baeac621a438813250896dfea",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\9b71b3baf28a_13316488631867783152_packed.dds",
+      "sha256": "0c016ab9069b984dcd903b572d76f31372364957ce2269ba2b58c18154e86011",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\acc8b918c4cc_6853926943446510308_packed.dds",
+      "sha256": "97f3b1bd4a344120443b9c1b50b718ab0273cf152440907711b8714e811beebe",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\c0d8c03a70ab_11940173804789823034_packed.dds",
+      "sha256": "53d3f0a553aaf061ec9db259aef7613de01926b0d8ce4b8f6ba1da15eebb84f0",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\c24ef21b3c33_9089605333971173130_packed.dds",
+      "sha256": "4ca40fb95ad190ac037a52395230541f0a9cf55985409c8d0bf9e814eaac122d",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\c8db88f488d8_12001687117643384777_packed.dds",
+      "sha256": "c32c0cc9690e4f89ddfb83801fea91c0878cbf2fb115cda252aff76da96886a0",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\df6bada80f04_5127298659853210416_packed.dds",
+      "sha256": "75e727d8fd88db7b7077c593d08225e7ed9f68879f78a07761d9cda513372fe9",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\efca47a706df_6470214614182662057_packed.dds",
+      "sha256": "35084d565d53e7c750d6e4687102f9822de4466000d51b3605c8efbcb52ae695",
+      "bytes": 11064
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age02\\6a26a7fc88f5e9535bcb\\textures\\f823f619f39a_6747956287715517613_packed.dds",
+      "sha256": "c64e49749ec1daa2b7d3a1a1caa135486d84303661d74ec98661b90cf6483351",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\decoded-static.json",
+      "sha256": "31807172944b8ceb286c83643a17d68e8a6c9deabf135e9e0c1ab19f14c6a564",
+      "bytes": 8385301
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\6470214614182662057_packed.rrtex",
+      "sha256": "fc59060b9b0eebcae48c8ad3940898ee6a99f96d4d8d956e554602b61120086a",
+      "bytes": 7957
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\8187671035040617839_packed.rrtex",
+      "sha256": "559a7d7638c7daf840c87ac44c5a28302d180f0a588959ac721056c62f4ec912",
+      "bytes": 12974
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\9089605333971173130_packed.rrtex",
+      "sha256": "55932e8fdada920cce0e17bea1bf8670cb2db5a5bb7687e071f2ded6374eaa0f",
+      "bytes": 19483
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age03\\10056461219751869053_packed.rrtex",
+      "sha256": "02ae5ff7c655915c745992a615902f98a55bcb7011028dbf97804f04d191a2ff",
+      "bytes": 24739
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age03\\10928391478656945972_packed.rrtex",
+      "sha256": "4a20b737ef4d96fc6acb04d0e9da43cdad4b713dd1a499668b6d5d764d38caad",
+      "bytes": 276169
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age03\\15549742175836026548_packed.rrtex",
+      "sha256": "5c176ff95d9d9de050e9181a3d72f4be4ab40ce1f3cde8b93718fb14276821d2",
+      "bytes": 123930
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age03\\18210028758637422834_packed.rrtex",
+      "sha256": "95a868077de65f3407542ead40ab966e7d425c99ffe8fbf7967d273967a9b3ae",
+      "bytes": 310048
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age03\\2687114764402776643_packed.rrtex",
+      "sha256": "17f6edd33c7c2a836d8a7c9dd1cea1b22ef8fff0a76d08d9477fecf295cb360a",
+      "bytes": 263508
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age03\\6010759793379907429_packed.rrtex",
+      "sha256": "9cdcf567bcc165f5697c16111aac65a3c072a5cf380349e145afb083e5868cea",
+      "bytes": 204709
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age03\\10211628352414205770_packed.rrtex",
+      "sha256": "ea38aeeeb0185346957fbdd6fbf80b9fef1112b9df10925d78b35ba4cf9fcce0",
+      "bytes": 74646
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age03\\12142132716403139775_packed.rrtex",
+      "sha256": "36f01a032d103dab52becd58f5d423976f0089fa6b26c7b5e3f4a6c3807c8c19",
+      "bytes": 56901
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age03\\16626532079161956376_packed.rrtex",
+      "sha256": "5fc0dedc3a4790943133c53b912f0525a92b5fb5017589e786a44e168de1ac15",
+      "bytes": 31187
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age03\\16819719044074514810_packed.rrtex",
+      "sha256": "ea38aeeeb0185346957fbdd6fbf80b9fef1112b9df10925d78b35ba4cf9fcce0",
+      "bytes": 74646
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age03\\7193028518268295463_packed.rrtex",
+      "sha256": "5e6bcca91426662d4068cc1858538bb025175a95b8845651826458fd74acc89e",
+      "bytes": 244096
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age03\\8576762728591858009_packed.rrtex",
+      "sha256": "b28c80e3bb677efe3880f75c9f050eb8f444830adb7c385e0c6b150514c06f34",
+      "bytes": 2343
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_age03\\ott_horse_combined_trade_age03.rgm",
+      "sha256": "af94d1d1f3508565c7df2658d0e059d7b5b993a6b188c61f84bcf868d3181455",
+      "bytes": 177958
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_age03\\ott_horse_combined_trade_age03.rrgeom",
+      "sha256": "970c20b4d1f2b9e4e708d758823ec0d07563c6b07e853c40c445d51a9c8eed3e",
+      "bytes": 437678
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_age03\\ott_horse_combined_trade_age03.rrmaterial",
+      "sha256": "8101cfdc4973284249490d5c29074ed7a93f65c53b8fb0ee7a9da7535a00befd",
+      "bytes": 7729
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age03\\10431396719555651628_packed.rrtex",
+      "sha256": "729f379d6d5c2d3bbb7da8b8ce80008f7d7ad0aff6c3bfa8fa0cd3ae27122839",
+      "bytes": 258358
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age03\\12146736028656925267_packed.rrtex",
+      "sha256": "5c063dd0fd45b05c308c6b2e4b82e3b52cdab57ac71cba4d4de7b8c6c7f40c4c",
+      "bytes": 244490
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age03\\14218376502695253808_packed.rrtex",
+      "sha256": "fdfdc5417569dace9bcdfa3a84b7dc9c4c391ed03511e54d0bb29ae03c72469c",
+      "bytes": 104179
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age03\\14916919582538005092_packed.rrtex",
+      "sha256": "25a34982c5f38a560c9269c22c72fee3811593f6639504eb421030e25a398443",
+      "bytes": 216273
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age03\\15362368249288927401_packed.rrtex",
+      "sha256": "acdacfaf9052cd6af48051d020ad796b5f8bb772c81a321d6af52449c44674b1",
+      "bytes": 21225
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age03\\18281381690485268740_packed.rrtex",
+      "sha256": "45a5f200936dcbe6077e86b9477c0bf2f57fff3c06c3399573dad0d10a612574",
+      "bytes": 262368
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\source\\art\\civilizations\\ottoman\\humans\\tints\\ott_skin_tinting_lut.rrtex",
+      "sha256": "f7a7038adcf247469c4f564212ed7052bae3968a029930a01fcf5903c79322d9",
+      "bytes": 509
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\40e10c92ef18_10928391478656945972_packed.dds",
+      "sha256": "ba62450cff1bf8a1fc8c126c0df5ee57dc57dd1af82bfb517334ebd97542b319",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\4ce3f3540eb8_6010759793379907429_packed.dds",
+      "sha256": "8710bf8e44eaa4bc0c3647d1e6fd6271a1c212f76bf7f1137b9e462fb7acec73",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\4cf2be91c7ec_12142132716403139775_packed.dds",
+      "sha256": "1986f956313aeddff90622999b11309508eedaf5455b381678893321da114b58",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\51c5a822c599_8187671035040617839_packed.dds",
+      "sha256": "3d3e618f2c6c4a52347d45cba4a13713125d01997c919d34213ce81d042b6eee",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\5344453df10b_15549742175836026548_packed.dds",
+      "sha256": "81af2441b5b5421b029ba71d874a005ec47eee5cb0df62ea22d4db4a106f5ee3",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\6306c4735ff9_18281381690485268740_packed.dds",
+      "sha256": "4275bf640cce83b8d70a7040f3c71b81c2c6399d21e8c49353f3560891c4ddb5",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\6e71ea57ec76_10431396719555651628_packed.dds",
+      "sha256": "a4840360565ecb6cc9dc4fd815428fb544302a9bdeb7075b2283dbd61ee514ee",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\7111b4db363b_15362368249288927401_packed.dds",
+      "sha256": "a47ca11335d90a4fbc359d59005fc158641d21875f3c6c7e8d231e01a6fe2b71",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\77355095137c_ott_skin_tinting_lut.dds",
+      "sha256": "50bb81d7fc6f05ef0291ef612621fac26b5fdb1baeac621a438813250896dfea",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\7e7d59999ad2_14916919582538005092_packed.dds",
+      "sha256": "e62f4e3ac7bcb25282a9bd666e03bbec7c267acd8786c3c2fdb09b0b60f3c195",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\8218fb27cb5f_7193028518268295463_packed.dds",
+      "sha256": "fca009dd2a9aebd3e9fc26377672a7405672a752563468b86a57529820a53e91",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\89f2cbb8cc3e_10056461219751869053_packed.dds",
+      "sha256": "da61dc0e19976b13f7734695817d4b6a9548a7ecd9adce6f57f3349ea5ddd77a",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\8abe5fefcb3b_2687114764402776643_packed.dds",
+      "sha256": "8da74f73fa672b85384dc6017858e722d30df6b5e1fb17cf103a9dae12b787ca",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\8e455067ae97_18210028758637422834_packed.dds",
+      "sha256": "f6b2352e2685070b1a6cd40cd7b61edcceb92a6ce7de3b3107f0d5a511f43a1f",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\acb103283b3e_12146736028656925267_packed.dds",
+      "sha256": "51eecf168fba6829298169b8f80de3eed59651fc55af7d70183b98e653bbcef9",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\b426a555a28b_8576762728591858009_packed.dds",
+      "sha256": "72dbc9db56624ce637b0111975ae201723fe04f1c000b3d6599a6016408815ca",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\c24ef21b3c33_9089605333971173130_packed.dds",
+      "sha256": "4ca40fb95ad190ac037a52395230541f0a9cf55985409c8d0bf9e814eaac122d",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\c58fddd11a95_16819719044074514810_packed.dds",
+      "sha256": "fd8b14dbda92b007f32d49fd0a7401a0f870c13c7a74c56bed5d19ab4ab0cf99",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\cdaae46c5e87_10211628352414205770_packed.dds",
+      "sha256": "fd8b14dbda92b007f32d49fd0a7401a0f870c13c7a74c56bed5d19ab4ab0cf99",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\d67617824022_14218376502695253808_packed.dds",
+      "sha256": "d2a92ccffb0310aa35712da1b4dccf160db2786a16870b7ac8de1526fce31ea3",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\efca47a706df_6470214614182662057_packed.dds",
+      "sha256": "35084d565d53e7c750d6e4687102f9822de4466000d51b3605c8efbcb52ae695",
+      "bytes": 11064
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age03\\8776f1634a7d8aa1b47e\\textures\\faadf4db8d7e_16626532079161956376_packed.dds",
+      "sha256": "bb087f100c4c18a960caf09bfdbe113637ddb63a121ae839d7806dd8546b12ed",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\decoded-static.json",
+      "sha256": "5e8e952c1028133414942fd66398b7efdd948c8f49cc9d508e902f27988a4e1d",
+      "bytes": 8404003
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\6470214614182662057_packed.rrtex",
+      "sha256": "fc59060b9b0eebcae48c8ad3940898ee6a99f96d4d8d956e554602b61120086a",
+      "bytes": 7957
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\8187671035040617839_packed.rrtex",
+      "sha256": "559a7d7638c7daf840c87ac44c5a28302d180f0a588959ac721056c62f4ec912",
+      "bytes": 12974
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\9089605333971173130_packed.rrtex",
+      "sha256": "55932e8fdada920cce0e17bea1bf8670cb2db5a5bb7687e071f2ded6374eaa0f",
+      "bytes": 19483
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age04\\12991668628255623656_packed.rrtex",
+      "sha256": "a8fbc443e72ed3356d2a29c25179faa0b22d2ae57de3d0a4d6b8e321af4b4b9d",
+      "bytes": 236095
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age04\\16584652618410646780_packed.rrtex",
+      "sha256": "713ae463671b24be9e461f619c0ef3486efa3cd8b29afbae4570a5fa70d68cb8",
+      "bytes": 303628
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age04\\18424270039616114859_packed.rrtex",
+      "sha256": "21e350c3201194bcd8ea8879a2a580f095e358c388c77c23a2d315744487712a",
+      "bytes": 239857
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age04\\4027019107692486773_packed.rrtex",
+      "sha256": "405d9b432c8ee0009b784343be552173ef365a908396be488ecf82b46cf67456",
+      "bytes": 280666
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age04\\7865546621232095769_packed.rrtex",
+      "sha256": "214963be66bbf44ea1604d6e90d408ed9613529fbc8519664f2a13828242ddb9",
+      "bytes": 117993
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age04\\8248692737271302079_packed.rrtex",
+      "sha256": "69ac4f0d2993a89df16b1927a6b31eb8b9ae51a785a2d7a735f1fe412b8f9af5",
+      "bytes": 23196
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\10065523545794831226_packed.rrtex",
+      "sha256": "5f7dc6332a9fa414f6c65a855e22c2f50ab21c9ee13e01320550aa7b49927cf9",
+      "bytes": 287750
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\10717034035470182098_packed.rrtex",
+      "sha256": "b1ec796b217244328373749c3ac4f66ef07fe8c81100e9917a1602931df21956",
+      "bytes": 297909
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\1590527019867277483_packed.rrtex",
+      "sha256": "d3408f634105257db1daf30a5d94ded00351dba5958376889b6f656059f3c87d",
+      "bytes": 200016
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\16152492574953474436_packed.rrtex",
+      "sha256": "6f9ffb47853c74d1383c91eb8017bfa038b9c409d3a714b1829ee507d4466e53",
+      "bytes": 237578
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\17262239950832304202_packed.rrtex",
+      "sha256": "0c584535dcd73983f31feb9867e1f35cc4789347fbf02844b2c35eb39773ae4c",
+      "bytes": 128275
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\3391886602376985549_packed.rrtex",
+      "sha256": "cc25c0ae6164c6a37809b128ad848dcbd468d85edd03c5a2499e19c64b9e165f",
+      "bytes": 279869
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\4339581956459208953_packed.rrtex",
+      "sha256": "2b52487cfe2ddcb9400fe24b672d914fa8df3a48a83372f2290c47e8f41769b1",
+      "bytes": 10166
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_age04\\ott_horse_combined_trade_age04.rgm",
+      "sha256": "399081e9ed241571e5c93b44cb60a6544ec2e2d4e8577af269e73da5abed81ba",
+      "bytes": 172096
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_age04\\ott_horse_combined_trade_age04.rrgeom",
+      "sha256": "f279d74acb1c70e5176fadc3711743af306604cf6e2e7335d6b6d0d848a06078",
+      "bytes": 438478
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_age04\\ott_horse_combined_trade_age04.rrmaterial",
+      "sha256": "36d9cd5abd2fd390dac95a890db48c442f49068f93994e9784dd04533c84939b",
+      "bytes": 7713
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age04\\1141940988685603522_packed.rrtex",
+      "sha256": "278811bf841517290ce8d34ac33410875ab06ba1b98197b0fda8fc6584546650",
+      "bytes": 286912
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age04\\2698038879924747407_packed.rrtex",
+      "sha256": "561eb2c59ad9f3d9951fb4cf6a8f4ec96557203b81cbbbbab46cdc768ab5084d",
+      "bytes": 108531
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age04\\4821999511061043853_packed.rrtex",
+      "sha256": "141a1c6e5fe2fc376bb21b30b7640617500bfd99f2849ce8ff727d1b8e9cc105",
+      "bytes": 24030
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age04\\5394334923742842762_packed.rrtex",
+      "sha256": "9a47a0c45f90da1c20365f64eacefc2fdb1a7af9e33c13ddf97305cc5a1e5f00",
+      "bytes": 281060
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age04\\6940271219811172212_packed.rrtex",
+      "sha256": "199931de3cdd02ce9654c8d50ade70c7eee2ce3fb8608856a843ede0cc1e5f18",
+      "bytes": 269734
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_male_age04\\7812193524986733328_packed.rrtex",
+      "sha256": "83e69d51d2d09cae7abfc5e85860323886b2f6c34cf3040e1e9bdcba424fd07b",
+      "bytes": 190281
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\source\\art\\civilizations\\ottoman\\humans\\tints\\ott_skin_tinting_lut.rrtex",
+      "sha256": "f7a7038adcf247469c4f564212ed7052bae3968a029930a01fcf5903c79322d9",
+      "bytes": 509
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\0233149c2e2a_16152492574953474436_packed.dds",
+      "sha256": "8c24f044c8aad1cd2fbc4f5c65d0c46ea78fb09abda5507efa9ae9c1964b8ed1",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\1b3784457233_16584652618410646780_packed.dds",
+      "sha256": "86b626ce596cd047e9fca2282c210de894d595c46f33d36990383bbd9295829a",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\211237f1c04d_2698038879924747407_packed.dds",
+      "sha256": "0ea449164cfdf56ef063b41ab2265108c53d270ef74827b7d877207900aa488e",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\2598e6126354_7865546621232095769_packed.dds",
+      "sha256": "e8b718816bb325be1c912f7a742c9c1b692620fd7c56c60ebd426d8d6211cdb1",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\26863b18dcdf_18424270039616114859_packed.dds",
+      "sha256": "43a846f4d1338a6541c685bd08a75ed1617e6c60227043b41269e27a251f89d5",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\2d1f515f55fc_7812193524986733328_packed.dds",
+      "sha256": "0eabc3d0857a7f7db5f846b8c91e995877466accb73e198fbdc28401ea1a1d7b",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\3e13b5dead40_4339581956459208953_packed.dds",
+      "sha256": "2befa39dd4101439daee39424268bc71b828d83be9cbbd446d998653487a0cce",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\4476c400747e_10065523545794831226_packed.dds",
+      "sha256": "8af2fb9433b7d55904555327ecbc1ec11355d11f62481a319d158a2d5deb7c48",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\4f75277adcbc_6940271219811172212_packed.dds",
+      "sha256": "ac91e7e710f4319505237c4f1af0ef7f354008313a212116c91d8f5da617fc52",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\51c5a822c599_8187671035040617839_packed.dds",
+      "sha256": "3d3e618f2c6c4a52347d45cba4a13713125d01997c919d34213ce81d042b6eee",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\5d03e23d2ab6_8248692737271302079_packed.dds",
+      "sha256": "0e8efe2df7e3aa5fc2704dc08dee955f478ab6df1b43ef9d3dcf247c2b7515f9",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\6a849f0e775a_1141940988685603522_packed.dds",
+      "sha256": "1abd50d5c1db6d6afc2ae9e0325b49d3315f2f21bb5b70357ab23590cf7400fa",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\742eae596e24_5394334923742842762_packed.dds",
+      "sha256": "95d9d387df4ca144e7a7c4b9715022c0e181901ce04f3192242f8683ce656fab",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\77355095137c_ott_skin_tinting_lut.dds",
+      "sha256": "50bb81d7fc6f05ef0291ef612621fac26b5fdb1baeac621a438813250896dfea",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\99145ca553a6_4027019107692486773_packed.dds",
+      "sha256": "fd3a771c813b475565f18427ecddc7f1cc3c685746a3e495b19122daee0fdd5f",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\c089943fa8e3_17262239950832304202_packed.dds",
+      "sha256": "582e2db48a9aec4ca7d6f5c3c720a7d8cf36cd7764a6ec6105dc91a2d91e7d80",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\c24ef21b3c33_9089605333971173130_packed.dds",
+      "sha256": "4ca40fb95ad190ac037a52395230541f0a9cf55985409c8d0bf9e814eaac122d",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\c48fe40ad066_12991668628255623656_packed.dds",
+      "sha256": "8999f13276839f1192be33669b1b3cbe283fddd121fb67bbdb2bce52a4146441",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\cccdc40ac479_3391886602376985549_packed.dds",
+      "sha256": "20a4b6720fb60e7e88f7e82a4b0b7eb997e65bd48f3e54a9a6e3c2256eb71bf0",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\e0f5c2bb308b_10717034035470182098_packed.dds",
+      "sha256": "de6d37ec4bf1ec043bb141d3ee75b68921fb7eb6e564c5dff6150aaab1c7cee9",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\efca47a706df_6470214614182662057_packed.dds",
+      "sha256": "35084d565d53e7c750d6e4687102f9822de4466000d51b3605c8efbcb52ae695",
+      "bytes": 11064
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\fcfca367fd71_4821999511061043853_packed.dds",
+      "sha256": "36184ab1e248b0fda7a5f25f160e8fcf4ad27a6b4380be31e7bbd05f89351545",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_age04\\3a26d56f8ebdcd59cb4f\\textures\\fdb72cefb399_1590527019867277483_packed.dds",
+      "sha256": "811385c0bdcd3b539636ef57520b38f68fda003557d7f355692347d412bd67c7",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\decoded-static.json",
+      "sha256": "418ff03d8e1d94faea0ed37691ae008736be198efb21d2eb385032b9912a91b8",
+      "bytes": 7546945
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\6470214614182662057_packed.rrtex",
+      "sha256": "fc59060b9b0eebcae48c8ad3940898ee6a99f96d4d8d956e554602b61120086a",
+      "bytes": 7957
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\8187671035040617839_packed.rrtex",
+      "sha256": "559a7d7638c7daf840c87ac44c5a28302d180f0a588959ac721056c62f4ec912",
+      "bytes": 12974
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\9089605333971173130_packed.rrtex",
+      "sha256": "55932e8fdada920cce0e17bea1bf8670cb2db5a5bb7687e071f2ded6374eaa0f",
+      "bytes": 19483
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age02\\12115290552297231612_packed.rrtex",
+      "sha256": "e17e9e89896e60bf81d94db02820762b1f17cf86fc8f47bf457123af1ed36d33",
+      "bytes": 9940
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age02\\13316488631867783152_packed.rrtex",
+      "sha256": "3f64b2ecd1184221c3f8e78899b8acb681c2d8b82eef60208022900a3695ed22",
+      "bytes": 116568
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age02\\1423263103533089379_packed.rrtex",
+      "sha256": "784aed60328ca07e841032389decef3d70217caf26b9504945c006e210ff3049",
+      "bytes": 305109
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age02\\524560193360487594_packed.rrtex",
+      "sha256": "35ec095bae9c7709c4b129506c0a4396f2f4293d0e0ccfebc91a602694809374",
+      "bytes": 306810
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age02\\5378933557546301930_packed.rrtex",
+      "sha256": "320cc7244eb0a75e491f97cf593ebd169d15c43c895a8bd5503df079e2bb6e60",
+      "bytes": 269770
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age02\\6853926943446510308_packed.rrtex",
+      "sha256": "987f517c357872c3be8c7ea572652a796842480b56089a9cfebf93274d26dd34",
+      "bytes": 306662
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age02\\10779594476868038686_packed.rrtex",
+      "sha256": "de7c0ec779947e440e256ab57d846bdced671ae0c898192c55af91b7df3924f4",
+      "bytes": 76948
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age02\\11760925358178903941_packed.rrtex",
+      "sha256": "de7c0ec779947e440e256ab57d846bdced671ae0c898192c55af91b7df3924f4",
+      "bytes": 76948
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age02\\14892972059155880147_packed.rrtex",
+      "sha256": "de7c0ec779947e440e256ab57d846bdced671ae0c898192c55af91b7df3924f4",
+      "bytes": 76948
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age02\\5127298659853210416_packed.rrtex",
+      "sha256": "01d15d89cf559bedc9e05a027e77132f979ec05ee4e01c96957b765aade7c323",
+      "bytes": 61956
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age02\\5353059560332297741_packed.rrtex",
+      "sha256": "d54e417e3236708edce03225e361cc763892730841a500f3d4896158408dd430",
+      "bytes": 3255
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age02\\6747956287715517613_packed.rrtex",
+      "sha256": "60ca6b8cba8603a012e68b5c119826be836a5dc2b6137adb0571125291686f3d",
+      "bytes": 32838
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_female_age02\\ott_horse_combined_trade_female_age02.rgm",
+      "sha256": "c67c5b9f4088884031cb0e78adc7e5fbdb0f5ec60f9dc57b5bfcc306d52a85f9",
+      "bytes": 169232
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_female_age02\\ott_horse_combined_trade_female_age02.rrgeom",
+      "sha256": "27e4461663b28428d853191b9f46be109a2e5494ebcd41d7776a11e2ac30c5e1",
+      "bytes": 394815
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_female_age02\\ott_horse_combined_trade_female_age02.rrmaterial",
+      "sha256": "ce7004f9038bc50fa693b614dca31c4fe6a4a06b693b95c648be14ad0e3a55e1",
+      "bytes": 8361
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age02\\10545978758381957884_packed.rrtex",
+      "sha256": "d1d8a64074af53d8e57dab72ef264b4f539052248a6fc38a5d0d1876e50bd220",
+      "bytes": 292526
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age02\\15497848189798955597_packed.rrtex",
+      "sha256": "431b88e1c962e85f82cfdbda260b34a3a27bea0bc77977df6ba3eb4a508581a5",
+      "bytes": 279441
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age02\\17333201322794892226_packed.rrtex",
+      "sha256": "521534e8d59e1290ea43ff12921d6944f6538fe6640041996e990db31424c5f4",
+      "bytes": 262429
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age02\\2889353258055873184_packed.rrtex",
+      "sha256": "8b12bc8805ae383ec7f28d709e9b2126814aac3329f374e425be4c560ca69c5e",
+      "bytes": 98109
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age02\\4394159947925099648_packed.rrtex",
+      "sha256": "11b101eb8b5190c2885f071e04aa66175c47abd8b3e7c86e66dfa24bb66b882a",
+      "bytes": 234857
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age02\\5399731189917273454_packed.rrtex",
+      "sha256": "aac123f2c6538d6b8163b71eac738cf7b73c98b2c1bf7fe9b4496135cad7d68d",
+      "bytes": 20951
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\source\\art\\civilizations\\ottoman\\humans\\tints\\ott_skin_tinting_lut.rrtex",
+      "sha256": "f7a7038adcf247469c4f564212ed7052bae3968a029930a01fcf5903c79322d9",
+      "bytes": 509
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\01497244cb01_5399731189917273454_packed.dds",
+      "sha256": "ba35e2a2aabcf652d1f19ac9e33393049e41a9d57a885b2b9ac3a733084179fe",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\01b8aa291799_5378933557546301930_packed.dds",
+      "sha256": "a2f217d205cd0083f721ccd3146942f4c60192724f4dcf8674030c9d29d8b97c",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\2699a30388ee_15497848189798955597_packed.dds",
+      "sha256": "344d77432f464d6b45e3d6a64bdf50525792545f39f799839c77cc0990012d58",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\37841b20a7c9_10779594476868038686_packed.dds",
+      "sha256": "b3b5086ff6d37fdf2151fbd1fe5aaac658cc6bbc086c37dfdf9547bc75330e96",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\3d2e6168f7d6_524560193360487594_packed.dds",
+      "sha256": "56758a6cb17534aba0a3a7456ccd27f7f095aadc9f3d6a28a14e6b5806a0a13d",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\51c5a822c599_8187671035040617839_packed.dds",
+      "sha256": "3d3e618f2c6c4a52347d45cba4a13713125d01997c919d34213ce81d042b6eee",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\579bf5c1e444_2889353258055873184_packed.dds",
+      "sha256": "7856f96dba2895ef0d78d0b85a2fd5b8f95dd21bd192f45cd4040654474769ff",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\5a2d9f27e127_5353059560332297741_packed.dds",
+      "sha256": "6597bda08feadee26e4cc6780793faa1cc9ea7123fb9c52632ec0f68e7da3ae2",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\5fb71dac9605_14892972059155880147_packed.dds",
+      "sha256": "b3b5086ff6d37fdf2151fbd1fe5aaac658cc6bbc086c37dfdf9547bc75330e96",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\6ee2dbe5e1a0_12115290552297231612_packed.dds",
+      "sha256": "116f531789617d91ea26538425f07ad14eb268a8cd9507204d84378520cc4fc5",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\70076cfdfc71_1423263103533089379_packed.dds",
+      "sha256": "aaeac337b49c6f959f97c3aad6f522857fe3461cb644e2bcd20da5808ca2dd5b",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\7186fd7dddfe_11760925358178903941_packed.dds",
+      "sha256": "b3b5086ff6d37fdf2151fbd1fe5aaac658cc6bbc086c37dfdf9547bc75330e96",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\77355095137c_ott_skin_tinting_lut.dds",
+      "sha256": "50bb81d7fc6f05ef0291ef612621fac26b5fdb1baeac621a438813250896dfea",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\9b71b3baf28a_13316488631867783152_packed.dds",
+      "sha256": "0c016ab9069b984dcd903b572d76f31372364957ce2269ba2b58c18154e86011",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\acc8b918c4cc_6853926943446510308_packed.dds",
+      "sha256": "97f3b1bd4a344120443b9c1b50b718ab0273cf152440907711b8714e811beebe",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\ae633100cc44_17333201322794892226_packed.dds",
+      "sha256": "c1af82b678c1b94e6f10481ac8da3be62ad5d384e3344c56b06f3abc4802a6b7",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\bfb8e529be2c_10545978758381957884_packed.dds",
+      "sha256": "0305f923422e521263f859ea2dde47b460a235b7b0cef717286d1a40a06d45d4",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\c24ef21b3c33_9089605333971173130_packed.dds",
+      "sha256": "4ca40fb95ad190ac037a52395230541f0a9cf55985409c8d0bf9e814eaac122d",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\c7154cbca9e4_4394159947925099648_packed.dds",
+      "sha256": "09ca69df114535be8eaef5ceb38fd9d2e1bad4014d1289a228a043ad19805e30",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\df6bada80f04_5127298659853210416_packed.dds",
+      "sha256": "75e727d8fd88db7b7077c593d08225e7ed9f68879f78a07761d9cda513372fe9",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\efca47a706df_6470214614182662057_packed.dds",
+      "sha256": "35084d565d53e7c750d6e4687102f9822de4466000d51b3605c8efbcb52ae695",
+      "bytes": 11064
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age02\\14a5c7c4f0c408f70147\\textures\\f823f619f39a_6747956287715517613_packed.dds",
+      "sha256": "c64e49749ec1daa2b7d3a1a1caa135486d84303661d74ec98661b90cf6483351",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\decoded-static.json",
+      "sha256": "3c3ef425cde3efbaa8267f13d84f00a957ab4793a4d8148c9f2dff8d0f0a9085",
+      "bytes": 8921129
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\6470214614182662057_packed.rrtex",
+      "sha256": "fc59060b9b0eebcae48c8ad3940898ee6a99f96d4d8d956e554602b61120086a",
+      "bytes": 7957
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\8187671035040617839_packed.rrtex",
+      "sha256": "559a7d7638c7daf840c87ac44c5a28302d180f0a588959ac721056c62f4ec912",
+      "bytes": 12974
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\9089605333971173130_packed.rrtex",
+      "sha256": "55932e8fdada920cce0e17bea1bf8670cb2db5a5bb7687e071f2ded6374eaa0f",
+      "bytes": 19483
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age03\\10056461219751869053_packed.rrtex",
+      "sha256": "02ae5ff7c655915c745992a615902f98a55bcb7011028dbf97804f04d191a2ff",
+      "bytes": 24739
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age03\\10928391478656945972_packed.rrtex",
+      "sha256": "4a20b737ef4d96fc6acb04d0e9da43cdad4b713dd1a499668b6d5d764d38caad",
+      "bytes": 276169
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age03\\15549742175836026548_packed.rrtex",
+      "sha256": "5c176ff95d9d9de050e9181a3d72f4be4ab40ce1f3cde8b93718fb14276821d2",
+      "bytes": 123930
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age03\\18210028758637422834_packed.rrtex",
+      "sha256": "95a868077de65f3407542ead40ab966e7d425c99ffe8fbf7967d273967a9b3ae",
+      "bytes": 310048
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age03\\2687114764402776643_packed.rrtex",
+      "sha256": "17f6edd33c7c2a836d8a7c9dd1cea1b22ef8fff0a76d08d9477fecf295cb360a",
+      "bytes": 263508
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age03\\6010759793379907429_packed.rrtex",
+      "sha256": "9cdcf567bcc165f5697c16111aac65a3c072a5cf380349e145afb083e5868cea",
+      "bytes": 204709
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age03\\10211628352414205770_packed.rrtex",
+      "sha256": "ea38aeeeb0185346957fbdd6fbf80b9fef1112b9df10925d78b35ba4cf9fcce0",
+      "bytes": 74646
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age03\\12142132716403139775_packed.rrtex",
+      "sha256": "36f01a032d103dab52becd58f5d423976f0089fa6b26c7b5e3f4a6c3807c8c19",
+      "bytes": 56901
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age03\\16626532079161956376_packed.rrtex",
+      "sha256": "5fc0dedc3a4790943133c53b912f0525a92b5fb5017589e786a44e168de1ac15",
+      "bytes": 31187
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age03\\16819719044074514810_packed.rrtex",
+      "sha256": "ea38aeeeb0185346957fbdd6fbf80b9fef1112b9df10925d78b35ba4cf9fcce0",
+      "bytes": 74646
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age03\\7193028518268295463_packed.rrtex",
+      "sha256": "5e6bcca91426662d4068cc1858538bb025175a95b8845651826458fd74acc89e",
+      "bytes": 244096
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age03\\8576762728591858009_packed.rrtex",
+      "sha256": "b28c80e3bb677efe3880f75c9f050eb8f444830adb7c385e0c6b150514c06f34",
+      "bytes": 2343
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_female_age03\\ott_horse_combined_trade_female_age03.rgm",
+      "sha256": "a78ebf641c3d24f44d00826fe104e17e85eb19b89bdf6f545a7e7a6412f88010",
+      "bytes": 190600
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_female_age03\\ott_horse_combined_trade_female_age03.rrgeom",
+      "sha256": "cf2f9a7894d5d9b5516c3f3df53ad86e47885109c1b82607b267927b55adce87",
+      "bytes": 463386
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_female_age03\\ott_horse_combined_trade_female_age03.rrmaterial",
+      "sha256": "d07898bff59cff1aa8b0589de16857c3cb6d7f8771d6d85de9cb962840f6ab5a",
+      "bytes": 7747
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age03\\15394632117574295502_packed.rrtex",
+      "sha256": "405fb07206545303fa2840f18db9bd1079cca8d24e2798368ef8f689eb7823a3",
+      "bytes": 106214
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age03\\17053402950840680385_packed.rrtex",
+      "sha256": "a0e1b4e367c625be50d33a59b9e751861b5a32ee67a2d0528c62f0905872126a",
+      "bytes": 248859
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age03\\17690155704002163116_packed.rrtex",
+      "sha256": "09e5e0c7bb61414c485cb847655d9bab5593af319897a8c186165aa454b80461",
+      "bytes": 241105
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age03\\5518557036686531422_packed.rrtex",
+      "sha256": "7edd955cac7603139fa2cfc5105ea3a8ddd6e3e03bb962e726fbba296e93bc78",
+      "bytes": 20492
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age03\\6168817523934387732_packed.rrtex",
+      "sha256": "372b7beb1b8e46bc18143e89580cc45d9a6e88426868ff60487b844fad331477",
+      "bytes": 294299
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age03\\856808067068041598_packed.rrtex",
+      "sha256": "5c5d1e15b7a30206c1a9dfa89a956c663ff5db5284480e99eb7079438e085a3d",
+      "bytes": 277973
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\source\\art\\civilizations\\ottoman\\humans\\tints\\ott_skin_tinting_lut.rrtex",
+      "sha256": "f7a7038adcf247469c4f564212ed7052bae3968a029930a01fcf5903c79322d9",
+      "bytes": 509
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\2b464f516216_17053402950840680385_packed.dds",
+      "sha256": "88fd93cdafb0898347bccf3e134594f5730df42182e532956c0924f934f6bf55",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\36f2a961928a_5518557036686531422_packed.dds",
+      "sha256": "90d88b15f12aeb5534554e5620be7ad37dba5aaade829fb9ba424287b2f93069",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\40e10c92ef18_10928391478656945972_packed.dds",
+      "sha256": "ba62450cff1bf8a1fc8c126c0df5ee57dc57dd1af82bfb517334ebd97542b319",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\4ce3f3540eb8_6010759793379907429_packed.dds",
+      "sha256": "8710bf8e44eaa4bc0c3647d1e6fd6271a1c212f76bf7f1137b9e462fb7acec73",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\4cf2be91c7ec_12142132716403139775_packed.dds",
+      "sha256": "1986f956313aeddff90622999b11309508eedaf5455b381678893321da114b58",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\51c5a822c599_8187671035040617839_packed.dds",
+      "sha256": "3d3e618f2c6c4a52347d45cba4a13713125d01997c919d34213ce81d042b6eee",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\5344453df10b_15549742175836026548_packed.dds",
+      "sha256": "81af2441b5b5421b029ba71d874a005ec47eee5cb0df62ea22d4db4a106f5ee3",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\694f2f88f287_15394632117574295502_packed.dds",
+      "sha256": "2c58416292dbbf499588944a6f1c6675a4cf918ac39251a886476d8b3be4e02f",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\77355095137c_ott_skin_tinting_lut.dds",
+      "sha256": "50bb81d7fc6f05ef0291ef612621fac26b5fdb1baeac621a438813250896dfea",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\801eadac7bd9_856808067068041598_packed.dds",
+      "sha256": "57870dd5ed93afea1421d13c21540196e91f76c315dc35ce25609900fbce5e01",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\8218fb27cb5f_7193028518268295463_packed.dds",
+      "sha256": "fca009dd2a9aebd3e9fc26377672a7405672a752563468b86a57529820a53e91",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\89f2cbb8cc3e_10056461219751869053_packed.dds",
+      "sha256": "da61dc0e19976b13f7734695817d4b6a9548a7ecd9adce6f57f3349ea5ddd77a",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\8abe5fefcb3b_2687114764402776643_packed.dds",
+      "sha256": "8da74f73fa672b85384dc6017858e722d30df6b5e1fb17cf103a9dae12b787ca",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\8d642d616d90_17690155704002163116_packed.dds",
+      "sha256": "43886c43b3bdb1de7dc43d6305b84f677a393e35d2454e941a2487785500a1e8",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\8e455067ae97_18210028758637422834_packed.dds",
+      "sha256": "f6b2352e2685070b1a6cd40cd7b61edcceb92a6ce7de3b3107f0d5a511f43a1f",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\b426a555a28b_8576762728591858009_packed.dds",
+      "sha256": "72dbc9db56624ce637b0111975ae201723fe04f1c000b3d6599a6016408815ca",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\c24ef21b3c33_9089605333971173130_packed.dds",
+      "sha256": "4ca40fb95ad190ac037a52395230541f0a9cf55985409c8d0bf9e814eaac122d",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\c58fddd11a95_16819719044074514810_packed.dds",
+      "sha256": "fd8b14dbda92b007f32d49fd0a7401a0f870c13c7a74c56bed5d19ab4ab0cf99",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\cdaae46c5e87_10211628352414205770_packed.dds",
+      "sha256": "fd8b14dbda92b007f32d49fd0a7401a0f870c13c7a74c56bed5d19ab4ab0cf99",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\efca47a706df_6470214614182662057_packed.dds",
+      "sha256": "35084d565d53e7c750d6e4687102f9822de4466000d51b3605c8efbcb52ae695",
+      "bytes": 11064
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\faadf4db8d7e_16626532079161956376_packed.dds",
+      "sha256": "bb087f100c4c18a960caf09bfdbe113637ddb63a121ae839d7806dd8546b12ed",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age03\\6a236930540195dfa3b7\\textures\\fdb5a8050ce2_6168817523934387732_packed.dds",
+      "sha256": "99777a6cf0cc9cd7cbfb278120c8b8fdac09fc5396bd3ae3fc43d07c39911227",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\decoded-static.json",
+      "sha256": "9e1fb421b0111a6c4d1ffc74ff8c9abffcdc0a5866f4d290f086bde385dccbe9",
+      "bytes": 8438938
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\6470214614182662057_packed.rrtex",
+      "sha256": "fc59060b9b0eebcae48c8ad3940898ee6a99f96d4d8d956e554602b61120086a",
+      "bytes": 7957
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\8187671035040617839_packed.rrtex",
+      "sha256": "559a7d7638c7daf840c87ac44c5a28302d180f0a588959ac721056c62f4ec912",
+      "bytes": 12974
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\common\\weapons\\tools\\res_gold_tradecart\\9089605333971173130_packed.rrtex",
+      "sha256": "55932e8fdada920cce0e17bea1bf8670cb2db5a5bb7687e071f2ded6374eaa0f",
+      "bytes": 19483
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age04\\12991668628255623656_packed.rrtex",
+      "sha256": "a8fbc443e72ed3356d2a29c25179faa0b22d2ae57de3d0a4d6b8e321af4b4b9d",
+      "bytes": 236095
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age04\\16584652618410646780_packed.rrtex",
+      "sha256": "713ae463671b24be9e461f619c0ef3486efa3cd8b29afbae4570a5fa70d68cb8",
+      "bytes": 303628
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age04\\18424270039616114859_packed.rrtex",
+      "sha256": "21e350c3201194bcd8ea8879a2a580f095e358c388c77c23a2d315744487712a",
+      "bytes": 239857
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age04\\4027019107692486773_packed.rrtex",
+      "sha256": "405d9b432c8ee0009b784343be552173ef365a908396be488ecf82b46cf67456",
+      "bytes": 280666
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age04\\7865546621232095769_packed.rrtex",
+      "sha256": "214963be66bbf44ea1604d6e90d408ed9613529fbc8519664f2a13828242ddb9",
+      "bytes": 117993
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\malian\\animals\\mal_horse_trade_age04\\8248692737271302079_packed.rrtex",
+      "sha256": "69ac4f0d2993a89df16b1927a6b31eb8b9ae51a785a2d7a735f1fe412b8f9af5",
+      "bytes": 23196
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\10065523545794831226_packed.rrtex",
+      "sha256": "5f7dc6332a9fa414f6c65a855e22c2f50ab21c9ee13e01320550aa7b49927cf9",
+      "bytes": 287750
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\10717034035470182098_packed.rrtex",
+      "sha256": "b1ec796b217244328373749c3ac4f66ef07fe8c81100e9917a1602931df21956",
+      "bytes": 297909
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\1590527019867277483_packed.rrtex",
+      "sha256": "d3408f634105257db1daf30a5d94ded00351dba5958376889b6f656059f3c87d",
+      "bytes": 200016
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\16152492574953474436_packed.rrtex",
+      "sha256": "6f9ffb47853c74d1383c91eb8017bfa038b9c409d3a714b1829ee507d4466e53",
+      "bytes": 237578
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\17262239950832304202_packed.rrtex",
+      "sha256": "0c584535dcd73983f31feb9867e1f35cc4789347fbf02844b2c35eb39773ae4c",
+      "bytes": 128275
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\3391886602376985549_packed.rrtex",
+      "sha256": "cc25c0ae6164c6a37809b128ad848dcbd468d85edd03c5a2499e19c64b9e165f",
+      "bytes": 279869
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\malian\\weapons\\mal_trade_horse_age04\\4339581956459208953_packed.rrtex",
+      "sha256": "2b52487cfe2ddcb9400fe24b672d914fa8df3a48a83372f2290c47e8f41769b1",
+      "bytes": 10166
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_female_age04\\ott_horse_combined_trade_female_age04.rgm",
+      "sha256": "3577f5a42dc346af934e92acd1f8fb83a34b592fa5d980e001efb95e181e14ea",
+      "bytes": 173607
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_female_age04\\ott_horse_combined_trade_female_age04.rrgeom",
+      "sha256": "b92b1a2715ad6873a803eca4dbe8386677d93d55fccc07a4346df69390ad19da",
+      "bytes": 440970
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\ottoman\\animals\\ott_horse_combined_trade_female_age04\\ott_horse_combined_trade_female_age04.rrmaterial",
+      "sha256": "205aeb8a9a6543a649b90cd1b88ae6f1f1c107ad9a5bb399a8c9aa793bc99b9a",
+      "bytes": 7748
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age04\\12648582208294761857_packed.rrtex",
+      "sha256": "30feee6fd257982649a70db4d6be0d2bcf79cb26e073f6d22096869c2a6d3619",
+      "bytes": 281680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age04\\14239568099923751624_packed.rrtex",
+      "sha256": "5052ac25e33ae0b63027648bfde0f48a8ce45e0dd4c0b0c7c19129ec869986c1",
+      "bytes": 210331
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age04\\14858892106378378350_packed.rrtex",
+      "sha256": "6fef0cdc51219ee61f4082fb24f4aeb0ff566ff49bc2ea9f06348c1b924e13e7",
+      "bytes": 115669
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age04\\14942603592953357091_packed.rrtex",
+      "sha256": "b11ccda78a22a7f462e6cf40cc9b6a1b906bb5ba680d303ee4ba152e5d8d95f5",
+      "bytes": 33053
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age04\\15014045698581727140_packed.rrtex",
+      "sha256": "bdcce224276ae6f48463331f0c80e268d547a8956f492a5b3a198e91c24acd72",
+      "bytes": 238407
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\ottoman\\humans\\ott_villager_female_age04\\6707104897757869573_packed.rrtex",
+      "sha256": "b7202da81154c3b5a488ce3e532664ba8398da5fe0adbd6240a51f99f6b98a4d",
+      "bytes": 300092
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\source\\art\\civilizations\\ottoman\\humans\\tints\\ott_skin_tinting_lut.rrtex",
+      "sha256": "f7a7038adcf247469c4f564212ed7052bae3968a029930a01fcf5903c79322d9",
+      "bytes": 509
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\0233149c2e2a_16152492574953474436_packed.dds",
+      "sha256": "8c24f044c8aad1cd2fbc4f5c65d0c46ea78fb09abda5507efa9ae9c1964b8ed1",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\0598904cfcc4_14942603592953357091_packed.dds",
+      "sha256": "303fbc6b2cce7c57b2d2c70f70df4161d4f25655dc4f1d0b7bafb58d9ecbf5e1",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\1b3784457233_16584652618410646780_packed.dds",
+      "sha256": "86b626ce596cd047e9fca2282c210de894d595c46f33d36990383bbd9295829a",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\2598e6126354_7865546621232095769_packed.dds",
+      "sha256": "e8b718816bb325be1c912f7a742c9c1b692620fd7c56c60ebd426d8d6211cdb1",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\26863b18dcdf_18424270039616114859_packed.dds",
+      "sha256": "43a846f4d1338a6541c685bd08a75ed1617e6c60227043b41269e27a251f89d5",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\3e13b5dead40_4339581956459208953_packed.dds",
+      "sha256": "2befa39dd4101439daee39424268bc71b828d83be9cbbd446d998653487a0cce",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\4476c400747e_10065523545794831226_packed.dds",
+      "sha256": "8af2fb9433b7d55904555327ecbc1ec11355d11f62481a319d158a2d5deb7c48",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\4ed6f864e231_14858892106378378350_packed.dds",
+      "sha256": "5cccbbe3c873122fd34b41690f76bcbe9c54c498a12d3b7d1969bc710bc80c47",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\51c5a822c599_8187671035040617839_packed.dds",
+      "sha256": "3d3e618f2c6c4a52347d45cba4a13713125d01997c919d34213ce81d042b6eee",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\5d03e23d2ab6_8248692737271302079_packed.dds",
+      "sha256": "0e8efe2df7e3aa5fc2704dc08dee955f478ab6df1b43ef9d3dcf247c2b7515f9",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\77355095137c_ott_skin_tinting_lut.dds",
+      "sha256": "50bb81d7fc6f05ef0291ef612621fac26b5fdb1baeac621a438813250896dfea",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\7b0c9abe37f8_6707104897757869573_packed.dds",
+      "sha256": "35d78b80963281cc6af0a39f3c016fc8e161c1bcae324ba8b0b8c658e9f4b28d",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\99145ca553a6_4027019107692486773_packed.dds",
+      "sha256": "fd3a771c813b475565f18427ecddc7f1cc3c685746a3e495b19122daee0fdd5f",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\b7b12b1ccc17_15014045698581727140_packed.dds",
+      "sha256": "997c5b56962cab13b825133adb4a9cb3133cf5efeb4948f241f1dc6f68186eed",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\bc0dc740b2ed_14239568099923751624_packed.dds",
+      "sha256": "9d46c92dc227bde59f5ef1fb79e620c9d820d2be549999b5d171481a64a10e5a",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\c089943fa8e3_17262239950832304202_packed.dds",
+      "sha256": "582e2db48a9aec4ca7d6f5c3c720a7d8cf36cd7764a6ec6105dc91a2d91e7d80",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\c24ef21b3c33_9089605333971173130_packed.dds",
+      "sha256": "4ca40fb95ad190ac037a52395230541f0a9cf55985409c8d0bf9e814eaac122d",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\c48fe40ad066_12991668628255623656_packed.dds",
+      "sha256": "8999f13276839f1192be33669b1b3cbe283fddd121fb67bbdb2bce52a4146441",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\cccdc40ac479_3391886602376985549_packed.dds",
+      "sha256": "20a4b6720fb60e7e88f7e82a4b0b7eb997e65bd48f3e54a9a6e3c2256eb71bf0",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\d2e13d6ca83b_12648582208294761857_packed.dds",
+      "sha256": "06cfa4333b82fff94b04c71fd5b0550b5ed2365e14eab6d97dd7db69bd593a30",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\e0f5c2bb308b_10717034035470182098_packed.dds",
+      "sha256": "de6d37ec4bf1ec043bb141d3ee75b68921fb7eb6e564c5dff6150aaab1c7cee9",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\efca47a706df_6470214614182662057_packed.dds",
+      "sha256": "35084d565d53e7c750d6e4687102f9822de4466000d51b3605c8efbcb52ae695",
+      "bytes": 11064
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_horse_combined_trade_female_age04\\5a5a507811d2da0a4d45\\textures\\fdb72cefb399_1590527019867277483_packed.dds",
+      "sha256": "811385c0bdcd3b539636ef57520b38f68fda003557d7f355692347d412bd67c7",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age02\\albedo.png",
+      "sha256": "9932511bc66037d6211e1fd42803a295ef8a1ac7d769d09deb364a2680199965",
+      "bytes": 2422796
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age02\\metalness.png",
+      "sha256": "636ba15e43b713c633729f816edcac349b66cdfa4db67ed679e8aba458c3a14c",
+      "bytes": 38021
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age02\\normal.png",
+      "sha256": "9bd40acea2b5f36e8bd1fd44ee16ff6b1c8590026a9873b4b00e2694b2f8602c",
+      "bytes": 2790526
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age02\\pattern.png",
+      "sha256": "e030844ba393abbbbc307b9c7af6213c792abcdab924c2b126cc11829fcdc788",
+      "bytes": 20459
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age02\\roughness.png",
+      "sha256": "224afce6659ff443387247b74faa34277c2beb2b9d140216a836c1b66a482c67",
+      "bytes": 1480962
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age02\\sources.json",
+      "sha256": "60a0ac8fedb4b09b1655364c71e2826a124454f1fe85e9ae75d1de2925437e92",
+      "bytes": 1661
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age03\\albedo.png",
+      "sha256": "4d75a456eae75dc87061a0570ff594638a3157edad1f11b2fe29d37bcb8f62f7",
+      "bytes": 2543907
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age03\\metalness.png",
+      "sha256": "0d6d5ff2a972ed3f5c5f556c622fa922e0142665fac295cf69a0cdb2399ca0ea",
+      "bytes": 37099
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age03\\normal.png",
+      "sha256": "2e3afb7d1ab0b6aea04ce336ec6ad06a2fd07068b6d8166b08de289e6231dc4d",
+      "bytes": 2794261
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age03\\pattern.png",
+      "sha256": "e030844ba393abbbbc307b9c7af6213c792abcdab924c2b126cc11829fcdc788",
+      "bytes": 20459
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age03\\roughness.png",
+      "sha256": "2a7a5084b615386769d0948a746d35cb14800d45535b9c8ae1eaa10aae5c4fe0",
+      "bytes": 1582627
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age03\\sources.json",
+      "sha256": "2c795f19c22fdc71a5b5f206b9f47b72a98fbc37d5b90714d06a7c6017659186",
+      "bytes": 1661
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age04\\albedo.png",
+      "sha256": "c42fadcf9d49d410740b8693e2dad25d3dd3bbd40a4fa7110407408741eec908",
+      "bytes": 2864558
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age04\\metalness.png",
+      "sha256": "0e2b79be6edf80a72360f114682a89c65d342b4901571ca3f4acf51bfb2db491",
+      "bytes": 57737
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age04\\normal.png",
+      "sha256": "dcc425648d8831158005c632354dc1d3efcdf0f76875c74c1d35341d9c6f65e1",
+      "bytes": 3148948
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age04\\pattern.png",
+      "sha256": "e030844ba393abbbbc307b9c7af6213c792abcdab924c2b126cc11829fcdc788",
+      "bytes": 20459
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age04\\roughness.png",
+      "sha256": "0025745d78f77f9e227df8d71009004af5103cda6c246dbb4f2277be17436dc7",
+      "bytes": 1676515
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_age04\\sources.json",
+      "sha256": "88cfd899c742b5251a7849e728b734f6b79b18f15aba78b6f8bbdfb797514a4e",
+      "bytes": 1661
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age02\\albedo.png",
+      "sha256": "d41cfef7f3ec3e37fdb43edb15d7d153954fde9d9f05a0e6ab8ebd600c334e67",
+      "bytes": 2398414
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age02\\metalness.png",
+      "sha256": "636ba15e43b713c633729f816edcac349b66cdfa4db67ed679e8aba458c3a14c",
+      "bytes": 38021
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age02\\normal.png",
+      "sha256": "3e3e8c79ea7929976133ac92978f97014ce890d38a3181c7fbae80e1d420e7f8",
+      "bytes": 2877765
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age02\\pattern.png",
+      "sha256": "e030844ba393abbbbc307b9c7af6213c792abcdab924c2b126cc11829fcdc788",
+      "bytes": 20459
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age02\\roughness.png",
+      "sha256": "5d8daa28a3d044bb4b5aba4bbce799c456f11049ca05341619204fe1a670c656",
+      "bytes": 1476123
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age02\\sources.json",
+      "sha256": "452daea30bb99d71154dbdba03abbc612e8df4ef9a38b14dab9b1ccbb519ae66",
+      "bytes": 1675
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age03\\albedo.png",
+      "sha256": "621d8fba21659ef99a6de2f3c14e1b3b66c84da3b324e7c6767019fdac245337",
+      "bytes": 2587490
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age03\\metalness.png",
+      "sha256": "f691db696c74f9dfd36d886eb33f3dc0ea3625991eace8eaa84d3df3174a240c",
+      "bytes": 37905
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age03\\normal.png",
+      "sha256": "cdf28d7555465e355bcca59d546be291bcc59a27646d44854d264bacd786be12",
+      "bytes": 2975802
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age03\\pattern.png",
+      "sha256": "e030844ba393abbbbc307b9c7af6213c792abcdab924c2b126cc11829fcdc788",
+      "bytes": 20459
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age03\\roughness.png",
+      "sha256": "89f70d466b6594e9a3f0f79253954cfebf1b375eed85d8449362404292a01e0f",
+      "bytes": 1580980
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age03\\sources.json",
+      "sha256": "d239c8da29ee14e118601490b43655a0235db2f9043a06bb8a7f012c95bbed20",
+      "bytes": 1675
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age04\\albedo.png",
+      "sha256": "5f921d706bd21caa939e62f812c20b84f05b9208052683803f08a6e2a34e027d",
+      "bytes": 2933126
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age04\\metalness.png",
+      "sha256": "4e106e9355a85c89f67bafcbffa07c7e754e7acbb8eb5ca7d539b5b1934b1bfe",
+      "bytes": 72933
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age04\\normal.png",
+      "sha256": "8fe18a119c0460acadd38489aa2ab868597317792c22c196e957894ccc1ef406",
+      "bytes": 3157369
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age04\\pattern.png",
+      "sha256": "e030844ba393abbbbc307b9c7af6213c792abcdab924c2b126cc11829fcdc788",
+      "bytes": 20459
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age04\\roughness.png",
+      "sha256": "a356cac18eec664d284cfb732034d9c54ba3433b68f4ff97258a16193634231d",
+      "bytes": 1755765
+    },
+    {
+      "path": "art\\persia\\units\\trader\\textures\\ott_horse_combined_trade_female_age04\\sources.json",
+      "sha256": "34eaa8b09b73262f58f3027d4603038b26d620b3a9bc7e67092b48d09c62b556",
+      "bytes": 1675
+    }
+  ],
+  "recipe_files": [
+    {
+      "path": "tools\\persia_units\\assembly.py",
+      "sha256": "b967a5ccb11320277c7856e9514985580a8b23f532dba5e685df40f159246872"
+    },
+    {
+      "path": "tools\\persia_units\\author.py",
+      "sha256": "d3ffbeb6e657b0946a0b6fd51a93e7f8c35640c252f062912f91a58497cba95e"
+    },
+    {
+      "path": "tools\\persia_units\\batch_family_review.py",
+      "sha256": "04e1170dd2ffac785b88c0c404ab41166a52f075997faa4034efc6d7279f56ae"
+    },
+    {
+      "path": "tools\\persia_units\\batch_human_recipe.py",
+      "sha256": "f7856693f8e454cdfc18c1ed882a7eaf0b6611e5dcc068778d75bd59d444a56f"
+    },
+    {
+      "path": "tools\\persia_units\\batch_support_humans.py",
+      "sha256": "60f9aefe79c4abf3533e57e5dbace5ca8567d7823ae0d37e1c805571682c82e5"
+    },
+    {
+      "path": "tools\\persia_units\\batch_trader_recipe.py",
+      "sha256": "77d477e0ac69f711f35d9d59185eb3e7bdc588c0b456498e4f0a5dc1cb3b62c5"
+    },
+    {
+      "path": "tools\\persia_units\\combined_recipe.py",
+      "sha256": "2b4c9e5ba26ed3c253eede63328e7ebc46d6c6737ed1d3e568afc02f0ac2aca8"
+    },
+    {
+      "path": "tools\\persia_units\\contracts.py",
+      "sha256": "4c85a350787b5be10f9a1c1a70319a660b72cfd02711c34bc8b479b6958d7454"
+    },
+    {
+      "path": "tools\\persia_units\\equipment_recipe.py",
+      "sha256": "c902af2a6215a73d354fd34e8ac5d8636fe1c393339807441f24125e427c3caa"
+    },
+    {
+      "path": "tools\\persia_units\\equipment_textures.py",
+      "sha256": "c07f52fa32096a68103e4a8af1a3d06339998348e35fc833b6ee4f9e90c41509"
+    },
+    {
+      "path": "tools\\persia_units\\mounted_equipped_batch.py",
+      "sha256": "76fa6b792b7d59ff38bdc9eafa87d667253d07e22abba8255e713e1ba3a50ea3"
+    },
+    {
+      "path": "tools\\persia_units\\native_socket.py",
+      "sha256": "4e3a948437d53776c98292314b0a50b010ee43c9c4faa79a1d3ae7559d0baac0"
+    },
+    {
+      "path": "tools\\persia_units\\qizilbash_recipe.py",
+      "sha256": "3ad792e57c417dc0badf84961e145d3fcfb058d9726e7d2835708abd21572a4f"
+    },
+    {
+      "path": "tools\\persia_units\\surface_normals.py",
+      "sha256": "1c6371a6f3c40bfac22e430b6dc64baf513585a544f42e1fe467ceb2cf2ba090"
+    },
+    {
+      "path": "tools\\persia_units\\textures.py",
+      "sha256": "a47b76b892d54a6d31d29593e9183e741b1f37abc683bd7d37e4bf240f24dfac"
+    },
+    {
+      "path": "tools\\persia_units\\trader_textures.py",
+      "sha256": "7ac45e5b2bef5fe9af31aac64e592d0de657467b4477cb133816856a70e19b07"
+    },
+    {
+      "path": "tools\\persia_units\\weapon_shape.py",
+      "sha256": "d45fdb02907fddc6634f7e2a165f97ad3a94b0fe728ccf2c6c54961d3309d473"
+    }
+  ],
+  "dependency_scope": "minimal referenced input closure for current candidates; extra exploratory caches retained separately because cleanup is deferred",
+  "coverage": {
+    "required_models": 6,
+    "modeled": 6,
+    "cold_verified": 6,
+    "cold_geometry_current": 6
+  },
+  "editable_source_readiness": "full draft coverage; rubric acceptance and documented source/native gates remain",
+  "verified_deformation": "sampled native preview evidence only; runtime action selection and native physics unverified",
+  "rubric": {
+    "historical_grounding_max": 20,
+    "persian_identity_max": 20,
+    "AoE4_readability_max": 20,
+    "deformation_attachments_max": 25,
+    "LOD_performance_max": 15,
+    "required_total": 90,
+    "required_category_fraction": 0.8,
+    "score": null,
+    "status": "unaccepted until completed review; no automatic score from numeric tests"
+  },
+  "deferred": [
+    "cook",
+    "integration",
+    "packaging",
+    "native-game validation",
+    "promotion",
+    "push",
+    "deletion"
+  ],
+  "cold_evidence_policy": "latest outcome per source; legacy reports retain geometry/readback evidence only; full recipe and attachment equivalence require explicit tested fingerprints and semantics"
+}

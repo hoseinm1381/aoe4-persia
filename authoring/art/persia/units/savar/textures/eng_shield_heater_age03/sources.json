@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\eng_shield_heater_age03\\ff9aaf4b5aebe95fc410\\decoded-static.json",
+  "donor_sha256": "2d3496ea9edf7acf01b4101c7c965d7a5e2e28374ad643fbc528bdb7bc09b129",
+  "logical_path": "art/civilizations/english/weapons/eng_shield_heater_age03/eng_shield_heater_age03.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "c080337935e5661b263f315f0c97084c70072a89785b4668233de0e9c1ba9f6b",
+    "normal": "ad4ff4717bfd135504582c02a157a3bcc3b418078bc16dcd17d4ddd4b676d662",
+    "roughness": "dcd48ed1aadb63d8846bb3dbed218e5da94e1ad8502238ec6bee890c8991239f",
+    "metalness": "02b3fdcc168680f4403e419b38fa917fbfee0b5cc82c4a14d5ae1c0e599d025c",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

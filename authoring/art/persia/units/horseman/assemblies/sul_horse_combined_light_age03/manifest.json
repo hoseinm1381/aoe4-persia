@@ -1,0 +1,1226 @@
+{
+  "family": "horseman",
+  "body": "sul_horse_combined_light_age03",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\horseman\\assemblies\\sul_horse_combined_light_age03\\assembly.blend",
+  "sha256": "2d8db07ac3e53ee756bec302f128d0ab678f9c56109e96206e14aaadc950da69",
+  "rig_bones": 127,
+  "rig_contract_sha256": "01f1385ca6c85e6948aeb536e1ca2e7fdcd0cac66cbbfbdace8330e5082a5f5f",
+  "secondary_rigs": {},
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 91,
+      "triangles": 128,
+      "sha256": "5e4097c058ca0624fb0db83c4864f7135b9a147a722388f525724690ad8d14c7"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "645eb54811b01001e68db0e1062274c37ff26572cd20ecdffd259fa24cdb9990"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "a2b4a75305ad6837a575670a9d8d2b488687e3133743640ba0aadfd52df7fdaa"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "ac77e40a43a01597c5b89b9f4d5aa15495ed554c868198bbddd8c2bbc10e6906"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 29,
+      "triangles": 28,
+      "sha256": "acca7ff5703dba1aff54a5a65c2c21ba2e4f1a02586ba733b724437fc96bc355"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "d6bc36b27a0e00dcf7c718500aa18de97ae856daa103e7961477091d68ab7ced"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 107,
+      "triangles": 150,
+      "sha256": "ffc942be8c6ac2c788ced0373bef839520aaf0ea3cee3c4454c64b423b19a7de"
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "vertices": 1738,
+      "triangles": 2076,
+      "sha256": "4c8fe445a199485854e15ff3b67938913d3cf941a7c50cfbcb28838d019d9047"
+    },
+    {
+      "lod": 0,
+      "component": "rider",
+      "vertices": 997,
+      "triangles": 1350,
+      "sha256": "732d1571cb623e67616bcb9a24dc0a99b985fda1884591e7a3e8852c0018e866"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 21,
+      "triangles": 18,
+      "sha256": "33952f63dbda5b1e511236312e8c22a6d20044647287cdeda8030c3bc13f9cc5"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 88,
+      "sha256": "95fa6468b4b67bd72e9031ea189117e64721e4d901fe14248018e7d6c94291f5"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "9cbcfa795f03614485d8d6556f97a55c057347364cbd53c38c6dd3227c653173"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "ac77e40a43a01597c5b89b9f4d5aa15495ed554c868198bbddd8c2bbc10e6906"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "d6bc36b27a0e00dcf7c718500aa18de97ae856daa103e7961477091d68ab7ced"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "f42f45e5dbb8959bb963a04c4ffe9f588d3b244b4e69f01b4a77b321cd6bd208"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 107,
+      "triangles": 150,
+      "sha256": "ffc942be8c6ac2c788ced0373bef839520aaf0ea3cee3c4454c64b423b19a7de"
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "vertices": 658,
+      "triangles": 689,
+      "sha256": "e7b614177b189e514cc2903752ccf84f720ee08fa0a335a5b7bfef9a757af346"
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "vertices": 507,
+      "triangles": 580,
+      "sha256": "81d28dc9089c71fb2ca97e25ceab5ecf9dfce4cf3fc42e21983770d144d3d71e"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "0f8568740c08633f85c328608f437ec3dec616014fe485a763b3193591af1e0a"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 14,
+      "triangles": 8,
+      "sha256": "992997577c9f9b62bfd62f14987c6ecd9d4b448b16b6b9162a22165f04dc3d85"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "ac77e40a43a01597c5b89b9f4d5aa15495ed554c868198bbddd8c2bbc10e6906"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "c7d1632821f17f4b2faf5a236e645e785128d30c49c7f53a24536046d9e4fa55"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 41,
+      "triangles": 54,
+      "sha256": "d697c09d16c6d948f866d7aaa5246926843bb39d5ed1150ae469f1028241d648"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "d6bc36b27a0e00dcf7c718500aa18de97ae856daa103e7961477091d68ab7ced"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 107,
+      "triangles": 150,
+      "sha256": "ffc942be8c6ac2c788ced0373bef839520aaf0ea3cee3c4454c64b423b19a7de"
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "vertices": 298,
+      "triangles": 303,
+      "sha256": "067bfb04d74131e3067796dfdc82ddb02d6c545088ad932411f6ef6a8b1e85fc"
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "vertices": 284,
+      "triangles": 282,
+      "sha256": "8ea0455fd571e2b0f80f7ffe9646a9cefb648f0df78d5ee6e783538e2ea0d351"
+    }
+  ],
+  "equipment": {
+    "spear_basic": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.498929102846887e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_horse_combined_light_age03/sul_horse_combined_light_age03.rgm",
+        "donor_manifest_sha256": "4e37d97f9f3cc27bc72ca6bb1f5fd55c5767b78bcaa9192d5c80712d2376116c",
+        "bones_modified": 0
+      },
+      "triangles": [
+        30,
+        30,
+        30
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_2_abb",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_2_abb",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_2_abb",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_2_abb",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_2_abb",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_2_abb",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_3_abb",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_3_abb",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_3_abb",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_3_abb",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_3_abb",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_3_abb",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_4_abb",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_4_abb",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_4_abb",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_4_abb",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_4_abb",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/abbasid/weapons/wpn_melee_horseman_4_abb",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "spear_cavalry_charge": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.498929102846887e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_horse_combined_light_age03/sul_horse_combined_light_age03.rgm",
+        "donor_manifest_sha256": "4e37d97f9f3cc27bc72ca6bb1f5fd55c5767b78bcaa9192d5c80712d2376116c",
+        "bones_modified": 0
+      },
+      "triangles": [
+        30,
+        30,
+        30
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_melee_horseman_charge",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "torch": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.498929102846887e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_horse_combined_light_age03/sul_horse_combined_light_age03.rgm",
+        "donor_manifest_sha256": "4e37d97f9f3cc27bc72ca6bb1f5fd55c5767b78bcaa9192d5c80712d2376116c",
+        "bones_modified": 0
+      },
+      "triangles": [
+        28,
+        18,
+        8
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_2_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_3_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/cordoba/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/campaign/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_horseman_4_sul",
+          "native_attachment_owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_torch_horseman",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "abb_shield_round_2": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.498929102846887e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_horse_combined_light_age03/sul_horse_combined_light_age03.rgm",
+        "donor_manifest_sha256": "4e37d97f9f3cc27bc72ca6bb1f5fd55c5767b78bcaa9192d5c80712d2376116c",
+        "bones_modified": 0
+      },
+      "triangles": [
+        288,
+        288,
+        288
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_larmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_cavalry_horseman_sul.xml"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "shield_buckler": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.498929102846887e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_horse_combined_light_age03/sul_horse_combined_light_age03.rgm",
+        "donor_manifest_sha256": "4e37d97f9f3cc27bc72ca6bb1f5fd55c5767b78bcaa9192d5c80712d2376116c",
+        "bones_modified": 0
+      },
+      "triangles": [
+        128,
+        88,
+        54
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_larmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_cavalry_horseman_sul.xml"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\english\\units\\tier4_cavalry_horseman_eng.xml"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\english\\units\\tier4_cavalry_horseman_eng.xml"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\english\\units\\tier4_cavalry_horseman_eng.xml"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "abb_shield_round_1": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.498929102846887e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_horse_combined_light_age03/sul_horse_combined_light_age03.rgm",
+        "donor_manifest_sha256": "4e37d97f9f3cc27bc72ca6bb1f5fd55c5767b78bcaa9192d5c80712d2376116c",
+        "bones_modified": 0
+      },
+      "triangles": [
+        288,
+        288,
+        288
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_larmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_cavalry_horseman_sul.xml"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "shield_round_metal_wicker_sml": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.498929102846887e-06,
+        "donor": "art/civilizations/sultanate/animals/sul_horse_combined_light_age03/sul_horse_combined_light_age03.rgm",
+        "donor_manifest_sha256": "4e37d97f9f3cc27bc72ca6bb1f5fd55c5767b78bcaa9192d5c80712d2376116c",
+        "bones_modified": 0
+      },
+      "triangles": [
+        150,
+        150,
+        150
+      ],
+      "proposed_saddle_pivot": null,
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_larmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_cavalry_horseman_sul.xml"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_cavalry_horseman_sul.xml"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\english\\units\\tier3_cavalry_horseman_eng.xml"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\english\\units\\tier3_cavalry_horseman_eng.xml"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\english\\units\\tier3_cavalry_horseman_eng.xml"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    }
+  },
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\horseman\\models\\sul_horse_combined_light_age03\\model.blend",
+      "sha256": "bf3197e255da80ed85d70398bd18e3c7fd09e6077ee5f9bd2a0f45f5248aa7b3"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\spearman\\models\\spear_basic\\model.blend",
+      "sha256": "e07a4da406a97fdbc4465a882cecaf06f5502e3cafa4b23f366a4b40ab9ec01a"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\horseman\\models\\spear_cavalry_charge\\model.blend",
+      "sha256": "884814db0e3388960b96be92f8ab28b075a63f66098d9cac9109af5c6d05f1c0"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\torch\\model.blend",
+      "sha256": "42eefd3da907c9fb02acac2b792b647eaaaa10fc1a0d2727cb39240be61ccc39"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\horseman\\models\\abb_shield_round_2\\model.blend",
+      "sha256": "cfc68b3aacb943536a6cdde17c0476fed233289ae9e8303763cac3ab5a7fadd9"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\horseman\\models\\shield_buckler\\model.blend",
+      "sha256": "243ccff50dd753b09cc336f9a05aa196d39ccdcf0ad45460cab9ce2b97bb5177"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\horseman\\models\\abb_shield_round_1\\model.blend",
+      "sha256": "b710ecaff730c6db645d25f2c6809765999d2c1c928478c7cc649530cacb9a6d"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\horseman\\models\\shield_round_metal_wicker_sml\\model.blend",
+      "sha256": "c1d5711531fa4ef379db619729b8c78b4e7ab4f1fc4ff97b3c35ed2adb2ac926"
+    }
+  ],
+  "motion_checks": [
+    {
+      "clip": "rider_spearman_attack\\idle_tense",
+      "native_source": {
+        "rhka_logical_path": "art/civilizations/common/animals/archetypes/base_horse_combined/base_horse_combined.rhka",
+        "rhka_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+        "selection_status": "linked_library_candidate",
+        "runtime_selection_status": "not_decoded"
+      },
+      "body_deformation_samples": [
+        {
+          "frame": 1,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 2.5631368884337853
+        },
+        {
+          "frame": 31,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 2.5615425408196737
+        },
+        {
+          "frame": 61,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 2.5518008889583688
+        },
+        {
+          "frame": 91,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 2.5718738014875457
+        },
+        {
+          "frame": 121,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 2.554126579615087
+        }
+      ],
+      "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+    }
+  ],
+  "source_status": "editable equipped batch candidate; one family review pending",
+  "outstanding_motion_gates": [
+    "full movement/combat/work/death action coverage",
+    "native secondary weapon synchronization",
+    "runtime state selection",
+    "native-game validation"
+  ]
+}

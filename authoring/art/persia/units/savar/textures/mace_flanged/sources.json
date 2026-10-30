@@ -1,0 +1,73 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\mace_flanged\\0d2abaffd42d3dd14bcd\\decoded-static.json",
+  "donor_sha256": "183bc1e18cd35e5f14caae69939e3d6c2761d78e534f99fdd7c5cf15c0b8fab7",
+  "logical_path": "art/civilizations/common/weapons/melee/mace_flanged/mace_flanged.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "02405f6baa8364f0de0d4e7508bff2fa7ca36db9c8e580035181a15de64d7d0f",
+    "normal": "350ed575ac6dc350ee85be040c15bbf9d26b3785c61447c4eb58284d20fd4ae5",
+    "roughness": "ab25be560caea2833b3d726359f465daf8d57a2eb29dfc9bf9daafc718a08b73",
+    "metalness": "0cfa52a6d73403d4856d46fa6cf8729805b0487cf06e284047c01644d29eb723",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  },
+  "equipment_surface_recipe": "continuous forged metal, longitudinal wood; interpreted eight-lobed painted shield field, not attributed to a surviving medieval object"
+}

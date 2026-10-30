@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\shield_buckler\\85cbd7ed86628089210f\\decoded-static.json",
+  "donor_sha256": "14f514409618957bdfccc77425679e2b03d0acc7f775178dbc946374847e1751",
+  "logical_path": "art/civilizations/common/weapons/defense/shield_buckler/shield_buckler.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "e20ca68f7ab64d2e4f22819f3bdbf97b33ebb31c67b45c8cf8618986fa1fc043",
+    "normal": "87a5555b544fbca36de5c00d7f6e86636e91223301da5673f0489b6f949c10db",
+    "roughness": "4ff75f7ecc7da6a42cfbda2e3d010ae7cb9c8a9fcfde733b01909798ed33a3e7",
+    "metalness": "d2f49fe83210e3e64c62d5b2cfe53a8226566991618cdc66e67ef9372c227a68",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

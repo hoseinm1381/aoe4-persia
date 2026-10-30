@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "villager",
+  "donor": "art/civilizations/common/weapons/tools/res_berry_carry/res_berry_carry.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\villager\\models\\res_berry_carry\\model.blend",
+  "source_sha256": "cf9223095f082d8e767b38fa70ec1b83dec2abea2fa9176f966094dc167cd2c9",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 440,
+      "triangles": 550,
+      "sha256": "03e6fdfb4b0aebcd8d6078e0861beb96de99377a94df1bd7e6d952496b123335"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 382,
+      "triangles": 458,
+      "sha256": "0b1b4feebf98773159ca1bfb3ce00614920eb84d0c3fffb751233d52e128113d"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 229,
+      "triangles": 250,
+      "sha256": "9980a354ffb8caf410fda4eae8536ebe623e786b43ab40487ef0676515138900"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_villager_res_berry_carry_LOD0",
+      "vertices": 440,
+      "triangles": 550,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_res_berry_carry_LOD1",
+      "vertices": 382,
+      "triangles": 458,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_res_berry_carry_LOD2",
+      "vertices": 229,
+      "triangles": 250,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 95,
+      "changed_vertices": 129,
+      "source_vertices": 440,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 90,
+      "changed_vertices": 105,
+      "source_vertices": 382,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 66,
+      "changed_vertices": 48,
+      "source_vertices": 229,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 95,
+      "changed_vertices": 129,
+      "source_vertices": 440,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 90,
+      "changed_vertices": 105,
+      "source_vertices": 382,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 66,
+      "changed_vertices": 48,
+      "source_vertices": 229,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/tools/res_berry_carry/res_berry_carry.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/tools/res_berry_carry/res_berry_carry.rgm"
+}

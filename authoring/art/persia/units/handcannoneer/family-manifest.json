@@ -1,0 +1,1573 @@
+{
+  "schema": "persia-family-bindings/v1",
+  "family": "handcannoneer",
+  "permanent_source_read_only": true,
+  "blueprints_and_selectors": [
+    {
+      "key": "ebps/persia/ps_unit_handcannon_4_sul",
+      "family": "handcannoneer",
+      "status": "included",
+      "reached_from": "sbps/persia/ps_unit_handcannon_4_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\ebps\\persia\\ps_unit_handcannon_4_sul.xml",
+      "source_sha256": "cd33e47aebb49852ecec096d8cba0fc0f1abbba6ce6fc4470cf025f0a4c02bed",
+      "visual_fields": [
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\sultanate\\weapons\\wpn_range_handcannon_4_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_RArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\core\\weapons\\wpn_range_handcannon_4",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_RArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_handcannon_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_handcannon_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\persia\\ps_unit_tofangchi_4_per",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "statetree_tier_pgb_upgrade_target_entity",
+          "value": "ebps\\persia\\ps_unit_handcannon_5_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_pgb_upgrade_target_entity",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_handcannon_4",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\mongol\\weapons\\wpn_range_handcannon_4_mon",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_RArmPalmSocket",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_handcannon_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_handcannon_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\persia\\ps_unit_tofangchi_4_per",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "statetree_tier_pgb_upgrade_target_entity",
+          "value": "ebps\\persia\\ps_unit_handcannon_5_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_pgb_upgrade_target_entity",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_handcannon_4",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "ebps/persia/ps_unit_handcannon_5_sul",
+      "family": "handcannoneer",
+      "status": "included",
+      "reached_from": "sbps/persia/ps_unit_handcannon_5_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\ebps\\persia\\ps_unit_handcannon_5_sul.xml",
+      "source_sha256": "6c1ce704ad784d32116d7ec707359828251c2aa7ec834f66d456ffb8f2b99fa4",
+      "visual_fields": [
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\ottoman\\weapons\\wpn_range_handcannon_4_ott",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_RArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\ottoman\\weapons\\wpn_range_handcannon_4_ott",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_RArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_handcannon_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_handcannon_4",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\ottoman\\weapons\\wpn_range_handcannon_4_ott",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_RArmPalmSocket",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_handcannon_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_handcannon_4",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "sbps/persia/ps_unit_handcannon_4_sul",
+      "family": "handcannoneer",
+      "status": "included",
+      "reached_from": "ebps/persia/ps_building_unit_ranged_control_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\sbps\\persia\\ps_unit_handcannon_4_sul.xml",
+      "source_sha256": "1c3a024d7225796992efb8abed058f5c8aee2659cc3d64dd02492d673feed737",
+      "visual_fields": [
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_handcannon_4",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_handcannon_4",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "sbps/persia/ps_unit_handcannon_5_sul",
+      "family": "handcannoneer",
+      "status": "included",
+      "reached_from": "ebps/persia/ps_building_unit_ranged_control_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\sbps\\persia\\ps_unit_handcannon_5_sul.xml",
+      "source_sha256": "ab7379459e360a004e2b9a3015e8e1b2c3f26497ac732813e1493abf6fe1b2cc",
+      "visual_fields": [
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_handcannon_4",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_handcannon_4",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "logical_path": "art/civilizations/common/humans/archetypes/base_archer/base_archer.rgm",
+      "role": "native_animation_owner",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_4",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_3",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_3",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_3",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_3",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_4",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_3",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_4",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_4",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_4",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_4",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_3",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        }
+      ],
+      "scope": "required",
+      "editable_status": "not modeled"
+    },
+    {
+      "logical_path": "art/civilizations/common/humans/archetypes/base_swordsman/base_swordsman.rgm",
+      "role": "native_animation_owner",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_3",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_3",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_3",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_3",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_4",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_3",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_3",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_4",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_4",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_4",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_4",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_handcannon_4",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        }
+      ],
+      "scope": "required",
+      "editable_status": "not modeled"
+    },
+    {
+      "logical_path": "art/civilizations/common/weapons/melee/sword_dagger/sword_dagger.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_handcannon_4_melee",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_handcannon_4_melee",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_handcannon_4_melee",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_handcannon_4_melee",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_handcannon_4_melee",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_handcannon_4_melee",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        }
+      ],
+      "scope": "inherited_candidate",
+      "editable_status": "excluded from modeled coverage pending effective-selector evidence"
+    },
+    {
+      "logical_path": "art/civilizations/common/weapons/ranged/cannon_hand/cannon_hand.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_4",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/mongol/weapons/wpn_range_handcannon_4_mon",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/mongol/weapons/wpn_range_handcannon_4_mon",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_3",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_handcannon_4_sul",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_3",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_4",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_4",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/weapons/wpn_range_handcannon_4",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_handcannon_4_sul",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_4",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/weapons/wpn_range_handcannon_4",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_4",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_3",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_handcannon_4_sul",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_3",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_3",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/weapons/wpn_range_handcannon_4",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_4",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/mongol/weapons/wpn_range_handcannon_4_mon",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_4",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_3",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\handcannoneer\\models\\cannon_hand\\manifest.json",
+      "source_manifest_sha256": "6e4aace85282299c28929561e98ae88d4e8663a0fb140bfb80e0ae0b5ab5d70c",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\handcannoneer\\models\\cannon_hand\\model.blend",
+      "source_sha256": "03b50c1215f8b3c94a4792445844c016400fd70e5373d9ddcfa5018cd10ba1f9",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "bones": 0,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 84,
+          "triangles": 72,
+          "sha256": "f1b6b91e8320f8aa5379c2fb2d5227cea6ca3afe2a4062b0bfbd35a18555827b"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 84,
+          "triangles": 72,
+          "sha256": "ec61e0d271e82e4ca8e3118177a6e9172e11d4d45f54314bccc423224683163a"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 66,
+          "triangles": 52,
+          "sha256": "35f7dfbad1271163d28de3f5d1e87bd6aef88b09200fcd9bdf127f69afb45a79"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_handcannoneer_cannon_hand_LOD0",
+          "vertices": 84,
+          "triangles": 72,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_handcannoneer_cannon_hand_LOD1",
+          "vertices": 84,
+          "triangles": 72,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_handcannoneer_cannon_hand_LOD2",
+          "vertices": 66,
+          "triangles": 52,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/sultanate/humans/sul_ranged_cannoneer_age04/sul_ranged_cannoneer_age04.rgm",
+      "role": "body",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_handcannon_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_handcannon_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_handcannon_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_handcannon_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_handcannon_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\handcannoneer\\models\\sul_ranged_cannoneer_age04\\manifest.json",
+      "source_manifest_sha256": "64852a9f19600d85e7a040a21924cbbb8728828906f63ff34ec8f503eebaba98",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\handcannoneer\\models\\sul_ranged_cannoneer_age04\\model.blend",
+      "source_sha256": "96aea57530dfaf92d6702b4c8f855f9976bd18ba13df71bee6285055eb802edc",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+        "bones": 48,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "body",
+          "vertices": 1142,
+          "triangles": 1293,
+          "sha256": "39e6477d9f1de22f26a26a58dfd95e11bd5921d82bc23d6f0569618e9da5a4be"
+        },
+        {
+          "lod": 1,
+          "component": "body",
+          "vertices": 717,
+          "triangles": 703,
+          "sha256": "3a9ccbb77970d09da89ef9250bea6fe717c49bcf34cd612018d02ca5d04a8f9e"
+        },
+        {
+          "lod": 2,
+          "component": "body",
+          "vertices": 388,
+          "triangles": 340,
+          "sha256": "2be7a697ef6ec3c6a3ca8e12dd2e3b71f49b3e52532425f4b610b4b9d92024ea"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_handcannoneer_sul_ranged_cannoneer_age04_body_LOD0",
+          "vertices": 1142,
+          "triangles": 1293,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_handcannoneer_sul_ranged_cannoneer_age04_body_LOD1",
+          "vertices": 717,
+          "triangles": 703,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_handcannoneer_sul_ranged_cannoneer_age04_body_LOD2",
+          "vertices": 388,
+          "triangles": 340,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/ottoman/weapons/ott_gun_janissary/ott_gun_janissary.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_handcannon_4_ott",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_handcannon_4_ott",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_handcannon_5_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\handcannoneer\\models\\ott_gun_janissary\\manifest.json",
+      "source_manifest_sha256": "e0f40d693bcfa1716c535adcb8ac250cc3361eb25c32118bd804dc185d598429",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\handcannoneer\\models\\ott_gun_janissary\\model.blend",
+      "source_sha256": "856da7a8b076384dec6c27d02bfedbaee4602369977dc60a7248889453abb613",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "bones": 0,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 168,
+          "triangles": 148,
+          "sha256": "fea3c17d50f21d0f105df6d8b3ea01cbb5c8979b453f73ea15ea683ee19b7152"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 168,
+          "triangles": 148,
+          "sha256": "fc870f97dbe3ae1ec6f4b5ce34ad1ab2a66cd4de308d8b2b014f4470add6bc0c"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 82,
+          "triangles": 80,
+          "sha256": "4a2bfa3e82bab259514d7a3b0d0118aacf6e064b130b6722a8a8ef6306af1e40"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_handcannoneer_ott_gun_janissary_LOD0",
+          "vertices": 168,
+          "triangles": 148,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_handcannoneer_ott_gun_janissary_LOD1",
+          "vertices": 168,
+          "triangles": 148,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_handcannoneer_ott_gun_janissary_LOD2",
+          "vertices": 82,
+          "triangles": 80,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    }
+  ],
+  "assemblies": [
+    {
+      "manifest": "art\\persia\\units\\handcannoneer\\assemblies\\sul_ranged_cannoneer_age04\\manifest.json",
+      "manifest_sha256": "ae011d8b9d50a56ea5e78c0537e632a4797d71aba15aaca0a18f6564cb03a54d",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\handcannoneer\\assemblies\\sul_ranged_cannoneer_age04\\assembly.blend",
+      "sha256": "6aabd68db80405989d403832b3da16dd40ef6d23694c5480babc50df73d6606d",
+      "sockets": {
+        "cannon_hand": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_cannoneer_age04/sul_ranged_cannoneer_age04.rgm",
+            "donor_manifest_sha256": "a07eb9328411f0e63499a4280c82384de72ff0de6c26debe3a8566daeecf7dc5",
+            "bones_modified": 0
+          },
+          "triangles": [
+            72,
+            72,
+            52
+          ]
+        },
+        "ott_gun_janissary": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_cannoneer_age04/sul_ranged_cannoneer_age04.rgm",
+            "donor_manifest_sha256": "a07eb9328411f0e63499a4280c82384de72ff0de6c26debe3a8566daeecf7dc5",
+            "bones_modified": 0
+          },
+          "triangles": [
+            148,
+            148,
+            80
+          ]
+        }
+      },
+      "rig_contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+      "motion_checks": [
+        {
+          "clip": "arquebus\\idle_tense_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_archer/base_archer.rhka",
+            "rhka_sha256": "6a20c42abe69eb0f5217bda35153a3d577dc4f0c47e6291572b8d3f2c8c46c0a",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7166239235810796
+            },
+            {
+              "frame": 74,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.730783909586156
+            },
+            {
+              "frame": 147,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7036176273096988
+            },
+            {
+              "frame": 221,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7070396399128134
+            },
+            {
+              "frame": 294,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7166239235810796
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    }
+  ],
+  "reconstruction_inputs": [
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\decoded-static.json",
+      "sha256": "3f9df129101635a82f4fda85e8d3c84529e87a59181b4c6666d8380b9afd26fd",
+      "bytes": 176336
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\source\\art\\civilizations\\common\\weapons\\ranged\\cannon_hand\\14266544600545956504_packed.rrtex",
+      "sha256": "6eddeacc168b5cd50a605cecdce1f4c01af39d8e85c83ec2ad17ad76421ef81d",
+      "bytes": 2695
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\source\\art\\civilizations\\common\\weapons\\ranged\\cannon_hand\\14509897176760570126_packed.rrtex",
+      "sha256": "de25a84f62b29e90bb389c43fe7b376ed5b7dedc212e7606715c42a7b4563308",
+      "bytes": 9970
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\source\\art\\civilizations\\common\\weapons\\ranged\\cannon_hand\\230817267824968726_packed.rrtex",
+      "sha256": "a4c1d757ea89f6fc0da60a180a8126ad80cb6813c3107cd880aeaf34613a87ee",
+      "bytes": 5320
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\source\\art\\civilizations\\common\\weapons\\ranged\\cannon_hand\\cannon_hand.rgm",
+      "sha256": "e8c79072b4c35ee3ae61e950c503a167ea5254578a0ac77bd9ff2f4c0c383d71",
+      "bytes": 4127
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\source\\art\\civilizations\\common\\weapons\\ranged\\cannon_hand\\cannon_hand.rrgeom",
+      "sha256": "24c8509385187aee90dc57a85290201c7cd9fa77f22cebcdab7dd2e086b85f41",
+      "bytes": 21295
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\source\\art\\civilizations\\common\\weapons\\ranged\\cannon_hand\\cannon_hand.rrmaterial",
+      "sha256": "b7137ac4c06f4fba64831ddaf7a8ba4a923ebb8784f04313f5426da9664ee7a5",
+      "bytes": 621
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\textures\\6917883c23a1_230817267824968726_packed.dds",
+      "sha256": "c9c035e09e673dfc604fd4a2611eba02b7466d008d9ca59f3be1e7fe81d8fc24",
+      "bytes": 5608
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\textures\\6a6c6667e859_14266544600545956504_packed.dds",
+      "sha256": "6e08d07a44a499947d1f8155b6bc346c72632eb0bd18ffd297238899257f0649",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\textures\\aa705409d49a_14509897176760570126_packed.dds",
+      "sha256": "31aecdf5ed7e7e4f40c0575ea0b097d750f00bb26847bbbf3c8cb95f8fbf877f",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_gun_janissary\\8c0a98d4333fe3769bf6\\decoded-static.json",
+      "sha256": "315e3492a2a719a80456b479fa93c0c3507bd2e58a0a89fa102d3e95396431d1",
+      "bytes": 285729
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_gun_janissary\\8c0a98d4333fe3769bf6\\source\\art\\civilizations\\ottoman\\weapons\\ott_gun_janissary\\10534601317670705280_packed.rrtex",
+      "sha256": "aa684e721a779fb09683b69a4675001453404a0ae3c7eead08badab418b082c9",
+      "bytes": 9191
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_gun_janissary\\8c0a98d4333fe3769bf6\\source\\art\\civilizations\\ottoman\\weapons\\ott_gun_janissary\\1815338677578465739_packed.rrtex",
+      "sha256": "9d553f193150ab6937a884de8b62d640685afe0fef022c4a5d13cf2f5dd74218",
+      "bytes": 16532
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_gun_janissary\\8c0a98d4333fe3769bf6\\source\\art\\civilizations\\ottoman\\weapons\\ott_gun_janissary\\50231238907704078_packed.rrtex",
+      "sha256": "3ee6412d875a0e6f6bdae1008721c22b4142edbf2d7d911104ce5e2d621dbabe",
+      "bytes": 19245
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_gun_janissary\\8c0a98d4333fe3769bf6\\source\\art\\civilizations\\ottoman\\weapons\\ott_gun_janissary\\ott_gun_janissary.rgm",
+      "sha256": "38c368317ce251ea7ab0c5e6551e2ca3f9ba8d224004d16c6ab23ff7f3ebabfb",
+      "bytes": 5066
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_gun_janissary\\8c0a98d4333fe3769bf6\\source\\art\\civilizations\\ottoman\\weapons\\ott_gun_janissary\\ott_gun_janissary.rrgeom",
+      "sha256": "941cc13c5ab2ab0762a37bfcf88efeaf5cf610410216657d43a5581ae7f5766e",
+      "bytes": 27533
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_gun_janissary\\8c0a98d4333fe3769bf6\\source\\art\\civilizations\\ottoman\\weapons\\ott_gun_janissary\\ott_gun_janissary.rrmaterial",
+      "sha256": "a5fef8d38ac32ad0858c7d8cd2f43c83e0e7417e785a51f1e45485ddb76f268c",
+      "bytes": 619
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_gun_janissary\\8c0a98d4333fe3769bf6\\textures\\193e6079a0c0_1815338677578465739_packed.dds",
+      "sha256": "319dda644e4dbf8d05e92d3a62ce9ae82483a8edc6950bdbc9b8da010ced54dd",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_gun_janissary\\8c0a98d4333fe3769bf6\\textures\\5875b96b062c_10534601317670705280_packed.dds",
+      "sha256": "1bf707e63cf116d3e87d5b299e23e3acc55e55db8872d326b33dc2eab92597ba",
+      "bytes": 11064
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_gun_janissary\\8c0a98d4333fe3769bf6\\textures\\af83ab972606_50231238907704078_packed.dds",
+      "sha256": "26a85c260f943e5840bbaff3623e2829af09e08bc8cf224d7f4caf330520a673",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\decoded-static.json",
+      "sha256": "a2c04636723d9fc4b5167c06b5fdb5300a4a621ab1a6d0a282e6be1e191648f9",
+      "bytes": 1987619
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\10703381013481906401_packed.rrtex",
+      "sha256": "4cadfce6a0819ddf1cb0a2010b50c21ce4d1e02a496718c9d640de065a747bc0",
+      "bytes": 78731
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\11312237510251013831_packed.rrtex",
+      "sha256": "6511fb181a20419481224d59506ba9e9f34e8da16166e9c5844f2fb36c7dae06",
+      "bytes": 35268
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\11856018949832712566_packed.rrtex",
+      "sha256": "d8d93e464a26badf9173b15c804bfc619b10ff269ec9f3b4e711a4132cf88b8f",
+      "bytes": 73965
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\1303964150564256352_packed.rrtex",
+      "sha256": "fc2a9b2c8321473e836ce67f02831d537e5ccabcd903b118ac9037337344a4a5",
+      "bytes": 68322
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\2266556911964419077_packed.rrtex",
+      "sha256": "903bc13f0e048ca7535a4cec7d3d281b09561186d304b7282b2393a8eaabe505",
+      "bytes": 8427
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\6820128367702879472_packed.rrtex",
+      "sha256": "80a98c511894d87ab8e7f1fea9a4a8a77bcc23a2dbe9df3cd6790c786c10dd17",
+      "bytes": 76787
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\sul_infantry_light_age02.rgm",
+      "sha256": "745ce2e76d8dbaa49d08e4bed7617574494b7d8b2bf36b369832717b7a3d2f88",
+      "bytes": 36702
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\sul_infantry_light_age02.rrgeom",
+      "sha256": "be5c42f30c8d2ba56b4fcff59375b3cdd4a4f6b8e1a11ec0d4e403ae49ea17e7",
+      "bytes": 76817
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\sul_infantry_light_age02.rrmaterial",
+      "sha256": "4954d9e99b357ab5af5498b56064abec0df3a3216987b7f06452756ee780581b",
+      "bytes": 2546
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\tints\\sul_skin_tinting_lut.rrtex",
+      "sha256": "126ebd89f93cdb8513a0b3682c26fcceedd9b544fbec866577954425f8e949fc",
+      "bytes": 511
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\0d19c105c6d9_11312237510251013831_packed.dds",
+      "sha256": "defb7516e00d82b9a7c8639f4f33892e3c7834c9c2899ec43eb5297e33f76d7b",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\189df1287f3c_11856018949832712566_packed.dds",
+      "sha256": "3e051c415f60e5e70417b8905f50beac7a7e6e2463423bff40a0272c3c420725",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\2205b553ddea_10703381013481906401_packed.dds",
+      "sha256": "91f53a94460884b4ab591d8c04302bad33c11c82be7b3e5460ceaa87c4ec3fa4",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\3005111bef7d_6820128367702879472_packed.dds",
+      "sha256": "c76f519246e4f0323ffa7f38f316fb269a6d02570b73d050955b4ba05d573505",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\67ded37a149e_sul_skin_tinting_lut.dds",
+      "sha256": "49caedae116e6bb68ddfd5ad60e8623b5cd19bbd803502ea1b8953f0ad953a3b",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\ed863369c849_2266556911964419077_packed.dds",
+      "sha256": "bb94d54e6c34f53025563aebcb5872e5f2c0fe8a95dd701f92483d70655cd72f",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\eff542651e80_1303964150564256352_packed.dds",
+      "sha256": "cafafcecb4dffa8b34fb2037745aad4bb6332eb9a30e0108114f068fa13a2436",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\decoded-static.json",
+      "sha256": "a07eb9328411f0e63499a4280c82384de72ff0de6c26debe3a8566daeecf7dc5",
+      "bytes": 2625512
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_cannoneer_age04\\10938490891758852111_packed.rrtex",
+      "sha256": "a402282d94e49deb86ece3d7133e2e7a23ad5a27d1ec7ee26504a956d0273ccf",
+      "bytes": 78625
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_cannoneer_age04\\11436863053096662141_packed.rrtex",
+      "sha256": "9e1a26a5a54caf228798da2d86d38a695656bfca90ae3bd7486879f7cba01197",
+      "bytes": 75376
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_cannoneer_age04\\13626220041026525415_packed.rrtex",
+      "sha256": "b695615936a64cf6790f4b141281bb61a15591f81abfa3c1cbfbfe741253ece3",
+      "bytes": 34818
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_cannoneer_age04\\15664408901300536905_packed.rrtex",
+      "sha256": "8a47504b718f60ee228c091a8dbf0038c8bdf6fdccbaa86c66c5f55f973ae4ac",
+      "bytes": 7484
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_cannoneer_age04\\15808290973119730259_packed.rrtex",
+      "sha256": "cbed7b533413a8dc1d3c775276837a43a701d24bfd899b88ae6b902cdc756db6",
+      "bytes": 58636
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_cannoneer_age04\\328151144011367190_packed.rrtex",
+      "sha256": "6c5091636b0e0a5c5080707b1f60ffebf6bb57ce3be24f24bd070105a074504e",
+      "bytes": 73307
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_cannoneer_age04\\sul_ranged_cannoneer_age04.rgm",
+      "sha256": "9f23a830c7a87d20c45e2cd50ad2f9043383fbba439bbcab9d20c50e7c8b67f4",
+      "bytes": 39390
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_cannoneer_age04\\sul_ranged_cannoneer_age04.rrgeom",
+      "sha256": "078faf00328acfb73582966d3d59520c637ada727f9034180c63688611bc8989",
+      "bytes": 82819
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_cannoneer_age04\\sul_ranged_cannoneer_age04.rrmaterial",
+      "sha256": "96c27b1f1ca5086a03c51ca7673c5a6e2f5dcc8a39b73c372df46f60e7046259",
+      "bytes": 2575
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\source\\art\\civilizations\\sultanate\\humans\\tints\\sul_skin_tinting_lut.rrtex",
+      "sha256": "126ebd89f93cdb8513a0b3682c26fcceedd9b544fbec866577954425f8e949fc",
+      "bytes": 511
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\textures\\5acf84c123af_13626220041026525415_packed.dds",
+      "sha256": "0d213fec5f109303eed34178fe4efd9b7b8fbb09d99d108ffe616373766308ae",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\textures\\6266cb1b1247_10938490891758852111_packed.dds",
+      "sha256": "cceca16e04694174bba7fb3c4281efa05a5d16839741fe19642144826269c5e9",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\textures\\67ded37a149e_sul_skin_tinting_lut.dds",
+      "sha256": "49caedae116e6bb68ddfd5ad60e8623b5cd19bbd803502ea1b8953f0ad953a3b",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\textures\\7976afceda58_328151144011367190_packed.dds",
+      "sha256": "41e5c841d257d54255d13624c40a39521fdce7c5ec605cfc84986ef55932128b",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\textures\\a73232dce263_15664408901300536905_packed.dds",
+      "sha256": "bb7d5ff616eaffde4fdfa98969c63db800265d2bd6ac027cc20db1842e96447b",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\textures\\c6984221c3d9_15808290973119730259_packed.dds",
+      "sha256": "ec0734ec09c1ae42a918fe638f914e9eb4e68b5727c49abe8f1b4937d1c87f76",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_cannoneer_age04\\a599bec275c6a6c7d4f2\\textures\\ec034a8a6ed0_11436863053096662141_packed.dds",
+      "sha256": "89e5a4175abbc833a2dc7a0a8c46165871ec160034054bd367f282368eeb1400",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\cannon_hand\\albedo.png",
+      "sha256": "809601095d7bfa4737d5b3a6c266c05481f659929c9c520da640aa7dfbc62521",
+      "bytes": 891466
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\cannon_hand\\metalness.png",
+      "sha256": "660adc0ee7f87029babce739f877a0930ab3f9bae2434caaad85b67ca7700ce1",
+      "bytes": 18135
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\cannon_hand\\normal.png",
+      "sha256": "2e52a631dc82a4a7bb9ac0b2074bf80ee1437f0681cf0f9cadc406b64499603e",
+      "bytes": 192381
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\cannon_hand\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\cannon_hand\\roughness.png",
+      "sha256": "c7bb3b97aac358b3b8ee0535d0129e3a9d052d6b3633016bb96df190de30eb9b",
+      "bytes": 634924
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\cannon_hand\\sources.json",
+      "sha256": "28e0e5af354756accc964a6b9a54e60bcb44dd81937198e4e840f10df5e625ef",
+      "bytes": 1538
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\ott_gun_janissary\\albedo.png",
+      "sha256": "019d4a80de8e59d38c06d7fd86eb214ffe18b26bfa1a81ef6fb70c8cfc6bfd64",
+      "bytes": 907653
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\ott_gun_janissary\\metalness.png",
+      "sha256": "3cd65d7bf47c56d0af54afe68b5d23588de89abb235d7c5912435ec234b569fb",
+      "bytes": 47954
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\ott_gun_janissary\\normal.png",
+      "sha256": "fca7b47cf0a70224eb6b02374194d3e99e52ad5c4fa7603a2f4e1198aa62a644",
+      "bytes": 262231
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\ott_gun_janissary\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\ott_gun_janissary\\roughness.png",
+      "sha256": "e29685276eb0adc1567ec72fd00b03412e160e9a385f68749dc65d0544b8b743",
+      "bytes": 698756
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\ott_gun_janissary\\sources.json",
+      "sha256": "482e9b3d4c230ea9081973f28c0b61e20b44c9b6f5a59650d1f39bca50f57185",
+      "bytes": 1550
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\sul_ranged_cannoneer_age04\\albedo.png",
+      "sha256": "74a6dd1c03506db49438473986770883f2335fb940c45ce6c13bcc2e0d7ea162",
+      "bytes": 1043800
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\sul_ranged_cannoneer_age04\\metalness.png",
+      "sha256": "03bdd351cc708967ac2d6852af99d0ff6ea013a4d97342abe063920097af4919",
+      "bytes": 62151
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\sul_ranged_cannoneer_age04\\normal.png",
+      "sha256": "bd5d50ea562801a369fa7acb650cbb859910d65ce55a36d3fbaedead232365e8",
+      "bytes": 488385
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\sul_ranged_cannoneer_age04\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\sul_ranged_cannoneer_age04\\roughness.png",
+      "sha256": "367d117641f383551ffb66d67ff98a806aa76c1106fcefbb4082ba4bb4dd564c",
+      "bytes": 697406
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\sul_ranged_cannoneer_age04\\sources.json",
+      "sha256": "1008d981e12eb089b090c341d24364531bf65f8943776f6cd6cd639805ad9bd3",
+      "bytes": 1850
+    }
+  ],
+  "recipe_files": [
+    {
+      "path": "tools\\persia_units\\assembly.py",
+      "sha256": "b967a5ccb11320277c7856e9514985580a8b23f532dba5e685df40f159246872"
+    },
+    {
+      "path": "tools\\persia_units\\author.py",
+      "sha256": "d3ffbeb6e657b0946a0b6fd51a93e7f8c35640c252f062912f91a58497cba95e"
+    },
+    {
+      "path": "tools\\persia_units\\batch_family_review.py",
+      "sha256": "04e1170dd2ffac785b88c0c404ab41166a52f075997faa4034efc6d7279f56ae"
+    },
+    {
+      "path": "tools\\persia_units\\batch_human_recipe.py",
+      "sha256": "f7856693f8e454cdfc18c1ed882a7eaf0b6611e5dcc068778d75bd59d444a56f"
+    },
+    {
+      "path": "tools\\persia_units\\batch_textures.py",
+      "sha256": "b1a57101b0a06caecbd406fca4868a5ed4af00752791be8799ccc6517fe382e8"
+    },
+    {
+      "path": "tools\\persia_units\\combined_recipe.py",
+      "sha256": "2b4c9e5ba26ed3c253eede63328e7ebc46d6c6737ed1d3e568afc02f0ac2aca8"
+    },
+    {
+      "path": "tools\\persia_units\\contracts.py",
+      "sha256": "4c85a350787b5be10f9a1c1a70319a660b72cfd02711c34bc8b479b6958d7454"
+    },
+    {
+      "path": "tools\\persia_units\\equipment_recipe.py",
+      "sha256": "c902af2a6215a73d354fd34e8ac5d8636fe1c393339807441f24125e427c3caa"
+    },
+    {
+      "path": "tools\\persia_units\\equipment_textures.py",
+      "sha256": "c07f52fa32096a68103e4a8af1a3d06339998348e35fc833b6ee4f9e90c41509"
+    },
+    {
+      "path": "tools\\persia_units\\native_socket.py",
+      "sha256": "4e3a948437d53776c98292314b0a50b010ee43c9c4faa79a1d3ae7559d0baac0"
+    },
+    {
+      "path": "tools\\persia_units\\shared_equipment.py",
+      "sha256": "d352fec4a0f9f526b8e413e62adf6fb789f8fba8bbf237d81885e9633814277b"
+    },
+    {
+      "path": "tools\\persia_units\\surface_normals.py",
+      "sha256": "1c6371a6f3c40bfac22e430b6dc64baf513585a544f42e1fe467ceb2cf2ba090"
+    },
+    {
+      "path": "tools\\persia_units\\textures.py",
+      "sha256": "a47b76b892d54a6d31d29593e9183e741b1f37abc683bd7d37e4bf240f24dfac"
+    },
+    {
+      "path": "tools\\persia_units\\weapon_shape.py",
+      "sha256": "d45fdb02907fddc6634f7e2a165f97ad3a94b0fe728ccf2c6c54961d3309d473"
+    }
+  ],
+  "dependency_scope": "minimal referenced input closure for current candidates; extra exploratory caches retained separately because cleanup is deferred",
+  "coverage": {
+    "required_models": 3,
+    "modeled": 3,
+    "cold_verified": 3,
+    "cold_geometry_current": 3
+  },
+  "editable_source_readiness": "full draft coverage; rubric acceptance and documented source/native gates remain",
+  "verified_deformation": "sampled native preview evidence only; runtime action selection and native physics unverified",
+  "rubric": {
+    "historical_grounding_max": 20,
+    "persian_identity_max": 20,
+    "AoE4_readability_max": 20,
+    "deformation_attachments_max": 25,
+    "LOD_performance_max": 15,
+    "required_total": 90,
+    "required_category_fraction": 0.8,
+    "score": null,
+    "status": "unaccepted until completed review; no automatic score from numeric tests"
+  },
+  "deferred": [
+    "cook",
+    "integration",
+    "packaging",
+    "native-game validation",
+    "promotion",
+    "push",
+    "deletion"
+  ],
+  "cold_evidence_policy": "latest outcome per source; legacy reports retain geometry/readback evidence only; full recipe and attachment equivalence require explicit tested fingerprints and semantics"
+}

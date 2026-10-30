@@ -1,0 +1,5 @@
+model =
+{
+	"..\\..\\..\\common\\weapons\\ranged\\archetypes\\base_bow\\base_bow",
+	"rus_bow_recurve",
+}

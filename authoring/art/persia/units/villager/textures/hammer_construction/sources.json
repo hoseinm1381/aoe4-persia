@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\hammer_construction\\d759e04ac239402a1622\\decoded-static.json",
+  "donor_sha256": "4d972d31faad9aaa798834ed96271b87626f3cd2152a06d385b4f2c10bb74372",
+  "logical_path": "art/civilizations/common/weapons/tools/hammer_construction/hammer_construction.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "2c618406e29d8a92f06cbf3eacf0062219bad794b1883a5f653c79f930ac1ff1",
+    "normal": "d89ccc04954f3de0722eefbfbf18718e0fc180e983affe4d4a0ca7dc67f5adf7",
+    "roughness": "466be960bec0dbbdc66175915129159e9b9a77e2d3ece5bf1db2be65f3afd707",
+    "metalness": "61965b6419c506ca26f7f5a68f17bc760ce88d7b092cab2b060fcf741bdea63d",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

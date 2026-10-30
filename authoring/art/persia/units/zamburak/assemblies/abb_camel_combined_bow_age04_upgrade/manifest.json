@@ -1,0 +1,557 @@
+{
+  "family": "zamburak",
+  "body": "abb_camel_combined_bow_age04_upgrade",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\zamburak\\assemblies\\abb_camel_combined_bow_age04_upgrade\\assembly.blend",
+  "sha256": "5c4b5bac916b6debf8d586b0112c219af8c6293ad47f60d4ac19d78f067307ae",
+  "rig_bones": 92,
+  "rig_contract_sha256": "f1f9229dfd4afb559f5e936ad4969d116dc36abaacf87397c3bd7ea04e81305d",
+  "secondary_rigs": {},
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 556,
+      "triangles": 520,
+      "sha256": "60c6f4fe29713237f316332cd6ee3b7f0c7db1578947608a4139775b4f578934"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 84,
+      "triangles": 72,
+      "sha256": "f1b6b91e8320f8aa5379c2fb2d5227cea6ca3afe2a4062b0bfbd35a18555827b"
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "vertices": 2090,
+      "triangles": 2740,
+      "sha256": "24520bc4576e77164503c7469651d83dbad18bed114e341a80ec696b1f960787"
+    },
+    {
+      "lod": 0,
+      "component": "rider",
+      "vertices": 1871,
+      "triangles": 1507,
+      "sha256": "a70e46f7566b4e6bfb35b7af0a3858808f8c0cccdfd3e0d34d802f11cb4222eb"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 556,
+      "triangles": 520,
+      "sha256": "60c6f4fe29713237f316332cd6ee3b7f0c7db1578947608a4139775b4f578934"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 84,
+      "triangles": 72,
+      "sha256": "ec61e0d271e82e4ca8e3118177a6e9172e11d4d45f54314bccc423224683163a"
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "vertices": 1272,
+      "triangles": 1358,
+      "sha256": "0d4627ca3f3f9d88a6bc8dba220792450b2956128f1697068fd58a4c94d0a34f"
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "vertices": 730,
+      "triangles": 503,
+      "sha256": "f4554f1852669052795e3371f77d48e902d79ace4290c90642494078bdeacbd7"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 66,
+      "triangles": 52,
+      "sha256": "35f7dfbad1271163d28de3f5d1e87bd6aef88b09200fcd9bdf127f69afb45a79"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 556,
+      "triangles": 520,
+      "sha256": "60c6f4fe29713237f316332cd6ee3b7f0c7db1578947608a4139775b4f578934"
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "vertices": 585,
+      "triangles": 556,
+      "sha256": "c5c78b82ca66d422eea2d57fa8204404aad80f5e44f6f5b91db6738fdc537310"
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "vertices": 414,
+      "triangles": 271,
+      "sha256": "81f58825378fb7714bb2bd4b44b01fa7b8a711e46d2c7deb5c56194ccdd92392"
+    }
+  ],
+  "equipment": {
+    "jpn_cannon_ozutsu": {
+      "socket": "gaia_c_spine2",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 92,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age04_upgrade/abb_camel_combined_bow_age04_upgrade.rgm",
+        "donor_manifest_sha256": "303fb1a59142a2e3a6b74738ca8bc57462bdabeda34cb9ad8b4518aa266f1e8d",
+        "bones_modified": 0
+      },
+      "triangles": [
+        520,
+        520,
+        520
+      ],
+      "proposed_saddle_pivot": {
+        "local_basis": [
+          [
+            0.929038405418396,
+            -0.29830095171928406,
+            -0.21886946260929108,
+            0.11383932083845139
+          ],
+          [
+            0.3057132065296173,
+            0.9521235823631287,
+            1.3958025846250166e-08,
+            0.4647618234157562
+          ],
+          [
+            0.20839080214500427,
+            -0.06691132485866547,
+            0.975753903388977,
+            0.4267008304595947
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "existing_parent_bone": "gaia_c_spine2",
+        "new_bones": 0,
+        "native_runtime_gun_alignment": "unverified source-art proposal"
+      },
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+          "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+          "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+          "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+          "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+          "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+          "selector": "Root/default/attachment_lists/parent_animator"
+        },
+        {
+          "marker": "metarig_larmpalmsocket",
+          "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+          "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+          "selector": "Root/xp3/attachment_lists/parent_animator"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    },
+    "cannon_hand": {
+      "socket": "gaia_c_spine2",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 92,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age04_upgrade/abb_camel_combined_bow_age04_upgrade.rgm",
+        "donor_manifest_sha256": "303fb1a59142a2e3a6b74738ca8bc57462bdabeda34cb9ad8b4518aa266f1e8d",
+        "bones_modified": 0
+      },
+      "triangles": [
+        72,
+        72,
+        52
+      ],
+      "proposed_saddle_pivot": {
+        "local_basis": [
+          [
+            0.929038405418396,
+            -0.29830095171928406,
+            -0.21886946260929108,
+            0.11383932083845139
+          ],
+          [
+            0.3057132065296173,
+            0.9521235823631287,
+            1.3958025846250166e-08,
+            0.4647618234157562
+          ],
+          [
+            0.20839080214500427,
+            -0.06691132485866547,
+            0.975753903388977,
+            0.4267008304595947
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "existing_parent_bone": "gaia_c_spine2",
+        "new_bones": 0,
+        "native_runtime_gun_alignment": "unverified source-art proposal"
+      },
+      "native_marker_evidence": [
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        },
+        {
+          "marker": "metarig_rarmpalmsocket",
+          "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+        }
+      ],
+      "marker_status": "explicit native marker"
+    }
+  },
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\zamburak\\models\\abb_camel_combined_bow_age04_upgrade\\model.blend",
+      "sha256": "bb781db51eb52ce13d358797822991ed06d83eb64dbd5218a3a25775969fe8b6"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\zamburak\\models\\jpn_cannon_ozutsu\\model.blend",
+      "sha256": "bfd15c4cc2660f02bcb3787efe50fce3dbba1a74a27cae627a13b0a11d0e2c0f"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\handcannoneer\\models\\cannon_hand\\model.blend",
+      "sha256": "03b50c1215f8b3c94a4792445844c016400fd70e5373d9ddcfa5018cd10ba1f9"
+    }
+  ],
+  "motion_checks": [
+    {
+      "clip": "navigation\\idle_tense_01",
+      "native_source": {
+        "rhka_logical_path": "art/civilizations/common/animals/archetypes/base_camel_combined/base_camel_combined.rhka",
+        "rhka_sha256": "8b892e7be86c2dfb720c3a3465743753a80b2e9b342e60796c28506a68a36131",
+        "selection_status": "linked_library_candidate",
+        "runtime_selection_status": "not_decoded"
+      },
+      "body_deformation_samples": [
+        {
+          "frame": 1,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 3.4251471972256424
+        },
+        {
+          "frame": 51,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 3.4251693549659645
+        },
+        {
+          "frame": 101,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 3.4182483340424903
+        },
+        {
+          "frame": 151,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 3.4243525059489657
+        },
+        {
+          "frame": 201,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 3.4196802367053283
+        }
+      ],
+      "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+    }
+  ],
+  "source_status": "editable equipped batch candidate; one family review pending",
+  "outstanding_motion_gates": [
+    "full movement/combat/work/death action coverage",
+    "native secondary weapon synchronization",
+    "runtime state selection",
+    "native-game validation"
+  ]
+}

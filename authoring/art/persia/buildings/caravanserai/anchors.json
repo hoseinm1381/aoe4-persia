@@ -1,0 +1,1070 @@
+{
+  "A2": {
+    "ground_top": 0.08,
+    "native_body_key": "A2",
+    "inventory_family": "caravanserai",
+    "native_model": "art/civilizations/sultanate/structures/wonder_siri_fort/sul_siri_fort_control_age02/sul_siri_fort_control_age02.rgm",
+    "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+    "chosen_horizontal_bounds": [
+      [
+        -5.95,
+        -5.3
+      ],
+      [
+        5.95,
+        5.3
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -5.95,
+        -5.3,
+        -0.08
+      ],
+      [
+        5.95,
+        5.3,
+        6.6
+      ]
+    ],
+    "native_stamp_rest_bounds": {
+      "min": [
+        -6.921875,
+        -5.73046875,
+        -2.0
+      ],
+      "max": [
+        6.921875,
+        5.92578125,
+        7.4609375
+      ]
+    },
+    "native_resource_bounds": {
+      "min": [
+        -6.921875,
+        -5.92578125,
+        -2.0
+      ],
+      "max": [
+        6.921875,
+        5.73046875,
+        7.4609375
+      ]
+    },
+    "resource_to_stamp": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_resource": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "source_uses": [
+      {
+        "actor": "ps_building_carvansarai_economy_persia",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_siri_fort_sul/landmark_siri_fort_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_siri_fort.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_carvansarai_economy_persia",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_siri_fort_sul/landmark_siri_fort_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_siri_fort.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_carvansarai_economy_persia",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_siri_fort_sul/landmark_siri_fort_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_siri_fort.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_carvansarai_economy_persia",
+        "variant": "hre_brawl",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_siri_fort_sul/landmark_siri_fort_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_siri_fort.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_carvansarai_economy_persia",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_siri_fort_sul/landmark_siri_fort_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_siri_fort.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "private_compiled_source_uses": [
+      {
+        "actor": "ps_building_carvansarai_economy_persia",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_siri_fort_sul/landmark_siri_fort_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_siri_fort.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_carvansarai_economy_persia",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_siri_fort_sul/landmark_siri_fort_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_siri_fort.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_carvansarai_economy_persia",
+        "variant": "hre_brawl",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_siri_fort_sul/landmark_siri_fort_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_siri_fort.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "official_parent_candidates": [
+      {
+        "actor": "ps_building_carvansarai_economy_persia",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_siri_fort_sul/landmark_siri_fort_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_siri_fort.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_carvansarai_economy_persia",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_siri_fort_sul/landmark_siri_fort_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_wonder_siri_fort.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "native_dependencies": [
+      {
+        "model": "art/civilizations/common/layouts/archetypes/layout_market/layout_market.rgm",
+        "native_model_sha256": "85d1f4ecc359b61f5507a78ecb2594ea30c68144d6b69ace4604070e92c6a0b6",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/layouts/archetypes/layout_market/layout_market.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\layouts\\archetypes\\layout_market\\layout_market.rgo",
+            "sha256": "2c297632e1d3fedf9494e64fb7384c72a7d217f9290261cdc31fa037a2b2809a",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records.",
+        "native_skeleton": {
+          "present": true,
+          "SKLN_payload_sha256": [
+            "772cb5ad990655d465391c4ff6d93a67264c2a9dd3da3be395a7e63f256bc8ba"
+          ],
+          "skinned_mesh_names": [],
+          "bone_tables": [
+            {
+              "valid_name_parent_table": true,
+              "chunk_version": 6,
+              "name": "",
+              "bone_count": 1,
+              "bones": [
+                {
+                  "index": 0,
+                  "name": "bone_root",
+                  "parent_index": -1
+                }
+              ],
+              "remaining_rest_pose_and_metadata_bytes": 98,
+              "payload_sha256": "772cb5ad990655d465391c4ff6d93a67264c2a9dd3da3be395a7e63f256bc8ba",
+              "limits": "Native bone names/parents parsed; rest/pose matrices not projected or retargeted."
+            }
+          ]
+        },
+        "markers": {
+          "valid": true,
+          "count": 11,
+          "payload_sha256": "7f694a5086a4f68ce14ceed9d938d823cba2d0beaace9f32aaec3274b85828ac",
+          "markers": [
+            {
+              "name": "road_point_04",
+              "parent_bone": "bone_root",
+              "native_frame_flag": 1,
+              "quaternion_xyzw": [
+                0.0,
+                0.7071067690849304,
+                0.7071067690849304,
+                0.0
+              ],
+              "translation": [
+                3.956496000289917,
+                9.058066368103027,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "attributes": {
+                "marker_type": "interaction",
+                "marker_subtype": "start_point",
+                "marker_radius": 1.0,
+                "physicsexportattributes_rigid_body": 0,
+                "physicsexportattributes_mass": 5.0,
+                "physicsexportattributes_friction": 0.5,
+                "physicsexportattributes_restitution": 0.5,
+                "physicsexportattributes_linear_damping": 0.05000000074505806,
+                "physicsexportattributes_angular_damping": 0.05000000074505806,
+                "physicsexportattributes_parent_rigid_body": "none",
+                "physicsexportattributes_parent_bone_name": "bone_root",
+                "physicsexportattributes_reference_mesh_name": "none",
+                "physicsexportattributes_is_mesh": 0,
+                "physicsexportattributes_shape_type": "none",
+                "physicsexportattributes_sphere_radius": 0.0,
+                "physicsexportattributes_capsule_radius": 0.0,
+                "physicsexportattributes_cylinder_radius": 0.0,
+                "physicsexportattributes_hinge": 0,
+                "physicsexportattributes_hinge_limited": 0,
+                "physicsexportattributes_hinge_limit_max": 0.0,
+                "physicsexportattributes_hinge_limit_min": 0.0,
+                "physicsexportattributes_constraint_breakable": 0,
+                "physicsexportattributes_constraint_break_threshold": 0.20000000298023224,
+                "physicsexportattributes_ballandsocket": 0,
+                "physicsexportattributes_fixed": 0,
+                "physicsexportattributes_fixed_linear_impulse_max": 0.0,
+                "physicsexportattributes_fixed_angular_impulse_max": 0.0,
+                "physicsexportattributes_stiffspring": 0,
+                "physicsexportattributes_stiffspring_rest_length": 0.0,
+                "physicsexportattributes_wheel": 0,
+                "physicsexportattributes_wheel_suspension_offset_angle": 0.0,
+                "physicsexportattributes_wheel_suspension_limit_min": -100.0,
+                "physicsexportattributes_wheel_suspension_limit_max": 100.0,
+                "physicsexportattributes_wheel_suspension_strength": 0.0,
+                "physicsexportattributes_wheel_suspension_damping": 0.0
+              }
+            },
+            {
+              "name": "road_point_09",
+              "parent_bone": "bone_root",
+              "native_frame_flag": 1,
+              "quaternion_xyzw": [
+                0.0,
+                0.7071067690849304,
+                0.7071067690849304,
+                0.0
+              ],
+              "translation": [
+                0.9632705450057983,
+                -8.983269691467285,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "attributes": {
+                "marker_type": "interaction",
+                "marker_subtype": "start_point",
+                "marker_radius": 1.0,
+                "physicsexportattributes_rigid_body": 0,
+                "physicsexportattributes_mass": 5.0,
+                "physicsexportattributes_friction": 0.5,
+                "physicsexportattributes_restitution": 0.5,
+                "physicsexportattributes_linear_damping": 0.05000000074505806,
+                "physicsexportattributes_angular_damping": 0.05000000074505806,
+                "physicsexportattributes_parent_rigid_body": "none",
+                "physicsexportattributes_parent_bone_name": "bone_root",
+                "physicsexportattributes_reference_mesh_name": "none",
+                "physicsexportattributes_is_mesh": 0,
+                "physicsexportattributes_shape_type": "none",
+                "physicsexportattributes_sphere_radius": 0.0,
+                "physicsexportattributes_capsule_radius": 0.0,
+                "physicsexportattributes_cylinder_radius": 0.0,
+                "physicsexportattributes_hinge": 0,
+                "physicsexportattributes_hinge_limited": 0,
+                "physicsexportattributes_hinge_limit_max": 0.0,
+                "physicsexportattributes_hinge_limit_min": 0.0,
+                "physicsexportattributes_constraint_breakable": 0,
+                "physicsexportattributes_constraint_break_threshold": 0.20000000298023224,
+                "physicsexportattributes_ballandsocket": 0,
+                "physicsexportattributes_fixed": 0,
+                "physicsexportattributes_fixed_linear_impulse_max": 0.0,
+                "physicsexportattributes_fixed_angular_impulse_max": 0.0,
+                "physicsexportattributes_stiffspring": 0,
+                "physicsexportattributes_stiffspring_rest_length": 0.0,
+                "physicsexportattributes_wheel": 0,
+                "physicsexportattributes_wheel_suspension_offset_angle": 0.0,
+                "physicsexportattributes_wheel_suspension_limit_min": -100.0,
+                "physicsexportattributes_wheel_suspension_limit_max": 100.0,
+                "physicsexportattributes_wheel_suspension_strength": 0.0,
+                "physicsexportattributes_wheel_suspension_damping": 0.0
+              }
+            },
+            {
+              "name": "road_point_06",
+              "parent_bone": "bone_root",
+              "native_frame_flag": 1,
+              "quaternion_xyzw": [
+                0.0,
+                0.7071067690849304,
+                0.7071067690849304,
+                0.0
+              ],
+              "translation": [
+                -9.084628105163574,
+                8.914133071899414,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "attributes": {
+                "marker_type": "interaction",
+                "marker_subtype": "none",
+                "marker_radius": 1.0,
+                "physicsexportattributes_rigid_body": 0,
+                "physicsexportattributes_mass": 5.0,
+                "physicsexportattributes_friction": 0.5,
+                "physicsexportattributes_restitution": 0.5,
+                "physicsexportattributes_linear_damping": 0.05000000074505806,
+                "physicsexportattributes_angular_damping": 0.05000000074505806,
+                "physicsexportattributes_parent_rigid_body": "none",
+                "physicsexportattributes_parent_bone_name": "bone_root",
+                "physicsexportattributes_reference_mesh_name": "none",
+                "physicsexportattributes_is_mesh": 0,
+                "physicsexportattributes_shape_type": "none",
+                "physicsexportattributes_sphere_radius": 0.0,
+                "physicsexportattributes_capsule_radius": 0.0,
+                "physicsexportattributes_cylinder_radius": 0.0,
+                "physicsexportattributes_hinge": 0,
+                "physicsexportattributes_hinge_limited": 0,
+                "physicsexportattributes_hinge_limit_max": 0.0,
+                "physicsexportattributes_hinge_limit_min": 0.0,
+                "physicsexportattributes_constraint_breakable": 0,
+                "physicsexportattributes_constraint_break_threshold": 0.20000000298023224,
+                "physicsexportattributes_ballandsocket": 0,
+                "physicsexportattributes_fixed": 0,
+                "physicsexportattributes_fixed_linear_impulse_max": 0.0,
+                "physicsexportattributes_fixed_angular_impulse_max": 0.0,
+                "physicsexportattributes_stiffspring": 0,
+                "physicsexportattributes_stiffspring_rest_length": 0.0,
+                "physicsexportattributes_wheel": 0,
+                "physicsexportattributes_wheel_suspension_offset_angle": 0.0,
+                "physicsexportattributes_wheel_suspension_limit_min": -100.0,
+                "physicsexportattributes_wheel_suspension_limit_max": 100.0,
+                "physicsexportattributes_wheel_suspension_strength": 0.0,
+                "physicsexportattributes_wheel_suspension_damping": 0.0
+              }
+            },
+            {
+              "name": "road_point_07",
+              "parent_bone": "bone_root",
+              "native_frame_flag": 1,
+              "quaternion_xyzw": [
+                0.0,
+                0.7071067690849304,
+                0.7071067690849304,
+                0.0
+              ],
+              "translation": [
+                -9.003028869628906,
+                -2.9949734210968018,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "attributes": {
+                "marker_type": "interaction",
+                "marker_subtype": "start_point",
+                "marker_radius": 1.0,
+                "physicsexportattributes_rigid_body": 0,
+                "physicsexportattributes_mass": 5.0,
+                "physicsexportattributes_friction": 0.5,
+                "physicsexportattributes_restitution": 0.5,
+                "physicsexportattributes_linear_damping": 0.05000000074505806,
+                "physicsexportattributes_angular_damping": 0.05000000074505806,
+                "physicsexportattributes_parent_rigid_body": "none",
+                "physicsexportattributes_parent_bone_name": "bone_root",
+                "physicsexportattributes_reference_mesh_name": "none",
+                "physicsexportattributes_is_mesh": 0,
+                "physicsexportattributes_shape_type": "none",
+                "physicsexportattributes_sphere_radius": 0.0,
+                "physicsexportattributes_capsule_radius": 0.0,
+                "physicsexportattributes_cylinder_radius": 0.0,
+                "physicsexportattributes_hinge": 0,
+                "physicsexportattributes_hinge_limited": 0,
+                "physicsexportattributes_hinge_limit_max": 0.0,
+                "physicsexportattributes_hinge_limit_min": 0.0,
+                "physicsexportattributes_constraint_breakable": 0,
+                "physicsexportattributes_constraint_break_threshold": 0.20000000298023224,
+                "physicsexportattributes_ballandsocket": 0,
+                "physicsexportattributes_fixed": 0,
+                "physicsexportattributes_fixed_linear_impulse_max": 0.0,
+                "physicsexportattributes_fixed_angular_impulse_max": 0.0,
+                "physicsexportattributes_stiffspring": 0,
+                "physicsexportattributes_stiffspring_rest_length": 0.0,
+                "physicsexportattributes_wheel": 0,
+                "physicsexportattributes_wheel_suspension_offset_angle": 0.0,
+                "physicsexportattributes_wheel_suspension_limit_min": -100.0,
+                "physicsexportattributes_wheel_suspension_limit_max": 100.0,
+                "physicsexportattributes_wheel_suspension_strength": 0.0,
+                "physicsexportattributes_wheel_suspension_damping": 0.0
+              }
+            },
+            {
+              "name": "road_point_01",
+              "parent_bone": "bone_root",
+              "native_frame_flag": 1,
+              "quaternion_xyzw": [
+                0.0,
+                0.7071067690849304,
+                0.7071067690849304,
+                0.0
+              ],
+              "translation": [
+                8.976680755615234,
+                -8.967804908752441,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "attributes": {
+                "marker_type": "interaction",
+                "marker_subtype": "none",
+                "marker_radius": 1.0,
+                "physicsexportattributes_rigid_body": 0,
+                "physicsexportattributes_mass": 5.0,
+                "physicsexportattributes_friction": 0.5,
+                "physicsexportattributes_restitution": 0.5,
+                "physicsexportattributes_linear_damping": 0.05000000074505806,
+                "physicsexportattributes_angular_damping": 0.05000000074505806,
+                "physicsexportattributes_parent_rigid_body": "none",
+                "physicsexportattributes_parent_bone_name": "bone_root",
+                "physicsexportattributes_reference_mesh_name": "none",
+                "physicsexportattributes_is_mesh": 0,
+                "physicsexportattributes_shape_type": "none",
+                "physicsexportattributes_sphere_radius": 0.0,
+                "physicsexportattributes_capsule_radius": 0.0,
+                "physicsexportattributes_cylinder_radius": 0.0,
+                "physicsexportattributes_hinge": 0,
+                "physicsexportattributes_hinge_limited": 0,
+                "physicsexportattributes_hinge_limit_max": 0.0,
+                "physicsexportattributes_hinge_limit_min": 0.0,
+                "physicsexportattributes_constraint_breakable": 0,
+                "physicsexportattributes_constraint_break_threshold": 0.20000000298023224,
+                "physicsexportattributes_ballandsocket": 0,
+                "physicsexportattributes_fixed": 0,
+                "physicsexportattributes_fixed_linear_impulse_max": 0.0,
+                "physicsexportattributes_fixed_angular_impulse_max": 0.0,
+                "physicsexportattributes_stiffspring": 0,
+                "physicsexportattributes_stiffspring_rest_length": 0.0,
+                "physicsexportattributes_wheel": 0,
+                "physicsexportattributes_wheel_suspension_offset_angle": 0.0,
+                "physicsexportattributes_wheel_suspension_limit_min": -100.0,
+                "physicsexportattributes_wheel_suspension_limit_max": 100.0,
+                "physicsexportattributes_wheel_suspension_strength": 0.0,
+                "physicsexportattributes_wheel_suspension_damping": 0.0
+              }
+            },
+            {
+              "name": "road_point_03",
+              "parent_bone": "bone_root",
+              "native_frame_flag": 1,
+              "quaternion_xyzw": [
+                0.0,
+                0.7071067690849304,
+                0.7071067690849304,
+                0.0
+              ],
+              "translation": [
+                8.904263496398926,
+                8.902801513671875,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "attributes": {
+                "marker_type": "interaction",
+                "marker_subtype": "none",
+                "marker_radius": 1.0,
+                "physicsexportattributes_rigid_body": 0,
+                "physicsexportattributes_mass": 5.0,
+                "physicsexportattributes_friction": 0.5,
+                "physicsexportattributes_restitution": 0.5,
+                "physicsexportattributes_linear_damping": 0.05000000074505806,
+                "physicsexportattributes_angular_damping": 0.05000000074505806,
+                "physicsexportattributes_parent_rigid_body": "none",
+                "physicsexportattributes_parent_bone_name": "bone_root",
+                "physicsexportattributes_reference_mesh_name": "none",
+                "physicsexportattributes_is_mesh": 0,
+                "physicsexportattributes_shape_type": "none",
+                "physicsexportattributes_sphere_radius": 0.0,
+                "physicsexportattributes_capsule_radius": 0.0,
+                "physicsexportattributes_cylinder_radius": 0.0,
+                "physicsexportattributes_hinge": 0,
+                "physicsexportattributes_hinge_limited": 0,
+                "physicsexportattributes_hinge_limit_max": 0.0,
+                "physicsexportattributes_hinge_limit_min": 0.0,
+                "physicsexportattributes_constraint_breakable": 0,
+                "physicsexportattributes_constraint_break_threshold": 0.20000000298023224,
+                "physicsexportattributes_ballandsocket": 0,
+                "physicsexportattributes_fixed": 0,
+                "physicsexportattributes_fixed_linear_impulse_max": 0.0,
+                "physicsexportattributes_fixed_angular_impulse_max": 0.0,
+                "physicsexportattributes_stiffspring": 0,
+                "physicsexportattributes_stiffspring_rest_length": 0.0,
+                "physicsexportattributes_wheel": 0,
+                "physicsexportattributes_wheel_suspension_offset_angle": 0.0,
+                "physicsexportattributes_wheel_suspension_limit_min": -100.0,
+                "physicsexportattributes_wheel_suspension_limit_max": 100.0,
+                "physicsexportattributes_wheel_suspension_strength": 0.0,
+                "physicsexportattributes_wheel_suspension_damping": 0.0
+              }
+            },
+            {
+              "name": "road_point_02",
+              "parent_bone": "bone_root",
+              "native_frame_flag": 1,
+              "quaternion_xyzw": [
+                0.0,
+                0.7071067690849304,
+                0.7071067690849304,
+                0.0
+              ],
+              "translation": [
+                8.980742454528809,
+                -3.00138258934021,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "attributes": {
+                "marker_type": "interaction",
+                "marker_subtype": "start_point",
+                "marker_radius": 1.0,
+                "physicsexportattributes_rigid_body": 0,
+                "physicsexportattributes_mass": 5.0,
+                "physicsexportattributes_friction": 0.5,
+                "physicsexportattributes_restitution": 0.5,
+                "physicsexportattributes_linear_damping": 0.05000000074505806,
+                "physicsexportattributes_angular_damping": 0.05000000074505806,
+                "physicsexportattributes_parent_rigid_body": "none",
+                "physicsexportattributes_parent_bone_name": "bone_root",
+                "physicsexportattributes_reference_mesh_name": "none",
+                "physicsexportattributes_is_mesh": 0,
+                "physicsexportattributes_shape_type": "none",
+                "physicsexportattributes_sphere_radius": 0.0,
+                "physicsexportattributes_capsule_radius": 0.0,
+                "physicsexportattributes_cylinder_radius": 0.0,
+                "physicsexportattributes_hinge": 0,
+                "physicsexportattributes_hinge_limited": 0,
+                "physicsexportattributes_hinge_limit_max": 0.0,
+                "physicsexportattributes_hinge_limit_min": 0.0,
+                "physicsexportattributes_constraint_breakable": 0,
+                "physicsexportattributes_constraint_break_threshold": 0.20000000298023224,
+                "physicsexportattributes_ballandsocket": 0,
+                "physicsexportattributes_fixed": 0,
+                "physicsexportattributes_fixed_linear_impulse_max": 0.0,
+                "physicsexportattributes_fixed_angular_impulse_max": 0.0,
+                "physicsexportattributes_stiffspring": 0,
+                "physicsexportattributes_stiffspring_rest_length": 0.0,
+                "physicsexportattributes_wheel": 0,
+                "physicsexportattributes_wheel_suspension_offset_angle": 0.0,
+                "physicsexportattributes_wheel_suspension_limit_min": -100.0,
+                "physicsexportattributes_wheel_suspension_limit_max": 100.0,
+                "physicsexportattributes_wheel_suspension_strength": 0.0,
+                "physicsexportattributes_wheel_suspension_damping": 0.0
+              }
+            },
+            {
+              "name": "road_point_08",
+              "parent_bone": "bone_root",
+              "native_frame_flag": 1,
+              "quaternion_xyzw": [
+                0.0,
+                0.7071067690849304,
+                0.7071067690849304,
+                0.0
+              ],
+              "translation": [
+                -9.108414649963379,
+                -9.029361724853516,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "attributes": {
+                "marker_type": "interaction",
+                "marker_subtype": "none",
+                "marker_radius": 1.0,
+                "physicsexportattributes_rigid_body": 0,
+                "physicsexportattributes_mass": 5.0,
+                "physicsexportattributes_friction": 0.5,
+                "physicsexportattributes_restitution": 0.5,
+                "physicsexportattributes_linear_damping": 0.05000000074505806,
+                "physicsexportattributes_angular_damping": 0.05000000074505806,
+                "physicsexportattributes_parent_rigid_body": "none",
+                "physicsexportattributes_parent_bone_name": "bone_root",
+                "physicsexportattributes_reference_mesh_name": "none",
+                "physicsexportattributes_is_mesh": 0,
+                "physicsexportattributes_shape_type": "none",
+                "physicsexportattributes_sphere_radius": 0.0,
+                "physicsexportattributes_capsule_radius": 0.0,
+                "physicsexportattributes_cylinder_radius": 0.0,
+                "physicsexportattributes_hinge": 0,
+                "physicsexportattributes_hinge_limited": 0,
+                "physicsexportattributes_hinge_limit_max": 0.0,
+                "physicsexportattributes_hinge_limit_min": 0.0,
+                "physicsexportattributes_constraint_breakable": 0,
+                "physicsexportattributes_constraint_break_threshold": 0.20000000298023224,
+                "physicsexportattributes_ballandsocket": 0,
+                "physicsexportattributes_fixed": 0,
+                "physicsexportattributes_fixed_linear_impulse_max": 0.0,
+                "physicsexportattributes_fixed_angular_impulse_max": 0.0,
+                "physicsexportattributes_stiffspring": 0,
+                "physicsexportattributes_stiffspring_rest_length": 0.0,
+                "physicsexportattributes_wheel": 0,
+                "physicsexportattributes_wheel_suspension_offset_angle": 0.0,
+                "physicsexportattributes_wheel_suspension_limit_min": -100.0,
+                "physicsexportattributes_wheel_suspension_limit_max": 100.0,
+                "physicsexportattributes_wheel_suspension_strength": 0.0,
+                "physicsexportattributes_wheel_suspension_damping": 0.0
+              }
+            },
+            {
+              "name": "road_point_05",
+              "parent_bone": "bone_root",
+              "native_frame_flag": 1,
+              "quaternion_xyzw": [
+                0.0,
+                0.7071067690849304,
+                0.7071067690849304,
+                0.0
+              ],
+              "translation": [
+                -4.991425037384033,
+                9.04682731628418,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "attributes": {
+                "marker_type": "interaction",
+                "marker_subtype": "start_point",
+                "marker_radius": 1.0,
+                "physicsexportattributes_rigid_body": 0,
+                "physicsexportattributes_mass": 5.0,
+                "physicsexportattributes_friction": 0.5,
+                "physicsexportattributes_restitution": 0.5,
+                "physicsexportattributes_linear_damping": 0.05000000074505806,
+                "physicsexportattributes_angular_damping": 0.05000000074505806,
+                "physicsexportattributes_parent_rigid_body": "none",
+                "physicsexportattributes_parent_bone_name": "bone_root",
+                "physicsexportattributes_reference_mesh_name": "none",
+                "physicsexportattributes_is_mesh": 0,
+                "physicsexportattributes_shape_type": "none",
+                "physicsexportattributes_sphere_radius": 0.0,
+                "physicsexportattributes_capsule_radius": 0.0,
+                "physicsexportattributes_cylinder_radius": 0.0,
+                "physicsexportattributes_hinge": 0,
+                "physicsexportattributes_hinge_limited": 0,
+                "physicsexportattributes_hinge_limit_max": 0.0,
+                "physicsexportattributes_hinge_limit_min": 0.0,
+                "physicsexportattributes_constraint_breakable": 0,
+                "physicsexportattributes_constraint_break_threshold": 0.20000000298023224,
+                "physicsexportattributes_ballandsocket": 0,
+                "physicsexportattributes_fixed": 0,
+                "physicsexportattributes_fixed_linear_impulse_max": 0.0,
+                "physicsexportattributes_fixed_angular_impulse_max": 0.0,
+                "physicsexportattributes_stiffspring": 0,
+                "physicsexportattributes_stiffspring_rest_length": 0.0,
+                "physicsexportattributes_wheel": 0,
+                "physicsexportattributes_wheel_suspension_offset_angle": 0.0,
+                "physicsexportattributes_wheel_suspension_limit_min": -100.0,
+                "physicsexportattributes_wheel_suspension_limit_max": 100.0,
+                "physicsexportattributes_wheel_suspension_strength": 0.0,
+                "physicsexportattributes_wheel_suspension_damping": 0.0
+              }
+            },
+            {
+              "name": "starting_position",
+              "parent_bone": "bone_root",
+              "native_frame_flag": 1,
+              "quaternion_xyzw": [
+                0.0,
+                0.7071067690849304,
+                0.7071067690849304,
+                0.0
+              ],
+              "translation": [
+                3.406195640563965,
+                7.090108394622803,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "attributes": {
+                "marker_type": "spawn point",
+                "marker_subtype": "starting position",
+                "marker_radius": 1.0,
+                "physicsexportattributes_rigid_body": 0,
+                "physicsexportattributes_mass": 5.0,
+                "physicsexportattributes_friction": 0.5,
+                "physicsexportattributes_restitution": 0.5,
+                "physicsexportattributes_linear_damping": 0.05000000074505806,
+                "physicsexportattributes_angular_damping": 0.05000000074505806,
+                "physicsexportattributes_parent_rigid_body": "none",
+                "physicsexportattributes_parent_bone_name": "bone_root",
+                "physicsexportattributes_reference_mesh_name": "none",
+                "physicsexportattributes_is_mesh": 0,
+                "physicsexportattributes_shape_type": "none",
+                "physicsexportattributes_sphere_radius": 0.0,
+                "physicsexportattributes_capsule_radius": 0.0,
+                "physicsexportattributes_cylinder_radius": 0.0,
+                "physicsexportattributes_hinge": 0,
+                "physicsexportattributes_hinge_limited": 0,
+                "physicsexportattributes_hinge_limit_max": 0.0,
+                "physicsexportattributes_hinge_limit_min": 0.0,
+                "physicsexportattributes_constraint_breakable": 0,
+                "physicsexportattributes_constraint_break_threshold": 0.20000000298023224,
+                "physicsexportattributes_ballandsocket": 0,
+                "physicsexportattributes_fixed": 0,
+                "physicsexportattributes_fixed_linear_impulse_max": 0.0,
+                "physicsexportattributes_fixed_angular_impulse_max": 0.0,
+                "physicsexportattributes_stiffspring": 0,
+                "physicsexportattributes_stiffspring_rest_length": 0.0,
+                "physicsexportattributes_wheel": 0,
+                "physicsexportattributes_wheel_suspension_offset_angle": 0.0,
+                "physicsexportattributes_wheel_suspension_limit_min": -100.0,
+                "physicsexportattributes_wheel_suspension_limit_max": 100.0,
+                "physicsexportattributes_wheel_suspension_strength": 0.0,
+                "physicsexportattributes_wheel_suspension_damping": 0.0
+              }
+            },
+            {
+              "name": "fx_temp",
+              "parent_bone": "bone_root",
+              "native_frame_flag": 1,
+              "quaternion_xyzw": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation": [
+                0.0,
+                0.0,
+                5.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "attributes": {
+                "physicsexportattributes_rigid_body": 0,
+                "physicsexportattributes_mass": 5.0,
+                "physicsexportattributes_friction": 0.5,
+                "physicsexportattributes_restitution": 0.5,
+                "physicsexportattributes_linear_damping": 0.05000000074505806,
+                "physicsexportattributes_angular_damping": 0.05000000074505806,
+                "physicsexportattributes_parent_rigid_body": "none",
+                "physicsexportattributes_parent_bone_name": "bone_root",
+                "physicsexportattributes_reference_mesh_name": "none",
+                "physicsexportattributes_is_mesh": 0,
+                "physicsexportattributes_shape_type": "none",
+                "physicsexportattributes_sphere_radius": 0.0,
+                "physicsexportattributes_capsule_radius": 0.0,
+                "physicsexportattributes_cylinder_radius": 0.0,
+                "physicsexportattributes_hinge": 0,
+                "physicsexportattributes_hinge_limited": 0,
+                "physicsexportattributes_hinge_limit_max": 0.0,
+                "physicsexportattributes_hinge_limit_min": 0.0,
+                "physicsexportattributes_constraint_breakable": 0,
+                "physicsexportattributes_constraint_break_threshold": 0.20000000298023224,
+                "physicsexportattributes_ballandsocket": 0,
+                "physicsexportattributes_fixed": 0,
+                "physicsexportattributes_fixed_linear_impulse_max": 0.0,
+                "physicsexportattributes_fixed_angular_impulse_max": 0.0,
+                "physicsexportattributes_stiffspring": 0,
+                "physicsexportattributes_stiffspring_rest_length": 0.0,
+                "physicsexportattributes_wheel": 0,
+                "physicsexportattributes_wheel_suspension_offset_angle": 0.0,
+                "physicsexportattributes_wheel_suspension_limit_min": -100.0,
+                "physicsexportattributes_wheel_suspension_limit_max": 100.0,
+                "physicsexportattributes_wheel_suspension_strength": 0.0,
+                "physicsexportattributes_wheel_suspension_damping": 0.0
+              }
+            }
+          ],
+          "frame": "Empty parent_bone/flag0 is model-root frame; named parent_bone/flag1 is a native bone-local transform. World transforms require the native skeleton/pose."
+        },
+        "marker_contract": "Only fully consumed valid=true records are usable. Empty parent_bone/flag0 is native model-root; named parent_bone/flag1 is native bone-local. No marker record here is a world-space socket."
+      }
+    ],
+    "native_animation_graphs": [
+      {
+        "logical_path": "art/civilizations/sultanate/structures/wonder_siri_fort/sul_siri_fort_control_age02/sul_siri_fort_control_age02.rgo",
+        "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\sultanate\\structures\\wonder_siri_fort\\sul_siri_fort_control_age02\\sul_siri_fort_control_age02.rgo",
+        "sha256": "dd625337b79277252a45584dfd14f102b99f0bb13978c5d2fb4066d05be25c26"
+      }
+    ],
+    "native_model_sha256": "98683e1379db605926685c464b80fb8a4c4f5a1698062ec2b061ebbb4f7107d0",
+    "native_geometry_sha256": "24dadd1b98a49446e73d035d1b69a1de332ac7de39fa76667d1f04e70289f4d0",
+    "healthy_lod0_triangle_interval": [
+      67806,
+      67806
+    ],
+    "complete_category_bounds": [
+      {
+        "actor": "ps_building_carvansarai_economy_persia",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_siri_fort_sul/landmark_siri_fort_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -6.921875,
+            -5.73046875,
+            -2.0
+          ],
+          "max": [
+            6.921875,
+            5.92578125,
+            7.4609375
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -9.050508526852354,
+            -8.631036480190232,
+            -3.333984375
+          ],
+          "max": [
+            9.422425297787413,
+            9.666120081569385,
+            7.4609375
+          ]
+        }
+      },
+      {
+        "actor": "ps_building_carvansarai_economy_persia",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_siri_fort_sul/landmark_siri_fort_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -6.921875,
+            -5.73046875,
+            -2.0
+          ],
+          "max": [
+            6.921875,
+            5.92578125,
+            7.4609375
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -9.050508526852354,
+            -8.631036480190232,
+            -2.0
+          ],
+          "max": [
+            9.422425297787413,
+            8.544702219207714,
+            7.4609375
+          ]
+        }
+      },
+      {
+        "actor": "ps_building_carvansarai_economy_persia",
+        "variant": "hre_brawl",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/landmark_siri_fort_sul/landmark_siri_fort_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -6.921875,
+            -5.73046875,
+            -2.0
+          ],
+          "max": [
+            6.921875,
+            5.92578125,
+            7.4609375
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -9.050508526852354,
+            -8.631036480190232,
+            -2.0
+          ],
+          "max": [
+            9.422425297787413,
+            8.544702219207714,
+            7.4609375
+          ]
+        }
+      }
+    ],
+    "terrain_origin_note": "native origin retained; no Z recenter from buried geometry minimum; .08 source surface is provisional",
+    "clearance_status": "Only conservative rest-body envelope; native exits/markers/weapon motion unqualified",
+    "door_dimensions": "original source proposals, not measured stock doorways",
+    "visual_status": "unbuilt and uninspected in Blender",
+    "gate_clear_axis": {
+      "x": [
+        -0.89,
+        0.89
+      ],
+      "y": [
+        -5.2,
+        -4.1
+      ],
+      "status": "original visible passage; native path/animal clearance unqualified"
+    },
+    "program": "single secure roadside inn; six raised inward guest bays, deeper stable/service band, open unloading court",
+    "court": {
+      "clear_guest_walk_edges_x": [
+        -3.4,
+        3.4
+      ],
+      "open_court_y": [
+        -4.1,
+        2.65
+      ],
+      "overall_building_xy": [
+        11.0,
+        9.85
+      ],
+      "Grand_hierarchy": "lower single-storey target only; exact same-camera comparison with existing Grand unverified"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "source": "make_textures.py plus retained _shared/atlas_source.py",
+  "original_painting": true,
+  "changes": [
+    "soil splash gradient and tiny plaster cracks",
+    "granular clay roof, no tile grid"
+  ],
+  "native_shader_validation": "deferred"
+}

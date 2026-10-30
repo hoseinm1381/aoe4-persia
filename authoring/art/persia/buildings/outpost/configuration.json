@@ -1,0 +1,4783 @@
+{
+  "schema": "persia-outpost-source-draft/1",
+  "status": "Unbuilt architecture draft; not native-integrated or accepted",
+  "actor": "ps_building_defense_outpost_control_sul",
+  "existing_body_count": 2,
+  "exact_gameplay_footprint_scale": {
+    "x": 4,
+    "y": 4,
+    "variants": [
+      "default",
+      "campaign"
+    ],
+    "change_authorized": false
+  },
+  "bodies": {
+    "wood": {
+      "native_body_choice": "wood",
+      "inventory_category": "default",
+      "source_key": "A1Basic",
+      "resource": {
+        "model": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgm",
+        "native_age_label_from_resource_name": 1,
+        "body_choice": "wood",
+        "native_model_local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\sultanate\\structures\\outpost\\sul_outpost_control_age01\\sul_outpost_control_age01.rgm",
+        "native_model_sha256": "4cd4f177a84c643303fa5c5d52fa44b7548d43a0f50d58ef62c142831ee47ed9",
+        "native_geometry_local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\sultanate\\structures\\outpost\\sul_outpost_control_age01\\sul_outpost_control_age01.rrgeom",
+        "native_geometry_sha256": "d97643f6faf3a7fc5dbe6abb9d99f51cdca8ed4e95acb50dbf5b8a26e0d81810",
+        "healthy_lod0_triangle_interval": [
+          15682,
+          23553
+        ],
+        "healthy_definite_rest_bounds": {
+          "min": [
+            -2.021484375,
+            -2.021484375,
+            -1.599609375
+          ],
+          "max": [
+            2.021484375,
+            2.021484375,
+            8.5859375
+          ]
+        },
+        "healthy_possible_rest_bounds": {
+          "min": [
+            -2.3515625,
+            -2.228515625,
+            -1.599609375
+          ],
+          "max": [
+            2.41796875,
+            2.392578125,
+            9.2109375
+          ]
+        },
+        "native_animation_graphs": [
+          {
+            "logical_path": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01/sul_outpost_control_age01.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\sultanate\\structures\\outpost\\sul_outpost_control_age01\\sul_outpost_control_age01.rgo",
+            "sha256": "503c7147daaec0fcf0a92101d8fa4974d23de2a3babf125a7027652f14f08d32"
+          }
+        ],
+        "source_uses": [
+          {
+            "actor": "ps_building_defense_outpost_control_sul",
+            "variant": "campaign",
+            "variant_evidence_class": "existing_private_compiled_variant",
+            "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_outpost_sul/defense_outpost_control_sul",
+            "attachment_category": "default",
+            "inventory_category": "default",
+            "stamp": "art/stamps/civ_sul/sul_outpost.bin",
+            "stamp_instance_index": 0
+          },
+          {
+            "actor": "ps_building_defense_outpost_control_sul",
+            "variant": "cordoba",
+            "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+            "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_outpost_sul/defense_outpost_control_sul",
+            "attachment_category": "default",
+            "inventory_category": "default",
+            "stamp": "art/stamps/civ_sul/sul_outpost.bin",
+            "stamp_instance_index": 0
+          },
+          {
+            "actor": "ps_building_defense_outpost_control_sul",
+            "variant": "default",
+            "variant_evidence_class": "existing_private_compiled_variant",
+            "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_outpost_sul/defense_outpost_control_sul",
+            "attachment_category": "default",
+            "inventory_category": "default",
+            "stamp": "art/stamps/civ_sul/sul_outpost.bin",
+            "stamp_instance_index": 0
+          },
+          {
+            "actor": "ps_building_defense_outpost_control_sul",
+            "variant": "xp3",
+            "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+            "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_outpost_sul/defense_outpost_control_sul",
+            "attachment_category": "default",
+            "inventory_category": "default",
+            "stamp": "art/stamps/civ_sul/sul_outpost.bin",
+            "stamp_instance_index": 0
+          }
+        ]
+      },
+      "stamp": [
+        {
+          "native_transform_xyzw_translation_scale": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "blender_matrix_row_major": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              -0.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "healthy_definite_stamp_space_rest_bounds": {
+            "min": [
+              -2.021484375,
+              -2.021484375,
+              -1.599609375
+            ],
+            "max": [
+              2.021484375,
+              2.021484375,
+              8.5859375
+            ]
+          },
+          "healthy_possible_stamp_space_rest_bounds": {
+            "min": [
+              -2.41796875,
+              -2.392578125,
+              -1.599609375
+            ],
+            "max": [
+              2.3515625,
+              2.228515625,
+              9.2109375
+            ]
+          }
+        }
+      ],
+      "exact_model_local_emplacement_source_bounds": {
+        "upgrade_cannon_01": {
+          "min": [
+            -1.580078125,
+            -0.381103515625,
+            3.517578125
+          ],
+          "max": [
+            -1.2998046875,
+            0.373779296875,
+            4.49609375
+          ]
+        },
+        "upgrade_arrow_05_combined": {
+          "min": [
+            -0.25537109375,
+            -2.2265625,
+            6.67578125
+          ],
+          "max": [
+            2.41796875,
+            2.392578125,
+            8.9296875
+          ]
+        },
+        "upgrade_arrow_02": {
+          "min": [
+            -1.6484375,
+            -0.5361328125,
+            7.03125
+          ],
+          "max": [
+            1.63671875,
+            1.4560546875,
+            9.1328125
+          ]
+        },
+        "upgrade_cannon_06": {
+          "min": [
+            -0.249755859375,
+            -2.228515625,
+            4.03125
+          ],
+          "max": [
+            0.240234375,
+            -1.5712890625,
+            4.328125
+          ]
+        },
+        "upgrade_arrow_03": {
+          "min": [
+            -1.6513671875,
+            -1.58203125,
+            7.03125
+          ],
+          "max": [
+            1.6337890625,
+            0.1812744140625,
+            9.2109375
+          ]
+        },
+        "upgrade_cannon_07": {
+          "min": [
+            -2.177734375,
+            -0.240234375,
+            4.03125
+          ],
+          "max": [
+            -1.5185546875,
+            0.249755859375,
+            4.328125
+          ]
+        },
+        "upgrade_arrow_06": {
+          "min": [
+            -2.3515625,
+            -2.2265625,
+            7.59765625
+          ],
+          "max": [
+            0.371826171875,
+            -0.1680908203125,
+            8.90625
+          ]
+        },
+        "upgrade_cannon_04": {
+          "min": [
+            -0.240234375,
+            1.541015625,
+            4.03125
+          ],
+          "max": [
+            0.249755859375,
+            2.19921875,
+            4.328125
+          ]
+        },
+        "upgrade_cannon_05": {
+          "min": [
+            1.50390625,
+            -0.249755859375,
+            4.03125
+          ],
+          "max": [
+            2.162109375,
+            0.240234375,
+            4.328125
+          ]
+        },
+        "upgrade_arrow_01_combined": {
+          "min": [
+            -2.3515625,
+            -2.12890625,
+            6.67578125
+          ],
+          "max": [
+            0.307373046875,
+            2.37890625,
+            8.9140625
+          ]
+        },
+        "upgrade_springald_01_combined": {
+          "min": [
+            -1.548828125,
+            -0.296875,
+            3.46875
+          ],
+          "max": [
+            0.298095703125,
+            1.646484375,
+            5.296875
+          ]
+        },
+        "upgrade_springald_03_combined": {
+          "min": [
+            -0.298095703125,
+            -1.658203125,
+            3.46875
+          ],
+          "max": [
+            1.5517578125,
+            0.296875,
+            5.296875
+          ]
+        },
+        "upgrade_cannon_02_combined": {
+          "min": [
+            -0.381103515625,
+            -1.6328125,
+            3.517578125
+          ],
+          "max": [
+            1.5654296875,
+            1.6025390625,
+            4.49609375
+          ]
+        }
+      },
+      "emplacement_reference_unions": {
+        "arrow": {
+          "min": [
+            -2.3515625,
+            -2.2265625,
+            6.67578125
+          ],
+          "max": [
+            2.41796875,
+            2.392578125,
+            9.2109375
+          ],
+          "source_count": 5,
+          "qualification": "Union of named source rest bounds in projected cooked model coordinates. Includes native structural frames; not a proved active subset, pivot or animation sweep."
+        },
+        "springald": {
+          "min": [
+            -1.548828125,
+            -1.658203125,
+            3.46875
+          ],
+          "max": [
+            1.5517578125,
+            1.646484375,
+            5.296875
+          ],
+          "source_count": 2,
+          "qualification": "Union of named source rest bounds in projected cooked model coordinates. Includes native structural frames; not a proved active subset, pivot or animation sweep."
+        },
+        "cannon": {
+          "min": [
+            -2.177734375,
+            -2.228515625,
+            3.517578125
+          ],
+          "max": [
+            2.162109375,
+            2.19921875,
+            4.49609375
+          ],
+          "source_count": 6,
+          "qualification": "Union of named source rest bounds in projected cooked model coordinates. Includes native structural frames; not a proved active subset, pivot or animation sweep."
+        }
+      },
+      "moving_sweep_bounds": null,
+      "moving_sweep_qualification": "Not measured: no native clips were sampled and reference/bind semantics are not yet source-pose qualified. These rest unions are not collision clearance proof.",
+      "native_muzzle_markers": {
+        "valid_complete_parse": true,
+        "payload_sha256": "5b4a5603eae13de7de79d32ffc66de21fee2d6823880cb68b8aac0699809499e",
+        "numeric_frame": "Empty parent_bone/flag0 is model-root frame; named parent_bone/flag1 is a native bone-local transform. World transforms require the native skeleton/pose.",
+        "markers": [
+          {
+            "name": "fx_muz_arrow_02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "translation": [
+              0.005263622384518385,
+              7.777283191680908,
+              1.8322453498840332
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_cannon_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              0.0028396740090101957,
+              3.9276130199432373,
+              -1.3773255348205566
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_springald_02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              0.0028396740090101957,
+              4.032535552978516,
+              -1.3773255348205566
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_cannon_00",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              1.368171215057373,
+              3.9327237606048584,
+              -0.0070343017578125
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_cannon_03",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              -0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              -1.3638064861297607,
+              3.930088996887207,
+              -0.012945270165801048
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_springald_04",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              -0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              -1.3638064861297607,
+              4.031124591827393,
+              -0.012945270165801048
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "wep_hardpoint03",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              0.009624435566365719,
+              3.98960018157959,
+              -1.3806620836257935
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_cannon_02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "translation": [
+              -0.017747681587934494,
+              3.9374849796295166,
+              1.3607712984085083
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_springald_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "translation": [
+              -0.017747681587934494,
+              4.042407035827637,
+              1.3607712984085083
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_arrow_00",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              -0.025964295491576195,
+              7.7558135986328125,
+              -1.8234754800796509
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_arrow_03",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              -0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              -1.808190107345581,
+              7.764862537384033,
+              -0.011861145496368408
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "wep_hardpoint04",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              -0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              -1.3467812538146973,
+              3.98960018157959,
+              -0.010762856341898441
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "wep_hardpoint01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "translation": [
+              -0.01748865284025669,
+              3.98960018157959,
+              1.3817389011383057
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "wep_hardpoint02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              1.3627475500106812,
+              3.98960018157959,
+              -0.002383117564022541
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_springald_03",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              1.368171215057373,
+              4.037646293640137,
+              -0.0070343017578125
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_arrow_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              1.9080485105514526,
+              7.778097152709961,
+              0.014889609068632126
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          }
+        ],
+        "world_pose_qualified": false
+      },
+      "rigid_bound_sources": [
+        {
+          "source_name": "upgrade_cannon_01",
+          "native_parent_bone": "hlp_upgrade_cannon_01",
+          "binding_header_sha256": "7da9c0ad081bed3df4f233500ffd6e11da5700a2d0edd428dece12edba49510f"
+        },
+        {
+          "source_name": "upgrade_arrow_05_combined",
+          "native_parent_bone": "hlp_upgrade_arrow_05",
+          "binding_header_sha256": "ba3313aa1d95cf2bb013dda8a717d99dcd55909f84077892cf5fdd060446d8c5"
+        },
+        {
+          "source_name": "upgrade_arrow_06",
+          "native_parent_bone": "hlp_upgrade_arrow_06",
+          "binding_header_sha256": "5250c9894f78f5208862117d6e216215e766771ea4faa1f03b5dcc4fa62e49c7"
+        },
+        {
+          "source_name": "upgrade_arrow_01_combined",
+          "native_parent_bone": "hlp_upgrade_arrow_01",
+          "binding_header_sha256": "94353c91c58d63b09fd64b8320d2b8d5d93e3a121e5d56b8931283ed95d52de7"
+        },
+        {
+          "source_name": "upgrade_springald_01_combined",
+          "native_parent_bone": "hlp_upgrade_springald_01",
+          "binding_header_sha256": "564af10d18c6097a828ee7773a992b8b371e52103548a8ce9e64acd176298582"
+        },
+        {
+          "source_name": "upgrade_springald_03_combined",
+          "native_parent_bone": "hlp_upgrade_springald_03",
+          "binding_header_sha256": "ef716c5e9d107dd0b6121171e427f12919670d9e18ec13d80b68de1c6daf7b1f"
+        },
+        {
+          "source_name": "upgrade_cannon_02_combined",
+          "native_parent_bone": "hlp_upgrade_cannon_02",
+          "binding_header_sha256": "a86063bf82fc6f6bf853d3d6437f3ee768e93d0b7e3d8a175933c515080a4f3d"
+        }
+      ],
+      "SKLN_bones": [
+        {
+          "name": "hlp_upgrade_cannon_02",
+          "parent_index": -1,
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "hlp_upgrade_cannon_01",
+          "parent_index": -1,
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "hlp_upgrade_springald_03",
+          "parent_index": -1,
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "hlp_upgrade_springald_01",
+          "parent_index": -1,
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "hlp_upgrade_arrow_05",
+          "parent_index": -1,
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "hlp_upgrade_arrow_06",
+          "parent_index": -1,
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "hlp_upgrade_arrow_01",
+          "parent_index": -1,
+          "raw_local_reference_trs_xyzw_translation_scale": [
+            -0.7071067690849304,
+            -0.0,
+            0.0,
+            0.7071067690849304,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "source_body_key": "A1Basic"
+    },
+    "fortified": {
+      "native_body_choice": "fortified",
+      "inventory_category": "stone_upgrade",
+      "source_key": "A1Fortified",
+      "resource": {
+        "model": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01_upgrade_stone/sul_outpost_control_age01_upgrade_stone.rgm",
+        "native_age_label_from_resource_name": 1,
+        "body_choice": "fortified",
+        "native_model_local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\sultanate\\structures\\outpost\\sul_outpost_control_age01_upgrade_stone\\sul_outpost_control_age01_upgrade_stone.rgm",
+        "native_model_sha256": "0430037b38963fcc46b54169f80e516f2891aea37d2c7e5f71d31741eb077722",
+        "native_geometry_local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\sultanate\\structures\\outpost\\sul_outpost_control_age01_upgrade_stone\\sul_outpost_control_age01_upgrade_stone.rrgeom",
+        "native_geometry_sha256": "a91fa475f644c6adde54eb6d0b12b8451062f60c372bef0a29ef1c40409f78cf",
+        "healthy_lod0_triangle_interval": [
+          22676,
+          32930
+        ],
+        "healthy_definite_rest_bounds": {
+          "min": [
+            -1.69140625,
+            -3.345703125,
+            -1.5986328125
+          ],
+          "max": [
+            1.69140625,
+            1.69140625,
+            9.375
+          ]
+        },
+        "healthy_possible_rest_bounds": {
+          "min": [
+            -1.69140625,
+            -3.345703125,
+            -1.5986328125
+          ],
+          "max": [
+            1.7080078125,
+            1.69140625,
+            9.375
+          ]
+        },
+        "native_animation_graphs": [
+          {
+            "logical_path": "art/civilizations/sultanate/structures/outpost/sul_outpost_control_age01_upgrade_stone/sul_outpost_control_age01_upgrade_stone.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\sultanate\\structures\\outpost\\sul_outpost_control_age01_upgrade_stone\\sul_outpost_control_age01_upgrade_stone.rgo",
+            "sha256": "e493f83cc0b13158bbaa28d7b1bd7cb5d1a80b9aaed0149e32e22c615714335f"
+          }
+        ],
+        "source_uses": [
+          {
+            "actor": "ps_building_defense_outpost_control_sul",
+            "variant": "campaign",
+            "variant_evidence_class": "existing_private_compiled_variant",
+            "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_outpost_sul/defense_outpost_control_sul",
+            "attachment_category": "default",
+            "inventory_category": "stone_upgrade",
+            "stamp": "art/stamps/civ_sul/sul_outpost_stone.bin",
+            "stamp_instance_index": 0
+          },
+          {
+            "actor": "ps_building_defense_outpost_control_sul",
+            "variant": "cordoba",
+            "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+            "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_outpost_sul/defense_outpost_control_sul",
+            "attachment_category": "default",
+            "inventory_category": "stone_upgrade",
+            "stamp": "art/stamps/civ_sul/sul_outpost_stone.bin",
+            "stamp_instance_index": 0
+          },
+          {
+            "actor": "ps_building_defense_outpost_control_sul",
+            "variant": "default",
+            "variant_evidence_class": "existing_private_compiled_variant",
+            "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_outpost_sul/defense_outpost_control_sul",
+            "attachment_category": "default",
+            "inventory_category": "stone_upgrade",
+            "stamp": "art/stamps/civ_sul/sul_outpost_stone.bin",
+            "stamp_instance_index": 0
+          },
+          {
+            "actor": "ps_building_defense_outpost_control_sul",
+            "variant": "xp3",
+            "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+            "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_outpost_sul/defense_outpost_control_sul",
+            "attachment_category": "default",
+            "inventory_category": "stone_upgrade",
+            "stamp": "art/stamps/civ_sul/sul_outpost_stone.bin",
+            "stamp_instance_index": 0
+          }
+        ]
+      },
+      "stamp": [
+        {
+          "native_transform_xyzw_translation_scale": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "blender_matrix_row_major": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              -0.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "healthy_definite_stamp_space_rest_bounds": {
+            "min": [
+              -1.69140625,
+              -1.69140625,
+              -1.5986328125
+            ],
+            "max": [
+              1.69140625,
+              3.345703125,
+              9.375
+            ]
+          },
+          "healthy_possible_stamp_space_rest_bounds": {
+            "min": [
+              -1.7080078125,
+              -1.69140625,
+              -1.5986328125
+            ],
+            "max": [
+              1.69140625,
+              3.345703125,
+              9.375
+            ]
+          }
+        }
+      ],
+      "exact_model_local_emplacement_source_bounds": {
+        "geo_upgrade_cannon_04": {
+          "min": [
+            -1.671875,
+            -0.2445068359375,
+            6.84375
+          ],
+          "max": [
+            -0.92578125,
+            0.2454833984375,
+            7.19140625
+          ]
+        },
+        "geo_upgrade_cannon_05": {
+          "min": [
+            -0.2454833984375,
+            -1.6708984375,
+            6.84375
+          ],
+          "max": [
+            0.2445068359375,
+            -0.92529296875,
+            7.19140625
+          ]
+        },
+        "geo_upgrade_cannon_08": {
+          "min": [
+            0.94873046875,
+            -0.2454833984375,
+            6.84375
+          ],
+          "max": [
+            1.6943359375,
+            0.2445068359375,
+            7.19140625
+          ]
+        },
+        "geo_upgrade_cannon_06": {
+          "min": [
+            -0.2445068359375,
+            0.94384765625,
+            6.84375
+          ],
+          "max": [
+            0.2454833984375,
+            1.689453125,
+            7.19140625
+          ]
+        },
+        "geo_upgrade_arrow_05": {
+          "min": [
+            -1.4794921875,
+            -0.1488037109375,
+            6.16796875
+          ],
+          "max": [
+            -0.053497314453125,
+            1.4853515625,
+            6.83984375
+          ]
+        },
+        "geo_upgrade_springald_04": {
+          "min": [
+            0.53466796875,
+            -0.36669921875,
+            5.59765625
+          ],
+          "max": [
+            0.9658203125,
+            0.36669921875,
+            7.4140625
+          ]
+        },
+        "geo_upgrade_springald_03": {
+          "min": [
+            -0.36669921875,
+            -0.962890625,
+            5.59765625
+          ],
+          "max": [
+            0.36669921875,
+            -0.53466796875,
+            7.4140625
+          ]
+        },
+        "geo_upgrade_springald_02": {
+          "min": [
+            -0.9599609375,
+            -0.36669921875,
+            5.59765625
+          ],
+          "max": [
+            -0.53466796875,
+            0.36669921875,
+            7.4140625
+          ]
+        },
+        "geo_upgrade_springald_01": {
+          "min": [
+            -0.36669921875,
+            0.53466796875,
+            5.59765625
+          ],
+          "max": [
+            0.36669921875,
+            0.9609375,
+            7.4140625
+          ]
+        },
+        "geo_upgrade_cannon_03": {
+          "min": [
+            0.6162109375,
+            -0.42236328125,
+            6.14453125
+          ],
+          "max": [
+            1.05078125,
+            0.421875,
+            7.30859375
+          ]
+        },
+        "geo_upgrade_cannon_02": {
+          "min": [
+            -0.42236328125,
+            -1.02734375,
+            6.14453125
+          ],
+          "max": [
+            0.421875,
+            -0.59326171875,
+            7.30859375
+          ]
+        },
+        "geo_upgrade_cannon_01": {
+          "min": [
+            -1.0283203125,
+            -0.421875,
+            6.14453125
+          ],
+          "max": [
+            -0.59375,
+            0.42236328125,
+            7.30859375
+          ]
+        },
+        "geo_upgrade_cannon_07": {
+          "min": [
+            -0.421875,
+            0.611328125,
+            6.14453125
+          ],
+          "max": [
+            0.42236328125,
+            1.0458984375,
+            7.30859375
+          ]
+        },
+        "geo_upgrade_arrow_04": {
+          "min": [
+            -1.666015625,
+            -1.7138671875,
+            6.16796875
+          ],
+          "max": [
+            0.326171875,
+            0.11212158203125,
+            7.70703125
+          ]
+        },
+        "geo_upgrade_arrow_03": {
+          "min": [
+            -1.68359375,
+            -0.294189453125,
+            6.21875
+          ],
+          "max": [
+            0.0931396484375,
+            1.6640625,
+            7.71484375
+          ]
+        },
+        "geo_upgrade_arrow_02": {
+          "min": [
+            -0.127685546875,
+            0.1649169921875,
+            6.1640625
+          ],
+          "max": [
+            1.689453125,
+            1.689453125,
+            7.72265625
+          ]
+        },
+        "geo_upgrade_arrow_01": {
+          "min": [
+            0.1441650390625,
+            -1.6923828125,
+            6.16796875
+          ],
+          "max": [
+            1.7080078125,
+            0.60986328125,
+            7.71875
+          ]
+        }
+      },
+      "emplacement_reference_unions": {
+        "arrow": {
+          "min": [
+            -1.68359375,
+            -1.7138671875,
+            6.1640625
+          ],
+          "max": [
+            1.7080078125,
+            1.689453125,
+            7.72265625
+          ],
+          "source_count": 5,
+          "qualification": "Union of named source rest bounds in projected cooked model coordinates. Includes native structural frames; not a proved active subset, pivot or animation sweep."
+        },
+        "springald": {
+          "min": [
+            -0.9599609375,
+            -0.962890625,
+            5.59765625
+          ],
+          "max": [
+            0.9658203125,
+            0.9609375,
+            7.4140625
+          ],
+          "source_count": 4,
+          "qualification": "Union of named source rest bounds in projected cooked model coordinates. Includes native structural frames; not a proved active subset, pivot or animation sweep."
+        },
+        "cannon": {
+          "min": [
+            -1.671875,
+            -1.6708984375,
+            6.14453125
+          ],
+          "max": [
+            1.6943359375,
+            1.689453125,
+            7.30859375
+          ],
+          "source_count": 8,
+          "qualification": "Union of named source rest bounds in projected cooked model coordinates. Includes native structural frames; not a proved active subset, pivot or animation sweep."
+        }
+      },
+      "moving_sweep_bounds": null,
+      "moving_sweep_qualification": "Not measured: no native clips were sampled and reference/bind semantics are not yet source-pose qualified. These rest unions are not collision clearance proof.",
+      "native_muzzle_markers": {
+        "valid_complete_parse": true,
+        "payload_sha256": "4d54c79be6d7924d1466627d283f63657a038771746ac22257996db95423d957",
+        "numeric_frame": "Empty parent_bone/flag0 is model-root frame; named parent_bone/flag1 is a native bone-local transform. World transforms require the native skeleton/pose.",
+        "markers": [
+          {
+            "name": "fx_muz_arrow_02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "translation": [
+              -0.6664438843727112,
+              6.914641857147217,
+              1.282145380973816
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_cannon_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              -0.02016284316778183,
+              4.391824245452881,
+              -1.292553424835205
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_springald_02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              -0.02016284316778183,
+              4.49674654006958,
+              -1.292553424835205
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_cannon_00",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              1.2597678899765015,
+              4.39247465133667,
+              -0.0070343017578125
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_cannon_03",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              -0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              -1.2868484258651733,
+              4.406327247619629,
+              0.011568676680326462
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_springald_04",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              -0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              -1.2868484258651733,
+              4.507362365722656,
+              0.011568676680326462
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_cannon_02",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "translation": [
+              -0.00043934633140452206,
+              4.3934712409973145,
+              1.249792456626892
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_springald_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "translation": [
+              -0.00043934633140452206,
+              4.498393535614014,
+              1.249792456626892
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_arrow_00",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "translation": [
+              0.6612536907196045,
+              6.910360813140869,
+              -1.2613121271133423
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_arrow_03",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              -0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              -1.2818225622177124,
+              6.917633533477783,
+              -0.659629762172699
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_springald_03",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              1.2597678899765015,
+              4.497396469116211,
+              -0.0070343017578125
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          },
+          {
+            "name": "fx_muz_arrow_01",
+            "parent_bone": "",
+            "native_frame_flag": 0,
+            "quaternion_xyzw": [
+              0.7071067690849304,
+              0.0,
+              0.7071067690849304,
+              0.0
+            ],
+            "translation": [
+              1.2607967853546143,
+              6.9172043800354,
+              0.6713268160820007
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "attributes": {}
+          }
+        ],
+        "world_pose_qualified": false
+      },
+      "rigid_bound_sources": [],
+      "SKLN_bones": [],
+      "source_body_key": "A1Fortified"
+    }
+  },
+  "configurations": [
+    {
+      "id": "wood__none",
+      "body_key": "A1Basic",
+      "emplacement": "none",
+      "source_architecture_state": "healthy",
+      "retained_native_mechanism_collection": null,
+      "native_mechanism_retained": false,
+      "preview_ready": false,
+      "selector_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "baseline_garrison_fire": "Separate inherited hardpoints/hold-event owner; do not add an emplacement or manufacture a visible archer.",
+      "scope": "Standard reachable Persian research; armed_to_the_teeth absent, other-civilization exceptions absent.",
+      "native_body_choice": "wood"
+    },
+    {
+      "id": "wood__arrowslits",
+      "body_key": "A1Basic",
+      "emplacement": "arrowslits",
+      "source_architecture_state": "healthy",
+      "retained_native_mechanism_collection": "NATIVE_OUTPOST_wood_arrowslits",
+      "native_mechanism_retained": false,
+      "preview_ready": false,
+      "selector_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "baseline_garrison_fire": "Separate inherited hardpoints/hold-event owner; do not add an emplacement or manufacture a visible archer.",
+      "scope": "Standard reachable Persian research; armed_to_the_teeth absent, other-civilization exceptions absent.",
+      "native_body_choice": "wood"
+    },
+    {
+      "id": "wood__springald",
+      "body_key": "A1Basic",
+      "emplacement": "springald",
+      "source_architecture_state": "healthy",
+      "retained_native_mechanism_collection": "NATIVE_OUTPOST_wood_springald",
+      "native_mechanism_retained": false,
+      "preview_ready": false,
+      "selector_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "baseline_garrison_fire": "Separate inherited hardpoints/hold-event owner; do not add an emplacement or manufacture a visible archer.",
+      "scope": "Standard reachable Persian research; armed_to_the_teeth absent, other-civilization exceptions absent.",
+      "native_body_choice": "wood"
+    },
+    {
+      "id": "wood__cannon",
+      "body_key": "A1Basic",
+      "emplacement": "cannon",
+      "source_architecture_state": "healthy",
+      "retained_native_mechanism_collection": "NATIVE_OUTPOST_wood_cannon",
+      "native_mechanism_retained": false,
+      "preview_ready": false,
+      "selector_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "baseline_garrison_fire": "Separate inherited hardpoints/hold-event owner; do not add an emplacement or manufacture a visible archer.",
+      "scope": "Standard reachable Persian research; armed_to_the_teeth absent, other-civilization exceptions absent.",
+      "native_body_choice": "wood"
+    },
+    {
+      "id": "fortified__none",
+      "body_key": "A1Fortified",
+      "emplacement": "none",
+      "source_architecture_state": "healthy",
+      "retained_native_mechanism_collection": null,
+      "native_mechanism_retained": false,
+      "preview_ready": false,
+      "selector_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "baseline_garrison_fire": "Separate inherited hardpoints/hold-event owner; do not add an emplacement or manufacture a visible archer.",
+      "scope": "Standard reachable Persian research; armed_to_the_teeth absent, other-civilization exceptions absent.",
+      "native_body_choice": "fortified"
+    },
+    {
+      "id": "fortified__arrowslits",
+      "body_key": "A1Fortified",
+      "emplacement": "arrowslits",
+      "source_architecture_state": "healthy",
+      "retained_native_mechanism_collection": "NATIVE_OUTPOST_fortified_arrowslits",
+      "native_mechanism_retained": false,
+      "preview_ready": false,
+      "selector_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "on",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "baseline_garrison_fire": "Separate inherited hardpoints/hold-event owner; do not add an emplacement or manufacture a visible archer.",
+      "scope": "Standard reachable Persian research; armed_to_the_teeth absent, other-civilization exceptions absent.",
+      "native_body_choice": "fortified"
+    },
+    {
+      "id": "fortified__springald",
+      "body_key": "A1Fortified",
+      "emplacement": "springald",
+      "source_architecture_state": "healthy",
+      "retained_native_mechanism_collection": "NATIVE_OUTPOST_fortified_springald",
+      "native_mechanism_retained": false,
+      "preview_ready": false,
+      "selector_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "on",
+        "upgrade_cannon": "off",
+        "upgrade_oil": "off"
+      },
+      "baseline_garrison_fire": "Separate inherited hardpoints/hold-event owner; do not add an emplacement or manufacture a visible archer.",
+      "scope": "Standard reachable Persian research; armed_to_the_teeth absent, other-civilization exceptions absent.",
+      "native_body_choice": "fortified"
+    },
+    {
+      "id": "fortified__cannon",
+      "body_key": "A1Fortified",
+      "emplacement": "cannon",
+      "source_architecture_state": "healthy",
+      "retained_native_mechanism_collection": "NATIVE_OUTPOST_fortified_cannon",
+      "native_mechanism_retained": false,
+      "preview_ready": false,
+      "selector_context": {
+        "life_cycle_state": "healthy",
+        "has_collapsed_ruins": "false",
+        "upgrade_arrow": "off",
+        "upgrade_springald": "off",
+        "upgrade_cannon": "on",
+        "upgrade_oil": "off"
+      },
+      "baseline_garrison_fire": "Separate inherited hardpoints/hold-event owner; do not add an emplacement or manufacture a visible archer.",
+      "scope": "Standard reachable Persian research; armed_to_the_teeth absent, other-civilization exceptions absent.",
+      "native_body_choice": "fortified"
+    }
+  ],
+  "legal_configuration_count": 8,
+  "requirements": {
+    "arrowslits": {
+      "decoded_xml": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\xml\\attrib\\upgrade\\races\\common\\research\\upgrade_outpost_arrowslits.xml",
+      "decoded_xml_sha256": "d9842d9d0ba5e3e7f9b7114c06e4c3376a9dc85f16124fd2d397c82d56cc5945",
+      "native_blob_sha256": "12d65063ce85a6335deb249d15af997c64a1ea8fde4acc7719d5a2f95995fe86",
+      "requirements_by_native_variant": {
+        "default": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "feudal_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_any_in_list",
+              "children": [
+                {
+                  "kind": "required_all_in_list",
+                  "children": [
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_mangonel_byz",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_mangonel_byz",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_statemodelbool",
+                      "key": "landmark_toll_outpost_built_mal",
+                      "default_value": "false",
+                      "data_source_type": "player_datasource",
+                      "compare_to_value": "false",
+                      "reason": "usage_and_display"
+                    }
+                  ]
+                },
+                {
+                  "kind": "required_all_in_list",
+                  "children": [
+                    {
+                      "kind": "required_player_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "true",
+                      "upgrade_name": "armed_to_the_teeth",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "campaign": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "feudal_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11150626",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_springald",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_arrowslits",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_springald",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11150626",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_arrowslits",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11150626",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_cannon",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_cannon",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            }
+          ]
+        },
+        "cordoba": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "feudal_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_any_in_list",
+              "children": [
+                {
+                  "kind": "required_all_in_list",
+                  "children": [
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_mangonel_byz",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_mangonel_byz",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_statemodelbool",
+                      "key": "landmark_toll_outpost_built_mal",
+                      "default_value": "false",
+                      "data_source_type": "player_datasource",
+                      "compare_to_value": "false",
+                      "reason": "usage_and_display"
+                    }
+                  ]
+                },
+                {
+                  "kind": "required_all_in_list",
+                  "children": [
+                    {
+                      "kind": "required_player_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "true",
+                      "upgrade_name": "armed_to_the_teeth",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "xp3": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "feudal_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11246227",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_springald",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_arrowslits",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_springald",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11246227",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_arrowslits",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11246227",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_cannon",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_cannon",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_mangonel_byz",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11246227",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_mangonel_byz",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "springald": {
+      "decoded_xml": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\xml\\attrib\\upgrade\\races\\common\\research\\upgrade_outpost_springald.xml",
+      "decoded_xml_sha256": "fcc68caa10d4f90b311c878a28aa79a3846c5565d2f1726f11de40f1a2a69933",
+      "native_blob_sha256": "f6e0c93e63881c1164a202f4fb6ec6f605986691d6dc3566e4869ec96150bb5e",
+      "requirements_by_native_variant": {
+        "default": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "castle_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_any_in_list",
+              "children": [
+                {
+                  "kind": "required_all_in_list",
+                  "children": [
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "required_all_in_list",
+                  "children": [
+                    {
+                      "kind": "required_player_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "true",
+                      "upgrade_name": "armed_to_the_teeth",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "campaign": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "castle_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11150626",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_arrowslits",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_arrowslits",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_springald",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11150626",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_springald",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11150626",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_cannon",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_cannon",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11150626",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            }
+          ]
+        },
+        "cordoba": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "castle_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_any_in_list",
+              "children": [
+                {
+                  "kind": "required_all_in_list",
+                  "children": [
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "required_all_in_list",
+                  "children": [
+                    {
+                      "kind": "required_player_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "true",
+                      "upgrade_name": "armed_to_the_teeth",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "xp3": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "castle_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11246227",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_arrowslits",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_arrowslits",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_springald",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11246227",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_springald",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11246227",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_cannon",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_cannon",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11246227",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "cannon": {
+      "decoded_xml": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\xml\\attrib\\upgrade\\races\\common\\research\\upgrade_outpost_cannon.xml",
+      "decoded_xml_sha256": "9e82cc9e5483bdecc692e5911256356d53f932b08d59e92eb19f0de7b1333932",
+      "native_blob_sha256": "8bffec8216e955ca51148aa9341d50b7590b88631eaae735830831ada591bd75",
+      "requirements_by_native_variant": {
+        "default": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "imperial_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_any_in_list",
+              "children": [
+                {
+                  "kind": "required_all_in_list",
+                  "children": [
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11150626",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_mangonel_byz",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_mangonel_byz",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_tower_bedcrossbow_jin",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_tower_bedcrossbow_jin",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "required_all_in_list",
+                  "children": [
+                    {
+                      "kind": "required_player_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "true",
+                      "upgrade_name": "armed_to_the_teeth",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "campaign": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "imperial_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_any_in_list",
+              "children": [
+                {
+                  "kind": "required_player_upgrade",
+                  "include_queued": "false",
+                  "include_completed": "true",
+                  "max_completed": "100",
+                  "min_completed": "1",
+                  "reason": "usage",
+                  "is_present": "true",
+                  "upgrade_name": "upgrade_siege_chemistry",
+                  "include_pbg_parenting": {
+                    "include_child_pbgs": "false",
+                    "include_parent_pbgs": "false"
+                  }
+                },
+                {
+                  "kind": "required_player_upgrade",
+                  "include_queued": "false",
+                  "include_completed": "true",
+                  "max_completed": "100",
+                  "min_completed": "1",
+                  "reason": "usage",
+                  "is_present": "true",
+                  "upgrade_name": "upgrade_siege_chemistry_sul",
+                  "include_pbg_parenting": {
+                    "include_child_pbgs": "false",
+                    "include_parent_pbgs": "false"
+                  }
+                },
+                {
+                  "kind": "required_player_upgrade",
+                  "include_queued": "false",
+                  "include_completed": "true",
+                  "max_completed": "100",
+                  "min_completed": "1",
+                  "reason": "usage",
+                  "is_present": "true",
+                  "upgrade_name": "upgrade_siege_chemistry_mon",
+                  "include_pbg_parenting": {
+                    "include_child_pbgs": "false",
+                    "include_parent_pbgs": "false"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11150626",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_arrowslits",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_arrowslits",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_springald",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11150626",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_springald",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11150626",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_cannon",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_cannon",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11150626",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            }
+          ]
+        },
+        "cordoba": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "imperial_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_any_in_list",
+              "children": [
+                {
+                  "kind": "required_all_in_list",
+                  "children": [
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_arrowslits",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "true",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_springald",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11150626",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_mangonel_byz",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_mangonel_byz",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_tower_bedcrossbow_jin",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_tower_bedcrossbow_jin",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "required_all_in_list",
+                  "children": [
+                    {
+                      "kind": "required_player_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "true",
+                      "upgrade_name": "armed_to_the_teeth",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "true",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "ui_name": "11246227",
+                      "min_completed": "1",
+                      "reason": "usage",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    },
+                    {
+                      "kind": "required_entity_upgrade",
+                      "include_queued": "false",
+                      "include_completed": "true",
+                      "max_completed": "100",
+                      "min_completed": "1",
+                      "reason": "usage_and_display",
+                      "is_present": "false",
+                      "upgrade_name": "upgrade_outpost_cannon",
+                      "include_pbg_parenting": {
+                        "include_child_pbgs": "false",
+                        "include_parent_pbgs": "false"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "xp3": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "imperial_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11246227",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_arrowslits",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_arrowslits",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_springald",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11246227",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_springald",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11246227",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_cannon",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_cannon",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11150626",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_handcannonslits_chi",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_mangonel_byz",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "ui_name": "11246227",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_mangonel_byz",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "stone": {
+      "decoded_xml": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\xml\\attrib\\upgrade\\races\\common\\research\\upgrade_outpost_stone.xml",
+      "decoded_xml_sha256": "6ebae8a27c96fb42e429960120f202d304b14060886f9f8dfebea9a5341bebfa",
+      "native_blob_sha256": "3e24422643af590b33854d40e415a4eb1e5bde3e3ff25a486f9960e11a2da806",
+      "requirements_by_native_variant": {
+        "default": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "feudal_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_stone",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_stone",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            }
+          ]
+        },
+        "campaign": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "feudal_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_stone",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_stone",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            }
+          ]
+        },
+        "cordoba": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "feudal_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_stone",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_stone",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            }
+          ]
+        },
+        "xp3": {
+          "kind": "requirements",
+          "children": [
+            {
+              "kind": "required_player_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "true",
+              "upgrade_name": "feudal_age",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "false",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage_and_display",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_stone",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            },
+            {
+              "kind": "required_entity_upgrade",
+              "include_queued": "true",
+              "include_completed": "true",
+              "max_completed": "100",
+              "min_completed": "1",
+              "reason": "usage",
+              "is_present": "false",
+              "upgrade_name": "upgrade_outpost_stone",
+              "include_pbg_parenting": {
+                "include_child_pbgs": "false",
+                "include_parent_pbgs": "false"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirement_evaluation": {
+    "source": "Every requirement sibling retained in ordered children arrays. The older OUTPOST_CONTRACT req_summary dictionary overwrites repeated same-key siblings; do not use its campaign/expansion requirement summaries as complete.",
+    "method": "Finite reachable-state search of four offered upgrades, empty queue, all age prerequisites and campaign Sultanate Chemistry granted, standard exception flags absent. Native queued/completed flags are retained verbatim; this source check is not an engine research test.",
+    "reachable_states_by_variant": {
+      "default": [
+        {
+          "completed_entity_upgrades": [],
+          "one_legal_research_order": []
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_arrowslits"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_arrowslits"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_cannon"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_cannon"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_springald"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_springald"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_stone"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_arrowslits",
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_arrowslits",
+            "upgrade_outpost_stone"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_cannon",
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_cannon",
+            "upgrade_outpost_stone"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_springald",
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_springald",
+            "upgrade_outpost_stone"
+          ]
+        }
+      ],
+      "campaign": [
+        {
+          "completed_entity_upgrades": [],
+          "one_legal_research_order": []
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_arrowslits"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_arrowslits"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_cannon"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_cannon"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_springald"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_springald"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_stone"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_arrowslits",
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_arrowslits",
+            "upgrade_outpost_stone"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_cannon",
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_cannon",
+            "upgrade_outpost_stone"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_springald",
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_springald",
+            "upgrade_outpost_stone"
+          ]
+        }
+      ],
+      "cordoba": [
+        {
+          "completed_entity_upgrades": [],
+          "one_legal_research_order": []
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_arrowslits"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_arrowslits"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_cannon"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_cannon"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_springald"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_springald"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_stone"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_arrowslits",
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_arrowslits",
+            "upgrade_outpost_stone"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_cannon",
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_cannon",
+            "upgrade_outpost_stone"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_springald",
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_springald",
+            "upgrade_outpost_stone"
+          ]
+        }
+      ],
+      "xp3": [
+        {
+          "completed_entity_upgrades": [],
+          "one_legal_research_order": []
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_arrowslits"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_arrowslits"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_cannon"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_cannon"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_springald"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_springald"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_stone"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_arrowslits",
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_arrowslits",
+            "upgrade_outpost_stone"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_cannon",
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_cannon",
+            "upgrade_outpost_stone"
+          ]
+        },
+        {
+          "completed_entity_upgrades": [
+            "upgrade_outpost_springald",
+            "upgrade_outpost_stone"
+          ],
+          "one_legal_research_order": [
+            "upgrade_outpost_springald",
+            "upgrade_outpost_stone"
+          ]
+        }
+      ]
+    },
+    "actual_private_compiled_variants": [
+      "default",
+      "campaign"
+    ],
+    "official_parent_candidate_variants_only": [
+      "cordoba",
+      "xp3"
+    ],
+    "special_exception": "Default/cordoba Armed to the Teeth branch can relax weapon mutual exclusion; it is not an offered upgrade or granted by the scoped Persian actor. No multiple-emplacement previews assigned to standard Persia. If another system grants it, re-evaluate rather than claiming universal exclusivity.",
+    "campaign_cannon_extra_prerequisite": "At Imperial age, any of upgrade_siege_chemistry / upgrade_siege_chemistry_sul / upgrade_siege_chemistry_mon."
+  },
+  "inherited_combat": {
+    "default": {
+      "hardpoints": [
+        {
+          "zero_based_hardpoint": 0,
+          "firing_offset_markers": [
+            "fx_muz_arrow_00",
+            "fx_muz_arrow_01",
+            "fx_muz_arrow_02",
+            "fx_muz_arrow_03"
+          ],
+          "weapon_entities": [
+            "wpn_siege_outpost_arrows"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 5.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 1,
+          "firing_offset_markers": [
+            "fx_muz_springald_00",
+            "fx_muz_springald_01",
+            "fx_muz_springald_02",
+            "fx_muz_springald_03"
+          ],
+          "weapon_entities": [
+            "wpn_siege_outpost_springald"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 5.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 2,
+          "firing_offset_markers": [
+            "fx_muz_cannon_00",
+            "fx_muz_cannon_01",
+            "fx_muz_cannon_02",
+            "fx_muz_cannon_03"
+          ],
+          "weapon_entities": [
+            "wpn_siege_outpost_cannon"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 5.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 3,
+          "firing_offset_markers": [
+            "fx_muz_murderhole_00",
+            "fx_muz_murderhole_01",
+            "fx_muz_murderhole_02"
+          ],
+          "weapon_entities": [
+            "wpn_siege_outpost_murder_hole"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 3.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 4,
+          "firing_offset_markers": [
+            "fx_muz_arrow_00",
+            "fx_muz_arrow_01",
+            "fx_muz_arrow_02",
+            "fx_muz_arrow_03"
+          ],
+          "weapon_entities": [
+            "wpn_range_outpost_arrows_garrison"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 5.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 5,
+          "firing_offset_markers": [
+            "fx_muz_arrow_00",
+            "fx_muz_arrow_01",
+            "fx_muz_arrow_02",
+            "fx_muz_arrow_03"
+          ],
+          "weapon_entities": [
+            "wpn_range_outpost_arrows_garrison"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 5.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 6,
+          "firing_offset_markers": [
+            "fx_muz_arrow_00",
+            "fx_muz_arrow_01",
+            "fx_muz_arrow_02",
+            "fx_muz_arrow_03"
+          ],
+          "weapon_entities": [
+            "wpn_range_outpost_arrows_garrison"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 5.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 7,
+          "firing_offset_markers": [
+            "fx_muz_arrow_00",
+            "fx_muz_arrow_01",
+            "fx_muz_arrow_02",
+            "fx_muz_arrow_03"
+          ],
+          "weapon_entities": [
+            "wpn_range_outpost_arrows_garrison"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 5.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 8,
+          "firing_offset_markers": [
+            "fx_muz_arrow_00",
+            "fx_muz_arrow_01",
+            "fx_muz_arrow_02",
+            "fx_muz_arrow_03"
+          ],
+          "weapon_entities": [
+            "wpn_range_outpost_arrows_garrison"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 5.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        }
+      ],
+      "garrison_slot_count": "5",
+      "hold_event_tree": "building_hold_events\\garrison_outpost"
+    },
+    "campaign": {
+      "hardpoints": [
+        {
+          "zero_based_hardpoint": 0,
+          "firing_offset_markers": [
+            "fx_muz_arrow_00",
+            "fx_muz_arrow_01",
+            "fx_muz_arrow_02",
+            "fx_muz_arrow_03"
+          ],
+          "weapon_entities": [
+            "wpn_siege_outpost_arrows"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 6.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 1,
+          "firing_offset_markers": [
+            "fx_muz_springald_00",
+            "fx_muz_springald_01",
+            "fx_muz_springald_02",
+            "fx_muz_springald_03"
+          ],
+          "weapon_entities": [
+            "wpn_siege_outpost_springald"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 6.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 2,
+          "firing_offset_markers": [
+            "fx_muz_cannon_00",
+            "fx_muz_cannon_01",
+            "fx_muz_cannon_02",
+            "fx_muz_cannon_03"
+          ],
+          "weapon_entities": [
+            "wpn_siege_outpost_cannon"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 5.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 3,
+          "firing_offset_markers": [
+            "fx_muz_murderhole_00",
+            "fx_muz_murderhole_01",
+            "fx_muz_murderhole_02"
+          ],
+          "weapon_entities": [
+            "wpn_siege_outpost_murder_hole"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 3.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 4,
+          "firing_offset_markers": [
+            "wep_hardpoint01",
+            "wep_hardpoint02",
+            "wep_hardpoint03",
+            "wep_hardpoint04"
+          ],
+          "weapon_entities": [
+            "wpn_range_outpost_arrows_garrison"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 10.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 5,
+          "firing_offset_markers": [
+            "wep_hardpoint01",
+            "wep_hardpoint02",
+            "wep_hardpoint03",
+            "wep_hardpoint04"
+          ],
+          "weapon_entities": [
+            "wpn_range_outpost_arrows_garrison"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 10.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        },
+        {
+          "zero_based_hardpoint": 6,
+          "firing_offset_markers": [
+            "wep_hardpoint01",
+            "wep_hardpoint02",
+            "wep_hardpoint03",
+            "wep_hardpoint04"
+          ],
+          "weapon_entities": [
+            "wpn_range_outpost_arrows_garrison"
+          ],
+          "initialize_weapons_on_creation": "false",
+          "weapon_origins_native_xyz": [
+            {
+              "y": 10.0,
+              "x": 0.0,
+              "z": 0.0
+            }
+          ]
+        }
+      ],
+      "garrison_slot_count": "3",
+      "hold_event_tree": "campaignMod_building_hold_events\\garrison_outpost"
+    }
+  },
+  "combat_decoded_xml": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\xml\\attrib\\ebps\\races\\core\\buildings\\building_defense_outpost.xml",
+  "combat_decoded_xml_sha256": "5836e61f85d7e63491ac0cb456f6f033317b2ecd37d24feda2fedb7ef07335f1",
+  "mechanism_contract": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\RIGID_MECHANISM_BINDINGS.json",
+  "mechanism_import_method": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\MECHANISM_IMPORT_HANDOFF.md",
+  "native_state_contract": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\FAMILY_NATIVE_STATE_CONTRACTS.json",
+  "limits": [
+    "Native body moving groups and cannon_tower child must be retained by the parent with qualified hierarchy/pivots; this recipe creates no proxy weapon or animation.",
+    "Fortified model-root muzzle record heights around4.39/4.50 and source geometry bounds around5.60..7.72 must remain distinct until exact pose/binding comparison.",
+    "Static projection B=(-x,-z,y) and stamp B*T*R*S*B^-1 are qualified; bone-reference semantics and mechanism world poses remain unqualified.",
+    "Original architecture has no copied Sultanate shell. Coarse rest AABBs include structural frames and are reserved reference regions, not all mutually-exclusive active geometry or proved sweeps.",
+    "Source geometry/contacts/textures/state/LOD/weapon compound checks remain for the parent serial Blender pipeline. No cook/package/native validation performed."
+  ],
+  "draft_offline_arithmetic_check": {
+    "Blender_executed": false,
+    "scope": "AST parse and independent Python geometry arithmetic mock; not generated source evidence",
+    "bodies": {
+      "wood": {
+        "planned_parts": 83,
+        "vertical_contact_plans": 50,
+        "formula_contact_errors": 0,
+        "untagged_parts": 0,
+        "formula_bounds": {
+          "min": [
+            -1.98,
+            -1.98,
+            -0.03
+          ],
+          "max": [
+            1.98,
+            1.98,
+            8.52
+          ]
+        }
+      },
+      "fortified": {
+        "planned_parts": 97,
+        "vertical_contact_plans": 41,
+        "formula_contact_errors": 0,
+        "untagged_parts": 0,
+        "formula_bounds": {
+          "min": [
+            -1.66,
+            -3.2,
+            -0.03
+          ],
+          "max": [
+            1.66,
+            1.66,
+            9.14
+          ]
+        }
+      }
+    },
+    "remaining": "Actual topology, normals, UVs, material availability, planar contacts, native mechanism source poses, active compound budgets and collision/sweep checks remain unverified."
+  },
+  "authored_to_native_body_mapping": {
+    "A1Basic": "wood",
+    "A1Fortified": "fortified"
+  },
+  "authored_space": "model-space",
+  "authored_frame_qualification": "Original architecture coordinates use projected cooked model-local frame before the exact retained native stamp; no stamp is baked into recipe vertices."
+}

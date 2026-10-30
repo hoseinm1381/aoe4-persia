@@ -1,0 +1,159 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "daylamite",
+  "donor": "art/civilizations/sultanate/weapons/sul_sword_khanda/sul_sword_khanda.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\sul_sword_khanda\\model.blend",
+  "source_sha256": "bec24f299c494b41afa0dbaf789fdc7cc9bfb22b1ad4e23c85127233b3c51531",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 110,
+      "triangles": 134,
+      "sha256": "596aca6e0abc881983a13bd5b97d99af656b6198b3a27b2847d51a0c0a4d070e"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 110,
+      "triangles": 134,
+      "sha256": "114b8d6e83e6607f67406a28fb4ea294d113efed2bae2624e808e671be321795"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 110,
+      "triangles": 134,
+      "sha256": "34c9c68f935ac3ceb6da333d47b22462392787746c9e99a234ee3cc021bcb9e3"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_daylamite_sul_sword_khanda_LOD0",
+      "vertices": 110,
+      "triangles": 134,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_daylamite_sul_sword_khanda_LOD1",
+      "vertices": 110,
+      "triangles": 134,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_daylamite_sul_sword_khanda_LOD2",
+      "vertices": 110,
+      "triangles": 134,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 7,
+      "source_vertices": 110,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 7,
+      "source_vertices": 110,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 7,
+      "source_vertices": 110,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 7,
+      "source_vertices": 110,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 7,
+      "source_vertices": 110,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 7,
+      "source_vertices": 110,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/sultanate/weapons/sul_sword_khanda/sul_sword_khanda.rgm",
+  "geometry_donor": "art/civilizations/sultanate/weapons/sul_sword_khanda/sul_sword_khanda.rgm"
+}

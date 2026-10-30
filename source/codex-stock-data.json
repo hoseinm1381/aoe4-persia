@@ -1,0 +1,1340 @@
+{
+  "schema": "garrison.official-codex-data/v1",
+  "source": "Current installed Attrib.sga, exact blueprint SHA-256 per record",
+  "records": {
+    "ebps/building_defense_palisade_bastion_sul": {
+      "requirements": [
+        {
+          "key": "requirement_table",
+          "kind": "List2",
+          "value": []
+        }
+      ],
+      "refs": [
+        [
+          "/statemodel_ext/schema",
+          "statemodel_schema",
+          "wall"
+        ],
+        [
+          "/hit_object_ext/hit_material",
+          "hit_material",
+          "wood"
+        ],
+        [
+          "/entity_blueprint_ext/animator_attachments",
+          "attachments/attachment_lists",
+          "building_defense_palisade_bastion_west"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/additional_blocking_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/additional_blocking_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/blocked_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/type_ext/race_type_list/race_type",
+          "racebps",
+          "sultanate"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/ability_ext/abilities/ability",
+          "abilities",
+          "core_building_scuttle"
+        ],
+        [
+          "/parent_pbg",
+          "ebps",
+          "building_defense_palisade_bastion"
+        ],
+        [
+          "/construction_ext/placement_requirements/placement_requirement_options/placement_requirement_pass_types_option/required_pass_types/pass_type_data/pass_type",
+          "pass_types",
+          "infantry"
+        ]
+      ],
+      "name": 11119188,
+      "icon": "races\\common\\buildings\\palisade_wall",
+      "sha256": "8f817dcd61bf016e925347a7c137a4a1261118b4e5d52ad226dea82527989a1c",
+      "stock_path": "ebps/races/sultanate/buildings/building_defense_wall_sul/building_defense_palisade_bastion_sul"
+    },
+    "ebps/building_defense_palisade_gate_sul": {
+      "requirements": [
+        {
+          "key": "requirement_table",
+          "kind": "List2",
+          "value": []
+        }
+      ],
+      "refs": [
+        [
+          "/statemodel_ext/schema",
+          "statemodel_schema",
+          "gate"
+        ],
+        [
+          "/hit_object_ext/hit_material",
+          "hit_material",
+          "wood"
+        ],
+        [
+          "/entity_blueprint_ext/animator_attachments",
+          "attachments/attachment_lists",
+          "building_defense_palisade_gate_west"
+        ],
+        [
+          "/boundary_cells_ext/additional_boundary_simboxes/boundary_box/boundary_path/path_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/blueprint_to_replace",
+          "ebps",
+          "building_defense_palisade_sul"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/additional_blocking_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/additional_blocking_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/blocked_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/type_ext/race_type_list/race_type",
+          "racebps",
+          "sultanate"
+        ],
+        [
+          "/road_ext/roads/road_properties/required_upgrade",
+          "upgrade",
+          "dark_age"
+        ],
+        [
+          "/road_ext/roads/road_properties/required_upgrade",
+          "upgrade",
+          "feudal_age"
+        ],
+        [
+          "/road_ext/roads/road_properties/required_upgrade",
+          "upgrade",
+          "castle_age"
+        ],
+        [
+          "/road_ext/roads/road_properties/required_upgrade",
+          "upgrade",
+          "imperial_age"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/owner_blocker_override_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/owner_blocker_override_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/ability_ext/abilities/ability",
+          "abilities",
+          "core_building_scuttle"
+        ],
+        [
+          "/ability_ext/abilities/ability",
+          "abilities",
+          "core_gate_auto_toggle"
+        ],
+        [
+          "/parent_pbg",
+          "ebps",
+          "building_defense_palisade_gate"
+        ]
+      ],
+      "name": 11143241,
+      "icon": "races\\common\\buildings\\palisade_gate",
+      "sha256": "e6af0d9f56b425bc5475ef5ae49842bb2c60bf9b4069544948a8055edd63c80d",
+      "stock_path": "ebps/races/sultanate/buildings/building_defense_wall_sul/building_defense_palisade_gate_sul"
+    },
+    "ebps/building_defense_palisade_sul": {
+      "requirements": [
+        {
+          "key": "requirement_table",
+          "kind": "List2",
+          "value": []
+        }
+      ],
+      "refs": [
+        [
+          "/statemodel_ext/schema",
+          "statemodel_schema",
+          "wall"
+        ],
+        [
+          "/hit_object_ext/hit_material",
+          "hit_material",
+          "wood"
+        ],
+        [
+          "/entity_blueprint_ext/animator_attachments",
+          "attachments/attachment_lists",
+          "building_defense_wall"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/fence_cap_entity",
+          "ebps",
+          "building_defense_palisade_bastion_sul"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/additional_blocking_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/additional_blocking_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/blocked_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/territory_sector_layout_ext/segment_attachment_list",
+          "attachments/attachment_lists",
+          "building_defense_palisade_segments_west"
+        ],
+        [
+          "/type_ext/race_type_list/race_type",
+          "racebps",
+          "sultanate"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/surface_blocked_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/ability_ext/abilities/ability",
+          "abilities",
+          "core_building_scuttle"
+        ],
+        [
+          "/ability_ext/abilities/ability",
+          "abilities",
+          "core_convert_to_palisade_gate"
+        ],
+        [
+          "/parent_pbg",
+          "ebps",
+          "building_defense_palisade"
+        ],
+        [
+          "/construction_ext/placement_requirements/placement_requirement_options/placement_requirement_pass_types_option/required_pass_types/pass_type_data/pass_type",
+          "pass_types",
+          "infantry"
+        ]
+      ],
+      "name": 11119188,
+      "icon": "races\\common\\buildings\\palisade_wall",
+      "sha256": "a49f7e7aee0b9bdac3b695988d65367e73987e0d6d739e0f712e048469e8022e",
+      "stock_path": "ebps/races/sultanate/buildings/building_defense_wall_sul/building_defense_palisade_sul"
+    },
+    "ebps/building_defense_tower_sul": {
+      "requirements": [
+        {
+          "key": "requirement_table",
+          "kind": "List2",
+          "value": [
+            {
+              "key": "required_player_upgrade",
+              "kind": "List",
+              "value": [
+                {
+                  "key": "include_pbg_parenting",
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "include_child_pbgs",
+                      "kind": "Boolean",
+                      "value": false
+                    },
+                    {
+                      "key": "include_parent_pbgs",
+                      "kind": "Boolean",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "key": "include_queued",
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "include_completed",
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "$REF",
+                  "kind": "CString",
+                  "value": "requirements\\required_player_upgrade"
+                },
+                {
+                  "key": "max_completed",
+                  "kind": "Int",
+                  "value": 100
+                },
+                {
+                  "key": "min_completed",
+                  "kind": "Int",
+                  "value": 1
+                },
+                {
+                  "key": "upgrade_name",
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "kind": "CString",
+                      "value": "feudal_age"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "kind": "CString",
+                      "value": "upgrade"
+                    }
+                  ]
+                },
+                {
+                  "key": "reason",
+                  "kind": "CString",
+                  "value": "usage"
+                },
+                {
+                  "key": "is_present",
+                  "kind": "Boolean",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "refs": [
+        [
+          "/statemodel_ext/schema",
+          "statemodel_schema",
+          "tower"
+        ],
+        [
+          "/hit_object_ext/hit_material",
+          "hit_material",
+          "stone"
+        ],
+        [
+          "/entity_blueprint_ext/animator_attachments",
+          "attachments/attachment_lists",
+          "building_defense_wall_stone_tower_sul"
+        ],
+        [
+          "/boundary_cells_ext/additional_boundary_simboxes/boundary_box/boundary_path/path_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/boundary_cells_ext/additional_boundary_simboxes/boundary_box/boundary_path/path_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/depends_on_blueprint",
+          "ebps",
+          "building_defense_wall_sul"
+        ],
+        [
+          "/type_ext/race_type_list/race_type",
+          "racebps",
+          "sultanate"
+        ],
+        [
+          "/impass_ext/block_path/path_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/impass_ext/block_path/path_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/impass_ext/block_path/path_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/impass_ext/impass_simboxes/named_simboxes/impass_box/block_path/path_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/impass_ext/impass_simboxes/named_simboxes/impass_box/block_path/path_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/impass_ext/impass_simboxes/named_simboxes/impass_box/block_path/path_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/ability_ext/abilities/ability",
+          "abilities",
+          "core_building_scuttle_no_enemies"
+        ],
+        [
+          "/combat_ext/hardpoints/hardpoint/weapon_table/weapon/entity_attach_data/ebp",
+          "ebps",
+          "wpn_siege_walltower_springald"
+        ],
+        [
+          "/combat_ext/hardpoints/hardpoint/weapon_table/weapon/entity_attach_data/ebp",
+          "ebps",
+          "wpn_siege_walltower_murder_hole"
+        ],
+        [
+          "/parent_pbg",
+          "ebps",
+          "building_defense_tower"
+        ],
+        [
+          "/construction_ext/ui_range",
+          "ui_reticule",
+          "weapon_range"
+        ],
+        [
+          "/construction_ext/placement_requirements/placement_requirement_options/placement_requirement_pass_types_option/required_pass_types/pass_type_data/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/requirement_ext/requirement_table/required_player_upgrade/upgrade_name",
+          "upgrade",
+          "feudal_age"
+        ]
+      ],
+      "name": 11119575,
+      "icon": "races\\common\\buildings\\tower",
+      "sha256": "0347421a78f435a4621b8857b30a169b61ee91136e2283ebf6b5766f425df674",
+      "stock_path": "ebps/races/sultanate/buildings/building_defense_wall_sul/building_defense_tower_sul"
+    },
+    "ebps/building_defense_wall_bastion_sul": {
+      "requirements": [
+        {
+          "key": "requirement_table",
+          "kind": "List2",
+          "value": []
+        }
+      ],
+      "refs": [
+        [
+          "/statemodel_ext/schema",
+          "statemodel_schema",
+          "wall_stone"
+        ],
+        [
+          "/hit_object_ext/hit_material",
+          "hit_material",
+          "stone"
+        ],
+        [
+          "/entity_blueprint_ext/animator_attachments",
+          "attachments/attachment_lists",
+          "building_defense_wall_bastion"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/additional_blocking_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/additional_blocking_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/blocked_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/territory_sector_layout_ext/cap_attachment_list",
+          "attachments/attachment_lists",
+          "building_defense_wall_stone_bastion_east"
+        ],
+        [
+          "/type_ext/race_type_list/race_type",
+          "racebps",
+          "sultanate"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/surface_blocked_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/ability_ext/abilities/ability",
+          "abilities",
+          "core_building_scuttle_no_enemies"
+        ],
+        [
+          "/parent_pbg",
+          "ebps",
+          "building_defense_wall_bastion"
+        ],
+        [
+          "/construction_ext/placement_requirements/placement_requirement_options/placement_requirement_pass_types_option/required_pass_types/pass_type_data/pass_type",
+          "pass_types",
+          "infantry"
+        ]
+      ],
+      "name": 11121609,
+      "icon": "races\\common\\buildings\\stone_wall",
+      "sha256": "e2137870e165c2906559ef5d8ffde490427e39f2aa6dcd812b1b6cf20b1046f6",
+      "stock_path": "ebps/races/sultanate/buildings/building_defense_wall_sul/building_defense_wall_bastion_sul"
+    },
+    "ebps/building_defense_wall_gate_sul": {
+      "requirements": [
+        {
+          "key": "requirement_table",
+          "kind": "List2",
+          "value": [
+            {
+              "key": "required_player_upgrade",
+              "kind": "List",
+              "value": [
+                {
+                  "key": "include_pbg_parenting",
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "include_child_pbgs",
+                      "kind": "Boolean",
+                      "value": false
+                    },
+                    {
+                      "key": "include_parent_pbgs",
+                      "kind": "Boolean",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "key": "include_queued",
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "include_completed",
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "$REF",
+                  "kind": "CString",
+                  "value": "requirements\\required_player_upgrade"
+                },
+                {
+                  "key": "max_completed",
+                  "kind": "Int",
+                  "value": 100
+                },
+                {
+                  "key": "min_completed",
+                  "kind": "Int",
+                  "value": 1
+                },
+                {
+                  "key": "upgrade_name",
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "kind": "CString",
+                      "value": "feudal_age"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "kind": "CString",
+                      "value": "upgrade"
+                    }
+                  ]
+                },
+                {
+                  "key": "reason",
+                  "kind": "CString",
+                  "value": "usage"
+                },
+                {
+                  "key": "is_present",
+                  "kind": "Boolean",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "refs": [
+        [
+          "/statemodel_ext/schema",
+          "statemodel_schema",
+          "gate_stone"
+        ],
+        [
+          "/hit_object_ext/hit_material",
+          "hit_material",
+          "stone"
+        ],
+        [
+          "/entity_blueprint_ext/animator_attachments",
+          "attachments/attachment_lists",
+          "building_defense_wall_stone_gate_sul"
+        ],
+        [
+          "/boundary_cells_ext/additional_boundary_simboxes/boundary_box/boundary_path/path_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/boundary_cells_ext/additional_boundary_simboxes/boundary_box/boundary_path/path_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/blueprint_to_replace",
+          "ebps",
+          "building_defense_wall_sul"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/additional_blocking_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/additional_blocking_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/blocked_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/type_ext/race_type_list/race_type",
+          "racebps",
+          "sultanate"
+        ],
+        [
+          "/road_ext/roads/road_properties/required_upgrade",
+          "upgrade",
+          "dark_age"
+        ],
+        [
+          "/road_ext/roads/road_properties/required_upgrade",
+          "upgrade",
+          "feudal_age"
+        ],
+        [
+          "/road_ext/roads/road_properties/required_upgrade",
+          "upgrade",
+          "castle_age"
+        ],
+        [
+          "/road_ext/roads/road_properties/required_upgrade",
+          "upgrade",
+          "imperial_age"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/surface_blocked_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/owner_blocker_override_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/owner_blocker_override_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/ability_ext/abilities/ability",
+          "abilities",
+          "core_building_scuttle_no_enemies"
+        ],
+        [
+          "/ability_ext/abilities/ability",
+          "abilities",
+          "core_gate_auto_toggle"
+        ],
+        [
+          "/parent_pbg",
+          "ebps",
+          "building_defense_wall_gate"
+        ],
+        [
+          "/requirement_ext/requirement_table/required_player_upgrade/upgrade_name",
+          "upgrade",
+          "feudal_age"
+        ]
+      ],
+      "name": 11143134,
+      "icon": "races\\common\\buildings\\stone_gate",
+      "sha256": "75a9cfeb15119d94805ebb7bffaa570123e2eb3f602f88a6412cd85884197fdd",
+      "stock_path": "ebps/races/sultanate/buildings/building_defense_wall_sul/building_defense_wall_gate_sul"
+    },
+    "ebps/building_defense_wall_sul": {
+      "requirements": [
+        {
+          "key": "requirement_table",
+          "kind": "List2",
+          "value": [
+            {
+              "key": "required_player_upgrade",
+              "kind": "List",
+              "value": [
+                {
+                  "key": "include_pbg_parenting",
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "include_child_pbgs",
+                      "kind": "Boolean",
+                      "value": false
+                    },
+                    {
+                      "key": "include_parent_pbgs",
+                      "kind": "Boolean",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "key": "include_queued",
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "include_completed",
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "$REF",
+                  "kind": "CString",
+                  "value": "requirements\\required_player_upgrade"
+                },
+                {
+                  "key": "max_completed",
+                  "kind": "Int",
+                  "value": 100
+                },
+                {
+                  "key": "min_completed",
+                  "kind": "Int",
+                  "value": 1
+                },
+                {
+                  "key": "upgrade_name",
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "kind": "CString",
+                      "value": "feudal_age"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "kind": "CString",
+                      "value": "upgrade"
+                    }
+                  ]
+                },
+                {
+                  "key": "reason",
+                  "kind": "CString",
+                  "value": "usage"
+                },
+                {
+                  "key": "is_present",
+                  "kind": "Boolean",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "refs": [
+        [
+          "/statemodel_ext/schema",
+          "statemodel_schema",
+          "wall_stone"
+        ],
+        [
+          "/hit_object_ext/hit_material",
+          "hit_material",
+          "stone"
+        ],
+        [
+          "/entity_blueprint_ext/animator_attachments",
+          "attachments/attachment_lists",
+          "building_defense_wall"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/fence_cap_entity",
+          "ebps",
+          "building_defense_wall_bastion_sul"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/additional_blocking_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/additional_blocking_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/territory_sector_layout_ext/placement_style/gap_fillers/blocked_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/territory_sector_layout_ext/segment_attachment_list",
+          "attachments/attachment_lists",
+          "building_defense_wall_stone_segments_east"
+        ],
+        [
+          "/type_ext/race_type_list/race_type",
+          "racebps",
+          "sultanate"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/surface_blocked_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/surface_blocked_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/walkable_slottedspline_entity_ext/boundary_blocked_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/ability_ext/abilities/ability",
+          "abilities",
+          "core_building_scuttle_no_enemies"
+        ],
+        [
+          "/ability_ext/abilities/ability",
+          "abilities",
+          "core_convert_to_gate"
+        ],
+        [
+          "/parent_pbg",
+          "ebps",
+          "building_defense_wall"
+        ],
+        [
+          "/construction_ext/placement_requirements/placement_requirement_options/placement_requirement_pass_types_option/required_pass_types/pass_type_data/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/requirement_ext/requirement_table/required_player_upgrade/upgrade_name",
+          "upgrade",
+          "feudal_age"
+        ]
+      ],
+      "name": 11121609,
+      "icon": "races\\common\\buildings\\stone_wall",
+      "sha256": "07616ea79c2270cbbc6033e74305ca3f087e35a158d06b1644eabbf944f52ef4",
+      "stock_path": "ebps/races/sultanate/buildings/building_defense_wall_sul/building_defense_wall_sul"
+    },
+    "ebps/unit_ram_3": {
+      "requirements": [
+        {
+          "key": "requirement_table",
+          "kind": "List2",
+          "value": [
+            {
+              "key": "required_player_upgrade",
+              "kind": "List",
+              "value": [
+                {
+                  "key": "include_pbg_parenting",
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "include_child_pbgs",
+                      "kind": "Boolean",
+                      "value": false
+                    },
+                    {
+                      "key": "include_parent_pbgs",
+                      "kind": "Boolean",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "key": "include_queued",
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "include_completed",
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "$REF",
+                  "kind": "CString",
+                  "value": "requirements\\required_player_upgrade"
+                },
+                {
+                  "key": "max_completed",
+                  "kind": "Int",
+                  "value": 100
+                },
+                {
+                  "key": "ui_name",
+                  "kind": "Int",
+                  "value": 11161710
+                },
+                {
+                  "key": "min_completed",
+                  "kind": "Int",
+                  "value": 1
+                },
+                {
+                  "key": "upgrade_name",
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "kind": "CString",
+                      "value": "upgrade_siege_engineers"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "kind": "CString",
+                      "value": "upgrade"
+                    }
+                  ]
+                },
+                {
+                  "key": "reason",
+                  "kind": "CString",
+                  "value": "usage"
+                },
+                {
+                  "key": "is_present",
+                  "kind": "Boolean",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "refs": [
+        [
+          "/statemodel_ext/schema",
+          "statemodel_schema",
+          "ram"
+        ],
+        [
+          "/hit_object_ext/hit_material",
+          "hit_material",
+          "wood"
+        ],
+        [
+          "/entity_blueprint_ext/animator_attachments",
+          "attachments/attachment_lists",
+          "unit_ram_3"
+        ],
+        [
+          "/moving_ext/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/moving_ext/navigation_agent_info",
+          "navigation/agent_info",
+          "default_siege"
+        ],
+        [
+          "/moving_ext/turn_plan",
+          "turn_plan",
+          "catapult"
+        ],
+        [
+          "/combat_ext/hardpoints/hardpoint/weapon_table/weapon/non_entity_weapon_wrapper/non_entity_weapon_wrapper_pbg",
+          "weapon",
+          "weapon_ram_3"
+        ],
+        [
+          "/parent_pbg",
+          "ebps",
+          "unit_alpha"
+        ],
+        [
+          "/construction_ext/placement_valid",
+          "ui_rectangle",
+          "construction_placement_valid"
+        ],
+        [
+          "/construction_ext/placement_invalid",
+          "ui_rectangle",
+          "construction_placement_invalid"
+        ],
+        [
+          "/construction_ext/on_construction_squad",
+          "sbps",
+          "unit_ram_3"
+        ],
+        [
+          "/construction_ext/placement_requirements/placement_requirement_options/placement_requirement_pass_types_option/forbidden_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/construction_ext/placement_requirements/placement_requirement_options/placement_requirement_pass_types_option/required_pass_types/pass_type_data/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/requirement_ext/requirement_table/required_player_upgrade/upgrade_name",
+          "upgrade",
+          "upgrade_siege_engineers"
+        ]
+      ],
+      "name": 11142995,
+      "icon": "races\\common\\units\\ram_2",
+      "sha256": "f0e87c378bd82747bbc3752094e12e4caa7f9d28bd35b623c2eabdb6b15f76ad",
+      "stock_path": "ebps/races/core/units_buildable/unit_ram_3"
+    },
+    "ebps/unit_siege_cart": {
+      "requirements": [],
+      "refs": [
+        [
+          "/statemodel_ext/schema",
+          "statemodel_schema",
+          "siege_weapon"
+        ],
+        [
+          "/entity_blueprint_ext/animator_attachments",
+          "attachments/attachment_lists",
+          "unit_siege_cart"
+        ],
+        [
+          "/moving_ext/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/moving_ext/navigation_agent_info",
+          "navigation/agent_info",
+          "default_siege"
+        ],
+        [
+          "/moving_ext/turn_plan",
+          "turn_plan",
+          "catapult"
+        ],
+        [
+          "/tier_ext/tier_group_list/tier_group/tier/attachments",
+          "attachments/attachment_lists",
+          "tier3_siege_cart_eng"
+        ]
+      ],
+      "name": "",
+      "icon": "",
+      "sha256": "2fea59530bfed95a9c37b13af682ac3a4de74b19bb3736f6db8e1b62c1c50ef2",
+      "stock_path": "ebps/dev/units/unit_siege_cart"
+    },
+    "ebps/unit_siege_tower_3": {
+      "requirements": [
+        {
+          "key": "requirement_table",
+          "kind": "List2",
+          "value": [
+            {
+              "key": "required_player_upgrade",
+              "kind": "List",
+              "value": [
+                {
+                  "key": "include_pbg_parenting",
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "include_child_pbgs",
+                      "kind": "Boolean",
+                      "value": false
+                    },
+                    {
+                      "key": "include_parent_pbgs",
+                      "kind": "Boolean",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "key": "include_queued",
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "include_completed",
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "$REF",
+                  "kind": "CString",
+                  "value": "requirements\\required_player_upgrade"
+                },
+                {
+                  "key": "max_completed",
+                  "kind": "Int",
+                  "value": 100
+                },
+                {
+                  "key": "ui_name",
+                  "kind": "Int",
+                  "value": 11161710
+                },
+                {
+                  "key": "min_completed",
+                  "kind": "Int",
+                  "value": 1
+                },
+                {
+                  "key": "upgrade_name",
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "kind": "CString",
+                      "value": "upgrade_siege_engineers"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "kind": "CString",
+                      "value": "upgrade"
+                    }
+                  ]
+                },
+                {
+                  "key": "reason",
+                  "kind": "CString",
+                  "value": "usage"
+                },
+                {
+                  "key": "is_present",
+                  "kind": "Boolean",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "refs": [
+        [
+          "/statemodel_ext/schema",
+          "statemodel_schema",
+          "siege_siege_tower"
+        ],
+        [
+          "/hit_object_ext/hit_material",
+          "hit_material",
+          "wood"
+        ],
+        [
+          "/entity_blueprint_ext/animator_attachments",
+          "attachments/attachment_lists",
+          "unit_siege_tower_3"
+        ],
+        [
+          "/moving_ext/pass_type",
+          "pass_types",
+          "vehicle"
+        ],
+        [
+          "/moving_ext/navigation_agent_info",
+          "navigation/agent_info",
+          "default_siege"
+        ],
+        [
+          "/moving_ext/turn_plan",
+          "turn_plan",
+          "catapult"
+        ],
+        [
+          "/parent_pbg",
+          "ebps",
+          "unit_alpha"
+        ],
+        [
+          "/construction_ext/placement_valid",
+          "ui_rectangle",
+          "construction_placement_valid"
+        ],
+        [
+          "/construction_ext/placement_invalid",
+          "ui_rectangle",
+          "construction_placement_invalid"
+        ],
+        [
+          "/construction_ext/on_construction_squad",
+          "sbps",
+          "unit_siege_tower_3"
+        ],
+        [
+          "/construction_ext/placement_requirements/placement_requirement_options/placement_requirement_pass_types_option/forbidden_pass_types/pass_type",
+          "pass_types",
+          "water_default"
+        ],
+        [
+          "/construction_ext/placement_requirements/placement_requirement_options/placement_requirement_pass_types_option/required_pass_types/pass_type_data/pass_type",
+          "pass_types",
+          "infantry"
+        ],
+        [
+          "/requirement_ext/requirement_table/required_player_upgrade/upgrade_name",
+          "upgrade",
+          "upgrade_siege_engineers"
+        ]
+      ],
+      "name": 11143069,
+      "icon": "races\\common\\units\\siegetower_2",
+      "sha256": "08ffcb15c69eb996dcebc816d0ef1864846cbd98376e6c7dc165a6a35b141e7a",
+      "stock_path": "ebps/races/core/units_buildable/unit_siege_tower_3"
+    }
+  }
+}

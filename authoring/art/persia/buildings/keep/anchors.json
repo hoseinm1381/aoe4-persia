@@ -1,0 +1,461 @@
+{
+  "A3": {
+    "ground_top": 0.08,
+    "native_body_key": "A3",
+    "native_model": "art/civilizations/sultanate/structures/keep/sul_keep_control_age03/sul_keep_control_age03.rgm",
+    "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+    "chosen_horizontal_bounds": [
+      [
+        -6.95,
+        -6.95
+      ],
+      [
+        6.95,
+        6.95
+      ]
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -6.95,
+        -6.95,
+        -0.08
+      ],
+      [
+        6.95,
+        6.95,
+        11.6
+      ]
+    ],
+    "native_stamp_rest_bounds": {
+      "min": [
+        -7.441406249999999,
+        -7.441406250000002,
+        -3.0
+      ],
+      "max": [
+        7.554687500000002,
+        7.5546875,
+        13.5625
+      ]
+    },
+    "native_resource_bounds": {
+      "min": [
+        -7.5546875,
+        -7.44140625,
+        -3.0
+      ],
+      "max": [
+        7.44140625,
+        7.5546875,
+        13.5625
+      ]
+    },
+    "resource_to_stamp": [
+      [
+        -2.220446049250313e-16,
+        1.0000000000000002,
+        0.0,
+        -0.0
+      ],
+      [
+        -1.0000000000000002,
+        -2.220446049250313e-16,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_resource": [
+      [
+        -2.220446049250313e-16,
+        -1.0000000000000002,
+        0.0,
+        -0.0
+      ],
+      [
+        1.0000000000000002,
+        -2.220446049250313e-16,
+        0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "source_uses": [
+      {
+        "actor": "ps_building_defense_keep_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_keep_sul/tier3_keep_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_keep.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_defense_keep_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_keep_sul/tier3_keep_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_keep.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_defense_keep_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_keep_sul/tier3_keep_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_keep.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_defense_keep_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_keep_sul/tier3_keep_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_keep.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "private_compiled_source_uses": [
+      {
+        "actor": "ps_building_defense_keep_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_keep_sul/tier3_keep_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_keep.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_defense_keep_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_keep_sul/tier3_keep_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_keep.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "official_parent_candidates": [
+      {
+        "actor": "ps_building_defense_keep_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_keep_sul/tier3_keep_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_keep.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_defense_keep_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_keep_sul/tier3_keep_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_keep.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "native_dependencies": [
+      {
+        "model": "art/civilizations/common/layouts/archetypes/layout_keep/layout_keep.rgm",
+        "native_model_sha256": "1c7fc6648705b6fe685f710bc6b7952bb4346741fd2a96a332e07db11f0b0fcb",
+        "native_owner_graphs": [
+          {
+            "logical_path": "art/civilizations/common/layouts/archetypes/layout_keep/layout_keep.rgo",
+            "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\common\\layouts\\archetypes\\layout_keep\\layout_keep.rgo",
+            "sha256": "7e00aaf9b9f06c2f67549c4802d66898e90d172de1f7ae85023812f847070fd6",
+            "parsed_contract_file": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\NATIVE_ANIMATION_CONTRACTS.json"
+          }
+        ],
+        "pose_and_sweep_status": "Native rest/pose evaluation, skeletal motion playback and moving envelope remain unverified. Preserve the official native owner and rig; no scratch replacement rig is qualified by these records.",
+        "native_skeleton": {
+          "present": true,
+          "SKLN_payload_sha256": [
+            "772cb5ad990655d465391c4ff6d93a67264c2a9dd3da3be395a7e63f256bc8ba"
+          ],
+          "skinned_mesh_names": [],
+          "bone_tables": [
+            {
+              "valid_name_parent_table": true,
+              "chunk_version": 6,
+              "name": "",
+              "bone_count": 1,
+              "bones": [
+                {
+                  "index": 0,
+                  "name": "bone_root",
+                  "parent_index": -1
+                }
+              ],
+              "remaining_rest_pose_and_metadata_bytes": 98,
+              "payload_sha256": "772cb5ad990655d465391c4ff6d93a67264c2a9dd3da3be395a7e63f256bc8ba",
+              "limits": "Native bone names/parents parsed; rest/pose matrices not projected or retargeted."
+            }
+          ]
+        },
+        "markers": {
+          "valid": true,
+          "count": 1,
+          "payload_sha256": "60309951e36e769acde262e9a1ad3550e195aeb069d1de38acd2c7bf33a699da",
+          "markers": [
+            {
+              "name": "starting_position",
+              "parent_bone": "bone_root",
+              "native_frame_flag": 1,
+              "quaternion_xyzw": [
+                0.0,
+                0.7071067690849304,
+                0.7071067690849304,
+                0.0
+              ],
+              "translation": [
+                6.16262674331665,
+                -4.42345666885376,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "attributes": {
+                "marker_type": "spawn point",
+                "marker_subtype": "starting position",
+                "marker_radius": 1.0,
+                "physicsexportattributes_rigid_body": 0,
+                "physicsexportattributes_mass": 5.0,
+                "physicsexportattributes_friction": 0.5,
+                "physicsexportattributes_restitution": 0.5,
+                "physicsexportattributes_linear_damping": 0.05000000074505806,
+                "physicsexportattributes_angular_damping": 0.05000000074505806,
+                "physicsexportattributes_parent_rigid_body": "none",
+                "physicsexportattributes_parent_bone_name": "bone_root",
+                "physicsexportattributes_reference_mesh_name": "none",
+                "physicsexportattributes_is_mesh": 0,
+                "physicsexportattributes_shape_type": "none",
+                "physicsexportattributes_sphere_radius": 0.0,
+                "physicsexportattributes_capsule_radius": 0.0,
+                "physicsexportattributes_cylinder_radius": 0.0,
+                "physicsexportattributes_hinge": 0,
+                "physicsexportattributes_hinge_limited": 0,
+                "physicsexportattributes_hinge_limit_max": 0.0,
+                "physicsexportattributes_hinge_limit_min": 0.0,
+                "physicsexportattributes_constraint_breakable": 0,
+                "physicsexportattributes_constraint_break_threshold": 0.20000000298023224,
+                "physicsexportattributes_ballandsocket": 0,
+                "physicsexportattributes_fixed": 0,
+                "physicsexportattributes_fixed_linear_impulse_max": 0.0,
+                "physicsexportattributes_fixed_angular_impulse_max": 0.0,
+                "physicsexportattributes_stiffspring": 0,
+                "physicsexportattributes_stiffspring_rest_length": 0.0,
+                "physicsexportattributes_wheel": 0,
+                "physicsexportattributes_wheel_suspension_offset_angle": 0.0,
+                "physicsexportattributes_wheel_suspension_limit_min": -100.0,
+                "physicsexportattributes_wheel_suspension_limit_max": 100.0,
+                "physicsexportattributes_wheel_suspension_strength": 0.0,
+                "physicsexportattributes_wheel_suspension_damping": 0.0
+              }
+            }
+          ],
+          "frame": "Empty parent_bone/flag0 is model-root frame; named parent_bone/flag1 is a native bone-local transform. World transforms require the native skeleton/pose."
+        },
+        "marker_contract": "Only fully consumed valid=true records are usable. Empty parent_bone/flag0 is native model-root; named parent_bone/flag1 is native bone-local. No marker record here is a world-space socket."
+      }
+    ],
+    "native_animation_graphs": [
+      {
+        "logical_path": "art/civilizations/sultanate/structures/keep/sul_keep_control_age03/sul_keep_control_age03.rgo",
+        "local_path": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\native\\art\\civilizations\\sultanate\\structures\\keep\\sul_keep_control_age03\\sul_keep_control_age03.rgo",
+        "sha256": "734dca1b87cb970d64926dc1da04e3ab2729e819bc87c339e5785ac2735b6ea0"
+      }
+    ],
+    "native_model_sha256": "816cc7e3b929dbcd05100dcdb7ce409524a4233ffa7e64eba84851436386c3c1",
+    "native_geometry_sha256": "ec4eb90758d78696ae3583094d6bf29c6d784441a4e2539ad4f30dba88412bc9",
+    "healthy_lod0_triangle_interval": [
+      116532,
+      138124
+    ],
+    "complete_category_bounds": [
+      {
+        "actor": "ps_building_defense_keep_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_keep_sul/tier3_keep_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -7.441406249999999,
+            -7.441406250000002,
+            -3.0
+          ],
+          "max": [
+            7.554687500000002,
+            7.5546875,
+            13.5625
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -10.940114980960766,
+            -10.082039012964202,
+            -3.333984375
+          ],
+          "max": [
+            10.462995099116691,
+            9.924518150457835,
+            13.5625
+          ]
+        }
+      },
+      {
+        "actor": "ps_building_defense_keep_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/defense_keep_sul/tier3_keep_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "healthy_definite_category_rest_bounds": {
+          "min": [
+            -7.441406249999999,
+            -7.441406250000002,
+            -3.0
+          ],
+          "max": [
+            7.554687500000002,
+            7.5546875,
+            13.5625
+          ]
+        },
+        "healthy_possible_category_rest_bounds": {
+          "min": [
+            -10.940114980960766,
+            -10.082039012964202,
+            -3.0
+          ],
+          "max": [
+            10.462995099116691,
+            9.924518150457835,
+            13.5625
+          ]
+        }
+      }
+    ],
+    "terrain_origin_note": "native origin retained; no Z recenter from buried geometry minimum; .08 source surface is provisional",
+    "clearance_status": "Only conservative rest-body envelope; native exits/markers/weapon motion unqualified",
+    "door_dimensions": "original source proposals, not measured stock doorways",
+    "visual_status": "unbuilt and uninspected in Blender",
+    "strong_hall": {
+      "program": "lofty guard/store hall; accessible defensive roof, not an unmodeled upper storey",
+      "plan": [
+        1.45,
+        2.9,
+        5.4,
+        4.4,
+        7.7
+      ],
+      "wall_thickness": 0.6,
+      "roof_target_z": 7.96,
+      "east_guard_opening": [
+        2.8,
+        0.3,
+        4.28,
+        5.48
+      ]
+    },
+    "defensive_access": {
+      "curtain_walk_z": 4.46,
+      "strong_roof_z": 7.96,
+      "first_stair": {
+        "x": -4.3,
+        "y": [
+          -3.8,
+          2.6
+        ],
+        "steps": 29
+      },
+      "upper_walk_clear_x": [
+        -3.75,
+        -2.65
+      ],
+      "second_stair": {
+        "x": -2.1,
+        "y": [
+          -2.6,
+          2.6
+        ],
+        "steps": 24
+      },
+      "roof_parapet_gap_y": [
+        2.6,
+        3.3
+      ],
+      "native_marker_clearance": "unqualified; bone-local marker is not world position"
+    },
+    "program": "controlled gate, thick curtain court, low chamfered flanks, lofty strong hall and accessed defense roof",
+    "source_checkpoint_frame": {
+      "authored_space": "measured native stamp-space; inverse resource projection required exactly once",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -2.220446049250313e-16,
+          -1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          1.0,
+          -2.220446049250313e-16,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}

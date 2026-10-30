@@ -1,0 +1,3574 @@
+{
+  "schema": "ccp.persia.lumber-original-plan/v1",
+  "qualification": "Pure recipe coordinate/triangle arithmetic only; no Blender generation, normals, closed-solid ray tests or visual acceptance",
+  "recipe_sha256": "cd338cfb1afbc9eb1f292ebd7df8275dbe96510b43eee3b2916f07e968973e1e",
+  "original_architecture_triangles": 984,
+  "native_functional_triangles": 1604,
+  "healthy_total": 2588,
+  "stock_cap": 2740,
+  "members": [
+    {
+      "name": "PSB_lumber_camp_A1_EarthBed",
+      "triangles": 24,
+      "bounds": [
+        [
+          -2.18,
+          -1.31,
+          -0.03
+        ],
+        [
+          2.18,
+          4.28125,
+          0.12
+        ]
+      ],
+      "role": "ground",
+      "stage": "foundation",
+      "group": "plot"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_WorkPlinth",
+      "triangles": 12,
+      "bounds": [
+        [
+          -2.07,
+          1.4700000000000002,
+          0.12
+        ],
+        [
+          2.07,
+          2.98,
+          0.2
+        ]
+      ],
+      "role": "ground",
+      "stage": "foundation",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_AxleFoot-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.6289453125,
+          -0.35693359375,
+          0.12
+        ],
+        [
+          -1.1289453125,
+          0.14306640625,
+          0.2
+        ]
+      ],
+      "role": "ground",
+      "stage": "foundation",
+      "group": "axle_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_GuideFoot-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -2.11,
+          3.395234375,
+          0.12
+        ],
+        [
+          -1.75,
+          3.835234375,
+          0.2
+        ]
+      ],
+      "role": "ground",
+      "stage": "foundation",
+      "group": "guide_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_GuideBraceFoot-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -2.07,
+          2.2199999999999998,
+          0.2
+        ],
+        [
+          -1.79,
+          2.58,
+          0.28
+        ]
+      ],
+      "role": "ground",
+      "stage": "foundation",
+      "group": "guide_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_AxleFoot1",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.1289453125,
+          -0.35693359375,
+          0.12
+        ],
+        [
+          1.6289453125,
+          0.14306640625,
+          0.2
+        ]
+      ],
+      "role": "ground",
+      "stage": "foundation",
+      "group": "axle_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_GuideFoot1",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.75,
+          3.395234375,
+          0.12
+        ],
+        [
+          2.11,
+          3.835234375,
+          0.2
+        ]
+      ],
+      "role": "ground",
+      "stage": "foundation",
+      "group": "guide_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_GuideBraceFoot1",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.79,
+          2.2199999999999998,
+          0.2
+        ],
+        [
+          2.07,
+          2.58,
+          0.28
+        ]
+      ],
+      "role": "ground",
+      "stage": "foundation",
+      "group": "guide_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_ToolStoreBack",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.85,
+          2.85,
+          0.2
+        ],
+        [
+          -0.3500000000000001,
+          2.97,
+          1.1
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "tool_store"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_ToolStoreReturn",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.97,
+          2.43,
+          0.2
+        ],
+        [
+          -1.8499999999999999,
+          2.97,
+          1.1
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "tool_store"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_AxlePier-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.4989453125,
+          -0.25693359375,
+          0.20000000000000007
+        ],
+        [
+          -1.2589453124999999,
+          0.043066406249999994,
+          2.007864985466003
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "axle_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_AxleBearing-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.5889453125,
+          -0.25693359375,
+          2.007864985466003
+        ],
+        [
+          -1.1689453125,
+          0.043066406249999994,
+          2.187864985466003
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "axle_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_GuidePost-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -2.02,
+          3.505234375,
+          0.20000000000000018
+        ],
+        [
+          -1.8399999999999999,
+          3.725234375,
+          5.4765625
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "guide_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_GuideRakingBrace-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.99,
+          2.341894940142922,
+          0.22503998599581496
+        ],
+        [
+          -1.8699999999999999,
+          3.673339434857078,
+          4.974960014004185
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "guide_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_AxlePier1",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.2589453124999999,
+          -0.25693359375,
+          0.20000000000000007
+        ],
+        [
+          1.4989453125,
+          0.043066406249999994,
+          2.007864985466003
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "axle_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_AxleBearing1",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.1689453125,
+          -0.25693359375,
+          2.007864985466003
+        ],
+        [
+          1.5889453125,
+          0.043066406249999994,
+          2.187864985466003
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "axle_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_GuidePost1",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.8399999999999999,
+          3.505234375,
+          0.20000000000000018
+        ],
+        [
+          2.02,
+          3.725234375,
+          5.4765625
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "guide_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_GuideRakingBrace1",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.8699999999999999,
+          2.341894940142922,
+          0.22503998599581496
+        ],
+        [
+          1.99,
+          3.673339434857078,
+          4.974960014004185
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "guide_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_GuideLintel",
+      "triangles": 12,
+      "bounds": [
+        [
+          -2.05,
+          3.465234375,
+          5.4765625
+        ],
+        [
+          2.05,
+          3.765234375,
+          5.6465625
+        ]
+      ],
+      "role": "architecture",
+      "stage": "vaults",
+      "group": "guide_frame"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_ShelterPost-1.88_1.6",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.95,
+          1.53,
+          0.20000000000000018
+        ],
+        [
+          -1.8099999999999998,
+          1.6700000000000002,
+          2.7
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_ShelterPost-1.88_2.86",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.95,
+          2.79,
+          0.20000000000000018
+        ],
+        [
+          -1.8099999999999998,
+          2.9299999999999997,
+          2.7
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_ShelterPost1.88_1.6",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.8099999999999998,
+          1.53,
+          0.20000000000000018
+        ],
+        [
+          1.95,
+          1.6700000000000002,
+          2.7
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_ShelterPost1.88_2.86",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.8099999999999998,
+          2.79,
+          0.20000000000000018
+        ],
+        [
+          1.95,
+          2.9299999999999997,
+          2.7
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_FrontBearing",
+      "triangles": 12,
+      "bounds": [
+        [
+          -2.02,
+          1.51,
+          2.7
+        ],
+        [
+          2.02,
+          1.6900000000000002,
+          2.87
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_BackBearing",
+      "triangles": 12,
+      "bounds": [
+        [
+          -2.02,
+          2.77,
+          2.7
+        ],
+        [
+          2.02,
+          2.9499999999999997,
+          2.87
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_RoofJoist0",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.9125,
+          1.4100000000000001,
+          2.87
+        ],
+        [
+          -1.8275000000000001,
+          3.05,
+          2.95
+        ]
+      ],
+      "role": "architecture",
+      "stage": "vaults",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_RoofJoist1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -0.6625,
+          1.4100000000000001,
+          2.87
+        ],
+        [
+          -0.5775,
+          3.05,
+          2.95
+        ]
+      ],
+      "role": "architecture",
+      "stage": "vaults",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_RoofJoist2",
+      "triangles": 12,
+      "bounds": [
+        [
+          0.5775,
+          1.4100000000000001,
+          2.87
+        ],
+        [
+          0.6625,
+          3.05,
+          2.95
+        ]
+      ],
+      "role": "architecture",
+      "stage": "vaults",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_RoofJoist3",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.8275000000000001,
+          1.4100000000000001,
+          2.87
+        ],
+        [
+          1.9125,
+          3.05,
+          2.95
+        ]
+      ],
+      "role": "architecture",
+      "stage": "vaults",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Knee-1.88Front",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.9165527634121433,
+          1.55,
+          2.3258840874819997
+        ],
+        [
+          -1.4934472365878564,
+          1.6500000000000001,
+          2.769115912518001
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Knee-1.88Back",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.9165527634121433,
+          2.81,
+          2.3258840874819997
+        ],
+        [
+          -1.4934472365878564,
+          2.9099999999999997,
+          2.769115912518001
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Knee1.88Front",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.4934472365878564,
+          1.55,
+          2.3258840874819997
+        ],
+        [
+          1.9165527634121433,
+          1.6500000000000001,
+          2.769115912518001
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Knee1.88Back",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.4934472365878564,
+          2.81,
+          2.3258840874819997
+        ],
+        [
+          1.9165527634121433,
+          2.9099999999999997,
+          2.769115912518001
+        ]
+      ],
+      "role": "architecture",
+      "stage": "walls",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_ReedRoof",
+      "triangles": 12,
+      "bounds": [
+        [
+          -2.1,
+          1.42,
+          2.95
+        ],
+        [
+          2.1,
+          3.04,
+          2.99
+        ]
+      ],
+      "role": "roofs",
+      "stage": "vaults",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_EarthRoof",
+      "triangles": 12,
+      "bounds": [
+        [
+          -2.1,
+          1.42,
+          2.99
+        ],
+        [
+          2.1,
+          3.04,
+          3.04
+        ]
+      ],
+      "role": "roofs",
+      "stage": "vaults",
+      "group": "shelter"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench0Top",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.5799999999999998,
+          2.3499999999999996,
+          0.8399999999999999
+        ],
+        [
+          -0.72,
+          2.75,
+          0.8999999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench0Leg-1-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.5499999999999998,
+          2.3699999999999997,
+          0.19999999999999996
+        ],
+        [
+          -1.48,
+          2.44,
+          0.8399999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench0Leg-11",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.5499999999999998,
+          2.6599999999999997,
+          0.19999999999999996
+        ],
+        [
+          -1.48,
+          2.73,
+          0.8399999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench0Leg1-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -0.82,
+          2.3699999999999997,
+          0.19999999999999996
+        ],
+        [
+          -0.7499999999999999,
+          2.44,
+          0.8399999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench0Leg11",
+      "triangles": 12,
+      "bounds": [
+        [
+          -0.82,
+          2.6599999999999997,
+          0.19999999999999996
+        ],
+        [
+          -0.7499999999999999,
+          2.73,
+          0.8399999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench0Stretcher",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.515,
+          2.38,
+          0.3925
+        ],
+        [
+          -0.7849999999999999,
+          2.4299999999999997,
+          0.44750000000000006
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_BenchStock0",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.4249999999999998,
+          2.485,
+          0.9
+        ],
+        [
+          -0.8749999999999999,
+          2.6149999999999998,
+          0.9700000000000001
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench1Top",
+      "triangles": 12,
+      "bounds": [
+        [
+          -0.43,
+          2.3499999999999996,
+          0.8399999999999999
+        ],
+        [
+          0.43,
+          2.75,
+          0.8999999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench1Leg-1-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -0.4,
+          2.3699999999999997,
+          0.19999999999999996
+        ],
+        [
+          -0.32999999999999996,
+          2.44,
+          0.8399999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench1Leg-11",
+      "triangles": 12,
+      "bounds": [
+        [
+          -0.4,
+          2.6599999999999997,
+          0.19999999999999996
+        ],
+        [
+          -0.32999999999999996,
+          2.73,
+          0.8399999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench1Leg1-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          0.32999999999999996,
+          2.3699999999999997,
+          0.19999999999999996
+        ],
+        [
+          0.4,
+          2.44,
+          0.8399999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench1Leg11",
+      "triangles": 12,
+      "bounds": [
+        [
+          0.32999999999999996,
+          2.6599999999999997,
+          0.19999999999999996
+        ],
+        [
+          0.4,
+          2.73,
+          0.8399999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench1Stretcher",
+      "triangles": 12,
+      "bounds": [
+        [
+          -0.365,
+          2.38,
+          0.3925
+        ],
+        [
+          0.365,
+          2.4299999999999997,
+          0.44750000000000006
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench2Top",
+      "triangles": 12,
+      "bounds": [
+        [
+          0.72,
+          2.3499999999999996,
+          0.8399999999999999
+        ],
+        [
+          1.5799999999999998,
+          2.75,
+          0.8999999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench2Leg-1-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          0.7499999999999999,
+          2.3699999999999997,
+          0.19999999999999996
+        ],
+        [
+          0.82,
+          2.44,
+          0.8399999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench2Leg-11",
+      "triangles": 12,
+      "bounds": [
+        [
+          0.7499999999999999,
+          2.6599999999999997,
+          0.19999999999999996
+        ],
+        [
+          0.82,
+          2.73,
+          0.8399999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench2Leg1-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.48,
+          2.3699999999999997,
+          0.19999999999999996
+        ],
+        [
+          1.5499999999999998,
+          2.44,
+          0.8399999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench2Leg11",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.48,
+          2.6599999999999997,
+          0.19999999999999996
+        ],
+        [
+          1.5499999999999998,
+          2.73,
+          0.8399999999999999
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Bench2Stretcher",
+      "triangles": 12,
+      "bounds": [
+        [
+          0.7849999999999999,
+          2.38,
+          0.3925
+        ],
+        [
+          1.515,
+          2.4299999999999997,
+          0.44750000000000006
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_BenchStock2",
+      "triangles": 12,
+      "bounds": [
+        [
+          0.8749999999999999,
+          2.485,
+          0.9
+        ],
+        [
+          1.4249999999999998,
+          2.6149999999999998,
+          0.9700000000000001
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_StoolSeat0",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.29,
+          1.83,
+          0.57
+        ],
+        [
+          -1.0099999999999998,
+          2.11,
+          0.62
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "seating"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_StoolTrestle0-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.2675,
+          1.8599999999999999,
+          0.2
+        ],
+        [
+          -1.2125,
+          2.08,
+          0.5700000000000001
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "seating"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_StoolTrestle01",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.0875,
+          1.8599999999999999,
+          0.2
+        ],
+        [
+          -1.0324999999999998,
+          2.08,
+          0.5700000000000001
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "seating"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_StoolSeat1",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.0099999999999998,
+          1.83,
+          0.57
+        ],
+        [
+          1.29,
+          2.11,
+          0.62
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "seating"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_StoolTrestle1-1",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.0324999999999998,
+          1.8599999999999999,
+          0.2
+        ],
+        [
+          1.0875,
+          2.08,
+          0.5700000000000001
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "seating"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_StoolTrestle11",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.2125,
+          1.8599999999999999,
+          0.2
+        ],
+        [
+          1.2675,
+          2.08,
+          0.5700000000000001
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "seating"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_LogCradle-1.1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.1700000000000002,
+          -1.105,
+          0.11999999999999998
+        ],
+        [
+          -1.03,
+          -0.33499999999999996,
+          0.21999999999999997
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "log_intake"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_LogCradle1.1",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.03,
+          -1.105,
+          0.11999999999999998
+        ],
+        [
+          1.1700000000000002,
+          -0.33499999999999996,
+          0.21999999999999997
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "log_intake"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_IncomingLog0",
+      "triangles": 20,
+      "bounds": [
+        [
+          -1.56,
+          -1.0666025403784438,
+          0.22
+        ],
+        [
+          1.56,
+          -0.8933974596215561,
+          0.42000000000000004
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "log_intake"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_IncomingLog1",
+      "triangles": 20,
+      "bounds": [
+        [
+          -1.56,
+          -0.8066025403784438,
+          0.22
+        ],
+        [
+          1.56,
+          -0.6333974596215561,
+          0.42000000000000004
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "log_intake"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_IncomingLog2",
+      "triangles": 20,
+      "bounds": [
+        [
+          -1.56,
+          -0.5466025403784439,
+          0.22
+        ],
+        [
+          1.56,
+          -0.3733974596215561,
+          0.42000000000000004
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "log_intake"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_BoardBearer0.28",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.385,
+          0.21000000000000002,
+          0.12
+        ],
+        [
+          2.035,
+          0.35000000000000003,
+          0.2
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "processed_stock"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_BoardBearer1.05",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.385,
+          0.98,
+          0.12
+        ],
+        [
+          2.035,
+          1.12,
+          0.2
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "processed_stock"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Board0_0",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.3599999999999999,
+          0.06500000000000006,
+          0.19999999999999998
+        ],
+        [
+          1.58,
+          1.2650000000000001,
+          0.27
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "processed_stock"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Board0_1",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.5999999999999999,
+          0.06500000000000006,
+          0.19999999999999998
+        ],
+        [
+          1.82,
+          1.2650000000000001,
+          0.27
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "processed_stock"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Board0_2",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.8399999999999999,
+          0.06500000000000006,
+          0.19999999999999998
+        ],
+        [
+          2.06,
+          1.2650000000000001,
+          0.27
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "processed_stock"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Board1_0",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.3599999999999999,
+          0.06500000000000006,
+          0.27
+        ],
+        [
+          1.58,
+          1.2650000000000001,
+          0.33999999999999997
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "processed_stock"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Board1_1",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.5999999999999999,
+          0.06500000000000006,
+          0.27
+        ],
+        [
+          1.82,
+          1.2650000000000001,
+          0.33999999999999997
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "processed_stock"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_Board1_2",
+      "triangles": 12,
+      "bounds": [
+        [
+          1.8399999999999999,
+          0.06500000000000006,
+          0.27
+        ],
+        [
+          2.06,
+          1.2650000000000001,
+          0.33999999999999997
+        ]
+      ],
+      "role": "props",
+      "stage": "finish",
+      "group": "processed_stock"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_OwnerBracket",
+      "triangles": 12,
+      "bounds": [
+        [
+          0.52,
+          1.44,
+          2.72
+        ],
+        [
+          0.8799999999999999,
+          1.54,
+          2.78
+        ]
+      ],
+      "role": "fittings",
+      "stage": "finish",
+      "group": "owner"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_OwnerCloth",
+      "triangles": 12,
+      "bounds": [
+        [
+          0.5599999999999999,
+          1.4475,
+          2.5000000000000004
+        ],
+        [
+          0.84,
+          1.4725,
+          2.72
+        ]
+      ],
+      "role": "owner",
+      "stage": "finish",
+      "group": "owner"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_BenchScuff0",
+      "triangles": 12,
+      "bounds": [
+        [
+          -1.3299999999999998,
+          2.4699999999999998,
+          0.9
+        ],
+        [
+          -0.97,
+          2.63,
+          0.9029999999999999
+        ]
+      ],
+      "role": "wear",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_BenchScuff1",
+      "triangles": 12,
+      "bounds": [
+        [
+          -0.18,
+          2.4699999999999998,
+          0.9
+        ],
+        [
+          0.18,
+          2.63,
+          0.9029999999999999
+        ]
+      ],
+      "role": "wear",
+      "stage": "finish",
+      "group": "workbenches"
+    },
+    {
+      "name": "PSB_lumber_camp_A1_BenchScuff2",
+      "triangles": 12,
+      "bounds": [
+        [
+          0.97,
+          2.4699999999999998,
+          0.9
+        ],
+        [
+          1.3299999999999998,
+          2.63,
+          0.9029999999999999
+        ]
+      ],
+      "role": "wear",
+      "stage": "finish",
+      "group": "workbenches"
+    }
+  ],
+  "planned_scalar_contacts": [
+    {
+      "body": "A1",
+      "name": "WorkPlinthBed",
+      "a": "PSB_lumber_camp_A1_WorkPlinth",
+      "b": "PSB_lumber_camp_A1_EarthBed",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        4.14,
+        1.5099999999999998
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "AxleFootBed-1",
+      "a": "PSB_lumber_camp_A1_AxleFoot-1",
+      "b": "PSB_lumber_camp_A1_EarthBed",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.5,
+        0.5
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "GuideFootBed-1",
+      "a": "PSB_lumber_camp_A1_GuideFoot-1",
+      "b": "PSB_lumber_camp_A1_EarthBed",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.3599999999999999,
+        0.4400000000000004
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "GuideBraceFootBed-1",
+      "a": "PSB_lumber_camp_A1_GuideBraceFoot-1",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.2799999999999998,
+        0.3600000000000003
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "AxleFootBed1",
+      "a": "PSB_lumber_camp_A1_AxleFoot1",
+      "b": "PSB_lumber_camp_A1_EarthBed",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.5,
+        0.5
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "GuideFootBed1",
+      "a": "PSB_lumber_camp_A1_GuideFoot1",
+      "b": "PSB_lumber_camp_A1_EarthBed",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.3599999999999999,
+        0.4400000000000004
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "GuideBraceFootBed1",
+      "a": "PSB_lumber_camp_A1_GuideBraceFoot1",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.2799999999999998,
+        0.3600000000000003
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ToolStoreBackBed",
+      "a": "PSB_lumber_camp_A1_ToolStoreBack",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        1.5,
+        0.1200000000000001
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ToolStoreReturnBed",
+      "a": "PSB_lumber_camp_A1_ToolStoreReturn",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.1200000000000001,
+        0.54
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ToolStoreButtJoint",
+      "a": "PSB_lumber_camp_A1_ToolStoreBack",
+      "b": "PSB_lumber_camp_A1_ToolStoreReturn",
+      "axis": "left-right",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -2.220446049250313e-16,
+      "planned_overlap": [
+        0.1200000000000001,
+        0.9000000000000001
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "AxlePierFoot-1",
+      "a": "PSB_lumber_camp_A1_AxlePier-1",
+      "b": "PSB_lumber_camp_A1_AxleFoot-1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 5.551115123125783e-17,
+      "planned_overlap": [
+        0.2400000000000002,
+        0.30000000000000004
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "AxleBearingPier-1",
+      "a": "PSB_lumber_camp_A1_AxleBearing-1",
+      "b": "PSB_lumber_camp_A1_AxlePier-1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.2400000000000002,
+        0.30000000000000004
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "GuidePostFoot-1",
+      "a": "PSB_lumber_camp_A1_GuidePost-1",
+      "b": "PSB_lumber_camp_A1_GuideFoot-1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.6653345369377348e-16,
+      "planned_overlap": [
+        0.18000000000000016,
+        0.21999999999999975
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "AxlePierFoot1",
+      "a": "PSB_lumber_camp_A1_AxlePier1",
+      "b": "PSB_lumber_camp_A1_AxleFoot1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 5.551115123125783e-17,
+      "planned_overlap": [
+        0.2400000000000002,
+        0.30000000000000004
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "AxleBearingPier1",
+      "a": "PSB_lumber_camp_A1_AxleBearing1",
+      "b": "PSB_lumber_camp_A1_AxlePier1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.2400000000000002,
+        0.30000000000000004
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "GuidePostFoot1",
+      "a": "PSB_lumber_camp_A1_GuidePost1",
+      "b": "PSB_lumber_camp_A1_GuideFoot1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.6653345369377348e-16,
+      "planned_overlap": [
+        0.18000000000000016,
+        0.21999999999999975
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "GuideLintelPost-1",
+      "a": "PSB_lumber_camp_A1_GuideLintel",
+      "b": "PSB_lumber_camp_A1_GuidePost-1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.18000000000000016,
+        0.21999999999999975
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "GuideLintelPost1",
+      "a": "PSB_lumber_camp_A1_GuideLintel",
+      "b": "PSB_lumber_camp_A1_GuidePost1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.18000000000000016,
+        0.21999999999999975
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ShelterPostPlinth-1.881.6",
+      "a": "PSB_lumber_camp_A1_ShelterPost-1.88_1.6",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.6653345369377348e-16,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.14000000000000012
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ShelterPostPlinth-1.882.86",
+      "a": "PSB_lumber_camp_A1_ShelterPost-1.88_2.86",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.6653345369377348e-16,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.13999999999999968
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ShelterPostPlinth1.881.6",
+      "a": "PSB_lumber_camp_A1_ShelterPost1.88_1.6",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.6653345369377348e-16,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.14000000000000012
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ShelterPostPlinth1.882.86",
+      "a": "PSB_lumber_camp_A1_ShelterPost1.88_2.86",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.6653345369377348e-16,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.13999999999999968
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "FrontBearingPost-1.88",
+      "a": "PSB_lumber_camp_A1_FrontBearing",
+      "b": "PSB_lumber_camp_A1_ShelterPost-1.88_1.6",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.14000000000000012
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "FrontBearingPost1.88",
+      "a": "PSB_lumber_camp_A1_FrontBearing",
+      "b": "PSB_lumber_camp_A1_ShelterPost1.88_1.6",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.14000000000000012
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BackBearingPost-1.88",
+      "a": "PSB_lumber_camp_A1_BackBearing",
+      "b": "PSB_lumber_camp_A1_ShelterPost-1.88_2.86",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.13999999999999968
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BackBearingPost1.88",
+      "a": "PSB_lumber_camp_A1_BackBearing",
+      "b": "PSB_lumber_camp_A1_ShelterPost1.88_2.86",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.13999999999999968
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Joist0Front",
+      "a": "PSB_lumber_camp_A1_RoofJoist0",
+      "b": "PSB_lumber_camp_A1_FrontBearing",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.08499999999999996,
+        0.18000000000000016
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Joist0Back",
+      "a": "PSB_lumber_camp_A1_RoofJoist0",
+      "b": "PSB_lumber_camp_A1_BackBearing",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.08499999999999996,
+        0.17999999999999972
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Joist1Front",
+      "a": "PSB_lumber_camp_A1_RoofJoist1",
+      "b": "PSB_lumber_camp_A1_FrontBearing",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.08499999999999996,
+        0.18000000000000016
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Joist1Back",
+      "a": "PSB_lumber_camp_A1_RoofJoist1",
+      "b": "PSB_lumber_camp_A1_BackBearing",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.08499999999999996,
+        0.17999999999999972
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Joist2Front",
+      "a": "PSB_lumber_camp_A1_RoofJoist2",
+      "b": "PSB_lumber_camp_A1_FrontBearing",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.08499999999999996,
+        0.18000000000000016
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Joist2Back",
+      "a": "PSB_lumber_camp_A1_RoofJoist2",
+      "b": "PSB_lumber_camp_A1_BackBearing",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.08499999999999996,
+        0.17999999999999972
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Joist3Front",
+      "a": "PSB_lumber_camp_A1_RoofJoist3",
+      "b": "PSB_lumber_camp_A1_FrontBearing",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.08499999999999996,
+        0.18000000000000016
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Joist3Back",
+      "a": "PSB_lumber_camp_A1_RoofJoist3",
+      "b": "PSB_lumber_camp_A1_BackBearing",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.08499999999999996,
+        0.17999999999999972
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ReedJoist0",
+      "a": "PSB_lumber_camp_A1_ReedRoof",
+      "b": "PSB_lumber_camp_A1_RoofJoist0",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.08499999999999996,
+        1.62
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ReedJoist1",
+      "a": "PSB_lumber_camp_A1_ReedRoof",
+      "b": "PSB_lumber_camp_A1_RoofJoist1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.08499999999999996,
+        1.62
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ReedJoist2",
+      "a": "PSB_lumber_camp_A1_ReedRoof",
+      "b": "PSB_lumber_camp_A1_RoofJoist2",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.08499999999999996,
+        1.62
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ReedJoist3",
+      "a": "PSB_lumber_camp_A1_ReedRoof",
+      "b": "PSB_lumber_camp_A1_RoofJoist3",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.08499999999999996,
+        1.62
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "EarthRoofReed",
+      "a": "PSB_lumber_camp_A1_EarthRoof",
+      "b": "PSB_lumber_camp_A1_ReedRoof",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        4.2,
+        1.62
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench0LegTop-1-1",
+      "a": "PSB_lumber_camp_A1_Bench0Leg-1-1",
+      "b": "PSB_lumber_camp_A1_Bench0Top",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.06999999999999984,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench0LegFloor-1-1",
+      "a": "PSB_lumber_camp_A1_Bench0Leg-1-1",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -5.551115123125783e-17,
+      "planned_overlap": [
+        0.06999999999999984,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench0LegTop-11",
+      "a": "PSB_lumber_camp_A1_Bench0Leg-11",
+      "b": "PSB_lumber_camp_A1_Bench0Top",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.06999999999999984,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench0LegFloor-11",
+      "a": "PSB_lumber_camp_A1_Bench0Leg-11",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -5.551115123125783e-17,
+      "planned_overlap": [
+        0.06999999999999984,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench0LegTop1-1",
+      "a": "PSB_lumber_camp_A1_Bench0Leg1-1",
+      "b": "PSB_lumber_camp_A1_Bench0Top",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench0LegFloor1-1",
+      "a": "PSB_lumber_camp_A1_Bench0Leg1-1",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -5.551115123125783e-17,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench0LegTop11",
+      "a": "PSB_lumber_camp_A1_Bench0Leg11",
+      "b": "PSB_lumber_camp_A1_Bench0Top",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench0LegFloor11",
+      "a": "PSB_lumber_camp_A1_Bench0Leg11",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -5.551115123125783e-17,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BenchStockTop0",
+      "a": "PSB_lumber_camp_A1_BenchStock0",
+      "b": "PSB_lumber_camp_A1_Bench0Top",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.1102230246251565e-16,
+      "planned_overlap": [
+        0.5499999999999999,
+        0.1299999999999999
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench1LegTop-1-1",
+      "a": "PSB_lumber_camp_A1_Bench1Leg-1-1",
+      "b": "PSB_lumber_camp_A1_Bench1Top",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench1LegFloor-1-1",
+      "a": "PSB_lumber_camp_A1_Bench1Leg-1-1",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -5.551115123125783e-17,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench1LegTop-11",
+      "a": "PSB_lumber_camp_A1_Bench1Leg-11",
+      "b": "PSB_lumber_camp_A1_Bench1Top",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench1LegFloor-11",
+      "a": "PSB_lumber_camp_A1_Bench1Leg-11",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -5.551115123125783e-17,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench1LegTop1-1",
+      "a": "PSB_lumber_camp_A1_Bench1Leg1-1",
+      "b": "PSB_lumber_camp_A1_Bench1Top",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench1LegFloor1-1",
+      "a": "PSB_lumber_camp_A1_Bench1Leg1-1",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -5.551115123125783e-17,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench1LegTop11",
+      "a": "PSB_lumber_camp_A1_Bench1Leg11",
+      "b": "PSB_lumber_camp_A1_Bench1Top",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench1LegFloor11",
+      "a": "PSB_lumber_camp_A1_Bench1Leg11",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -5.551115123125783e-17,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench2LegTop-1-1",
+      "a": "PSB_lumber_camp_A1_Bench2Leg-1-1",
+      "b": "PSB_lumber_camp_A1_Bench2Top",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench2LegFloor-1-1",
+      "a": "PSB_lumber_camp_A1_Bench2Leg-1-1",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -5.551115123125783e-17,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench2LegTop-11",
+      "a": "PSB_lumber_camp_A1_Bench2Leg-11",
+      "b": "PSB_lumber_camp_A1_Bench2Top",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench2LegFloor-11",
+      "a": "PSB_lumber_camp_A1_Bench2Leg-11",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -5.551115123125783e-17,
+      "planned_overlap": [
+        0.07000000000000006,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench2LegTop1-1",
+      "a": "PSB_lumber_camp_A1_Bench2Leg1-1",
+      "b": "PSB_lumber_camp_A1_Bench2Top",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.06999999999999984,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench2LegFloor1-1",
+      "a": "PSB_lumber_camp_A1_Bench2Leg1-1",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -5.551115123125783e-17,
+      "planned_overlap": [
+        0.06999999999999984,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench2LegTop11",
+      "a": "PSB_lumber_camp_A1_Bench2Leg11",
+      "b": "PSB_lumber_camp_A1_Bench2Top",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.06999999999999984,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "Bench2LegFloor11",
+      "a": "PSB_lumber_camp_A1_Bench2Leg11",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -5.551115123125783e-17,
+      "planned_overlap": [
+        0.06999999999999984,
+        0.07000000000000028
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BenchStockTop2",
+      "a": "PSB_lumber_camp_A1_BenchStock2",
+      "b": "PSB_lumber_camp_A1_Bench2Top",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.1102230246251565e-16,
+      "planned_overlap": [
+        0.5499999999999999,
+        0.1299999999999999
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "StoolSeatLeg0-1",
+      "a": "PSB_lumber_camp_A1_StoolTrestle0-1",
+      "b": "PSB_lumber_camp_A1_StoolSeat0",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.1102230246251565e-16,
+      "planned_overlap": [
+        0.05500000000000016,
+        0.2200000000000002
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "StoolLegBed0-1",
+      "a": "PSB_lumber_camp_A1_StoolTrestle0-1",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.05500000000000016,
+        0.2200000000000002
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "StoolSeatLeg01",
+      "a": "PSB_lumber_camp_A1_StoolTrestle01",
+      "b": "PSB_lumber_camp_A1_StoolSeat0",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.1102230246251565e-16,
+      "planned_overlap": [
+        0.05500000000000016,
+        0.2200000000000002
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "StoolLegBed01",
+      "a": "PSB_lumber_camp_A1_StoolTrestle01",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.05500000000000016,
+        0.2200000000000002
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "StoolSeatLeg1-1",
+      "a": "PSB_lumber_camp_A1_StoolTrestle1-1",
+      "b": "PSB_lumber_camp_A1_StoolSeat1",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.1102230246251565e-16,
+      "planned_overlap": [
+        0.05500000000000016,
+        0.2200000000000002
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "StoolLegBed1-1",
+      "a": "PSB_lumber_camp_A1_StoolTrestle1-1",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.05500000000000016,
+        0.2200000000000002
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "StoolSeatLeg11",
+      "a": "PSB_lumber_camp_A1_StoolTrestle11",
+      "b": "PSB_lumber_camp_A1_StoolSeat1",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.1102230246251565e-16,
+      "planned_overlap": [
+        0.05500000000000016,
+        0.2200000000000002
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "StoolLegBed11",
+      "a": "PSB_lumber_camp_A1_StoolTrestle11",
+      "b": "PSB_lumber_camp_A1_WorkPlinth",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.05500000000000016,
+        0.2200000000000002
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "LogCradleBed-1.1",
+      "a": "PSB_lumber_camp_A1_LogCradle-1.1",
+      "b": "PSB_lumber_camp_A1_EarthBed",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -1.3877787807814457e-17,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.77
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "LogCradleBed1.1",
+      "a": "PSB_lumber_camp_A1_LogCradle1.1",
+      "b": "PSB_lumber_camp_A1_EarthBed",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -1.3877787807814457e-17,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.77
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "IncomingLogCradle00",
+      "a": "PSB_lumber_camp_A1_IncomingLog0",
+      "b": "PSB_lumber_camp_A1_LogCradle-1.1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 2.7755575615628914e-17,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.17320508075688767
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "IncomingLogCradle01",
+      "a": "PSB_lumber_camp_A1_IncomingLog0",
+      "b": "PSB_lumber_camp_A1_LogCradle1.1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 2.7755575615628914e-17,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.17320508075688767
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "IncomingLogCradle10",
+      "a": "PSB_lumber_camp_A1_IncomingLog1",
+      "b": "PSB_lumber_camp_A1_LogCradle-1.1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 2.7755575615628914e-17,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.17320508075688767
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "IncomingLogCradle11",
+      "a": "PSB_lumber_camp_A1_IncomingLog1",
+      "b": "PSB_lumber_camp_A1_LogCradle1.1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 2.7755575615628914e-17,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.17320508075688767
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "IncomingLogCradle20",
+      "a": "PSB_lumber_camp_A1_IncomingLog2",
+      "b": "PSB_lumber_camp_A1_LogCradle-1.1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 2.7755575615628914e-17,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.17320508075688779
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "IncomingLogCradle21",
+      "a": "PSB_lumber_camp_A1_IncomingLog2",
+      "b": "PSB_lumber_camp_A1_LogCradle1.1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 2.7755575615628914e-17,
+      "planned_overlap": [
+        0.14000000000000012,
+        0.17320508075688779
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BoardBearerBed0.28",
+      "a": "PSB_lumber_camp_A1_BoardBearer0.28",
+      "b": "PSB_lumber_camp_A1_EarthBed",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.6500000000000001,
+        0.14
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BoardBearerBed1.05",
+      "a": "PSB_lumber_camp_A1_BoardBearer1.05",
+      "b": "PSB_lumber_camp_A1_EarthBed",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.6500000000000001,
+        0.14000000000000012
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BoardBearerSeat00",
+      "a": "PSB_lumber_camp_A1_Board0_0",
+      "b": "PSB_lumber_camp_A1_BoardBearer0.28",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -2.7755575615628914e-17,
+      "planned_overlap": [
+        0.19500000000000006,
+        0.14
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BoardBearerSeat01",
+      "a": "PSB_lumber_camp_A1_Board0_0",
+      "b": "PSB_lumber_camp_A1_BoardBearer1.05",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -2.7755575615628914e-17,
+      "planned_overlap": [
+        0.19500000000000006,
+        0.14000000000000012
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BoardBearerSeat10",
+      "a": "PSB_lumber_camp_A1_Board0_1",
+      "b": "PSB_lumber_camp_A1_BoardBearer0.28",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -2.7755575615628914e-17,
+      "planned_overlap": [
+        0.2200000000000002,
+        0.14
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BoardBearerSeat11",
+      "a": "PSB_lumber_camp_A1_Board0_1",
+      "b": "PSB_lumber_camp_A1_BoardBearer1.05",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -2.7755575615628914e-17,
+      "planned_overlap": [
+        0.2200000000000002,
+        0.14000000000000012
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BoardBearerSeat20",
+      "a": "PSB_lumber_camp_A1_Board0_2",
+      "b": "PSB_lumber_camp_A1_BoardBearer0.28",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -2.7755575615628914e-17,
+      "planned_overlap": [
+        0.19500000000000028,
+        0.14
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BoardBearerSeat21",
+      "a": "PSB_lumber_camp_A1_Board0_2",
+      "b": "PSB_lumber_camp_A1_BoardBearer1.05",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": -2.7755575615628914e-17,
+      "planned_overlap": [
+        0.19500000000000028,
+        0.14000000000000012
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BoardStack0",
+      "a": "PSB_lumber_camp_A1_Board1_0",
+      "b": "PSB_lumber_camp_A1_Board0_0",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.2200000000000002,
+        1.2000000000000002
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BoardStack1",
+      "a": "PSB_lumber_camp_A1_Board1_1",
+      "b": "PSB_lumber_camp_A1_Board0_1",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.2200000000000002,
+        1.2000000000000002
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "BoardStack2",
+      "a": "PSB_lumber_camp_A1_Board1_2",
+      "b": "PSB_lumber_camp_A1_Board0_2",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.2200000000000002,
+        1.2000000000000002
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "OwnerClothBracket",
+      "a": "PSB_lumber_camp_A1_OwnerCloth",
+      "b": "PSB_lumber_camp_A1_OwnerBracket",
+      "axis": "top-bottom",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 0.0,
+      "planned_overlap": [
+        0.28,
+        0.02499999999999991
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ScuffOnBench0",
+      "a": "PSB_lumber_camp_A1_BenchScuff0",
+      "b": "PSB_lumber_camp_A1_Bench0Top",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.1102230246251565e-16,
+      "planned_overlap": [
+        0.3599999999999999,
+        0.16000000000000014
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ScuffOnBench1",
+      "a": "PSB_lumber_camp_A1_BenchScuff1",
+      "b": "PSB_lumber_camp_A1_Bench1Top",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.1102230246251565e-16,
+      "planned_overlap": [
+        0.36,
+        0.16000000000000014
+      ],
+      "passed": true
+    },
+    {
+      "body": "A1",
+      "name": "ScuffOnBench2",
+      "a": "PSB_lumber_camp_A1_BenchScuff2",
+      "b": "PSB_lumber_camp_A1_Bench2Top",
+      "axis": "bottom-top",
+      "target": 0,
+      "tolerance": 0.003,
+      "planned_gap": 1.1102230246251565e-16,
+      "planned_overlap": [
+        0.3599999999999999,
+        0.16000000000000014
+      ],
+      "passed": true
+    }
+  ],
+  "planned_interfaces": [
+    {
+      "name": "GuideBraceFootSeat-1",
+      "a": "PSB_lumber_camp_A1_GuideRakingBrace-1",
+      "b": "PSB_lumber_camp_A1_GuideBraceFoot-1",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        -1.93,
+        2.4,
+        0.24000000000000002
+      ],
+      "intentional_socket_overlap_metres": 0.04,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "GuideBracePostSeat-1",
+      "a": "PSB_lumber_camp_A1_GuideRakingBrace-1",
+      "b": "PSB_lumber_camp_A1_GuidePost-1",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        -1.93,
+        3.615234375,
+        4.96
+      ],
+      "intentional_socket_overlap_metres": 0.09,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "GuideBraceFootSeat1",
+      "a": "PSB_lumber_camp_A1_GuideRakingBrace1",
+      "b": "PSB_lumber_camp_A1_GuideBraceFoot1",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        1.93,
+        2.4,
+        0.24000000000000002
+      ],
+      "intentional_socket_overlap_metres": 0.04,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "GuideBracePostSeat1",
+      "a": "PSB_lumber_camp_A1_GuideRakingBrace1",
+      "b": "PSB_lumber_camp_A1_GuidePost1",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        1.93,
+        3.615234375,
+        4.96
+      ],
+      "intentional_socket_overlap_metres": 0.09,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "KneePost-1.88Front",
+      "a": "PSB_lumber_camp_A1_Knee-1.88Front",
+      "b": "PSB_lumber_camp_A1_ShelterPost-1.88_1.6",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        -1.88,
+        1.6,
+        2.3600000000000003
+      ],
+      "intentional_socket_overlap_metres": 0.07,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "KneeRail-1.88Front",
+      "a": "PSB_lumber_camp_A1_Knee-1.88Front",
+      "b": "PSB_lumber_camp_A1_FrontBearing",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        -1.5299999999999998,
+        1.6,
+        2.7350000000000003
+      ],
+      "intentional_socket_overlap_metres": 0.035,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "KneePost-1.88Back",
+      "a": "PSB_lumber_camp_A1_Knee-1.88Back",
+      "b": "PSB_lumber_camp_A1_ShelterPost-1.88_2.86",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        -1.88,
+        2.86,
+        2.3600000000000003
+      ],
+      "intentional_socket_overlap_metres": 0.07,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "KneeRail-1.88Back",
+      "a": "PSB_lumber_camp_A1_Knee-1.88Back",
+      "b": "PSB_lumber_camp_A1_BackBearing",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        -1.5299999999999998,
+        2.86,
+        2.7350000000000003
+      ],
+      "intentional_socket_overlap_metres": 0.035,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "KneePost1.88Front",
+      "a": "PSB_lumber_camp_A1_Knee1.88Front",
+      "b": "PSB_lumber_camp_A1_ShelterPost1.88_1.6",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        1.88,
+        1.6,
+        2.3600000000000003
+      ],
+      "intentional_socket_overlap_metres": 0.07,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "KneeRail1.88Front",
+      "a": "PSB_lumber_camp_A1_Knee1.88Front",
+      "b": "PSB_lumber_camp_A1_FrontBearing",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        1.5299999999999998,
+        1.6,
+        2.7350000000000003
+      ],
+      "intentional_socket_overlap_metres": 0.035,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "KneePost1.88Back",
+      "a": "PSB_lumber_camp_A1_Knee1.88Back",
+      "b": "PSB_lumber_camp_A1_ShelterPost1.88_2.86",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        1.88,
+        2.86,
+        2.3600000000000003
+      ],
+      "intentional_socket_overlap_metres": 0.07,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "KneeRail1.88Back",
+      "a": "PSB_lumber_camp_A1_Knee1.88Back",
+      "b": "PSB_lumber_camp_A1_BackBearing",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        1.5299999999999998,
+        2.86,
+        2.7350000000000003
+      ],
+      "intentional_socket_overlap_metres": 0.035,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "Bench0StretcherSeat-1",
+      "a": "PSB_lumber_camp_A1_Bench0Stretcher",
+      "b": "PSB_lumber_camp_A1_Bench0Leg-1-1",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        -1.515,
+        2.405,
+        0.42000000000000004
+      ],
+      "intentional_socket_overlap_metres": 0.035,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "Bench0StretcherSeat1",
+      "a": "PSB_lumber_camp_A1_Bench0Stretcher",
+      "b": "PSB_lumber_camp_A1_Bench0Leg1-1",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        -0.7849999999999999,
+        2.405,
+        0.42000000000000004
+      ],
+      "intentional_socket_overlap_metres": 0.035,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "Bench1StretcherSeat-1",
+      "a": "PSB_lumber_camp_A1_Bench1Stretcher",
+      "b": "PSB_lumber_camp_A1_Bench1Leg-1-1",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        -0.365,
+        2.405,
+        0.42000000000000004
+      ],
+      "intentional_socket_overlap_metres": 0.035,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "Bench1StretcherSeat1",
+      "a": "PSB_lumber_camp_A1_Bench1Stretcher",
+      "b": "PSB_lumber_camp_A1_Bench1Leg1-1",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        0.365,
+        2.405,
+        0.42000000000000004
+      ],
+      "intentional_socket_overlap_metres": 0.035,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "Bench2StretcherSeat-1",
+      "a": "PSB_lumber_camp_A1_Bench2Stretcher",
+      "b": "PSB_lumber_camp_A1_Bench2Leg-1-1",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        0.7849999999999999,
+        2.405,
+        0.42000000000000004
+      ],
+      "intentional_socket_overlap_metres": 0.035,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "Bench2StretcherSeat1",
+      "a": "PSB_lumber_camp_A1_Bench2Stretcher",
+      "b": "PSB_lumber_camp_A1_Bench2Leg1-1",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        1.515,
+        2.405,
+        0.42000000000000004
+      ],
+      "intentional_socket_overlap_metres": 0.035,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    },
+    {
+      "name": "OwnerBracketFrontBeam",
+      "a": "PSB_lumber_camp_A1_OwnerBracket",
+      "b": "PSB_lumber_camp_A1_FrontBearing",
+      "authored_space": "model-space",
+      "authored_contact_point": [
+        0.7,
+        1.53,
+        2.75
+      ],
+      "intentional_socket_overlap_metres": 0.02,
+      "tolerance": 0.003,
+      "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+    }
+  ],
+  "anchors": {
+    "A1": {
+      "authored_space": "model-space",
+      "native_body_key": "A1",
+      "ground_top": 0.12,
+      "work_floor_top": 0.2,
+      "front_direction": "-Y",
+      "numerical_interfaces": [
+        {
+          "name": "GuideBraceFootSeat-1",
+          "a": "PSB_lumber_camp_A1_GuideRakingBrace-1",
+          "b": "PSB_lumber_camp_A1_GuideBraceFoot-1",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            -1.93,
+            2.4,
+            0.24000000000000002
+          ],
+          "intentional_socket_overlap_metres": 0.04,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "GuideBracePostSeat-1",
+          "a": "PSB_lumber_camp_A1_GuideRakingBrace-1",
+          "b": "PSB_lumber_camp_A1_GuidePost-1",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            -1.93,
+            3.615234375,
+            4.96
+          ],
+          "intentional_socket_overlap_metres": 0.09,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "GuideBraceFootSeat1",
+          "a": "PSB_lumber_camp_A1_GuideRakingBrace1",
+          "b": "PSB_lumber_camp_A1_GuideBraceFoot1",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            1.93,
+            2.4,
+            0.24000000000000002
+          ],
+          "intentional_socket_overlap_metres": 0.04,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "GuideBracePostSeat1",
+          "a": "PSB_lumber_camp_A1_GuideRakingBrace1",
+          "b": "PSB_lumber_camp_A1_GuidePost1",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            1.93,
+            3.615234375,
+            4.96
+          ],
+          "intentional_socket_overlap_metres": 0.09,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "KneePost-1.88Front",
+          "a": "PSB_lumber_camp_A1_Knee-1.88Front",
+          "b": "PSB_lumber_camp_A1_ShelterPost-1.88_1.6",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            -1.88,
+            1.6,
+            2.3600000000000003
+          ],
+          "intentional_socket_overlap_metres": 0.07,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "KneeRail-1.88Front",
+          "a": "PSB_lumber_camp_A1_Knee-1.88Front",
+          "b": "PSB_lumber_camp_A1_FrontBearing",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            -1.5299999999999998,
+            1.6,
+            2.7350000000000003
+          ],
+          "intentional_socket_overlap_metres": 0.035,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "KneePost-1.88Back",
+          "a": "PSB_lumber_camp_A1_Knee-1.88Back",
+          "b": "PSB_lumber_camp_A1_ShelterPost-1.88_2.86",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            -1.88,
+            2.86,
+            2.3600000000000003
+          ],
+          "intentional_socket_overlap_metres": 0.07,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "KneeRail-1.88Back",
+          "a": "PSB_lumber_camp_A1_Knee-1.88Back",
+          "b": "PSB_lumber_camp_A1_BackBearing",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            -1.5299999999999998,
+            2.86,
+            2.7350000000000003
+          ],
+          "intentional_socket_overlap_metres": 0.035,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "KneePost1.88Front",
+          "a": "PSB_lumber_camp_A1_Knee1.88Front",
+          "b": "PSB_lumber_camp_A1_ShelterPost1.88_1.6",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            1.88,
+            1.6,
+            2.3600000000000003
+          ],
+          "intentional_socket_overlap_metres": 0.07,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "KneeRail1.88Front",
+          "a": "PSB_lumber_camp_A1_Knee1.88Front",
+          "b": "PSB_lumber_camp_A1_FrontBearing",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            1.5299999999999998,
+            1.6,
+            2.7350000000000003
+          ],
+          "intentional_socket_overlap_metres": 0.035,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "KneePost1.88Back",
+          "a": "PSB_lumber_camp_A1_Knee1.88Back",
+          "b": "PSB_lumber_camp_A1_ShelterPost1.88_2.86",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            1.88,
+            2.86,
+            2.3600000000000003
+          ],
+          "intentional_socket_overlap_metres": 0.07,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "KneeRail1.88Back",
+          "a": "PSB_lumber_camp_A1_Knee1.88Back",
+          "b": "PSB_lumber_camp_A1_BackBearing",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            1.5299999999999998,
+            2.86,
+            2.7350000000000003
+          ],
+          "intentional_socket_overlap_metres": 0.035,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "Bench0StretcherSeat-1",
+          "a": "PSB_lumber_camp_A1_Bench0Stretcher",
+          "b": "PSB_lumber_camp_A1_Bench0Leg-1-1",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            -1.515,
+            2.405,
+            0.42000000000000004
+          ],
+          "intentional_socket_overlap_metres": 0.035,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "Bench0StretcherSeat1",
+          "a": "PSB_lumber_camp_A1_Bench0Stretcher",
+          "b": "PSB_lumber_camp_A1_Bench0Leg1-1",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            -0.7849999999999999,
+            2.405,
+            0.42000000000000004
+          ],
+          "intentional_socket_overlap_metres": 0.035,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "Bench1StretcherSeat-1",
+          "a": "PSB_lumber_camp_A1_Bench1Stretcher",
+          "b": "PSB_lumber_camp_A1_Bench1Leg-1-1",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            -0.365,
+            2.405,
+            0.42000000000000004
+          ],
+          "intentional_socket_overlap_metres": 0.035,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "Bench1StretcherSeat1",
+          "a": "PSB_lumber_camp_A1_Bench1Stretcher",
+          "b": "PSB_lumber_camp_A1_Bench1Leg1-1",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            0.365,
+            2.405,
+            0.42000000000000004
+          ],
+          "intentional_socket_overlap_metres": 0.035,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "Bench2StretcherSeat-1",
+          "a": "PSB_lumber_camp_A1_Bench2Stretcher",
+          "b": "PSB_lumber_camp_A1_Bench2Leg-1-1",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            0.7849999999999999,
+            2.405,
+            0.42000000000000004
+          ],
+          "intentional_socket_overlap_metres": 0.035,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "Bench2StretcherSeat1",
+          "a": "PSB_lumber_camp_A1_Bench2Stretcher",
+          "b": "PSB_lumber_camp_A1_Bench2Leg1-1",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            1.515,
+            2.405,
+            0.42000000000000004
+          ],
+          "intentional_socket_overlap_metres": 0.035,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        },
+        {
+          "name": "OwnerBracketFrontBeam",
+          "a": "PSB_lumber_camp_A1_OwnerBracket",
+          "b": "PSB_lumber_camp_A1_FrontBearing",
+          "authored_space": "model-space",
+          "authored_contact_point": [
+            0.7,
+            1.53,
+            2.75
+          ],
+          "intentional_socket_overlap_metres": 0.02,
+          "tolerance": 0.003,
+          "verification": "Exact named surface/embedded joint; parent generated closed-solid check required"
+        }
+      ],
+      "native_dependency": {
+        "model": "art/civilizations/common/structures/lumber_camp/com_lumber_camp_crane_age01/com_lumber_camp_crane_age01.rgm",
+        "rgm_sha256": "55ad1d5227fc5d14355e6439b6bbf91695fbf1de913f6241b50b087f3997834b",
+        "rrgeom_sha256": "d575467700cb88ecb8625358ef9b3c8afcdb65a74ad0c563a7ca8ecee9c96899",
+        "rgo_sha256": "bc8497f934bfa6f284a85bf393c888d7e152cdd13fa3add43397795c95e8e5e2",
+        "partition": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_buildings\\inventory\\LUMBER_FUNCTIONAL_SOURCE_PARTITION.json",
+        "functional_triangles": 1604,
+        "original_architecture_cap": 1136,
+        "stock_compound_cap": 2740,
+        "source_status": "Exact reference hierarchy/weights retained; native playback, physical pivots and working sweep unproved"
+      },
+      "raw_native_rest_bounds": {
+        "min": [
+          -2.28125,
+          -1.365234375,
+          -2.4375
+        ],
+        "max": [
+          2.28125,
+          4.28125,
+          5.7265625
+        ]
+      },
+      "working_clearances": {
+        "shelter_head_above_workfloor": 2.5,
+        "bench_height": 0.7,
+        "seat_height": 0.42,
+        "approach_strip_y": [
+          1.73,
+          2.32
+        ],
+        "payload_reference_zone_y": [
+          3.056640625,
+          4.28125
+        ],
+        "wheel_reference_zone_y": [
+          -1.33984375,
+          1.2900390625
+        ],
+        "working_sweep_qualified": false
+      },
+      "native_bearing_candidates": [
+        {
+          "original_member": "AxleBearing-1",
+          "native_source_index": 3,
+          "point": [
+            -1.1689453125,
+            -0.10693359375,
+            2.097864985466003
+          ],
+          "meaning": "Exact closest native wheel surface point; proposed original bearing contact, not engine physical pivot"
+        },
+        {
+          "original_member": "AxleBearing1",
+          "native_source_index": 0,
+          "point": [
+            1.1689453125,
+            -0.10693359375,
+            2.097864985466003
+          ],
+          "meaning": "Exact closest native wheel surface point; proposed original bearing contact, not engine physical pivot"
+        }
+      ],
+      "native_guide_candidate": {
+        "original_member": "GuideLintel",
+        "point": [
+          -0.014007568359375,
+          3.615234375,
+          5.4765625
+        ],
+        "meaning": "Exact highest base-weighted cable vertex against original lintel underside; guide semantics/operating sweep require parent inspection"
+      }
+    }
+  },
+  "passed_pure_arithmetic": true,
+  "errors": [],
+  "parent_generated_verification_required": true
+}

@@ -1,0 +1,26 @@
+{
+  "owner": "067d2031-d082-4348-b3e7-56d973932702",
+  "version": "0.1.2",
+  "archive_sha256": "322182ce5a892bb7d43348a43f3c81482cca54d1a15642b2cb41d2f5858e6e4a",
+  "tables": 530,
+  "members": 1915,
+  "header_and_declaration_owner_agree": true,
+  "declaration_digests_verified": true,
+  "all_member_readback_sha256": true,
+  "native_crc_sha1": true,
+  "source_tests": 18,
+  "static_validator": "passed",
+  "native_test": "pending",
+  "native_route": "Supported Garrison civilization validate/build; final ordinary-producer header correction via supported replace-member when needed, with complete final archive extraction/hash verification. No new world-art cook.",
+  "changed_members": [
+    "attrib/army/garrison/persia/persia_standard.rgd",
+    "attrib/codex/garrison/persia/persia_codex.rgd",
+    "attrib/racebps/persia.rgd",
+    "en/en.ucs",
+    "garrison/civilizations.json"
+  ],
+  "added_members_count": 0,
+  "removed_members_count": 0,
+  "native_input_manifest_sha256": "b663520406e28d776708923f9b39cfa5ec670edfa40ca5a9dd32442a01c8ea67",
+  "editable_master_index_sha256": "ff431119487bc39eaa65cbff4c0db120b2b68de6b0c0e9be7a3c4c79306102f3"
+}

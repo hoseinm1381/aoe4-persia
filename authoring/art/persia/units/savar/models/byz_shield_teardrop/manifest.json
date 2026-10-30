@@ -1,0 +1,177 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "savar",
+  "donor": "art/civilizations/sultanate/weapons/sul_shield_round_1/sul_shield_round_1.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\savar\\models\\byz_shield_teardrop\\model.blend",
+  "source_sha256": "09f59ad63acee7cd03ab1e1d0aeea1f3c693d66a410871486f2905663cce0fd2",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "d6bc36b27a0e00dcf7c718500aa18de97ae856daa103e7961477091d68ab7ced"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "67371cad11f39be37835e980e0c9d5a8b6446a48321bdf1e89e815db17d25045"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "ba9eb4c45e13e7123b6a3811360bcbb9208e4c7e991c0d4b7a6152774859376c"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_savar_byz_shield_teardrop_LOD0",
+      "vertices": 182,
+      "triangles": 288,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_savar_byz_shield_teardrop_LOD1",
+      "vertices": 182,
+      "triangles": 288,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_savar_byz_shield_teardrop_LOD2",
+      "vertices": 182,
+      "triangles": 288,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 51,
+      "changed_vertices": 51,
+      "source_vertices": 182,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 45,
+      "changed_vertices": 57,
+      "source_vertices": 182,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 31,
+      "changed_vertices": 63,
+      "source_vertices": 182,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 51,
+      "changed_vertices": 51,
+      "source_vertices": 182,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 45,
+      "changed_vertices": 57,
+      "source_vertices": 182,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 31,
+      "changed_vertices": 63,
+      "source_vertices": 182,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/byzantine/weapons/byz_shield_teardrop/byz_shield_teardrop.rgm",
+  "geometry_donor": "art/civilizations/sultanate/weapons/sul_shield_round_1/sul_shield_round_1.rgm",
+  "native_target_manifest_sha256": "b252c60b0518c380c78ae416b13e51a3875926d5a59cc72cd3dd45e25c2a5ec9",
+  "native_target_decorative_variants": [
+    {
+      "mesh_index": 0,
+      "material": "lion",
+      "maps_to_shared_round_shield": true
+    },
+    {
+      "mesh_index": 1,
+      "material": "stripe1",
+      "maps_to_shared_round_shield": true
+    },
+    {
+      "mesh_index": 2,
+      "material": "stripe2",
+      "maps_to_shared_round_shield": true
+    }
+  ]
+}

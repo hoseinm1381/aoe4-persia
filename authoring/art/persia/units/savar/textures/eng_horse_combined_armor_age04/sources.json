@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\eng_horse_combined_armor_age04\\87ba45beb363190545e7\\decoded-static.json",
+  "donor_sha256": "5976dc16279e180fed1d9af61664c2d1404ef1419bfc6501dcac8b2f8f90ea96",
+  "logical_path": "art/civilizations/english/animals/eng_horse_combined_armor_age04/eng_horse_combined_armor_age04.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "de8887b869563e5e7bfb8aafd2008a2db8dc7a2a66ec5415b02b4689c2d340bd",
+    "normal": "74100c3c9292194452f342440d91b5483d13e0bbbcba29bc4e05a7ec10ba8779",
+    "roughness": "6b4dce68c18e2d7f39b873e67ae06e519e23f02fa2d8e7a46573d0cb44dcf24a",
+    "metalness": "703d2203732924b0a026ebbeba3d786123abbc5cdee6a893e7d0c3eee2c1cc64",
+    "pattern": "ef270b0bec118d06f44cf08761cb5c716f8abbc908dd29c55da845097b711d95"
+  }
+}

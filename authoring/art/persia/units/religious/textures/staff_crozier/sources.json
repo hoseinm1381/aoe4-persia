@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\staff_crozier\\956014327940fd96ec83\\decoded-static.json",
+  "donor_sha256": "32ac9974ea077cdba01940c307ee093b8e34c518056d74f5c27082269bc95246",
+  "logical_path": "art/civilizations/common/weapons/melee/staff_crozier/staff_crozier.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "3247325e9d35dbecf167be25291ab635993c79cd8e746d986814611ca280ce40",
+    "normal": "626abc0a6b2e669f905508b606a21f0bc5bf100007482f2c13513a5fed6d6bae",
+    "roughness": "e15d1dfef6fd36ed497b9ceb56b2d6ae790f6b97533e0eb6e7fcd060b2431861",
+    "metalness": "f54c4a1136130912833beafd3ea65686b5fa66d3b2c51e750ff2af8929212dde",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

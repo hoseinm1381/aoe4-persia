@@ -1,0 +1,4097 @@
+{
+  "schema": "persia-family-bindings/v1",
+  "family": "archer",
+  "permanent_source_read_only": true,
+  "blueprints_and_selectors": [
+    {
+      "key": "ebps/persia/ps_unit_archer_2_sul",
+      "family": "archer",
+      "status": "included",
+      "reached_from": "sbps/persia/ps_unit_archer_2_sul_cheap",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\ebps\\persia\\ps_unit_archer_2_sul.xml",
+      "source_sha256": "ca38406acaab9d1b24e409d4da7fe5e4b581b39a22473381faa14740c9aea441",
+      "visual_fields": [
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\sultanate\\weapons\\wpn_range_archer_2_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\sultanate\\weapons\\wpn_range_archer_2_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\core\\weapons\\wpn_siege_archer_incendiary",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_archer_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_archer_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\persia\\ps_persia_unit_feudal_to_castle",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "statetree_tier_pgb_upgrade_target_entity",
+          "value": "ebps\\persia\\ps_unit_archer_3_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_pgb_upgrade_target_entity",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_archer_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\persia\\ps_persia_unit_castle_to_imp",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "statetree_tier_pgb_upgrade_target_entity",
+          "value": "ebps\\persia\\ps_unit_archer_4_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_pgb_upgrade_target_entity",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_archer_2",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\ottoman\\weapons\\wpn_range_archer_2_ott",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\ottoman\\weapons\\wpn_range_archer_2_ott",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_archer_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_archer_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\persia\\ps_persia_unit_feudal_to_castle",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "statetree_tier_pgb_upgrade_target_entity",
+          "value": "ebps\\persia\\ps_unit_archer_3_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_pgb_upgrade_target_entity",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_archer_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\persia\\ps_persia_unit_castle_to_imp",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "statetree_tier_pgb_upgrade_target_entity",
+          "value": "ebps\\persia\\ps_unit_archer_4_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_pgb_upgrade_target_entity",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_archer_2",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "ebps/persia/ps_unit_archer_3_sul",
+      "family": "archer",
+      "status": "included",
+      "reached_from": "sbps/persia/ps_unit_archer_3_sul_cheap",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\ebps\\persia\\ps_unit_archer_3_sul.xml",
+      "source_sha256": "bff0bdaaff678bd85ee310f89bc48c6c92b17672d7ad6b4f411e14a837b16128",
+      "visual_fields": [
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\sultanate\\weapons\\wpn_range_archer_3_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\sultanate\\weapons\\wpn_range_archer_3_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\core\\weapons\\wpn_siege_archer_incendiary",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_archer_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_archer_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\persia\\ps_persia_unit_castle_to_imp",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "statetree_tier_pgb_upgrade_target_entity",
+          "value": "ebps\\persia\\ps_unit_archer_4_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_pgb_upgrade_target_entity",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_archer_3",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\ottoman\\weapons\\wpn_range_archer_3_ott",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\ottoman\\weapons\\wpn_range_archer_3_ott",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_archer_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_archer_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\persia\\ps_persia_unit_castle_to_imp",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "statetree_tier_pgb_upgrade_target_entity",
+          "value": "ebps\\persia\\ps_unit_archer_4_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_pgb_upgrade_target_entity",
+          "mod": "b7fcea91257b408fb9e8ae4d8bc402e1"
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_archer_3",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "ebps/persia/ps_unit_archer_4_sul",
+      "family": "archer",
+      "status": "included",
+      "reached_from": "sbps/persia/ps_unit_archer_4_sul_cheap",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\ebps\\persia\\ps_unit_archer_4_sul.xml",
+      "source_sha256": "c45c1cb3c4bbc1a95344578f07e7ba5217ceebceba59db4944f87fe98fcfd201",
+      "visual_fields": [
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\sultanate\\weapons\\wpn_range_archer_4_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\sultanate\\weapons\\wpn_range_archer_4_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\core\\weapons\\wpn_siege_archer_incendiary",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_archer_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_archer_4",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\ottoman\\weapons\\wpn_range_archer_4_ott",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\ottoman\\weapons\\wpn_range_archer_4_ott",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "MetaRig_LArmPalmSocket",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_archer_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_archer_4",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "sbps/persia/ps_unit_archer_2_sul",
+      "family": "archer",
+      "status": "included",
+      "reached_from": "ebps/persia/ps_building_unit_ranged_control_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\sbps\\persia\\ps_unit_archer_2_sul.xml",
+      "source_sha256": "7e7e129421fc7c0d068d8f0ee532a2fa34bc6a364de09fd563c81146b9117eb1",
+      "visual_fields": [
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_archer_2",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_archer_2",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "sbps/persia/ps_unit_archer_2_sul_cheap",
+      "family": "archer",
+      "status": "included",
+      "reached_from": "ebps/persia/ps_building_unit_ranged_control_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\sbps\\persia\\ps_unit_archer_2_sul_cheap.xml",
+      "source_sha256": "55ec4639339e2eb46c3be0b4a525c30f2a931f1e8235c687bb3b18bec6db6a1f",
+      "visual_fields": [
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_archer_2",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_archer_2",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "sbps/persia/ps_unit_archer_3_sul",
+      "family": "archer",
+      "status": "included",
+      "reached_from": "ebps/persia/ps_building_unit_ranged_control_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\sbps\\persia\\ps_unit_archer_3_sul.xml",
+      "source_sha256": "8d24550244f70f1b7e1e316a964c8a4bd03262aa594e2faf3a5d5f7acb38d20d",
+      "visual_fields": [
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_archer_3",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_archer_3",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "sbps/persia/ps_unit_archer_3_sul_cheap",
+      "family": "archer",
+      "status": "included",
+      "reached_from": "ebps/persia/ps_building_unit_ranged_control_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\sbps\\persia\\ps_unit_archer_3_sul_cheap.xml",
+      "source_sha256": "8f6d56b7d0eb91f9e612e952741b6cb3630a820c6d26ee141893d99c1251c844",
+      "visual_fields": [
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_archer_3",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_archer_3",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "sbps/persia/ps_unit_archer_4_sul",
+      "family": "archer",
+      "status": "included",
+      "reached_from": "ebps/persia/ps_building_unit_ranged_control_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\sbps\\persia\\ps_unit_archer_4_sul.xml",
+      "source_sha256": "566ee0815a3d3a474ccca82b9eb26c38598f1f4a16de3a29bc6a7f2f8dd3d9ba",
+      "visual_fields": [
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_archer_4",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_archer_4",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "sbps/persia/ps_unit_archer_4_sul_cheap",
+      "family": "archer",
+      "status": "included",
+      "reached_from": "ebps/persia/ps_building_unit_ranged_control_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\sbps\\persia\\ps_unit_archer_4_sul_cheap.xml",
+      "source_sha256": "e903c40b5011c7b73732e43ec605b40b8bfb97c47df332c4776e3e9c13524ad4",
+      "visual_fields": [
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_archer_4",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_archer_4",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "logical_path": "art/civilizations/common/humans/archetypes/base_archer/base_archer.rgm",
+      "role": "native_animation_owner",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_4",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_3",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_2",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_4",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_2",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_4",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_2",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_2",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_2",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_2",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_2",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_3",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_2",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_2",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_archer_3",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        }
+      ],
+      "scope": "required",
+      "editable_status": "not modeled"
+    },
+    {
+      "logical_path": "art/civilizations/common/weapons/ranged/bow_short/bow_short.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_4",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/wpn_range_archer_2",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_3",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_archer_4_sul",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_2",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_archer_3_sul",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_archer_4_sul",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/wpn_range_archer_3",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_3",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_archer_3_sul",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_4",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_2",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_2",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_archer_3_sul",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/wpn_range_archer_4",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_2",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_3",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_2",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_2",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_2",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_2",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_2",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_archer_2_sul",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_archer_4_sul",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_archer_2_sul",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_archer_4",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/sultanate/weapons/wpn_range_archer_2_sul",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\archer\\models\\bow_short\\manifest.json",
+      "source_manifest_sha256": "d83d213a9f5e7bf6aa7b699ba129937e1e4978ee7afdf408cd0b00c05d5d7a72",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\bow_short\\model.blend",
+      "source_sha256": "c8c53f8d796d805cf272b92934448780b13026d5397c82e0d7d58e9d3840dfc3",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "cfaf5aa2440149048d18fd792d9f3fe95f7942424bda9171dd0a5431ca3da137",
+        "bones": 4,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 69,
+          "triangles": 84,
+          "sha256": "95dee7258a05d081a5dff89a08998fecfae5179ec40ec8cd79c092141c726162"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 63,
+          "triangles": 76,
+          "sha256": "d8df85c6d1a5103f683c24bf963cdf248c146053b0bc652298060d528befbed3"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 46,
+          "triangles": 50,
+          "sha256": "38db5e0e9080fb6604fb056e127bbc43f01595d1b35b3a46551e4bf1adb61429"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_archer_bow_short_LOD0",
+          "vertices": 69,
+          "triangles": 84,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_archer_bow_short_LOD1",
+          "vertices": 63,
+          "triangles": 76,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_archer_bow_short_LOD2",
+          "vertices": 46,
+          "triangles": 50,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_bow_short_LOD0": 0.019192900508642197,
+            "PSU_archer_bow_short_LOD1": 0.019265301525592804,
+            "PSU_archer_bow_short_LOD2": 0
+          },
+          "clip": "rider_ranged\\aim_straight",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            6,
+            11,
+            16,
+            21,
+            26,
+            31,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.7294921875,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_bow_short_LOD0": 0.46015655994415283,
+            "PSU_archer_bow_short_LOD1": 0.46022599935531616,
+            "PSU_archer_bow_short_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_straight",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.7294921875,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_bow_short_LOD0": 0.4501287043094635,
+            "PSU_archer_bow_short_LOD1": 0.4502740800380707,
+            "PSU_archer_bow_short_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_left90",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.7342246174812317,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_bow_short_LOD0": 0.47999998927116394,
+            "PSU_archer_bow_short_LOD1": 0.47999998927116394,
+            "PSU_archer_bow_short_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_right90",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.7294921875,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_bow_short_LOD0": 0.011619817465543747,
+            "PSU_archer_bow_short_LOD1": 0.011665116995573044,
+            "PSU_archer_bow_short_LOD2": 0
+          },
+          "clip": "rider_ranged\\aim_straight_up",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            6,
+            11,
+            16,
+            21,
+            26,
+            31,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.7294921875,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_bow_short_LOD0": 0.3100000023841858,
+            "PSU_archer_bow_short_LOD1": 0.3100000023841858,
+            "PSU_archer_bow_short_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_straight_up",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.7294921875,
+          "runtime_action_selection": "not established by offline preview"
+        }
+      ],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/common/weapons/melee/sword_dagger/sword_dagger.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_archer_2_melee",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_archer_2_melee",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_archer_2_melee",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_archer_2_melee",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_archer_2_melee",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_archer_2_melee",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_archer_2_melee",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_archer_2_melee",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_archer_2_melee",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        }
+      ],
+      "scope": "inherited_candidate",
+      "editable_status": "excluded from modeled coverage pending effective-selector evidence"
+    },
+    {
+      "logical_path": "art/civilizations/common/weapons/ranged/bow_long/bow_long.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_siege_archer_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_siege_archer_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_siege_archer_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_siege_archer_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_siege_archer_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_siege_archer_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_siege_archer_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_siege_archer_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/core/weapons/wpn_siege_archer_incendiary",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_siege_archer_incendiary",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\archer\\models\\bow_long\\manifest.json",
+      "source_manifest_sha256": "d47bb7f45b4cf4b9ee675c7b7c54c062a73ef41d64dcb80fca1cb8b706056886",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\bow_long\\model.blend",
+      "source_sha256": "73e0fa60b3d01462a227eed9832a38c4c0646bbe33c0f82450c2e47fd89cd2ae",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "4b0a6b286d67e8bb121fad8531276384cfb0810c03f4bf09d3ccd3a07a7ddfb4",
+        "bones": 4,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 69,
+          "triangles": 84,
+          "sha256": "a68fbd949ddb32b561615fdc810a4542e7b856713574d0575e315be4e59d6e51"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 69,
+          "triangles": 84,
+          "sha256": "4a65c1a4c07128842cd5d888d2a2acdb6a15413069653697eda0203177f2d801"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 40,
+          "triangles": 38,
+          "sha256": "b11997f53f20a8efc4a81bd9eeb73fb95ff77216deb69020584353a6e80dc8c1"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_archer_bow_long_LOD0",
+          "vertices": 69,
+          "triangles": 84,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_archer_bow_long_LOD1",
+          "vertices": 69,
+          "triangles": 84,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_archer_bow_long_LOD2",
+          "vertices": 40,
+          "triangles": 38,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_bow_long_LOD0": 0.020133167505264282,
+            "PSU_archer_bow_long_LOD1": 0.020191438496112823,
+            "PSU_archer_bow_long_LOD2": 0
+          },
+          "clip": "rider_ranged\\aim_straight",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            6,
+            11,
+            16,
+            21,
+            26,
+            31,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 1.080078125,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_bow_long_LOD0": 0.4601587653160095,
+            "PSU_archer_bow_long_LOD1": 0.46029144525527954,
+            "PSU_archer_bow_long_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_straight",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 1.080078125,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_bow_long_LOD0": 0.4503142833709717,
+            "PSU_archer_bow_long_LOD1": 0.4505932927131653,
+            "PSU_archer_bow_long_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_left90",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 1.088253140449524,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_bow_long_LOD0": 0.47999995946884155,
+            "PSU_archer_bow_long_LOD1": 0.47999998927116394,
+            "PSU_archer_bow_long_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_right90",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 1.080078125,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_bow_long_LOD0": 0.010185766965150833,
+            "PSU_archer_bow_long_LOD1": 0.010250203311443329,
+            "PSU_archer_bow_long_LOD2": 0
+          },
+          "clip": "rider_ranged\\aim_straight_up",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            6,
+            11,
+            16,
+            21,
+            26,
+            31,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 1.080078125,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_bow_long_LOD0": 0.3100000023841858,
+            "PSU_archer_bow_long_LOD1": 0.3100000023841858,
+            "PSU_archer_bow_long_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_straight_up",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 1.080078125,
+          "runtime_action_selection": "not established by offline preview"
+        }
+      ],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+      "role": "body",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_archer_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_archer_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_archer_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_archer_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_archer_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_archer_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\archer\\models\\sul_ranged_bow_age04\\manifest.json",
+      "source_manifest_sha256": "db83b60285dd2a9455015130ed4d0d08445b8ce40f878863ed4d42dab5fe8d89",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\sul_ranged_bow_age04\\model.blend",
+      "source_sha256": "23521fc10c00cdd4adb5c0e58a8e204d9859a8a66c5d3ebebfacadfbebe75ae8",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+        "bones": 48,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "body",
+          "vertices": 1322,
+          "triangles": 1461,
+          "sha256": "9db4a668e80c02a5f4e7acedb146831b832e08bca866d39e521fcf1a1f680794"
+        },
+        {
+          "lod": 1,
+          "component": "body",
+          "vertices": 666,
+          "triangles": 608,
+          "sha256": "18f5ee2b92892f623e67f24d4fbd87855d6e53bf76efcd6a2ee2bb52bcbc5c44"
+        },
+        {
+          "lod": 2,
+          "component": "body",
+          "vertices": 342,
+          "triangles": 285,
+          "sha256": "5f01f9718099c706a05e043431e1ec960253f2406d29120d761eac5e57d865a2"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_archer_sul_ranged_bow_age04_body_LOD0",
+          "vertices": 1322,
+          "triangles": 1461,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_archer_sul_ranged_bow_age04_body_LOD1",
+          "vertices": 666,
+          "triangles": 608,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_archer_sul_ranged_bow_age04_body_LOD2",
+          "vertices": 342,
+          "triangles": 285,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "source_recipe_script": "F:\\aoe_4_temp\\Temp_before_github_push\\tools\\persia_units\\legacy_archer_recipe.py",
+      "recipe_options": {
+        "mounted_coat": false,
+        "reason": "retained completed full-front-coat source from before split-coat recipe branch; no geometry refinement"
+      },
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_legacy_archer_retry.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/sultanate/humans/sul_ranged_bow_age03/sul_ranged_bow_age03.rgm",
+      "role": "body",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier3_archer_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/tier3_archer_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier3_archer_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/tier3_archer_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier3_archer_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/tier3_archer_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/tier3_archer_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier3_archer_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/tier3_archer_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/tier3_archer_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\archer\\models\\sul_ranged_bow_age03\\manifest.json",
+      "source_manifest_sha256": "bac4907c78db4e644a57caa5b558cf42c75edd1b88901e7c58ec07ed0c67e57a",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\sul_ranged_bow_age03\\model.blend",
+      "source_sha256": "edfe23a4d86cb25e14e7eec87349bf8dbd9dd308e49f11e99eeadb086c235b9e",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+        "bones": 48,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "body",
+          "vertices": 1290,
+          "triangles": 1494,
+          "sha256": "6a111789040d5f02eae135ce47f0c5aba1289e87f55231763c269ed6583dbfcc"
+        },
+        {
+          "lod": 1,
+          "component": "body",
+          "vertices": 633,
+          "triangles": 621,
+          "sha256": "3250b6c977f9c1b8f0d1e7c845a18d68d16bd3c6f222036170beef3a55d6fa55"
+        },
+        {
+          "lod": 2,
+          "component": "body",
+          "vertices": 305,
+          "triangles": 266,
+          "sha256": "7afc96e068cc789db1421c19b8fa45ffcff3de9ccd11550230386c64655a7a24"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_archer_sul_ranged_bow_age03_body_LOD0",
+          "vertices": 1290,
+          "triangles": 1494,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_archer_sul_ranged_bow_age03_body_LOD1",
+          "vertices": 633,
+          "triangles": 621,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_archer_sul_ranged_bow_age03_body_LOD2",
+          "vertices": 305,
+          "triangles": 266,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "source_recipe_script": "F:\\aoe_4_temp\\Temp_before_github_push\\tools\\persia_units\\legacy_archer_recipe.py",
+      "recipe_options": {
+        "mounted_coat": false,
+        "reason": "retained completed full-front-coat source from before split-coat recipe branch; no geometry refinement"
+      },
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_legacy_archer_retry.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/sultanate/humans/sul_ranged_bow_age02/sul_ranged_bow_age02.rgm",
+      "role": "body",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/tier2_archer_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/tier2_archer_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/tier2_archer_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/tier2_archer_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier2_archer_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/tier2_archer_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/tier2_archer_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier2_archer_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\archer\\models\\sul_ranged_bow_age02\\manifest.json",
+      "source_manifest_sha256": "49030ee450601f32693240362e4a108a39729bc8a0d0fa331d9729c159d9c17c",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\sul_ranged_bow_age02\\model.blend",
+      "source_sha256": "2cec11bfc6b16dce7e3a555a4d9186d5ba3d10dc9c98efa1fd5c2dc7232376b4",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+        "bones": 48,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "body",
+          "vertices": 1306,
+          "triangles": 1552,
+          "sha256": "4e58ce55e88bc534bc20b047e9317ea0ff6e1b375297c7706b808140987dac8f"
+        },
+        {
+          "lod": 1,
+          "component": "body",
+          "vertices": 628,
+          "triangles": 631,
+          "sha256": "72e47b8b3238101394cd24c268631a91900cdbb8dae5f7d5b3de3d286c783745"
+        },
+        {
+          "lod": 2,
+          "component": "body",
+          "vertices": 347,
+          "triangles": 311,
+          "sha256": "d663da5dd9dea722d6b3dc91a73b5d200b00509b226eb68e4d2ca494b03b36a7"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_archer_sul_ranged_bow_age02_body_LOD0",
+          "vertices": 1306,
+          "triangles": 1552,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_archer_sul_ranged_bow_age02_body_LOD1",
+          "vertices": 628,
+          "triangles": 631,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_archer_sul_ranged_bow_age02_body_LOD2",
+          "vertices": 347,
+          "triangles": 311,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/ottoman/weapons/ott_bow_tirkes/ott_bow_tirkes.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_archer_2_ott",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_archer_4_ott",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_archer_3_ott",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_archer_3_ott",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_3_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_archer_4_ott",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_4_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/ottoman/weapons/wpn_range_archer_2_ott",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_archer_2_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\archer\\models\\ott_bow_tirkes\\manifest.json",
+      "source_manifest_sha256": "875ed04a917347eeda2cf636d9c62e572f7e48c5211b2e4d799f81876a4bde16",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\ott_bow_tirkes\\model.blend",
+      "source_sha256": "37bfef4b22a25b1f1aef93c7f0a8d8be1dfe19bfcac868a49179ceafe8c5a6be",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "4b0a6b286d67e8bb121fad8531276384cfb0810c03f4bf09d3ccd3a07a7ddfb4",
+        "bones": 4,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 223,
+          "triangles": 196,
+          "sha256": "1733ff1af3ffa3debfc32968d6c1f0f2632ffd7dcad7363b895e7c1841b78080"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 151,
+          "triangles": 116,
+          "sha256": "dff320c317fd7daf19288652fc905f31fe3ea829431071363ec3bf82dc006751"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 127,
+          "triangles": 92,
+          "sha256": "bd13b31edcfc5ce1cf4b2a9944eda6e4e8576ecce46a790a9c6f85497de88c6a"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_archer_ott_bow_tirkes_LOD0",
+          "vertices": 223,
+          "triangles": 196,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_archer_ott_bow_tirkes_LOD1",
+          "vertices": 151,
+          "triangles": 116,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_archer_ott_bow_tirkes_LOD2",
+          "vertices": 127,
+          "triangles": 92,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_ott_bow_tirkes_LOD0": 0.02072550356388092,
+            "PSU_archer_ott_bow_tirkes_LOD1": 0.020870722830295563,
+            "PSU_archer_ott_bow_tirkes_LOD2": 0
+          },
+          "clip": "rider_ranged\\aim_straight",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            6,
+            11,
+            16,
+            21,
+            26,
+            31,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.6611328125,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_ott_bow_tirkes_LOD0": 0.460694819688797,
+            "PSU_archer_ott_bow_tirkes_LOD1": 0.4609060287475586,
+            "PSU_archer_ott_bow_tirkes_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_straight",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.6611328125,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_ott_bow_tirkes_LOD0": 0.4515264332294464,
+            "PSU_archer_ott_bow_tirkes_LOD1": 0.45196881890296936,
+            "PSU_archer_ott_bow_tirkes_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_left90",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.6688163876533508,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_ott_bow_tirkes_LOD0": 0.47999995946884155,
+            "PSU_archer_ott_bow_tirkes_LOD1": 0.47999995946884155,
+            "PSU_archer_ott_bow_tirkes_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_right90",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.6691291332244873,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_ott_bow_tirkes_LOD0": 0.009895272552967072,
+            "PSU_archer_ott_bow_tirkes_LOD1": 0.009924434125423431,
+            "PSU_archer_ott_bow_tirkes_LOD2": 0
+          },
+          "clip": "rider_ranged\\aim_straight_up",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            6,
+            11,
+            16,
+            21,
+            26,
+            31,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.6611328125,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_archer_ott_bow_tirkes_LOD0": 0.3100000023841858,
+            "PSU_archer_ott_bow_tirkes_LOD1": 0.3100000023841858,
+            "PSU_archer_ott_bow_tirkes_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_straight_up",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.6611328125,
+          "runtime_action_selection": "not established by offline preview"
+        }
+      ],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    }
+  ],
+  "assemblies": [
+    {
+      "manifest": "art\\persia\\units\\archer\\assemblies\\sul_ranged_bow_age02\\manifest.json",
+      "manifest_sha256": "4d08668446890478a299dc2a877ed7dfea1eb3e29b1d6b76b599b62865b541d0",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\assemblies\\sul_ranged_bow_age02\\assembly.blend",
+      "sha256": "a01068b14156b9d8c49a91c1b85938b0046dba9053b67a35350d7fe9977d46ed",
+      "sockets": {
+        "bow_short": {
+          "socket": "metarig_larmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age02/sul_ranged_bow_age02.rgm",
+            "donor_manifest_sha256": "45e23add92db4d28e22eda25f6c0c9fc4104367ba4cb0a28daa37b634dbe6376",
+            "bones_modified": 0
+          },
+          "triangles": [
+            84,
+            76,
+            50
+          ]
+        },
+        "bow_long": {
+          "socket": "metarig_larmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age02/sul_ranged_bow_age02.rgm",
+            "donor_manifest_sha256": "45e23add92db4d28e22eda25f6c0c9fc4104367ba4cb0a28daa37b634dbe6376",
+            "bones_modified": 0
+          },
+          "triangles": [
+            84,
+            84,
+            38
+          ]
+        },
+        "ott_bow_tirkes": {
+          "socket": "metarig_larmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age02/sul_ranged_bow_age02.rgm",
+            "donor_manifest_sha256": "45e23add92db4d28e22eda25f6c0c9fc4104367ba4cb0a28daa37b634dbe6376",
+            "bones_modified": 0
+          },
+          "triangles": [
+            196,
+            116,
+            92
+          ],
+          "marker_status": "explicit native Persian weapon wrapper; original generic prefix convention corrected"
+        }
+      },
+      "rig_contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+      "motion_checks": [
+        {
+          "clip": "navigation\\idle_tense_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_archer/base_archer.rhka",
+            "rhka_sha256": "6a20c42abe69eb0f5217bda35153a3d577dc4f0c47e6291572b8d3f2c8c46c0a",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7736103546298982
+            },
+            {
+              "frame": 95,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.783866551047632
+            },
+            {
+              "frame": 190,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7888018315903926
+            },
+            {
+              "frame": 285,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7989010418124265
+            },
+            {
+              "frame": 379,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7736103546298982
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_archer_assembly_retry.json",
+      "limitations": [],
+      "cold_current": true
+    },
+    {
+      "manifest": "art\\persia\\units\\archer\\assemblies\\sul_ranged_bow_age03\\manifest.json",
+      "manifest_sha256": "f0d33475cee3c91b5d4a874d1f9d4f9e131a6a483c93bb6c0189ad248b71b9d1",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\assemblies\\sul_ranged_bow_age03\\assembly.blend",
+      "sha256": "96f8e6212ec385e63f9587cfb06288030c0eccffbbb768446fa10ad92c24a2dd",
+      "sockets": {
+        "bow_short": {
+          "socket": "metarig_larmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age03/sul_ranged_bow_age03.rgm",
+            "donor_manifest_sha256": "994140f5f554da506fbaebe3a7dc69d12ec3825b8729d9b4ff8462ec6f4dd236",
+            "bones_modified": 0
+          },
+          "triangles": [
+            84,
+            76,
+            50
+          ]
+        },
+        "bow_long": {
+          "socket": "metarig_larmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age03/sul_ranged_bow_age03.rgm",
+            "donor_manifest_sha256": "994140f5f554da506fbaebe3a7dc69d12ec3825b8729d9b4ff8462ec6f4dd236",
+            "bones_modified": 0
+          },
+          "triangles": [
+            84,
+            84,
+            38
+          ]
+        },
+        "ott_bow_tirkes": {
+          "socket": "metarig_larmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age03/sul_ranged_bow_age03.rgm",
+            "donor_manifest_sha256": "994140f5f554da506fbaebe3a7dc69d12ec3825b8729d9b4ff8462ec6f4dd236",
+            "bones_modified": 0
+          },
+          "triangles": [
+            196,
+            116,
+            92
+          ],
+          "marker_status": "explicit native Persian weapon wrapper; original generic prefix convention corrected"
+        }
+      },
+      "rig_contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+      "motion_checks": [
+        {
+          "clip": "navigation\\idle_tense_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_archer/base_archer.rhka",
+            "rhka_sha256": "6a20c42abe69eb0f5217bda35153a3d577dc4f0c47e6291572b8d3f2c8c46c0a",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7736103546298982
+            },
+            {
+              "frame": 95,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.783866551047632
+            },
+            {
+              "frame": 190,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7888018315903926
+            },
+            {
+              "frame": 285,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7989010418124265
+            },
+            {
+              "frame": 379,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7736103546298982
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_archer_assembly_retry.json",
+      "limitations": [],
+      "cold_current": true
+    },
+    {
+      "manifest": "art\\persia\\units\\archer\\assemblies\\sul_ranged_bow_age04\\manifest.json",
+      "manifest_sha256": "a6eff046ee8a438c03a3e9d8852c5d158304d0757e46aa8a3be115fc5ad0a990",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\assemblies\\sul_ranged_bow_age04\\assembly.blend",
+      "sha256": "b618f92ab1f3a9cb888d3e97e006a3e76a02e8f49f796cc15a153a7409fba515",
+      "sockets": {
+        "bow_short": {
+          "socket": "metarig_larmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+            "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+            "bones_modified": 0
+          },
+          "triangles": [
+            84,
+            76,
+            50
+          ]
+        },
+        "bow_long": {
+          "socket": "metarig_larmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+            "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+            "bones_modified": 0
+          },
+          "triangles": [
+            84,
+            84,
+            38
+          ]
+        },
+        "ott_bow_tirkes": {
+          "socket": "metarig_larmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 48,
+            "max_reference_matrix_error": 5.125999450683594e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+            "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+            "bones_modified": 0
+          },
+          "triangles": [
+            196,
+            116,
+            92
+          ],
+          "marker_status": "explicit native Persian weapon wrapper; original generic prefix convention corrected"
+        }
+      },
+      "rig_contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+      "motion_checks": [
+        {
+          "clip": "navigation\\idle_tense_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_archer/base_archer.rhka",
+            "rhka_sha256": "6a20c42abe69eb0f5217bda35153a3d577dc4f0c47e6291572b8d3f2c8c46c0a",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7736103546298982
+            },
+            {
+              "frame": 95,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.783866551047632
+            },
+            {
+              "frame": 190,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7888018315903926
+            },
+            {
+              "frame": 285,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7989010418124265
+            },
+            {
+              "frame": 379,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.7736103546298982
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_archer_assembly_retry.json",
+      "limitations": [],
+      "cold_current": true
+    }
+  ],
+  "reconstruction_inputs": [
+    {
+      "path": "art\\persia\\units\\_donors\\bow_long\\ce82af46dbb690cf6bef\\decoded-static.json",
+      "sha256": "1eceb12e7797471c02cba2b18b6391612d74d362137b5eb8ab96c10e859a5bfc",
+      "bytes": 418619
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_long\\ce82af46dbb690cf6bef\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_long\\10799743675741281847_packed.rrtex",
+      "sha256": "405e892d7d461e3445d99cae67d5cc6b53ecea69743aee882ed93d526baedadd",
+      "bytes": 9522
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_long\\ce82af46dbb690cf6bef\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_long\\2413333885869110460_packed.rrtex",
+      "sha256": "8a0624ba282d39855c71391409df502b103adc01a757901d03ec85f24ccc30c6",
+      "bytes": 9859
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_long\\ce82af46dbb690cf6bef\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_long\\3642930137761987936_packed.rrtex",
+      "sha256": "0adb84ddbf1da613388961c3199bcddce77ef9e09572e5332ede21a64c7f50f8",
+      "bytes": 4909
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_long\\ce82af46dbb690cf6bef\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_long\\bow_long.rgm",
+      "sha256": "6d2a154647778ff8f3cc8c052fc4d2cda83a143869e0fab1315b5b5a0ba94c3b",
+      "bytes": 6911
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_long\\ce82af46dbb690cf6bef\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_long\\bow_long.rrgeom",
+      "sha256": "acfbb26f76f3841d5a9a1c0fb26dab119314ac53ef02796cd2879f31cbdfecd9",
+      "bytes": 19778
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_long\\ce82af46dbb690cf6bef\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_long\\bow_long.rrmaterial",
+      "sha256": "64adf3762e602bd987331717c74034fdd391d52fcc0d85531c5c5b79850e078c",
+      "bytes": 612
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_long\\ce82af46dbb690cf6bef\\textures\\21a46571ee79_3642930137761987936_packed.dds",
+      "sha256": "8a4b5ed70b9075ce0667aca75a9d65c37862381c03511cefabe96e7a20187da2",
+      "bytes": 5608
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_long\\ce82af46dbb690cf6bef\\textures\\2d6899644ac4_10799743675741281847_packed.dds",
+      "sha256": "e038a04e7967c76b24d8aca30705da719644ee1e3665b18b657e5e45e04a415a",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_long\\ce82af46dbb690cf6bef\\textures\\f829a9d0f26a_2413333885869110460_packed.dds",
+      "sha256": "639e29ec2c9c428a71033cfa8341511967d789a22249b6b7cd28f8aae8c73931",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_short\\d091d5125e4a45dfed9a\\decoded-static.json",
+      "sha256": "5ca6d562ab26f20b70ecb6c669566617defb0a78b11f3a2e0a9827aa9a25c5ce",
+      "bytes": 419107
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_short\\d091d5125e4a45dfed9a\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_short\\18015476881433935465_packed.rrtex",
+      "sha256": "b0325fab95ca6fbd0e194a618622b79fc0401f0fb22bee18fc9c6c29358d819d",
+      "bytes": 9524
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_short\\d091d5125e4a45dfed9a\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_short\\4676372593861116006_packed.rrtex",
+      "sha256": "533c7b063800b333a824b5cb24959a2c6fa53db2865034938eb81f7b1c7abe61",
+      "bytes": 4911
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_short\\d091d5125e4a45dfed9a\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_short\\8319974338395506009_packed.rrtex",
+      "sha256": "0a0881847aa7fd59e747d081657c7a8e9217ddb830ffba53bc84f8b7e861891d",
+      "bytes": 9861
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_short\\d091d5125e4a45dfed9a\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_short\\bow_short.rgm",
+      "sha256": "cd5ca9612f8d0c984aa6845b856230914c99a3f03428ca5ceec17e0a892e1dd8",
+      "bytes": 6950
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_short\\d091d5125e4a45dfed9a\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_short\\bow_short.rrgeom",
+      "sha256": "0e890ec995ceeba5ae4f303bec97e488d29b0606e49f6d7d771a868cf4fb6431",
+      "bytes": 19793
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_short\\d091d5125e4a45dfed9a\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_short\\bow_short.rrmaterial",
+      "sha256": "052966c84c2d75c67f75d45e2bdb3b1622189136438ea12e3fa2fcf8aea06c70",
+      "bytes": 615
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_short\\d091d5125e4a45dfed9a\\textures\\56dca865cf21_18015476881433935465_packed.dds",
+      "sha256": "3dde87275b0f86e9376c06d99cbc06b15dd38c79ef0a08e5bf543ab9e477649c",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_short\\d091d5125e4a45dfed9a\\textures\\5b46c54a01fc_4676372593861116006_packed.dds",
+      "sha256": "9d4a7f10664d52e83ea355d6fea163887e6603d0d68cf7c745c1cbbe2a864b2b",
+      "bytes": 5608
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_short\\d091d5125e4a45dfed9a\\textures\\9a98ad430288_8319974338395506009_packed.dds",
+      "sha256": "3a0cec2dc1a57688b5a491f4bde6d798eb0b85e9b2a5f7daa3014056dc8e6c95",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_bow_tirkes\\cb81633ffcab9eb209f9\\decoded-static.json",
+      "sha256": "d5219077ef0ed4c5a88268991c5abe0f6a8922b32f43c2b7d4d17bd3de28f455",
+      "bytes": 395590
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_bow_tirkes\\cb81633ffcab9eb209f9\\source\\art\\civilizations\\ottoman\\weapons\\ott_bow_tirkes\\12611700782240172363_packed.rrtex",
+      "sha256": "f11a5274fdc80425d9e5c418fbe535d6f6aef99d7cf4110911b62baf7a16912d",
+      "bytes": 8469
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_bow_tirkes\\cb81633ffcab9eb209f9\\source\\art\\civilizations\\ottoman\\weapons\\ott_bow_tirkes\\1658334028893980390_packed.rrtex",
+      "sha256": "ba9420f036647060ed805de4a6f29d3399cf25af69f8a3dba1586f38be1fecad",
+      "bytes": 16047
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_bow_tirkes\\cb81633ffcab9eb209f9\\source\\art\\civilizations\\ottoman\\weapons\\ott_bow_tirkes\\3716668608010757262_packed.rrtex",
+      "sha256": "1fbb13772c70ba901cfdff0a73986d4b3e7608ca9ada841b434f390474ff5572",
+      "bytes": 17752
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_bow_tirkes\\cb81633ffcab9eb209f9\\source\\art\\civilizations\\ottoman\\weapons\\ott_bow_tirkes\\ott_bow_tirkes.rgm",
+      "sha256": "839a4810fe3145f561f631177c7e6b6d8eead4a2502323c380c898e6f0c810b4",
+      "bytes": 8157
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_bow_tirkes\\cb81633ffcab9eb209f9\\source\\art\\civilizations\\ottoman\\weapons\\ott_bow_tirkes\\ott_bow_tirkes.rrgeom",
+      "sha256": "e9abca0a761cadbd7089a6a76936c8dd2cd24b652b404498e8bf693502a1fc98",
+      "bytes": 30016
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_bow_tirkes\\cb81633ffcab9eb209f9\\source\\art\\civilizations\\ottoman\\weapons\\ott_bow_tirkes\\ott_bow_tirkes.rrmaterial",
+      "sha256": "1f631e091e6cb3938e2fae63caf1c1747170736138ecee9dbc475d2a607b3b28",
+      "bytes": 612
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_bow_tirkes\\cb81633ffcab9eb209f9\\textures\\a0a521e28b55_3716668608010757262_packed.dds",
+      "sha256": "d58c3982d7f584beab406292f305b37c722ba32ed75b5c29f99df7135ddc9087",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_bow_tirkes\\cb81633ffcab9eb209f9\\textures\\b49eab281cac_1658334028893980390_packed.dds",
+      "sha256": "f5a169cb38d94457a6348e4c4bd986bf9fcf6206c2afb5dea99297a6cfefca67",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\ott_bow_tirkes\\cb81633ffcab9eb209f9\\textures\\d5a7bd347646_12611700782240172363_packed.dds",
+      "sha256": "a8c959204035351f87f4c7a8d0b09141d19167aaa69337777dba6387ae39ed2b",
+      "bytes": 11064
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\decoded-static.json",
+      "sha256": "a2c04636723d9fc4b5167c06b5fdb5300a4a621ab1a6d0a282e6be1e191648f9",
+      "bytes": 1987619
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\10703381013481906401_packed.rrtex",
+      "sha256": "4cadfce6a0819ddf1cb0a2010b50c21ce4d1e02a496718c9d640de065a747bc0",
+      "bytes": 78731
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\11312237510251013831_packed.rrtex",
+      "sha256": "6511fb181a20419481224d59506ba9e9f34e8da16166e9c5844f2fb36c7dae06",
+      "bytes": 35268
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\11856018949832712566_packed.rrtex",
+      "sha256": "d8d93e464a26badf9173b15c804bfc619b10ff269ec9f3b4e711a4132cf88b8f",
+      "bytes": 73965
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\1303964150564256352_packed.rrtex",
+      "sha256": "fc2a9b2c8321473e836ce67f02831d537e5ccabcd903b118ac9037337344a4a5",
+      "bytes": 68322
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\2266556911964419077_packed.rrtex",
+      "sha256": "903bc13f0e048ca7535a4cec7d3d281b09561186d304b7282b2393a8eaabe505",
+      "bytes": 8427
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\6820128367702879472_packed.rrtex",
+      "sha256": "80a98c511894d87ab8e7f1fea9a4a8a77bcc23a2dbe9df3cd6790c786c10dd17",
+      "bytes": 76787
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\sul_infantry_light_age02.rgm",
+      "sha256": "745ce2e76d8dbaa49d08e4bed7617574494b7d8b2bf36b369832717b7a3d2f88",
+      "bytes": 36702
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\sul_infantry_light_age02.rrgeom",
+      "sha256": "be5c42f30c8d2ba56b4fcff59375b3cdd4a4f6b8e1a11ec0d4e403ae49ea17e7",
+      "bytes": 76817
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_light_age02\\sul_infantry_light_age02.rrmaterial",
+      "sha256": "4954d9e99b357ab5af5498b56064abec0df3a3216987b7f06452756ee780581b",
+      "bytes": 2546
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\source\\art\\civilizations\\sultanate\\humans\\tints\\sul_skin_tinting_lut.rrtex",
+      "sha256": "126ebd89f93cdb8513a0b3682c26fcceedd9b544fbec866577954425f8e949fc",
+      "bytes": 511
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\0d19c105c6d9_11312237510251013831_packed.dds",
+      "sha256": "defb7516e00d82b9a7c8639f4f33892e3c7834c9c2899ec43eb5297e33f76d7b",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\189df1287f3c_11856018949832712566_packed.dds",
+      "sha256": "3e051c415f60e5e70417b8905f50beac7a7e6e2463423bff40a0272c3c420725",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\2205b553ddea_10703381013481906401_packed.dds",
+      "sha256": "91f53a94460884b4ab591d8c04302bad33c11c82be7b3e5460ceaa87c4ec3fa4",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\3005111bef7d_6820128367702879472_packed.dds",
+      "sha256": "c76f519246e4f0323ffa7f38f316fb269a6d02570b73d050955b4ba05d573505",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\67ded37a149e_sul_skin_tinting_lut.dds",
+      "sha256": "49caedae116e6bb68ddfd5ad60e8623b5cd19bbd803502ea1b8953f0ad953a3b",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\ed863369c849_2266556911964419077_packed.dds",
+      "sha256": "bb94d54e6c34f53025563aebcb5872e5f2c0fe8a95dd701f92483d70655cd72f",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_light_age02\\51380bcf239e368f82a8\\textures\\eff542651e80_1303964150564256352_packed.dds",
+      "sha256": "cafafcecb4dffa8b34fb2037745aad4bb6332eb9a30e0108114f068fa13a2436",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\decoded-static.json",
+      "sha256": "45e23add92db4d28e22eda25f6c0c9fc4104367ba4cb0a28daa37b634dbe6376",
+      "bytes": 2593966
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age02\\10940886525103369587_packed.rrtex",
+      "sha256": "349843045d496b90685ff8365088b527a319cf9cbc724f85209051611845626a",
+      "bytes": 7648
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age02\\15515045978307483046_packed.rrtex",
+      "sha256": "c1fc5cc1a6d6ac994ad200e8d98655d82db156fd2d48e0c323f6e00b056826eb",
+      "bytes": 69605
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age02\\7240750336961829909_packed.rrtex",
+      "sha256": "188b33c409a8cac8d761cbccd9afc7efc8a5741f05ffc7bec971d058a0d3f37c",
+      "bytes": 75474
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age02\\7475882019175442729_packed.rrtex",
+      "sha256": "f5eda30794a8ff976fdf04be9040d6361bb399e102cd5680537b5c284472f2fd",
+      "bytes": 31865
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age02\\8822200815337584036_packed.rrtex",
+      "sha256": "4f28897ad3e60568789774c18bd0d8a17afbcee2b57af506acdb908646de9645",
+      "bytes": 48634
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age02\\9001741370345057825_packed.rrtex",
+      "sha256": "1f9dd2a2f4fd1df28c11c1286c3e3a2404d5af878c46c00e719b9dce81cd78fa",
+      "bytes": 78164
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age02\\sul_ranged_bow_age02.rgm",
+      "sha256": "b71dae55db6ddcfe2a03038e635d6b5558def8cfd9baa9de64c880ae444bdb6b",
+      "bytes": 47200
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age02\\sul_ranged_bow_age02.rrgeom",
+      "sha256": "be81320abc59276b642fbde241dbf966c894900347997800c4919311e64e11f7",
+      "bytes": 81947
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age02\\sul_ranged_bow_age02.rrmaterial",
+      "sha256": "8d0a4fcba8442eff426f7d93e68802cbfddb8e68ed4177c21f1755eddbd16be2",
+      "bytes": 2497
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\source\\art\\civilizations\\sultanate\\humans\\tints\\sul_skin_tinting_lut.rrtex",
+      "sha256": "126ebd89f93cdb8513a0b3682c26fcceedd9b544fbec866577954425f8e949fc",
+      "bytes": 511
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\textures\\0f592fd721d3_8822200815337584036_packed.dds",
+      "sha256": "6c37602245a2972d976797137f8da09f46a45c86d3827e127270e7f74c301396",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\textures\\27bbd6f7ef55_7240750336961829909_packed.dds",
+      "sha256": "4baf9f3def7ec5812f3307b59acdd20c7c260728cd2042dcd30388fe81e8a2bf",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\textures\\67ded37a149e_sul_skin_tinting_lut.dds",
+      "sha256": "49caedae116e6bb68ddfd5ad60e8623b5cd19bbd803502ea1b8953f0ad953a3b",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\textures\\869db377b68d_7475882019175442729_packed.dds",
+      "sha256": "d22f9764f7f913680dea21defcec385142ceb08bb4318036116849fedee28e8b",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\textures\\8c2759082a62_15515045978307483046_packed.dds",
+      "sha256": "e5ddb3a1e1875a82f3875da31d0f7f5d789f4e083a5bb1ff832518af0dfe5976",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\textures\\b3710b226c9c_9001741370345057825_packed.dds",
+      "sha256": "79945c661425d55e49ded759aaa4bd9d7f2a459439fffadaae3a408da927e8cf",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age02\\e67296c86b83783e4e59\\textures\\bd60e3a1fc35_10940886525103369587_packed.dds",
+      "sha256": "21ad91e1ec4494f0874bab3e0b27c7e2564609a6fd72959ed6f59176fd93f8fb",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\decoded-static.json",
+      "sha256": "994140f5f554da506fbaebe3a7dc69d12ec3825b8729d9b4ff8462ec6f4dd236",
+      "bytes": 2521415
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age03\\14006253627862914154_packed.rrtex",
+      "sha256": "c83f7f22805f305e9d9d7bffae716ed9d4f5906cc7a59e8731fb7438dfca3dc7",
+      "bytes": 31931
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age03\\14476463283965507645_packed.rrtex",
+      "sha256": "9656d21edffeb0b0577636e3f69f0005f51d565255ee02f9ad4f838f1e944613",
+      "bytes": 77558
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age03\\15231800262733360853_packed.rrtex",
+      "sha256": "305997d9757ec908c2663ee2c42cd3f3fd73bcfd5ddd8d572a147a383b020b9d",
+      "bytes": 57460
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age03\\18190587686112698939_packed.rrtex",
+      "sha256": "9656d21edffeb0b0577636e3f69f0005f51d565255ee02f9ad4f838f1e944613",
+      "bytes": 77558
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age03\\3106671756462953908_packed.rrtex",
+      "sha256": "9656d21edffeb0b0577636e3f69f0005f51d565255ee02f9ad4f838f1e944613",
+      "bytes": 77558
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age03\\5917474603302368844_packed.rrtex",
+      "sha256": "42e9676aef356ab70b5516e6a8429557d2fbe60a814e1fd94edffd66020cdc80",
+      "bytes": 7196
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age03\\sul_ranged_bow_age03.rgm",
+      "sha256": "23eb1cdb1c0eb755fca841aff247fa90cce8a68aa14703f2d18c802c29295afc",
+      "bytes": 45218
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age03\\sul_ranged_bow_age03.rrgeom",
+      "sha256": "d51a1712cbe8290b434f339d6b29ebc748d8a6590b5df946a5a778b665883dc6",
+      "bytes": 78695
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age03\\sul_ranged_bow_age03.rrmaterial",
+      "sha256": "911dd3d1cf4c4457c407103d04b61f0fa5462df9cb455d6604c710d920bac342",
+      "bytes": 2501
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\source\\art\\civilizations\\sultanate\\humans\\tints\\sul_skin_tinting_lut.rrtex",
+      "sha256": "126ebd89f93cdb8513a0b3682c26fcceedd9b544fbec866577954425f8e949fc",
+      "bytes": 511
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\textures\\183c068e7898_14006253627862914154_packed.dds",
+      "sha256": "5987c8378b3c4275169b9829ca9d9eaa8104f6f9be9cfd32d8f767640d673867",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\textures\\3fbcec7adcf4_14476463283965507645_packed.dds",
+      "sha256": "f59b97e5e8827895c9db2350c9cd7652b3af29251b05c3b9c7046d3b5d393fbf",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\textures\\516a97875078_3106671756462953908_packed.dds",
+      "sha256": "f59b97e5e8827895c9db2350c9cd7652b3af29251b05c3b9c7046d3b5d393fbf",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\textures\\67ded37a149e_sul_skin_tinting_lut.dds",
+      "sha256": "49caedae116e6bb68ddfd5ad60e8623b5cd19bbd803502ea1b8953f0ad953a3b",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\textures\\8f266bc27af8_18190587686112698939_packed.dds",
+      "sha256": "f59b97e5e8827895c9db2350c9cd7652b3af29251b05c3b9c7046d3b5d393fbf",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\textures\\bea7634584df_5917474603302368844_packed.dds",
+      "sha256": "077499239977c17d32a9c89cf44e948feecef15b963f1a34299952ec8fe6fa2c",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age03\\5577f0b75d351c17437e\\textures\\d52ed5c37178_15231800262733360853_packed.dds",
+      "sha256": "f04776bf614982e5fbe01ce7d206816f11b4fbe93d1ed2294272f63962bccadc",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\decoded-static.json",
+      "sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+      "bytes": 2288251
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age04\\15291721584133984953_packed.rrtex",
+      "sha256": "b643517586ffdc36278ccb0aaa5e807c29f71e48c976b71a99298b9c26508f64",
+      "bytes": 76158
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age04\\16597981423491440291_packed.rrtex",
+      "sha256": "9cf9ee6f4f2a49ad40492731f9e53c92973488c6ae8e63cc383545abb216c8ee",
+      "bytes": 76698
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age04\\17407719559209826486_packed.rrtex",
+      "sha256": "9f12922600ba92f965fbbc140d27e6aa75f88c1d40d4b96d0d14ec5aefb41ac9",
+      "bytes": 59310
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age04\\7791334973786398803_packed.rrtex",
+      "sha256": "5d19c6cb01dc0348b2b383e7621b733c2740b300eeba3f52dfa56cae80162ade",
+      "bytes": 9278
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age04\\7955214066487782385_packed.rrtex",
+      "sha256": "591c2b9223359c8e85c72daa6a7a39a43238650a48d42d94e99906de175d2176",
+      "bytes": 35222
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age04\\8715316130011232017_packed.rrtex",
+      "sha256": "c27cbb0f11ff9a07711bb9a3c4241c2c58e8f2f998ea998aa52191d9f1019aca",
+      "bytes": 78015
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age04\\sul_ranged_bow_age04.rgm",
+      "sha256": "76831e4ab8b7480ebc08ec47e3a63190399d3d29b399a4fe173f690d7d2dbad7",
+      "bytes": 37327
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age04\\sul_ranged_bow_age04.rrgeom",
+      "sha256": "efcea15426ec35dda6f933d34cf540dd996e299968d8768cc8c7febae3ac1d41",
+      "bytes": 83093
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\source\\art\\civilizations\\sultanate\\humans\\sul_ranged_bow_age04\\sul_ranged_bow_age04.rrmaterial",
+      "sha256": "60f13ba135bb0ab8864fc6754f3fd7044f1c896f2fbee7818bf9aade0e5e415b",
+      "bytes": 2513
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\source\\art\\civilizations\\sultanate\\humans\\tints\\sul_skin_tinting_lut.rrtex",
+      "sha256": "126ebd89f93cdb8513a0b3682c26fcceedd9b544fbec866577954425f8e949fc",
+      "bytes": 511
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\textures\\26f0d523d952_16597981423491440291_packed.dds",
+      "sha256": "3cc905dcd9d4029e7150f891b3b918e505916a0562932b9538ca4caeaac802c8",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\textures\\66d0fb7feee0_8715316130011232017_packed.dds",
+      "sha256": "bfc33e51ae9d4914ba39fad0e53c4b722702ebaec32f0698601b834f51b7e1eb",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\textures\\67ded37a149e_sul_skin_tinting_lut.dds",
+      "sha256": "49caedae116e6bb68ddfd5ad60e8623b5cd19bbd803502ea1b8953f0ad953a3b",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\textures\\71930dd95200_7955214066487782385_packed.dds",
+      "sha256": "2a0051ce1400c38c2ad06a4b22655fe50320cdb6d8d04c69369e6cc8fbb037ed",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\textures\\ac51876d720e_15291721584133984953_packed.dds",
+      "sha256": "16e5b90d449234730fc93ba44aadbde78dfa140ddf637a44592e93284172384c",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_ranged_bow_age04\\54d8f44616d336d0b436\\textures\\b65cbe8c7a71_17407719559209826486_packed.dds",
+      "sha256": "2cd2472a04c4d7d8a61a0ca9d878612c147d144c0d447b577902a7116ba5c870",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\bow_long\\albedo.png",
+      "sha256": "dce430ca289e771a3763673742a2694e0a57e3cbfbb1dd6d7271125c5dd376a1",
+      "bytes": 875459
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\bow_long\\metalness.png",
+      "sha256": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+      "bytes": 5712
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\bow_long\\normal.png",
+      "sha256": "c6716540aeb7b969b6f9f01540e7e252e4ad4cb36399a6d71a7b1b0bb96e73fc",
+      "bytes": 136779
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\bow_long\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\bow_long\\roughness.png",
+      "sha256": "ca2d01b6dc9cfd4072533cb7cc54052da9e765320e3dcc1101691c14d3374f1d",
+      "bytes": 693668
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\bow_long\\sources.json",
+      "sha256": "e5f50d3edd52b1f6ded2708638ba5a74f273ca17fd9c9bb7ee6a39b03baae7d0",
+      "bytes": 1529
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\bow_short\\albedo.png",
+      "sha256": "b5d6c1918e553901c0e153a9cb64ded66d1fbcdd352a785bdf4b3d3949a3e932",
+      "bytes": 874960
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\bow_short\\metalness.png",
+      "sha256": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+      "bytes": 5712
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\bow_short\\normal.png",
+      "sha256": "6a1fcd1cea3cab5c371638a4834476befd84d799d219fdef163641eabb5f4f17",
+      "bytes": 136807
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\bow_short\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\bow_short\\roughness.png",
+      "sha256": "6e44da72e2d575e36509646650f38337bd8d9b14d3b742c43792ce6520ebbaca",
+      "bytes": 693130
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\bow_short\\sources.json",
+      "sha256": "e880583b37907e46548b6bd9a0c411c595b362f36705b0a1cfcaba500d3dc4ed",
+      "bytes": 1532
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\ott_bow_tirkes\\albedo.png",
+      "sha256": "cc5f1e96770fdedbf0ced9d69b157a3be9ac3ec12272a2cf51e9c45578cd3708",
+      "bytes": 836367
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\ott_bow_tirkes\\metalness.png",
+      "sha256": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+      "bytes": 5712
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\ott_bow_tirkes\\normal.png",
+      "sha256": "9d5d703ef0267a17ed6d97b11bc2c62eb147104b3577ce95acf7830993bd08f4",
+      "bytes": 144492
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\ott_bow_tirkes\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\ott_bow_tirkes\\roughness.png",
+      "sha256": "28b1dfb4fea6563431832178b96b438bcaca1fe9f1e81eb4e88643a19ebe6600",
+      "bytes": 685726
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\ott_bow_tirkes\\sources.json",
+      "sha256": "56b2c20e6535c90893d22665afad3b1f1843b643143389574f537a4f555dfe71",
+      "bytes": 1541
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age02\\albedo.png",
+      "sha256": "e63dc1792888bb1076cf2dbab0a6e218a032de26b27df4cdff4feb3f884a4f64",
+      "bytes": 983824
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age02\\metalness.png",
+      "sha256": "34b8ebfcfc9d10acaab24a17ee5ef710d45e9097c8af73ca14119600bb2325cc",
+      "bytes": 10239
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age02\\normal.png",
+      "sha256": "e5433c58f8414ac38a123854b576dc7061efb9362cbd7559981c30206f345d75",
+      "bytes": 467044
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age02\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age02\\roughness.png",
+      "sha256": "029cdf7c2addfb68fdaefd26a3579570a5d494184c813931e1932d5594fd787f",
+      "bytes": 687510
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age02\\sources.json",
+      "sha256": "e8e3ab4c7c16fe720c1dd551f2ac0abb5e9e6791831dd02819a8cede2b6492a9",
+      "bytes": 1832
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age03\\albedo.png",
+      "sha256": "3944854286efe9202c8e69ad7f46c7adec52824c3f258c5e8e867a7d41eacea1",
+      "bytes": 1029753
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age03\\metalness.png",
+      "sha256": "525e2e5a149bae355922dadb1c6245b66c91efc66df925d1157dea8406587be0",
+      "bytes": 96107
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age03\\normal.png",
+      "sha256": "a353d82ec4d523fc3126c6c85457c57c00762883c86acb9817fd0578a7e312bc",
+      "bytes": 489111
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age03\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age03\\roughness.png",
+      "sha256": "57c485b6a5007f50d4c4107f285a51e0ed3873a4486d8196ee391e83e229c46f",
+      "bytes": 697400
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age03\\sources.json",
+      "sha256": "920f7a9e799076b3301e8728750e39842968dbd6a8b8194a15683d92b65253cf",
+      "bytes": 1832
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age04\\albedo.png",
+      "sha256": "96191dc1561c62a57db8a8adcabc1e9acd7a466b367fd0767057cfa4921224e9",
+      "bytes": 1059954
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age04\\metalness.png",
+      "sha256": "7f3edeaadd54b151729070effef4960cfedeb5f82848cd5066874fb3dcc97f56",
+      "bytes": 70525
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age04\\normal.png",
+      "sha256": "a50204cdf25a1509c684c60b3ec7472212b3429df0fbe204811da9f33e96b52a",
+      "bytes": 482115
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age04\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age04\\roughness.png",
+      "sha256": "8ebd35a7ab93d8cb0471018e7b70108912f4acd749878dafad1e1ed79d6296fb",
+      "bytes": 717994
+    },
+    {
+      "path": "art\\persia\\units\\archer\\textures\\sul_ranged_bow_age04\\sources.json",
+      "sha256": "6f5f78815f1dbc7dbbe07d4f28d3789f407877e7dc719a9585bb1bc159cd7e0b",
+      "bytes": 1832
+    },
+    {
+      "path": "tools\\persia_units\\legacy_archer_recipe.py",
+      "sha256": "16993e44c97fce407bd992ee0eee4749f767f5971053e4f779fc8295cd35fd9a",
+      "bytes": 754
+    }
+  ],
+  "recipe_files": [
+    {
+      "path": "tools\\persia_units\\assembly.py",
+      "sha256": "b967a5ccb11320277c7856e9514985580a8b23f532dba5e685df40f159246872"
+    },
+    {
+      "path": "tools\\persia_units\\author.py",
+      "sha256": "d3ffbeb6e657b0946a0b6fd51a93e7f8c35640c252f062912f91a58497cba95e"
+    },
+    {
+      "path": "tools\\persia_units\\batch_family_review.py",
+      "sha256": "04e1170dd2ffac785b88c0c404ab41166a52f075997faa4034efc6d7279f56ae"
+    },
+    {
+      "path": "tools\\persia_units\\batch_human_recipe.py",
+      "sha256": "f7856693f8e454cdfc18c1ed882a7eaf0b6611e5dcc068778d75bd59d444a56f"
+    },
+    {
+      "path": "tools\\persia_units\\batch_textures.py",
+      "sha256": "b1a57101b0a06caecbd406fca4868a5ed4af00752791be8799ccc6517fe382e8"
+    },
+    {
+      "path": "tools\\persia_units\\combined_recipe.py",
+      "sha256": "2b4c9e5ba26ed3c253eede63328e7ebc46d6c6737ed1d3e568afc02f0ac2aca8"
+    },
+    {
+      "path": "tools\\persia_units\\contracts.py",
+      "sha256": "4c85a350787b5be10f9a1c1a70319a660b72cfd02711c34bc8b479b6958d7454"
+    },
+    {
+      "path": "tools\\persia_units\\equipment_recipe.py",
+      "sha256": "c902af2a6215a73d354fd34e8ac5d8636fe1c393339807441f24125e427c3caa"
+    },
+    {
+      "path": "tools\\persia_units\\equipment_textures.py",
+      "sha256": "c07f52fa32096a68103e4a8af1a3d06339998348e35fc833b6ee4f9e90c41509"
+    },
+    {
+      "path": "tools\\persia_units\\legacy_archer_recipe.py",
+      "sha256": "16993e44c97fce407bd992ee0eee4749f767f5971053e4f779fc8295cd35fd9a"
+    },
+    {
+      "path": "tools\\persia_units\\native_socket.py",
+      "sha256": "4e3a948437d53776c98292314b0a50b010ee43c9c4faa79a1d3ae7559d0baac0"
+    },
+    {
+      "path": "tools\\persia_units\\shared_equipment.py",
+      "sha256": "d352fec4a0f9f526b8e413e62adf6fb789f8fba8bbf237d81885e9633814277b"
+    },
+    {
+      "path": "tools\\persia_units\\surface_normals.py",
+      "sha256": "1c6371a6f3c40bfac22e430b6dc64baf513585a544f42e1fe467ceb2cf2ba090"
+    },
+    {
+      "path": "tools\\persia_units\\textures.py",
+      "sha256": "a47b76b892d54a6d31d29593e9183e741b1f37abc683bd7d37e4bf240f24dfac"
+    },
+    {
+      "path": "tools\\persia_units\\weapon_shape.py",
+      "sha256": "d45fdb02907fddc6634f7e2a165f97ad3a94b0fe728ccf2c6c54961d3309d473"
+    }
+  ],
+  "dependency_scope": "minimal referenced input closure for current candidates; extra exploratory caches retained separately because cleanup is deferred",
+  "coverage": {
+    "required_models": 6,
+    "modeled": 6,
+    "cold_verified": 6,
+    "cold_geometry_current": 6
+  },
+  "editable_source_readiness": "full draft coverage; rubric acceptance and documented source/native gates remain",
+  "verified_deformation": "sampled native preview evidence only; runtime action selection and native physics unverified",
+  "rubric": {
+    "historical_grounding_max": 20,
+    "persian_identity_max": 20,
+    "AoE4_readability_max": 20,
+    "deformation_attachments_max": 25,
+    "LOD_performance_max": 15,
+    "required_total": 90,
+    "required_category_fraction": 0.8,
+    "score": null,
+    "status": "unaccepted until completed review; no automatic score from numeric tests"
+  },
+  "deferred": [
+    "cook",
+    "integration",
+    "packaging",
+    "native-game validation",
+    "promotion",
+    "push",
+    "deletion"
+  ],
+  "cold_evidence_policy": "latest outcome per source; legacy reports retain geometry/readback evidence only; full recipe and attachment equivalence require explicit tested fingerprints and semantics"
+}

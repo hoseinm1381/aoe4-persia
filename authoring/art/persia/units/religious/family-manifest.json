@@ -1,0 +1,2571 @@
+{
+  "schema": "persia-family-bindings/v1",
+  "family": "religious",
+  "permanent_source_read_only": true,
+  "blueprints_and_selectors": [
+    {
+      "key": "ebps/persia/ps_unit_monk_2_sul",
+      "family": "religious",
+      "status": "included",
+      "reached_from": "sbps/persia/ps_unit_monk_2_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\ebps\\persia\\ps_unit_monk_2_sul.xml",
+      "source_sha256": "2512afcb60c1e3c939a131cb5d3e2e219bbb7d4df105e4f1c7c99722eed9f4ad",
+      "visual_fields": [
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier1_monk_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_monk_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\dev\\ages\\feudal_age",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_monk_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\dev\\ages\\castle_age",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_monk_sul",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\dev\\ages\\imperial_age",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_monk_3",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_monk_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_monk_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\dev\\ages\\castle_age",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_monk_sul",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "statetree_tier_requirements_pbg",
+          "value": "upgrade\\dev\\ages\\imperial_age",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:statetree_tier_requirements_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_monk_3",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "sbps/persia/ps_unit_monk_2_sul",
+      "family": "religious",
+      "status": "included",
+      "reached_from": "ebps/persia/ps_building_unit_religious_control_sul",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\sbps\\persia\\ps_unit_monk_2_sul.xml",
+      "source_sha256": "c38d45d0bd185faddf741aba708c0b3290656ec7cc9587ffe60caa706a440470",
+      "visual_fields": [
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_monk_3",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\core\\unit_monk_3",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "logical_path": "art/civilizations/common/humans/archetypes/base_monk/base_monk.rgm",
+      "role": "native_animation_owner",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_monk_3",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_monk_3",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_monk_3",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        }
+      ],
+      "scope": "required",
+      "editable_status": "not modeled"
+    },
+    {
+      "logical_path": "art/civilizations/sultanate/humans/sul_infantry_monk_age04/sul_infantry_monk_age04.rgm",
+      "role": "body",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_monk_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_monk_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\religious\\models\\sul_infantry_monk_age04\\manifest.json",
+      "source_manifest_sha256": "8c9bff5044f576523d0822a742e173e1f582685624d3081d1067292818b6eaf0",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\models\\sul_infantry_monk_age04\\model.blend",
+      "source_sha256": "487ddc4bd16cb0b63981db00d4f5fd4ed0c1af008086bdd4d81e42dedd7566b2",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "7a17e5baa9e63a0c5b57836b38e36271ac40bb043bcaccdd01b605af3f34f581",
+        "bones": 73,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "body",
+          "vertices": 854,
+          "triangles": 1221,
+          "sha256": "5a013009f013657139cfd8e5a83312c375e5ae976502bf72bcd0c6c784923249"
+        },
+        {
+          "lod": 1,
+          "component": "body",
+          "vertices": 457,
+          "triangles": 556,
+          "sha256": "2ce5dba852cf27056f16435aed85e8394d7b4732273a665d0313f99481fc43c4"
+        },
+        {
+          "lod": 2,
+          "component": "body",
+          "vertices": 219,
+          "triangles": 210,
+          "sha256": "8268800aa10fee3cb756c8e935ca4865f60398535e9a2a5e631fb6510e12ec59"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_religious_sul_infantry_monk_age04_body_LOD0",
+          "vertices": 854,
+          "triangles": 1221,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_religious_sul_infantry_monk_age04_body_LOD1",
+          "vertices": 457,
+          "triangles": 556,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_religious_sul_infantry_monk_age04_body_LOD2",
+          "vertices": 219,
+          "triangles": 210,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/common/weapons/melee/staff_crozier/staff_crozier.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_monk_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_monk_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\religious\\models\\staff_crozier\\manifest.json",
+      "source_manifest_sha256": "77a2f7ae33975c1aef9d49287dc8f2be9aba2fbcf26b302d14bb03dec6c6e471",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\models\\staff_crozier\\model.blend",
+      "source_sha256": "5428caab0fed0d7281bebb0498c41f94eeb8045358c4fa0f855e1066d8040fd0",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "bones": 0,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 163,
+          "triangles": 222,
+          "sha256": "9c207d54972d8add162fd29d46e76e3a6f83dacc7a68a2e137781b956a54493b"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 92,
+          "triangles": 110,
+          "sha256": "852350c6104dcb14037b8258e530e6044aa6b802bf22f8218d0ace73a64df8f8"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 59,
+          "triangles": 62,
+          "sha256": "7921f364fe7022a91bcbbe7ee71262d79a6de2e1860cce1f9005b381f408cb86"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_religious_staff_crozier_LOD0",
+          "vertices": 163,
+          "triangles": 222,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_religious_staff_crozier_LOD1",
+          "vertices": 92,
+          "triangles": 110,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_religious_staff_crozier_LOD2",
+          "vertices": 59,
+          "triangles": 62,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/common/humans/archetypes/base_civilian/base_civilian.rgm",
+      "role": "native_animation_owner",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier1_monk_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier3_monk_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/core_monk",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier2_monk_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/core_monk",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier3_monk_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/core_monk",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_monk_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier4_monk_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier2_monk_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animation_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        }
+      ],
+      "scope": "required",
+      "editable_status": "not modeled"
+    },
+    {
+      "logical_path": "art/civilizations/common/weapons/melee/staff_wood/staff_wood.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier3_monk_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/core_monk",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/core_monk",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier2_monk_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier3_monk_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier2_monk_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/core_monk",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier1_monk_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "slot": "animator",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\religious\\models\\staff_wood\\manifest.json",
+      "source_manifest_sha256": "9bde50521d087f960a7809f9ad6b11201f4ac70177337871614d340c9e6509fe",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\models\\staff_wood\\model.blend",
+      "source_sha256": "6f82d6330f3e7f69c08063948ab01f1e9a6ab7ff3c139284d2ce449759341eee",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "bones": 0,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 132,
+          "triangles": 156,
+          "sha256": "ecd7ea1fd482cde0b8e27b662078d322e14426976bb57c4c6f55541c20186286"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 97,
+          "triangles": 96,
+          "sha256": "c0afba18746db0072ee8475dbfe0409179a2bd8b02bb46b6c8aa6b8494f386e1"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 53,
+          "triangles": 46,
+          "sha256": "392d00a4b4090e798543764e376fe3e8e7e36baa75c97d115a56df7d6a845bee"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_religious_staff_wood_LOD0",
+          "vertices": 132,
+          "triangles": 156,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_religious_staff_wood_LOD1",
+          "vertices": 97,
+          "triangles": 96,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_religious_staff_wood_LOD2",
+          "vertices": 53,
+          "triangles": 46,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/sultanate/humans/sul_infantry_monk_age03/sul_infantry_monk_age03.rgm",
+      "role": "body",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier3_monk_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier3_monk_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\religious\\models\\sul_infantry_monk_age03\\manifest.json",
+      "source_manifest_sha256": "3b3e619714432eda35f23cde449817ddfefef0b8101166602aa8d94258fad388",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\models\\sul_infantry_monk_age03\\model.blend",
+      "source_sha256": "0ccb5c4b880c7a20fb563e2497e673e804eaa325d168c30917825634cf34570a",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "7a17e5baa9e63a0c5b57836b38e36271ac40bb043bcaccdd01b605af3f34f581",
+        "bones": 73,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "body",
+          "vertices": 799,
+          "triangles": 1156,
+          "sha256": "e88e3529a53f51f51e647e96aca4cc6e330f66384b9412942fbeecc75937fa65"
+        },
+        {
+          "lod": 1,
+          "component": "body",
+          "vertices": 457,
+          "triangles": 584,
+          "sha256": "2260a8dfce17f049ba34a8f456454452dd971e893a0275fef3c825cf86016082"
+        },
+        {
+          "lod": 2,
+          "component": "body",
+          "vertices": 224,
+          "triangles": 230,
+          "sha256": "3a17cf3b2e880b8325e609426e8ce368001f9f0fb062fe4794a2aa9fda608582"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_religious_sul_infantry_monk_age03_body_LOD0",
+          "vertices": 799,
+          "triangles": 1156,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_religious_sul_infantry_monk_age03_body_LOD1",
+          "vertices": 457,
+          "triangles": 584,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_religious_sul_infantry_monk_age03_body_LOD2",
+          "vertices": 224,
+          "triangles": 230,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/sultanate/humans/sul_infantry_monk_age02/sul_infantry_monk_age02.rgm",
+      "role": "body",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier2_monk_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier2_monk_sul",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\religious\\models\\sul_infantry_monk_age02\\manifest.json",
+      "source_manifest_sha256": "21592d12c9c245bf12ffa11c8cfd9a1307dc0d74d7929adf1aa05f312bbac4b8",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\models\\sul_infantry_monk_age02\\model.blend",
+      "source_sha256": "d5466c45ad2a9ce6c39f8244562e6ae3f2b633e9632ff1030666813382b0d166",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "7a17e5baa9e63a0c5b57836b38e36271ac40bb043bcaccdd01b605af3f34f581",
+        "bones": 73,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "body",
+          "vertices": 861,
+          "triangles": 1221,
+          "sha256": "afda9f4381dbba3b176fe927ac27afd8586baa2e41e6f058daf315b30d3f32cb"
+        },
+        {
+          "lod": 1,
+          "component": "body",
+          "vertices": 480,
+          "triangles": 578,
+          "sha256": "bd5e4bfce2ce27ded6215cf6fc07bd6fec66f393e7e67cbf2fcdba0bbb67d93c"
+        },
+        {
+          "lod": 2,
+          "component": "body",
+          "vertices": 229,
+          "triangles": 230,
+          "sha256": "dfd0723bc57f2e9eb4ae39e11ac9d024c7d8db46719376bbc9a55fd8711e8205"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_religious_sul_infantry_monk_age02_body_LOD0",
+          "vertices": 861,
+          "triangles": 1221,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_religious_sul_infantry_monk_age02_body_LOD1",
+          "vertices": 480,
+          "triangles": 578,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_religious_sul_infantry_monk_age02_body_LOD2",
+          "vertices": 229,
+          "triangles": 230,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/sultanate/humans/sul_infantry_monk_age01/sul_infantry_monk_age01.rgm",
+      "role": "body",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/sultanate/units/tier1_monk_sul",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_monk_2_sul"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\religious\\models\\sul_infantry_monk_age01\\manifest.json",
+      "source_manifest_sha256": "9952a4b51653845c463f0ff752d76b227fda1905818e11ab4f4df1e9d2f1d99e",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\models\\sul_infantry_monk_age01\\model.blend",
+      "source_sha256": "7a97e9d553ac502d28061849e32603b2c48b1f3b3c7fcdea3ba06a7f7bf4f289",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "8c81d2dd0a869994a8b6364b960bca919f9c698716d9515e09259ff9675601e6",
+        "bones": 73,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "body",
+          "vertices": 861,
+          "triangles": 1221,
+          "sha256": "afda9f4381dbba3b176fe927ac27afd8586baa2e41e6f058daf315b30d3f32cb"
+        },
+        {
+          "lod": 1,
+          "component": "body",
+          "vertices": 480,
+          "triangles": 578,
+          "sha256": "bd5e4bfce2ce27ded6215cf6fc07bd6fec66f393e7e67cbf2fcdba0bbb67d93c"
+        },
+        {
+          "lod": 2,
+          "component": "body",
+          "vertices": 229,
+          "triangles": 230,
+          "sha256": "dfd0723bc57f2e9eb4ae39e11ac9d024c7d8db46719376bbc9a55fd8711e8205"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_religious_sul_infantry_monk_age01_body_LOD0",
+          "vertices": 861,
+          "triangles": 1221,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_religious_sul_infantry_monk_age01_body_LOD1",
+          "vertices": 480,
+          "triangles": 578,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_religious_sul_infantry_monk_age01_body_LOD2",
+          "vertices": 229,
+          "triangles": 230,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    }
+  ],
+  "assemblies": [
+    {
+      "manifest": "art\\persia\\units\\religious\\assemblies\\sul_infantry_monk_age01\\manifest.json",
+      "manifest_sha256": "b29f328ecbbf4e3d38149924140ac31a5811463de08752e4fcd5bb9c3558c19b",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\assemblies\\sul_infantry_monk_age01\\assembly.blend",
+      "sha256": "8f0716e1cb5a3384d583998f637d027b5232fd8f4ba32c5cb073cb269c82f118",
+      "sockets": {
+        "staff_crozier": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 73,
+            "max_reference_matrix_error": 9.618142939871177e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_infantry_monk_age01/sul_infantry_monk_age01.rgm",
+            "donor_manifest_sha256": "bffb746e7376c056867c1ada88c4adacb9b08455bd224a334c3cd1ebade9f7e7",
+            "bones_modified": 0
+          },
+          "triangles": [
+            222,
+            110,
+            62
+          ],
+          "native_marker_evidence": [
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_monk_sul.xml"
+            }
+          ],
+          "marker_status": "explicit native marker"
+        },
+        "staff_wood": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 73,
+            "max_reference_matrix_error": 9.618142939871177e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_infantry_monk_age01/sul_infantry_monk_age01.rgm",
+            "donor_manifest_sha256": "bffb746e7376c056867c1ada88c4adacb9b08455bd224a334c3cd1ebade9f7e7",
+            "bones_modified": 0
+          },
+          "triangles": [
+            156,
+            96,
+            46
+          ],
+          "native_marker_evidence": [
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier1_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            }
+          ],
+          "marker_status": "explicit native marker"
+        }
+      },
+      "rig_contract_sha256": "8c81d2dd0a869994a8b6364b960bca919f9c698716d9515e09259ff9675601e6",
+      "motion_checks": [
+        {
+          "clip": "navigation\\monk_relic_idle_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_monk/base_monk.rhka",
+            "rhka_sha256": "819d5859b63be7cedff28259bac25e9b37c3ac4eb7492abf9a50d1966248191d",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.8957316615344921
+            },
+            {
+              "frame": 38,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.900953211656134
+            },
+            {
+              "frame": 75,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.8963013987587352
+            },
+            {
+              "frame": 113,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.8999208048931167
+            },
+            {
+              "frame": 150,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.8956724200197863
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    },
+    {
+      "manifest": "art\\persia\\units\\religious\\assemblies\\sul_infantry_monk_age02\\manifest.json",
+      "manifest_sha256": "1e136e61da1278ee478dce050e615a75301e5a6424d8f360f7833405b5814c4a",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\assemblies\\sul_infantry_monk_age02\\assembly.blend",
+      "sha256": "b8d3f17014fe8aed1254560a678c17a3d7d620270528fb028c55d0dabee7039d",
+      "sockets": {
+        "staff_crozier": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 73,
+            "max_reference_matrix_error": 9.498929102846887e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_infantry_monk_age02/sul_infantry_monk_age02.rgm",
+            "donor_manifest_sha256": "68f05b51f50a5e5e4e827107a3fcc878091eded2e3b1715afc6b7114e2b449dd",
+            "bones_modified": 0
+          },
+          "triangles": [
+            222,
+            110,
+            62
+          ],
+          "native_marker_evidence": [
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_monk_sul.xml"
+            }
+          ],
+          "marker_status": "explicit native marker"
+        },
+        "staff_wood": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 73,
+            "max_reference_matrix_error": 9.498929102846887e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_infantry_monk_age02/sul_infantry_monk_age02.rgm",
+            "donor_manifest_sha256": "68f05b51f50a5e5e4e827107a3fcc878091eded2e3b1715afc6b7114e2b449dd",
+            "bones_modified": 0
+          },
+          "triangles": [
+            156,
+            96,
+            46
+          ],
+          "native_marker_evidence": [
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier1_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            }
+          ],
+          "marker_status": "explicit native marker"
+        }
+      },
+      "rig_contract_sha256": "7a17e5baa9e63a0c5b57836b38e36271ac40bb043bcaccdd01b605af3f34f581",
+      "motion_checks": [
+        {
+          "clip": "navigation\\monk_relic_idle_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_monk/base_monk.rhka",
+            "rhka_sha256": "819d5859b63be7cedff28259bac25e9b37c3ac4eb7492abf9a50d1966248191d",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.8957316611053963
+            },
+            {
+              "frame": 38,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.900953211656134
+            },
+            {
+              "frame": 75,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.8963013986359536
+            },
+            {
+              "frame": 113,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.8999208048931167
+            },
+            {
+              "frame": 150,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.8956724195902945
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    },
+    {
+      "manifest": "art\\persia\\units\\religious\\assemblies\\sul_infantry_monk_age03\\manifest.json",
+      "manifest_sha256": "5c69227cb0f27adb7abfafd29d61024a0f7ccc61e7ec0ce0a7fb8d825c46b53f",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\assemblies\\sul_infantry_monk_age03\\assembly.blend",
+      "sha256": "e553ad68d1b19f138aad86cac0a9d7384f1d16dc827bec6b68d54cd17e7c784f",
+      "sockets": {
+        "staff_crozier": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 73,
+            "max_reference_matrix_error": 9.498929102846887e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_infantry_monk_age03/sul_infantry_monk_age03.rgm",
+            "donor_manifest_sha256": "d5f65d9c38394ab7d9e12fdde529b9c2400095f003225b7f5d728dc7a7c47be3",
+            "bones_modified": 0
+          },
+          "triangles": [
+            222,
+            110,
+            62
+          ],
+          "native_marker_evidence": [
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_monk_sul.xml"
+            }
+          ],
+          "marker_status": "explicit native marker"
+        },
+        "staff_wood": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 73,
+            "max_reference_matrix_error": 9.498929102846887e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_infantry_monk_age03/sul_infantry_monk_age03.rgm",
+            "donor_manifest_sha256": "d5f65d9c38394ab7d9e12fdde529b9c2400095f003225b7f5d728dc7a7c47be3",
+            "bones_modified": 0
+          },
+          "triangles": [
+            156,
+            96,
+            46
+          ],
+          "native_marker_evidence": [
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier1_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            }
+          ],
+          "marker_status": "explicit native marker"
+        }
+      },
+      "rig_contract_sha256": "7a17e5baa9e63a0c5b57836b38e36271ac40bb043bcaccdd01b605af3f34f581",
+      "motion_checks": [
+        {
+          "clip": "navigation\\monk_relic_idle_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_monk/base_monk.rhka",
+            "rhka_sha256": "819d5859b63be7cedff28259bac25e9b37c3ac4eb7492abf9a50d1966248191d",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.9057864599525656
+            },
+            {
+              "frame": 38,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.9171842020046452
+            },
+            {
+              "frame": 75,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.9094507421761093
+            },
+            {
+              "frame": 113,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.908967982343307
+            },
+            {
+              "frame": 150,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.9056618243494499
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    },
+    {
+      "manifest": "art\\persia\\units\\religious\\assemblies\\sul_infantry_monk_age04\\manifest.json",
+      "manifest_sha256": "32872e6a3692d2a0f017b9df100a926b7d6578ab75b67348e3b5dfa9f551828a",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\religious\\assemblies\\sul_infantry_monk_age04\\assembly.blend",
+      "sha256": "38d3f1face2ba12c4857bdf47910c7819be417e54eba691deede19da4edacf37",
+      "sockets": {
+        "staff_crozier": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 73,
+            "max_reference_matrix_error": 9.498929102846887e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_infantry_monk_age04/sul_infantry_monk_age04.rgm",
+            "donor_manifest_sha256": "f5efcc8af33b869e228f93316d911f4b7b8522ff6ea4ce28b730762fd4b4c3ba",
+            "bones_modified": 0
+          },
+          "triangles": [
+            222,
+            110,
+            62
+          ],
+          "proposed_saddle_pivot": null,
+          "native_marker_evidence": [
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier4_monk_sul.xml"
+            }
+          ],
+          "marker_status": "explicit native marker"
+        },
+        "staff_wood": {
+          "socket": "metarig_rarmpalmsocket",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 73,
+            "max_reference_matrix_error": 9.498929102846887e-06,
+            "donor": "art/civilizations/sultanate/humans/sul_infantry_monk_age04/sul_infantry_monk_age04.rgm",
+            "donor_manifest_sha256": "f5efcc8af33b869e228f93316d911f4b7b8522ff6ea4ce28b730762fd4b4c3ba",
+            "bones_modified": 0
+          },
+          "triangles": [
+            156,
+            96,
+            46
+          ],
+          "proposed_saddle_pivot": null,
+          "native_marker_evidence": [
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier1_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier2_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\sultanate\\units\\tier3_monk_sul.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\attachments\\attachment_lists\\civilizations\\core\\units\\core_monk.xml"
+            }
+          ],
+          "marker_status": "explicit native marker"
+        }
+      },
+      "rig_contract_sha256": "7a17e5baa9e63a0c5b57836b38e36271ac40bb043bcaccdd01b605af3f34f581",
+      "motion_checks": [
+        {
+          "clip": "navigation\\monk_relic_idle_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_monk/base_monk.rhka",
+            "rhka_sha256": "819d5859b63be7cedff28259bac25e9b37c3ac4eb7492abf9a50d1966248191d",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.008698871258732
+            },
+            {
+              "frame": 38,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.9831265803674039
+            },
+            {
+              "frame": 75,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 1.9969397429893938
+            },
+            {
+              "frame": 113,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.012729195445394
+            },
+            {
+              "frame": 150,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 2.008954860306158
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    }
+  ],
+  "reconstruction_inputs": [
+    {
+      "path": "art\\persia\\units\\_donors\\staff_crozier\\956014327940fd96ec83\\decoded-static.json",
+      "sha256": "32ac9974ea077cdba01940c307ee093b8e34c518056d74f5c27082269bc95246",
+      "bytes": 230600
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_crozier\\956014327940fd96ec83\\source\\art\\civilizations\\common\\weapons\\melee\\staff_crozier\\13411606244602001826_packed.rrtex",
+      "sha256": "30fe769d6214700b8e068fd517d00f0e02b4d4fd128a815835d22954e1647ffe",
+      "bytes": 10289
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_crozier\\956014327940fd96ec83\\source\\art\\civilizations\\common\\weapons\\melee\\staff_crozier\\14159176639617194401_packed.rrtex",
+      "sha256": "b6ab09468d484189b26df65eb131790739944d2acaebbe189e5c51dd4075b072",
+      "bytes": 4687
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_crozier\\956014327940fd96ec83\\source\\art\\civilizations\\common\\weapons\\melee\\staff_crozier\\4511366617944537764_packed.rrtex",
+      "sha256": "357169fdbcfca0a8275b1fdde006bb6a71fefc6272323678056da6f33d00fb7c",
+      "bytes": 5430
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_crozier\\956014327940fd96ec83\\source\\art\\civilizations\\common\\weapons\\melee\\staff_crozier\\staff_crozier.rgm",
+      "sha256": "864fe2fe70ef5be77e97a9a98ce481b0a00d97ad65df33908803b086c7983b0a",
+      "bytes": 7546
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_crozier\\956014327940fd96ec83\\source\\art\\civilizations\\common\\weapons\\melee\\staff_crozier\\staff_crozier.rrgeom",
+      "sha256": "5bf2097ef65c4b6fad322150424188906ac1c8f053db0dedf256f4b9f4fc87c7",
+      "bytes": 24729
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_crozier\\956014327940fd96ec83\\source\\art\\civilizations\\common\\weapons\\melee\\staff_crozier\\staff_crozier.rrmaterial",
+      "sha256": "15aa37ba832cf7a5fd8938437f27db5f9e566663f264ebc08da5efcdd4b277cd",
+      "bytes": 625
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_crozier\\956014327940fd96ec83\\textures\\a2deb1a92d63_4511366617944537764_packed.dds",
+      "sha256": "e7d847e44393c6818a051ecb859f06c0422caf60e25592268c42a2dd07bd8837",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_crozier\\956014327940fd96ec83\\textures\\ab66371e85ae_13411606244602001826_packed.dds",
+      "sha256": "252cc91f087f29bb6aeebec925daa59ab2dfa2b216f325c5a47d5316e71b86ac",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_crozier\\956014327940fd96ec83\\textures\\d31979cfe901_14159176639617194401_packed.dds",
+      "sha256": "64dd83dec81232e33d230cd866c790bd087bc3eb13c7a1a7728ccfa5e4ddb243",
+      "bytes": 5608
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_wood\\f20f3e2c32c6899d385d\\decoded-static.json",
+      "sha256": "0caf230d6e2ed00789d29ed4c78f00c875f9c706d4a7b2a4f8e269483d1e0960",
+      "bytes": 207200
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_wood\\f20f3e2c32c6899d385d\\source\\art\\civilizations\\common\\weapons\\melee\\staff_wood\\15428340323983658319_packed.rrtex",
+      "sha256": "20fa6ca4565bfb66e8855a48a5143514b89685583d36ca6e1cb6c799b7ae9b91",
+      "bytes": 9622
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_wood\\f20f3e2c32c6899d385d\\source\\art\\civilizations\\common\\weapons\\melee\\staff_wood\\1873996386576000074_packed.rrtex",
+      "sha256": "bb3d5baf72da09677d6a9ca826ba860ee30b627bf399a3a54b2bfd134337b205",
+      "bytes": 19655
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_wood\\f20f3e2c32c6899d385d\\source\\art\\civilizations\\common\\weapons\\melee\\staff_wood\\3262098546347548534_packed.rrtex",
+      "sha256": "6cc3d78fb60e9aefe247a56401366c6917676d61f0921c872d30bc0dce167679",
+      "bytes": 18333
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_wood\\f20f3e2c32c6899d385d\\source\\art\\civilizations\\common\\weapons\\melee\\staff_wood\\staff_wood.rgm",
+      "sha256": "d0f8a487fcace2abf9e36f5ddf11cc5c1b4d5a64c7463c412f27132c1d50ae5b",
+      "bytes": 5011
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_wood\\f20f3e2c32c6899d385d\\source\\art\\civilizations\\common\\weapons\\melee\\staff_wood\\staff_wood.rrgeom",
+      "sha256": "4e67f200f9c8869649ba2a4d47bae111b07a830ff77d9276de6ba5c4f0070828",
+      "bytes": 23248
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_wood\\f20f3e2c32c6899d385d\\source\\art\\civilizations\\common\\weapons\\melee\\staff_wood\\staff_wood.rrmaterial",
+      "sha256": "3bb4c1b1e2e4931a172d1959c87e57465152c578ea2c8a8e9e75520de5567415",
+      "bytes": 615
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_wood\\f20f3e2c32c6899d385d\\textures\\666c865f59ea_1873996386576000074_packed.dds",
+      "sha256": "e5dd2c7e95cb41f09fc7a6de55f6adc1cbdeedbf81f6ba3a03519a8b977971a7",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_wood\\f20f3e2c32c6899d385d\\textures\\b23aa0c5b247_15428340323983658319_packed.dds",
+      "sha256": "86cf1e97a03e01266805c256becadc323acc30dc15099e41be0f71a536da5994",
+      "bytes": 11064
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\staff_wood\\f20f3e2c32c6899d385d\\textures\\bbe607384ea5_3262098546347548534_packed.dds",
+      "sha256": "b12161bfc4c608dd1eba25392a3f5856deddabdabbc18e332f6d045765b50639",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\decoded-static.json",
+      "sha256": "bffb746e7376c056867c1ada88c4adacb9b08455bd224a334c3cd1ebade9f7e7",
+      "bytes": 1312738
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age01\\17501702658500565407_packed.rrtex",
+      "sha256": "50ee08724b67f9bc1c6c876ff83ee6d78067606ad4b8a481a3c613d8041e1d8f",
+      "bytes": 71507
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age01\\3326271193504222129_packed.rrtex",
+      "sha256": "1e33ae1065534f883be678714bb03f0eb624b35a29a7d92b9783cfd83305bf84",
+      "bytes": 68140
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age01\\4099981732831978874_packed.rrtex",
+      "sha256": "e24034e332fadd27d2fd10b5d0bc7466e8dd4dd33a67450806e47ea75d5d1677",
+      "bytes": 72905
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age01\\5801011239368272303_packed.rrtex",
+      "sha256": "de11693e13e9e7cea6a9d23ca3457102ad458853988a3865aeef791644922711",
+      "bytes": 31697
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age01\\7209421259678852684_packed.rrtex",
+      "sha256": "11303b7c5dfddaf3eecc02345be5fe3ad144d44cbb36dfa02f10b5d383c6c78d",
+      "bytes": 40072
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age01\\7697862990523866860_packed.rrtex",
+      "sha256": "7c15e5c581766c18ea6717aef39380069eb605a28d4067c60bf1c5e90b4b821c",
+      "bytes": 6754
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age01\\sul_infantry_monk_age01.rgm",
+      "sha256": "afd9a68b6e19617c0d7f14a36c7cd3f14223003fd671bb42af694fe7950137a2",
+      "bytes": 44596
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age01\\sul_infantry_monk_age01.rrgeom",
+      "sha256": "24277413b2cb909c20cd92a87dca04353bc03b10904b5f8c87c7c1e8cadf139e",
+      "bytes": 62410
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age01\\sul_infantry_monk_age01.rrmaterial",
+      "sha256": "feb96013919a941ea94ff3b26049e9bd6b6b019f230e438ce8fb3437d7e9eb4e",
+      "bytes": 2530
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\source\\art\\civilizations\\sultanate\\humans\\tints\\sul_skin_tinting_lut.rrtex",
+      "sha256": "126ebd89f93cdb8513a0b3682c26fcceedd9b544fbec866577954425f8e949fc",
+      "bytes": 511
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\textures\\1ad4d27f8633_17501702658500565407_packed.dds",
+      "sha256": "1ee9badfb1483d575c381e71b58001d51814c935b9f0d1bd755a6bc3753f2270",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\textures\\4ff0e98f9d8f_3326271193504222129_packed.dds",
+      "sha256": "8b666471561699f91c2138df974aaee4691bfd6b678472fb2bdb4237fd3c109a",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\textures\\67ded37a149e_sul_skin_tinting_lut.dds",
+      "sha256": "49caedae116e6bb68ddfd5ad60e8623b5cd19bbd803502ea1b8953f0ad953a3b",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\textures\\7f783f6a143c_7209421259678852684_packed.dds",
+      "sha256": "f9253687486c6acf559c5f2e45d1df029aa2287ac66ca0df4b5ecccd9d25258d",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\textures\\a60ebdf99850_4099981732831978874_packed.dds",
+      "sha256": "477b8b7e0de8e38911e36d631cb6aeb14ac3c4cd361c15c40bb7199a492add15",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\textures\\b11cbf0e97c7_7697862990523866860_packed.dds",
+      "sha256": "6c333a58d9a1f13de29156237134158e984872aba4e503920cd0bb6e15ea4cfc",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age01\\a2562bf8972dd1605c2d\\textures\\ee898debe269_5801011239368272303_packed.dds",
+      "sha256": "0cf3a893b428b7b2a0c93e03a91374c5628cbbeb48ad55ffff9a7f4a8d7bff9f",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\decoded-static.json",
+      "sha256": "68f05b51f50a5e5e4e827107a3fcc878091eded2e3b1715afc6b7114e2b449dd",
+      "bytes": 1313404
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age02\\10949776651351290675_packed.rrtex",
+      "sha256": "74e45ad951b20c91b373a2dcb4e8f996fb3a9b96d2a88b54534bddc5a25557e4",
+      "bytes": 68140
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age02\\12895461558996867280_packed.rrtex",
+      "sha256": "be2b1611e13a09c76d59f89304b9b6828f491f5de37f1f8feb54332e8dba8fce",
+      "bytes": 31744
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age02\\2489292473774466979_packed.rrtex",
+      "sha256": "b1247c7dbaaa9d30f6dcdcb35d014f09848eb558d852470b6f5bc772a32c83ca",
+      "bytes": 42962
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age02\\318625512919737489_packed.rrtex",
+      "sha256": "4adc754d055c8c23e59fbc0a9e44e7587cc48fd42aa489ec9afe54aa7ca8184a",
+      "bytes": 71507
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age02\\6504997694179283441_packed.rrtex",
+      "sha256": "6bc23d83393f2863ff3e8759df92bec344e3d710c89742ec3bf4d8ef1fe871cd",
+      "bytes": 72905
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age02\\6852308004716097404_packed.rrtex",
+      "sha256": "587ad18ad9c641260635201948ba8ab0b9674e5960ce765326bb92728b6d0563",
+      "bytes": 6754
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age02\\sul_infantry_monk_age02.rgm",
+      "sha256": "2df3fd9e26f81dd56d9fee8689caea464fde0f7c4e75063da7a29d64de33dcd5",
+      "bytes": 36803
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age02\\sul_infantry_monk_age02.rrgeom",
+      "sha256": "10f28da3d5991e3acce6dd75cddb2c7cb4b9cc67af7e40f1a56ea89f784b13ac",
+      "bytes": 62410
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age02\\sul_infantry_monk_age02.rrmaterial",
+      "sha256": "9927fd8424b26c820e1b2e73f6b9e9ce089294ddd4abd47182da7e3272f75c4a",
+      "bytes": 2532
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\source\\art\\civilizations\\sultanate\\humans\\tints\\sul_skin_tinting_lut.rrtex",
+      "sha256": "126ebd89f93cdb8513a0b3682c26fcceedd9b544fbec866577954425f8e949fc",
+      "bytes": 511
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\textures\\1c59b3961232_6852308004716097404_packed.dds",
+      "sha256": "6c333a58d9a1f13de29156237134158e984872aba4e503920cd0bb6e15ea4cfc",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\textures\\67ded37a149e_sul_skin_tinting_lut.dds",
+      "sha256": "49caedae116e6bb68ddfd5ad60e8623b5cd19bbd803502ea1b8953f0ad953a3b",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\textures\\6b24b83db0fc_12895461558996867280_packed.dds",
+      "sha256": "b0b1aa271e007218bff2e3dec7eace0810226801cdc5c4e665f05e017404080f",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\textures\\8990ff863401_318625512919737489_packed.dds",
+      "sha256": "1ee9badfb1483d575c381e71b58001d51814c935b9f0d1bd755a6bc3753f2270",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\textures\\a76cfe32b1c7_2489292473774466979_packed.dds",
+      "sha256": "e2988868a35b81a53460ae587cfe0990611e38df111a4f71cd8e3fdb9836c43c",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\textures\\d1b891637ec9_6504997694179283441_packed.dds",
+      "sha256": "477b8b7e0de8e38911e36d631cb6aeb14ac3c4cd361c15c40bb7199a492add15",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age02\\0289cacd55b3ba1d317d\\textures\\da724dd728d8_10949776651351290675_packed.dds",
+      "sha256": "8b666471561699f91c2138df974aaee4691bfd6b678472fb2bdb4237fd3c109a",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\decoded-static.json",
+      "sha256": "d5f65d9c38394ab7d9e12fdde529b9c2400095f003225b7f5d728dc7a7c47be3",
+      "bytes": 1236629
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age03\\13554162389142658893_packed.rrtex",
+      "sha256": "ba0929a2fee4343d014d1ffadbd4569495123200ef5c572e6df582eb2fbb480f",
+      "bytes": 46659
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age03\\13980010256160221086_packed.rrtex",
+      "sha256": "869dada196c074b68ba2f79c4797bbba6eb9f265762cea1ff686ea086893e8a2",
+      "bytes": 32887
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age03\\15988064381874512078_packed.rrtex",
+      "sha256": "5d68f062cc0f39ac1b3bc969567b7c26853ee7f704387edd9ca581662c71bb7a",
+      "bytes": 70456
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age03\\4256442367440727045_packed.rrtex",
+      "sha256": "a6416a338f35ba04e1457e9a86c7d73fd8f26e61a6616dada4bdc95f676263ce",
+      "bytes": 74510
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age03\\9077120722919785018_packed.rrtex",
+      "sha256": "068ef8bbacfd3636df76b4d1d4c443739d0f7d7a8dc3dbe66a30d5adfff9c005",
+      "bytes": 8088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age03\\9516497965203589119_packed.rrtex",
+      "sha256": "d82019c8f3a22892a4c1579bd6722167875580dd051cb02cab8a5f0e38fb67d8",
+      "bytes": 66826
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age03\\sul_infantry_monk_age03.rgm",
+      "sha256": "adb3d3179285cec11ecc2e76f796bd0b4606692690e4e96b068f0fbff6f855c8",
+      "bytes": 35433
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age03\\sul_infantry_monk_age03.rrgeom",
+      "sha256": "a8c5b5b957fb8d3b33c17e719e719a14ccefdea1ffaf0de15e1ac5f277ec1634",
+      "bytes": 59050
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age03\\sul_infantry_monk_age03.rrmaterial",
+      "sha256": "22e62f159b2deaac3a9b15b1de2a98d75ac49e6567d77040c5f6b4a34d79f286",
+      "bytes": 2551
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\source\\art\\civilizations\\sultanate\\humans\\tints\\sul_skin_tinting_lut.rrtex",
+      "sha256": "126ebd89f93cdb8513a0b3682c26fcceedd9b544fbec866577954425f8e949fc",
+      "bytes": 511
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\textures\\2e2b83c27ab4_4256442367440727045_packed.dds",
+      "sha256": "85c0ea5c4cc6746c016e3b97709dd4a6d36b68902852ff36920aab3926523fd3",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\textures\\2fc2cf10db8e_9077120722919785018_packed.dds",
+      "sha256": "c84bf70d4fc3c7db93ff44607a940c3daa8e80a4180f64997c2d1a9be448392d",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\textures\\67ded37a149e_sul_skin_tinting_lut.dds",
+      "sha256": "49caedae116e6bb68ddfd5ad60e8623b5cd19bbd803502ea1b8953f0ad953a3b",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\textures\\c22fcdfec5da_15988064381874512078_packed.dds",
+      "sha256": "5e09652e33b92f479fe0bfd7a6ec8b4cd8d75938adc6d5447aaf6aa45454c41f",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\textures\\c41db081c2ea_13980010256160221086_packed.dds",
+      "sha256": "6248998a60eb2c807e0ef20d12a8c8739f5ea37fd26e19790f934a309c6fdc56",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\textures\\fa17c3aee656_13554162389142658893_packed.dds",
+      "sha256": "cdd340b7941ef8c3e112cfdf4bf7e5dd4c111bfab0685e5a02a3988bc9ee2888",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age03\\fb6017b4fa8b51779845\\textures\\fb0b891425a0_9516497965203589119_packed.dds",
+      "sha256": "d8e20c01fd3375c18592cdf2d189d1949ba2338deb2edacf5acd12391dd7400f",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\decoded-static.json",
+      "sha256": "f5efcc8af33b869e228f93316d911f4b7b8522ff6ea4ce28b730762fd4b4c3ba",
+      "bytes": 1341711
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age04\\13155628022570832523_packed.rrtex",
+      "sha256": "cdc515d68bf64f4652c16780153b0f4e6f4b402abf21ba72d2ba922f84152aae",
+      "bytes": 6554
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age04\\3353442889353273659_packed.rrtex",
+      "sha256": "acd447bec6c49ab159cc0bcf44bb6c79e57f7a6d74f2d9786ad0a54c254dd9d0",
+      "bytes": 71223
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age04\\383025514099993915_packed.rrtex",
+      "sha256": "0191355cd4b360d3c08bdc202bcd97aa49acd967bf85de98a8f7ab6b3aa8cf92",
+      "bytes": 74178
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age04\\5296562746320592080_packed.rrtex",
+      "sha256": "2ee3dc09f39c11255280254797a7353a0e4ce30de3526482ffd3b5802b206c40",
+      "bytes": 33369
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age04\\7737635016684598751_packed.rrtex",
+      "sha256": "9de05437d7267eb97e1dd29089a286c0d1faabfa03b3529af4e65229e386cdc3",
+      "bytes": 45580
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age04\\8064020658201881467_packed.rrtex",
+      "sha256": "86a98e47b1666fdf20b75a2e638bdb5d14c1f323aba4ad832dfa9af5281bdf1b",
+      "bytes": 75698
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age04\\sul_infantry_monk_age04.rgm",
+      "sha256": "55d6fa83c604e442b5250ea03316c76d2bec7eb1e65261159e71fe5ae0a0da98",
+      "bytes": 36383
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age04\\sul_infantry_monk_age04.rrgeom",
+      "sha256": "007312eed9e435e50bfd1f814f7c5fc9728d23e583954af0d68d098b4b92defe",
+      "bytes": 64406
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age04\\sul_infantry_monk_age04.rrmaterial",
+      "sha256": "adb04f3495a468c57ca85a108d2e434bf64159d67101250f9f8221878a684bb5",
+      "bytes": 2531
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\source\\art\\civilizations\\sultanate\\humans\\tints\\sul_skin_tinting_lut.rrtex",
+      "sha256": "126ebd89f93cdb8513a0b3682c26fcceedd9b544fbec866577954425f8e949fc",
+      "bytes": 511
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\textures\\4b1f45fad94a_3353442889353273659_packed.dds",
+      "sha256": "e6ec92f32fceeab73ef2730a8fbbbabb93b72b9cfa55a440af2f3241c818af8b",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\textures\\6776e7b234f7_13155628022570832523_packed.dds",
+      "sha256": "dd19b5c7712ff1c64424271b27bd071d4e7f10f61c2d48c9cd02f85a8a880675",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\textures\\67ded37a149e_sul_skin_tinting_lut.dds",
+      "sha256": "49caedae116e6bb68ddfd5ad60e8623b5cd19bbd803502ea1b8953f0ad953a3b",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\textures\\a721626f6143_383025514099993915_packed.dds",
+      "sha256": "82a5ed98d7e776f0cbd7933b1fc72c367cebe49c8f88a86dab1c9f31b450cc4f",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\textures\\dbe09f9e4b47_7737635016684598751_packed.dds",
+      "sha256": "d81a5e0a4ad6b8ac33e1f1dafaa940c34055b305abad8d8da31a4aa1982bac4a",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\textures\\e079ba6d6609_8064020658201881467_packed.dds",
+      "sha256": "23cc0eceddcc553f7bf662d471836e807b52a5f914e48c1616774cf3f040626a",
+      "bytes": 87536
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\textures\\fc1764b9fc23_5296562746320592080_packed.dds",
+      "sha256": "5f4731664071480f9cd35a33653f5d49be5a7f1d68e6140149417fe6603c9ba0",
+      "bytes": 43832
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\staff_crozier\\albedo.png",
+      "sha256": "3247325e9d35dbecf167be25291ab635993c79cd8e746d986814611ca280ce40",
+      "bytes": 871590
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\staff_crozier\\metalness.png",
+      "sha256": "f54c4a1136130912833beafd3ea65686b5fa66d3b2c51e750ff2af8929212dde",
+      "bytes": 19636
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\staff_crozier\\normal.png",
+      "sha256": "626abc0a6b2e669f905508b606a21f0bc5bf100007482f2c13513a5fed6d6bae",
+      "bytes": 170978
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\staff_crozier\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\staff_crozier\\roughness.png",
+      "sha256": "e15d1dfef6fd36ed497b9ceb56b2d6ae790f6b97533e0eb6e7fcd060b2431861",
+      "bytes": 668966
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\staff_crozier\\sources.json",
+      "sha256": "85ba02dd70032224499dcfe2cdbccdf67f0d6cabf8697be6f1e2a8d4161b4f08",
+      "bytes": 1543
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\staff_wood\\albedo.png",
+      "sha256": "f386be78d6cfd8600d541757ace6aa25360e20e7cd790a1e0de3cc85af20f0d7",
+      "bytes": 955194
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\staff_wood\\metalness.png",
+      "sha256": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+      "bytes": 5712
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\staff_wood\\normal.png",
+      "sha256": "48ce027c9b20d7983994ecac5b72778e9f0b51ea1a8b6c4dc7bb0f766ee26305",
+      "bytes": 241747
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\staff_wood\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\staff_wood\\roughness.png",
+      "sha256": "ff952b68ac4bab7316eaf9508d234ae1c487ea32c62228505734ea6df92de461",
+      "bytes": 706236
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\staff_wood\\sources.json",
+      "sha256": "42206194a1093c9f1cde046152007868ddf6dea49bbf4737711d4ce8b6e26430",
+      "bytes": 1534
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age01\\albedo.png",
+      "sha256": "67fb68cb4dfdefc54afd5bf289fa0686b95654ee9a152c19705eaa1a9e58454a",
+      "bytes": 951415
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age01\\metalness.png",
+      "sha256": "447a3238d4934632b9b83cdc9343fd912917d022c2a5c4125c1f286df12e2b4f",
+      "bytes": 7626
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age01\\normal.png",
+      "sha256": "5327714567d5a638e42ac74c89f4bb61658e022d3b818910f5760f2ba75e53f3",
+      "bytes": 301102
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age01\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age01\\roughness.png",
+      "sha256": "5a85d327f7d08b69cda9c21abd23505e04822e3ad9ea088298a5a946f1a61522",
+      "bytes": 722838
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age01\\sources.json",
+      "sha256": "e2b8f0bdef61a3f2a2c7b7ae3215e3ec29d70de0ab9c35aef85c3b9c4a03dc3b",
+      "bytes": 1569
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age02\\albedo.png",
+      "sha256": "b0252ecc1e236ac694c80eb13a2c0d5638f06f8c6414caed26b3ca5f6a7b56fa",
+      "bytes": 944604
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age02\\metalness.png",
+      "sha256": "447a3238d4934632b9b83cdc9343fd912917d022c2a5c4125c1f286df12e2b4f",
+      "bytes": 7626
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age02\\normal.png",
+      "sha256": "14f6a91b5189ec2cabf7b5f9296a75d027a2518db829aa937b3f4f65c1163fcb",
+      "bytes": 310541
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age02\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age02\\roughness.png",
+      "sha256": "e6a7ffe1405a10e15bb705014bd7558f866d8610be9e82c01b6b9f241f0913a7",
+      "bytes": 722016
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age02\\sources.json",
+      "sha256": "63773a3ddc78f643240269490d7fe7c0d40d1d84df8ddb1baebeea2950d5bbed",
+      "bytes": 1569
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age03\\albedo.png",
+      "sha256": "2b12520b9c5f14bf02121b4b53427565f88e1ee7b426ebe1545222ee6816ff12",
+      "bytes": 949124
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age03\\metalness.png",
+      "sha256": "c1a32e62d7f3cf332e7dfde435742e24bb96b486238a7d9b85bda1107d3fdd71",
+      "bytes": 15345
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age03\\normal.png",
+      "sha256": "c8347a1ad27e85d6b115dcb5db6617915b8597cbcc1388c8fbaec5f52bb36c80",
+      "bytes": 329294
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age03\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age03\\roughness.png",
+      "sha256": "17533e1d91ec1a6e3e5bc89aa5d97581be026d669033d2ac7566b0168e2043f7",
+      "bytes": 736460
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age03\\sources.json",
+      "sha256": "6636be929ee2a48258d933edb15e2a7e91a068760c1a9a73f9212e5f0a2167a5",
+      "bytes": 1569
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age04\\albedo.png",
+      "sha256": "615718bdb9128fe4825dae554b8a4ab63524ec150c72b89091ee30d8a0139532",
+      "bytes": 957832
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age04\\metalness.png",
+      "sha256": "ea04a182fbfb2348963bea2b14b86fce59d77a9754e6d23d0c23bb9654cae143",
+      "bytes": 35793
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age04\\normal.png",
+      "sha256": "e39c70e63393236c79d3d9e9077c40bf8f32d4a706f942d699398df882043455",
+      "bytes": 325493
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age04\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age04\\roughness.png",
+      "sha256": "28e28b22a4dcd2fd4f99642281f25aa6f8b2178b95ddfa9923b04738788c69f2",
+      "bytes": 735205
+    },
+    {
+      "path": "art\\persia\\units\\religious\\textures\\sul_infantry_monk_age04\\sources.json",
+      "sha256": "ba9eefe4e286fa7cc89f277b008bbbe597d62fdb3f4e2fea3b79661c98be4cd7",
+      "bytes": 1569
+    }
+  ],
+  "recipe_files": [
+    {
+      "path": "tools\\persia_units\\assembly.py",
+      "sha256": "b967a5ccb11320277c7856e9514985580a8b23f532dba5e685df40f159246872"
+    },
+    {
+      "path": "tools\\persia_units\\author.py",
+      "sha256": "d3ffbeb6e657b0946a0b6fd51a93e7f8c35640c252f062912f91a58497cba95e"
+    },
+    {
+      "path": "tools\\persia_units\\batch_family_review.py",
+      "sha256": "04e1170dd2ffac785b88c0c404ab41166a52f075997faa4034efc6d7279f56ae"
+    },
+    {
+      "path": "tools\\persia_units\\batch_human_recipe.py",
+      "sha256": "f7856693f8e454cdfc18c1ed882a7eaf0b6611e5dcc068778d75bd59d444a56f"
+    },
+    {
+      "path": "tools\\persia_units\\batch_support_humans.py",
+      "sha256": "60f9aefe79c4abf3533e57e5dbace5ca8567d7823ae0d37e1c805571682c82e5"
+    },
+    {
+      "path": "tools\\persia_units\\combined_recipe.py",
+      "sha256": "2b4c9e5ba26ed3c253eede63328e7ebc46d6c6737ed1d3e568afc02f0ac2aca8"
+    },
+    {
+      "path": "tools\\persia_units\\contracts.py",
+      "sha256": "4c85a350787b5be10f9a1c1a70319a660b72cfd02711c34bc8b479b6958d7454"
+    },
+    {
+      "path": "tools\\persia_units\\equipment_recipe.py",
+      "sha256": "c902af2a6215a73d354fd34e8ac5d8636fe1c393339807441f24125e427c3caa"
+    },
+    {
+      "path": "tools\\persia_units\\equipment_textures.py",
+      "sha256": "c07f52fa32096a68103e4a8af1a3d06339998348e35fc833b6ee4f9e90c41509"
+    },
+    {
+      "path": "tools\\persia_units\\native_socket.py",
+      "sha256": "4e3a948437d53776c98292314b0a50b010ee43c9c4faa79a1d3ae7559d0baac0"
+    },
+    {
+      "path": "tools\\persia_units\\shared_equipment.py",
+      "sha256": "d352fec4a0f9f526b8e413e62adf6fb789f8fba8bbf237d81885e9633814277b"
+    },
+    {
+      "path": "tools\\persia_units\\surface_normals.py",
+      "sha256": "1c6371a6f3c40bfac22e430b6dc64baf513585a544f42e1fe467ceb2cf2ba090"
+    },
+    {
+      "path": "tools\\persia_units\\textures.py",
+      "sha256": "a47b76b892d54a6d31d29593e9183e741b1f37abc683bd7d37e4bf240f24dfac"
+    },
+    {
+      "path": "tools\\persia_units\\weapon_shape.py",
+      "sha256": "d45fdb02907fddc6634f7e2a165f97ad3a94b0fe728ccf2c6c54961d3309d473"
+    }
+  ],
+  "dependency_scope": "minimal referenced input closure for current candidates; extra exploratory caches retained separately because cleanup is deferred",
+  "coverage": {
+    "required_models": 6,
+    "modeled": 6,
+    "cold_verified": 6,
+    "cold_geometry_current": 6
+  },
+  "editable_source_readiness": "full draft coverage; rubric acceptance and documented source/native gates remain",
+  "verified_deformation": "sampled native preview evidence only; runtime action selection and native physics unverified",
+  "rubric": {
+    "historical_grounding_max": 20,
+    "persian_identity_max": 20,
+    "AoE4_readability_max": 20,
+    "deformation_attachments_max": 25,
+    "LOD_performance_max": 15,
+    "required_total": 90,
+    "required_category_fraction": 0.8,
+    "score": null,
+    "status": "unaccepted until completed review; no automatic score from numeric tests"
+  },
+  "deferred": [
+    "cook",
+    "integration",
+    "packaging",
+    "native-game validation",
+    "promotion",
+    "push",
+    "deletion"
+  ],
+  "cold_evidence_policy": "latest outcome per source; legacy reports retain geometry/readback evidence only; full recipe and attachment equivalence require explicit tested fingerprints and semantics"
+}

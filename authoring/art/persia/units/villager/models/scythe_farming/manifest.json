@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "villager",
+  "donor": "art/civilizations/common/weapons/tools/scythe_farming/scythe_farming.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\villager\\models\\scythe_farming\\model.blend",
+  "source_sha256": "486c4eee6903996981629543b3313bf4c9ff16a13aef6309e8744ac685698f71",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 169,
+      "triangles": 159,
+      "sha256": "6bacf255d23386e8993eb1c5b2ddbcea1809e708147f31fde5f8ae9c6ddb99fe"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 139,
+      "triangles": 126,
+      "sha256": "0444b8f4b5ec82d7e8b4c926008ebfd37e835aa9e9a0ba2595fccbeb9955fb19"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 88,
+      "triangles": 72,
+      "sha256": "3c8760211d584680dda23d9292413cdf432cbb941ae5d5fcbcab9e43138cab11"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_villager_scythe_farming_LOD0",
+      "vertices": 169,
+      "triangles": 159,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_scythe_farming_LOD1",
+      "vertices": 139,
+      "triangles": 126,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_scythe_farming_LOD2",
+      "vertices": 88,
+      "triangles": 72,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "sickle",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 27,
+      "changed_vertices": 132,
+      "source_vertices": 169,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sickle",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 22,
+      "changed_vertices": 111,
+      "source_vertices": 139,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sickle",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 24,
+      "changed_vertices": 64,
+      "source_vertices": 88,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "sickle",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 27,
+      "changed_vertices": 132,
+      "source_vertices": 169,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sickle",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 22,
+      "changed_vertices": 111,
+      "source_vertices": 139,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sickle",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 24,
+      "changed_vertices": 64,
+      "source_vertices": 88,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/tools/scythe_farming/scythe_farming.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/tools/scythe_farming/scythe_farming.rgm"
+}

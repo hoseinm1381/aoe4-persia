@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\axe_2hand\\20ab15796946a7ba9933\\decoded-static.json",
+  "donor_sha256": "31b8415bc5d7ee49a6a1327fdfcfcc5d87a81c9d31df0a0fa4568875f3b7823a",
+  "logical_path": "art/civilizations/common/weapons/tools/axe_2hand/axe_2hand.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "1559cf2ac352bf9b0f1bd49adc662e5bcb7980f48aa608aa9cb0610636879e42",
+    "normal": "9bf57168b4ee7fde232c9d6b430df672f9aa7f4b4a09a5be33e476cd8056f7e4",
+    "roughness": "8c1137cb9dedee3693c9c4a6f5cd7b3c51f4a853b85b05163c8efc72b1712766",
+    "metalness": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "villager",
+  "donor": "art/civilizations/common/weapons/tools/basket_seed/basket_seed.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\villager\\models\\basket_seed\\model.blend",
+  "source_sha256": "e0caf13e6ecb4ae58042199a6245df21b8cb5fdfcf7acec8a09c22ee472c6c42",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 72,
+      "triangles": 98,
+      "sha256": "edbc47ad2a6c7edb1e0eadb5bf7b31ff68ca468114c614bd4085444c228a1ba2"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 72,
+      "triangles": 98,
+      "sha256": "edbc47ad2a6c7edb1e0eadb5bf7b31ff68ca468114c614bd4085444c228a1ba2"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 72,
+      "triangles": 98,
+      "sha256": "edbc47ad2a6c7edb1e0eadb5bf7b31ff68ca468114c614bd4085444c228a1ba2"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_villager_basket_seed_LOD0",
+      "vertices": 72,
+      "triangles": 98,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_basket_seed_LOD1",
+      "vertices": 72,
+      "triangles": 98,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_basket_seed_LOD2",
+      "vertices": 72,
+      "triangles": 98,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 22,
+      "source_vertices": 55,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 2,
+      "source_vertices": 17,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 22,
+      "source_vertices": 55,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 2,
+      "source_vertices": 17,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 22,
+      "source_vertices": 55,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 2,
+      "source_vertices": 17,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 22,
+      "source_vertices": 55,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 2,
+      "source_vertices": 17,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 22,
+      "source_vertices": 55,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 2,
+      "source_vertices": 17,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 22,
+      "source_vertices": 55,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 2,
+      "source_vertices": 17,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/tools/basket_seed/basket_seed.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/tools/basket_seed/basket_seed.rgm"
+}

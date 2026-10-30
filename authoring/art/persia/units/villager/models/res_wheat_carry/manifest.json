@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "villager",
+  "donor": "art/civilizations/common/weapons/tools/res_wheat_carry/res_wheat_carry.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\villager\\models\\res_wheat_carry\\model.blend",
+  "source_sha256": "50c248224a1462e5bbdbf020335a6efd4fc9d15c9f915f117e9647e4fdc93b17",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 336,
+      "triangles": 168,
+      "sha256": "41d701ec3b84e337d9c8299d051f1bf1735d997cd2c138b69cd3d301cfa6fd96"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 119,
+      "triangles": 164,
+      "sha256": "ce0df7bbeee54a70134186390997440d886601015bce03011f19cd9d04b0a19e"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 336,
+      "triangles": 168,
+      "sha256": "41d701ec3b84e337d9c8299d051f1bf1735d997cd2c138b69cd3d301cfa6fd96"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_villager_res_wheat_carry_LOD0",
+      "vertices": 336,
+      "triangles": 168,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_res_wheat_carry_LOD1",
+      "vertices": 119,
+      "triangles": 164,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_res_wheat_carry_LOD2",
+      "vertices": 336,
+      "triangles": 168,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 20,
+      "changed_vertices": 304,
+      "source_vertices": 336,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 11,
+      "changed_vertices": 84,
+      "source_vertices": 119,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 20,
+      "changed_vertices": 304,
+      "source_vertices": 336,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 20,
+      "changed_vertices": 304,
+      "source_vertices": 336,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 11,
+      "changed_vertices": 84,
+      "source_vertices": 119,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 20,
+      "changed_vertices": 304,
+      "source_vertices": 336,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/tools/res_wheat_carry/res_wheat_carry.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/tools/res_wheat_carry/res_wheat_carry.rgm"
+}

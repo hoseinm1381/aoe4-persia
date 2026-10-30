@@ -1,0 +1,633 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "blacksmith",
+  "authored_frame": "Projected stamp-space exactly as original recipe ANCHORS; apply the recorded native inverse once after all source states",
+  "native_hp_thresholds": null,
+  "resource_age_is_not_gameplay_availability": true,
+  "source_art_only": true,
+  "review_status": "Unreviewed structural draft; this worker has not executed Blender or generated acceptance evidence",
+  "recipe_sha256_at_profile_draft": "142355ddcc2d1f4e88c2e4fc9b00010a70cd35158f7bd90fa97ce34ef7290f19",
+  "profile_basis": "Exact existing body keys, current recipe structural groups/roof and bearing levels; authored failure proposals do not wire native states or thresholds",
+  "lod_support_policy": "Keep roofs, load-bearing posts/beams/joists, floors, stairs, ledgers and access. Explicit omissions select complete loose props or every member of a named furniture assembly, not isolated support legs. Half/quarter targets still need actual measured authored reductions and visual review.",
+  "native_dependencies_policy": "Never Boolean-cut or decimate retained native mechanisms. Existing rig/graph/pose/socket owners and native states remain separately inspectable dependencies; absent dependency geometry is not zero compound overhead.",
+  "compound_budget_qualified": false,
+  "bodies": {
+    "A2": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -6.277656,
+          -6.2,
+          -0.06
+        ],
+        [
+          2.678437,
+          2.726094,
+          4.19
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "tool_store"
+        ],
+        "corner_plus_x_front_y": [
+          -4.455000000000001,
+          -0.17,
+          2.5100000000000002
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "tool_store": 0.98,
+          "forge": 0.96,
+          "hot_work": 0.85,
+          "fuel": 0.6
+        },
+        "debris_area_xy": [
+          [
+            -5.05,
+            -1.05
+          ],
+          [
+            -4.1,
+            -0.6
+          ]
+        ],
+        "debris_ground_z": 0.24
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "forge": 0.96,
+          "tool_store": 1.02
+        },
+        "remove_groups": [
+          "hot_work"
+        ],
+        "debris_area_xy": [
+          [
+            -4.9,
+            -3.6
+          ],
+          [
+            1.7,
+            -0.7
+          ]
+        ],
+        "debris_ground_z": 0.24,
+        "debris_count": 72,
+        "fallen_members": [
+          {
+            "a": [
+              -2.7,
+              -2.411,
+              0.32
+            ],
+            "b": [
+              -0.5,
+              -1.8889999999999998,
+              0.32
+            ],
+            "width": 0.16,
+            "source_group": "hot_work",
+            "grounding_basis": "Horizontal original member fragment; bottom rests on the named surviving source surface, not a native height claim"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              -1.4500000000000002,
+              -1.75,
+              0.31
+            ],
+            "size": [
+              1.25,
+              0.7,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "hot_work",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "EarthWorkCourt"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "IronBar",
+          "HearthCharcoal"
+        ],
+        "2": [
+          "IronBar",
+          "HearthCharcoal",
+          "FuelLog",
+          "QuenchTub",
+          "RearInspectionBench"
+        ]
+      },
+      "structural_notes": [
+        "First four notches affect the tool-store front/east roof and pier; exact store position/height comes from this age plan.",
+        "Debris and fallen framing rest on WorkPorchBeddedFloor top .24, away from the reserved native bellows box.",
+        "Heavy failure clips whole forge/flue/hood, handling posts/beams/roof and matching furniture/owner groups. It never fractures retained native bellows."
+      ],
+      "analytical_cut_check": {
+        "method": "Exact inclusion-exclusion union of the existing three rectangular cutter lobes inside an actual closed-solid witness; no Blender Boolean/visual acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            -4.76,
+            -0.1499999999999999,
+            0.22999999999999998
+          ],
+          [
+            -4.475,
+            0.0500000000000001,
+            2.33
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.0010773954000000095,
+          0.013468800000000078,
+          0.033060000000000006,
+          0.04930500000000002
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_tech_unit_infantry_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier2_tech_unit_melee_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_blacksmith_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_tech_unit_infantry_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier2_tech_unit_melee_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_blacksmith_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_tech_unit_infantry_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier2_tech_unit_melee_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_blacksmith_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_tech_unit_infantry_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier2_tech_unit_melee_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_blacksmith_age_02.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "analytical_primary_revision_check": {
+        "parts": 81,
+        "all_authored_vertices_inside_measured_primary": true,
+        "all_existing_and_new_scalar_contact_formulas_pass": true,
+        "scope": "Exact source primitive vertex formulas and declared contact bounds, without Blender normals/UV/Boolean/dependency/runtime evaluation"
+      }
+    },
+    "A3": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -6.282719,
+          -6.2,
+          -0.06
+        ],
+        [
+          2.673375,
+          3.109143,
+          4.54
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "tool_store"
+        ],
+        "corner_plus_x_front_y": [
+          -4.255,
+          -0.17,
+          3.06
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "tool_store": 0.98,
+          "forge": 0.96,
+          "hot_work": 0.85,
+          "fuel": 0.6
+        },
+        "debris_area_xy": [
+          [
+            -5.05,
+            -1.05
+          ],
+          [
+            -4.1,
+            -0.6
+          ]
+        ],
+        "debris_ground_z": 0.24
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "forge": 0.96,
+          "tool_store": 1.02
+        },
+        "remove_groups": [
+          "hot_work"
+        ],
+        "debris_area_xy": [
+          [
+            -4.9,
+            -3.6
+          ],
+          [
+            1.7,
+            -0.7
+          ]
+        ],
+        "debris_ground_z": 0.24,
+        "debris_count": 72,
+        "fallen_members": [
+          {
+            "a": [
+              -2.7,
+              -2.411,
+              0.32
+            ],
+            "b": [
+              -0.5,
+              -1.8889999999999998,
+              0.32
+            ],
+            "width": 0.16,
+            "source_group": "hot_work",
+            "grounding_basis": "Horizontal original member fragment; bottom rests on the named surviving source surface, not a native height claim"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              -1.4500000000000002,
+              -1.75,
+              0.31
+            ],
+            "size": [
+              1.25,
+              0.7,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "hot_work",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "EarthWorkCourt"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "IronBar",
+          "HearthCharcoal"
+        ],
+        "2": [
+          "IronBar",
+          "HearthCharcoal",
+          "FuelLog",
+          "QuenchTub",
+          "RearInspectionBench"
+        ]
+      },
+      "structural_notes": [
+        "First four notches affect the tool-store front/east roof and pier; exact store position/height comes from this age plan.",
+        "Debris and fallen framing rest on WorkPorchBeddedFloor top .24, away from the reserved native bellows box.",
+        "Heavy failure clips whole forge/flue/hood, handling posts/beams/roof and matching furniture/owner groups. It never fractures retained native bellows."
+      ],
+      "analytical_cut_check": {
+        "method": "Exact inclusion-exclusion union of the existing three rectangular cutter lobes inside an actual closed-solid witness; no Blender Boolean/visual acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            -4.659999999999999,
+            -0.1499999999999999,
+            0.22999999999999998
+          ],
+          [
+            -4.2749999999999995,
+            0.0500000000000001,
+            2.88
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.0010773954000000022,
+          0.013468800000000027,
+          0.04465999999999998,
+          0.06660499999999994
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_tech_unit_infantry_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier3_tech_unit_melee_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_blacksmith_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_tech_unit_infantry_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier3_tech_unit_melee_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_blacksmith_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_tech_unit_infantry_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier3_tech_unit_melee_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_blacksmith_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_tech_unit_infantry_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier3_tech_unit_melee_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_blacksmith_age_03.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "analytical_primary_revision_check": {
+        "parts": 86,
+        "all_authored_vertices_inside_measured_primary": true,
+        "all_existing_and_new_scalar_contact_formulas_pass": true,
+        "scope": "Exact source primitive vertex formulas and declared contact bounds, without Blender normals/UV/Boolean/dependency/runtime evaluation"
+      }
+    },
+    "A4": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -6.165532,
+          -6.2,
+          -0.06
+        ],
+        [
+          2.696812,
+          3.277112,
+          4.89
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "tool_store"
+        ],
+        "corner_plus_x_front_y": [
+          -4.055000000000001,
+          -0.17,
+          3.66
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "tool_store": 0.98,
+          "forge": 0.96,
+          "hot_work": 0.85,
+          "fuel": 0.6,
+          "cool_work": 0.85
+        },
+        "debris_area_xy": [
+          [
+            -5.05,
+            -1.05
+          ],
+          [
+            -4.1,
+            -0.6
+          ]
+        ],
+        "debris_ground_z": 0.24
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "forge": 0.96,
+          "tool_store": 1.02
+        },
+        "remove_groups": [
+          "hot_work",
+          "cool_work"
+        ],
+        "debris_area_xy": [
+          [
+            -4.9,
+            -3.6
+          ],
+          [
+            1.7,
+            -0.7
+          ]
+        ],
+        "debris_ground_z": 0.24,
+        "debris_count": 72,
+        "fallen_members": [
+          {
+            "a": [
+              -2.7,
+              -2.411,
+              0.32
+            ],
+            "b": [
+              -0.5,
+              -1.8889999999999998,
+              0.32
+            ],
+            "width": 0.16,
+            "source_group": "hot_work",
+            "grounding_basis": "Horizontal original member fragment; bottom rests on the named surviving source surface, not a native height claim"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              -1.4500000000000002,
+              -1.75,
+              0.31
+            ],
+            "size": [
+              1.25,
+              0.7,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "hot_work",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "EarthWorkCourt"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "IronBar",
+          "HearthCharcoal"
+        ],
+        "2": [
+          "IronBar",
+          "HearthCharcoal",
+          "FuelLog",
+          "QuenchTub",
+          "RearInspectionBench"
+        ]
+      },
+      "structural_notes": [
+        "First four notches affect the tool-store front/east roof and pier; exact store position/height comes from this age plan.",
+        "Debris and fallen framing rest on WorkPorchBeddedFloor top .24, away from the reserved native bellows box.",
+        "Heavy failure clips whole forge/flue/hood, handling posts/beams/roof and matching furniture/owner groups. It never fractures retained native bellows."
+      ],
+      "analytical_cut_check": {
+        "method": "Exact inclusion-exclusion union of the existing three rectangular cutter lobes inside an actual closed-solid witness; no Blender Boolean/visual acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            -4.56,
+            -0.1499999999999999,
+            0.22999999999999998
+          ],
+          [
+            -4.075,
+            0.0500000000000001,
+            3.48
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.0010773954000000022,
+          0.013468800000000027,
+          0.04998672000000003,
+          0.08390499999999988
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_tech_unit_infantry_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier4_tech_unit_melee_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_blacksmith_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_tech_unit_infantry_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier4_tech_unit_melee_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_blacksmith_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_tech_unit_infantry_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier4_tech_unit_melee_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_blacksmith_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_tech_unit_infantry_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/tech_unit_melee_sul/tier4_tech_unit_melee_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_blacksmith_age_04.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "analytical_primary_revision_check": {
+        "parts": 92,
+        "all_authored_vertices_inside_measured_primary": true,
+        "all_existing_and_new_scalar_contact_formulas_pass": true,
+        "scope": "Exact source primitive vertex formulas and declared contact bounds, without Blender normals/UV/Boolean/dependency/runtime evaluation"
+      }
+    }
+  },
+  "visual_envelope_evidence": "evidence/visual-envelope-contract.json",
+  "verified_envelope_overrides_enabled": false,
+  "envelope_policy": "No conditional possible/category union is enabled as a verified override; strict primary envelope remains until selective source-join and native prop state/activation proof is supplied.",
+  "source_revision": "Primary-envelope bounded original layout; analytical recipe vertex/contact checks only; Blender state/visual acceptance pending",
+  "lod_source_policy": {
+    "source": "lods.py",
+    "target_ratios": [
+      0.5,
+      0.25
+    ],
+    "tolerance_unchanged": 0.1,
+    "generated_acceptance": false,
+    "Blender_executed_by_this_author": false,
+    "method": "Constant-section surviving profile sampling; exact closed orthogonal-member boundary; actual surviving support unions; retained native inputs untouched; no healthy state reconstruction.",
+    "damage_policy": "Sharp jamb/breach/seat corners and profile extrema retained; irregular fractured surfaces use planar-only dissolve, never filled by a healthy bay.",
+    "source_recipe_sha256_after_hook": "5cf019b93178cef38ce5a0e6c7899c3e3be92cca7d760dc8c45f5c34e6793164",
+    "lods_sha256": "1a5cdc1580960300b9c9bd6fcd1c5db5a0305184153ecafb0142ffa5bd99cef8"
+  }
+}
