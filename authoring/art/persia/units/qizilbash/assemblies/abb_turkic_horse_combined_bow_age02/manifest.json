@@ -1,0 +1,244 @@
+{
+  "family": "qizilbash",
+  "body": "abb_turkic_horse_combined_bow_age02",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\qizilbash\\assemblies\\abb_turkic_horse_combined_bow_age02\\assembly.blend",
+  "sha256": "6188c097bf1e030cff2c5c5781fd83e80e42cdc0f1d7547c934672b4245c7eeb",
+  "rig_bones": 127,
+  "rig_contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+  "secondary_rigs": {
+    "bow_recurve_short": {
+      "bones": 4,
+      "rig_contract_sha256": "4b0a6b286d67e8bb121fad8531276384cfb0810c03f4bf09d3ccd3a07a7ddfb4"
+    }
+  },
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 296,
+      "triangles": 148,
+      "sha256": "be88882429b3d99e6064de7f7d1fa0885c5f2398dfd628176485dd8aa3baee5c"
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "vertices": 1860,
+      "triangles": 2146,
+      "sha256": "c65e78c5af58b985b03adb8058a48eac34dd3d7c6cb7e1e7e53de547e1439aaa"
+    },
+    {
+      "lod": 0,
+      "component": "rider",
+      "vertices": 1380,
+      "triangles": 1579,
+      "sha256": "18afabde0ac3e700109f21c2b72b5f0086a82b7d374ae2d1683f52fc3329208d"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 132,
+      "triangles": 108,
+      "sha256": "f41b9b99a50d060ad550dc6db089c41b82ac0f30cd9fdfc12f551dd62ead4d8d"
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "vertices": 798,
+      "triangles": 792,
+      "sha256": "b87552921d3b7b6ea24ce2c11082bf2b763cbdc34e8420c4696270109f94fe91"
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "vertices": 600,
+      "triangles": 622,
+      "sha256": "3ff86d347a679f57ee12b8d36c2acc009be72e5a9fcce5c888929e0659d7cf53"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 104,
+      "triangles": 80,
+      "sha256": "cc216d466450c5f11eaff03de4ee9bdd5cc103fdf8758a3c3b361ad48e0bdbe2"
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "vertices": 405,
+      "triangles": 361,
+      "sha256": "b48d8efdc3cc4042add5c30a12464046ead0e5a5b4aee1665d642dee48e1e878"
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "vertices": 345,
+      "triangles": 354,
+      "sha256": "a4de4fe809b47b5040d12ce96a6e2315ccf12c38335489dae91312b2bcb1c374"
+    }
+  ],
+  "equipment": {
+    "bow_recurve_short": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/campaign_abbasids/animals/abb_turkic_horse_combined_bow_age02/abb_turkic_horse_combined_bow_age02.rgm",
+        "donor_manifest_sha256": "57ff8ea7fd2567cc9c205312b3941a4923705f4a8dca18001568831dad10d933",
+        "bones_modified": 0
+      },
+      "transform": "identity mesh/rig local under recovered native marker frame; WORLD COPY_TRANSFORMS on original socket",
+      "triangles": [
+        148,
+        108,
+        80
+      ]
+    }
+  },
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\qizilbash\\models\\abb_turkic_horse_combined_bow_age02\\model.blend",
+      "sha256": "39cff424bcadff004d5e1c991bd3c794b382784083e3140d2302d2ed64e48916"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\qizilbash\\models\\bow_recurve_short\\model.blend",
+      "sha256": "f102849229db9a73fb182b49a8efe4c7e6307fc572fc717aa9f9959f82f61c5f"
+    }
+  ],
+  "motion_checks": [
+    {
+      "clip_pair": "aim_straight",
+      "body_clip": "rider_archer_aim\\aim_straight",
+      "bow_clip": "rider_ranged\\aim_straight",
+      "body_source_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+      "bow_source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames": [
+        1,
+        6,
+        11,
+        16,
+        21,
+        26,
+        31,
+        36,
+        41,
+        46,
+        51,
+        56,
+        61
+      ],
+      "socket_origin_max_error_m": 0.0,
+      "native_vs_custom_hand_contacts": {
+        "l": {
+          "native_max_gap_m": 6.515180575661361e-05,
+          "custom_max_gap_m": 6.515180575661361e-05,
+          "maximum_added_gap_m": 0.0
+        },
+        "r": {
+          "native_max_gap_m": 0.0021575731225311756,
+          "custom_max_gap_m": 0.0034534302540123463,
+          "maximum_added_gap_m": 0.0029311509133549407
+        }
+      },
+      "runtime_synchronization": "not established; equal-duration named native clips sampled offline"
+    },
+    {
+      "clip_pair": "shoot_straight",
+      "body_clip": "rider_archer_shoot\\shoot_straight",
+      "bow_clip": "rider_ranged\\shoot_straight",
+      "body_source_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+      "bow_source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13,
+        16,
+        19,
+        21,
+        23,
+        26,
+        29,
+        31
+      ],
+      "socket_origin_max_error_m": 0.0,
+      "native_vs_custom_hand_contacts": {
+        "l": {
+          "native_max_gap_m": 6.485182530013844e-05,
+          "custom_max_gap_m": 6.485182530013844e-05,
+          "maximum_added_gap_m": 0.0
+        },
+        "r": {
+          "native_max_gap_m": 0.5845475792884827,
+          "custom_max_gap_m": 0.5683345794677734,
+          "maximum_added_gap_m": 0.0028344544116407633
+        }
+      },
+      "runtime_synchronization": "not established; equal-duration named native clips sampled offline"
+    }
+  ],
+  "outstanding_motion_gates": [
+    "native runtime action-selection mapping",
+    "moving-fire animation blend",
+    "reload/navigation bow-state mapping",
+    "native secondary dynamics for reins/stirrups/tail"
+  ],
+  "source_status": "editable equipped candidate; review and cold rebuild pending",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified"
+}

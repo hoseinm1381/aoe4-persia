@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "horseman",
+  "donor": "art/civilizations/common/weapons/defense/shield_buckler/shield_buckler.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\horseman\\models\\shield_buckler\\model.blend",
+  "source_sha256": "243ccff50dd753b09cc336f9a05aa196d39ccdcf0ad45460cab9ce2b97bb5177",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 91,
+      "triangles": 128,
+      "sha256": "5e4097c058ca0624fb0db83c4864f7135b9a147a722388f525724690ad8d14c7"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 88,
+      "sha256": "95fa6468b4b67bd72e9031ea189117e64721e4d901fe14248018e7d6c94291f5"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 41,
+      "triangles": 54,
+      "sha256": "d697c09d16c6d948f866d7aaa5246926843bb39d5ed1150ae469f1028241d648"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_horseman_shield_buckler_LOD0",
+      "vertices": 91,
+      "triangles": 128,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_horseman_shield_buckler_LOD1",
+      "vertices": 69,
+      "triangles": 88,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_horseman_shield_buckler_LOD2",
+      "vertices": 41,
+      "triangles": 54,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "shield",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 31,
+      "changed_vertices": 36,
+      "source_vertices": 91,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 25,
+      "changed_vertices": 29,
+      "source_vertices": 69,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 11,
+      "changed_vertices": 28,
+      "source_vertices": 41,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "shield",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 31,
+      "changed_vertices": 36,
+      "source_vertices": 91,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 25,
+      "changed_vertices": 29,
+      "source_vertices": 69,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "shield",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 11,
+      "changed_vertices": 28,
+      "source_vertices": 41,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/defense/shield_buckler/shield_buckler.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/defense/shield_buckler/shield_buckler.rgm"
+}

@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\shield_round_metal_wicker_sml\\730e36a825755db858b5\\decoded-static.json",
+  "donor_sha256": "d41407be1406bc74e435994112d28620136410fc12f45624cbcf400ee11688b0",
+  "logical_path": "art/civilizations/common/weapons/defense/shield_round_metal_wicker_sml/shield_round_metal_wicker_sml.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "37d4859ec6bd2feaf703b6d27adbe2f29d7feed6c7ee3977ddce38dfe6648e5e",
+    "normal": "1d62882eac9e6003f46011c3108d44d12164c2b38ee2c1a7916604593e126dd9",
+    "roughness": "7efb62436a3b7b3a3eccfc2b67e982274d8f64f7cc5487544fa745e12bdfd6e6",
+    "metalness": "b196e79f5e178c7aded513ceb14b8721717f6454206c39d0f1cc90a7aae38da9",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

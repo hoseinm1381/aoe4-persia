@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\spear_cavalry_charge\\de52d1c7e3004e70e921\\decoded-static.json",
+  "donor_sha256": "daff45de29d015f9fb871385d050923cd703355c2f1e8f4dde39d4abe8834d8d",
+  "logical_path": "art/civilizations/common/weapons/melee/spear_cavalry_charge/spear_cavalry_charge.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "ec881637abdd29995ab79af26b64055f756584680e6a0a83674cee263a403f82",
+    "normal": "5de3d328118d0f4bd8b648a6772324727e8fb7b0dff3c324837aa3a10a533aa7",
+    "roughness": "20ec45b10134763e1a64a7fda0844d332ec3a93dd554d9ba337f5d05c859e58a",
+    "metalness": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}
