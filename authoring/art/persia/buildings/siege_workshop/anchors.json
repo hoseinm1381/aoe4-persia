@@ -1,0 +1,634 @@
+{
+  "A3": {
+    "ground_top": 0.16,
+    "native_body_key": "A3",
+    "native_model": "art/civilizations/sultanate/structures/siege_workshop/sul_siege_workshop_control_age03/sul_siege_workshop_control_age03.rgm",
+    "native_model_sha256": "f360aeffb19a05c8af1b513d6af2002e5a45d9788a0511e524b4469377184150",
+    "existing_visual_age": 3,
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_siege_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier3_unit_siege_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_siege_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier3_unit_siege_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_siege_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier3_unit_siege_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_siege_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier3_unit_siege_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_03.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -5.0148437738,
+        -5.2085937381,
+        -0.06
+      ],
+      [
+        3.8968749762000003,
+        2.5429687619,
+        4.85
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -5.0648437738,
+        -5.2585937381,
+        -1.19921875
+      ],
+      [
+        3.9468749762,
+        2.5929687619,
+        5.09765625
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -6.8502757862,
+        -7.0539476206,
+        -1.19921875
+      ],
+      [
+        5.1936451844,
+        5.3194412165,
+        5.09765625
+      ]
+    ],
+    "authored_space": "projected stamp-space; source bed and all authored geometry bounded by verified primary body",
+    "projected_resource_to_stamp_matrix": [
+      [
+        -2.220446049250313e-16,
+        -1.0000000000000002,
+        0.0,
+        -0.6000000238
+      ],
+      [
+        1.0000000000000002,
+        -2.220446049250313e-16,
+        0.0,
+        -0.9499999881
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.9499999881
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.6000000238
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vehicle_route_proposal": {
+      "x_interval": [
+        -4.15,
+        -1.15
+      ],
+      "y_interval": [
+        -6.25,
+        0.85
+      ],
+      "status": "Source negative space only; native moving-unit/marker clearance unqualified"
+    },
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_siegeworkshop/layout_siegeworkshop.rgm",
+      "layout_skeleton_present": true,
+      "layout_marker_count": 9,
+      "banner": "art/civilizations/common/banners/banner_siege/banner_siege.rgm",
+      "other_owners": [
+        "wood_pieces",
+        "wall_stone_high_post",
+        "wall_stone_high_segment",
+        "wall_stone_high_segment_half"
+      ],
+      "marker_frame": "Bone-local until native skeleton/pose evaluation; not world-space sockets.",
+      "motion_policy": "No new rig/clip. Static original lifting tackle is source art, not a replacement for an inventoried moving native mechanism.",
+      "clearance_status": "Unqualified: conditional compound rest envelope is not native footprint, siege-unit exit or moving swept-volume proof."
+    },
+    "native_states": {
+      "life_cycle_values": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95",
+        "healthy",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_4",
+        "damage_5",
+        "ruins",
+        "preview",
+        "targeting"
+      ],
+      "conditional_properties": [
+        "has_collapsed_damage1",
+        "has_collapsed_damage2",
+        "has_collapsed_damage3",
+        "has_collapsed_damage4",
+        "has_collapsed_damage5",
+        "has_collapsed_ruins",
+        "life_cycle_state_previous",
+        "burn_state",
+        "jin_debuff",
+        "debug_static_rig_name"
+      ],
+      "native_primary_skeleton_present": false,
+      "actions": "Original RGO physics collapse, repair and static-rig actions remain owners; not newly authored clips.",
+      "reference": "research/persia_buildings/inventory/FAMILY_NATIVE_STATE_CONTRACTS.json",
+      "status": "Inventory only; component visibility/physics, repair transitions and additional contexts require parent mapping. No HP thresholds or playback claim."
+    },
+    "native_clearance_status": "Unqualified: conditional compound rest envelope is not native footprint, siege-unit exit or moving swept-volume proof.",
+    "visual_inspection": "Not performed; parent serial build required",
+    "source_boundary_revision": {
+      "scope": "Original visual bed and isolated loose-part/stock-shade revisions; native footprint, transforms and reserved assembly lane unchanged",
+      "original_earth_bounds": [
+        [
+          -5.8,
+          -6.5
+        ],
+        [
+          4.8,
+          4.8
+        ]
+      ],
+      "revised_earth_bounds": [
+        [
+          -5.0148437738,
+          -5.2085937381
+        ],
+        [
+          3.8968749762000003,
+          2.5429687619
+        ]
+      ],
+      "loose_wheel_original_center": [
+        -5.2,
+        -3.5,
+        0.66
+      ],
+      "loose_wheel_revised_center": [
+        2.75,
+        -2.9,
+        0.66
+      ],
+      "wheel_source_route_clearance_x": 3.4,
+      "route_clearance_limit": "Axis-aligned original source-art gap only; not a posed moving-unit/native clearance qualification",
+      "qualification": "Verified primary-body envelope; no prop healthy selector inference or footprint change"
+    },
+    "assembly_openings": {
+      "main_assembly": {
+        "center": [
+          -2.65,
+          -1.9500000000000002,
+          0.28
+        ],
+        "clear_width": 3.4,
+        "clear_height": 2.98
+      },
+      "parts_bay": {
+        "center": [
+          1.4,
+          -1.25,
+          0.28
+        ],
+        "clear_width": 2.35,
+        "clear_height": 2.1300000000000003
+      }
+    },
+    "loose_wheel_source_relocation": {
+      "center": [
+        2.75,
+        -2.9,
+        0.66
+      ],
+      "basis": "Whole wheel/hub/spokes/chocks moved to east forecourt inside verified primary, clear of central assembly mouth and yard-plank ends",
+      "native_route_clearance": "Not asserted; native actor/pose/route gates remain deferred"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp-space; source bed and all authored geometry bounded by verified primary body",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -2.220446049250313e-16,
+          1.0,
+          0.0,
+          0.949999988079071
+        ],
+        [
+          -1.0,
+          -2.220446049250313e-16,
+          -0.0,
+          -0.6000000238418579
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A4": {
+    "ground_top": 0.16,
+    "native_body_key": "A4",
+    "native_model": "art/civilizations/sultanate/structures/siege_workshop/sul_siege_workshop_control_age04/sul_siege_workshop_control_age04.rgm",
+    "native_model_sha256": "39d119ff8657f79350e2dae37d402dfb2b542692a6bf8779bfb9cf201ef4776e",
+    "existing_visual_age": 4,
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_siege_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier4_unit_siege_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_siege_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier4_unit_siege_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_siege_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier4_unit_siege_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_siege_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier4_unit_siege_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_04.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -5.0890625238,
+        -5.2867187381,
+        -0.06
+      ],
+      [
+        3.8968749762000003,
+        2.5937500119,
+        5.55
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -5.1390625238,
+        -5.3367187381,
+        -1.19921875
+      ],
+      [
+        3.9468749762,
+        2.6437500119,
+        5.84765625
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -6.8502757862,
+        -7.0539476206,
+        -1.19921875
+      ],
+      [
+        5.1936451844,
+        5.3194412165,
+        5.84765625
+      ]
+    ],
+    "authored_space": "projected stamp-space; source bed and all authored geometry bounded by verified primary body",
+    "projected_resource_to_stamp_matrix": [
+      [
+        -2.220446049250313e-16,
+        -1.0000000000000002,
+        0.0,
+        -0.6000000238
+      ],
+      [
+        1.0000000000000002,
+        -2.220446049250313e-16,
+        0.0,
+        -0.9499999881
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.9499999881
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.6000000238
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "vehicle_route_proposal": {
+      "x_interval": [
+        -2.4,
+        0.8
+      ],
+      "y_interval": [
+        -6.25,
+        0.85
+      ],
+      "status": "Source negative space only; native moving-unit/marker clearance unqualified"
+    },
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_siegeworkshop/layout_siegeworkshop.rgm",
+      "layout_skeleton_present": true,
+      "layout_marker_count": 9,
+      "banner": "art/civilizations/common/banners/banner_siege/banner_siege.rgm",
+      "other_owners": [
+        "wood_pieces",
+        "wall_stone_high_post",
+        "wall_stone_high_segment",
+        "wall_stone_high_segment_half"
+      ],
+      "marker_frame": "Bone-local until native skeleton/pose evaluation; not world-space sockets.",
+      "motion_policy": "No new rig/clip. Static original lifting tackle is source art, not a replacement for an inventoried moving native mechanism.",
+      "clearance_status": "Unqualified: conditional compound rest envelope is not native footprint, siege-unit exit or moving swept-volume proof."
+    },
+    "native_states": {
+      "life_cycle_values": [
+        "construct_00",
+        "construct_05",
+        "construct_10",
+        "construct_15",
+        "construct_20",
+        "construct_25",
+        "construct_30",
+        "construct_35",
+        "construct_40",
+        "construct_45",
+        "construct_50",
+        "construct_55",
+        "construct_60",
+        "construct_65",
+        "construct_70",
+        "construct_75",
+        "construct_80",
+        "construct_85",
+        "construct_90",
+        "construct_95",
+        "healthy",
+        "damage_1",
+        "damage_2",
+        "damage_3",
+        "damage_4",
+        "damage_5",
+        "ruins",
+        "preview",
+        "targeting"
+      ],
+      "conditional_properties": [
+        "has_collapsed_damage1",
+        "has_collapsed_damage2",
+        "has_collapsed_damage3",
+        "has_collapsed_damage4",
+        "has_collapsed_damage5",
+        "has_collapsed_ruins",
+        "life_cycle_state_previous",
+        "burn_state",
+        "jin_debuff",
+        "debug_static_rig_name"
+      ],
+      "native_primary_skeleton_present": false,
+      "actions": "Original RGO physics collapse, repair and static-rig actions remain owners; not newly authored clips.",
+      "reference": "research/persia_buildings/inventory/FAMILY_NATIVE_STATE_CONTRACTS.json",
+      "status": "Inventory only; component visibility/physics, repair transitions and additional contexts require parent mapping. No HP thresholds or playback claim."
+    },
+    "native_clearance_status": "Unqualified: conditional compound rest envelope is not native footprint, siege-unit exit or moving swept-volume proof.",
+    "visual_inspection": "Not performed; parent serial build required",
+    "source_boundary_revision": {
+      "scope": "Original visual bed and isolated loose-part/stock-shade revisions; native footprint, transforms and reserved assembly lane unchanged",
+      "original_earth_bounds": [
+        [
+          -5.8,
+          -6.5
+        ],
+        [
+          4.8,
+          4.8
+        ]
+      ],
+      "revised_earth_bounds": [
+        [
+          -5.0890625238,
+          -5.2867187381
+        ],
+        [
+          3.8968749762000003,
+          2.5937500119
+        ]
+      ],
+      "loose_wheel_original_center": [
+        -5.2,
+        -3.5,
+        0.66
+      ],
+      "loose_wheel_revised_center": [
+        2.75,
+        -2.9,
+        0.66
+      ],
+      "wheel_source_route_clearance_x": 1.45,
+      "route_clearance_limit": "Axis-aligned original source-art gap only; not a posed moving-unit/native clearance qualification",
+      "qualification": "Verified primary-body envelope; no prop healthy selector inference or footprint change",
+      "long_stock": {
+        "original_roof_x_interval": [
+          3.425,
+          4.635
+        ],
+        "revised_roof_x_interval": [
+          3.425,
+          3.8968749762000003
+        ],
+        "west_post_center_x_unchanged": 3.535,
+        "east_trim_metres": 0.7381250237999994,
+        "stock_centers_unchanged": false,
+        "stock_column_centers": [
+          3.55,
+          3.75
+        ],
+        "qualification": "Primary-body bounded authored stock recess; no conditional prop union",
+        "support_contracts": "Rebuilt from actual revised post/roof meshes by existing contact() calls"
+      }
+    },
+    "assembly_openings": {
+      "main_assembly": {
+        "center": [
+          -0.8,
+          -1.9500000000000002,
+          0.28
+        ],
+        "clear_width": 3.5,
+        "clear_height": 3.58
+      }
+    },
+    "loose_wheel_source_relocation": {
+      "center": [
+        2.75,
+        -2.9,
+        0.66
+      ],
+      "basis": "Whole wheel/hub/spokes/chocks moved to east forecourt inside verified primary, clear of central assembly mouth and yard-plank ends",
+      "native_route_clearance": "Not asserted; native actor/pose/route gates remain deferred"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp-space; source bed and all authored geometry bounded by verified primary body",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -2.220446049250313e-16,
+          1.0,
+          0.0,
+          0.949999988079071
+        ],
+        [
+          -1.0,
+          -2.220446049250313e-16,
+          -0.0,
+          -0.6000000238418579
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}

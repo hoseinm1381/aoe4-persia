@@ -1,0 +1,83 @@
+{
+  "schema": "persia-original-atlas/2",
+  "family": "shah_masjid",
+  "seed": 270219,
+  "override_id": "shah-original-framed-glaze-v2",
+  "size": [
+    2048,
+    2048
+  ],
+  "source_files": {
+    "_shared/atlas_source.py": "f575b88e729252c4c1fea0496e6f89d64af1fabca84f32658cc32307d315f445",
+    "_shared/make_original_atlas.py": "0ea7d63c3030530407b8dfe74ff451c96401aa5173d6828472efeef2d923e36d",
+    "shah_masjid/make_textures.py": "c168ede2a0e5a97824747c2277f095d1ae89eb6e28ccec27282d87fc3a3e7356",
+    "shah_masjid/recipe.py": "efd4c2591bad4e51490b39d63f90293195a6e26703f971f5f9e4bbd8b4937490"
+  },
+  "base_image_sha256": {
+    "albedo.png": "c5b78b3872270969b18bc0c441b8676be18bfb5c1bdf6f40666a1b04bc7c69de",
+    "normal.png": "7f4fb9c72434f0d26376267cca1ebf9a3775998d9acdda6546622d92fdb3018a",
+    "roughness.png": "d5a8c750171a1ce4c030748a0e48df18d6bf2aca697ec8b4bff0a5d948b21f2e",
+    "metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+    "owner_mask.png": "1ce4c23b5f2a66f18d648dda6bc8c1ebb22a406c55c65ae2d00ad9c7e0c21774"
+  },
+  "previous_image_sha256": {
+    "albedo.png": "bcaeb39645301444f39be1378f807f05c7d1afb431120c8caea9743ea52fa1cf",
+    "normal.png": "d1ca3593b24e055f4c42e8f203bc9bc0177dcd0561ead9370ba19d8901f8041e",
+    "roughness.png": "02816982189d7f3d3f23ff8c39d9cc97f6045897a4462fb7d33e5d858443ae9a",
+    "metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+    "owner_mask.png": "1ce4c23b5f2a66f18d648dda6bc8c1ebb22a406c55c65ae2d00ad9c7e0c21774"
+  },
+  "image_sha256": {
+    "albedo.png": "fbe01c9f1eebb919deff5648351707e8734fb69668e0c441e2ded22cbf576d00",
+    "normal.png": "206cd641a6dcdbca1445ae425f20234d9788004a64876e066554f105d3cdc123",
+    "roughness.png": "5169715f2cde18788002fd02c1a0c61e8042d53b5f23932fbf4b3d3d30072e33",
+    "metalness.png": "bce134076e50c426dde197c9aa3f8e31e544a37bddd810750e2a28fc710b0804",
+    "owner_mask.png": "1ce4c23b5f2a66f18d648dda6bc8c1ebb22a406c55c65ae2d00ad9c7e0c21774"
+  },
+  "original_painted_pixels": true,
+  "stock_or_photographic_pixels_used": false,
+  "tile_overrides": {
+    "roof": "restrained turquoise fine connected interlacing; no filled pale stars",
+    "carving": "separate cobalt interlaced field, narrow framed border and lighter banded shaft regions"
+  },
+  "carving_regions_in_padded_tile_uv": {
+    "field": [
+      0.0,
+      0.0,
+      0.6,
+      1.0
+    ],
+    "border": [
+      0.65,
+      0.0,
+      0.78,
+      1.0
+    ],
+    "shaft": [
+      0.84,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "drum": [
+      0.0,
+      0.0,
+      0.6,
+      0.16
+    ]
+  },
+  "material_contract": {
+    "glaze_metalness": 0,
+    "glaze_owner_mask_rgb": [
+      0,
+      0,
+      0
+    ],
+    "roughness": "glaze approximately .38-.40, fine geometric straps approximately .43-.45",
+    "normal": "shallow original tangent-space grout; not photographic surface relief"
+  },
+  "owner_colour": "Neutral source textile plus R-only owner mask on owner tile only; fixed blue glaze is not owner colour.",
+  "chronology": "Completed seventeenth-century Royal Mosque influence; original geometry, no copied tile panel or invented calligraphy.",
+  "manual_edit_policy": "All five current PNG hashes must match this receipt before another apply. No force option.",
+  "native_shader": "unverified; source-only"
+}

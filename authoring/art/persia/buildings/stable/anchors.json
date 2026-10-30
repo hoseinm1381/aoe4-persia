@@ -1,0 +1,863 @@
+{
+  "A2": {
+    "ground_top": 0.16,
+    "native_body_key": "A2",
+    "native_model": "art/civilizations/sultanate/structures/stable/sul_stable_control_age02/sul_stable_control_age02.rgm",
+    "existing_visual_age": 2,
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_cavalry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier2_unit_cavalry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_stable_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_cavalry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier2_unit_cavalry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_stable_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_cavalry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier2_unit_cavalry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_stable_age_02.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_cavalry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier2_unit_cavalry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_stable_age_02.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -5.4905860329000005,
+        -5.2442968988,
+        -0.06
+      ],
+      [
+        -2.3055079078999996,
+        1.8392187262,
+        4.7
+      ]
+    ],
+    "native_primary_resource_bounds": [
+      [
+        -3.44921875,
+        -1.6005859375,
+        -1.19921875
+      ],
+      [
+        3.654296875,
+        1.6044921875,
+        5.09765625
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -5.5005860329,
+        -5.2542968988,
+        -1.19921875
+      ],
+      [
+        -2.2955079079,
+        1.8492187262,
+        5.09765625
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -7.198903675,
+        -6.9868024581,
+        -2.509765625
+      ],
+      [
+        5.6818187784,
+        5.7236703596,
+        5.09765625
+      ]
+    ],
+    "authored_space": "projected stamp-space; compact stable bounded by measured primary body, no conditional prop union",
+    "projected_resource_to_stamp_matrix": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        -3.9000000954
+      ],
+      [
+        -1.0,
+        -2.220446049250313e-16,
+        0.0,
+        -1.6000000238
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -1.6000000238
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        3.9000000954
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "entry": [
+      1.65,
+      -6.1,
+      0.16
+    ],
+    "animal_court": [
+      -3.65,
+      -4.1,
+      0.26
+    ],
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_stable/layout_stable.rgm",
+      "existing_props": [
+        "stable_horserun",
+        "hayshack_a",
+        "stable_saddle",
+        "rope_coil",
+        "sack_single",
+        "rectangular_woodwater_trough",
+        "water_bucket"
+      ],
+      "banner": "art/civilizations/common/banners/banner_stables/banner_stables.rgm",
+      "policy": "Retain original native layout, graph/rig owners, markers and legal attachments. No animal mesh or new animation is authored.",
+      "marker_frame": "Layout markers are native bone-local until skeleton/pose evaluation; no recorded marker is asserted to be a world-space socket.",
+      "clearance_status": "Unqualified: conditional compound proposal is not native footprint, horse exit, posed animal size or moving swept volume."
+    },
+    "native_clearance_status": "Unqualified: conditional compound proposal is not native footprint, horse exit, posed animal size or moving swept volume.",
+    "visual_inspection": "Not performed; serial parent build and inspection required",
+    "source_boundary_revision": {
+      "scope": "Compact authored stable redesign within verified primary; native footprint/stamps/markers remain unchanged",
+      "original_earth_bounds": [
+        [
+          -6.6,
+          -6.3
+        ],
+        [
+          4.6,
+          5.0
+        ]
+      ],
+      "revised_earth_bounds": [
+        [
+          -5.4905860329000005,
+          -5.2442968988
+        ],
+        [
+          -2.3055079078999996,
+          1.8392187262
+        ]
+      ],
+      "original_entry_anchor_retained": [
+        1.65,
+        -6.1,
+        0.16
+      ],
+      "visual_entry_edge": [
+        -3.9,
+        -5.14,
+        0.26
+      ],
+      "handling_bay": "South bay is an open handling court under the range roof; the two north bays remain stalls",
+      "handling_clear_rectangle": [
+        [
+          -4.84,
+          -4.85
+        ],
+        [
+          -2.51,
+          -3.3
+        ]
+      ],
+      "source_headroom": "Every animal opening has 1.97m spring + .43m rise; actual native horse pose/turning/route qualification remains deferred",
+      "service_functions": "Supported tack preparation, feed bins and water trough inside handling bay; no excluded north rooms/east sheds",
+      "qualification": "Verified primary-body bounded source architecture; no prop healthy activation inference"
+    },
+    "proposed_animal_openings": [
+      {
+        "center": [
+          -2.45,
+          -3.925,
+          0.26
+        ],
+        "clear_width": 1.84,
+        "arch_spring_height": 1.97,
+        "arch_rise": 0.43
+      },
+      {
+        "center": [
+          -2.45,
+          -1.6749999999999998,
+          0.26
+        ],
+        "clear_width": 1.84,
+        "arch_spring_height": 1.97,
+        "arch_rise": 0.43
+      },
+      {
+        "center": [
+          -2.45,
+          0.5750000000000002,
+          0.26
+        ],
+        "clear_width": 1.84,
+        "arch_spring_height": 1.97,
+        "arch_rise": 0.43
+      }
+    ],
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp-space; compact stable bounded by measured primary body, no conditional prop union",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -2.220446049250313e-16,
+          -1.0,
+          0.0,
+          -1.600000023841858
+        ],
+        [
+          1.0,
+          0.0,
+          -0.0,
+          3.9000000953674316
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A3": {
+    "ground_top": 0.16,
+    "native_body_key": "A3",
+    "native_model": "art/civilizations/sultanate/structures/stable/sul_stable_control_age03/sul_stable_control_age03.rgm",
+    "existing_visual_age": 3,
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_cavalry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier3_unit_cavalry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_stable_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_cavalry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier3_unit_cavalry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_stable_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_cavalry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier3_unit_cavalry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_stable_age_03.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_cavalry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier3_unit_cavalry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_stable_age_03.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -5.4905860329000005,
+        -5.2442968988,
+        -0.06
+      ],
+      [
+        -2.3055079078999996,
+        1.8392187262,
+        4.7
+      ]
+    ],
+    "native_primary_resource_bounds": [
+      [
+        -3.44921875,
+        -1.6005859375,
+        -1.19921875
+      ],
+      [
+        3.654296875,
+        1.6044921875,
+        5.09765625
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -5.5005860329,
+        -5.2542968988,
+        -1.19921875
+      ],
+      [
+        -2.2955079079,
+        1.8492187262,
+        5.09765625
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -7.198903675,
+        -6.9868024581,
+        -2.509765625
+      ],
+      [
+        5.2985798877,
+        5.5381137889,
+        5.09765625
+      ]
+    ],
+    "authored_space": "projected stamp-space; compact stable bounded by measured primary body, no conditional prop union",
+    "projected_resource_to_stamp_matrix": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        -3.9000000954
+      ],
+      [
+        -1.0,
+        -2.220446049250313e-16,
+        0.0,
+        -1.6000000238
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -1.6000000238
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        3.9000000954
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "entry": [
+      1.65,
+      -6.1,
+      0.16
+    ],
+    "animal_court": [
+      -3.65,
+      -4.1,
+      0.26
+    ],
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_stable/layout_stable.rgm",
+      "existing_props": [
+        "stable_horserun",
+        "hayshack_a",
+        "stable_saddle",
+        "rope_coil",
+        "sack_single",
+        "rectangular_woodwater_trough",
+        "water_bucket"
+      ],
+      "banner": "art/civilizations/common/banners/banner_stables/banner_stables.rgm",
+      "policy": "Retain original native layout, graph/rig owners, markers and legal attachments. No animal mesh or new animation is authored.",
+      "marker_frame": "Layout markers are native bone-local until skeleton/pose evaluation; no recorded marker is asserted to be a world-space socket.",
+      "clearance_status": "Unqualified: conditional compound proposal is not native footprint, horse exit, posed animal size or moving swept volume."
+    },
+    "native_clearance_status": "Unqualified: conditional compound proposal is not native footprint, horse exit, posed animal size or moving swept volume.",
+    "visual_inspection": "Not performed; serial parent build and inspection required",
+    "source_boundary_revision": {
+      "scope": "Compact authored stable redesign within verified primary; native footprint/stamps/markers remain unchanged",
+      "original_earth_bounds": [
+        [
+          -6.6,
+          -6.3
+        ],
+        [
+          4.6,
+          5.0
+        ]
+      ],
+      "revised_earth_bounds": [
+        [
+          -5.4905860329000005,
+          -5.2442968988
+        ],
+        [
+          -2.3055079078999996,
+          1.8392187262
+        ]
+      ],
+      "original_entry_anchor_retained": [
+        1.65,
+        -6.1,
+        0.16
+      ],
+      "visual_entry_edge": [
+        -3.9,
+        -5.14,
+        0.26
+      ],
+      "handling_bay": "South bay is an open handling court under the range roof; the two north bays remain stalls",
+      "handling_clear_rectangle": [
+        [
+          -4.84,
+          -4.85
+        ],
+        [
+          -2.51,
+          -3.3
+        ]
+      ],
+      "source_headroom": "Every animal opening has 1.97m spring + .43m rise; actual native horse pose/turning/route qualification remains deferred",
+      "service_functions": "Supported tack preparation, feed bins and water trough inside handling bay; no excluded north rooms/east sheds",
+      "qualification": "Verified primary-body bounded source architecture; no prop healthy activation inference"
+    },
+    "proposed_animal_openings": [
+      {
+        "center": [
+          -2.45,
+          -3.925,
+          0.26
+        ],
+        "clear_width": 1.84,
+        "arch_spring_height": 1.97,
+        "arch_rise": 0.43
+      },
+      {
+        "center": [
+          -2.45,
+          -1.6749999999999998,
+          0.26
+        ],
+        "clear_width": 1.84,
+        "arch_spring_height": 1.97,
+        "arch_rise": 0.43
+      },
+      {
+        "center": [
+          -2.45,
+          0.5750000000000002,
+          0.26
+        ],
+        "clear_width": 1.84,
+        "arch_spring_height": 1.97,
+        "arch_rise": 0.43
+      }
+    ],
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp-space; compact stable bounded by measured primary body, no conditional prop union",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -2.220446049250313e-16,
+          -1.0,
+          0.0,
+          -1.600000023841858
+        ],
+        [
+          1.0,
+          0.0,
+          -0.0,
+          3.9000000953674316
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A4": {
+    "ground_top": 0.16,
+    "native_body_key": "A4",
+    "native_model": "art/civilizations/sultanate/structures/stable/sul_stable_control_age04/sul_stable_control_age04.rgm",
+    "existing_visual_age": 4,
+    "source_uses": [
+      {
+        "actor": "ps_building_unit_cavalry_control_sul",
+        "variant": "campaign",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier4_unit_cavalry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_stable_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_cavalry_control_sul",
+        "variant": "default",
+        "variant_evidence_class": "existing_private_compiled_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier4_unit_cavalry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_stable_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_cavalry_control_sul",
+        "variant": "cordoba",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier4_unit_cavalry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_stable_age_04.bin",
+        "stamp_instance_index": 0
+      },
+      {
+        "actor": "ps_building_unit_cavalry_control_sul",
+        "variant": "xp3",
+        "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+        "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier4_unit_cavalry_control_sul",
+        "attachment_category": "default",
+        "inventory_category": "default",
+        "stamp": "art/stamps/civ_sul/sul_stable_age_04.bin",
+        "stamp_instance_index": 0
+      }
+    ],
+    "authoring_bounds_proposal": [
+      [
+        -5.4739844704000005,
+        -5.1993750238,
+        -0.06
+      ],
+      [
+        -2.3055079078999996,
+        1.9954687262000002,
+        4.7
+      ]
+    ],
+    "native_primary_resource_bounds": [
+      [
+        -3.60546875,
+        -1.583984375,
+        -1.19921875
+      ],
+      [
+        3.609375,
+        1.6044921875,
+        5.171875
+      ]
+    ],
+    "native_primary_stamp_bounds": [
+      [
+        -5.4839844704,
+        -5.2093750238,
+        -1.19921875
+      ],
+      [
+        -2.2955079079,
+        2.0054687262,
+        5.171875
+      ]
+    ],
+    "conditional_compound_bounds": [
+      [
+        -7.198903675,
+        -6.9868024581,
+        -2.509765625
+      ],
+      [
+        5.2985798877,
+        5.5381137889,
+        5.171875
+      ]
+    ],
+    "authored_space": "projected stamp-space; compact stable bounded by measured primary body, no conditional prop union",
+    "projected_resource_to_stamp_matrix": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        -3.9000000954
+      ],
+      [
+        -1.0,
+        -2.220446049250313e-16,
+        0.0,
+        -1.6000000238
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stamp_to_projected_resource_matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -1.6000000238
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        3.9000000954
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "entry": [
+      1.65,
+      -6.1,
+      0.16
+    ],
+    "animal_court": [
+      -3.65,
+      -4.1,
+      0.26
+    ],
+    "dependencies": {
+      "layout": "art/civilizations/common/layouts/archetypes/layout_stable/layout_stable.rgm",
+      "existing_props": [
+        "stable_horserun",
+        "hayshack_a",
+        "stable_saddle",
+        "rope_coil",
+        "sack_single",
+        "rectangular_woodwater_trough",
+        "water_bucket"
+      ],
+      "banner": "art/civilizations/common/banners/banner_stables/banner_stables.rgm",
+      "policy": "Retain original native layout, graph/rig owners, markers and legal attachments. No animal mesh or new animation is authored.",
+      "marker_frame": "Layout markers are native bone-local until skeleton/pose evaluation; no recorded marker is asserted to be a world-space socket.",
+      "clearance_status": "Unqualified: conditional compound proposal is not native footprint, horse exit, posed animal size or moving swept volume."
+    },
+    "native_clearance_status": "Unqualified: conditional compound proposal is not native footprint, horse exit, posed animal size or moving swept volume.",
+    "visual_inspection": "Not performed; serial parent build and inspection required",
+    "source_boundary_revision": {
+      "scope": "Compact authored stable redesign within verified primary; native footprint/stamps/markers remain unchanged",
+      "original_earth_bounds": [
+        [
+          -6.6,
+          -6.3
+        ],
+        [
+          4.6,
+          5.0
+        ]
+      ],
+      "revised_earth_bounds": [
+        [
+          -5.4739844704000005,
+          -5.1993750238
+        ],
+        [
+          -2.3055079078999996,
+          1.9954687262000002
+        ]
+      ],
+      "original_entry_anchor_retained": [
+        1.65,
+        -6.1,
+        0.16
+      ],
+      "visual_entry_edge": [
+        -3.9,
+        -5.14,
+        0.26
+      ],
+      "handling_bay": "South bay is an open handling court under the range roof; the two north bays remain stalls",
+      "handling_clear_rectangle": [
+        [
+          -4.84,
+          -4.85
+        ],
+        [
+          -2.51,
+          -3.3
+        ]
+      ],
+      "source_headroom": "Every animal opening has 1.97m spring + .43m rise; actual native horse pose/turning/route qualification remains deferred",
+      "service_functions": "Supported tack preparation, feed bins and water trough inside handling bay; no excluded north rooms/east sheds",
+      "qualification": "Verified primary-body bounded source architecture; no prop healthy activation inference"
+    },
+    "proposed_animal_openings": [
+      {
+        "center": [
+          -2.45,
+          -3.925,
+          0.26
+        ],
+        "clear_width": 1.84,
+        "arch_spring_height": 1.97,
+        "arch_rise": 0.43
+      },
+      {
+        "center": [
+          -2.45,
+          -1.6749999999999998,
+          0.26
+        ],
+        "clear_width": 1.84,
+        "arch_spring_height": 1.97,
+        "arch_rise": 0.43
+      },
+      {
+        "center": [
+          -2.45,
+          0.5750000000000002,
+          0.26
+        ],
+        "clear_width": 1.84,
+        "arch_spring_height": 1.97,
+        "arch_rise": 0.43
+      }
+    ],
+    "source_checkpoint_frame": {
+      "authored_space": "projected stamp-space; compact stable bounded by measured primary body, no conditional prop union",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -2.220446049250313e-16,
+          -1.0,
+          0.0,
+          -1.600000023841858
+        ],
+        [
+          1.0,
+          0.0,
+          -0.0,
+          3.9000000953674316
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}

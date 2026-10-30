@@ -1,0 +1,455 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "siege_workshop",
+  "authored_frame": "Projected stamp-space exactly as original recipe ANCHORS; apply the recorded native inverse once after all source states",
+  "native_hp_thresholds": null,
+  "resource_age_is_not_gameplay_availability": true,
+  "source_art_only": true,
+  "review_status": "Unreviewed structural draft; this worker has not executed Blender or generated acceptance evidence",
+  "recipe_sha256_at_profile_draft": "9233e7d6b7d46c1b1f205714fa1f0dd00e0c274160798692106208d87aedab21",
+  "profile_basis": "Exact existing body keys, current recipe structural groups/roof and bearing levels; authored failure proposals do not wire native states or thresholds",
+  "lod_support_policy": "Keep roofs, load-bearing posts/beams/joists, floors, stairs, ledgers and access. Explicit omissions select complete loose props or every member of a named furniture assembly, not isolated support legs. Half/quarter targets still need actual measured authored reductions and visual review.",
+  "native_dependencies_policy": "Never Boolean-cut or decimate retained native mechanisms. Existing rig/graph/pose/socket owners and native states remain separately inspectable dependencies; absent dependency geometry is not zero compound overhead.",
+  "compound_budget_qualified": false,
+  "bodies": {
+    "A3": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -5.014844,
+          -5.208594,
+          -0.06
+        ],
+        [
+          3.896875,
+          2.542969,
+          4.22
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "parts_bay"
+        ],
+        "corner_plus_x_front_y": [
+          3.25,
+          -1.25,
+          2.89
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "main_assembly": 1.2,
+          "fabrication": 0.65,
+          "loose_parts": 0.6,
+          "parts_bay": 0.95
+        },
+        "debris_area_xy": [
+          [
+            3.3,
+            -2.0
+          ],
+          [
+            3.8,
+            -0.9
+          ]
+        ],
+        "debris_ground_z": 0.16
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "main_assembly": 1.16,
+          "parts_bay": 0.95
+        },
+        "remove_groups": [],
+        "debris_area_xy": [
+          [
+            -3.9,
+            -5.0
+          ],
+          [
+            1.7,
+            -2.4
+          ]
+        ],
+        "debris_ground_z": 0.16,
+        "debris_count": 72,
+        "fallen_members": [
+          {
+            "a": [
+              -2.2,
+              -4.006,
+              0.24
+            ],
+            "b": [
+              0.0,
+              -3.3939999999999997,
+              0.24
+            ],
+            "width": 0.16,
+            "source_group": "main_assembly",
+            "grounding_basis": "Horizontal original member fragment; bottom rests on the named surviving source surface, not a native height claim"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              -0.9500000000000001,
+              -3.3,
+              0.23
+            ],
+            "size": [
+              1.25,
+              0.7,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "main_assembly",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "AssemblyEarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "Workpiece"
+        ],
+        "2": [
+          "Workpiece",
+          "LooseWheel",
+          "WheelHub",
+          "WheelSpoke",
+          "YardPlank",
+          "LongStockTimber",
+          "TackleStaticRope",
+          "StaticTackleBlock"
+        ]
+      },
+      "structural_notes": "Original assembly mouths and reserved central source route unchanged; ground cropped to primary, whole wheel shifted into east forecourt, A4 stock niche and actual timbers bounded by primary. Native route/pose/footprint/playback not asserted.",
+      "analytical_cut_check": {
+        "method": "Exact inclusion-exclusion union of the existing three rectangular cutter lobes inside an actual closed-solid witness; no Blender Boolean/visual acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            2.575,
+            -1.25,
+            0.28
+          ],
+          [
+            3.25,
+            -1.0099999999999998,
+            2.7300000000000004
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.001857200400000002,
+          0.018492973056000037,
+          0.06936848000000011,
+          0.13265160000000015
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_unit_siege_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier3_unit_siege_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_siege_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier3_unit_siege_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_siege_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier3_unit_siege_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_siege_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier3_unit_siege_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_03.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "source_plot_bounds_before_boundary_revision": [
+        [
+          -5.8,
+          -6.5,
+          -0.06
+        ],
+        [
+          4.8,
+          4.8,
+          4.85
+        ]
+      ],
+      "analytical_primary_revision_check": {
+        "parts": 80,
+        "all_authored_vertices_inside_measured_primary": true,
+        "all_existing_and_new_scalar_contact_formulas_pass": true,
+        "scope": "Exact source primitive vertex formulas and declared contact bounds, without Blender normals/UV/Boolean/dependency/runtime evaluation"
+      }
+    },
+    "A4": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -5.089063,
+          -5.286719,
+          -0.06
+        ],
+        [
+          3.896875,
+          2.59375,
+          5.14
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "long_stock"
+        ],
+        "corner_plus_x_front_y": [
+          3.8968749762000003,
+          -2.73,
+          2.76
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "main_assembly": 1.2,
+          "fabrication": 0.65,
+          "loose_parts": 0.6,
+          "tool_store": 0.98,
+          "long_stock": 0.85,
+          "tackle": 0.95
+        },
+        "debris_area_xy": [
+          [
+            3.1,
+            -3.8
+          ],
+          [
+            3.78,
+            -3.2
+          ]
+        ],
+        "debris_ground_z": 0.16
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "main_assembly": 1.16,
+          "tool_store": 0.98
+        },
+        "remove_groups": [
+          "tackle",
+          "long_stock"
+        ],
+        "debris_area_xy": [
+          [
+            -3.9,
+            -5.0
+          ],
+          [
+            1.7,
+            -2.4
+          ]
+        ],
+        "debris_ground_z": 0.16,
+        "debris_count": 72,
+        "fallen_members": [
+          {
+            "a": [
+              -2.2,
+              -4.006,
+              0.24
+            ],
+            "b": [
+              0.0,
+              -3.3939999999999997,
+              0.24
+            ],
+            "width": 0.16,
+            "source_group": "main_assembly",
+            "grounding_basis": "Horizontal original member fragment; bottom rests on the named surviving source surface, not a native height claim"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              -0.9500000000000001,
+              -3.3,
+              0.23
+            ],
+            "size": [
+              1.25,
+              0.7,
+              0.14
+            ],
+            "rotation": 0.16,
+            "surface": "roof",
+            "source_group": "main_assembly",
+            "grounding_basis": "Closed fallen roof/floor fragment; bottom equals the surviving source surface"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "AssemblyEarthBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "Workpiece"
+        ],
+        "2": [
+          "Workpiece",
+          "LooseWheel",
+          "WheelHub",
+          "WheelSpoke",
+          "YardPlank",
+          "LongStockTimber",
+          "TackleStaticRope",
+          "StaticTackleBlock"
+        ]
+      },
+      "structural_notes": "Original assembly mouths and reserved central source route unchanged; ground cropped to primary, whole wheel shifted into east forecourt, A4 stock niche and actual timbers bounded by primary. Native route/pose/footprint/playback not asserted.",
+      "analytical_cut_check": {
+        "method": "Exact inclusion-exclusion union of the existing three rectangular cutter lobes inside an actual closed-solid witness; no Blender Boolean/visual acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            3.7168749762000006,
+            -2.67,
+            0.15999999999999992
+          ],
+          [
+            3.8568749762000003,
+            -2.5300000000000002,
+            2.58
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.0005776973999999999,
+          0.00540959999999998,
+          0.011367999999999955,
+          0.016953999999999927
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_unit_siege_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier4_unit_siege_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_siege_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier4_unit_siege_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_siege_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier4_unit_siege_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_siege_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_siege_sul/tier4_unit_siege_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_siege_workshop_age_04.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "source_plot_bounds_before_boundary_revision": [
+        [
+          -5.8,
+          -6.5,
+          -0.06
+        ],
+        [
+          4.8,
+          4.8,
+          5.55
+        ]
+      ],
+      "analytical_primary_revision_check": {
+        "parts": 79,
+        "all_authored_vertices_inside_measured_primary": true,
+        "all_existing_and_new_scalar_contact_formulas_pass": true,
+        "scope": "Exact source primitive vertex formulas and declared contact bounds, without Blender normals/UV/Boolean/dependency/runtime evaluation"
+      }
+    }
+  },
+  "visual_envelope_evidence": "evidence/visual-envelope-contract.json",
+  "verified_envelope_overrides_enabled": false,
+  "envelope_policy": "No conditional possible/category union is enabled as a verified override; strict primary envelope remains until selective source-join and native prop state/activation proof is supplied.",
+  "recipe_sha256_before_boundary_revision": "4a104e697bb64c7a22f9dfb705f371859c3b4a178164bc546b4313602b98e206",
+  "source_boundary_revision": "Visual plot/support-preserving revision only; native footprint/frames/consumers unchanged and prop healthy activation still unverified",
+  "source_revision": "Primary-envelope bounded original layout; analytical recipe vertex/contact checks only; Blender state/visual acceptance pending",
+  "lod_source_policy": {
+    "source": "lods.py",
+    "target_ratios": [
+      0.5,
+      0.25
+    ],
+    "tolerance_unchanged": 0.1,
+    "generated_acceptance": false,
+    "Blender_executed_by_this_author": false,
+    "method": "Constant-section surviving profile sampling; exact closed orthogonal-member boundary; actual surviving support unions; retained native inputs untouched; no healthy state reconstruction.",
+    "damage_policy": "Sharp jamb/breach/seat corners and profile extrema retained; irregular fractured surfaces use planar-only dissolve, never filled by a healthy bay.",
+    "source_recipe_sha256_after_hook": "1b3cc04c9441fd4031daf997b13a31c5d7cc2b529e646a1a731989709d986477",
+    "lods_sha256": "1a5cdc1580960300b9c9bd6fcd1c5db5a0305184153ecafb0142ffa5bd99cef8"
+  }
+}

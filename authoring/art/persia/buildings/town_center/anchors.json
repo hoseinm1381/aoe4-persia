@@ -1,0 +1,1384 @@
+{
+  "A1": {
+    "ground_top": 0.16,
+    "native_body_key": "A1",
+    "native_model": "art/civilizations/sultanate/structures/towncenter/sul_towncenter_combined_age01/sul_towncenter_combined_age01.rgm",
+    "actors_sharing_body": [
+      "ps_building_town_center_capital_sul",
+      "ps_building_town_center_sul"
+    ],
+    "consumer_evidence": {
+      "source_uses": [
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "private_compiled_source_uses": [
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "official_parent_candidate_source_uses": [
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier1_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_01.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "admission_note": "Private/default/campaign and any separately evidenced native branches require parent consumer contract; candidate names do not authorize runtime scope."
+    },
+    "existing_visual_age": 1,
+    "authoring_bounds_proposal": [
+      [
+        -6.85,
+        -6.55,
+        -0.08
+      ],
+      [
+        6.85,
+        6.45,
+        5.3
+      ]
+    ],
+    "chosen_horizontal_bounds": [
+      [
+        -6.85,
+        -6.55
+      ],
+      [
+        6.85,
+        6.45
+      ]
+    ],
+    "native_healthy_stamp_bounds": [
+      [
+        -7.9914062023,
+        -7.5636720657,
+        -1.61328125
+      ],
+      [
+        7.8562500477,
+        8.0046873093,
+        5.796875
+      ]
+    ],
+    "envelope_proposal_margins": {
+      "west": 1.1414062023000007,
+      "east": 1.0062500477,
+      "front": 1.0136720656999998,
+      "back": 1.5546873092999993,
+      "top": 0.4968750000000002
+    },
+    "entry": [
+      0.0,
+      -6.15,
+      0.16
+    ],
+    "court": [
+      0.3,
+      -2.1
+    ],
+    "height_cap": 5.3,
+    "planned_highest_z": 3.615,
+    "planned_height_basis": "Analytic draft geometry; parent must replace with actual built bounds receipt",
+    "authored_space": "stamp-space; identity object transforms; not native resource space",
+    "native_resource_to_stamp_matrix": [
+      [
+        -1,
+        0,
+        0,
+        -2.2999999523
+      ],
+      [
+        0,
+        -1,
+        0,
+        -5.3000001907
+      ],
+      [
+        0,
+        0,
+        1,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_native_resource_matrix": [
+      [
+        -1,
+        0,
+        0,
+        -2.2999999523
+      ],
+      [
+        0,
+        -1,
+        0,
+        -5.3000001907
+      ],
+      [
+        0,
+        0,
+        1,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "dependencies": {
+      "base_layout": "art/civilizations/common/layouts/archetypes/layout_towncenter/layout_towncenter.rgm",
+      "bell_attachment": "attachments/attachment_lists/civilizations/common/buildings/building_town_center_bell_arch",
+      "outskirts_early": "attachments/attachment_lists/civilizations/sultanate/outskirts/general/sul_towncenter_01",
+      "outskirts_late": "attachments/attachment_lists/civilizations/sultanate/outskirts/general/sul_towncenter_03",
+      "motion_policy": "Preserve every existing bell/rig/graph/marker dependency; no new bell geometry or animation.",
+      "clearance_status": "Unqualified: bell pivot, moving swept volume, unit exits and native selection markers require parent adapter inventory."
+    },
+    "doorway_measurement_status": "All proposed openings are original art dimensions, not measured stock doorways.",
+    "clearance_status": "Unqualified: bell pivot, moving swept volume, unit exits and native selection markers require parent adapter inventory.",
+    "visual_inspection": "Not performed; serial parent build and stage review required",
+    "source_checkpoint_frame": {
+      "authored_space": "stamp-space; identity object transforms; not native resource space",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -2.299999952316284
+        ],
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -5.300000190734863
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A2": {
+    "ground_top": 0.16,
+    "native_body_key": "A2",
+    "native_model": "art/civilizations/sultanate/structures/towncenter/sul_towncenter_combined_age02/sul_towncenter_combined_age02.rgm",
+    "actors_sharing_body": [
+      "ps_building_town_center_capital_sul",
+      "ps_building_town_center_sul"
+    ],
+    "consumer_evidence": {
+      "source_uses": [
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "private_compiled_source_uses": [
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "official_parent_candidate_source_uses": [
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier2_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_02.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "admission_note": "Private/default/campaign and any separately evidenced native branches require parent consumer contract; candidate names do not authorize runtime scope."
+    },
+    "existing_visual_age": 2,
+    "authoring_bounds_proposal": [
+      [
+        -6.85,
+        -6.55,
+        -0.08
+      ],
+      [
+        6.85,
+        6.45,
+        6.2
+      ]
+    ],
+    "chosen_horizontal_bounds": [
+      [
+        -6.85,
+        -6.55
+      ],
+      [
+        6.85,
+        6.45
+      ]
+    ],
+    "native_healthy_stamp_bounds": [
+      [
+        -7.9093749523,
+        -7.7785158157,
+        -1.599609375
+      ],
+      [
+        7.7546875477,
+        8.0984373093,
+        6.7578125
+      ]
+    ],
+    "envelope_proposal_margins": {
+      "west": 1.0593749523000007,
+      "east": 0.9046875477,
+      "front": 1.2285158156999998,
+      "back": 1.6484373092999993,
+      "top": 0.5578124999999998
+    },
+    "entry": [
+      0.0,
+      -6.15,
+      0.16
+    ],
+    "court": [
+      0.5,
+      -2.0
+    ],
+    "height_cap": 6.2,
+    "planned_highest_z": 4.07,
+    "planned_height_basis": "Analytic draft geometry; parent must replace with actual built bounds receipt",
+    "authored_space": "stamp-space; identity object transforms; not native resource space",
+    "native_resource_to_stamp_matrix": [
+      [
+        -1,
+        0,
+        0,
+        -2.2999999523
+      ],
+      [
+        0,
+        -1,
+        0,
+        -5.3000001907
+      ],
+      [
+        0,
+        0,
+        1,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_native_resource_matrix": [
+      [
+        -1,
+        0,
+        0,
+        -2.2999999523
+      ],
+      [
+        0,
+        -1,
+        0,
+        -5.3000001907
+      ],
+      [
+        0,
+        0,
+        1,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "dependencies": {
+      "base_layout": "art/civilizations/common/layouts/archetypes/layout_towncenter/layout_towncenter.rgm",
+      "bell_attachment": "attachments/attachment_lists/civilizations/common/buildings/building_town_center_bell_arch",
+      "outskirts_early": "attachments/attachment_lists/civilizations/sultanate/outskirts/general/sul_towncenter_01",
+      "outskirts_late": "attachments/attachment_lists/civilizations/sultanate/outskirts/general/sul_towncenter_03",
+      "motion_policy": "Preserve every existing bell/rig/graph/marker dependency; no new bell geometry or animation.",
+      "clearance_status": "Unqualified: bell pivot, moving swept volume, unit exits and native selection markers require parent adapter inventory."
+    },
+    "doorway_measurement_status": "All proposed openings are original art dimensions, not measured stock doorways.",
+    "clearance_status": "Unqualified: bell pivot, moving swept volume, unit exits and native selection markers require parent adapter inventory.",
+    "visual_inspection": "Not performed; serial parent build and stage review required",
+    "source_checkpoint_frame": {
+      "authored_space": "stamp-space; identity object transforms; not native resource space",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -2.299999952316284
+        ],
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -5.300000190734863
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A3": {
+    "ground_top": 0.16,
+    "native_body_key": "A3",
+    "native_model": "art/civilizations/sultanate/structures/towncenter/sul_towncenter_combined_age03/sul_towncenter_combined_age03.rgm",
+    "actors_sharing_body": [
+      "ps_building_town_center_capital_sul",
+      "ps_building_town_center_sul"
+    ],
+    "consumer_evidence": {
+      "source_uses": [
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "private_compiled_source_uses": [
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "official_parent_candidate_source_uses": [
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier3_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_03.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "admission_note": "Private/default/campaign and any separately evidenced native branches require parent consumer contract; candidate names do not authorize runtime scope."
+    },
+    "existing_visual_age": 3,
+    "authoring_bounds_proposal": [
+      [
+        -6.85,
+        -6.55,
+        -0.08
+      ],
+      [
+        6.85,
+        6.45,
+        6.3
+      ]
+    ],
+    "chosen_horizontal_bounds": [
+      [
+        -6.85,
+        -6.55
+      ],
+      [
+        6.85,
+        6.45
+      ]
+    ],
+    "native_healthy_stamp_bounds": [
+      [
+        -7.9093749523,
+        -7.7785158157,
+        -1.599609375
+      ],
+      [
+        7.7546875477,
+        8.0984373093,
+        6.7578125
+      ]
+    ],
+    "envelope_proposal_margins": {
+      "west": 1.0593749523000007,
+      "east": 0.9046875477,
+      "front": 1.2285158156999998,
+      "back": 1.6484373092999993,
+      "top": 0.4578125000000002
+    },
+    "entry": [
+      0.0,
+      -6.15,
+      0.16
+    ],
+    "court": [
+      0.7,
+      -2.3
+    ],
+    "height_cap": 6.3,
+    "planned_highest_z": 6.295,
+    "planned_height_basis": "Analytic draft geometry; parent must replace with actual built bounds receipt",
+    "authored_space": "stamp-space; identity object transforms; not native resource space",
+    "native_resource_to_stamp_matrix": [
+      [
+        -1,
+        0,
+        0,
+        -2.2999999523
+      ],
+      [
+        0,
+        -1,
+        0,
+        -5.3000001907
+      ],
+      [
+        0,
+        0,
+        1,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_native_resource_matrix": [
+      [
+        -1,
+        0,
+        0,
+        -2.2999999523
+      ],
+      [
+        0,
+        -1,
+        0,
+        -5.3000001907
+      ],
+      [
+        0,
+        0,
+        1,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "dependencies": {
+      "base_layout": "art/civilizations/common/layouts/archetypes/layout_towncenter/layout_towncenter.rgm",
+      "bell_attachment": "attachments/attachment_lists/civilizations/common/buildings/building_town_center_bell_arch",
+      "outskirts_early": "attachments/attachment_lists/civilizations/sultanate/outskirts/general/sul_towncenter_01",
+      "outskirts_late": "attachments/attachment_lists/civilizations/sultanate/outskirts/general/sul_towncenter_03",
+      "motion_policy": "Preserve every existing bell/rig/graph/marker dependency; no new bell geometry or animation.",
+      "clearance_status": "Unqualified: bell pivot, moving swept volume, unit exits and native selection markers require parent adapter inventory."
+    },
+    "doorway_measurement_status": "All proposed openings are original art dimensions, not measured stock doorways.",
+    "clearance_status": "Unqualified: bell pivot, moving swept volume, unit exits and native selection markers require parent adapter inventory.",
+    "visual_inspection": "Not performed; serial parent build and stage review required",
+    "office_programme": {
+      "west_face_fixed_x": -2.95,
+      "east_expanded_x": 2.25,
+      "reception_windows": 2,
+      "stair_start_y": -1.0,
+      "service_wing_forward_shift": "clears lengthened stair; unchanged native bounds"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "stamp-space; identity object transforms; not native resource space",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -2.299999952316284
+        ],
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -5.300000190734863
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  },
+  "A4": {
+    "ground_top": 0.16,
+    "native_body_key": "A4",
+    "native_model": "art/civilizations/sultanate/structures/towncenter/sul_towncenter_combined_age04/sul_towncenter_combined_age04.rgm",
+    "actors_sharing_body": [
+      "ps_building_town_center_capital_sul",
+      "ps_building_town_center_sul"
+    ],
+    "consumer_evidence": {
+      "source_uses": [
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "private_compiled_source_uses": [
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "official_parent_candidate_source_uses": [
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_capital_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_town_center_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/town_center_sul/tier4_town_center_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_town_center_age_04.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "admission_note": "Private/default/campaign and any separately evidenced native branches require parent consumer contract; candidate names do not authorize runtime scope."
+    },
+    "existing_visual_age": 4,
+    "authoring_bounds_proposal": [
+      [
+        -6.85,
+        -6.55,
+        -0.08
+      ],
+      [
+        6.85,
+        6.45,
+        8.35
+      ]
+    ],
+    "chosen_horizontal_bounds": [
+      [
+        -6.85,
+        -6.55
+      ],
+      [
+        6.85,
+        6.45
+      ]
+    ],
+    "native_healthy_stamp_bounds": [
+      [
+        -7.9416539669,
+        -7.6992797852,
+        -1.599609375
+      ],
+      [
+        7.8630335331,
+        8.0292358398,
+        9.4609375
+      ]
+    ],
+    "envelope_proposal_margins": {
+      "west": 1.0916539669,
+      "east": 1.0130335331000007,
+      "front": 1.1492797852,
+      "back": 1.5792358398,
+      "top": 1.1109375000000004
+    },
+    "entry": [
+      0.0,
+      -6.15,
+      0.16
+    ],
+    "court": [
+      0.4,
+      -2.7
+    ],
+    "height_cap": 8.35,
+    "planned_highest_z": 6.775,
+    "planned_height_basis": "Analytic draft geometry; parent must replace with actual built bounds receipt",
+    "authored_space": "stamp-space; identity object transforms; not native resource space",
+    "native_resource_to_stamp_matrix": [
+      [
+        -1,
+        0,
+        0,
+        -2.3166539669
+      ],
+      [
+        0,
+        -1,
+        0,
+        -5.2207641602
+      ],
+      [
+        0,
+        0,
+        1,
+        0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stamp_to_native_resource_matrix": [
+      [
+        -1,
+        0,
+        0,
+        -2.3166539669
+      ],
+      [
+        0,
+        -1,
+        0,
+        -5.2207641602
+      ],
+      [
+        0,
+        0,
+        1,
+        -0.0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "dependencies": {
+      "base_layout": "art/civilizations/common/layouts/archetypes/layout_towncenter/layout_towncenter.rgm",
+      "bell_attachment": "attachments/attachment_lists/civilizations/common/buildings/building_town_center_bell_arch",
+      "outskirts_early": "attachments/attachment_lists/civilizations/sultanate/outskirts/general/sul_towncenter_01",
+      "outskirts_late": "attachments/attachment_lists/civilizations/sultanate/outskirts/general/sul_towncenter_03",
+      "motion_policy": "Preserve every existing bell/rig/graph/marker dependency; no new bell geometry or animation.",
+      "clearance_status": "Unqualified: bell pivot, moving swept volume, unit exits and native selection markers require parent adapter inventory."
+    },
+    "doorway_measurement_status": "All proposed openings are original art dimensions, not measured stock doorways.",
+    "clearance_status": "Unqualified: bell pivot, moving swept volume, unit exits and native selection markers require parent adapter inventory.",
+    "visual_inspection": "Not performed; serial parent build and stage review required",
+    "numerical_interfaces": [
+      {
+        "body": "A4",
+        "name": "CouncilLandingToNotchedDeck",
+        "a": "PSB_town_center_A4_Council_Landing",
+        "b": "PSB_town_center_A4_Porch_Deck",
+        "authored_contact_point": [
+          -4.55,
+          1.6,
+          3.54
+        ],
+        "intentional_socket_overlap_metres": 0.0,
+        "tolerance": 0.003,
+        "basis": "Actual rear-notch vertical faces meet atX-4.55; bbox extrema alone do not represent this joint."
+      }
+    ],
+    "council_access": {
+      "stair_bounds_x": [
+        -5.45,
+        -4.55
+      ],
+      "stair_y": [
+        -2.8,
+        1.2
+      ],
+      "landing_bounds_xy": [
+        [
+          -5.45,
+          1.2
+        ],
+        [
+          -4.55,
+          2.0
+        ]
+      ],
+      "deck_notch": [
+        [
+          -4.9,
+          1.2
+        ],
+        [
+          -4.55,
+          2.0
+        ]
+      ],
+      "actual_join_plane": {
+        "axis": "x",
+        "landing_right": -4.55,
+        "deck_rear_notch_left": -4.55,
+        "gap": 0.0
+      },
+      "status": "original source geometry, not native travel-path clearance"
+    },
+    "porch_supports": {
+      "x": [
+        -4.785,
+        -1.6333333333333333,
+        1.6333333333333337,
+        4.785
+      ],
+      "count": 4,
+      "main_axis_clear_x": [
+        -1.45,
+        1.45
+      ],
+      "derivation": "actual ground arcade pier axes, matched upper/lower load paths; native exits unqualified"
+    },
+    "source_checkpoint_frame": {
+      "authored_space": "stamp-space; identity object transforms; not native resource space",
+      "saved_space": "projected native resource space",
+      "authored_to_resource_matrix": [
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -2.3166539669036865
+        ],
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -5.22076416015625
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "native_actor_stamp_markers_changed": false
+    }
+  }
+}

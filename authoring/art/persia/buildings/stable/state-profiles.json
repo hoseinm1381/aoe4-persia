@@ -1,0 +1,648 @@
+{
+  "schema": "persia-family-structural-state-profile/1",
+  "family": "stable",
+  "authored_frame": "Projected stamp-space exactly as original recipe ANCHORS; apply the recorded native inverse once after all source states",
+  "native_hp_thresholds": null,
+  "resource_age_is_not_gameplay_availability": true,
+  "source_art_only": true,
+  "review_status": "Unreviewed structural draft; this worker has not executed Blender or generated acceptance evidence",
+  "recipe_sha256_at_profile_draft": "e07f6f6c51f8ec6eaaf437f8b13667215a528b23e08d5963c7d18b73013f192f",
+  "profile_basis": "Exact existing body keys, current recipe structural groups/roof and bearing levels; authored failure proposals do not wire native states or thresholds",
+  "lod_support_policy": "Keep roofs, load-bearing posts/beams/joists, floors, stairs, ledgers and access. Explicit omissions select complete loose props or every member of a named furniture assembly, not isolated support legs. Half/quarter targets still need actual measured authored reductions and visual review.",
+  "native_dependencies_policy": "Never Boolean-cut or decimate retained native mechanisms. Existing rig/graph/pose/socket owners and native states remain separately inspectable dependencies; absent dependency geometry is not zero compound overhead.",
+  "compound_budget_qualified": false,
+  "bodies": {
+    "A2": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -5.490586,
+          -5.244297,
+          -0.06
+        ],
+        [
+          -2.305508,
+          1.839219,
+          3.09
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "stall_range"
+        ],
+        "corner_plus_x_front_y": [
+          -2.67,
+          -5.14,
+          2.8899999999999997
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "stall_range": 1.1,
+          "stall_0": 1.1,
+          "stall_1": 1.1,
+          "stall_2": 1.1,
+          "animal_care": 0.65,
+          "tack": 0.6,
+          "feed": 0.6
+        },
+        "debris_area_xy": [
+          [
+            -4.4,
+            -4.8
+          ],
+          [
+            -3.3,
+            -3.7
+          ]
+        ],
+        "debris_ground_z": 0.26
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "stall_range": 1.02
+        },
+        "remove_groups": [],
+        "debris_area_xy": [
+          [
+            -5.1,
+            -4.9
+          ],
+          [
+            -2.65,
+            1.4
+          ]
+        ],
+        "debris_ground_z": 0.26,
+        "debris_count": 58,
+        "fallen_members": [
+          {
+            "a": [
+              -4.8,
+              -4.0,
+              0.3
+            ],
+            "b": [
+              -3.1,
+              -3.8,
+              0.3
+            ],
+            "width": 0.08,
+            "source_group": "stall_range",
+            "grounding_basis": "Bottom .26 on retained range floor; complete fallen member inside primary body"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              -3.8,
+              -1.6,
+              0.33
+            ],
+            "size": [
+              1.0,
+              0.5,
+              0.14
+            ],
+            "rotation": 0.12,
+            "surface": "roof",
+            "source_group": "stall_range",
+            "grounding_basis": "Bottom .26 on retained range floor, rotated corners remain inside primary body"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "AnimalCourtBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "FeedSack"
+        ],
+        "2": [
+          "FeedSack",
+          "TackPrep",
+          "SupervisorRegister"
+        ]
+      },
+      "structural_notes": "Actual south handling-end arch right pier is the solid cut witness. Three east mouths remain real openings, south bay is handling/tack/feed court, two north bays are stalls. A2 flat range, A3 three vaults, A4 two vaults plus raised ventilated handling clerestory. Native horse pose/route/turning clearance remains deferred.",
+      "analytical_cut_check": {
+        "method": "Exact inclusion-exclusion union of the existing three rectangular cutter lobes inside an actual closed-solid witness; no Blender Boolean/visual acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            -2.9,
+            -5.14,
+            0.26
+          ],
+          [
+            -2.7,
+            -4.96,
+            2.8899999999999997
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.004701626086499985,
+          0.01641599999999995,
+          0.027359999999999912,
+          0.03761999999999989
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_unit_cavalry_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier2_unit_cavalry_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_stable_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_cavalry_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier2_unit_cavalry_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_stable_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_cavalry_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier2_unit_cavalry_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_stable_age_02.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_cavalry_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier2_unit_cavalry_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_stable_age_02.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "source_plot_bounds_before_boundary_revision": [
+        [
+          -6.6,
+          -6.3,
+          -0.06
+        ],
+        [
+          4.6,
+          5.0,
+          4.7
+        ]
+      ],
+      "analytical_primary_revision_check": {
+        "parts": 52,
+        "all_authored_vertices_inside_measured_primary": true,
+        "all_existing_and_new_scalar_contact_formulas_pass": true,
+        "scope": "Exact source primitive vertex formulas and declared contact bounds, without Blender normals/UV/Boolean/dependency/runtime evaluation"
+      }
+    },
+    "A3": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -5.490586,
+          -5.244297,
+          -0.06
+        ],
+        [
+          -2.305508,
+          1.839219,
+          3.5
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "stall_range"
+        ],
+        "corner_plus_x_front_y": [
+          -2.67,
+          -5.14,
+          2.9800000000000004
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "stall_range": 1.1,
+          "stall_0": 1.1,
+          "stall_1": 1.1,
+          "stall_2": 1.1,
+          "animal_care": 0.65,
+          "tack": 0.6,
+          "feed": 0.6
+        },
+        "debris_area_xy": [
+          [
+            -4.4,
+            -4.8
+          ],
+          [
+            -3.3,
+            -3.7
+          ]
+        ],
+        "debris_ground_z": 0.26
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "stall_range": 1.02
+        },
+        "remove_groups": [],
+        "debris_area_xy": [
+          [
+            -5.1,
+            -4.9
+          ],
+          [
+            -2.65,
+            1.4
+          ]
+        ],
+        "debris_ground_z": 0.26,
+        "debris_count": 58,
+        "fallen_members": [
+          {
+            "a": [
+              -4.8,
+              -4.0,
+              0.3
+            ],
+            "b": [
+              -3.1,
+              -3.8,
+              0.3
+            ],
+            "width": 0.08,
+            "source_group": "stall_range",
+            "grounding_basis": "Bottom .26 on retained range floor; complete fallen member inside primary body"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              -3.8,
+              -1.6,
+              0.33
+            ],
+            "size": [
+              1.0,
+              0.5,
+              0.14
+            ],
+            "rotation": 0.12,
+            "surface": "roof",
+            "source_group": "stall_range",
+            "grounding_basis": "Bottom .26 on retained range floor, rotated corners remain inside primary body"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "AnimalCourtBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "FeedSack"
+        ],
+        "2": [
+          "FeedSack",
+          "TackPrep",
+          "SupervisorRegister"
+        ]
+      },
+      "structural_notes": "Actual south handling-end arch right pier is the solid cut witness. Three east mouths remain real openings, south bay is handling/tack/feed court, two north bays are stalls. A2 flat range, A3 three vaults, A4 two vaults plus raised ventilated handling clerestory. Native horse pose/route/turning clearance remains deferred.",
+      "analytical_cut_check": {
+        "method": "Exact inclusion-exclusion union of the existing three rectangular cutter lobes inside an actual closed-solid witness; no Blender Boolean/visual acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            -2.9,
+            -5.14,
+            0.26
+          ],
+          [
+            -2.7,
+            -4.96,
+            2.9800000000000004
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.004701626086499985,
+          0.01641599999999995,
+          0.027359999999999912,
+          0.03761999999999989
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_unit_cavalry_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier3_unit_cavalry_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_stable_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_cavalry_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier3_unit_cavalry_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_stable_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_cavalry_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier3_unit_cavalry_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_stable_age_03.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_cavalry_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier3_unit_cavalry_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_stable_age_03.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "source_plot_bounds_before_boundary_revision": [
+        [
+          -6.6,
+          -6.3,
+          -0.06
+        ],
+        [
+          4.6,
+          5.0,
+          4.7
+        ]
+      ],
+      "analytical_primary_revision_check": {
+        "parts": 46,
+        "all_authored_vertices_inside_measured_primary": true,
+        "all_existing_and_new_scalar_contact_formulas_pass": true,
+        "scope": "Exact source primitive vertex formulas and declared contact bounds, without Blender normals/UV/Boolean/dependency/runtime evaluation"
+      }
+    },
+    "A4": {
+      "review_status": "Unreviewed draft: parent must generate/inspect all states and LODs",
+      "native_hp_thresholds": null,
+      "resource_age_is_not_gameplay_availability": true,
+      "variant_branches": "Preserve native-contracts.json source_uses without widening active/private variants",
+      "source_plot_bounds": [
+        [
+          -5.473984,
+          -5.199375,
+          -0.06
+        ],
+        [
+          -2.305508,
+          1.995469,
+          3.83
+        ]
+      ],
+      "damage": {
+        "groups": [
+          "stall_range"
+        ],
+        "corner_plus_x_front_y": [
+          -2.67,
+          -5.14,
+          3.16
+        ],
+        "notch_extents": [
+          0.27,
+          0.48,
+          0.8,
+          1.1
+        ],
+        "heavy_failure_group_caps": {
+          "stall_range": 1.1,
+          "stall_0": 1.1,
+          "stall_1": 1.1,
+          "stall_2": 1.1,
+          "animal_care": 0.65,
+          "tack": 0.6,
+          "feed": 0.6
+        },
+        "debris_area_xy": [
+          [
+            -4.4,
+            -4.8
+          ],
+          [
+            -3.3,
+            -3.7
+          ]
+        ],
+        "debris_ground_z": 0.26
+      },
+      "ruins": {
+        "default_cap": 0.92,
+        "group_caps": {
+          "stall_range": 1.02
+        },
+        "remove_groups": [],
+        "debris_area_xy": [
+          [
+            -5.1,
+            -4.9
+          ],
+          [
+            -2.65,
+            1.4
+          ]
+        ],
+        "debris_ground_z": 0.26,
+        "debris_count": 58,
+        "fallen_members": [
+          {
+            "a": [
+              -4.8,
+              -4.0,
+              0.3
+            ],
+            "b": [
+              -3.1,
+              -3.8,
+              0.3
+            ],
+            "width": 0.08,
+            "source_group": "stall_range",
+            "grounding_basis": "Bottom .26 on retained range floor; complete fallen member inside primary body"
+          }
+        ],
+        "fallen_slabs": [
+          {
+            "center": [
+              -3.8,
+              -1.6,
+              0.33
+            ],
+            "size": [
+              1.0,
+              0.5,
+              0.14
+            ],
+            "rotation": 0.12,
+            "surface": "roof",
+            "source_group": "stall_range",
+            "grounding_basis": "Bottom .26 on retained range floor, rotated corners remain inside primary body"
+          }
+        ]
+      },
+      "targeting_omit_name_fragments": [
+        "AnimalCourtBed"
+      ],
+      "lod_omit_name_fragments": {
+        "1": [
+          "FeedSack"
+        ],
+        "2": [
+          "FeedSack",
+          "TackPrep",
+          "SupervisorRegister"
+        ]
+      },
+      "structural_notes": "Actual south handling-end arch right pier is the solid cut witness. Three east mouths remain real openings, south bay is handling/tack/feed court, two north bays are stalls. A2 flat range, A3 three vaults, A4 two vaults plus raised ventilated handling clerestory. Native horse pose/route/turning clearance remains deferred.",
+      "analytical_cut_check": {
+        "method": "Exact inclusion-exclusion union of the existing three rectangular cutter lobes inside an actual closed-solid witness; no Blender Boolean/visual acceptance",
+        "actual_solid_witness_bounds": [
+          [
+            -2.9,
+            -5.14,
+            0.26
+          ],
+          [
+            -2.7,
+            -4.96,
+            3.16
+          ]
+        ],
+        "removed_witness_volumes_for_damage_1_to_4": [
+          0.004701626086499985,
+          0.01641599999999995,
+          0.027359999999999912,
+          0.03761999999999989
+        ],
+        "positive_strictly_increasing": true
+      },
+      "native_source_uses_snapshot": [
+        {
+          "actor": "ps_building_unit_cavalry_control_sul",
+          "variant": "campaign",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier4_unit_cavalry_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_stable_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_cavalry_control_sul",
+          "variant": "cordoba",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier4_unit_cavalry_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_stable_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_cavalry_control_sul",
+          "variant": "default",
+          "variant_evidence_class": "existing_private_compiled_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier4_unit_cavalry_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_stable_age_04.bin",
+          "stamp_instance_index": 0
+        },
+        {
+          "actor": "ps_building_unit_cavalry_control_sul",
+          "variant": "xp3",
+          "variant_evidence_class": "official_parent_inheritance_candidate_not_a_separately_serialized_private_variant",
+          "attachment": "attachments/attachment_lists/civilizations/sultanate/buildings/unit_cavalry_sul/tier4_unit_cavalry_control_sul",
+          "attachment_category": "default",
+          "inventory_category": "default",
+          "stamp": "art/stamps/civ_sul/sul_stable_age_04.bin",
+          "stamp_instance_index": 0
+        }
+      ],
+      "source_plot_bounds_before_boundary_revision": [
+        [
+          -6.6,
+          -6.3,
+          -0.06
+        ],
+        [
+          4.6,
+          5.0,
+          4.7
+        ]
+      ],
+      "analytical_primary_revision_check": {
+        "parts": 51,
+        "all_authored_vertices_inside_measured_primary": true,
+        "all_existing_and_new_scalar_contact_formulas_pass": true,
+        "scope": "Exact source primitive vertex formulas and declared contact bounds, without Blender normals/UV/Boolean/dependency/runtime evaluation"
+      }
+    }
+  },
+  "visual_envelope_evidence": "evidence/visual-envelope-contract.json",
+  "verified_envelope_overrides_enabled": false,
+  "envelope_policy": "No conditional possible/category union is enabled as a verified override; strict primary envelope remains until selective source-join and native prop state/activation proof is supplied.",
+  "recipe_sha256_before_boundary_revision": "26beb8d3ab7ddc617fa3a941c445faf5402618b9211dd80a6239cdc715b5ec3f",
+  "source_boundary_revision": "Visual plot/support-preserving revision only; native footprint/frames/consumers unchanged and prop healthy activation still unverified",
+  "source_revision": "Primary-envelope bounded original layout; analytical recipe vertex/contact checks only; Blender state/visual acceptance pending",
+  "lod_source_policy": {
+    "source": "lods.py",
+    "target_ratios": [
+      0.5,
+      0.25
+    ],
+    "tolerance_unchanged": 0.1,
+    "generated_acceptance": false,
+    "Blender_executed_by_this_author": false,
+    "method": "Constant-section surviving profile sampling; exact closed orthogonal-member boundary; actual surviving support unions; retained native inputs untouched; no healthy state reconstruction.",
+    "damage_policy": "Sharp jamb/breach/seat corners and profile extrema retained; irregular fractured surfaces use planar-only dissolve, never filled by a healthy bay.",
+    "source_recipe_sha256_after_hook": "e043df23f576e4b5a997def5f6513e9d35803ad801b41b50f775be8cbdc12199",
+    "lods_sha256": "1a5cdc1580960300b9c9bd6fcd1c5db5a0305184153ecafb0142ffa5bd99cef8"
+  }
+}

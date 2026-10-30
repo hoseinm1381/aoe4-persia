@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "saved_file_sha256": "82a9f50e1f503b902c69c2b0df4be9c7518ce6c40b9937e9c45791e72645ae21",
+  "frames": [
+    {
+      "file": "bell_A1_chi_bell_arch_age_01_healthy.png",
+      "selector_alias": "healthy",
+      "sha256": "fda7a6ca212dd63bcf763a009aea7f80426f67d5e01566b4371af0b75fcf97ad"
+    },
+    {
+      "file": "bell_A1_chi_bell_arch_age_01_dmg_01.png",
+      "selector_alias": "dmg_01",
+      "sha256": "df3c5fa6c71ca3f1488fa80bbdc3d8cb68e20082b4b220d0cc5684fab9e2c024"
+    },
+    {
+      "file": "bell_A1_chi_bell_arch_age_01_dead.png",
+      "selector_alias": "dead",
+      "sha256": "6faa45b48e68e8891e2f46dca1953f0d745a9596d2142716eeb37d7342b81f8f"
+    },
+    {
+      "file": "bell_A1_chi_bell_arch_age_01_support.png",
+      "selector_alias": "healthy_support_closeup",
+      "sha256": "cf990c531a27b5fbf3518b85a8c5234e3c7bb36fecf66654ab321a1767086d5c"
+    }
+  ],
+  "native_playback_qualified": false
+}
