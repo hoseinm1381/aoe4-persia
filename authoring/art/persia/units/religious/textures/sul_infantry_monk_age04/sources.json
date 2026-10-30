@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\sul_infantry_monk_age04\\e591afa3412157b6c581\\decoded-static.json",
+  "donor_sha256": "f5efcc8af33b869e228f93316d911f4b7b8522ff6ea4ce28b730762fd4b4c3ba",
+  "logical_path": "art/civilizations/sultanate/humans/sul_infantry_monk_age04/sul_infantry_monk_age04.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "615718bdb9128fe4825dae554b8a4ab63524ec150c72b89091ee30d8a0139532",
+    "normal": "e39c70e63393236c79d3d9e9077c40bf8f32d4a706f942d699398df882043455",
+    "roughness": "28e28b22a4dcd2fd4f99642281f25aa6f8b2178b95ddfa9923b04738788c69f2",
+    "metalness": "ea04a182fbfb2348963bea2b14b86fce59d77a9754e6d23d0c23bb9654cae143",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

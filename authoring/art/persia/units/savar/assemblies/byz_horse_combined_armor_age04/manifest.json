@@ -1,0 +1,1055 @@
+{
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 111,
+      "triangles": 123,
+      "sha256": "19e07477f21975ecd952952ef16a8caa4ebce59a89e6a5ad69d2e9a9889a64a8"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 127,
+      "triangles": 150,
+      "sha256": "29b8a6141464249717eeaa4b61ba5dc40ef5ded5ce2c3b2fcaed8656d5a0fa90"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 209,
+      "triangles": 188,
+      "sha256": "2de9c9c8cd3f6473e8e4765a273d6d4d5573d6846822f8cb2daee832415f5847"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 133,
+      "triangles": 114,
+      "sha256": "a8af52c8d52b05a0518cd308fefe61f392d8254446d3960ffcdc51f96c127d5e"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 29,
+      "triangles": 28,
+      "sha256": "acca7ff5703dba1aff54a5a65c2c21ba2e4f1a02586ba733b724437fc96bc355"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 42,
+      "triangles": 58,
+      "sha256": "c57a566161667ce91f4bf6b9522a7c661d7744eaee0df9a24de61c45019f221c"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "d6bc36b27a0e00dcf7c718500aa18de97ae856daa103e7961477091d68ab7ced"
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "vertices": 2550,
+      "triangles": 3148,
+      "sha256": "a1ae7f23fbdc874b2a9e47cf2891c8944dd3eb66a9dd2c3335f567d2fd6444af"
+    },
+    {
+      "lod": 0,
+      "component": "rider",
+      "vertices": 1298,
+      "triangles": 1753,
+      "sha256": "ae69770fc81dc87d11eb0d50c81ffc713097a7e084a40fc26b995dcfffa943c1"
+    },
+    {
+      "lod": 0,
+      "component": "tail",
+      "vertices": 164,
+      "triangles": 98,
+      "sha256": "6f57a738b9cbc8e7f59d565a02e85bd232ca50acf6d57374a8ab1eadc5e6da98"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 147,
+      "triangles": 104,
+      "sha256": "0c78714ddcf8831af2d6e7a1e74211bab5c7dba070d87b20d2ecb3bb8f23b834"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 116,
+      "triangles": 137,
+      "sha256": "278e2c78bb9c7ced376680b570d9d1e8c7bba160efeb04438e6ada4a0ad4b46b"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 21,
+      "triangles": 18,
+      "sha256": "33952f63dbda5b1e511236312e8c22a6d20044647287cdeda8030c3bc13f9cc5"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "67371cad11f39be37835e980e0c9d5a8b6446a48321bdf1e89e815db17d25045"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 42,
+      "triangles": 58,
+      "sha256": "93d5281c33cef65fb9e5ba620915dacd03f00991fafaeb793fa9999e8b4ccbe6"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 133,
+      "triangles": 114,
+      "sha256": "b216747b9f578af1e9cd8edb1bb216f1d6575e7b41ccefc4e04ac678d48a35e6"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 107,
+      "triangles": 120,
+      "sha256": "cc0f4e065faa65ce25200e8a550fbccef24b838a407d60c4cd722d555508d675"
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "vertices": 803,
+      "triangles": 864,
+      "sha256": "28cf32b73d672cc7b4a784c466a271144fbd79e977557bb3981467544972ec8d"
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "vertices": 698,
+      "triangles": 816,
+      "sha256": "da0cf3743e6c2b819b02665f87ac3417d186d916dd628d793340d258c721199d"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 42,
+      "triangles": 58,
+      "sha256": "319577a2f06f8ced0ec6f77803c9f25372dbc82b34cebea2532c73d721eb0d6e"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 72,
+      "triangles": 77,
+      "sha256": "515650aa18d87071e0c8db4793daa387477957fcc4784dc76dc9c7602288ac99"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 133,
+      "triangles": 114,
+      "sha256": "77c13916a24fadada3c6da66c6072b69ab625f9f6aec346844978aca3936fecb"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 14,
+      "triangles": 8,
+      "sha256": "992997577c9f9b62bfd62f14987c6ecd9d4b448b16b6b9162a22165f04dc3d85"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 182,
+      "triangles": 288,
+      "sha256": "ba9eb4c45e13e7123b6a3811360bcbb9208e4c7e991c0d4b7a6152774859376c"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 79,
+      "triangles": 48,
+      "sha256": "d5bbfe47fabf063284c8e959562abf98b6d0cc97ad959ba42e9da71fd5cb7bf6"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 79,
+      "triangles": 92,
+      "sha256": "fe6d8c51f9cecb210015c2168947575899f2bc6e7095061ea920f249e2af01ed"
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "vertices": 353,
+      "triangles": 326,
+      "sha256": "11ce32b543b7d978d3e68337cf0421e0bfd92421ce2d6ebfba5ca25bfdffd97f"
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "vertices": 395,
+      "triangles": 408,
+      "sha256": "7937afa8f1a6440c3ea0a49c39c9653e89b72b9104e5656b2fae4b93e2132d64"
+    }
+  ],
+  "family": "savar",
+  "body": "byz_horse_combined_armor_age04",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\savar\\assemblies\\byz_horse_combined_armor_age04\\assembly.blend",
+  "sha256": "d213be7bcb9ea2488ddd75a13416bc0d84756e5afe5aa5887913fb1360aec435",
+  "rig_bones": 127,
+  "rig_contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+  "equipment": {
+    "lance_basic": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/byzantine/animals/byz_horse_combined_armor_age04/byz_horse_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "bfe58ffa4e93f0224df771acfc48343dd62d228f89a842d4ee36603c66315c00",
+        "bones_modified": 0
+      },
+      "triangles": [
+        58,
+        58,
+        58
+      ]
+    },
+    "torch": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/byzantine/animals/byz_horse_combined_armor_age04/byz_horse_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "bfe58ffa4e93f0224df771acfc48343dd62d228f89a842d4ee36603c66315c00",
+        "bones_modified": 0
+      },
+      "triangles": [
+        28,
+        18,
+        8
+      ]
+    },
+    "sul_sword_kilij": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/byzantine/animals/byz_horse_combined_armor_age04/byz_horse_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "bfe58ffa4e93f0224df771acfc48343dd62d228f89a842d4ee36603c66315c00",
+        "bones_modified": 0
+      },
+      "triangles": [
+        123,
+        137,
+        77
+      ]
+    },
+    "mace_flanged": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/byzantine/animals/byz_horse_combined_armor_age04/byz_horse_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "bfe58ffa4e93f0224df771acfc48343dd62d228f89a842d4ee36603c66315c00",
+        "bones_modified": 0
+      },
+      "triangles": [
+        188,
+        104,
+        48
+      ]
+    },
+    "byz_shield_ovalspearman": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/byzantine/animals/byz_horse_combined_armor_age04/byz_horse_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "bfe58ffa4e93f0224df771acfc48343dd62d228f89a842d4ee36603c66315c00",
+        "bones_modified": 0
+      },
+      "triangles": [
+        150,
+        120,
+        92
+      ]
+    },
+    "byz_shield_teardrop": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/byzantine/animals/byz_horse_combined_armor_age04/byz_horse_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "bfe58ffa4e93f0224df771acfc48343dd62d228f89a842d4ee36603c66315c00",
+        "bones_modified": 0
+      },
+      "triangles": [
+        288,
+        288,
+        288
+      ]
+    },
+    "lance_grapperedvamplate": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 127,
+        "max_reference_matrix_error": 9.618142939871177e-06,
+        "donor": "art/civilizations/byzantine/animals/byz_horse_combined_armor_age04/byz_horse_combined_armor_age04.rgm",
+        "donor_manifest_sha256": "bfe58ffa4e93f0224df771acfc48343dd62d228f89a842d4ee36603c66315c00",
+        "bones_modified": 0
+      },
+      "triangles": [
+        114,
+        114,
+        114
+      ]
+    }
+  },
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\savar\\models\\byz_horse_combined_armor_age04\\model.blend",
+      "sha256": "8a52572a2f88e0fdfa468df87ba4fe7f700e6e8895e20469305c09b8eb8c2f08"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\savar\\models\\lance_basic\\model.blend",
+      "sha256": "cb3b19dbbe561ab841d800db92be6f5b38cfe3ce3f3002f0b12bfe797f30e64d"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\savar\\models\\torch\\model.blend",
+      "sha256": "f5de9591d5f4c016ba97cd9d66fc6310cf54e526dc1447b5643ca5af93ec2a1f"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\savar\\models\\sul_sword_kilij\\model.blend",
+      "sha256": "a459c89c43c3b0df7f6707a6b14794337f483d8929346ab8d35d77e41d644153"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\savar\\models\\mace_flanged\\model.blend",
+      "sha256": "3687a7275198124c80c48bbbf82f48b370c5034b5f75d9eba77e5249d4d056be"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\savar\\models\\byz_shield_ovalspearman\\model.blend",
+      "sha256": "16ed57e67e12b55d9e75ac32b6cef07eaeac4f4e4bf3820cfc87482f97fe93d5"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\savar\\models\\byz_shield_teardrop\\model.blend",
+      "sha256": "09f59ad63acee7cd03ab1e1d0aeea1f3c693d66a410871486f2905663cce0fd2"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\savar\\models\\lance_grapperedvamplate\\model.blend",
+      "sha256": "00580eee55e99192bced8e90c59a65584b4c725c84f265be23d02e57325894b3"
+    }
+  ],
+  "motion_checks": [
+    {
+      "clip": "rider_sword_shield_navigation\\idle_tense_01",
+      "source_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+      "frames": [
+        1,
+        18,
+        34,
+        51,
+        68,
+        84,
+        101,
+        118,
+        134,
+        151,
+        168,
+        184,
+        201
+      ],
+      "all_equipment_and_lods_socket_error_m": 0.0,
+      "actual_rider_hand_surface_max_gap_m": {
+        "l": 0.007046441579277646,
+        "r": 0.021839583113431017
+      },
+      "max_world_radius_m": 5.325778802594426,
+      "native_vs_remodeled_hand_to_weapon_surface": {
+        "mace_flanged": {
+          "native_max_hand_surface_gap_m": 0.0007774766418151557,
+          "remodeled_max_hand_surface_gap_m": 0.0007774766418151557,
+          "maximum_added_gap_m": 0.0
+        },
+        "sul_sword_kilij": {
+          "native_max_hand_surface_gap_m": 0.0011298551689833403,
+          "remodeled_max_hand_surface_gap_m": 0.0011298551689833403,
+          "maximum_added_gap_m": 0.0
+        },
+        "byz_shield_teardrop": {
+          "native_max_hand_surface_gap_m": 0.0015832013450562954,
+          "remodeled_max_hand_surface_gap_m": 0.0015832013450562954,
+          "maximum_added_gap_m": 0.0
+        }
+      },
+      "hand_release_during_death": "observed, not constrained to maintain grip",
+      "runtime_action_selection": "unverified; original native clips sampled offline"
+    },
+    {
+      "clip": "walk_weapons\\walk_f_01_dave",
+      "source_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+      "frames": [
+        1,
+        11,
+        20,
+        29,
+        39,
+        49,
+        58,
+        67,
+        77,
+        87,
+        96,
+        105,
+        115
+      ],
+      "all_equipment_and_lods_socket_error_m": 0.0,
+      "actual_rider_hand_surface_max_gap_m": {
+        "l": 0.011318360284202184,
+        "r": 0.010582543641541988
+      },
+      "max_world_radius_m": 5.458888852506937,
+      "native_vs_remodeled_hand_to_weapon_surface": {
+        "mace_flanged": {
+          "native_max_hand_surface_gap_m": 0.0003616242902353406,
+          "remodeled_max_hand_surface_gap_m": 0.0003616242902353406,
+          "maximum_added_gap_m": 0.0
+        },
+        "sul_sword_kilij": {
+          "native_max_hand_surface_gap_m": 0.0003842539736069739,
+          "remodeled_max_hand_surface_gap_m": 0.0003842539736069739,
+          "maximum_added_gap_m": 0.0
+        },
+        "byz_shield_teardrop": {
+          "native_max_hand_surface_gap_m": 0.0020907255820930004,
+          "remodeled_max_hand_surface_gap_m": 0.0020907255820930004,
+          "maximum_added_gap_m": 0.0
+        }
+      },
+      "hand_release_during_death": "observed, not constrained to maintain grip",
+      "runtime_action_selection": "unverified; original native clips sampled offline"
+    },
+    {
+      "clip": "trot_weapons\\trot_f_02_cribber",
+      "source_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+      "frames": [
+        1,
+        14,
+        28,
+        41,
+        55,
+        68,
+        81,
+        95,
+        108,
+        122,
+        135,
+        149,
+        162
+      ],
+      "all_equipment_and_lods_socket_error_m": 0.0,
+      "actual_rider_hand_surface_max_gap_m": {
+        "l": 0.013925097272203014,
+        "r": 0.009869415708754636
+      },
+      "max_world_radius_m": 5.598431435880377,
+      "native_vs_remodeled_hand_to_weapon_surface": {
+        "mace_flanged": {
+          "native_max_hand_surface_gap_m": 0.001098167384043336,
+          "remodeled_max_hand_surface_gap_m": 0.001098167384043336,
+          "maximum_added_gap_m": 0.0
+        },
+        "sul_sword_kilij": {
+          "native_max_hand_surface_gap_m": 0.0004347773501649499,
+          "remodeled_max_hand_surface_gap_m": 0.0004347773501649499,
+          "maximum_added_gap_m": 0.0
+        },
+        "byz_shield_teardrop": {
+          "native_max_hand_surface_gap_m": 0.0054030041210353374,
+          "remodeled_max_hand_surface_gap_m": 0.0054030041210353374,
+          "maximum_added_gap_m": 0.0
+        }
+      },
+      "hand_release_during_death": "observed, not constrained to maintain grip",
+      "runtime_action_selection": "unverified; original native clips sampled offline"
+    },
+    {
+      "clip": "gallop_weapons\\gallop_f_10_scooter",
+      "source_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+      "frames": [
+        1,
+        6,
+        11,
+        16,
+        21,
+        26,
+        31,
+        36,
+        41,
+        46,
+        51,
+        56,
+        61
+      ],
+      "all_equipment_and_lods_socket_error_m": 0.0,
+      "actual_rider_hand_surface_max_gap_m": {
+        "l": 0.013154188616657398,
+        "r": 0.012028801632573905
+      },
+      "max_world_radius_m": 5.484907652862983,
+      "native_vs_remodeled_hand_to_weapon_surface": {
+        "mace_flanged": {
+          "native_max_hand_surface_gap_m": 0.0010376321151852608,
+          "remodeled_max_hand_surface_gap_m": 0.0010376321151852608,
+          "maximum_added_gap_m": 0.0
+        },
+        "sul_sword_kilij": {
+          "native_max_hand_surface_gap_m": 0.0001285266043851152,
+          "remodeled_max_hand_surface_gap_m": 0.0001285266043851152,
+          "maximum_added_gap_m": 0.0
+        },
+        "byz_shield_teardrop": {
+          "native_max_hand_surface_gap_m": 0.003827298292890191,
+          "remodeled_max_hand_surface_gap_m": 0.003827298292890191,
+          "maximum_added_gap_m": 0.0
+        }
+      },
+      "hand_release_during_death": "observed, not constrained to maintain grip",
+      "runtime_action_selection": "unverified; original native clips sampled offline"
+    },
+    {
+      "clip": "charge\\spear\\gallop_f_20_strike_spear_01",
+      "source_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+      "frames": [
+        1,
+        6,
+        11,
+        16,
+        21,
+        26,
+        31,
+        36,
+        41,
+        46,
+        51,
+        56,
+        61
+      ],
+      "all_equipment_and_lods_socket_error_m": 0.0,
+      "actual_rider_hand_surface_max_gap_m": {
+        "l": 0.01239438513357663,
+        "r": 0.016844224173819727
+      },
+      "max_world_radius_m": 5.5014253826356345,
+      "native_vs_remodeled_hand_to_weapon_surface": {
+        "lance_basic": {
+          "native_max_hand_surface_gap_m": 0.001683577662333846,
+          "remodeled_max_hand_surface_gap_m": 0.001683577662333846,
+          "maximum_added_gap_m": 0.0
+        },
+        "lance_grapperedvamplate": {
+          "native_max_hand_surface_gap_m": 0.0010855287546291947,
+          "remodeled_max_hand_surface_gap_m": 0.0010855287546291947,
+          "maximum_added_gap_m": 0.0
+        },
+        "byz_shield_teardrop": {
+          "native_max_hand_surface_gap_m": 0.0041307625360786915,
+          "remodeled_max_hand_surface_gap_m": 0.0041307625360786915,
+          "maximum_added_gap_m": 0.0
+        }
+      },
+      "hand_release_during_death": "observed, not constrained to maintain grip",
+      "runtime_action_selection": "unverified; original native clips sampled offline"
+    },
+    {
+      "clip": "rider_sword_shield_attack\\attack_forward_01",
+      "source_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+      "frames": [
+        1,
+        11,
+        21,
+        31,
+        41,
+        51,
+        61,
+        71,
+        81,
+        91,
+        101,
+        111,
+        121
+      ],
+      "all_equipment_and_lods_socket_error_m": 0.0,
+      "actual_rider_hand_surface_max_gap_m": {
+        "l": 0.009092401696446517,
+        "r": 0.02183982131767221
+      },
+      "max_world_radius_m": 5.190187654208158,
+      "native_vs_remodeled_hand_to_weapon_surface": {
+        "mace_flanged": {
+          "native_max_hand_surface_gap_m": 0.0010962620144709945,
+          "remodeled_max_hand_surface_gap_m": 0.0010962620144709945,
+          "maximum_added_gap_m": 0.0
+        },
+        "sul_sword_kilij": {
+          "native_max_hand_surface_gap_m": 0.0008603427559137344,
+          "remodeled_max_hand_surface_gap_m": 0.0008603427559137344,
+          "maximum_added_gap_m": 0.0
+        },
+        "byz_shield_teardrop": {
+          "native_max_hand_surface_gap_m": 0.0036193663254380226,
+          "remodeled_max_hand_surface_gap_m": 0.0036193663254380226,
+          "maximum_added_gap_m": 0.0
+        }
+      },
+      "hand_release_during_death": "observed, not constrained to maintain grip",
+      "runtime_action_selection": "unverified; original native clips sampled offline"
+    },
+    {
+      "clip": "death\\death_d",
+      "source_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+      "frames": [
+        1,
+        12,
+        23,
+        33,
+        44,
+        55,
+        65,
+        76,
+        87,
+        98,
+        109,
+        119,
+        130
+      ],
+      "all_equipment_and_lods_socket_error_m": 0.0,
+      "actual_rider_hand_surface_max_gap_m": {
+        "l": 0.012213909308785268,
+        "r": 1.0024203828064788
+      },
+      "max_world_radius_m": 6.456254121939718,
+      "native_vs_remodeled_hand_to_weapon_surface": {},
+      "hand_release_during_death": "observed, not constrained to maintain grip",
+      "runtime_action_selection": "unverified; original native clips sampled offline"
+    },
+    {
+      "clip": "torch\\idle_tense_01",
+      "source_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+      "frames": [
+        1,
+        51,
+        102,
+        153,
+        203,
+        253,
+        304,
+        355,
+        405,
+        455,
+        506,
+        557,
+        607
+      ],
+      "all_equipment_and_lods_socket_error_m": 0.0,
+      "actual_rider_hand_surface_max_gap_m": {
+        "l": 0.009092355117666658,
+        "r": 0.021839825815209817
+      },
+      "max_world_radius_m": 4.9378747918534724,
+      "native_vs_remodeled_hand_to_weapon_surface": {
+        "torch": {
+          "native_max_hand_surface_gap_m": 0.0026285413186997175,
+          "remodeled_max_hand_surface_gap_m": 0.0026285413186997175,
+          "maximum_added_gap_m": 0.0
+        },
+        "byz_shield_teardrop": {
+          "native_max_hand_surface_gap_m": 0.002233325270935893,
+          "remodeled_max_hand_surface_gap_m": 0.002233325270935893,
+          "maximum_added_gap_m": 0.0
+        }
+      },
+      "hand_release_during_death": "observed, not constrained to maintain grip",
+      "runtime_action_selection": "unverified; original native clips sampled offline"
+    }
+  ],
+  "source_status": "candidate; full budget, saved-file/cold-rebuild and final visual review pending",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified"
+}
