@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\fre_horse_combined_armor_age02\\3cd1cd062d5424d06591\\decoded-static.json",
+  "donor_sha256": "c2addcc11d3bd138e4354325cf611bdc08204a4c0154aff02ca6b2c26ee3964e",
+  "logical_path": "art/civilizations/french/animals/fre_horse_combined_armor_age02/fre_horse_combined_armor_age02.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "c6a345303b63f49b8a31a501892389d40e78c4f10666dfd0787f758a64780a35",
+    "normal": "2c5fbe014c13976a31badbdb3556a361f706492ef99a19af4a468927ad1f2357",
+    "roughness": "95c1b1785a9f044d50fc7c86e5ef5ccb6cc328a25385b8910d7e3565b1603db7",
+    "metalness": "b2b2d3c51af967bf38a1acba0ced48090d737311fcfbcfacc4a78f5b76c3ff6d",
+    "pattern": "60a905dd48a8465d2bd862530a85f833985f59e496f6a55a37ee0bf4f8042108"
+  }
+}

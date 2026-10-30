@@ -1,0 +1,159 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "savar",
+  "donor": "art/civilizations/sultanate/weapons/sul_sword_kilij/sul_sword_kilij.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\savar\\models\\sul_sword_kilij\\model.blend",
+  "source_sha256": "a459c89c43c3b0df7f6707a6b14794337f483d8929346ab8d35d77e41d644153",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 111,
+      "triangles": 123,
+      "sha256": "19e07477f21975ecd952952ef16a8caa4ebce59a89e6a5ad69d2e9a9889a64a8"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 116,
+      "triangles": 137,
+      "sha256": "278e2c78bb9c7ced376680b570d9d1e8c7bba160efeb04438e6ada4a0ad4b46b"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 72,
+      "triangles": 77,
+      "sha256": "515650aa18d87071e0c8db4793daa387477957fcc4784dc76dc9c7602288ac99"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_savar_sul_sword_kilij_LOD0",
+      "vertices": 111,
+      "triangles": 123,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_savar_sul_sword_kilij_LOD1",
+      "vertices": 116,
+      "triangles": 137,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_savar_sul_sword_kilij_LOD2",
+      "vertices": 72,
+      "triangles": 77,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 51,
+      "changed_vertices": 24,
+      "source_vertices": 111,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 57,
+      "changed_vertices": 19,
+      "source_vertices": 116,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 29,
+      "changed_vertices": 13,
+      "source_vertices": 72,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 51,
+      "changed_vertices": 24,
+      "source_vertices": 111,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 57,
+      "changed_vertices": 19,
+      "source_vertices": 116,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 29,
+      "changed_vertices": 13,
+      "source_vertices": 72,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/sultanate/weapons/sul_sword_kilij/sul_sword_kilij.rgm",
+  "geometry_donor": "art/civilizations/sultanate/weapons/sul_sword_kilij/sul_sword_kilij.rgm"
+}

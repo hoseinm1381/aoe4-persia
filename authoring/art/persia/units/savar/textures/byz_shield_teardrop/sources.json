@@ -1,0 +1,73 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\byz_shield_teardrop\\2201b20ba3a6e3877f8f\\decoded-static.json",
+  "donor_sha256": "b252c60b0518c380c78ae416b13e51a3875926d5a59cc72cd3dd45e25c2a5ec9",
+  "logical_path": "art/civilizations/byzantine/weapons/byz_shield_teardrop/byz_shield_teardrop.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "43559091c5271dc1e20a49ee1617b75bd16bcaae1098b8cdbd6f6adbc47183bb",
+    "normal": "e9f805b089e77a664970fc83ecfce4139ba5204f77c31d7c1a4c6812bb8c22cd",
+    "roughness": "096d0cdf3ca74cec38fbe2c0a5cba745d59ae7f1f5730ab92a9567482c391513",
+    "metalness": "3c78c956d09739e3f6fe7dbc4547cfc3ba6bc6cd24ac372dc61cb35eff88db69",
+    "pattern": "816a49028d13b547d3b146af3988d5929bfec6bcf61849b6fa33961f811abe74"
+  },
+  "equipment_surface_recipe": "continuous forged metal, longitudinal wood; interpreted eight-lobed painted shield field, not attributed to a surviving medieval object"
+}
