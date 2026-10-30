@@ -1,0 +1,74 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\_projectile_audit\\models\\common_cannonball_ozutsu\\48cbd11da3bf38404653\\decoded-static.json",
+  "donor_sha256": "c35b7898e1ac1e676ecc6944c6d7347fa51196ac860cb19f6ccf7b205e2d5fff",
+  "logical_path": "art/civilizations/common/weapons/projectiles/common_cannonball_ozutsu/common_cannonball_ozutsu.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "530e7a64fbf6f940b9eb62e575a580b8a1c355e36cf53a0eb2146d2b38ccc06f",
+    "normal": "ca930495d731accfd4b83019ba0120a129b04e035cebfbb58cf766564266dd43",
+    "roughness": "fde639e608d33a8e5ec647a826863c2f5efe55201e73d917118701127821e05a",
+    "metalness": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  },
+  "native_albedo_alpha_preserved": true,
+  "neutral_native_primitive_colours_retained": true
+}

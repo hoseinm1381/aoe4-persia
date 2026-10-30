@@ -1,0 +1,64 @@
+{
+  "columns": [
+    {
+      "column": 0,
+      "slug": "bow_arrow",
+      "variants": [
+        "native_variant_0_0"
+      ]
+    },
+    {
+      "column": 1,
+      "slug": "common_arrow",
+      "variants": [
+        "native_variant_0_0",
+        "native_variant_0_1",
+        "native_variant_0_2"
+      ]
+    },
+    {
+      "column": 2,
+      "slug": "common_arrow_incendiary",
+      "variants": [
+        "native_variant_0_0",
+        "native_variant_0_1",
+        "native_variant_0_2"
+      ]
+    },
+    {
+      "column": 3,
+      "slug": "common_bolt",
+      "variants": [
+        "native_variant_0_0",
+        "native_variant_0_1",
+        "native_variant_0_2"
+      ]
+    },
+    {
+      "column": 4,
+      "slug": "common_bolt_incendiary",
+      "variants": [
+        "native_variant_0_0",
+        "native_variant_0_1",
+        "native_variant_0_2"
+      ]
+    },
+    {
+      "column": 5,
+      "slug": "common_cannonball_ozutsu",
+      "variants": [
+        "native_variant_0_0"
+      ]
+    },
+    {
+      "column": 6,
+      "slug": "common_torch",
+      "variants": [
+        "native_variant_0_0"
+      ]
+    }
+  ],
+  "layout": "columns alphabetical; rows preserved native variants. Independent normalization for inspection, not native scale comparison. Same tiny silhouette retained for authored LODs.",
+  "native_groups_not_qualified_LODs": true,
+  "source_files_modified": false
+}

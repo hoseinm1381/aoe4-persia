@@ -1,0 +1,474 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "archer",
+  "donor": "art/civilizations/ottoman/weapons/ott_bow_tirkes/ott_bow_tirkes.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\ott_bow_tirkes\\model.blend",
+  "source_sha256": "37bfef4b22a25b1f1aef93c7f0a8d8be1dfe19bfcac868a49179ceafe8c5a6be",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "sampled_native_deformation_checks",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "4b0a6b286d67e8bb121fad8531276384cfb0810c03f4bf09d3ccd3a07a7ddfb4",
+  "rig_bones": 4,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 223,
+      "triangles": 196,
+      "sha256": "1733ff1af3ffa3debfc32968d6c1f0f2632ffd7dcad7363b895e7c1841b78080"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 151,
+      "triangles": 116,
+      "sha256": "dff320c317fd7daf19288652fc905f31fe3ea829431071363ec3bf82dc006751"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 127,
+      "triangles": 92,
+      "sha256": "bd13b31edcfc5ce1cf4b2a9944eda6e4e8576ecce46a790a9c6f85497de88c6a"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_archer_ott_bow_tirkes_LOD0",
+      "vertices": 223,
+      "triangles": 196,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_archer_ott_bow_tirkes_LOD1",
+      "vertices": 151,
+      "triangles": 116,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_archer_ott_bow_tirkes_LOD2",
+      "vertices": 127,
+      "triangles": 92,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    }
+  ],
+  "native_lod_contract": [
+    {
+      "lod": 0,
+      "allowed_bones": [
+        "bone_root",
+        "bow_lower",
+        "bow_string",
+        "bow_upper"
+      ],
+      "used_bones": [
+        "bone_root",
+        "bow_lower",
+        "bow_string",
+        "bow_upper"
+      ],
+      "native_skin_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "lod": 1,
+      "allowed_bones": [
+        "bone_root",
+        "bow_string"
+      ],
+      "used_bones": [
+        "bone_root",
+        "bow_string"
+      ],
+      "native_skin_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "lod": 2,
+      "allowed_bones": [
+        "bone_root"
+      ],
+      "used_bones": [
+        "bone_root"
+      ],
+      "native_skin_indices": [
+        0
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 60,
+      "changed_vertices": 146,
+      "source_vertices": 223,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 7,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 52,
+      "changed_vertices": 82,
+      "source_vertices": 151,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 87,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 52,
+      "changed_vertices": 66,
+      "source_vertices": 127,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 1,
+      "protected_string_joint_displacement_m": 0.0
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_archer_ott_bow_tirkes_LOD0": 0.02072550356388092,
+        "PSU_archer_ott_bow_tirkes_LOD1": 0.020870722830295563,
+        "PSU_archer_ott_bow_tirkes_LOD2": 0
+      },
+      "clip": "rider_ranged\\aim_straight",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        6,
+        11,
+        16,
+        21,
+        26,
+        31,
+        36,
+        41,
+        46,
+        51,
+        56,
+        61
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 0.6611328125,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_archer_ott_bow_tirkes_LOD0": 0.460694819688797,
+        "PSU_archer_ott_bow_tirkes_LOD1": 0.4609060287475586,
+        "PSU_archer_ott_bow_tirkes_LOD2": 0
+      },
+      "clip": "rider_ranged\\shoot_straight",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13,
+        16,
+        19,
+        21,
+        23,
+        26,
+        29,
+        31
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 0.6611328125,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_archer_ott_bow_tirkes_LOD0": 0.4515264332294464,
+        "PSU_archer_ott_bow_tirkes_LOD1": 0.45196881890296936,
+        "PSU_archer_ott_bow_tirkes_LOD2": 0
+      },
+      "clip": "rider_ranged\\shoot_left90",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13,
+        16,
+        19,
+        21,
+        23,
+        26,
+        29,
+        31
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 0.6688163876533508,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_archer_ott_bow_tirkes_LOD0": 0.47999995946884155,
+        "PSU_archer_ott_bow_tirkes_LOD1": 0.47999995946884155,
+        "PSU_archer_ott_bow_tirkes_LOD2": 0
+      },
+      "clip": "rider_ranged\\shoot_right90",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13,
+        16,
+        19,
+        21,
+        23,
+        26,
+        29,
+        31
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 0.6691291332244873,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_archer_ott_bow_tirkes_LOD0": 0.009895272552967072,
+        "PSU_archer_ott_bow_tirkes_LOD1": 0.009924434125423431,
+        "PSU_archer_ott_bow_tirkes_LOD2": 0
+      },
+      "clip": "rider_ranged\\aim_straight_up",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        6,
+        11,
+        16,
+        21,
+        26,
+        31,
+        36,
+        41,
+        46,
+        51,
+        56,
+        61
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 0.6611328125,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_archer_ott_bow_tirkes_LOD0": 0.3100000023841858,
+        "PSU_archer_ott_bow_tirkes_LOD1": 0.3100000023841858,
+        "PSU_archer_ott_bow_tirkes_LOD2": 0
+      },
+      "clip": "rider_ranged\\shoot_straight_up",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13,
+        16,
+        19,
+        21,
+        23,
+        26,
+        29,
+        31
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 0.6611328125,
+      "runtime_action_selection": "not established by offline preview"
+    }
+  ],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 60,
+      "changed_vertices": 146,
+      "source_vertices": 223,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 7,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 52,
+      "changed_vertices": 82,
+      "source_vertices": 151,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 87,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 52,
+      "changed_vertices": 66,
+      "source_vertices": 127,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 1,
+      "protected_string_joint_displacement_m": 0.0
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/ottoman/weapons/ott_bow_tirkes/ott_bow_tirkes.rgm",
+  "geometry_donor": "art/civilizations/ottoman/weapons/ott_bow_tirkes/ott_bow_tirkes.rgm"
+}

@@ -1,0 +1,312 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "ammunition",
+  "donor": "art/civilizations/common/weapons/projectiles/common_arrow/common_arrow.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\ammunition\\models\\common_arrow\\model.blend",
+  "source_sha256": "2b3b9c94116a06d4f9507f77b7b2c763219cf5df5684edf3eb16e10e97557574",
+  "steps": [
+    "official_projectile_or_held_prop_donor",
+    "preserve_all_native_groups_without_inventing_LOD_mapping",
+    "native_tip_nock_origin_and_longitudinal_profile_preserved",
+    "three_authored_detail_objects_with_tiny_native_profiles_retained"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "native_variant_0_0",
+      "vertices": 44,
+      "triangles": 34,
+      "sha256": "8b05336c2fbf79ca79747c3d5969e0d4be3ad463c834146b2eeb2b2916d7683a"
+    },
+    {
+      "lod": 1,
+      "component": "native_variant_0_0",
+      "vertices": 44,
+      "triangles": 34,
+      "sha256": "8b05336c2fbf79ca79747c3d5969e0d4be3ad463c834146b2eeb2b2916d7683a"
+    },
+    {
+      "lod": 2,
+      "component": "native_variant_0_0",
+      "vertices": 44,
+      "triangles": 34,
+      "sha256": "8b05336c2fbf79ca79747c3d5969e0d4be3ad463c834146b2eeb2b2916d7683a"
+    },
+    {
+      "lod": 0,
+      "component": "native_variant_0_1",
+      "vertices": 44,
+      "triangles": 34,
+      "sha256": "bdeabb0ca0e5fc1774f72fec8e8dd19bae2ed856fdb1a85d3eafec9153750f59"
+    },
+    {
+      "lod": 1,
+      "component": "native_variant_0_1",
+      "vertices": 44,
+      "triangles": 34,
+      "sha256": "bdeabb0ca0e5fc1774f72fec8e8dd19bae2ed856fdb1a85d3eafec9153750f59"
+    },
+    {
+      "lod": 2,
+      "component": "native_variant_0_1",
+      "vertices": 44,
+      "triangles": 34,
+      "sha256": "bdeabb0ca0e5fc1774f72fec8e8dd19bae2ed856fdb1a85d3eafec9153750f59"
+    },
+    {
+      "lod": 0,
+      "component": "native_variant_0_2",
+      "vertices": 44,
+      "triangles": 34,
+      "sha256": "46c846f872526679ab01dfe37956d1a9c40e4cd7b752871ab8feebf1438c27e3"
+    },
+    {
+      "lod": 1,
+      "component": "native_variant_0_2",
+      "vertices": 44,
+      "triangles": 34,
+      "sha256": "46c846f872526679ab01dfe37956d1a9c40e4cd7b752871ab8feebf1438c27e3"
+    },
+    {
+      "lod": 2,
+      "component": "native_variant_0_2",
+      "vertices": 44,
+      "triangles": 34,
+      "sha256": "46c846f872526679ab01dfe37956d1a9c40e4cd7b752871ab8feebf1438c27e3"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_ammunition_common_arrow_variant0_0_LOD0",
+      "vertices": 44,
+      "triangles": 34,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_ammunition_common_arrow_variant0_0_LOD1",
+      "vertices": 44,
+      "triangles": 34,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_ammunition_common_arrow_variant0_0_LOD2",
+      "vertices": 44,
+      "triangles": 34,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_ammunition_common_arrow_variant0_1_LOD0",
+      "vertices": 44,
+      "triangles": 34,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_ammunition_common_arrow_variant0_1_LOD1",
+      "vertices": 44,
+      "triangles": 34,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_ammunition_common_arrow_variant0_1_LOD2",
+      "vertices": 44,
+      "triangles": 34,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_ammunition_common_arrow_variant0_2_LOD0",
+      "vertices": 44,
+      "triangles": 34,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_ammunition_common_arrow_variant0_2_LOD1",
+      "vertices": 44,
+      "triangles": 34,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_ammunition_common_arrow_variant0_2_LOD2",
+      "vertices": 44,
+      "triangles": 34,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "native_forward_axis": 1,
+      "longitudinal_positions_unchanged": true,
+      "tip_nock_and_central_shaft_vertices_protected": 3,
+      "changed_outer_profile_vertices": 41,
+      "local_origin_unchanged": true,
+      "neutral_native_primitive": false,
+      "interpretation": "native fletching count retained; restrained narrower outer feather/head profile; no asserted dynasty-specific arrow uniform"
+    },
+    {
+      "native_forward_axis": 1,
+      "longitudinal_positions_unchanged": true,
+      "tip_nock_and_central_shaft_vertices_protected": 3,
+      "changed_outer_profile_vertices": 41,
+      "local_origin_unchanged": true,
+      "neutral_native_primitive": false,
+      "interpretation": "native fletching count retained; restrained narrower outer feather/head profile; no asserted dynasty-specific arrow uniform"
+    },
+    {
+      "native_forward_axis": 1,
+      "longitudinal_positions_unchanged": true,
+      "tip_nock_and_central_shaft_vertices_protected": 3,
+      "changed_outer_profile_vertices": 41,
+      "local_origin_unchanged": true,
+      "neutral_native_primitive": false,
+      "interpretation": "native fletching count retained; restrained narrower outer feather/head profile; no asserted dynasty-specific arrow uniform"
+    },
+    {
+      "native_forward_axis": 1,
+      "longitudinal_positions_unchanged": true,
+      "tip_nock_and_central_shaft_vertices_protected": 3,
+      "changed_outer_profile_vertices": 41,
+      "local_origin_unchanged": true,
+      "neutral_native_primitive": false,
+      "interpretation": "native fletching count retained; restrained narrower outer feather/head profile; no asserted dynasty-specific arrow uniform"
+    },
+    {
+      "native_forward_axis": 1,
+      "longitudinal_positions_unchanged": true,
+      "tip_nock_and_central_shaft_vertices_protected": 3,
+      "changed_outer_profile_vertices": 41,
+      "local_origin_unchanged": true,
+      "neutral_native_primitive": false,
+      "interpretation": "native fletching count retained; restrained narrower outer feather/head profile; no asserted dynasty-specific arrow uniform"
+    },
+    {
+      "native_forward_axis": 1,
+      "longitudinal_positions_unchanged": true,
+      "tip_nock_and_central_shaft_vertices_protected": 3,
+      "changed_outer_profile_vertices": 41,
+      "local_origin_unchanged": true,
+      "neutral_native_primitive": false,
+      "interpretation": "native fletching count retained; restrained narrower outer feather/head profile; no asserted dynasty-specific arrow uniform"
+    },
+    {
+      "native_forward_axis": 1,
+      "longitudinal_positions_unchanged": true,
+      "tip_nock_and_central_shaft_vertices_protected": 3,
+      "changed_outer_profile_vertices": 41,
+      "local_origin_unchanged": true,
+      "neutral_native_primitive": false,
+      "interpretation": "native fletching count retained; restrained narrower outer feather/head profile; no asserted dynasty-specific arrow uniform"
+    },
+    {
+      "native_forward_axis": 1,
+      "longitudinal_positions_unchanged": true,
+      "tip_nock_and_central_shaft_vertices_protected": 3,
+      "changed_outer_profile_vertices": 41,
+      "local_origin_unchanged": true,
+      "neutral_native_primitive": false,
+      "interpretation": "native fletching count retained; restrained narrower outer feather/head profile; no asserted dynasty-specific arrow uniform"
+    },
+    {
+      "native_forward_axis": 1,
+      "longitudinal_positions_unchanged": true,
+      "tip_nock_and_central_shaft_vertices_protected": 3,
+      "changed_outer_profile_vertices": 41,
+      "local_origin_unchanged": true,
+      "neutral_native_primitive": false,
+      "interpretation": "native fletching count retained; restrained narrower outer feather/head profile; no asserted dynasty-specific arrow uniform"
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "editable ammunition dependency candidate; native held-prop/action binding remains deferred",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "native_geometry_variants": [
+    {
+      "native_mesh_index": 0,
+      "native_group_index": 0,
+      "native_material": "lod1",
+      "source_triangles": 34,
+      "native_group_semantics": "preserved variant; group-to-native-LOD/action mapping unproven"
+    },
+    {
+      "native_mesh_index": 0,
+      "native_group_index": 1,
+      "native_material": "lod1",
+      "source_triangles": 34,
+      "native_group_semantics": "preserved variant; group-to-native-LOD/action mapping unproven"
+    },
+    {
+      "native_mesh_index": 0,
+      "native_group_index": 2,
+      "native_material": "lod1",
+      "source_triangles": 34,
+      "native_group_semantics": "preserved variant; group-to-native-LOD/action mapping unproven"
+    }
+  ],
+  "detail_policy": "three authored levels per preserved native group;16-128triangle native profiles retained rather than damaging point/nock/feather silhouette to force fractional counts",
+  "native_LOD_mapping": "unqualified; native groups are not labeled as native LODs",
+  "neutral_native_primitive": false,
+  "exclusive_donor_index": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_units\\projectile_resolution\\donors.json",
+  "source_recipe_script": "F:\\aoe_4_temp\\Temp_before_github_push\\tools\\persia_units\\ammo_recipe.py"
+}

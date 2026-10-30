@@ -1,0 +1,130 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "ammunition",
+  "donor": "art/civilizations/common/weapons/projectiles/common_torch/common_torch.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\ammunition\\models\\common_torch\\model.blend",
+  "source_sha256": "8d58e96703e2bf96754cf602dc0e41fb45808861dbf658ee1e3c26d60f7aa10b",
+  "steps": [
+    "official_projectile_or_held_prop_donor",
+    "preserve_all_native_groups_without_inventing_LOD_mapping",
+    "native_tip_nock_origin_and_longitudinal_profile_preserved",
+    "three_authored_detail_objects_with_tiny_native_profiles_retained"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "native_variant_0_0",
+      "vertices": 46,
+      "triangles": 44,
+      "sha256": "fa8e29a3aab91f8d7c748082220891cf1db445f981c27737482d76665497c2d2"
+    },
+    {
+      "lod": 1,
+      "component": "native_variant_0_0",
+      "vertices": 46,
+      "triangles": 44,
+      "sha256": "fa8e29a3aab91f8d7c748082220891cf1db445f981c27737482d76665497c2d2"
+    },
+    {
+      "lod": 2,
+      "component": "native_variant_0_0",
+      "vertices": 46,
+      "triangles": 44,
+      "sha256": "fa8e29a3aab91f8d7c748082220891cf1db445f981c27737482d76665497c2d2"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_ammunition_common_torch_variant0_0_LOD0",
+      "vertices": 46,
+      "triangles": 44,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_ammunition_common_torch_variant0_0_LOD1",
+      "vertices": 46,
+      "triangles": 44,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_ammunition_common_torch_variant0_0_LOD2",
+      "vertices": 46,
+      "triangles": 44,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "native_forward_axis": 2,
+      "longitudinal_positions_unchanged": true,
+      "tip_nock_and_central_shaft_vertices_protected": 10,
+      "changed_outer_profile_vertices": 36,
+      "local_origin_unchanged": true,
+      "neutral_native_primitive": false,
+      "interpretation": "native fletching count retained; restrained narrower outer feather/head profile; no asserted dynasty-specific arrow uniform"
+    },
+    {
+      "native_forward_axis": 2,
+      "longitudinal_positions_unchanged": true,
+      "tip_nock_and_central_shaft_vertices_protected": 10,
+      "changed_outer_profile_vertices": 36,
+      "local_origin_unchanged": true,
+      "neutral_native_primitive": false,
+      "interpretation": "native fletching count retained; restrained narrower outer feather/head profile; no asserted dynasty-specific arrow uniform"
+    },
+    {
+      "native_forward_axis": 2,
+      "longitudinal_positions_unchanged": true,
+      "tip_nock_and_central_shaft_vertices_protected": 10,
+      "changed_outer_profile_vertices": 36,
+      "local_origin_unchanged": true,
+      "neutral_native_primitive": false,
+      "interpretation": "native fletching count retained; restrained narrower outer feather/head profile; no asserted dynasty-specific arrow uniform"
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "editable ammunition dependency candidate; native held-prop/action binding remains deferred",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "native_geometry_variants": [
+    {
+      "native_mesh_index": 0,
+      "native_group_index": 0,
+      "native_material": "mat_common_torch",
+      "source_triangles": 44,
+      "native_group_semantics": "preserved variant; group-to-native-LOD/action mapping unproven"
+    }
+  ],
+  "detail_policy": "three authored levels per preserved native group;16-128triangle native profiles retained rather than damaging point/nock/feather silhouette to force fractional counts",
+  "native_LOD_mapping": "unqualified; native groups are not labeled as native LODs",
+  "neutral_native_primitive": false,
+  "exclusive_donor_index": "F:\\aoe_4_temp\\Temp_before_github_push\\research\\persia_units\\projectile_resolution\\donors.json",
+  "source_recipe_script": "F:\\aoe_4_temp\\Temp_before_github_push\\tools\\persia_units\\ammo_recipe.py"
+}

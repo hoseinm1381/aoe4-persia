@@ -1,0 +1,379 @@
+{
+  "family": "archer",
+  "body": "sul_ranged_bow_age04",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\assemblies\\sul_ranged_bow_age04\\assembly.blend",
+  "sha256": "b618f92ab1f3a9cb888d3e97e006a3e76a02e8f49f796cc15a153a7409fba515",
+  "rig_bones": 48,
+  "rig_contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+  "secondary_rigs": {
+    "bow_short": {
+      "bones": 4,
+      "rig_contract_sha256": "cfaf5aa2440149048d18fd792d9f3fe95f7942424bda9171dd0a5431ca3da137"
+    },
+    "bow_long": {
+      "bones": 4,
+      "rig_contract_sha256": "4b0a6b286d67e8bb121fad8531276384cfb0810c03f4bf09d3ccd3a07a7ddfb4"
+    },
+    "ott_bow_tirkes": {
+      "bones": 4,
+      "rig_contract_sha256": "4b0a6b286d67e8bb121fad8531276384cfb0810c03f4bf09d3ccd3a07a7ddfb4"
+    }
+  },
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "body",
+      "vertices": 1322,
+      "triangles": 1461,
+      "sha256": "9db4a668e80c02a5f4e7acedb146831b832e08bca866d39e521fcf1a1f680794"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 223,
+      "triangles": 196,
+      "sha256": "1733ff1af3ffa3debfc32968d6c1f0f2632ffd7dcad7363b895e7c1841b78080"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "95dee7258a05d081a5dff89a08998fecfae5179ec40ec8cd79c092141c726162"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "a68fbd949ddb32b561615fdc810a4542e7b856713574d0575e315be4e59d6e51"
+    },
+    {
+      "lod": 1,
+      "component": "body",
+      "vertices": 666,
+      "triangles": 608,
+      "sha256": "18f5ee2b92892f623e67f24d4fbd87855d6e53bf76efcd6a2ee2bb52bcbc5c44"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 69,
+      "triangles": 84,
+      "sha256": "4a65c1a4c07128842cd5d888d2a2acdb6a15413069653697eda0203177f2d801"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 63,
+      "triangles": 76,
+      "sha256": "d8df85c6d1a5103f683c24bf963cdf248c146053b0bc652298060d528befbed3"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 151,
+      "triangles": 116,
+      "sha256": "dff320c317fd7daf19288652fc905f31fe3ea829431071363ec3bf82dc006751"
+    },
+    {
+      "lod": 2,
+      "component": "body",
+      "vertices": 342,
+      "triangles": 285,
+      "sha256": "5f01f9718099c706a05e043431e1ec960253f2406d29120d761eac5e57d865a2"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 46,
+      "triangles": 50,
+      "sha256": "38db5e0e9080fb6604fb056e127bbc43f01595d1b35b3a46551e4bf1adb61429"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 40,
+      "triangles": 38,
+      "sha256": "b11997f53f20a8efc4a81bd9eeb73fb95ff77216deb69020584353a6e80dc8c1"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 127,
+      "triangles": 92,
+      "sha256": "bd13b31edcfc5ce1cf4b2a9944eda6e4e8576ecce46a790a9c6f85497de88c6a"
+    }
+  ],
+  "equipment": {
+    "bow_short": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+        "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+        "bones_modified": 0
+      },
+      "triangles": [
+        84,
+        76,
+        50
+      ]
+    },
+    "bow_long": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+        "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+        "bones_modified": 0
+      },
+      "triangles": [
+        84,
+        84,
+        38
+      ]
+    },
+    "ott_bow_tirkes": {
+      "socket": "metarig_larmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_ranged_bow_age04/sul_ranged_bow_age04.rgm",
+        "donor_manifest_sha256": "687b10a943383d78ebe66a86bc60178549a3feab8643a0fb6c5c33c54b9689e5",
+        "bones_modified": 0
+      },
+      "triangles": [
+        196,
+        116,
+        92
+      ],
+      "marker_status": "explicit native Persian weapon wrapper; original generic prefix convention corrected"
+    }
+  },
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\sul_ranged_bow_age04\\model.blend",
+      "sha256": "23521fc10c00cdd4adb5c0e58a8e204d9859a8a66c5d3ebebfacadfbebe75ae8"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\bow_short\\model.blend",
+      "sha256": "c8c53f8d796d805cf272b92934448780b13026d5397c82e0d7d58e9d3840dfc3"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\bow_long\\model.blend",
+      "sha256": "73e0fa60b3d01462a227eed9832a38c4c0646bbe33c0f82450c2e47fd89cd2ae"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\archer\\models\\ott_bow_tirkes\\model.blend",
+      "sha256": "37bfef4b22a25b1f1aef93c7f0a8d8be1dfe19bfcac868a49179ceafe8c5a6be"
+    }
+  ],
+  "motion_checks": [
+    {
+      "clip": "navigation\\idle_tense_01",
+      "native_source": {
+        "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_archer/base_archer.rhka",
+        "rhka_sha256": "6a20c42abe69eb0f5217bda35153a3d577dc4f0c47e6291572b8d3f2c8c46c0a",
+        "selection_status": "linked_library_candidate",
+        "runtime_selection_status": "not_decoded"
+      },
+      "body_deformation_samples": [
+        {
+          "frame": 1,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7736103546298982
+        },
+        {
+          "frame": 95,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.783866551047632
+        },
+        {
+          "frame": 190,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7888018315903926
+        },
+        {
+          "frame": 285,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7989010418124265
+        },
+        {
+          "frame": 379,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7736103546298982
+        }
+      ],
+      "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+    }
+  ],
+  "source_status": "editable equipped batch candidate; one family review pending",
+  "outstanding_motion_gates": [
+    "full movement/combat/work/death action coverage",
+    "native secondary weapon synchronization",
+    "runtime state selection",
+    "native-game validation"
+  ]
+}

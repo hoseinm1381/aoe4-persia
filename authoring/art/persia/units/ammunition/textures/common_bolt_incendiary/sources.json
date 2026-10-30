@@ -1,0 +1,73 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\_projectile_audit\\models\\common_bolt_incendiary\\451f1159ac39b23512c2\\decoded-static.json",
+  "donor_sha256": "0d1938ab0afa6023323d486fbb97c34ec8c915a2f2005e4050293782efd2650e",
+  "logical_path": "art/civilizations/common/weapons/projectiles/common_bolt_incendiary/common_bolt_incendiary.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "8b2f9a03433426f88e83430952b639d3cf551a241437b01d59dd32ac2f4b688b",
+    "normal": "70cca7f144b1c5c99aa15fcd89e2329e0d89f4497ed55504130471ceaf48acfb",
+    "roughness": "d18697dd3653424f6415ea946691ef52cc725033a6be28e477df5bb95cadfac4",
+    "metalness": "453c09f271eca21f619f3344a9b65b0617758239ad33dfc8adfe753ec4325f76",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  },
+  "native_albedo_alpha_preserved": true
+}
