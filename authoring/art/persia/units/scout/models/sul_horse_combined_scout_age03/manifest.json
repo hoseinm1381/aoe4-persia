@@ -1,0 +1,2526 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "scout",
+  "donor": "art/civilizations/sultanate/animals/sul_horse_combined_scout_age03/sul_horse_combined_scout_age03.rgm",
+  "role": "mount",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\scout\\models\\sul_horse_combined_scout_age03\\model.blend",
+  "source_sha256": "ee3e7f1c0728100133860be4b9bdc40ac7613c220be34202b73f6efb3076f930",
+  "steps": [
+    "clothing_visual_refinement",
+    "compatible_official_face_graft",
+    "donor_clothing_reshape_and_fitted_kaftan",
+    "role_specific_persian_wrapped_headwear",
+    "shortened_shaped_native_light_saddle_furnishings"
+  ],
+  "rig_contract_sha256": "01f1385ca6c85e6948aeb536e1ca2e7fdcd0cac66cbbfbdace8330e5082a5f5f",
+  "rig_bones": 127,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "rider",
+      "vertices": 1255,
+      "triangles": 1598,
+      "sha256": "1ca0ce0bd3d13f2ed6f287b02aefceb2cef94a4ab43971c2efefb913b39be72f"
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "vertices": 2230,
+      "triangles": 2436,
+      "sha256": "a733894081a43450db696dd1b64eebfc715e923faa5e17717853ddb40d38c144"
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "vertices": 633,
+      "triangles": 676,
+      "sha256": "4d69941c6c65b4dff395da50650490a94a0a419017b33672e57c0fd77b729a62"
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "vertices": 910,
+      "triangles": 745,
+      "sha256": "e976ecb62906d5ff9c1538314e65f69b91ff02fcf7f4ed22eb477392bc8d61a4"
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "vertices": 387,
+      "triangles": 348,
+      "sha256": "1d993e6f7e31bb2ceb459f4aa4cf0329d09534aa659cb91f1e20cd8dc9482896"
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "vertices": 451,
+      "triangles": 331,
+      "sha256": "45b571cd8c579ae475dd9225d08600ae164fe7c412f4a894a2b4edaa0e655fa2"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_scout_sul_horse_combined_scout_age03_rider_LOD0",
+      "vertices": 1255,
+      "triangles": 1598,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_scout_sul_horse_combined_scout_age03_mount_LOD0",
+      "vertices": 2230,
+      "triangles": 2436,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_scout_sul_horse_combined_scout_age03_rider_LOD1",
+      "vertices": 633,
+      "triangles": 676,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_scout_sul_horse_combined_scout_age03_mount_LOD1",
+      "vertices": 910,
+      "triangles": 745,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_scout_sul_horse_combined_scout_age03_rider_LOD2",
+      "vertices": 387,
+      "triangles": 348,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_scout_sul_horse_combined_scout_age03_mount_LOD2",
+      "vertices": 451,
+      "triangles": 331,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    }
+  ],
+  "native_lod_contract": [
+    {
+      "lod": 0,
+      "component": "rider",
+      "allowed_bones": [
+        "metarig_cape_c_back_01",
+        "metarig_cape_c_back_02",
+        "metarig_cape_c_back_03",
+        "metarig_cape_l_back_01",
+        "metarig_cape_l_back_02",
+        "metarig_cape_l_back_03",
+        "metarig_cape_r_back_01",
+        "metarig_cape_r_back_02",
+        "metarig_cape_r_back_03",
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmindex1",
+        "metarig_larmindex2",
+        "metarig_larmindex3",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmmiddle1",
+        "metarig_larmmiddle2",
+        "metarig_larmmiddle3",
+        "metarig_larmpalm",
+        "metarig_larmthumb1",
+        "metarig_larmthumb2",
+        "metarig_larmthumb3",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_llegankle",
+        "metarig_llegtoe1",
+        "metarig_neck1",
+        "metarig_neck2",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmindex1",
+        "metarig_rarmindex2",
+        "metarig_rarmindex3",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmmiddle1",
+        "metarig_rarmmiddle2",
+        "metarig_rarmmiddle3",
+        "metarig_rarmpalm",
+        "metarig_rarmthumb1",
+        "metarig_rarmthumb2",
+        "metarig_rarmthumb3",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_rlegankle",
+        "metarig_rlegtoe1",
+        "metarig_spine1",
+        "metarig_spine2"
+      ]
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "allowed_bones": [
+        "gaia_c_head",
+        "gaia_c_neck1",
+        "gaia_c_neck2",
+        "gaia_c_neck3",
+        "gaia_c_neck4",
+        "gaia_c_pelvis",
+        "gaia_c_spine1",
+        "gaia_c_spine2",
+        "gaia_c_spine3",
+        "gaia_c_spine4",
+        "gaia_c_tail0",
+        "gaia_c_tail1",
+        "gaia_c_tail2",
+        "gaia_c_tail3",
+        "gaia_c_tail4",
+        "gaia_c_tail5",
+        "gaia_c_tail6",
+        "gaia_l_arm_finger",
+        "gaia_l_arm_fingerbase",
+        "gaia_l_arm_lower",
+        "gaia_l_arm_shoulder",
+        "gaia_l_arm_upper",
+        "gaia_l_arm_wrist",
+        "gaia_l_cloth_jointa1",
+        "gaia_l_cloth_jointa2",
+        "gaia_l_cloth_jointb1",
+        "gaia_l_cloth_jointb2",
+        "gaia_l_cloth_jointc1",
+        "gaia_l_cloth_jointc2",
+        "gaia_l_cloth_jointd1",
+        "gaia_l_cloth_jointd2",
+        "gaia_l_cloth_jointe1",
+        "gaia_l_cloth_jointe2",
+        "gaia_l_cloth_jointf1",
+        "gaia_l_cloth_jointf2",
+        "gaia_l_leg_ankle",
+        "gaia_l_leg_lower",
+        "gaia_l_leg_toe",
+        "gaia_l_leg_toebase",
+        "gaia_l_leg_upper",
+        "gaia_l_stirrup2",
+        "gaia_r_arm_finger",
+        "gaia_r_arm_fingerbase",
+        "gaia_r_arm_lower",
+        "gaia_r_arm_shoulder",
+        "gaia_r_arm_upper",
+        "gaia_r_arm_wrist",
+        "gaia_r_cloth_jointa1",
+        "gaia_r_cloth_jointa2",
+        "gaia_r_cloth_jointb1",
+        "gaia_r_cloth_jointb2",
+        "gaia_r_cloth_jointc1",
+        "gaia_r_cloth_jointc2",
+        "gaia_r_cloth_jointd1",
+        "gaia_r_cloth_jointd2",
+        "gaia_r_cloth_jointe1",
+        "gaia_r_cloth_jointe2",
+        "gaia_r_cloth_jointf1",
+        "gaia_r_leg_ankle",
+        "gaia_r_leg_lower",
+        "gaia_r_leg_toe",
+        "gaia_r_leg_toebase",
+        "gaia_r_leg_upper",
+        "gaia_r_stirrup2"
+      ]
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "allowed_bones": [
+        "metarig_cape_c_back_01",
+        "metarig_cape_c_back_02",
+        "metarig_cape_l_back_01",
+        "metarig_cape_l_back_02",
+        "metarig_cape_r_back_01",
+        "metarig_cape_r_back_02",
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmmiddle1",
+        "metarig_larmpalm",
+        "metarig_larmthumb1",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_llegankle",
+        "metarig_neck1",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmmiddle1",
+        "metarig_rarmpalm",
+        "metarig_rarmthumb1",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_rlegankle",
+        "metarig_spine1",
+        "metarig_spine2"
+      ]
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "allowed_bones": [
+        "gaia_c_head",
+        "gaia_c_neck1",
+        "gaia_c_neck2",
+        "gaia_c_neck3",
+        "gaia_c_neck4",
+        "gaia_c_pelvis",
+        "gaia_c_spine1",
+        "gaia_c_spine2",
+        "gaia_c_spine3",
+        "gaia_c_spine4",
+        "gaia_c_tail0",
+        "gaia_c_tail1",
+        "gaia_c_tail2",
+        "gaia_c_tail3",
+        "gaia_c_tail4",
+        "gaia_c_tail5",
+        "gaia_l_arm_fingerbase",
+        "gaia_l_arm_lower",
+        "gaia_l_arm_shoulder",
+        "gaia_l_arm_upper",
+        "gaia_l_arm_wrist",
+        "gaia_l_cloth_jointa1",
+        "gaia_l_cloth_jointb1",
+        "gaia_l_cloth_jointc1",
+        "gaia_l_cloth_jointd1",
+        "gaia_l_cloth_jointe1",
+        "gaia_l_cloth_jointf1",
+        "gaia_l_leg_ankle",
+        "gaia_l_leg_lower",
+        "gaia_l_leg_toebase",
+        "gaia_l_leg_upper",
+        "gaia_l_stirrup2",
+        "gaia_r_arm_fingerbase",
+        "gaia_r_arm_lower",
+        "gaia_r_arm_shoulder",
+        "gaia_r_arm_upper",
+        "gaia_r_arm_wrist",
+        "gaia_r_cloth_jointa1",
+        "gaia_r_cloth_jointb1",
+        "gaia_r_cloth_jointc1",
+        "gaia_r_cloth_jointd1",
+        "gaia_r_cloth_jointe1",
+        "gaia_r_cloth_jointf1",
+        "gaia_r_leg_ankle",
+        "gaia_r_leg_lower",
+        "gaia_r_leg_toebase",
+        "gaia_r_leg_upper",
+        "gaia_r_stirrup2"
+      ]
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "allowed_bones": [
+        "metarig_cape_c_back_01",
+        "metarig_cape_l_back_01",
+        "metarig_cape_r_back_01",
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmpalm",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_neck1",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmpalm",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_spine1",
+        "metarig_spine2"
+      ]
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "allowed_bones": [
+        "gaia_c_head",
+        "gaia_c_neck1",
+        "gaia_c_neck2",
+        "gaia_c_neck3",
+        "gaia_c_neck4",
+        "gaia_c_pelvis",
+        "gaia_c_spine2",
+        "gaia_c_spine3",
+        "gaia_c_spine4",
+        "gaia_c_tail0",
+        "gaia_c_tail1",
+        "gaia_c_tail2",
+        "gaia_c_tail3",
+        "gaia_c_tail4",
+        "gaia_c_tail5",
+        "gaia_l_arm_lower",
+        "gaia_l_arm_shoulder",
+        "gaia_l_arm_upper",
+        "gaia_l_arm_wrist",
+        "gaia_l_leg_ankle",
+        "gaia_l_leg_lower",
+        "gaia_l_leg_upper",
+        "gaia_r_arm_lower",
+        "gaia_r_arm_shoulder",
+        "gaia_r_arm_upper",
+        "gaia_r_arm_wrist",
+        "gaia_r_leg_ankle",
+        "gaia_r_leg_lower",
+        "gaia_r_leg_upper"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "object": "sul_horse_combined_scout_age03 \u00b7 sul_cavalry_scout_age03 \u00b7 rider_lod1.001",
+      "native_degenerate_repair": [
+        {
+          "face": 700,
+          "coincident_pair": [
+            615,
+            616
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        },
+        {
+          "face": 702,
+          "coincident_pair": [
+            615,
+            616
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        }
+      ],
+      "immutable_donor_retained": true
+    },
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 230,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "clothing_budget_protected_contact_vertices": 230,
+      "maximum_contact_displacement_m": 0.0
+    },
+    {
+      "complete_native_family_cap": 4149,
+      "reserved_largest_used_weapon_triangles": 107,
+      "body_cap": 1606,
+      "before_body_triangles": 1782,
+      "after_body_triangles": 1598,
+      "concealed_donor_triangles_removed": 0,
+      "budget_met": true,
+      "scope": "density reduction only on replaced donor clothing; grafted face and new panels kept; native hand/foot points preserved"
+    },
+    {
+      "native_stirrup_tail_and_rig_preserved": true,
+      "remodeled_native_blanket_vertices": 160,
+      "owner_cloth_faces": 86,
+      "selected_source_components": [
+        {
+          "region": "saddle blanket",
+          "vertices": 6,
+          "minimum": [
+            -0.492431640625,
+            -0.350341796875,
+            0.8291015625
+          ],
+          "maximum": [
+            -0.4541015625,
+            -0.28759765625,
+            0.96826171875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            -0.6298828125,
+            -0.350341796875,
+            0.8291015625
+          ],
+          "maximum": [
+            -0.46337890625,
+            -0.30712890625,
+            0.98193359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 15,
+          "minimum": [
+            -0.544921875,
+            -0.343994140625,
+            0.96826171875
+          ],
+          "maximum": [
+            -0.2274169921875,
+            -0.28662109375,
+            1.4345703125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            0.2274169921875,
+            -0.405517578125,
+            0.88525390625
+          ],
+          "maximum": [
+            0.366943359375,
+            0.323974609375,
+            1.208984375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.317138671875,
+            0.24755859375,
+            0.8896484375
+          ],
+          "maximum": [
+            -0.300537109375,
+            0.31396484375,
+            1.0048828125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.32568359375,
+            0.24755859375,
+            0.8896484375
+          ],
+          "maximum": [
+            -0.308837890625,
+            0.31396484375,
+            1.0048828125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            -0.61328125,
+            -0.304931640625,
+            0.8291015625
+          ],
+          "maximum": [
+            -0.4541015625,
+            -0.2489013671875,
+            0.98193359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 6,
+          "minimum": [
+            -0.6298828125,
+            -0.31591796875,
+            0.86767578125
+          ],
+          "maximum": [
+            -0.537109375,
+            -0.2489013671875,
+            0.98193359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            -0.360595703125,
+            -0.395751953125,
+            0.8955078125
+          ],
+          "maximum": [
+            -0.286865234375,
+            0.346435546875,
+            1.1943359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            0.4541015625,
+            -0.304931640625,
+            0.8291015625
+          ],
+          "maximum": [
+            0.61328125,
+            -0.2489013671875,
+            0.98193359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 6,
+          "minimum": [
+            0.537109375,
+            -0.31591796875,
+            0.86767578125
+          ],
+          "maximum": [
+            0.6298828125,
+            -0.2489013671875,
+            0.98193359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.351318359375,
+            -0.0966796875,
+            0.81494140625
+          ],
+          "maximum": [
+            -0.3271484375,
+            -0.0239410400390625,
+            0.92236328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.309814453125,
+            -0.1275634765625,
+            0.81103515625
+          ],
+          "maximum": [
+            0.332763671875,
+            -0.065673828125,
+            0.91845703125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 15,
+          "minimum": [
+            0.2274169921875,
+            -0.343994140625,
+            0.96826171875
+          ],
+          "maximum": [
+            0.544921875,
+            -0.28662109375,
+            1.4345703125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.285400390625,
+            -0.2393798828125,
+            0.81103515625
+          ],
+          "maximum": [
+            0.2890625,
+            -0.1767578125,
+            0.91650390625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.333984375,
+            -0.017822265625,
+            0.82373046875
+          ],
+          "maximum": [
+            0.343994140625,
+            0.053131103515625,
+            0.9208984375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.326904296875,
+            0.0908203125,
+            0.83447265625
+          ],
+          "maximum": [
+            0.353515625,
+            0.157958984375,
+            0.9365234375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.2900390625,
+            0.2027587890625,
+            0.84765625
+          ],
+          "maximum": [
+            0.30517578125,
+            0.269287109375,
+            0.96337890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 6,
+          "minimum": [
+            0.4541015625,
+            -0.350341796875,
+            0.8291015625
+          ],
+          "maximum": [
+            0.492431640625,
+            -0.28759765625,
+            0.96826171875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            0.46337890625,
+            -0.350341796875,
+            0.8291015625
+          ],
+          "maximum": [
+            0.6298828125,
+            -0.30712890625,
+            0.98193359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.293701171875,
+            -0.2393798828125,
+            0.81103515625
+          ],
+          "maximum": [
+            0.297119140625,
+            -0.1767578125,
+            0.91650390625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.3427734375,
+            -0.0966796875,
+            0.81494140625
+          ],
+          "maximum": [
+            -0.318603515625,
+            -0.0239410400390625,
+            0.92236328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.30029296875,
+            0.12481689453125,
+            1.1328125
+          ],
+          "maximum": [
+            0.32275390625,
+            0.323486328125,
+            1.3369140625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            0.29833984375,
+            -0.395751953125,
+            0.88525390625
+          ],
+          "maximum": [
+            0.366943359375,
+            0.323974609375,
+            1.197265625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.285888671875,
+            -0.323974609375,
+            0.8232421875
+          ],
+          "maximum": [
+            -0.267578125,
+            -0.24755859375,
+            0.92626953125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.353515625,
+            0.136474609375,
+            0.86181640625
+          ],
+          "maximum": [
+            -0.33251953125,
+            0.2027587890625,
+            0.9638671875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.31884765625,
+            0.0908203125,
+            0.83447265625
+          ],
+          "maximum": [
+            0.345458984375,
+            0.157958984375,
+            0.9365234375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.301513671875,
+            -0.1275634765625,
+            0.81103515625
+          ],
+          "maximum": [
+            0.324462890625,
+            -0.065673828125,
+            0.91845703125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.298095703125,
+            0.2027587890625,
+            0.84765625
+          ],
+          "maximum": [
+            0.313232421875,
+            0.269287109375,
+            0.96337890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            -0.62158203125,
+            -0.347900390625,
+            0.83056640625
+          ],
+          "maximum": [
+            -0.46435546875,
+            -0.251220703125,
+            0.9716796875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.6044921875,
+            -0.293701171875,
+            0.84130859375
+          ],
+          "maximum": [
+            -0.465576171875,
+            -0.2548828125,
+            0.89111328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.61474609375,
+            -0.3388671875,
+            0.85546875
+          ],
+          "maximum": [
+            -0.465576171875,
+            -0.263427734375,
+            0.89111328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.465576171875,
+            -0.293701171875,
+            0.84130859375
+          ],
+          "maximum": [
+            0.6044921875,
+            -0.2548828125,
+            0.89111328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.465576171875,
+            -0.3388671875,
+            0.85546875
+          ],
+          "maximum": [
+            0.61474609375,
+            -0.263427734375,
+            0.89111328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            -0.360595703125,
+            -0.405517578125,
+            0.8955078125
+          ],
+          "maximum": [
+            -0.226806640625,
+            0.346435546875,
+            1.208984375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.329345703125,
+            0.12481689453125,
+            1.1328125
+          ],
+          "maximum": [
+            -0.314697265625,
+            0.336669921875,
+            1.333984375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            0.46435546875,
+            -0.347900390625,
+            0.83056640625
+          ],
+          "maximum": [
+            0.62158203125,
+            -0.251220703125,
+            0.9716796875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.6298828125,
+            -0.31396484375,
+            0.86474609375
+          ],
+          "maximum": [
+            -0.60498046875,
+            -0.2489013671875,
+            0.8681640625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.60498046875,
+            -0.31396484375,
+            0.86474609375
+          ],
+          "maximum": [
+            0.6298828125,
+            -0.2489013671875,
+            0.8681640625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.3017578125,
+            -0.2015380859375,
+            0.798828125
+          ],
+          "maximum": [
+            -0.28515625,
+            -0.13037109375,
+            0.908203125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.285400390625,
+            -0.351318359375,
+            0.81982421875
+          ],
+          "maximum": [
+            0.307861328125,
+            -0.2880859375,
+            0.9287109375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.35205078125,
+            0.0269622802734375,
+            0.8486328125
+          ],
+          "maximum": [
+            -0.337646484375,
+            0.097900390625,
+            0.9462890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.34228515625,
+            -0.017822265625,
+            0.82373046875
+          ],
+          "maximum": [
+            0.35205078125,
+            0.053131103515625,
+            0.9208984375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.48828125,
+            -0.350341796875,
+            0.8291015625
+          ],
+          "maximum": [
+            -0.462646484375,
+            -0.28515625,
+            0.8310546875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.29443359375,
+            -0.323974609375,
+            0.8232421875
+          ],
+          "maximum": [
+            -0.276123046875,
+            -0.24755859375,
+            0.92626953125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.462646484375,
+            -0.350341796875,
+            0.8291015625
+          ],
+          "maximum": [
+            0.48828125,
+            -0.28515625,
+            0.8310546875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.310302734375,
+            -0.2015380859375,
+            0.798828125
+          ],
+          "maximum": [
+            -0.293701171875,
+            -0.13037109375,
+            0.908203125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.619140625,
+            -0.345703125,
+            0.84130859375
+          ],
+          "maximum": [
+            -0.47998046875,
+            -0.30859375,
+            0.89111328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.47998046875,
+            -0.345703125,
+            0.84130859375
+          ],
+          "maximum": [
+            0.619140625,
+            -0.30859375,
+            0.89111328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.619140625,
+            -0.345703125,
+            0.84130859375
+          ],
+          "maximum": [
+            -0.46826171875,
+            -0.2548828125,
+            0.87744140625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.46826171875,
+            -0.345703125,
+            0.84130859375
+          ],
+          "maximum": [
+            0.619140625,
+            -0.2548828125,
+            0.87744140625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.343505859375,
+            0.0269622802734375,
+            0.8486328125
+          ],
+          "maximum": [
+            -0.3291015625,
+            0.097900390625,
+            0.9462890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.27734375,
+            -0.351318359375,
+            0.81982421875
+          ],
+          "maximum": [
+            0.2998046875,
+            -0.2880859375,
+            0.9287109375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.344970703125,
+            0.136474609375,
+            0.86181640625
+          ],
+          "maximum": [
+            -0.323974609375,
+            0.2027587890625,
+            0.9638671875
+          ]
+        }
+      ],
+      "new_horse_armor": false
+    },
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 121,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "object": "sul_horse_combined_scout_age04 \u00b7 sul_horse_scout_age04 \u00b7 horse_lod2.002",
+      "native_degenerate_repair": [
+        {
+          "face": 81,
+          "coincident_pair": [
+            436,
+            438
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        },
+        {
+          "face": 85,
+          "coincident_pair": [
+            436,
+            438
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        },
+        {
+          "face": 97,
+          "coincident_pair": [
+            632,
+            635
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        },
+        {
+          "face": 101,
+          "coincident_pair": [
+            631,
+            634
+          ],
+          "identical_native_weights": true,
+          "permanently_zero_area": true
+        }
+      ],
+      "immutable_donor_retained": true
+    },
+    {
+      "native_stirrup_tail_and_rig_preserved": true,
+      "remodeled_native_blanket_vertices": 127,
+      "owner_cloth_faces": 58,
+      "selected_source_components": [
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.340576171875,
+            -0.038177490234375,
+            1.04296875
+          ],
+          "maximum": [
+            -0.2264404296875,
+            0.317626953125,
+            1.21484375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 1,
+          "minimum": [
+            -0.24365234375,
+            -0.61279296875,
+            0.97900390625
+          ],
+          "maximum": [
+            -0.24365234375,
+            -0.61279296875,
+            0.97900390625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 6,
+          "minimum": [
+            -0.340576171875,
+            -0.61279296875,
+            0.89453125
+          ],
+          "maximum": [
+            -0.24365234375,
+            0.33251953125,
+            1.21484375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.2890625,
+            -0.323974609375,
+            0.8232421875
+          ],
+          "maximum": [
+            -0.26953125,
+            -0.24755859375,
+            0.92626953125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.3232421875,
+            0.0269622802734375,
+            0.8486328125
+          ],
+          "maximum": [
+            -0.308837890625,
+            0.097900390625,
+            0.9462890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.340576171875,
+            -0.04974365234375,
+            1.16015625
+          ],
+          "maximum": [
+            -0.302001953125,
+            0.323974609375,
+            1.4033203125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.303466796875,
+            -0.12841796875,
+            0.81103515625
+          ],
+          "maximum": [
+            0.32080078125,
+            -0.0654296875,
+            0.91845703125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.30419921875,
+            -0.017822265625,
+            0.82373046875
+          ],
+          "maximum": [
+            0.314208984375,
+            0.053131103515625,
+            0.9208984375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 6,
+          "minimum": [
+            0.243408203125,
+            -0.61279296875,
+            0.88134765625
+          ],
+          "maximum": [
+            0.33544921875,
+            0.312255859375,
+            1.2158203125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            -0.61328125,
+            -0.304931640625,
+            0.8291015625
+          ],
+          "maximum": [
+            -0.4541015625,
+            -0.2489013671875,
+            0.98193359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 11,
+          "minimum": [
+            -0.6298828125,
+            -0.350341796875,
+            0.8291015625
+          ],
+          "maximum": [
+            -0.4541015625,
+            -0.2489013671875,
+            0.98193359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            0.4541015625,
+            -0.304931640625,
+            0.8291015625
+          ],
+          "maximum": [
+            0.61328125,
+            -0.2489013671875,
+            0.98193359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 11,
+          "minimum": [
+            0.4541015625,
+            -0.350341796875,
+            0.8291015625
+          ],
+          "maximum": [
+            0.6298828125,
+            -0.2489013671875,
+            0.98193359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.285400390625,
+            -0.2393798828125,
+            0.81103515625
+          ],
+          "maximum": [
+            0.2890625,
+            -0.1767578125,
+            0.91650390625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 10,
+          "minimum": [
+            -0.6298828125,
+            -0.350341796875,
+            0.8291015625
+          ],
+          "maximum": [
+            -0.46337890625,
+            -0.30712890625,
+            0.97509765625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 8,
+          "minimum": [
+            -0.537109375,
+            -0.343994140625,
+            0.96826171875
+          ],
+          "maximum": [
+            -0.2288818359375,
+            -0.28662109375,
+            1.43359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 6,
+          "minimum": [
+            -0.340576171875,
+            -0.34814453125,
+            0.89453125
+          ],
+          "maximum": [
+            -0.287109375,
+            0.33251953125,
+            1.21484375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.2900390625,
+            0.2027587890625,
+            0.84765625
+          ],
+          "maximum": [
+            0.30517578125,
+            0.269287109375,
+            0.96337890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 8,
+          "minimum": [
+            0.2288818359375,
+            -0.343994140625,
+            0.96826171875
+          ],
+          "maximum": [
+            0.537109375,
+            -0.28662109375,
+            1.43359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.301025390625,
+            0.09130859375,
+            0.83447265625
+          ],
+          "maximum": [
+            0.322998046875,
+            0.15673828125,
+            0.9365234375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.31201171875,
+            -0.09808349609375,
+            0.81494140625
+          ],
+          "maximum": [
+            -0.306884765625,
+            -0.0214385986328125,
+            0.92236328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 10,
+          "minimum": [
+            0.46337890625,
+            -0.350341796875,
+            0.8291015625
+          ],
+          "maximum": [
+            0.6298828125,
+            -0.30712890625,
+            0.97509765625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.293701171875,
+            -0.2393798828125,
+            0.81103515625
+          ],
+          "maximum": [
+            0.297119140625,
+            -0.1767578125,
+            0.91650390625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.296142578125,
+            -0.017822265625,
+            0.82373046875
+          ],
+          "maximum": [
+            0.30615234375,
+            0.053131103515625,
+            0.9208984375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.320556640625,
+            -0.09808349609375,
+            0.81494140625
+          ],
+          "maximum": [
+            -0.3154296875,
+            -0.0214385986328125,
+            0.92236328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.312744140625,
+            0.248046875,
+            0.8896484375
+          ],
+          "maximum": [
+            -0.293212890625,
+            0.312255859375,
+            1.00390625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.33154296875,
+            0.136474609375,
+            0.86181640625
+          ],
+          "maximum": [
+            -0.310546875,
+            0.2027587890625,
+            0.9638671875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.298095703125,
+            0.2027587890625,
+            0.84765625
+          ],
+          "maximum": [
+            0.313232421875,
+            0.269287109375,
+            0.96337890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 11,
+          "minimum": [
+            -0.62158203125,
+            -0.347900390625,
+            0.83056640625
+          ],
+          "maximum": [
+            -0.46435546875,
+            -0.251220703125,
+            0.97119140625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.61669921875,
+            -0.34228515625,
+            0.84814453125
+          ],
+          "maximum": [
+            -0.465576171875,
+            -0.263427734375,
+            0.89111328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.6044921875,
+            -0.293701171875,
+            0.84130859375
+          ],
+          "maximum": [
+            -0.465576171875,
+            -0.2548828125,
+            0.89111328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.465576171875,
+            -0.34228515625,
+            0.84814453125
+          ],
+          "maximum": [
+            0.61669921875,
+            -0.263427734375,
+            0.89111328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.465576171875,
+            -0.293701171875,
+            0.84130859375
+          ],
+          "maximum": [
+            0.6044921875,
+            -0.2548828125,
+            0.89111328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.280517578125,
+            -0.323974609375,
+            0.8232421875
+          ],
+          "maximum": [
+            -0.260986328125,
+            -0.24755859375,
+            0.92626953125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 11,
+          "minimum": [
+            0.46435546875,
+            -0.347900390625,
+            0.83056640625
+          ],
+          "maximum": [
+            0.62158203125,
+            -0.251220703125,
+            0.97119140625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.6298828125,
+            -0.31396484375,
+            0.86474609375
+          ],
+          "maximum": [
+            -0.60498046875,
+            -0.2489013671875,
+            0.8681640625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.60498046875,
+            -0.31396484375,
+            0.86474609375
+          ],
+          "maximum": [
+            0.6298828125,
+            -0.2489013671875,
+            0.8681640625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.3017578125,
+            -0.2015380859375,
+            0.806640625
+          ],
+          "maximum": [
+            -0.28515625,
+            -0.13037109375,
+            0.916015625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.3212890625,
+            0.248046875,
+            0.8896484375
+          ],
+          "maximum": [
+            -0.3017578125,
+            0.312255859375,
+            1.00390625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.285400390625,
+            -0.351318359375,
+            0.81982421875
+          ],
+          "maximum": [
+            0.307861328125,
+            -0.2880859375,
+            0.9287109375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 6,
+          "minimum": [
+            0.298095703125,
+            -0.348876953125,
+            0.88134765625
+          ],
+          "maximum": [
+            0.3359375,
+            0.312255859375,
+            1.2158203125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.48828125,
+            -0.350341796875,
+            0.8291015625
+          ],
+          "maximum": [
+            -0.462646484375,
+            -0.28515625,
+            0.8310546875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.462646484375,
+            -0.350341796875,
+            0.8291015625
+          ],
+          "maximum": [
+            0.48828125,
+            -0.28515625,
+            0.8310546875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.295166015625,
+            -0.12841796875,
+            0.81103515625
+          ],
+          "maximum": [
+            0.312744140625,
+            -0.0654296875,
+            0.91845703125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.331787109375,
+            0.0269622802734375,
+            0.8486328125
+          ],
+          "maximum": [
+            -0.3173828125,
+            0.097900390625,
+            0.9462890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.29296875,
+            0.09130859375,
+            0.83447265625
+          ],
+          "maximum": [
+            0.31494140625,
+            0.15673828125,
+            0.9365234375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.310302734375,
+            -0.2015380859375,
+            0.806640625
+          ],
+          "maximum": [
+            -0.293701171875,
+            -0.13037109375,
+            0.916015625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.61669921875,
+            -0.34228515625,
+            0.84130859375
+          ],
+          "maximum": [
+            -0.46826171875,
+            -0.2548828125,
+            0.88427734375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.46826171875,
+            -0.34228515625,
+            0.84130859375
+          ],
+          "maximum": [
+            0.61669921875,
+            -0.2548828125,
+            0.88427734375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.299560546875,
+            -0.05322265625,
+            1.1630859375
+          ],
+          "maximum": [
+            0.3359375,
+            0.31396484375,
+            1.404296875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.27734375,
+            -0.351318359375,
+            0.81982421875
+          ],
+          "maximum": [
+            0.2998046875,
+            -0.2880859375,
+            0.9287109375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.322998046875,
+            0.136474609375,
+            0.86181640625
+          ],
+          "maximum": [
+            -0.302001953125,
+            0.2027587890625,
+            0.9638671875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.2264404296875,
+            -0.04534912109375,
+            1.04296875
+          ],
+          "maximum": [
+            0.333740234375,
+            0.31103515625,
+            1.2158203125
+          ]
+        }
+      ],
+      "new_horse_armor": false
+    },
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 28,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "native_stirrup_tail_and_rig_preserved": true,
+      "remodeled_native_blanket_vertices": 98,
+      "owner_cloth_faces": 38,
+      "selected_source_components": [
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.28662109375,
+            -0.2015380859375,
+            0.798828125
+          ],
+          "maximum": [
+            -0.25,
+            -0.13037109375,
+            1.017578125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.3330078125,
+            -0.038177490234375,
+            0.95947265625
+          ],
+          "maximum": [
+            -0.2022705078125,
+            0.32080078125,
+            1.28515625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 6,
+          "minimum": [
+            -0.3330078125,
+            -0.61279296875,
+            0.89453125
+          ],
+          "maximum": [
+            -0.2225341796875,
+            0.33251953125,
+            1.28515625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.351318359375,
+            -0.0966796875,
+            0.81494140625
+          ],
+          "maximum": [
+            -0.266357421875,
+            -0.0239410400390625,
+            1.0322265625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.25927734375,
+            -0.017822265625,
+            0.82373046875
+          ],
+          "maximum": [
+            0.333984375,
+            0.053131103515625,
+            1.0302734375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.2421875,
+            -0.2393798828125,
+            0.81103515625
+          ],
+          "maximum": [
+            0.287109375,
+            -0.1767578125,
+            1.0234375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.260009765625,
+            0.09332275390625,
+            0.83447265625
+          ],
+          "maximum": [
+            0.33544921875,
+            0.157958984375,
+            1.044921875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.266845703125,
+            0.09332275390625,
+            0.83447265625
+          ],
+          "maximum": [
+            0.343505859375,
+            0.157958984375,
+            1.044921875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.2333984375,
+            -0.351318359375,
+            0.81982421875
+          ],
+          "maximum": [
+            0.2998046875,
+            -0.288818359375,
+            1.033203125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.28173828125,
+            -0.323974609375,
+            0.8232421875
+          ],
+          "maximum": [
+            -0.24560546875,
+            -0.252685546875,
+            1.0341796875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.268310546875,
+            -0.1275634765625,
+            0.81103515625
+          ],
+          "maximum": [
+            0.32275390625,
+            -0.065673828125,
+            1.0283203125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.26611328125,
+            -0.017822265625,
+            0.82373046875
+          ],
+          "maximum": [
+            0.34228515625,
+            0.053131103515625,
+            1.0302734375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.35205078125,
+            0.0269622802734375,
+            0.8486328125
+          ],
+          "maximum": [
+            -0.268798828125,
+            0.097900390625,
+            1.0556640625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.273193359375,
+            -0.323974609375,
+            0.8232421875
+          ],
+          "maximum": [
+            -0.2384033203125,
+            -0.252685546875,
+            1.0341796875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.31787109375,
+            -0.158203125,
+            0.88134765625
+          ],
+          "maximum": [
+            0.33544921875,
+            0.3125,
+            1.3642578125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 6,
+          "minimum": [
+            0.222412109375,
+            -0.61279296875,
+            0.88134765625
+          ],
+          "maximum": [
+            0.33544921875,
+            0.3125,
+            1.287109375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.2469482421875,
+            0.2039794921875,
+            0.84765625
+          ],
+          "maximum": [
+            0.30517578125,
+            0.269287109375,
+            1.068359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.253662109375,
+            0.2039794921875,
+            0.84765625
+          ],
+          "maximum": [
+            0.313232421875,
+            0.269287109375,
+            1.068359375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.353515625,
+            0.1380615234375,
+            0.86181640625
+          ],
+          "maximum": [
+            -0.274658203125,
+            0.2027587890625,
+            1.0712890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.3330078125,
+            -0.1572265625,
+            0.89453125
+          ],
+          "maximum": [
+            -0.3173828125,
+            0.33251953125,
+            1.3623046875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.313232421875,
+            0.248779296875,
+            0.8896484375
+          ],
+          "maximum": [
+            -0.26904296875,
+            0.31396484375,
+            1.1103515625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.2490234375,
+            -0.2393798828125,
+            0.81103515625
+          ],
+          "maximum": [
+            0.295166015625,
+            -0.1767578125,
+            1.0234375
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.261474609375,
+            -0.1275634765625,
+            0.81103515625
+          ],
+          "maximum": [
+            0.314453125,
+            -0.065673828125,
+            1.0283203125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.295166015625,
+            -0.2015380859375,
+            0.798828125
+          ],
+          "maximum": [
+            -0.257080078125,
+            -0.13037109375,
+            1.017578125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.344970703125,
+            0.1380615234375,
+            0.86181640625
+          ],
+          "maximum": [
+            -0.267578125,
+            0.2027587890625,
+            1.0712890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.304931640625,
+            0.248779296875,
+            0.8896484375
+          ],
+          "maximum": [
+            -0.26171875,
+            0.31396484375,
+            1.1103515625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.240234375,
+            -0.351318359375,
+            0.81982421875
+          ],
+          "maximum": [
+            0.307861328125,
+            -0.288818359375,
+            1.033203125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.3427734375,
+            -0.0966796875,
+            0.81494140625
+          ],
+          "maximum": [
+            -0.25927734375,
+            -0.0239410400390625,
+            1.0322265625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            -0.343505859375,
+            0.0269622802734375,
+            0.8486328125
+          ],
+          "maximum": [
+            -0.261474609375,
+            0.097900390625,
+            1.0556640625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 3,
+          "minimum": [
+            0.2022705078125,
+            -0.04534912109375,
+            0.95947265625
+          ],
+          "maximum": [
+            0.3330078125,
+            0.3125,
+            1.287109375
+          ]
+        }
+      ],
+      "new_horse_armor": false
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "editable mounted batch candidate; one family review pending",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "complete_lod_triangles": [
+    4034,
+    1421,
+    679
+  ],
+  "mount_geometry_donor": "art/civilizations/sultanate/animals/sul_horse_combined_scout_age04/sul_horse_combined_scout_age04.rgm",
+  "mount_bind_max_error": 0.0,
+  "verified_deformation": "unchanged native rig/bind and normalized LOD palettes; uncertain native movement/combat and secondary physics deferred",
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\scout\\models\\sul_horse_combined_scout_age04\\model.blend",
+      "sha256": "c9c5ee78d2c7d9176d74ff3f79c7de26fef7b82372b926bd2d3d92d9891bb09c",
+      "role": "raw official mount reference, exact compatible bind contract"
+    }
+  ]
+}

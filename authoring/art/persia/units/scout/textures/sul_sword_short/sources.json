@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\sul_sword_short\\ee5ec12ef0c7d932e953\\decoded-static.json",
+  "donor_sha256": "9e6d0bd6b226a9b05c2c0de6c750715665480ae9afe7a6a2c3b440cc60bbf440",
+  "logical_path": "art/civilizations/sultanate/weapons/sul_sword_short/sul_sword_short.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "07fc7fe89d8a6ff6246b790b36c2e486d10f2cd17614dabe5ce0a9a13e05ebd4",
+    "normal": "8bb9e983f70ec6e1248619532cd900541b8e69dfab7149d1d38ee7e92f329a94",
+    "roughness": "156f257f9a09eade0075f5d72a46922c1f5af6ea7c07ca15446236b6d3623f34",
+    "metalness": "5e893b049ce6f492b6e63be032aacfcda051b68a74d36270ada1aef38949f49c",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}
