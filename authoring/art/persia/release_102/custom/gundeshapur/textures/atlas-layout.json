@@ -1,0 +1,78 @@
+{
+  "size": 1024,
+  "tile_size": 256,
+  "tiles": {
+    "plaster": [
+      0,
+      0
+    ],
+    "brick": [
+      1,
+      0
+    ],
+    "stone": [
+      2,
+      0
+    ],
+    "timber": [
+      3,
+      0
+    ],
+    "owner": [
+      0,
+      1
+    ],
+    "cloth": [
+      1,
+      1
+    ],
+    "roof": [
+      2,
+      1
+    ],
+    "earth": [
+      3,
+      1
+    ],
+    "leaves": [
+      0,
+      2
+    ],
+    "rubble": [
+      1,
+      2
+    ],
+    "ink": [
+      2,
+      2
+    ],
+    "paper": [
+      3,
+      2
+    ],
+    "metal": [
+      0,
+      3
+    ],
+    "grime": [
+      1,
+      3
+    ],
+    "carving": [
+      2,
+      3
+    ],
+    "pottery": [
+      3,
+      3
+    ]
+  },
+  "roof_rgb": [
+    145,
+    88,
+    66
+  ],
+  "owner_mask": "Dynamic owner R; neutral cloth/owner albedo; other semantic channels preserved",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\gundeshapur\\textures",
+  "packed_maps": "Independent-channel filtering"
+}

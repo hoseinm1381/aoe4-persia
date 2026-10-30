@@ -1,0 +1,28 @@
+{
+  "family": "archery_range",
+  "palette": "1.0.0 retained except neutral dynamic owner and cloth swatches",
+  "size": 1024,
+  "data_channels": "Independent RGB filtering; skin/hair preserved outside explicit cloth/owner tiles",
+  "maps": {
+    "albedo": {
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\release_102\\restored\\archery_range_a4\\textures\\albedo.png",
+      "sha256": "962fe793c49e2d04dae48b06a29249fa91c41adc56640e705ffe0fe21339c0de"
+    },
+    "normal": {
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\release_102\\restored\\archery_range_a4\\textures\\normal.png",
+      "sha256": "9d1ce6aff8127511c5f5575ee8f57aff78141c411f6273027fa5d7f281c5968f"
+    },
+    "roughness": {
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\release_102\\restored\\archery_range_a4\\textures\\roughness.png",
+      "sha256": "42dd79e34da82ff85e66fb0a1a838860359505fb06bc05870dbad33bfd8ad2a4"
+    },
+    "metalness": {
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\release_102\\restored\\archery_range_a4\\textures\\metalness.png",
+      "sha256": "4cd869d593af012cb2507af68c19470e8b37f9ee70b968d187c79f94f5f3d3e9"
+    },
+    "owner_mask": {
+      "path": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\release_102\\restored\\archery_range_a4\\textures\\owner_mask.png",
+      "sha256": "bf8fe75abe237bc379262127beebbfad615dbd509c4be63133e73a0b77705bdd"
+    }
+  }
+}
