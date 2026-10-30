@@ -1,0 +1,474 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "qizilbash",
+  "donor": "art/civilizations/common/weapons/ranged/bow_recurve_gold/bow_recurve_gold.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\qizilbash\\models\\bow_recurve_gold\\model.blend",
+  "source_sha256": "784c60d02822d8f00082ece27f124715f8e6eb5e7545b494450620de082732b0",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "sampled_native_deformation_checks",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "4b0a6b286d67e8bb121fad8531276384cfb0810c03f4bf09d3ccd3a07a7ddfb4",
+  "rig_bones": 4,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 172,
+      "triangles": 148,
+      "sha256": "d27714d8c87dea0f85bf9a6e80d1407bd975e5d2c70504d4144379c3ffe9bffc"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 132,
+      "triangles": 108,
+      "sha256": "04e1ac6a28eacf50177823118dae796ba2316a61e41273e8db74c112dcdcb078"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 104,
+      "triangles": 80,
+      "sha256": "f31485308e7acd4edca76496b202a3f24c97a4cf38296131160e9a9b44088bdb"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_qizilbash_bow_recurve_gold_LOD0",
+      "vertices": 172,
+      "triangles": 148,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_qizilbash_bow_recurve_gold_LOD1",
+      "vertices": 132,
+      "triangles": 108,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_qizilbash_bow_recurve_gold_LOD2",
+      "vertices": 104,
+      "triangles": 80,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    }
+  ],
+  "native_lod_contract": [
+    {
+      "lod": 0,
+      "allowed_bones": [
+        "bone_root",
+        "bow_lower",
+        "bow_string",
+        "bow_upper"
+      ],
+      "used_bones": [
+        "bone_root",
+        "bow_lower",
+        "bow_string",
+        "bow_upper"
+      ],
+      "native_skin_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "lod": 1,
+      "allowed_bones": [
+        "bone_root",
+        "bow_string"
+      ],
+      "used_bones": [
+        "bone_root",
+        "bow_string"
+      ],
+      "native_skin_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "lod": 2,
+      "allowed_bones": [
+        "bone_root"
+      ],
+      "used_bones": [
+        "bone_root"
+      ],
+      "native_skin_indices": [
+        0
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 130,
+      "source_vertices": 172,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 14,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 90,
+      "source_vertices": 132,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 100,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 64,
+      "source_vertices": 104,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 0,
+      "protected_string_joint_displacement_m": 0.0
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_qizilbash_bow_recurve_gold_LOD0": 0.02016635611653328,
+        "PSU_qizilbash_bow_recurve_gold_LOD1": 0.020241711288690567,
+        "PSU_qizilbash_bow_recurve_gold_LOD2": 0
+      },
+      "clip": "rider_ranged\\aim_straight",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        6,
+        11,
+        16,
+        21,
+        26,
+        31,
+        36,
+        41,
+        46,
+        51,
+        56,
+        61
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 0.90234375,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_qizilbash_bow_recurve_gold_LOD0": 0.4602055251598358,
+        "PSU_qizilbash_bow_recurve_gold_LOD1": 0.4602885842323303,
+        "PSU_qizilbash_bow_recurve_gold_LOD2": 0
+      },
+      "clip": "rider_ranged\\shoot_straight",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13,
+        16,
+        19,
+        21,
+        23,
+        26,
+        29,
+        31
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 0.90234375,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_qizilbash_bow_recurve_gold_LOD0": 0.4504368007183075,
+        "PSU_qizilbash_bow_recurve_gold_LOD1": 0.45065104961395264,
+        "PSU_qizilbash_bow_recurve_gold_LOD2": 0
+      },
+      "clip": "rider_ranged\\shoot_left90",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13,
+        16,
+        19,
+        21,
+        23,
+        26,
+        29,
+        31
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 0.9132984280586243,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_qizilbash_bow_recurve_gold_LOD0": 0.48000001907348633,
+        "PSU_qizilbash_bow_recurve_gold_LOD1": 0.47999998927116394,
+        "PSU_qizilbash_bow_recurve_gold_LOD2": 0
+      },
+      "clip": "rider_ranged\\shoot_right90",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13,
+        16,
+        19,
+        21,
+        23,
+        26,
+        29,
+        31
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 0.90234375,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_qizilbash_bow_recurve_gold_LOD0": 0.01016247272491455,
+        "PSU_qizilbash_bow_recurve_gold_LOD1": 0.010242324322462082,
+        "PSU_qizilbash_bow_recurve_gold_LOD2": 0
+      },
+      "clip": "rider_ranged\\aim_straight_up",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        6,
+        11,
+        16,
+        21,
+        26,
+        31,
+        36,
+        41,
+        46,
+        51,
+        56,
+        61
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 0.90234375,
+      "runtime_action_selection": "not established by offline preview"
+    },
+    {
+      "native_rigid_lod_evidence": {
+        "2": {
+          "lod": 2,
+          "allowed_bones": [
+            "bone_root"
+          ],
+          "used_bones": [
+            "bone_root"
+          ],
+          "native_skin_indices": [
+            0
+          ],
+          "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+        }
+      },
+      "max_vertex_component_movement": {
+        "PSU_qizilbash_bow_recurve_gold_LOD0": 0.3100000023841858,
+        "PSU_qizilbash_bow_recurve_gold_LOD1": 0.3100000023841858,
+        "PSU_qizilbash_bow_recurve_gold_LOD2": 0
+      },
+      "clip": "rider_ranged\\shoot_straight_up",
+      "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+      "frames_tested": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13,
+        16,
+        19,
+        21,
+        23,
+        26,
+        29,
+        31
+      ],
+      "all_three_lods_finite": true,
+      "max_abs_coordinate": 0.90234375,
+      "runtime_action_selection": "not established by offline preview"
+    }
+  ],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 130,
+      "source_vertices": 172,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 14,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 90,
+      "source_vertices": 132,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 100,
+      "protected_string_joint_displacement_m": 0.0
+    },
+    {
+      "kind": "bow",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 32,
+      "changed_vertices": 64,
+      "source_vertices": 104,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "native_string_and_joint_vertices_protected": 0,
+      "protected_string_joint_displacement_m": 0.0
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/ranged/bow_recurve_gold/bow_recurve_gold.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/ranged/bow_recurve_gold/bow_recurve_gold.rgm"
+}

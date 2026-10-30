@@ -1,0 +1,73 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\bow_recurve\\be9c0249527fc827959f\\decoded-static.json",
+  "donor_sha256": "69fdc761445c6b6dc2268c0e690bd085e559a6729883829fa1209a1dacf62a98",
+  "logical_path": "art/civilizations/common/weapons/ranged/bow_recurve/bow_recurve.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "9c17245853f52d84900fcda6956ab3c81fbcbf5e0c7c2c2067f8bfc7a396ff86",
+    "normal": "17abfb772a61ef1a6798ddb74312db9bc8848500aeba9bc9a00f9eb8051fc05c",
+    "roughness": "d770e33d514e71d0bea24e470c2c6528e9a82d5658cdb3160cbe0817decc5562",
+    "metalness": "decc8d4eda19d8accb7a79fa9dfb6dffeee72283756dd44099ffbd75f418baa6",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  },
+  "equipment_surface_recipe": "continuous forged metal, longitudinal wood; interpreted eight-lobed painted shield field, not attributed to a surviving medieval object"
+}
