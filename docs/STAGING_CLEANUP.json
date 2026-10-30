@@ -1,0 +1,42 @@
+{
+  "owner": "067d2031-d082-4348-b3e7-56d973932702",
+  "version": "0.1.2",
+  "mode": "applied",
+  "targets": [
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-persia\\output\\current\\prepared",
+      "files": 531,
+      "logical_bytes": 12886515
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-persia\\output\\current\\delivery",
+      "files": 6,
+      "logical_bytes": 1169061386
+    },
+    {
+      "path": "C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-independent-builds\\067d2031-d082-4348-b3e7-56d973932702\\current",
+      "files": 5753,
+      "logical_bytes": 4481790428
+    },
+    {
+      "path": "C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-independent-builds\\067d2031-d082-4348-b3e7-56d973932702\\package-current",
+      "files": 4,
+      "logical_bytes": 644544284
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-persia\\tools\\__pycache__",
+      "files": 3,
+      "logical_bytes": 45125
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-persia\\tests\\__pycache__",
+      "files": 3,
+      "logical_bytes": 28651
+    }
+  ],
+  "logical_bytes": 6308356389,
+  "zip_sha256_before": "28c5c65cf0463ca8065789054164907fbd019690c2140e2f318d47402ed1919f",
+  "native_inputs_and_master_indexes_unchanged": true,
+  "release_and_source_inputs": "preserved",
+  "zip_sha256_after": "28c5c65cf0463ca8065789054164907fbd019690c2140e2f318d47402ed1919f"
+}

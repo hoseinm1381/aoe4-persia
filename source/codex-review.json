@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.codex-reviewed/v1",
+  "unique_units": [
+    "ps_unit_manatarms_2_persia",
+    "ps_unit_qizilbash_horsearcher_2",
+    "ps_unit_knight_3_sul",
+    "ps_unit_spy_ayy",
+    "ps_unit_zamburak_persia"
+  ],
+  "unique_techs": [
+    "ps_eco_divan_farm_cheap_persia",
+    "ps_eco_divan_no_limit_persia",
+    "ps_eco_divan_shah_persia",
+    "ps_persia_archer_cost_reduction",
+    "ps_persia_shamshir_divan",
+    "ps_persia_ship_upgrade",
+    "ps_unit_tofangchi_4_per",
+    "ps_upgrade_divan_eco_upgrde_cost_reduction_persia",
+    "ps_divan_military_horse_speed_persia",
+    "ps_eco_divan_tier_1_persia",
+    "ps_persia_unit_dark_to_feudal",
+    "ps_persia_unit_feudal_to_castle",
+    "ps_persia_unit_castle_to_imp"
+  ],
+  "script_builders": [],
+  "bonus_evidence": "Current private EBPS/UPBs and source/scar mechanics, reviewed for 0.1.2. Stable gameplay tables are unchanged."
+}

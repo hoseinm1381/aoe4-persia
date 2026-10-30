@@ -1,0 +1,15 @@
+{
+  "description": "Persia develops through Economic and Military Divans, specialized landmarks and trade. Field Assassins, Persian handgunners, cavalry and Zamburaks, then combine their strengths to control the right matchups. Flexible development paths reward careful army composition and a well-supported economy.",
+  "summary": "Divans, Mobile Armies, Trade.",
+  "author": "hosein81 and chilly5",
+  "civilization": {
+    "period": "934 - 1629 CE",
+    "difficulty": 3,
+    "tagline": "Divans, Mobile Armies, Trade",
+    "bonuses": [
+      "Choose Economic or Military Divan development.",
+      "Field Assassins, Persian handgunners and Zamburaks.",
+      "Specialized landmarks support military, economy and trade."
+    ]
+  }
+}

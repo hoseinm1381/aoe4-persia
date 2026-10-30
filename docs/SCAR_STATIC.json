@@ -1,0 +1,47 @@
+[
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-persia\\source\\scar\\persia\\blueprints.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-persia\\source\\scar\\persia\\lifecycle.scar",
+    "diagnostics": [
+      {
+        "severity": "warning",
+        "code": "players-contract",
+        "message": "`PLAYERS` is used without a visible `cardinal.scar` import; confirm the loader provides it."
+      }
+    ],
+    "summary": {
+      "errors": 0,
+      "warnings": 1
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-persia\\source\\scar\\persia\\initialization.scar",
+    "diagnostics": [
+      {
+        "severity": "warning",
+        "code": "sgroup-lifetime",
+        "message": "Temporary squad group `squads` from `Player_GetSquads` is not visibly destroyed.",
+        "line": 23
+      }
+    ],
+    "summary": {
+      "errors": 0,
+      "warnings": 1
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-persia\\source\\scar\\garrison\\persia\\dispatcher.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  }
+]

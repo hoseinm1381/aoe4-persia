@@ -1,0 +1,16 @@
+{
+  "version": "0.1.1",
+  "zip_bytes": 262957204,
+  "archive_bytes": 642103320,
+  "previous_zip_bytes": 257546740,
+  "incremental_compressed_zip_bytes": 5410464,
+  "added_native_ui_bytes": 2460617,
+  "added_native_ui_mip_payload_bytes": 3889952,
+  "added_ui_decoded_rgba8_estimate_bytes": 15559808,
+  "runtime_vram_or_frametime": "not measured; these are file and decoded-image estimates",
+  "budget": {
+    "zip_below_300MB": true,
+    "zip_below_600MB": true,
+    "note": "Within the existing standalone 300MB target."
+  }
+}

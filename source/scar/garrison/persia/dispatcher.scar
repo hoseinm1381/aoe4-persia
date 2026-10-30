@@ -1,0 +1,45 @@
+import("cardinal.scar")
+Core_RegisterModule("PersiaIndependent")
+import("persia/blueprints.scar")
+import("persia/initialization.scar")
+import("persia/lifecycle.scar")
+
+PersiaIndependentState={started=false,active=false,ending=false,civilizations={},selection={closed=true}}
+local state=PersiaIndependentState
+function PersiaIndependent_OnGameSetup()
+    state.started=false;state.active=false;state.ending=false;state.civilizations={};state.selection={closed=true}
+    PersiaInitializationState.applied={}
+end
+function PersiaIndependent_OnInit()
+    -- Standard remains the owner of victory conditions and starting armies.
+end
+function PersiaIndependent_Start()
+    if state.started or state.ending then return end
+    state.started=true
+    for _,player in ipairs(PLAYERS) do
+        if player.isHuman and Player_GetRaceName(player.id)=="067d2031d0824348b3e756d973932702:persia" then
+            local accepted,reason=PersiaInitialization_Apply(player)
+            if accepted then state.civilizations[player.index]="persia"
+            else print("PERSIA_INDEPENDENT_START_REJECT "..tostring(reason)) end
+        end
+    end
+    if next(state.civilizations)==nil then return end
+    state.active=true
+    PersiaLifecycle_Start(state.civilizations)
+end
+
+function PersiaIndependent_OnGameRestore()
+    if not state.active then return end
+    -- Retained restore hooks do not establish save/load acceptance.
+end
+function PersiaIndependent_OnGameOver()
+    if state.ending then return end
+    state.ending=true
+    if state.active then
+    PersiaLifecycle_Cleanup()
+    end
+    state.active=false
+    state.started=false
+    state.civilizations={}
+    PersiaInitializationState.applied={}
+end

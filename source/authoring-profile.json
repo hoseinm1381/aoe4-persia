@@ -1,0 +1,68 @@
+{
+  "schema": "garrison.civilization-authoring/v1",
+  "owner": "067d2031-d082-4348-b3e7-56d973932702",
+  "race": "persia",
+  "name": "Persia",
+  "description": "Economic and Military Divans provide different development paths. Field Assassins, Persian handgunners, cavalry and Zamburaks. Persian landmarks grant specialized military, economic and trade benefits.",
+  "capital": "067d2031d0824348b3e756d973932702:ps_building_town_center_capital_sul",
+  "villager": "067d2031d0824348b3e756d973932702:ps_unit_villager_1_sul",
+  "scout": "067d2031d0824348b3e756d973932702:ps_unit_scout_1_sul",
+  "speech_race": "sultanate",
+  "speech_speaker": "sultanate",
+  "resources": {
+    "food": 200,
+    "wood": 200,
+    "gold": 100,
+    "stone": 0
+  },
+  "starting_squads": [
+    "067d2031d0824348b3e756d973932702:ps_unit_villager_1_sul",
+    "067d2031d0824348b3e756d973932702:ps_unit_villager_1_sul",
+    "067d2031d0824348b3e756d973932702:ps_unit_villager_1_sul",
+    "067d2031d0824348b3e756d973932702:ps_unit_villager_1_sul",
+    "067d2031d0824348b3e756d973932702:ps_unit_villager_1_sul",
+    "067d2031d0824348b3e756d973932702:ps_unit_villager_1_sul",
+    "067d2031d0824348b3e756d973932702:ps_unit_scout_1_sul"
+  ],
+  "starting_offsets": [
+    [
+      -1.0,
+      -6.0
+    ],
+    [
+      -1.0,
+      -6.0
+    ],
+    [
+      -1.0,
+      -6.0
+    ],
+    [
+      -1.0,
+      -6.0
+    ],
+    [
+      -1.0,
+      -6.0
+    ],
+    [
+      -1.0,
+      -6.0
+    ],
+    [
+      -4.0,
+      10.0
+    ]
+  ],
+  "difficulty": 3,
+  "entity_directory": "persia",
+  "squad_directory": "persia",
+  "traits": "Divans, Mobile Armies, Trade",
+  "bonuses": [
+    "Economic and Military Divans provide different development paths.",
+    "Field Assassins, Persian handgunners, cavalry and Zamburaks.",
+    "Persian landmarks grant specialized military, economic and trade benefits."
+  ],
+  "image_prefix": "garrison/persia/presentation",
+  "period": "Persia"
+}

@@ -1,0 +1,21 @@
+{
+  "method": "Installed sga-archiver replace-member, one native Codex member. Every resulting member fully extracted and SHA-256 checked.",
+  "source": "Stock English ordinary headers lead their available age; age-up landmarks end the preceding age. Products follow their producer.",
+  "previous_archive_sha256": "4d09124462268ab63e4d68776931ef79653a8a38e4e52fba8aa7cc3f5a829356",
+  "archive_sha256": "322182ce5a892bb7d43348a43f3c81482cca54d1a15642b2cb41d2f5858e6e4a",
+  "only_changed_member": "attrib/codex/garrison/persia/persia_codex.rgd",
+  "old_member": {
+    "toc": "attrib",
+    "sha256": "727a2bcb140a2cbf7510e2f41acb39422193e4bb0903a2c11585f4abc8f0df25",
+    "bytes": 294455
+  },
+  "new_member": {
+    "toc": "attrib",
+    "sha256": "4ba822235fc2ec531f843d17ab79f6d7ac3a3ce00e5b0e5903ee04f6116057e9",
+    "bytes": 294455
+  },
+  "all_other_members_byte_identical": 1914,
+  "owner_crc_sha1_verified": true,
+  "declaration_hashes_verified": true,
+  "all_member_readback_sha256": true
+}

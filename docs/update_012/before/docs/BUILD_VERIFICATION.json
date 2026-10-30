@@ -1,0 +1,39 @@
+{
+  "race": "persia",
+  "version": "0.1.1",
+  "owner": "067d2031-d082-4348-b3e7-56d973932702",
+  "source_fingerprint": "da383d400cc9f71d2d365de84176d2636c9e06ce08f4188dc62f6ba1c1ef32ef",
+  "tables": 530,
+  "members": 1915,
+  "archive_bytes": 642103320,
+  "archive_sha256": "743d7941f3ea9549adcef6ac64e38592a0130629814007b283777a01cd09cb64",
+  "zip_name": "Persia-Garrison-0.1.1.zip",
+  "zip_bytes": 262957204,
+  "zip_sha256": "4bade2613cc20f4ddf38cea7a1e33726041f36eb61625cacbcafc8a248a3e02b",
+  "all_member_readback_sha256": true,
+  "native_crc_sha1": true,
+  "zip_crc": true,
+  "preserved_native_media_members": 1330,
+  "native_game_test": "pending",
+  "multiplayer_save_ai_performance": "not qualified",
+  "publication": "not performed",
+  "changed_members": [
+    "attrib/army/garrison/persia/persia_standard.rgd",
+    "attrib/codex/garrison/persia/persia_codex.rgd",
+    "attrib/racebps/persia.rgd",
+    "garrison/civilizations.json"
+  ],
+  "added_members": [
+    "ui/images/garrison/persia/presentation_011/flag_fade.rrtex",
+    "ui/images/garrison/persia/presentation_011/flag_list.rrtex",
+    "ui/images/garrison/persia/presentation_011/flag_list_small.rrtex",
+    "ui/images/garrison/persia/presentation_011/flag_loading.rrtex",
+    "ui/images/garrison/persia/presentation_011/flag_mastery.rrtex",
+    "ui/images/garrison/persia/presentation_011/flag_pattern.rrtex",
+    "ui/images/garrison/persia/presentation_011/flag_secondary.rrtex",
+    "ui/images/garrison/persia/presentation_011/flag_secondary_small.rrtex",
+    "ui/images/garrison/persia/presentation_011/flag_tile.rrtex"
+  ],
+  "preserved_baseline_members": 1902,
+  "native_codex_retest": "pending"
+}
