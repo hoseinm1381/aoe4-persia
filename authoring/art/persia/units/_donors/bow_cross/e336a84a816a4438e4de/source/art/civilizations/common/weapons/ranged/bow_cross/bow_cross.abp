@@ -1,0 +1,5 @@
+model =
+{
+	"..\\archetypes\\base_cross\\base_cross",
+	"bow_cross",
+}
