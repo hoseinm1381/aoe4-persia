@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "villager",
+  "donor": "art/civilizations/common/weapons/tools/res_wood_carry/res_wood_carry.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\villager\\models\\res_wood_carry\\model.blend",
+  "source_sha256": "0db89189d4c428807edf51965c4b8fe05a3680fd20d0a02be36a1c5d235639c2",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 226,
+      "triangles": 170,
+      "sha256": "f90ee0a58e4b0d72cf7e222e8f741e0fcdc0d577d1caa2183178c10d6ec5c45b"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 178,
+      "triangles": 122,
+      "sha256": "19c87d40737f46d032c8a74f9c3968e43c5996d6d66b92a08d80ac1a7f94b23b"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 140,
+      "triangles": 80,
+      "sha256": "f22c8f4ad8c2aa4abfcfff29568ce0d7b025e686a4cac5ae39d791b790a503ff"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_villager_res_wood_carry_LOD0",
+      "vertices": 226,
+      "triangles": 170,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_res_wood_carry_LOD1",
+      "vertices": 178,
+      "triangles": 122,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_res_wood_carry_LOD2",
+      "vertices": 140,
+      "triangles": 80,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 100,
+      "changed_vertices": 124,
+      "source_vertices": 226,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 78,
+      "changed_vertices": 98,
+      "source_vertices": 178,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 60,
+      "changed_vertices": 80,
+      "source_vertices": 140,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 100,
+      "changed_vertices": 124,
+      "source_vertices": 226,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 78,
+      "changed_vertices": 98,
+      "source_vertices": 178,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    },
+    {
+      "kind": "carried",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 60,
+      "changed_vertices": 80,
+      "source_vertices": 140,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": "native origin retained; full body carrying contact requires family review"
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/tools/res_wood_carry/res_wood_carry.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/tools/res_wood_carry/res_wood_carry.rgm"
+}

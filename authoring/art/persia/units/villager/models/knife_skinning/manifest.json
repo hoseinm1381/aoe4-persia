@@ -1,0 +1,165 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "villager",
+  "donor": "art/civilizations/common/weapons/tools/knife_skinning/knife_skinning.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\villager\\models\\knife_skinning\\model.blend",
+  "source_sha256": "53b3e230758bf50775b3462e2f24284257c761164baa858e6a1e0ae40153a73a",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 33,
+      "triangles": 25,
+      "sha256": "14910e849deb691372b955185ff174aa293c9b6e995b176f42f49e63413e1be7"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 24,
+      "triangles": 14,
+      "sha256": "312b314628100312d85cd94b312a955c465bf1bdaccb682b2c105e2a96ffd678"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 24,
+      "triangles": 14,
+      "sha256": "c80ca47f697c44ebe622cc9cfe680b4e26b24a110b20f2047ac0f38dbca42500"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_villager_knife_skinning_LOD0",
+      "vertices": 33,
+      "triangles": 25,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_knife_skinning_LOD1",
+      "vertices": 24,
+      "triangles": 14,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_villager_knife_skinning_LOD2",
+      "vertices": 24,
+      "triangles": 14,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 11,
+      "source_vertices": 33,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 9,
+      "source_vertices": 24,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 9,
+      "source_vertices": 24,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 11,
+      "source_vertices": 33,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 9,
+      "source_vertices": 24,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "sword",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 9,
+      "changed_vertices": 9,
+      "source_vertices": 24,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false,
+      "carry_contact_status": null
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/tools/knife_skinning/knife_skinning.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/tools/knife_skinning/knife_skinning.rgm"
+}
