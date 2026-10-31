@@ -1,0 +1,148 @@
+{
+  "family": "trader",
+  "body": "ott_horse_combined_trade_age03",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\assemblies\\ott_horse_combined_trade_age03\\assembly.blend",
+  "sha256": "29026f8a123d412f0bfae233167cf4c935f921c34e3a4f82f081eced2b194048",
+  "rig_bones": 127,
+  "rig_contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+  "secondary_rigs": {},
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "cart",
+      "vertices": 2794,
+      "triangles": 4632,
+      "sha256": "33ca8634eae3ba28c0cc1e28a2f7ead78b1cc776b3fd7d4493dae94849b593b2"
+    },
+    {
+      "lod": 0,
+      "component": "load",
+      "vertices": 584,
+      "triangles": 896,
+      "sha256": "403efb54ca383c6b205a3ed7bf7b909b5bb47319f8ccd382b212dfdf1ceed6bc"
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "vertices": 1818,
+      "triangles": 2206,
+      "sha256": "ba72e081f8bed74258d148338a025707e6e3c9e43b1725bfdbd8cd26b9255907"
+    },
+    {
+      "lod": 0,
+      "component": "rider",
+      "vertices": 1250,
+      "triangles": 1602,
+      "sha256": "b82a7409eab0d5588ac82d144b111b7719528e0f91ac0ad0fa87153eb9407365"
+    },
+    {
+      "lod": 1,
+      "component": "cart",
+      "vertices": 1024,
+      "triangles": 1266,
+      "sha256": "3d3dc3453e250e99c2ea130525ed0564c0084e89e1726a5dbf03e76af65f1f99"
+    },
+    {
+      "lod": 1,
+      "component": "load",
+      "vertices": 316,
+      "triangles": 384,
+      "sha256": "b9c405933d17fb1a43ba6f468695fcb53967150dec488614f3b0391bef6d5f44"
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "vertices": 889,
+      "triangles": 908,
+      "sha256": "82dab0524eb37d56db9a60d461388cd33ccd9df6634b376afd7c538c01a89361"
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "vertices": 583,
+      "triangles": 638,
+      "sha256": "91533d68aa8b0de1a215753c2d173e25ed93f7365f78a5be018fc60d9d9a87a3"
+    },
+    {
+      "lod": 2,
+      "component": "cart",
+      "vertices": 777,
+      "triangles": 656,
+      "sha256": "09153e004b04ff2446f1d8e907fd4ef34fc7ff1708e19c38612cb66fc7fc0859"
+    },
+    {
+      "lod": 2,
+      "component": "load",
+      "vertices": 316,
+      "triangles": 384,
+      "sha256": "b9c405933d17fb1a43ba6f468695fcb53967150dec488614f3b0391bef6d5f44"
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "vertices": 219,
+      "triangles": 207,
+      "sha256": "f07ce22bae9f42d3823d6f5de813251da9dea8cc303f7d544e09c37118db8ba2"
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "vertices": 371,
+      "triangles": 358,
+      "sha256": "77f575bf89dc3967676599ae2bd0f87c5e628d940e7bfd7d40afbe4751aab75e"
+    }
+  ],
+  "equipment": {},
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\models\\ott_horse_combined_trade_age03\\model.blend",
+      "sha256": "89fb6c7f4aa6bf227b81a02268aaf6ec07ad8b3d498225d0d01bf4c232fabb52"
+    }
+  ],
+  "motion_checks": [
+    {
+      "clip": "rider_sword_shield_navigation\\idle_tense_01",
+      "native_source": {
+        "rhka_logical_path": "art/civilizations/common/animals/archetypes/base_horse_combined/base_horse_combined.rhka",
+        "rhka_sha256": "3990c43c1088078aa690b081702d9e30a2f83bad611604474b6919ed54734523",
+        "selection_status": "linked_library_candidate",
+        "runtime_selection_status": "not_decoded"
+      },
+      "body_deformation_samples": [
+        {
+          "frame": 1,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 2.6793107504387352
+        },
+        {
+          "frame": 51,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 2.6793107504387352
+        },
+        {
+          "frame": 101,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 2.6793107504387352
+        },
+        {
+          "frame": 151,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 2.6793107504387352
+        },
+        {
+          "frame": 201,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 2.6793107504387352
+        }
+      ],
+      "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+    }
+  ],
+  "source_status": "editable equipped batch candidate; one family review pending",
+  "outstanding_motion_gates": [
+    "full movement/combat/work/death action coverage",
+    "native secondary weapon synchronization",
+    "runtime state selection",
+    "native-game validation"
+  ]
+}

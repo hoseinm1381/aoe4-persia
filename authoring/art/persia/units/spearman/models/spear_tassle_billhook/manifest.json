@@ -1,0 +1,159 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "spearman",
+  "donor": "art/civilizations/common/weapons/melee/spear_tassle_billhook/spear_tassle_billhook.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\spearman\\models\\spear_tassle_billhook\\model.blend",
+  "source_sha256": "9202be36decc7d85d08634a92668725f21785991677329880ce3cdb717514251",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 123,
+      "triangles": 116,
+      "sha256": "4592693c43685f8c66aa46879b025c4529275f2d2c176cee9e47d8da0b2ca09b"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 112,
+      "triangles": 100,
+      "sha256": "df31177c90a950b14a08555f08ab9b051cc09772186d6340614cc6a6644a1186"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 100,
+      "triangles": 90,
+      "sha256": "86d8390e8390b8d770a39d3e0eca5cf777b2812b771be751244c1f7d1bd391c1"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_spearman_spear_tassle_billhook_LOD0",
+      "vertices": 123,
+      "triangles": 116,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_spearman_spear_tassle_billhook_LOD1",
+      "vertices": 112,
+      "triangles": 100,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_spearman_spear_tassle_billhook_LOD2",
+      "vertices": 100,
+      "triangles": 90,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 63,
+      "source_vertices": 123,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 59,
+      "source_vertices": 112,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 55,
+      "source_vertices": 100,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 63,
+      "source_vertices": 123,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 59,
+      "source_vertices": 112,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    },
+    {
+      "kind": "spear",
+      "shaft_axis": 2,
+      "protected_grip_edge_vertices": 10,
+      "changed_vertices": 55,
+      "source_vertices": 100,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": false
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/common/weapons/melee/spear_tassle_billhook/spear_tassle_billhook.rgm",
+  "geometry_donor": "art/civilizations/common/weapons/melee/spear_tassle_billhook/spear_tassle_billhook.rgm"
+}

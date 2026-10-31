@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\spear_tassle_billhook\\7a689e8eca4a94c07eff\\decoded-static.json",
+  "donor_sha256": "1c8146929403b1d070ec668da62c084e3aab35d8a3be1f59a2e1012424ce20c7",
+  "logical_path": "art/civilizations/common/weapons/melee/spear_tassle_billhook/spear_tassle_billhook.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "ebf1631c64ccca43597a5385b30cdcd174772873142424bebc9ecd499f85799b",
+    "normal": "8fbf6d9827581e3d317f4e1051afe29ff67284ebcc1376b9d7d5d3c749c4a831",
+    "roughness": "d4686aa8c5d055a4d29d88ac5d8c32505e1a2b9819fc944eea1df140dfd2eff5",
+    "metalness": "ac5dd7970a0240480a66f8493315c17a76ef98a1a5503f7ddd9afba6afa8ce76",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

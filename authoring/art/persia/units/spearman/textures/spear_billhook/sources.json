@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\spear_billhook\\0c9d0a76250be90ae20f\\decoded-static.json",
+  "donor_sha256": "cd20776d7290caa60bfb6c98ccd960dee57ca9cba53418dce2e5ccde0b9b1e60",
+  "logical_path": "art/civilizations/common/weapons/melee/spear_billhook/spear_billhook.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "93861653c7af15d581f2768a4d953b4c312c6760e939da5ace15c5e0eaf23476",
+    "normal": "36fda45c92d6bd790ff32b9e81364d2257a723a6dd2e6440c0752ae20cbe9b5d",
+    "roughness": "d50e504d070a4e2c1f05b1961cb4079fba392f342040ad8b008442d228cd9a74",
+    "metalness": "eb1a6f6e49739507d1c031e0ace5077734888d10037f02ba2845061303acc294",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

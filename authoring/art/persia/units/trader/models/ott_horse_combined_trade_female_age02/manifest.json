@@ -1,0 +1,986 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "trader",
+  "donor": "art/civilizations/ottoman/animals/ott_horse_combined_trade_female_age02/ott_horse_combined_trade_female_age02.rgm",
+  "role": "mount",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\trader\\models\\ott_horse_combined_trade_female_age02\\model.blend",
+  "source_sha256": "0497d95ca3fb64d7b85c1dff31063bfc57b0cbc3d7734df2c1757f1c64431ffb",
+  "steps": [
+    "clothing_visual_refinement",
+    "donor_clothing_reshape_and_fitted_kaftan",
+    "narrowed_native_trade_box_and_repacked_load",
+    "native_gender_face_retained_with_fitted_headwrap",
+    "restacked_native_trade_load",
+    "shortened_shaped_native_light_saddle_furnishings"
+  ],
+  "rig_contract_sha256": "04c13b9310febba7a8ef93383ac57e52aec8a5b9622ef827623e9180768d11c4",
+  "rig_bones": 127,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "rider",
+      "vertices": 1513,
+      "triangles": 2046,
+      "sha256": "794a37d2a8e4237b02cdd5226d6152d6eb6cb0da4ded121490338623846fbea3"
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "vertices": 1557,
+      "triangles": 2054,
+      "sha256": "64402b4aaf0db51d41ce1a104b489b58900006cd2ba82b18a1cd80fdf5c5c378"
+    },
+    {
+      "lod": 0,
+      "component": "cart",
+      "vertices": 876,
+      "triangles": 1344,
+      "sha256": "05b8679348e701c645afdf51ab20dde0c828010ec9b39099f4c923fbcf1672b6"
+    },
+    {
+      "lod": 0,
+      "component": "load",
+      "vertices": 1820,
+      "triangles": 2690,
+      "sha256": "09dbe3f02ac4ba5f13f1e9d34d61b3441425ee5bc8a24ab9e026789f89d8e540"
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "vertices": 733,
+      "triangles": 818,
+      "sha256": "24658cfdb6daa3e1fda93ebfa097ef4a47a73e924428856f49e21e46f81a2571"
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "vertices": 737,
+      "triangles": 820,
+      "sha256": "0b31575418b345851fa8652e7ad2f90f16e976af00937540c96a4b950aa3c496"
+    },
+    {
+      "lod": 1,
+      "component": "cart",
+      "vertices": 474,
+      "triangles": 576,
+      "sha256": "07ee75c6ad5c4fa42a53d0a94b911d3c99373b21097294ff029322f0aa77da8d"
+    },
+    {
+      "lod": 1,
+      "component": "load",
+      "vertices": 750,
+      "triangles": 880,
+      "sha256": "f7e95c752598beeae096204815e7c29e0f56bb969259f9d95c716c01738e061f"
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "vertices": 392,
+      "triangles": 374,
+      "sha256": "eb8acb80334b5c4b516759cdeba1b3e5efa8f5484da4495864de7e97b5b4fdc9"
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "vertices": 197,
+      "triangles": 189,
+      "sha256": "61ee183e267fc89b37b08fdaa31575a0ac4fa80e95da53a655b24328a37a2e01"
+    },
+    {
+      "lod": 2,
+      "component": "cart",
+      "vertices": 306,
+      "triangles": 312,
+      "sha256": "f16720293c0b766d904dae07f6e6bb69545c91097bde2afae75f6d490c14eff6"
+    },
+    {
+      "lod": 2,
+      "component": "load",
+      "vertices": 396,
+      "triangles": 444,
+      "sha256": "c2505327a50bea4e56c2d6da096b62d9027ea155fd0f218baf3da6624689c1c3"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_trader_ott_horse_combined_trade_female_age02_rider_LOD0",
+      "vertices": 1513,
+      "triangles": 2046,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_trader_ott_horse_combined_trade_female_age02_mount_LOD0",
+      "vertices": 1557,
+      "triangles": 2054,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_trader_ott_horse_combined_trade_female_age02_cart_LOD0",
+      "vertices": 876,
+      "triangles": 1344,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_trader_ott_horse_combined_trade_female_age02_load_LOD0",
+      "vertices": 1820,
+      "triangles": 2690,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_trader_ott_horse_combined_trade_female_age02_rider_LOD1",
+      "vertices": 733,
+      "triangles": 818,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_trader_ott_horse_combined_trade_female_age02_mount_LOD1",
+      "vertices": 737,
+      "triangles": 820,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_trader_ott_horse_combined_trade_female_age02_cart_LOD1",
+      "vertices": 474,
+      "triangles": 576,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_trader_ott_horse_combined_trade_female_age02_load_LOD1",
+      "vertices": 750,
+      "triangles": 880,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_trader_ott_horse_combined_trade_female_age02_rider_LOD2",
+      "vertices": 392,
+      "triangles": 374,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_trader_ott_horse_combined_trade_female_age02_mount_LOD2",
+      "vertices": 197,
+      "triangles": 189,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_trader_ott_horse_combined_trade_female_age02_cart_LOD2",
+      "vertices": 306,
+      "triangles": 312,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    },
+    {
+      "name": "PSU_trader_ott_horse_combined_trade_female_age02_load_LOD2",
+      "vertices": 396,
+      "triangles": 444,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "normalized <=4 influences"
+    }
+  ],
+  "native_lod_contract": [
+    {
+      "lod": 0,
+      "component": "rider",
+      "allowed_bones": [
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmindex1",
+        "metarig_larmindex2",
+        "metarig_larmindex3",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmmiddle1",
+        "metarig_larmmiddle2",
+        "metarig_larmmiddle3",
+        "metarig_larmpalm",
+        "metarig_larmthumb1",
+        "metarig_larmthumb2",
+        "metarig_larmthumb3",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_llegankle",
+        "metarig_llegtoe1",
+        "metarig_neck1",
+        "metarig_neck2",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmindex1",
+        "metarig_rarmindex2",
+        "metarig_rarmindex3",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmmiddle1",
+        "metarig_rarmmiddle2",
+        "metarig_rarmmiddle3",
+        "metarig_rarmpalm",
+        "metarig_rarmthumb1",
+        "metarig_rarmthumb2",
+        "metarig_rarmthumb3",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_rlegankle",
+        "metarig_rlegtoe1",
+        "metarig_spine1",
+        "metarig_spine2"
+      ]
+    },
+    {
+      "lod": 0,
+      "component": "mount",
+      "allowed_bones": [
+        "gaia_c_head",
+        "gaia_c_neck1",
+        "gaia_c_neck2",
+        "gaia_c_neck3",
+        "gaia_c_neck4",
+        "gaia_c_pelvis",
+        "gaia_c_spine1",
+        "gaia_c_spine2",
+        "gaia_c_spine3",
+        "gaia_c_spine4",
+        "gaia_c_tail0",
+        "gaia_c_tail1",
+        "gaia_c_tail2",
+        "gaia_c_tail3",
+        "gaia_c_tail4",
+        "gaia_c_tail5",
+        "gaia_c_tail6",
+        "gaia_l_arm_finger",
+        "gaia_l_arm_fingerbase",
+        "gaia_l_arm_lower",
+        "gaia_l_arm_shoulder",
+        "gaia_l_arm_upper",
+        "gaia_l_arm_wrist",
+        "gaia_l_cloth_jointa1",
+        "gaia_l_cloth_jointb1",
+        "gaia_l_cloth_jointb2",
+        "gaia_l_cloth_jointc1",
+        "gaia_l_cloth_jointd1",
+        "gaia_l_cloth_jointe1",
+        "gaia_l_cloth_jointe2",
+        "gaia_l_cloth_jointf1",
+        "gaia_l_leg_ankle",
+        "gaia_l_leg_lower",
+        "gaia_l_leg_toe",
+        "gaia_l_leg_toebase",
+        "gaia_l_leg_upper",
+        "gaia_l_stirrup2",
+        "gaia_r_arm_finger",
+        "gaia_r_arm_fingerbase",
+        "gaia_r_arm_lower",
+        "gaia_r_arm_shoulder",
+        "gaia_r_arm_upper",
+        "gaia_r_arm_wrist",
+        "gaia_r_cloth_jointa2",
+        "gaia_r_cloth_jointb1",
+        "gaia_r_cloth_jointd1",
+        "gaia_r_cloth_jointe1",
+        "gaia_r_cloth_jointf1",
+        "gaia_r_leg_ankle",
+        "gaia_r_leg_lower",
+        "gaia_r_leg_toe",
+        "gaia_r_leg_toebase",
+        "gaia_r_leg_upper",
+        "gaia_r_stirrup2"
+      ]
+    },
+    {
+      "lod": 0,
+      "component": "cart",
+      "allowed_bones": [
+        "gaia_c_pelvis"
+      ]
+    },
+    {
+      "lod": 0,
+      "component": "load",
+      "allowed_bones": [
+        "gaia_c_pelvis"
+      ]
+    },
+    {
+      "lod": 1,
+      "component": "rider",
+      "allowed_bones": [
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmmiddle1",
+        "metarig_larmpalm",
+        "metarig_larmthumb1",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_llegankle",
+        "metarig_neck1",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmmiddle1",
+        "metarig_rarmpalm",
+        "metarig_rarmthumb1",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_rlegankle",
+        "metarig_spine1",
+        "metarig_spine2"
+      ]
+    },
+    {
+      "lod": 1,
+      "component": "mount",
+      "allowed_bones": [
+        "gaia_c_head",
+        "gaia_c_neck1",
+        "gaia_c_neck2",
+        "gaia_c_neck3",
+        "gaia_c_neck4",
+        "gaia_c_pelvis",
+        "gaia_c_spine1",
+        "gaia_c_spine2",
+        "gaia_c_spine3",
+        "gaia_c_spine4",
+        "gaia_c_tail0",
+        "gaia_c_tail1",
+        "gaia_c_tail2",
+        "gaia_c_tail3",
+        "gaia_c_tail4",
+        "gaia_c_tail5",
+        "gaia_l_arm_fingerbase",
+        "gaia_l_arm_lower",
+        "gaia_l_arm_shoulder",
+        "gaia_l_arm_upper",
+        "gaia_l_arm_wrist",
+        "gaia_l_cloth_jointa1",
+        "gaia_l_cloth_jointb1",
+        "gaia_l_cloth_jointc1",
+        "gaia_l_cloth_jointd1",
+        "gaia_l_cloth_jointe1",
+        "gaia_l_cloth_jointf1",
+        "gaia_l_leg_ankle",
+        "gaia_l_leg_lower",
+        "gaia_l_leg_toebase",
+        "gaia_l_leg_upper",
+        "gaia_l_stirrup2",
+        "gaia_r_arm_fingerbase",
+        "gaia_r_arm_lower",
+        "gaia_r_arm_shoulder",
+        "gaia_r_arm_upper",
+        "gaia_r_arm_wrist",
+        "gaia_r_cloth_jointa1",
+        "gaia_r_cloth_jointb1",
+        "gaia_r_cloth_jointc1",
+        "gaia_r_cloth_jointd1",
+        "gaia_r_cloth_jointe1",
+        "gaia_r_cloth_jointf1",
+        "gaia_r_leg_ankle",
+        "gaia_r_leg_lower",
+        "gaia_r_leg_toebase",
+        "gaia_r_leg_upper",
+        "gaia_r_stirrup2"
+      ]
+    },
+    {
+      "lod": 1,
+      "component": "cart",
+      "allowed_bones": [
+        "gaia_c_pelvis"
+      ]
+    },
+    {
+      "lod": 1,
+      "component": "load",
+      "allowed_bones": [
+        "gaia_c_pelvis"
+      ]
+    },
+    {
+      "lod": 2,
+      "component": "rider",
+      "allowed_bones": [
+        "metarig_head",
+        "metarig_larmcollarbone",
+        "metarig_larmlower1",
+        "metarig_larmlower2",
+        "metarig_larmpalm",
+        "metarig_larmupper1",
+        "metarig_larmupper2",
+        "metarig_lleg1",
+        "metarig_lleg2",
+        "metarig_neck1",
+        "metarig_pelvis",
+        "metarig_rarmcollarbone",
+        "metarig_rarmlower1",
+        "metarig_rarmlower2",
+        "metarig_rarmpalm",
+        "metarig_rarmupper1",
+        "metarig_rarmupper2",
+        "metarig_ribcage",
+        "metarig_rleg1",
+        "metarig_rleg2",
+        "metarig_spine1",
+        "metarig_spine2"
+      ]
+    },
+    {
+      "lod": 2,
+      "component": "mount",
+      "allowed_bones": [
+        "gaia_c_head",
+        "gaia_c_neck1",
+        "gaia_c_neck2",
+        "gaia_c_neck3",
+        "gaia_c_neck4",
+        "gaia_c_pelvis",
+        "gaia_c_spine2",
+        "gaia_c_spine3",
+        "gaia_c_tail0",
+        "gaia_c_tail1",
+        "gaia_c_tail2",
+        "gaia_c_tail3",
+        "gaia_c_tail4",
+        "gaia_c_tail5",
+        "gaia_l_arm_lower",
+        "gaia_l_arm_upper",
+        "gaia_l_arm_wrist",
+        "gaia_l_leg_ankle",
+        "gaia_l_leg_lower",
+        "gaia_l_leg_upper",
+        "gaia_r_arm_lower",
+        "gaia_r_arm_shoulder",
+        "gaia_r_arm_upper",
+        "gaia_r_arm_wrist",
+        "gaia_r_leg_ankle",
+        "gaia_r_leg_lower",
+        "gaia_r_leg_upper"
+      ]
+    },
+    {
+      "lod": 2,
+      "component": "cart",
+      "allowed_bones": [
+        "gaia_c_pelvis"
+      ]
+    },
+    {
+      "lod": 2,
+      "component": "load",
+      "allowed_bones": [
+        "gaia_c_pelvis"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 379,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "native_gender_face_preserved": true,
+      "headcloth_crown_reshaped_vertices": 30,
+      "face_graft": false
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "complete_native_family_cap": 9918,
+      "reserved_largest_used_weapon_triangles": 0,
+      "body_cap": 3830,
+      "before_body_triangles": 2046,
+      "after_body_triangles": 2046,
+      "concealed_donor_triangles_removed": 11,
+      "budget_met": true,
+      "scope": "density reduction only on replaced donor clothing; grafted face and new panels kept; native hand/foot points preserved"
+    },
+    {
+      "native_stirrup_tail_and_rig_preserved": true,
+      "remodeled_native_blanket_vertices": 2,
+      "owner_cloth_faces": 0,
+      "selected_source_components": [
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            -0.6240234375,
+            -0.3310546875,
+            0.822265625
+          ],
+          "maximum": [
+            -0.485595703125,
+            -0.268310546875,
+            1.0009765625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 24,
+          "minimum": [
+            -0.6357421875,
+            -0.3310546875,
+            0.8193359375
+          ],
+          "maximum": [
+            -0.47314453125,
+            -0.268310546875,
+            1.015625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 12,
+          "minimum": [
+            0.485595703125,
+            -0.3310546875,
+            0.822265625
+          ],
+          "maximum": [
+            0.6240234375,
+            -0.268310546875,
+            1.0009765625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 24,
+          "minimum": [
+            0.47314453125,
+            -0.3310546875,
+            0.8193359375
+          ],
+          "maximum": [
+            0.6357421875,
+            -0.268310546875,
+            1.015625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 10,
+          "minimum": [
+            -0.529296875,
+            -0.339599609375,
+            0.9990234375
+          ],
+          "maximum": [
+            -0.245849609375,
+            -0.278564453125,
+            1.4111328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 10,
+          "minimum": [
+            0.245849609375,
+            -0.339599609375,
+            0.9990234375
+          ],
+          "maximum": [
+            0.529296875,
+            -0.278564453125,
+            1.4111328125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 8,
+          "minimum": [
+            -0.6240234375,
+            -0.323974609375,
+            0.822265625
+          ],
+          "maximum": [
+            -0.485595703125,
+            -0.26904296875,
+            0.890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.6240234375,
+            -0.323974609375,
+            0.822265625
+          ],
+          "maximum": [
+            -0.485595703125,
+            -0.26904296875,
+            0.8642578125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 8,
+          "minimum": [
+            0.485595703125,
+            -0.323974609375,
+            0.822265625
+          ],
+          "maximum": [
+            0.6240234375,
+            -0.26904296875,
+            0.890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.485595703125,
+            -0.323974609375,
+            0.822265625
+          ],
+          "maximum": [
+            0.6240234375,
+            -0.26904296875,
+            0.8642578125
+          ]
+        }
+      ],
+      "new_horse_armor": false
+    },
+    {
+      "component": "cart",
+      "reshaped_native_vertices": 876,
+      "native_wheel_vertices_protected": 0,
+      "native_axles_rig_and_harness_preserved": true
+    },
+    {
+      "component": "load",
+      "reshaped_native_vertices": 1820,
+      "native_wheel_vertices_protected": 0,
+      "native_axles_rig_and_harness_preserved": true
+    },
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 235,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "native_gender_face_preserved": true,
+      "headcloth_crown_reshaped_vertices": 13,
+      "face_graft": false
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "native_stirrup_tail_and_rig_preserved": true,
+      "remodeled_native_blanket_vertices": 6,
+      "owner_cloth_faces": 0,
+      "selected_source_components": [
+        {
+          "region": "saddle blanket",
+          "vertices": 8,
+          "minimum": [
+            -0.529296875,
+            -0.338623046875,
+            0.9990234375
+          ],
+          "maximum": [
+            -0.26025390625,
+            -0.278564453125,
+            1.4091796875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 8,
+          "minimum": [
+            0.26025390625,
+            -0.338623046875,
+            0.9990234375
+          ],
+          "maximum": [
+            0.529296875,
+            -0.278564453125,
+            1.4091796875
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 16,
+          "minimum": [
+            -0.6357421875,
+            -0.3310546875,
+            0.8193359375
+          ],
+          "maximum": [
+            -0.47314453125,
+            -0.268310546875,
+            1.015625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 8,
+          "minimum": [
+            -0.6240234375,
+            -0.3310546875,
+            0.822265625
+          ],
+          "maximum": [
+            -0.485595703125,
+            -0.268310546875,
+            1.0009765625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 16,
+          "minimum": [
+            0.47314453125,
+            -0.3310546875,
+            0.8193359375
+          ],
+          "maximum": [
+            0.6357421875,
+            -0.268310546875,
+            1.015625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 8,
+          "minimum": [
+            0.485595703125,
+            -0.3310546875,
+            0.822265625
+          ],
+          "maximum": [
+            0.6240234375,
+            -0.268310546875,
+            1.0009765625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 8,
+          "minimum": [
+            -0.6240234375,
+            -0.323974609375,
+            0.822265625
+          ],
+          "maximum": [
+            -0.485595703125,
+            -0.26904296875,
+            0.890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            -0.6240234375,
+            -0.323974609375,
+            0.822265625
+          ],
+          "maximum": [
+            -0.485595703125,
+            -0.26904296875,
+            0.8642578125
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 8,
+          "minimum": [
+            0.485595703125,
+            -0.323974609375,
+            0.822265625
+          ],
+          "maximum": [
+            0.6240234375,
+            -0.26904296875,
+            0.890625
+          ]
+        },
+        {
+          "region": "saddle blanket",
+          "vertices": 4,
+          "minimum": [
+            0.485595703125,
+            -0.323974609375,
+            0.822265625
+          ],
+          "maximum": [
+            0.6240234375,
+            -0.26904296875,
+            0.8642578125
+          ]
+        }
+      ],
+      "new_horse_armor": false
+    },
+    {
+      "component": "cart",
+      "reshaped_native_vertices": 474,
+      "native_wheel_vertices_protected": 0,
+      "native_axles_rig_and_harness_preserved": true
+    },
+    {
+      "component": "load",
+      "reshaped_native_vertices": 750,
+      "native_wheel_vertices_protected": 0,
+      "native_axles_rig_and_harness_preserved": true
+    },
+    {
+      "interface": "native hands/feet -> clothing selection",
+      "protected_vertices": 40,
+      "maximum_displacement_m": 0.0
+    },
+    {
+      "interface": "Broad woven waist sash -> donor surface",
+      "min_gap_m": 0.008,
+      "max_gap_m": 0.008,
+      "intent": "fitted cloth surface thickness"
+    },
+    {
+      "native_gender_face_preserved": true,
+      "headcloth_crown_reshaped_vertices": 6,
+      "face_graft": false
+    },
+    {
+      "interface": "wrap-front panel -> convex donor coat",
+      "vertex_samples": 24,
+      "min_outward_offset_m": 0.012,
+      "intent": "tessellated surface avoids the first planar panel intersection"
+    },
+    {
+      "native_stirrup_tail_and_rig_preserved": true,
+      "remodeled_native_blanket_vertices": 0,
+      "owner_cloth_faces": 0,
+      "selected_source_components": [],
+      "new_horse_armor": false
+    },
+    {
+      "component": "cart",
+      "reshaped_native_vertices": 306,
+      "native_wheel_vertices_protected": 0,
+      "native_axles_rig_and_harness_preserved": true
+    },
+    {
+      "component": "load",
+      "reshaped_native_vertices": 396,
+      "native_wheel_vertices_protected": 0,
+      "native_axles_rig_and_harness_preserved": true
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "editable full trade assembly candidate; one family review pending",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "complete_lod_triangles": [
+    8134,
+    3094,
+    1319
+  ],
+  "verified_deformation": "native127-bone horse/cart/driver rig preserved; wheel/rein and economic-action motion uncertainties deferred"
+}

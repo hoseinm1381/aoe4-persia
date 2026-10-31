@@ -1,0 +1,737 @@
+{
+  "family": "spearman",
+  "body": "sul_infantry_light_age04",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\spearman\\assemblies\\sul_infantry_light_age04\\assembly.blend",
+  "sha256": "7afdabdbfb95eed195f28f11478f27adffa6bfccabe8e693c7c4e9e4990e41f1",
+  "rig_bones": 48,
+  "rig_contract_sha256": "b4bbe3134aba8178680cc4c4556cfb78c9a5cfbc34a3f41724347c1c7e38518b",
+  "secondary_rigs": {},
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "body",
+      "vertices": 1077,
+      "triangles": 1296,
+      "sha256": "109b47fe7868edc078a882119791a280a943576a15d3d732ed307cdb1bfdfaab"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 123,
+      "triangles": 116,
+      "sha256": "4592693c43685f8c66aa46879b025c4529275f2d2c176cee9e47d8da0b2ca09b"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 146,
+      "triangles": 156,
+      "sha256": "5dc0345b0ecf178cb5743e78ddb54a65cf9f52d767a941898487e700a0069eb5"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "645eb54811b01001e68db0e1062274c37ff26572cd20ecdffd259fa24cdb9990"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 213,
+      "triangles": 216,
+      "sha256": "698155d9e2e6d3830a4d225eb192110a9e6a909e2e11ccac10febd2a9454bc99"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 213,
+      "triangles": 216,
+      "sha256": "698155d9e2e6d3830a4d225eb192110a9e6a909e2e11ccac10febd2a9454bc99"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 93,
+      "triangles": 72,
+      "sha256": "707a963751796c2e62c85de9a168b320fcb0a8a574803837cbc2fb50f4fb15ad"
+    },
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 29,
+      "triangles": 28,
+      "sha256": "acca7ff5703dba1aff54a5a65c2c21ba2e4f1a02586ba733b724437fc96bc355"
+    },
+    {
+      "lod": 1,
+      "component": "body",
+      "vertices": 560,
+      "triangles": 570,
+      "sha256": "f89b98cb341f7ff9dd387d4d08cef43baa7310029e5a0ee24f283dd59ee8d110"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 135,
+      "triangles": 140,
+      "sha256": "0f540c2819e9fe0708d9b1421e1f21d96c6eca8ac11760c02649568bc8f884c3"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 89,
+      "triangles": 70,
+      "sha256": "2e856c7fa4b2618044e3164af4594a110986a27aff3c9c0c8ca336a7f622bee3"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 21,
+      "triangles": 18,
+      "sha256": "33952f63dbda5b1e511236312e8c22a6d20044647287cdeda8030c3bc13f9cc5"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 136,
+      "triangles": 122,
+      "sha256": "4412a34b944e65327bc2ab189380b12a1485a5c555484f5011d883bfaeed5e87"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 136,
+      "triangles": 122,
+      "sha256": "4412a34b944e65327bc2ab189380b12a1485a5c555484f5011d883bfaeed5e87"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "9cbcfa795f03614485d8d6556f97a55c057347364cbd53c38c6dd3227c653173"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 112,
+      "triangles": 100,
+      "sha256": "df31177c90a950b14a08555f08ab9b051cc09772186d6340614cc6a6644a1186"
+    },
+    {
+      "lod": 2,
+      "component": "body",
+      "vertices": 307,
+      "triangles": 268,
+      "sha256": "ad6c0c9ae46616a66a2f288c4c90df870447c607b9fedb014b6ba78f7c107ddc"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 113,
+      "triangles": 106,
+      "sha256": "156465712954fe1c39c131dc0a0bb0bfe19df7edf7efede7d4c882c3d7e1130b"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 77,
+      "triangles": 60,
+      "sha256": "3207dffe0031565eafe00ca4dedfb452c12a021aab9ab04ed91c26fd9c4d0ad3"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 91,
+      "triangles": 74,
+      "sha256": "7ea2d4387256277395f5e4f17ea477bfd96ab5f62bc8867d64a7e4cad7eaabc8"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 91,
+      "triangles": 74,
+      "sha256": "7ea2d4387256277395f5e4f17ea477bfd96ab5f62bc8867d64a7e4cad7eaabc8"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 100,
+      "triangles": 90,
+      "sha256": "86d8390e8390b8d770a39d3e0eca5cf777b2812b771be751244c1f7d1bd391c1"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 14,
+      "triangles": 8,
+      "sha256": "992997577c9f9b62bfd62f14987c6ecd9d4b448b16b6b9162a22165f04dc3d85"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 36,
+      "triangles": 30,
+      "sha256": "c7d1632821f17f4b2faf5a236e645e785128d30c49c7f53a24536046d9e4fa55"
+    }
+  ],
+  "equipment": {
+    "spear_basic": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_light_age04/sul_infantry_light_age04.rgm",
+        "donor_manifest_sha256": "9f28ca42a116d29d7913f9709fccfa54a126d3cbcba679a6d3ab8fe7d56aa193",
+        "bones_modified": 0
+      },
+      "triangles": [
+        30,
+        30,
+        30
+      ]
+    },
+    "torch": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_light_age04/sul_infantry_light_age04.rgm",
+        "donor_manifest_sha256": "9f28ca42a116d29d7913f9709fccfa54a126d3cbcba679a6d3ab8fe7d56aa193",
+        "bones_modified": 0
+      },
+      "triangles": [
+        28,
+        18,
+        8
+      ]
+    },
+    "spear_billhook": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_light_age04/sul_infantry_light_age04.rgm",
+        "donor_manifest_sha256": "9f28ca42a116d29d7913f9709fccfa54a126d3cbcba679a6d3ab8fe7d56aa193",
+        "bones_modified": 0
+      },
+      "triangles": [
+        72,
+        70,
+        60
+      ]
+    },
+    "tug_spear_curvedblade": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_light_age04/sul_infantry_light_age04.rgm",
+        "donor_manifest_sha256": "9f28ca42a116d29d7913f9709fccfa54a126d3cbcba679a6d3ab8fe7d56aa193",
+        "bones_modified": 0
+      },
+      "triangles": [
+        216,
+        122,
+        74
+      ]
+    },
+    "spear_tassle_billhook": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_light_age04/sul_infantry_light_age04.rgm",
+        "donor_manifest_sha256": "9f28ca42a116d29d7913f9709fccfa54a126d3cbcba679a6d3ab8fe7d56aa193",
+        "bones_modified": 0
+      },
+      "triangles": [
+        116,
+        100,
+        90
+      ]
+    },
+    "tug_spear_curvedblade_gold": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_light_age04/sul_infantry_light_age04.rgm",
+        "donor_manifest_sha256": "9f28ca42a116d29d7913f9709fccfa54a126d3cbcba679a6d3ab8fe7d56aa193",
+        "bones_modified": 0
+      },
+      "triangles": [
+        216,
+        122,
+        74
+      ]
+    },
+    "spear_tassle_billhook_advanced": {
+      "socket": "metarig_rarmpalmsocket",
+      "native_socket_frame": {
+        "matrix_local": [
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ],
+        "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+        "native_to_Blender_coordinate_matrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "checked_bones": 48,
+        "max_reference_matrix_error": 5.125999450683594e-06,
+        "donor": "art/civilizations/sultanate/humans/sul_infantry_light_age04/sul_infantry_light_age04.rgm",
+        "donor_manifest_sha256": "9f28ca42a116d29d7913f9709fccfa54a126d3cbcba679a6d3ab8fe7d56aa193",
+        "bones_modified": 0
+      },
+      "triangles": [
+        156,
+        140,
+        106
+      ]
+    }
+  },
+  "inputs": [
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\spearman\\models\\sul_infantry_light_age04\\model.blend",
+      "sha256": "323a6583313854ee1c4f49cc95244c6032e3481270ab31c91e099e7db8dbbe69"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\spearman\\models\\spear_basic\\model.blend",
+      "sha256": "e07a4da406a97fdbc4465a882cecaf06f5502e3cafa4b23f366a4b40ab9ec01a"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\daylamite\\models\\torch\\model.blend",
+      "sha256": "42eefd3da907c9fb02acac2b792b647eaaaa10fc1a0d2727cb39240be61ccc39"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\spearman\\models\\spear_billhook\\model.blend",
+      "sha256": "f2830f1602ede9401ed7f0fd2202a7a52fbb1ab1fd43a90d956593b899e77c2c"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\spearman\\models\\tug_spear_curvedblade\\model.blend",
+      "sha256": "8cea9018a4733255a7c26f3cf5a3e444c6e98a84f17d36dbfdad1f971e25c0aa"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\spearman\\models\\spear_tassle_billhook\\model.blend",
+      "sha256": "9202be36decc7d85d08634a92668725f21785991677329880ce3cdb717514251"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\spearman\\models\\tug_spear_curvedblade_gold\\model.blend",
+      "sha256": "2fc4ff0d75d344ad383f8397bf66f02da24c9d68b833b136648d1d26696d79fc"
+    },
+    {
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\spearman\\models\\spear_tassle_billhook_advanced\\model.blend",
+      "sha256": "0b526f768534f16889db20738d97208c96ac048c197267b9ab530a71f23883bf"
+    }
+  ],
+  "motion_checks": [
+    {
+      "clip": "navigation\\idle_tense_01",
+      "native_source": {
+        "rhka_logical_path": "art/civilizations/common/humans/archetypes/base_spearman/base_spearman.rhka",
+        "rhka_sha256": "4b9152b4801be624861adef0d18e80402c0887d8cf72ed478bb841c34b4a560b",
+        "selection_status": "linked_library_candidate",
+        "runtime_selection_status": "not_decoded"
+      },
+      "body_deformation_samples": [
+        {
+          "frame": 1,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7278780628838968
+        },
+        {
+          "frame": 72,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.763708209300349
+        },
+        {
+          "frame": 143,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7351062367259302
+        },
+        {
+          "frame": 215,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7210160218832813
+        },
+        {
+          "frame": 286,
+          "finite_all_body_LODs": true,
+          "maximum_body_radius_m": 1.7278780628838968
+        }
+      ],
+      "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+    }
+  ],
+  "source_status": "editable equipped batch candidate; one family review pending",
+  "outstanding_motion_gates": [
+    "full movement/combat/work/death action coverage",
+    "native secondary weapon synchronization",
+    "runtime state selection",
+    "native-game validation"
+  ]
+}
