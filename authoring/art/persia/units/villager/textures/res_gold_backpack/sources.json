@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\res_gold_backpack\\2b75ada7a79c09cee490\\decoded-static.json",
+  "donor_sha256": "c45e74440c37641f2d14e4c3bf0e42a8a3d0d161ba73099cadeba97cf368de3f",
+  "logical_path": "art/civilizations/common/weapons/tools/res_gold_backpack/res_gold_backpack.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "9c908c288e1f6026370bf807abd1d5a235b2fb121c587f95cd299bfad5f8790a",
+    "normal": "6ff6970d710d0c22e22b93c7e4a48851a6fafa8b7d51d3e72dce92b78e760835",
+    "roughness": "3625d652eb945bb5dd81d08e8fe904b33dcec9a6334bd9f2561234cafdcee608",
+    "metalness": "10bc7bdcf8012fdba83fb039818a557f74d727ccc2901cd48be4031e13d9f608",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

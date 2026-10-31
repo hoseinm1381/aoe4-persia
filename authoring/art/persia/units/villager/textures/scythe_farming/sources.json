@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\scythe_farming\\98da86d404bddc8f211c\\decoded-static.json",
+  "donor_sha256": "4c7d4d7b958e8d9daaa47d2dec45361516ecdf5411c4be159f3833ef8ee9ee55",
+  "logical_path": "art/civilizations/common/weapons/tools/scythe_farming/scythe_farming.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "4cb0261e9fe913e4ef263ff30bd16696376a2050a461a619ec85299904f72369",
+    "normal": "4bd4b216f3ab15d9267c8bb0ddb7391e97aee0ebfc80c9815bc402346db4a835",
+    "roughness": "94432920dd59724bd45bcf21e544abeb874197d9adc2d69333c592275682638e",
+    "metalness": "e06b19165252276337ae65a954b90dc4254194331a7df1d7c6402c0610b11067",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

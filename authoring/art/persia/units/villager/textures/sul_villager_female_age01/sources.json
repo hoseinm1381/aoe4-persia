@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\sul_villager_female_age01\\5d4eccb230daf57bab60\\decoded-static.json",
+  "donor_sha256": "9b93a6db719fc6ae6c873b6e896282a5669b3c33aaa570f831b4174c78622824",
+  "logical_path": "art/civilizations/sultanate/humans/sul_villager_female_age01/sul_villager_female_age01.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "347f13fbab3e7003b2141e45ef7fba999dd4a6f2a0d845e5f60f1a64d57e4e51",
+    "normal": "983612645195853bfb38cb1680c60743f903a42e76d8487f4f07986879e148cd",
+    "roughness": "fca25ed78b1c9add42258f9fb329fe57aaa4b526a68524b2a7c0940e0510fea7",
+    "metalness": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

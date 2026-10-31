@@ -1,0 +1,72 @@
+{
+  "donor_manifest": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\_donors\\res_berry_empty\\7e11c6af44d45fc951e4\\decoded-static.json",
+  "donor_sha256": "268b58108b2eccecbf2bafdc18e1372a9bbc24570d803106b4b5b914cbaa0117",
+  "logical_path": "art/civilizations/common/weapons/tools/res_berry_empty/res_berry_empty.rgm",
+  "source_uv_transform": [
+    0.5,
+    0.5,
+    0,
+    0.5
+  ],
+  "tiles": {
+    "owner": [
+      2,
+      0
+    ],
+    "indigo": [
+      3,
+      0
+    ],
+    "madder": [
+      2,
+      1
+    ],
+    "leather": [
+      3,
+      1
+    ],
+    "iron": [
+      0,
+      2
+    ],
+    "bronze": [
+      1,
+      2
+    ],
+    "mail": [
+      2,
+      2
+    ],
+    "linen": [
+      3,
+      2
+    ],
+    "dark": [
+      0,
+      3
+    ],
+    "wood": [
+      1,
+      3
+    ],
+    "trim": [
+      2,
+      3
+    ],
+    "lamellar": [
+      3,
+      3
+    ]
+  },
+  "normal_unpack": "X=A Y=G Z=sqrt(1-X2-Y2)",
+  "metal_unpack": "metal=R rough=A",
+  "pattern": "R=owner G=skin B=hair",
+  "player_colour_baked": false,
+  "files": {
+    "albedo": "c2412cebeb76dde7e12801483e2acc7c34749211a6b6916e028a413b4c84f6d7",
+    "normal": "48bd40b52c7d5a4a7b05e2a5b977ff9e22f04edf6e6bd019e79f06e9c5e9b35e",
+    "roughness": "bdb235c16d2f367da91d774c487e68c22d81e99b341cdd1742f4ea31757e9621",
+    "metalness": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+    "pattern": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef"
+  }
+}

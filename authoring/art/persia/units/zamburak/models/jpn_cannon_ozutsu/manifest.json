@@ -1,0 +1,171 @@
+{
+  "schema": "persia-unit-source/v1",
+  "family": "zamburak",
+  "donor": "art/civilizations/japanese/weapons/jpn_cannon_ozutsu/jpn_cannon_ozutsu.rgm",
+  "role": "equipment",
+  "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\zamburak\\models\\jpn_cannon_ozutsu\\model.blend",
+  "source_sha256": "bfd15c4cc2660f02bcb3787efe50fce3dbba1a74a27cae627a13b0a11d0e2c0f",
+  "steps": [
+    "donor_import",
+    "native_palette_lods",
+    "donor_profile_and_fixed_grip_remodel"
+  ],
+  "rig_contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "rig_bones": 0,
+  "rig_hierarchy_bind_unchanged": true,
+  "mesh_signatures": [
+    {
+      "lod": 0,
+      "component": "equipment",
+      "vertices": 556,
+      "triangles": 520,
+      "sha256": "60c6f4fe29713237f316332cd6ee3b7f0c7db1578947608a4139775b4f578934"
+    },
+    {
+      "lod": 1,
+      "component": "equipment",
+      "vertices": 556,
+      "triangles": 520,
+      "sha256": "60c6f4fe29713237f316332cd6ee3b7f0c7db1578947608a4139775b4f578934"
+    },
+    {
+      "lod": 2,
+      "component": "equipment",
+      "vertices": 556,
+      "triangles": 520,
+      "sha256": "60c6f4fe29713237f316332cd6ee3b7f0c7db1578947608a4139775b4f578934"
+    }
+  ],
+  "geometry_checks": [
+    {
+      "name": "PSU_zamburak_jpn_cannon_ozutsu_LOD0",
+      "vertices": 556,
+      "triangles": 520,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_zamburak_jpn_cannon_ozutsu_LOD1",
+      "vertices": 556,
+      "triangles": 520,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    },
+    {
+      "name": "PSU_zamburak_jpn_cannon_ozutsu_LOD2",
+      "vertices": 556,
+      "triangles": 520,
+      "finite": true,
+      "valid_uv": true,
+      "degenerate_faces": 0,
+      "single_user": true,
+      "normals": "finite unit-length corner normals",
+      "transform": "finite and positive determinant",
+      "weights": "rigid equipment"
+    }
+  ],
+  "native_lod_contract": [],
+  "contacts": [
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 60,
+      "changed_vertices": 173,
+      "source_vertices": 556,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 60,
+      "changed_vertices": 173,
+      "source_vertices": 556,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 60,
+      "changed_vertices": 173,
+      "source_vertices": 556,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    }
+  ],
+  "face_graft": null,
+  "changed_source_vertices": null,
+  "native_motion_checks": [],
+  "animation_replacements": 0,
+  "source_status": "candidate awaiting equipped-motion, saved-file/cold-rebuild and visual review",
+  "cook": "deferred",
+  "integration": "deferred",
+  "native_game": "unverified",
+  "equipment_shape_proof": [
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 60,
+      "changed_vertices": 173,
+      "source_vertices": 556,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 60,
+      "changed_vertices": 173,
+      "source_vertices": 556,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    },
+    {
+      "kind": "gun",
+      "shaft_axis": 0,
+      "protected_grip_edge_vertices": 60,
+      "changed_vertices": 173,
+      "source_vertices": 556,
+      "grip_error_m": 0.0,
+      "origin_unchanged": true,
+      "topology_unchanged": true,
+      "muzzle_end_preserved": true,
+      "simplified_native_lod_retained": false,
+      "carry_contact_status": null
+    }
+  ],
+  "source_decorative_variants": [],
+  "native_target_visual": "art/civilizations/japanese/weapons/jpn_cannon_ozutsu/jpn_cannon_ozutsu.rgm",
+  "geometry_donor": "art/civilizations/japanese/weapons/jpn_cannon_ozutsu/jpn_cannon_ozutsu.rgm"
+}

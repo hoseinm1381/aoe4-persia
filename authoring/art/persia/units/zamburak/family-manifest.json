@@ -1,0 +1,3646 @@
+{
+  "schema": "persia-family-bindings/v1",
+  "family": "zamburak",
+  "permanent_source_read_only": true,
+  "blueprints_and_selectors": [
+    {
+      "key": "ebps/persia/ps_unit_zamburak_persia",
+      "family": "zamburak",
+      "status": "included",
+      "reached_from": "sbps/persia/ps_unit_zamburak_persia",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\ebps\\persia\\ps_unit_zamburak_persia.xml",
+      "source_sha256": "a17ff0f858b88bbe9f2d3ddd842576e2849ef0cc03a2c60dce1a21802a0b489f",
+      "visual_fields": [
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\abbasid\\units\\tier4_cavalry_camel_archer_abb",
+          "path": "instance/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\japanese\\weapons\\wpn_range_ozutsu_4_jpn",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "metarig_larmpalmsocket",
+          "path": "instance/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_camel_archer_4",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\abbasid\\units\\tier4_cavalry_camel_archer_abb",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\japanese\\weapons\\wpn_range_ozutsu_4_jpn",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "metarig_larmpalmsocket",
+          "path": "instance/variant:campaign/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_camel_archer_4",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "attachments",
+          "value": "attachments\\attachment_lists\\civilizations\\abbasid\\units\\tier4_cavalry_camel_archer_abb",
+          "path": "instance/variant:xp3/list:extensions/template_reference:exts/list:tier_group_list/list:tier_group/group:tier/instance_reference:attachments",
+          "mod": null
+        },
+        {
+          "field": "animator_attachments",
+          "value": "attachments\\attachment_lists\\races\\japanese\\weapons\\wpn_range_ozutsu_4_jpn",
+          "path": "instance/variant:xp3/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/instance_reference:animator_attachments",
+          "mod": null
+        },
+        {
+          "field": "marker_name_parent",
+          "value": "metarig_larmpalmsocket",
+          "path": "instance/variant:xp3/list:extensions/template_reference:exts/list:hardpoints/group:hardpoint/list:weapon_table/group:weapon/template_reference:non_entity_weapon_wrapper/string:marker_name_parent",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "ebps\\races\\core\\units\\unit_camel_archer_4",
+          "path": "instance/variant:xp3/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    },
+    {
+      "key": "sbps/persia/ps_unit_zamburak_persia",
+      "family": "zamburak",
+      "status": "included",
+      "reached_from": "ebps/persia/ps_building_landmark_age3_persia_zamburak_spawner",
+      "source": "F:\\aoe_4_temp\\community_civilization_pack_garrison_aoe4\\assets\\attrib\\instances\\sbps\\persia\\ps_unit_zamburak_persia.xml",
+      "source_sha256": "2ad3606ef1d0d6473d4ec8733adfaf9d037c2e8ee6effac84a22667fcb4cfdbe",
+      "visual_fields": [
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\abbasid\\unit_camel_archer_3_abb",
+          "path": "instance/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\abbasid\\unit_camel_archer_3_abb",
+          "path": "instance/variant:campaign/instance_reference:parent_pbg",
+          "mod": null
+        },
+        {
+          "field": "parent_pbg",
+          "value": "sbps\\races\\abbasid\\unit_camel_archer_3_abb",
+          "path": "instance/variant:xp3/instance_reference:parent_pbg",
+          "mod": null
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "logical_path": "art/civilizations/common/weapons/ranged/bow_recurve_gold/bow_recurve_gold.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_camel_archer_4_abb",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_horsearcher_4_mon",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_camel_archer_4_abb",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_camel_archer_4_abb",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_horsearcher_4_mon",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_horsearcher_4_mon",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        }
+      ],
+      "scope": "inherited_candidate",
+      "shared_master_family": "qizilbash",
+      "source_manifest": "art\\persia\\units\\qizilbash\\models\\bow_recurve_gold\\manifest.json",
+      "source_manifest_sha256": "647572729eba69c1478609a08e86c80d9076b8288ed5118728608d9f8556349c",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\qizilbash\\models\\bow_recurve_gold\\model.blend",
+      "source_sha256": "784c60d02822d8f00082ece27f124715f8e6eb5e7545b494450620de082732b0",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "4b0a6b286d67e8bb121fad8531276384cfb0810c03f4bf09d3ccd3a07a7ddfb4",
+        "bones": 4,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 172,
+          "triangles": 148,
+          "sha256": "d27714d8c87dea0f85bf9a6e80d1407bd975e5d2c70504d4144379c3ffe9bffc"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 132,
+          "triangles": 108,
+          "sha256": "04e1ac6a28eacf50177823118dae796ba2316a61e41273e8db74c112dcdcb078"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 104,
+          "triangles": 80,
+          "sha256": "f31485308e7acd4edca76496b202a3f24c97a4cf38296131160e9a9b44088bdb"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_qizilbash_bow_recurve_gold_LOD0",
+          "vertices": 172,
+          "triangles": 148,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_qizilbash_bow_recurve_gold_LOD1",
+          "vertices": 132,
+          "triangles": 108,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_qizilbash_bow_recurve_gold_LOD2",
+          "vertices": 104,
+          "triangles": 80,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_gold_LOD0": 0.02016635611653328,
+            "PSU_qizilbash_bow_recurve_gold_LOD1": 0.020241711288690567,
+            "PSU_qizilbash_bow_recurve_gold_LOD2": 0
+          },
+          "clip": "rider_ranged\\aim_straight",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            6,
+            11,
+            16,
+            21,
+            26,
+            31,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.90234375,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_gold_LOD0": 0.4602055251598358,
+            "PSU_qizilbash_bow_recurve_gold_LOD1": 0.4602885842323303,
+            "PSU_qizilbash_bow_recurve_gold_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_straight",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.90234375,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_gold_LOD0": 0.4504368007183075,
+            "PSU_qizilbash_bow_recurve_gold_LOD1": 0.45065104961395264,
+            "PSU_qizilbash_bow_recurve_gold_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_left90",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.9132984280586243,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_gold_LOD0": 0.48000001907348633,
+            "PSU_qizilbash_bow_recurve_gold_LOD1": 0.47999998927116394,
+            "PSU_qizilbash_bow_recurve_gold_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_right90",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.90234375,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_gold_LOD0": 0.01016247272491455,
+            "PSU_qizilbash_bow_recurve_gold_LOD1": 0.010242324322462082,
+            "PSU_qizilbash_bow_recurve_gold_LOD2": 0
+          },
+          "clip": "rider_ranged\\aim_straight_up",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            6,
+            11,
+            16,
+            21,
+            26,
+            31,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.90234375,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_gold_LOD0": 0.3100000023841858,
+            "PSU_qizilbash_bow_recurve_gold_LOD1": 0.3100000023841858,
+            "PSU_qizilbash_bow_recurve_gold_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_straight_up",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.90234375,
+          "runtime_action_selection": "not established by offline preview"
+        }
+      ],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": false,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_qizilbash.json",
+      "limitations": [
+        "tested recipe/input fingerprints unavailable"
+      ],
+      "editable_status": "editable candidate; geometry/readback current, recipe proof incomplete"
+    },
+    {
+      "logical_path": "art/civilizations/common/weapons/ranged/bow_recurve/bow_recurve.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_horsearcher_3_mon",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_horsearcher_3_mon",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_horsearcher_3_mon",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_camel_archer_3_abb",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_camel_archer_3_abb",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_camel_archer_3_abb",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        }
+      ],
+      "scope": "inherited_candidate",
+      "shared_master_family": "qizilbash",
+      "source_manifest": "art\\persia\\units\\qizilbash\\models\\bow_recurve\\manifest.json",
+      "source_manifest_sha256": "72d5246789bc5f7be1286c3b5be769156492c416f6b2252b841a3aa1331881c6",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\qizilbash\\models\\bow_recurve\\model.blend",
+      "source_sha256": "8cc5cdbd682ea6645e5d505d583859922847254ba2fd7db89e96e4e9cbc5b0ea",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "4b0a6b286d67e8bb121fad8531276384cfb0810c03f4bf09d3ccd3a07a7ddfb4",
+        "bones": 4,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 172,
+          "triangles": 148,
+          "sha256": "d27714d8c87dea0f85bf9a6e80d1407bd975e5d2c70504d4144379c3ffe9bffc"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 132,
+          "triangles": 108,
+          "sha256": "04e1ac6a28eacf50177823118dae796ba2316a61e41273e8db74c112dcdcb078"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 104,
+          "triangles": 80,
+          "sha256": "f31485308e7acd4edca76496b202a3f24c97a4cf38296131160e9a9b44088bdb"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_qizilbash_bow_recurve_LOD0",
+          "vertices": 172,
+          "triangles": 148,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_qizilbash_bow_recurve_LOD1",
+          "vertices": 132,
+          "triangles": 108,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_qizilbash_bow_recurve_LOD2",
+          "vertices": 104,
+          "triangles": 80,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_LOD0": 0.02016635611653328,
+            "PSU_qizilbash_bow_recurve_LOD1": 0.020241711288690567,
+            "PSU_qizilbash_bow_recurve_LOD2": 0
+          },
+          "clip": "rider_ranged\\aim_straight",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            6,
+            11,
+            16,
+            21,
+            26,
+            31,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.90234375,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_LOD0": 0.4602055251598358,
+            "PSU_qizilbash_bow_recurve_LOD1": 0.4602885842323303,
+            "PSU_qizilbash_bow_recurve_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_straight",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.90234375,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_LOD0": 0.4504368007183075,
+            "PSU_qizilbash_bow_recurve_LOD1": 0.45065104961395264,
+            "PSU_qizilbash_bow_recurve_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_left90",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.9132984280586243,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_LOD0": 0.48000001907348633,
+            "PSU_qizilbash_bow_recurve_LOD1": 0.47999998927116394,
+            "PSU_qizilbash_bow_recurve_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_right90",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.90234375,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_LOD0": 0.01016247272491455,
+            "PSU_qizilbash_bow_recurve_LOD1": 0.010242324322462082,
+            "PSU_qizilbash_bow_recurve_LOD2": 0
+          },
+          "clip": "rider_ranged\\aim_straight_up",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            6,
+            11,
+            16,
+            21,
+            26,
+            31,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.90234375,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_LOD0": 0.3100000023841858,
+            "PSU_qizilbash_bow_recurve_LOD1": 0.3100000023841858,
+            "PSU_qizilbash_bow_recurve_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_straight_up",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.90234375,
+          "runtime_action_selection": "not established by offline preview"
+        }
+      ],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": false,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_qizilbash.json",
+      "limitations": [
+        "tested recipe/input fingerprints unavailable"
+      ],
+      "editable_status": "editable candidate; geometry/readback current, recipe proof incomplete"
+    },
+    {
+      "logical_path": "art/civilizations/common/animals/archetypes/base_camel_combined/base_camel_combined.rgm",
+      "role": "native_animation_owner",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_camel_3",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_camel_3",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/unit_camel_3",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        }
+      ],
+      "scope": "required",
+      "editable_status": "not modeled"
+    },
+    {
+      "logical_path": "art/civilizations/common/weapons/ranged/bow_recurve_short/bow_recurve_short.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_camel_archer_2_abb",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_camel_archer_2_abb",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_horsearcher_2_mon",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_horsearcher_2_mon",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_horsearcher_2_mon",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_range_camel_archer_2_abb",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        }
+      ],
+      "scope": "inherited_candidate",
+      "shared_master_family": "qizilbash",
+      "source_manifest": "art\\persia\\units\\qizilbash\\models\\bow_recurve_short\\manifest.json",
+      "source_manifest_sha256": "f2253d223196adf19262bab01447945983a993259fe54e2dd52dff51023ebbb3",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\qizilbash\\models\\bow_recurve_short\\model.blend",
+      "source_sha256": "f102849229db9a73fb182b49a8efe4c7e6307fc572fc717aa9f9959f82f61c5f",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "4b0a6b286d67e8bb121fad8531276384cfb0810c03f4bf09d3ccd3a07a7ddfb4",
+        "bones": 4,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 296,
+          "triangles": 148,
+          "sha256": "be88882429b3d99e6064de7f7d1fa0885c5f2398dfd628176485dd8aa3baee5c"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 132,
+          "triangles": 108,
+          "sha256": "f41b9b99a50d060ad550dc6db089c41b82ac0f30cd9fdfc12f551dd62ead4d8d"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 104,
+          "triangles": 80,
+          "sha256": "cc216d466450c5f11eaff03de4ee9bdd5cc103fdf8758a3c3b361ad48e0bdbe2"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_qizilbash_bow_recurve_short_LOD0",
+          "vertices": 296,
+          "triangles": 148,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_qizilbash_bow_recurve_short_LOD1",
+          "vertices": 132,
+          "triangles": 108,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_qizilbash_bow_recurve_short_LOD2",
+          "vertices": 104,
+          "triangles": 80,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_short_LOD0": 0.020234152674674988,
+            "PSU_qizilbash_bow_recurve_short_LOD1": 0.02045012265443802,
+            "PSU_qizilbash_bow_recurve_short_LOD2": 0
+          },
+          "clip": "rider_ranged\\aim_straight",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            6,
+            11,
+            16,
+            21,
+            26,
+            31,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.75048828125,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_short_LOD0": 0.4588570296764374,
+            "PSU_qizilbash_bow_recurve_short_LOD1": 0.4590960741043091,
+            "PSU_qizilbash_bow_recurve_short_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_straight",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.75048828125,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_short_LOD0": 0.44971489906311035,
+            "PSU_qizilbash_bow_recurve_short_LOD1": 0.45004910230636597,
+            "PSU_qizilbash_bow_recurve_short_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_left90",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.75048828125,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_short_LOD0": 0.4781176447868347,
+            "PSU_qizilbash_bow_recurve_short_LOD1": 0.4781176745891571,
+            "PSU_qizilbash_bow_recurve_short_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_right90",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.75048828125,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_short_LOD0": 0.00996522605419159,
+            "PSU_qizilbash_bow_recurve_short_LOD1": 0.009949274361133575,
+            "PSU_qizilbash_bow_recurve_short_LOD2": 0
+          },
+          "clip": "rider_ranged\\aim_straight_up",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            6,
+            11,
+            16,
+            21,
+            26,
+            31,
+            36,
+            41,
+            46,
+            51,
+            56,
+            61
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.75048828125,
+          "runtime_action_selection": "not established by offline preview"
+        },
+        {
+          "native_rigid_lod_evidence": {
+            "2": {
+              "lod": 2,
+              "allowed_bones": [
+                "bone_root"
+              ],
+              "used_bones": [
+                "bone_root"
+              ],
+              "native_skin_indices": [
+                0
+              ],
+              "reason": "untouched official LOD palette contains only the native root; internal flex is absent in the donor itself"
+            }
+          },
+          "max_vertex_component_movement": {
+            "PSU_qizilbash_bow_recurve_short_LOD0": 0.3086591958999634,
+            "PSU_qizilbash_bow_recurve_short_LOD1": 0.3087843060493469,
+            "PSU_qizilbash_bow_recurve_short_LOD2": 0
+          },
+          "clip": "rider_ranged\\shoot_straight_up",
+          "source_sha256": "58d3914fac7d7efdc913d54da7d2c82cfb768ad72b840788dc398a6cc24e1ddb",
+          "frames_tested": [
+            1,
+            3,
+            6,
+            9,
+            11,
+            13,
+            16,
+            19,
+            21,
+            23,
+            26,
+            29,
+            31
+          ],
+          "all_three_lods_finite": true,
+          "max_abs_coordinate": 0.75048828125,
+          "runtime_action_selection": "not established by offline preview"
+        }
+      ],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": false,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_qizilbash.json",
+      "limitations": [
+        "tested recipe/input fingerprints unavailable"
+      ],
+      "editable_status": "editable candidate; geometry/readback current, recipe proof incomplete"
+    },
+    {
+      "logical_path": "art/civilizations/common/weapons/melee/sword_dagger/sword_dagger.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_camel_archer_melee_abb",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_camel_archer_melee_abb",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "inherited_native_candidate",
+          "owner": "attachments/attachment_lists/wpn_melee_camel_archer_melee_abb",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        }
+      ],
+      "scope": "inherited_candidate",
+      "editable_status": "excluded from modeled coverage pending effective-selector evidence"
+    },
+    {
+      "logical_path": "art/civilizations/japanese/weapons/jpn_cannon_ozutsu/jpn_cannon_ozutsu.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+          "selector": "Root/default/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+          "selector": "Root/xp3/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\zamburak\\models\\jpn_cannon_ozutsu\\manifest.json",
+      "source_manifest_sha256": "d4652b6e038fe81f9b3f900c8f085ae66d650425a9581d9491967aa39f256aab",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\zamburak\\models\\jpn_cannon_ozutsu\\model.blend",
+      "source_sha256": "bfd15c4cc2660f02bcb3787efe50fce3dbba1a74a27cae627a13b0a11d0e2c0f",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "bones": 0,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 556,
+          "triangles": 520,
+          "sha256": "60c6f4fe29713237f316332cd6ee3b7f0c7db1578947608a4139775b4f578934"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 556,
+          "triangles": 520,
+          "sha256": "60c6f4fe29713237f316332cd6ee3b7f0c7db1578947608a4139775b4f578934"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 556,
+          "triangles": 520,
+          "sha256": "60c6f4fe29713237f316332cd6ee3b7f0c7db1578947608a4139775b4f578934"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_zamburak_jpn_cannon_ozutsu_LOD0",
+          "vertices": 556,
+          "triangles": 520,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_zamburak_jpn_cannon_ozutsu_LOD1",
+          "vertices": 556,
+          "triangles": 520,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_zamburak_jpn_cannon_ozutsu_LOD2",
+          "vertices": 556,
+          "triangles": 520,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/common/weapons/ranged/cannon_hand/cannon_hand.rgm",
+      "role": "equipment",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/wpn_range_handcannon_4",
+          "selector": "Root/campaign/attachment_lists/parent_animator",
+          "slot": "parent_animator",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        }
+      ],
+      "scope": "required",
+      "shared_master_family": "handcannoneer",
+      "source_manifest": "art\\persia\\units\\handcannoneer\\models\\cannon_hand\\manifest.json",
+      "source_manifest_sha256": "6e4aace85282299c28929561e98ae88d4e8663a0fb140bfb80e0ae0b5ab5d70c",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\handcannoneer\\models\\cannon_hand\\model.blend",
+      "source_sha256": "03b50c1215f8b3c94a4792445844c016400fd70e5373d9ddcfa5018cd10ba1f9",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "bones": 0,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "equipment",
+          "vertices": 84,
+          "triangles": 72,
+          "sha256": "f1b6b91e8320f8aa5379c2fb2d5227cea6ca3afe2a4062b0bfbd35a18555827b"
+        },
+        {
+          "lod": 1,
+          "component": "equipment",
+          "vertices": 84,
+          "triangles": 72,
+          "sha256": "ec61e0d271e82e4ca8e3118177a6e9172e11d4d45f54314bccc423224683163a"
+        },
+        {
+          "lod": 2,
+          "component": "equipment",
+          "vertices": 66,
+          "triangles": 52,
+          "sha256": "35f7dfbad1271163d28de3f5d1e87bd6aef88b09200fcd9bdf127f69afb45a79"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_handcannoneer_cannon_hand_LOD0",
+          "vertices": 84,
+          "triangles": 72,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_handcannoneer_cannon_hand_LOD1",
+          "vertices": 84,
+          "triangles": 72,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        },
+        {
+          "name": "PSU_handcannoneer_cannon_hand_LOD2",
+          "vertices": 66,
+          "triangles": 52,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "rigid equipment"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age04/abb_camel_combined_bow_age04.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/abbasid/units/tier4_cavalry_camel_archer_abb",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/abbasid/units/tier4_cavalry_camel_archer_abb",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/abbasid/units/tier4_cavalry_camel_archer_abb",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\zamburak\\models\\abb_camel_combined_bow_age04\\manifest.json",
+      "source_manifest_sha256": "0091a02433b814ba277812c229d84feeb610628567d3b4326c2a1e93cb704bd1",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\zamburak\\models\\abb_camel_combined_bow_age04\\model.blend",
+      "source_sha256": "c1a79151d844b5aeddfaea7e00493ed9f502d7bacc0c73524add0e6e70cb3fcd",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "f1f9229dfd4afb559f5e936ad4969d116dc36abaacf87397c3bd7ea04e81305d",
+        "bones": 92,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "rider",
+          "vertices": 1871,
+          "triangles": 1507,
+          "sha256": "a70e46f7566b4e6bfb35b7af0a3858808f8c0cccdfd3e0d34d802f11cb4222eb"
+        },
+        {
+          "lod": 0,
+          "component": "mount",
+          "vertices": 1445,
+          "triangles": 2040,
+          "sha256": "c9f486038cac1b728ee7c0a47c90803df7726e2ec25a351528749ced1a971800"
+        },
+        {
+          "lod": 1,
+          "component": "rider",
+          "vertices": 730,
+          "triangles": 503,
+          "sha256": "f4554f1852669052795e3371f77d48e902d79ace4290c90642494078bdeacbd7"
+        },
+        {
+          "lod": 1,
+          "component": "mount",
+          "vertices": 826,
+          "triangles": 1020,
+          "sha256": "c283369a19f100293431ab75b7a4756917422ce0cfd63b266b4f8cf72c99a9c2"
+        },
+        {
+          "lod": 2,
+          "component": "rider",
+          "vertices": 414,
+          "triangles": 271,
+          "sha256": "81f58825378fb7714bb2bd4b44b01fa7b8a711e46d2c7deb5c56194ccdd92392"
+        },
+        {
+          "lod": 2,
+          "component": "mount",
+          "vertices": 439,
+          "triangles": 450,
+          "sha256": "61581f698652eb0100925ca80b99133a29de3dfe65d311be6b5131908d0d40d4"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_zamburak_abb_camel_combined_bow_age04_rider_LOD0",
+          "vertices": 1871,
+          "triangles": 1507,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_zamburak_abb_camel_combined_bow_age04_mount_LOD0",
+          "vertices": 1445,
+          "triangles": 2040,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_zamburak_abb_camel_combined_bow_age04_rider_LOD1",
+          "vertices": 730,
+          "triangles": 503,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_zamburak_abb_camel_combined_bow_age04_mount_LOD1",
+          "vertices": 826,
+          "triangles": 1020,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_zamburak_abb_camel_combined_bow_age04_rider_LOD2",
+          "vertices": 414,
+          "triangles": 271,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_zamburak_abb_camel_combined_bow_age04_mount_LOD2",
+          "vertices": 439,
+          "triangles": 450,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    },
+    {
+      "logical_path": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age04_upgrade/abb_camel_combined_bow_age04_upgrade.rgm",
+      "role": "mount",
+      "consumers": [
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/abbasid/units/tier4_cavalry_camel_archer_abb",
+          "selector": "Root/campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/abbasid/units/tier4_cavalry_camel_archer_abb",
+          "selector": "Root/xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        },
+        {
+          "origin": "private_visual_reference",
+          "owner": "attachments/attachment_lists/civilizations/abbasid/units/tier4_cavalry_camel_archer_abb",
+          "selector": "Root/default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "slot": "animator0",
+          "unit": "ebps/persia/ps_unit_zamburak_persia"
+        }
+      ],
+      "scope": "required",
+      "source_manifest": "art\\persia\\units\\zamburak\\models\\abb_camel_combined_bow_age04_upgrade\\manifest.json",
+      "source_manifest_sha256": "fb20f6478ad6f268bdeb423f9909232cbdae42348d600eb74099ad0d6eb1adb1",
+      "editable_master": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\zamburak\\models\\abb_camel_combined_bow_age04_upgrade\\model.blend",
+      "source_sha256": "bb781db51eb52ce13d358797822991ed06d83eb64dbd5218a3a25775969fe8b6",
+      "rig_identity": {
+        "native_hierarchy_bind_unchanged": true,
+        "contract_sha256": "f1f9229dfd4afb559f5e936ad4969d116dc36abaacf87397c3bd7ea04e81305d",
+        "bones": 92,
+        "animation_replacements": 0
+      },
+      "LODs": [
+        {
+          "lod": 0,
+          "component": "rider",
+          "vertices": 1871,
+          "triangles": 1507,
+          "sha256": "a70e46f7566b4e6bfb35b7af0a3858808f8c0cccdfd3e0d34d802f11cb4222eb"
+        },
+        {
+          "lod": 0,
+          "component": "mount",
+          "vertices": 2090,
+          "triangles": 2740,
+          "sha256": "24520bc4576e77164503c7469651d83dbad18bed114e341a80ec696b1f960787"
+        },
+        {
+          "lod": 1,
+          "component": "rider",
+          "vertices": 730,
+          "triangles": 503,
+          "sha256": "f4554f1852669052795e3371f77d48e902d79ace4290c90642494078bdeacbd7"
+        },
+        {
+          "lod": 1,
+          "component": "mount",
+          "vertices": 1272,
+          "triangles": 1358,
+          "sha256": "0d4627ca3f3f9d88a6bc8dba220792450b2956128f1697068fd58a4c94d0a34f"
+        },
+        {
+          "lod": 2,
+          "component": "rider",
+          "vertices": 414,
+          "triangles": 271,
+          "sha256": "81f58825378fb7714bb2bd4b44b01fa7b8a711e46d2c7deb5c56194ccdd92392"
+        },
+        {
+          "lod": 2,
+          "component": "mount",
+          "vertices": 585,
+          "triangles": 556,
+          "sha256": "c5c78b82ca66d422eea2d57fa8204404aad80f5e44f6f5b91db6738fdc537310"
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "PSU_zamburak_abb_camel_combined_bow_age04_upgrade_rider_LOD0",
+          "vertices": 1871,
+          "triangles": 1507,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_zamburak_abb_camel_combined_bow_age04_upgrade_mount_LOD0",
+          "vertices": 2090,
+          "triangles": 2740,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_zamburak_abb_camel_combined_bow_age04_upgrade_rider_LOD1",
+          "vertices": 730,
+          "triangles": 503,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_zamburak_abb_camel_combined_bow_age04_upgrade_mount_LOD1",
+          "vertices": 1272,
+          "triangles": 1358,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_zamburak_abb_camel_combined_bow_age04_upgrade_rider_LOD2",
+          "vertices": 414,
+          "triangles": 271,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        },
+        {
+          "name": "PSU_zamburak_abb_camel_combined_bow_age04_upgrade_mount_LOD2",
+          "vertices": 585,
+          "triangles": 556,
+          "finite": true,
+          "valid_uv": true,
+          "degenerate_faces": 0,
+          "single_user": true,
+          "normals": "finite unit-length corner normals",
+          "transform": "finite and positive determinant",
+          "weights": "normalized <=4 influences"
+        }
+      ],
+      "native_motion_evidence": [],
+      "binding_status": "source-only proposal; existing private target resource must be mapped during deferred integration",
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": null,
+      "evidence_report": "research\\persia_units\\cold_batch_completed_subset.json",
+      "limitations": [],
+      "editable_status": "verified editable candidate"
+    }
+  ],
+  "assemblies": [
+    {
+      "manifest": "art\\persia\\units\\zamburak\\assemblies\\abb_camel_combined_bow_age04\\manifest.json",
+      "manifest_sha256": "5827239a0c33fee2c45353d8610a2d131f460b10c4ec52cfbe802bf649f05bdd",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\zamburak\\assemblies\\abb_camel_combined_bow_age04\\assembly.blend",
+      "sha256": "5e630b76eb9a79f4ce49c0bcd7cb2277763c0234e975e62f724bf4a85e066ee4",
+      "sockets": {
+        "jpn_cannon_ozutsu": {
+          "socket": "gaia_c_spine2",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 92,
+            "max_reference_matrix_error": 9.618142939871177e-06,
+            "donor": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age04/abb_camel_combined_bow_age04.rgm",
+            "donor_manifest_sha256": "6bbb6e4cb211cbe2c06bbf35bd2c4af166b779c43794dbc4d03c8cce26c24166",
+            "bones_modified": 0
+          },
+          "triangles": [
+            520,
+            520,
+            520
+          ],
+          "proposed_saddle_pivot": {
+            "local_basis": [
+              [
+                0.929038405418396,
+                -0.29830095171928406,
+                -0.21886946260929108,
+                0.11383932083845139
+              ],
+              [
+                0.3057132065296173,
+                0.9521235823631287,
+                1.3958025846250166e-08,
+                0.4647618234157562
+              ],
+              [
+                0.20839080214500427,
+                -0.06691132485866547,
+                0.975753903388977,
+                0.4267008304595947
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "existing_parent_bone": "gaia_c_spine2",
+            "new_bones": 0,
+            "native_runtime_gun_alignment": "unverified source-art proposal"
+          },
+          "native_marker_evidence": [
+            {
+              "marker": "metarig_larmpalmsocket",
+              "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+              "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+              "selector": "Root/default/attachment_lists/parent_animator"
+            },
+            {
+              "marker": "metarig_larmpalmsocket",
+              "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+              "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+              "selector": "Root/xp3/attachment_lists/parent_animator"
+            },
+            {
+              "marker": "metarig_larmpalmsocket",
+              "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+              "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+              "selector": "Root/default/attachment_lists/parent_animator"
+            },
+            {
+              "marker": "metarig_larmpalmsocket",
+              "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+              "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+              "selector": "Root/xp3/attachment_lists/parent_animator"
+            },
+            {
+              "marker": "metarig_larmpalmsocket",
+              "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+              "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+              "selector": "Root/default/attachment_lists/parent_animator"
+            },
+            {
+              "marker": "metarig_larmpalmsocket",
+              "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+              "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+              "selector": "Root/xp3/attachment_lists/parent_animator"
+            }
+          ],
+          "marker_status": "explicit native marker"
+        },
+        "cannon_hand": {
+          "socket": "gaia_c_spine2",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 92,
+            "max_reference_matrix_error": 9.618142939871177e-06,
+            "donor": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age04/abb_camel_combined_bow_age04.rgm",
+            "donor_manifest_sha256": "6bbb6e4cb211cbe2c06bbf35bd2c4af166b779c43794dbc4d03c8cce26c24166",
+            "bones_modified": 0
+          },
+          "triangles": [
+            72,
+            72,
+            52
+          ],
+          "proposed_saddle_pivot": {
+            "local_basis": [
+              [
+                0.929038405418396,
+                -0.29830095171928406,
+                -0.21886946260929108,
+                0.11383932083845139
+              ],
+              [
+                0.3057132065296173,
+                0.9521235823631287,
+                1.3958025846250166e-08,
+                0.4647618234157562
+              ],
+              [
+                0.20839080214500427,
+                -0.06691132485866547,
+                0.975753903388977,
+                0.4267008304595947
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "existing_parent_bone": "gaia_c_spine2",
+            "new_bones": 0,
+            "native_runtime_gun_alignment": "unverified source-art proposal"
+          },
+          "native_marker_evidence": [
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            }
+          ],
+          "marker_status": "explicit native marker"
+        }
+      },
+      "rig_contract_sha256": "f1f9229dfd4afb559f5e936ad4969d116dc36abaacf87397c3bd7ea04e81305d",
+      "motion_checks": [
+        {
+          "clip": "navigation\\idle_tense_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/animals/archetypes/base_camel_combined/base_camel_combined.rhka",
+            "rhka_sha256": "8b892e7be86c2dfb720c3a3465743753a80b2e9b342e60796c28506a68a36131",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 3.4251471972256424
+            },
+            {
+              "frame": 51,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 3.4251693549659645
+            },
+            {
+              "frame": 101,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 3.4182483340424903
+            },
+            {
+              "frame": 151,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 3.4243525059489657
+            },
+            {
+              "frame": 201,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 3.4196802367053283
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    },
+    {
+      "manifest": "art\\persia\\units\\zamburak\\assemblies\\abb_camel_combined_bow_age04_upgrade\\manifest.json",
+      "manifest_sha256": "e80c9ab4630fdd2a016545454a5db87e68a4f14e293c4c73456b80372d3b430e",
+      "source": "F:\\aoe_4_temp\\Temp_before_github_push\\art\\persia\\units\\zamburak\\assemblies\\abb_camel_combined_bow_age04_upgrade\\assembly.blend",
+      "sha256": "5c4b5bac916b6debf8d586b0112c219af8c6293ad47f60d4ac19d78f067307ae",
+      "sockets": {
+        "jpn_cannon_ozutsu": {
+          "socket": "gaia_c_spine2",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 92,
+            "max_reference_matrix_error": 9.618142939871177e-06,
+            "donor": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age04_upgrade/abb_camel_combined_bow_age04_upgrade.rgm",
+            "donor_manifest_sha256": "303fb1a59142a2e3a6b74738ca8bc57462bdabeda34cb9ad8b4518aa266f1e8d",
+            "bones_modified": 0
+          },
+          "triangles": [
+            520,
+            520,
+            520
+          ],
+          "proposed_saddle_pivot": {
+            "local_basis": [
+              [
+                0.929038405418396,
+                -0.29830095171928406,
+                -0.21886946260929108,
+                0.11383932083845139
+              ],
+              [
+                0.3057132065296173,
+                0.9521235823631287,
+                1.3958025846250166e-08,
+                0.4647618234157562
+              ],
+              [
+                0.20839080214500427,
+                -0.06691132485866547,
+                0.975753903388977,
+                0.4267008304595947
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "existing_parent_bone": "gaia_c_spine2",
+            "new_bones": 0,
+            "native_runtime_gun_alignment": "unverified source-art proposal"
+          },
+          "native_marker_evidence": [
+            {
+              "marker": "metarig_larmpalmsocket",
+              "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+              "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+              "selector": "Root/default/attachment_lists/parent_animator"
+            },
+            {
+              "marker": "metarig_larmpalmsocket",
+              "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+              "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+              "selector": "Root/xp3/attachment_lists/parent_animator"
+            },
+            {
+              "marker": "metarig_larmpalmsocket",
+              "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+              "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+              "selector": "Root/default/attachment_lists/parent_animator"
+            },
+            {
+              "marker": "metarig_larmpalmsocket",
+              "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+              "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+              "selector": "Root/xp3/attachment_lists/parent_animator"
+            },
+            {
+              "marker": "metarig_larmpalmsocket",
+              "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+              "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+              "selector": "Root/default/attachment_lists/parent_animator"
+            },
+            {
+              "marker": "metarig_larmpalmsocket",
+              "private_unit": "ebps/persia/ps_unit_zamburak_persia",
+              "native_attachment_owner": "attachments/attachment_lists/races/japanese/weapons/wpn_range_ozutsu_4_jpn",
+              "selector": "Root/xp3/attachment_lists/parent_animator"
+            }
+          ],
+          "marker_status": "explicit native marker"
+        },
+        "cannon_hand": {
+          "socket": "gaia_c_spine2",
+          "native_socket_frame": {
+            "matrix_local": [
+              [
+                0.0,
+                -0.0,
+                1.0,
+                -0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+              ]
+            ],
+            "derivation": "inverse of the uniform bone-display alignment measured against native global reference transforms in the unchanged RHK hierarchy",
+            "native_to_Blender_coordinate_matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "checked_bones": 92,
+            "max_reference_matrix_error": 9.618142939871177e-06,
+            "donor": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age04_upgrade/abb_camel_combined_bow_age04_upgrade.rgm",
+            "donor_manifest_sha256": "303fb1a59142a2e3a6b74738ca8bc57462bdabeda34cb9ad8b4518aa266f1e8d",
+            "bones_modified": 0
+          },
+          "triangles": [
+            72,
+            72,
+            52
+          ],
+          "proposed_saddle_pivot": {
+            "local_basis": [
+              [
+                0.929038405418396,
+                -0.29830095171928406,
+                -0.21886946260929108,
+                0.11383932083845139
+              ],
+              [
+                0.3057132065296173,
+                0.9521235823631287,
+                1.3958025846250166e-08,
+                0.4647618234157562
+              ],
+              [
+                0.20839080214500427,
+                -0.06691132485866547,
+                0.975753903388977,
+                0.4267008304595947
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "existing_parent_bone": "gaia_c_spine2",
+            "new_bones": 0,
+            "native_runtime_gun_alignment": "unverified source-art proposal"
+          },
+          "native_marker_evidence": [
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_4.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            },
+            {
+              "marker": "metarig_rarmpalmsocket",
+              "source_xml": "art\\persia\\units\\_donors\\native\\attrib\\ebps\\races\\core\\units\\unit_handcannon_3.xml"
+            }
+          ],
+          "marker_status": "explicit native marker"
+        }
+      },
+      "rig_contract_sha256": "f1f9229dfd4afb559f5e936ad4969d116dc36abaacf87397c3bd7ea04e81305d",
+      "motion_checks": [
+        {
+          "clip": "navigation\\idle_tense_01",
+          "native_source": {
+            "rhka_logical_path": "art/civilizations/common/animals/archetypes/base_camel_combined/base_camel_combined.rhka",
+            "rhka_sha256": "8b892e7be86c2dfb720c3a3465743753a80b2e9b342e60796c28506a68a36131",
+            "selection_status": "linked_library_candidate",
+            "runtime_selection_status": "not_decoded"
+          },
+          "body_deformation_samples": [
+            {
+              "frame": 1,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 3.4251471972256424
+            },
+            {
+              "frame": 51,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 3.4251693549659645
+            },
+            {
+              "frame": 101,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 3.4182483340424903
+            },
+            {
+              "frame": 151,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 3.4243525059489657
+            },
+            {
+              "frame": 201,
+              "finite_all_body_LODs": true,
+              "maximum_body_radius_m": 3.4196802367053283
+            }
+          ],
+          "scope": "representative native idle; other actions and secondary weapon synchronization deferred"
+        }
+      ],
+      "cold_readback_current": true,
+      "cold_geometry_current": true,
+      "cold_recipe_current": true,
+      "attachment_rebuild_current": true,
+      "evidence_report": "research\\persia_units\\cold_assembly_completed_subset.json",
+      "limitations": [],
+      "cold_current": true
+    }
+  ],
+  "reconstruction_inputs": [
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\decoded-static.json",
+      "sha256": "6bbb6e4cb211cbe2c06bbf35bd2c4af166b779c43794dbc4d03c8cce26c24166",
+      "bytes": 5006300
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_armor_age04\\14196234721634005593_packed.rrtex",
+      "sha256": "c95f47368ad0f3dfcecaa9942b3a94295fbfec83a390e29ae55339ecce68aaf9",
+      "bytes": 253247
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_armor_age04\\18176470939438420828_packed.rrtex",
+      "sha256": "be80d8a370a7c311d31b89afaa7b06445fb29888b614a1a1f238a9f56a81da00",
+      "bytes": 107875
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_armor_age04\\5736907177715943255_packed.rrtex",
+      "sha256": "451f408fdf8731348ac5abf6b2ce8a36ae476c79c25c25b31cd16a043d9c83ab",
+      "bytes": 268451
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_armor_age04\\7022525584450417779_packed.rrtex",
+      "sha256": "fc736b8d1af7787eaf0b7640c637d8e80b11aee3780aa34008987d096d0ffe5a",
+      "bytes": 306876
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_armor_age04\\8415890930095037229_packed.rrtex",
+      "sha256": "7e6c2eb37ed764a32869d000e1615e6e1ff992ce821f9102f4f2ae7ebb0f4d3f",
+      "bytes": 7953
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_armor_age04\\9729051142201574863_packed.rrtex",
+      "sha256": "e301f01096b4ac5b306c529f4ff063c717010426d8669a6807c20e42057e046b",
+      "bytes": 131422
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_combined_bow_age04\\abb_camel_combined_bow_age04.rgm",
+      "sha256": "70b9bc2f39080480498af00b2b63e14568785f3ad68493642af0e5b6c5da03a5",
+      "bytes": 91087
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_combined_bow_age04\\abb_camel_combined_bow_age04.rrgeom",
+      "sha256": "c1b2e2f9749c27d35cf76a37c7d9933205b4714af275339dd5b1d6c414c71405",
+      "bytes": 209405
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_combined_bow_age04\\abb_camel_combined_bow_age04.rrmaterial",
+      "sha256": "b86f096721c105e4d7ffba525d0367dd2743afddfa3e2539b0a416cbb798e7e7",
+      "bytes": 4828
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age04\\10353518462304153942_packed.rrtex",
+      "sha256": "0f079a73e013f12bf9fac7842494f4a1941f68669e8e83f177cceb1b65be0203",
+      "bytes": 220111
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age04\\11382991180349719125_packed.rrtex",
+      "sha256": "bc7da6a3bbe49ec441a4e8bae50e7bdd8679f3c7a3d7111e0640d779cc2dae48",
+      "bytes": 265556
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age04\\14144674698193615449_packed.rrtex",
+      "sha256": "3cf0591f05fc33b68d4487df7385f9e62b3c9a1d4be498a38d46157e2f834bc2",
+      "bytes": 249936
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age04\\14462100637664812810_packed.rrtex",
+      "sha256": "7bba54f301191e1dee75a33184625a7d366f62b1493dad39bb2770c9790caf28",
+      "bytes": 118896
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age04\\16175185099631487719_packed.rrtex",
+      "sha256": "1a86bc6155e4c703b0200e61cfa233e670a4e4423d20a91db2cb05cbc6bcfff5",
+      "bytes": 293445
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age04\\6898269205743828884_packed.rrtex",
+      "sha256": "a30d5dc67719bee0f62a2b2a75a0a7f0c3ce0ce1608cb1fc7cbca6e1d69883b4",
+      "bytes": 21156
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\source\\art\\civilizations\\abbasids\\humans\\tints\\abb_skin_tinting_lut.rrtex",
+      "sha256": "66c34851a5a843acf264b63a8680612e58aa4c3656f01adfdc671c18a1b54639",
+      "bytes": 510
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\textures\\0afcf45881de_18176470939438420828_packed.dds",
+      "sha256": "5801fa93f961a5e97700c6e10080d05302c59c3d41809f8d12eff3bce577b687",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\textures\\0e08d2813024_14462100637664812810_packed.dds",
+      "sha256": "1dbec2f0644b3b131ea2261dd816c924eaf5ef190b1ca591cf7e22c53c7dfaf5",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\textures\\10aed8865631_14196234721634005593_packed.dds",
+      "sha256": "feafffd5a52d7487f8bda59e0460fd037aa8db7046ba8e77f55b4bcc62dccbb5",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\textures\\30ec06902de9_9729051142201574863_packed.dds",
+      "sha256": "3abd9b271617f52a1ffea29efa70006080149dd657b1efe7f905e02435affa6a",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\textures\\3390d2787310_8415890930095037229_packed.dds",
+      "sha256": "65f4935d8117ff56772863234dae732cfc97fc5424a5916875ebe30169692f5f",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\textures\\4a262d501af0_abb_skin_tinting_lut.dds",
+      "sha256": "49caedae116e6bb68ddfd5ad60e8623b5cd19bbd803502ea1b8953f0ad953a3b",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\textures\\5c81d80ada1d_14144674698193615449_packed.dds",
+      "sha256": "93a5effd11fde1e52ea04b0d7aecb6fa020e80df9442cbde449898f843cea75a",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\textures\\979af085ef49_5736907177715943255_packed.dds",
+      "sha256": "e928edfea367f021d58887e38c04eb664d5d9e990dca3bb6a4353b8a7c89931e",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\textures\\b25d42a522f5_11382991180349719125_packed.dds",
+      "sha256": "5cc699e83d30cc365e9db8fbcaaf7205f6d9470d9e8eec89b39943420e3e7bba",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\textures\\b81bf7c4851f_7022525584450417779_packed.dds",
+      "sha256": "35d109630e5b74d1f1ea77502b86edfd3681026f5ed59dcd30f9e7c76966d2b8",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\textures\\cf236ef4aa86_10353518462304153942_packed.dds",
+      "sha256": "6a94e6ff0baac0e94466a50528a7258e5ed34884d1634d8bf2ed49cd8ce5eb21",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\textures\\d0000f46d8be_6898269205743828884_packed.dds",
+      "sha256": "09c7695c4e8c0f758769db5efad8cc61a35d4d966443d2690698e0552f2e6c90",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04\\38100ccfd9b70778efdb\\textures\\daffe4c6389f_16175185099631487719_packed.dds",
+      "sha256": "a4aca4d8e1b54ff69275d8640be518c281f2492f3538721e19331d582208223e",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\decoded-static.json",
+      "sha256": "303fb1a59142a2e3a6b74738ca8bc57462bdabeda34cb9ad8b4518aa266f1e8d",
+      "bytes": 5913507
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_armor_age04_upgrade\\10294106632828342425_packed.rrtex",
+      "sha256": "244d88228cafef1c6bcdfb36d03791c62a28a81739aefb846df904304379b6d4",
+      "bytes": 304532
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_armor_age04_upgrade\\15687682974400702513_packed.rrtex",
+      "sha256": "544652327825b499d84d6a375d3b31fc612d923a25497af3c29aed5ad9b23c6a",
+      "bytes": 125293
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_armor_age04_upgrade\\18308895623903885854_packed.rrtex",
+      "sha256": "738494835ba884cf61d501d5e24a55a4a53fd203e6d6729a1c0a4fc85fa6a197",
+      "bytes": 10733
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_armor_age04_upgrade\\4996696471730383593_packed.rrtex",
+      "sha256": "bdc71a4af448cd54d731fc9fb036b55ca7ede08daaaa68fb6c4c7fcd60448426",
+      "bytes": 243214
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_armor_age04_upgrade\\6527359685270498348_packed.rrtex",
+      "sha256": "38d9de12075b8672551498f4b710719288f0be2d36d925273d681a4040b407d6",
+      "bytes": 136217
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_armor_age04_upgrade\\8463932396035450563_packed.rrtex",
+      "sha256": "5bc154b5bd548e9a1c686363da3a2b5dd6cab2ee6bb9bce4103e1684aeb0d039",
+      "bytes": 259609
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_combined_bow_age04_upgrade\\abb_camel_combined_bow_age04_upgrade.rgm",
+      "sha256": "f78fdfcb7e44f77b65713f3e87202cbeab872dc54d0fbb4e409bc12791f8dad9",
+      "bytes": 105429
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_combined_bow_age04_upgrade\\abb_camel_combined_bow_age04_upgrade.rrgeom",
+      "sha256": "a6e3c4973166c573c239bd23672be0977d135936e77d006ddd158a5bc9131f0f",
+      "bytes": 255381
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_combined_bow_age04_upgrade\\abb_camel_combined_bow_age04_upgrade.rrmaterial",
+      "sha256": "1a61c492bc81977ac567fc43ac1b3a12e41c9d8b15dc873c3798b9a3c1061fce",
+      "bytes": 4948
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age04\\10048156120991765485_packed.rrtex",
+      "sha256": "8dc9ff8d8131faf647c90dd63cef84eaf49b740e6715e59554c23c0984cf1a38",
+      "bytes": 265556
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age04\\14391827938723300361_packed.rrtex",
+      "sha256": "1ba6f0c7c5680bb83c73decd5a0b55140f748701a715c021a42be1e99be74b54",
+      "bytes": 249936
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age04\\15466671798196334295_packed.rrtex",
+      "sha256": "bfb1e114f4764a0247ae49ead569ba9d279ead672440b7ff6bd97bba09e23143",
+      "bytes": 118896
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age04\\16305561099115625706_packed.rrtex",
+      "sha256": "64f862a9cffff540642ea332a9fb203d841e91a4ae06464b23afeddf6fe1ba68",
+      "bytes": 293445
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age04\\2227726804265386318_packed.rrtex",
+      "sha256": "598c8deb6e16c6ecbacc6e35021bd448d000eea0687778317037c1474b56c7ee",
+      "bytes": 220111
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age04\\5447770848191479922_packed.rrtex",
+      "sha256": "7a8a7744579162733edc75204566c62927c1537020fbffdc27d7e7d78ed5ae3d",
+      "bytes": 21156
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\source\\art\\civilizations\\abbasids\\humans\\tints\\abb_skin_tinting_lut.rrtex",
+      "sha256": "66c34851a5a843acf264b63a8680612e58aa4c3656f01adfdc671c18a1b54639",
+      "bytes": 510
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\textures\\173cd12fcd80_14391827938723300361_packed.dds",
+      "sha256": "93a5effd11fde1e52ea04b0d7aecb6fa020e80df9442cbde449898f843cea75a",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\textures\\1a59423d331e_10048156120991765485_packed.dds",
+      "sha256": "5cc699e83d30cc365e9db8fbcaaf7205f6d9470d9e8eec89b39943420e3e7bba",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\textures\\22f539ae9df7_16305561099115625706_packed.dds",
+      "sha256": "a4aca4d8e1b54ff69275d8640be518c281f2492f3538721e19331d582208223e",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\textures\\29b15392ce3d_5447770848191479922_packed.dds",
+      "sha256": "09c7695c4e8c0f758769db5efad8cc61a35d4d966443d2690698e0552f2e6c90",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\textures\\2c284c5e5803_2227726804265386318_packed.dds",
+      "sha256": "6a94e6ff0baac0e94466a50528a7258e5ed34884d1634d8bf2ed49cd8ce5eb21",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\textures\\369acf1408e1_6527359685270498348_packed.dds",
+      "sha256": "739f64145c081ab85504df945d6bd762f5f0e838b07db2b4d7f66f0a71a4a80a",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\textures\\4a262d501af0_abb_skin_tinting_lut.dds",
+      "sha256": "49caedae116e6bb68ddfd5ad60e8623b5cd19bbd803502ea1b8953f0ad953a3b",
+      "bytes": 388
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\textures\\5059d8df3a37_8463932396035450563_packed.dds",
+      "sha256": "071ac602d5de0735e0896e5a7eb5164cb716fec71cb090b2b50274bdbbac863e",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\textures\\66c730256f38_10294106632828342425_packed.dds",
+      "sha256": "5bb917c07d968d54ca0eb8ff376d9da9ab3f8cf801c7646011514cda2a28ed4a",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\textures\\6ecd512e173f_15687682974400702513_packed.dds",
+      "sha256": "a9273c2c1001fcbb215b309aebf4455b63d684832d1cfd17b876fd8e5f5ef8ba",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\textures\\db704d485ce6_18308895623903885854_packed.dds",
+      "sha256": "87156b84bfc4c3c58971c6a960f31ff363ddb6466140c5bb06991cc2abb7c25e",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\textures\\e4e31bd14f89_4996696471730383593_packed.dds",
+      "sha256": "c04ae9b9a7ebb03526eefbf369913e091b73f3ce5fa739498cefbb2128a5afbd",
+      "bytes": 349680
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\abb_camel_combined_bow_age04_upgrade\\09aa4ee6507cc3b4514f\\textures\\fbf1958c4392_15466671798196334295_packed.dds",
+      "sha256": "1dbec2f0644b3b131ea2261dd816c924eaf5ef190b1ca591cf7e22c53c7dfaf5",
+      "bytes": 174904
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve\\be9c0249527fc827959f\\decoded-static.json",
+      "sha256": "69fdc761445c6b6dc2268c0e690bd085e559a6729883829fa1209a1dacf62a98",
+      "bytes": 570492
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve\\be9c0249527fc827959f\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve\\15944441779819941535_packed.rrtex",
+      "sha256": "37d2776ffa338129d322bfcfa8c78adc112e3f0d061f0fbc2ef613b461496d19",
+      "bytes": 9875
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve\\be9c0249527fc827959f\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve\\1620900585876249362_packed.rrtex",
+      "sha256": "09dde5351673d876b70c57254d6348cc3bb6a91533e846f973afa5531ca62857",
+      "bytes": 9629
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve\\be9c0249527fc827959f\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve\\17728201341132996836_packed.rrtex",
+      "sha256": "aa9f8566b1920da443bde9b56659407f02a3a636a234a8c02dd80064b158cdd2",
+      "bytes": 5022
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve\\be9c0249527fc827959f\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve\\bow_recurve.rgm",
+      "sha256": "689b0b6a169562a89083c97de155f8cd305f2446d0fa1674603a55d1c7c3bb66",
+      "bytes": 7802
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve\\be9c0249527fc827959f\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve\\bow_recurve.rrgeom",
+      "sha256": "da5e764b5050f228083d764f66d25741126dd204930ed82c3793aa8e1de80b59",
+      "bytes": 27007
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve\\be9c0249527fc827959f\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve\\bow_recurve.rrmaterial",
+      "sha256": "ff5b0eb13987f74d9a368ad02f2350e07550e18cc8327f2ae6191405187f4a29",
+      "bytes": 622
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve\\be9c0249527fc827959f\\textures\\c3b1997b5f67_1620900585876249362_packed.dds",
+      "sha256": "2a606c6ae069a5b070cb387ddc3ecdb07f377ad844ba038efef9afdc88414d9d",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve\\be9c0249527fc827959f\\textures\\d1fdd9632990_15944441779819941535_packed.dds",
+      "sha256": "33782267373dda98da205b8cdbaeaa23262653ce26deabc36e02d77a119a52d4",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve\\be9c0249527fc827959f\\textures\\e4b62f1fad00_17728201341132996836_packed.dds",
+      "sha256": "4a6934362058197d2ea266f277d486f6d05c4e03d99b3f6512b562f37855fe50",
+      "bytes": 5608
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_gold\\fb6964b8f4a7694d1ff4\\decoded-static.json",
+      "sha256": "3875689fe6673991ce62f5009104f4dc2f3a74626feebdc467513c9bcdf4be4d",
+      "bytes": 571029
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_gold\\fb6964b8f4a7694d1ff4\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve_gold\\11465484685865813739_packed.rrtex",
+      "sha256": "4a27c2cef2d8f8481c5762c4f57639f48af8402b862f3a4dbb98fc278b91dc0b",
+      "bytes": 4827
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_gold\\fb6964b8f4a7694d1ff4\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve_gold\\15446366890332558867_packed.rrtex",
+      "sha256": "24cfcda0ff692caf5b8d49dd1ae8b953b45283856c0c30a3ab6c751953585858",
+      "bytes": 10239
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_gold\\fb6964b8f4a7694d1ff4\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve_gold\\16277293263070430566_packed.rrtex",
+      "sha256": "cc3ce56b37eefa15f589cd6402429246b7af46de51b3e28c1cabbe3cf58cbd53",
+      "bytes": 8626
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_gold\\fb6964b8f4a7694d1ff4\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve_gold\\bow_recurve_gold.rgm",
+      "sha256": "5f4ca33cd6036cdabe5d6ca7ea7650a62ce261d95d14a67da96a9bc31753cd5a",
+      "bytes": 7812
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_gold\\fb6964b8f4a7694d1ff4\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve_gold\\bow_recurve_gold.rrgeom",
+      "sha256": "da5e764b5050f228083d764f66d25741126dd204930ed82c3793aa8e1de80b59",
+      "bytes": 27007
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_gold\\fb6964b8f4a7694d1ff4\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve_gold\\bow_recurve_gold.rrmaterial",
+      "sha256": "a8dca76ef2b69b3f5e74a91ab48eb5befe01934762384af1c03349cc4351f019",
+      "bytes": 638
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_gold\\fb6964b8f4a7694d1ff4\\textures\\4ac10fe5da57_11465484685865813739_packed.dds",
+      "sha256": "54528aa3405b9d1283a0a14b089527c9ddcf3757d67811ebab2084ac137fd5aa",
+      "bytes": 5608
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_gold\\fb6964b8f4a7694d1ff4\\textures\\83cae5495707_16277293263070430566_packed.dds",
+      "sha256": "46a5b72a38df60928203891d4ba41aa9962e4d31ad21935da51c6ea05d6194f8",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_gold\\fb6964b8f4a7694d1ff4\\textures\\dd9f98d76636_15446366890332558867_packed.dds",
+      "sha256": "1f08ab8ac6207f7003b28f141f5bced368ed12881c47cdb15aa727261b4754a5",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_short\\50f1ca011bb072e59326\\decoded-static.json",
+      "sha256": "e6b58be462d94fe26512111893d5faa2e2466fad3f99c15b6c522048391e7929",
+      "bytes": 648655
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_short\\50f1ca011bb072e59326\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve_short\\13946993013675189327_packed.rrtex",
+      "sha256": "7154a2e92b890ffc46e81c6e97135fa8191a3de6eddf2966ff44c96af532d69b",
+      "bytes": 10211
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_short\\50f1ca011bb072e59326\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve_short\\16465975174330752_packed.rrtex",
+      "sha256": "660bb9602e6e57ee56561965b86bd672e103d29b393a8183cb812fc51968ab4c",
+      "bytes": 9953
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_short\\50f1ca011bb072e59326\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve_short\\8644754618438381382_packed.rrtex",
+      "sha256": "0df9d7de8a01c5e604917b8aa2bbdc8daf989e49d4f1baac246e49863aa88c59",
+      "bytes": 5414
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_short\\50f1ca011bb072e59326\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve_short\\bow_recurve_short.rgm",
+      "sha256": "5ad2ac9f37405dc9887873aad882d5337ea7f3db5c5075ebe6e196abf6c6ba76",
+      "bytes": 7888
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_short\\50f1ca011bb072e59326\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve_short\\bow_recurve_short.rrgeom",
+      "sha256": "712495bfad4da7a91c0906ff90569c37d27ca121bc4737493efa2ec60d14cb5a",
+      "bytes": 30485
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_short\\50f1ca011bb072e59326\\source\\art\\civilizations\\common\\weapons\\ranged\\bow_recurve_short\\bow_recurve_short.rrmaterial",
+      "sha256": "92047547f02b2058b2c730e9f566e87c098e02aecc55662dedde1cf306baea8c",
+      "bytes": 637
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_short\\50f1ca011bb072e59326\\textures\\11f0fd2c55ec_16465975174330752_packed.dds",
+      "sha256": "31803071bc32bd119a119e37fcaf1ef4982ca26af39280d6954a01ea57363915",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_short\\50f1ca011bb072e59326\\textures\\9bfb3a92452e_13946993013675189327_packed.dds",
+      "sha256": "7790597743da3fb57d6f933fdd1a8ace3c7d1a703046c1b1a1663f167bf1f032",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\bow_recurve_short\\50f1ca011bb072e59326\\textures\\bcf020832246_8644754618438381382_packed.dds",
+      "sha256": "483587738a7d908f439b796ad6e59c0b80689269a98221139e9440a08d116a08",
+      "bytes": 5608
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\decoded-static.json",
+      "sha256": "3f9df129101635a82f4fda85e8d3c84529e87a59181b4c6666d8380b9afd26fd",
+      "bytes": 176336
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\source\\art\\civilizations\\common\\weapons\\ranged\\cannon_hand\\14266544600545956504_packed.rrtex",
+      "sha256": "6eddeacc168b5cd50a605cecdce1f4c01af39d8e85c83ec2ad17ad76421ef81d",
+      "bytes": 2695
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\source\\art\\civilizations\\common\\weapons\\ranged\\cannon_hand\\14509897176760570126_packed.rrtex",
+      "sha256": "de25a84f62b29e90bb389c43fe7b376ed5b7dedc212e7606715c42a7b4563308",
+      "bytes": 9970
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\source\\art\\civilizations\\common\\weapons\\ranged\\cannon_hand\\230817267824968726_packed.rrtex",
+      "sha256": "a4c1d757ea89f6fc0da60a180a8126ad80cb6813c3107cd880aeaf34613a87ee",
+      "bytes": 5320
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\source\\art\\civilizations\\common\\weapons\\ranged\\cannon_hand\\cannon_hand.rgm",
+      "sha256": "e8c79072b4c35ee3ae61e950c503a167ea5254578a0ac77bd9ff2f4c0c383d71",
+      "bytes": 4127
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\source\\art\\civilizations\\common\\weapons\\ranged\\cannon_hand\\cannon_hand.rrgeom",
+      "sha256": "24c8509385187aee90dc57a85290201c7cd9fa77f22cebcdab7dd2e086b85f41",
+      "bytes": 21295
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\source\\art\\civilizations\\common\\weapons\\ranged\\cannon_hand\\cannon_hand.rrmaterial",
+      "sha256": "b7137ac4c06f4fba64831ddaf7a8ba4a923ebb8784f04313f5426da9664ee7a5",
+      "bytes": 621
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\textures\\6917883c23a1_230817267824968726_packed.dds",
+      "sha256": "c9c035e09e673dfc604fd4a2611eba02b7466d008d9ca59f3be1e7fe81d8fc24",
+      "bytes": 5608
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\textures\\6a6c6667e859_14266544600545956504_packed.dds",
+      "sha256": "6e08d07a44a499947d1f8155b6bc346c72632eb0bd18ffd297238899257f0649",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\cannon_hand\\660f52bec1a5a8c9dc59\\textures\\aa705409d49a_14509897176760570126_packed.dds",
+      "sha256": "31aecdf5ed7e7e4f40c0575ea0b097d750f00bb26847bbbf3c8cb95f8fbf877f",
+      "bytes": 11088
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\jpn_cannon_ozutsu\\bf316d73e68d42ccabdf\\decoded-static.json",
+      "sha256": "3e31d85da0c5bdcd71ddb43fdc365d96bf6f73bb9ef5a78054eced6fdbfb8449",
+      "bytes": 1045071
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\jpn_cannon_ozutsu\\bf316d73e68d42ccabdf\\source\\art\\civilizations\\japanese\\weapons\\jpn_cannon_ozutsu\\11293688695657137735_packed.rrtex",
+      "sha256": "b8a456c43b4761c757e481afb84f461b96229af08ec224e696fd789133e40f8f",
+      "bytes": 20277
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\jpn_cannon_ozutsu\\bf316d73e68d42ccabdf\\source\\art\\civilizations\\japanese\\weapons\\jpn_cannon_ozutsu\\16494917492165352684_packed.rrtex",
+      "sha256": "5d12412a83ac2d143805058f6e8094cc6c106fe960976f0178e5d48ec892cd98",
+      "bytes": 19649
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\jpn_cannon_ozutsu\\bf316d73e68d42ccabdf\\source\\art\\civilizations\\japanese\\weapons\\jpn_cannon_ozutsu\\3550174290072476190_packed.rrtex",
+      "sha256": "5be4ba795f89c8dbe8218332ef2b5e274079ca812a5c269595674c36f032c6a4",
+      "bytes": 9821
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\jpn_cannon_ozutsu\\bf316d73e68d42ccabdf\\source\\art\\civilizations\\japanese\\weapons\\jpn_cannon_ozutsu\\8897599525499448534_packed.rrtex",
+      "sha256": "0c23c0aaa886a4749bed309e534326fd48ff80c6a9af5ecc4ffa183ebb092aec",
+      "bytes": 385
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\jpn_cannon_ozutsu\\bf316d73e68d42ccabdf\\source\\art\\civilizations\\japanese\\weapons\\jpn_cannon_ozutsu\\jpn_cannon_ozutsu.rgm",
+      "sha256": "f016861cb7c727e06765bbd9f2016a7e182aa106aba4b003a746d861a38ce40e",
+      "bytes": 13962
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\jpn_cannon_ozutsu\\bf316d73e68d42ccabdf\\source\\art\\civilizations\\japanese\\weapons\\jpn_cannon_ozutsu\\jpn_cannon_ozutsu.rrgeom",
+      "sha256": "e9a258b393e4fde551abb19e33b0956952469fc90168a9da2fc39893b7061685",
+      "bytes": 69628
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\jpn_cannon_ozutsu\\bf316d73e68d42ccabdf\\source\\art\\civilizations\\japanese\\weapons\\jpn_cannon_ozutsu\\jpn_cannon_ozutsu.rrmaterial",
+      "sha256": "345c1d81cdecbab1c70cd3f4d3291740afaf5b296a6aef8c3bb6bbeb10c25f24",
+      "bytes": 2283
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\jpn_cannon_ozutsu\\bf316d73e68d42ccabdf\\textures\\43e71fc2570e_16494917492165352684_packed.dds",
+      "sha256": "95be16731d34ac2b04c7975965f5dcdfd28c01b2b928f533a3dfb5b07eb4c1ae",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\jpn_cannon_ozutsu\\bf316d73e68d42ccabdf\\textures\\46c1e3d0ccda_3550174290072476190_packed.dds",
+      "sha256": "bc9bb9c7de167577eb202648c294efe1babb72f5889cf72a945c53fef386588c",
+      "bytes": 11064
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\jpn_cannon_ozutsu\\bf316d73e68d42ccabdf\\textures\\50ba1b337849_8897599525499448534_packed.dds",
+      "sha256": "74a5d3d64a43d21cd67b015b7035058e6c2e094d2fe9a9ab6337c570c5b538ab",
+      "bytes": 176
+    },
+    {
+      "path": "art\\persia\\units\\_donors\\jpn_cannon_ozutsu\\bf316d73e68d42ccabdf\\textures\\fb2f654b0e21_11293688695657137735_packed.dds",
+      "sha256": "ecae86007f13c9fa6eb9412c192a2539833659106ecf8e6effc2505daa0c6dac",
+      "bytes": 22000
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\cannon_hand\\albedo.png",
+      "sha256": "809601095d7bfa4737d5b3a6c266c05481f659929c9c520da640aa7dfbc62521",
+      "bytes": 891466
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\cannon_hand\\metalness.png",
+      "sha256": "660adc0ee7f87029babce739f877a0930ab3f9bae2434caaad85b67ca7700ce1",
+      "bytes": 18135
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\cannon_hand\\normal.png",
+      "sha256": "2e52a631dc82a4a7bb9ac0b2074bf80ee1437f0681cf0f9cadc406b64499603e",
+      "bytes": 192381
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\cannon_hand\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\cannon_hand\\roughness.png",
+      "sha256": "c7bb3b97aac358b3b8ee0535d0129e3a9d052d6b3633016bb96df190de30eb9b",
+      "bytes": 634924
+    },
+    {
+      "path": "art\\persia\\units\\handcannoneer\\textures\\cannon_hand\\sources.json",
+      "sha256": "28e0e5af354756accc964a6b9a54e60bcb44dd81937198e4e840f10df5e625ef",
+      "bytes": 1538
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve\\albedo.png",
+      "sha256": "9c17245853f52d84900fcda6956ab3c81fbcbf5e0c7c2c2067f8bfc7a396ff86",
+      "bytes": 602861
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve\\metalness.png",
+      "sha256": "decc8d4eda19d8accb7a79fa9dfb6dffeee72283756dd44099ffbd75f418baa6",
+      "bytes": 34896
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve\\normal.png",
+      "sha256": "17abfb772a61ef1a6798ddb74312db9bc8848500aeba9bc9a00f9eb8051fc05c",
+      "bytes": 203782
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve\\roughness.png",
+      "sha256": "d770e33d514e71d0bea24e470c2c6528e9a82d5658cdb3160cbe0817decc5562",
+      "bytes": 463345
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve\\sources.json",
+      "sha256": "7d08e00e46fac8ce7cb2eb17c921199d66e6ec73884d063958385659e9140fbd",
+      "bytes": 1708
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve_gold\\albedo.png",
+      "sha256": "bcec018ff7453a35f729617f6ee6d92739e9ee197c91ec2c54e60045301d039f",
+      "bytes": 627181
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve_gold\\metalness.png",
+      "sha256": "2dd3d8ec15ec3bb81cf9db355a044c50e3defde1cd6c1b5492daa089c7d6fbf8",
+      "bytes": 44590
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve_gold\\normal.png",
+      "sha256": "a4c02f8ab402f07c8bde98a95933e713115342d1e4bbb3e53162261e0f971786",
+      "bytes": 226441
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve_gold\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve_gold\\roughness.png",
+      "sha256": "4f987c2999fc7c5bb0a5086aa2911576199fbcf0518ee9107a043ab9a131b285",
+      "bytes": 456178
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve_gold\\sources.json",
+      "sha256": "19d0f01940a6d68f13c68222d17f5284f5fd7354305116a0fc2ae2a50a76c143",
+      "bytes": 1723
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve_short\\albedo.png",
+      "sha256": "33c072ae1f5ff49c53baf83d0e5c6b3aebeeffc66096e152b202d0f6cd754240",
+      "bytes": 624726
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve_short\\metalness.png",
+      "sha256": "1126540fba18d235370d6a9130fea7c4265dec74b4189c18ebee03ff22295c3c",
+      "bytes": 5712
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve_short\\normal.png",
+      "sha256": "d80fe26527d4bc922172f6b32eeb72b81f6607b648a9d75c030094cac111b560",
+      "bytes": 226451
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve_short\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve_short\\roughness.png",
+      "sha256": "2a04ba132dadc39d4fd718ac2a8bd255f381f186bc4e2d022b615cf3d4cc0391",
+      "bytes": 472099
+    },
+    {
+      "path": "art\\persia\\units\\qizilbash\\textures\\bow_recurve_short\\sources.json",
+      "sha256": "2cd6df84f51c25f5c42f6b3603027cec60acd1832bbfe94289cb99fb78463564",
+      "bytes": 1726
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\abb_camel_combined_bow_age04\\albedo.png",
+      "sha256": "c3f92ee16ff0552391f46ab948dd7ec80306359727a30a72585ee63745fa4f66",
+      "bytes": 2643365
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\abb_camel_combined_bow_age04\\metalness.png",
+      "sha256": "c5b16669d6122a7aa314386f48c3f4954aba8ccf61e9ffa60b2a072dc9e91fc2",
+      "bytes": 168329
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\abb_camel_combined_bow_age04\\normal.png",
+      "sha256": "aac3c8ac7918229e790b22f8ff4af62a8caa5e9dc3a668812bae0918befd933b",
+      "bytes": 2819974
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\abb_camel_combined_bow_age04\\pattern.png",
+      "sha256": "35406c21a61647b7db58d06b8eaa4af16d92773e35b9a01a0e9ca296c858ff65",
+      "bytes": 20464
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\abb_camel_combined_bow_age04\\roughness.png",
+      "sha256": "8985a657b50f79a99bc5e163801442576446059d53c4320b13db761c1f26f5e0",
+      "bytes": 1215708
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\abb_camel_combined_bow_age04\\sources.json",
+      "sha256": "6c39164e6959d2fa85682fd1760a1ce60d16f86967727603b7ef9adf4e78872c",
+      "bytes": 4029
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\abb_camel_combined_bow_age04_upgrade\\albedo.png",
+      "sha256": "7fb5fb4fd3f5bb0a5250e261a6a568d9bd0f86749972181126cd46b6c87cb790",
+      "bytes": 2513661
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\abb_camel_combined_bow_age04_upgrade\\metalness.png",
+      "sha256": "6c5b672085e9b46d312efd45d4b72b5ac4a61b41089c83a61d35c64d60b14353",
+      "bytes": 341567
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\abb_camel_combined_bow_age04_upgrade\\normal.png",
+      "sha256": "e99405689250133a6dd705feba9c2873d3d928342e7d1810a8f4bdca53b621ea",
+      "bytes": 2921479
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\abb_camel_combined_bow_age04_upgrade\\pattern.png",
+      "sha256": "35406c21a61647b7db58d06b8eaa4af16d92773e35b9a01a0e9ca296c858ff65",
+      "bytes": 20464
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\abb_camel_combined_bow_age04_upgrade\\roughness.png",
+      "sha256": "0291760695c28ecbd3560090a0ffa2ab77936d5177be8ad66665b0dc77228c3d",
+      "bytes": 1225685
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\abb_camel_combined_bow_age04_upgrade\\sources.json",
+      "sha256": "37e3b56e1dc2d737c784fd286b00b798e3338c2d7231f10907cbf92ed4fecda8",
+      "bytes": 4061
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\jpn_cannon_ozutsu\\albedo.png",
+      "sha256": "f4cdb3d0ffaa6b72d53a5a633dcd6a9fe0cd41351b81e62f9bb5b7340b719231",
+      "bytes": 900569
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\jpn_cannon_ozutsu\\metalness.png",
+      "sha256": "d9c6a92ad246ef3ac9a95f08a44893a2501bd2679fc0c14a087b3184ecc97380",
+      "bytes": 35487
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\jpn_cannon_ozutsu\\normal.png",
+      "sha256": "215ca3ee4f81d9df291b9b340ac67af2b0124019cee61ef855ab4d5eb9a387be",
+      "bytes": 251443
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\jpn_cannon_ozutsu\\pattern.png",
+      "sha256": "291b7e5c0fd15bf6345a462e3f59a95765f42e6eb96b7648115d13751b8643ef",
+      "bytes": 5703
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\jpn_cannon_ozutsu\\roughness.png",
+      "sha256": "6f1e2f752deb8636fb38b99efcbb255fdc8bba89e185f51f8557d79fcd289c9a",
+      "bytes": 743865
+    },
+    {
+      "path": "art\\persia\\units\\zamburak\\textures\\jpn_cannon_ozutsu\\sources.json",
+      "sha256": "98f5c61033cb76f44ce5a8596a7d55cbf9ceb40fdd27500cfd7226e7d51876af",
+      "bytes": 1551
+    }
+  ],
+  "recipe_files": [
+    {
+      "path": "tools\\persia_units\\assembly.py",
+      "sha256": "b967a5ccb11320277c7856e9514985580a8b23f532dba5e685df40f159246872"
+    },
+    {
+      "path": "tools\\persia_units\\atlas_layout.py",
+      "sha256": "56c7e349079e5f0421621c2228ff9c1d054c1568436ac069d0700cfcb1c10aee"
+    },
+    {
+      "path": "tools\\persia_units\\author.py",
+      "sha256": "d3ffbeb6e657b0946a0b6fd51a93e7f8c35640c252f062912f91a58497cba95e"
+    },
+    {
+      "path": "tools\\persia_units\\batch_family_review.py",
+      "sha256": "04e1170dd2ffac785b88c0c404ab41166a52f075997faa4034efc6d7279f56ae"
+    },
+    {
+      "path": "tools\\persia_units\\batch_human_recipe.py",
+      "sha256": "f7856693f8e454cdfc18c1ed882a7eaf0b6611e5dcc068778d75bd59d444a56f"
+    },
+    {
+      "path": "tools\\persia_units\\batch_rare_mounts.py",
+      "sha256": "1cbbbc674acabc66a717f41c1f5b98bd27290785a33ae3436ae42e805ceea522"
+    },
+    {
+      "path": "tools\\persia_units\\batch_support_humans.py",
+      "sha256": "60f9aefe79c4abf3533e57e5dbace5ca8567d7823ae0d37e1c805571682c82e5"
+    },
+    {
+      "path": "tools\\persia_units\\build_elephant_crew.py",
+      "sha256": "e3a0a7e202a9ca1a354147726927a6d14c50b9f25a054aa991300f739f1c3482"
+    },
+    {
+      "path": "tools\\persia_units\\combined_recipe.py",
+      "sha256": "2b4c9e5ba26ed3c253eede63328e7ebc46d6c6737ed1d3e568afc02f0ac2aca8"
+    },
+    {
+      "path": "tools\\persia_units\\combined_textures.py",
+      "sha256": "d5a693d721f38aa1eb0dd824bfc61f0fcecbdeeec419d6eb2af89ddd45bdaf06"
+    },
+    {
+      "path": "tools\\persia_units\\contracts.py",
+      "sha256": "4c85a350787b5be10f9a1c1a70319a660b72cfd02711c34bc8b479b6958d7454"
+    },
+    {
+      "path": "tools\\persia_units\\equipment_recipe.py",
+      "sha256": "c902af2a6215a73d354fd34e8ac5d8636fe1c393339807441f24125e427c3caa"
+    },
+    {
+      "path": "tools\\persia_units\\equipment_textures.py",
+      "sha256": "c07f52fa32096a68103e4a8af1a3d06339998348e35fc833b6ee4f9e90c41509"
+    },
+    {
+      "path": "tools\\persia_units\\mounted_equipped_batch.py",
+      "sha256": "76fa6b792b7d59ff38bdc9eafa87d667253d07e22abba8255e713e1ba3a50ea3"
+    },
+    {
+      "path": "tools\\persia_units\\native_socket.py",
+      "sha256": "4e3a948437d53776c98292314b0a50b010ee43c9c4faa79a1d3ae7559d0baac0"
+    },
+    {
+      "path": "tools\\persia_units\\surface_normals.py",
+      "sha256": "1c6371a6f3c40bfac22e430b6dc64baf513585a544f42e1fe467ceb2cf2ba090"
+    },
+    {
+      "path": "tools\\persia_units\\textures.py",
+      "sha256": "a47b76b892d54a6d31d29593e9183e741b1f37abc683bd7d37e4bf240f24dfac"
+    },
+    {
+      "path": "tools\\persia_units\\weapon_shape.py",
+      "sha256": "d45fdb02907fddc6634f7e2a165f97ad3a94b0fe728ccf2c6c54961d3309d473"
+    }
+  ],
+  "dependency_scope": "minimal referenced input closure for current candidates; extra exploratory caches retained separately because cleanup is deferred",
+  "coverage": {
+    "required_models": 4,
+    "modeled": 4,
+    "cold_verified": 4,
+    "cold_geometry_current": 4
+  },
+  "editable_source_readiness": "full draft coverage; rubric acceptance and documented source/native gates remain",
+  "verified_deformation": "sampled native preview evidence only; runtime action selection and native physics unverified",
+  "rubric": {
+    "historical_grounding_max": 20,
+    "persian_identity_max": 20,
+    "AoE4_readability_max": 20,
+    "deformation_attachments_max": 25,
+    "LOD_performance_max": 15,
+    "required_total": 90,
+    "required_category_fraction": 0.8,
+    "score": null,
+    "status": "unaccepted until completed review; no automatic score from numeric tests"
+  },
+  "deferred": [
+    "cook",
+    "integration",
+    "packaging",
+    "native-game validation",
+    "promotion",
+    "push",
+    "deletion"
+  ],
+  "cold_evidence_policy": "latest outcome per source; legacy reports retain geometry/readback evidence only; full recipe and attachment equivalence require explicit tested fingerprints and semantics"
+}
