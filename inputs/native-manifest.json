@@ -7087,9 +7087,8 @@
   },
   "art/ps100/l/ali_qapu_palace/m.rrmaterial": {
     "toc": "data",
-    "bytes": 842,
-    "sha256": "4cf5ff3ea9058d7489208e0f711b0aacdba5a054f17e3317e36c267367d06fce",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 646,
+    "sha256": "81cebc346f6b7f6673b539e0263832fabb46cbb1f6b78c89a7e9329358d0a7ea"
   },
   "art/ps100/l/assassin_brotherhood/m.rgm": {
     "toc": "data",
@@ -7111,9 +7110,8 @@
   },
   "art/ps100/l/assassin_brotherhood/m.rrmaterial": {
     "toc": "data",
-    "bytes": 842,
-    "sha256": "76ff8a62c1408a83a4fdb0188b87bca035c0884b9e1f205e2baa3bf7cf58f809",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 666,
+    "sha256": "ab532c0d59781d66fc106a1175f1831ab87ed5bb7805de43791b48f3e3fd1c2f"
   },
   "art/ps100/l/grand_caravanserai/m.rgm": {
     "toc": "data",
@@ -7135,9 +7133,8 @@
   },
   "art/ps100/l/grand_caravanserai/m.rrmaterial": {
     "toc": "data",
-    "bytes": 842,
-    "sha256": "64826f9b84baa2a07c6c36d9a695070cd645143a31813324415e90acad55ce94",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 658,
+    "sha256": "e7329453df95278cdbe5993e02f73383bc5ecc717ae57df3bda4ff9683ac5939"
   },
   "art/ps100/l/gundeshapur/m.rgm": {
     "toc": "data",
@@ -7159,9 +7156,8 @@
   },
   "art/ps100/l/gundeshapur/m.rrmaterial": {
     "toc": "data",
-    "bytes": 842,
-    "sha256": "bb0999875009b7913f45b064c5b832cf62a533b67129c4c86d9626d1fb0cde23",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 630,
+    "sha256": "49fdfbb993db6cd606516a3ba9ed3d1d57ff14677f8e1eccc3e296149f51bbdd"
   },
   "art/ps100/l/samarkand_bazaar/m.rgm": {
     "toc": "data",
@@ -7183,9 +7179,8 @@
   },
   "art/ps100/l/samarkand_bazaar/m.rrmaterial": {
     "toc": "data",
-    "bytes": 842,
-    "sha256": "7c0ae2593972e75e67878a4342d4233eed5cec9f744d2f32fa26f402d2659495",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 650,
+    "sha256": "be385f49caed467f88b4230be701e47538eb5ec379f786847ae71dcb54264a4d"
   },
   "art/ps100/l/shah_abbas_siege_factory/m.rgm": {
     "toc": "data",
@@ -7207,9 +7202,8 @@
   },
   "art/ps100/l/shah_abbas_siege_factory/m.rrmaterial": {
     "toc": "data",
-    "bytes": 842,
-    "sha256": "9fdb4d85e1892bf5422696308464cc3cb925ba8323808586152964c428afdce0",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 682,
+    "sha256": "4a325f0bdf9377b143996588f48ddf8f0e4680cc3754406341c8845500bfee64"
   },
   "art/ps100/n/factory_tent_empty/m.rgm": {
     "toc": "data",
@@ -8272,5 +8266,125 @@
     "bytes": 406217,
     "sha256": "c5ad3711769d705f9619fcf6d415b34d990ab0ca272bc834c9dec9f55dabf739",
     "origin": "0.1.1 requested native UI cook"
+  },
+  "art/persia/landmarks_013/ali_qapu_palace/albedo.rrtex": {
+    "toc": "data",
+    "bytes": 1918210,
+    "sha256": "8a7de332096efd18f42bd75ec2027a0759ba8c61883b03fd3b49f9c1b57fc8a0"
+  },
+  "art/persia/landmarks_013/ali_qapu_palace/normal.rrtex": {
+    "toc": "data",
+    "bytes": 3779353,
+    "sha256": "c910080e058d4db9ad6d7aeb04d0f126df471c9145d4bc5146c38237dd86bb07"
+  },
+  "art/persia/landmarks_013/ali_qapu_palace/owner.rrtex": {
+    "toc": "data",
+    "bytes": 23243,
+    "sha256": "cf43fd35776a4eea7c7cb8bbd707ad15c599dcfde5dc513101cd102440b207da"
+  },
+  "art/persia/landmarks_013/ali_qapu_palace/surface.rrtex": {
+    "toc": "data",
+    "bytes": 2153174,
+    "sha256": "f13b147a32eff9ea911d0a16d01379ec3cd7be4d92860f6b1f6b3de404ab37e2"
+  },
+  "art/persia/landmarks_013/assassin_brotherhood/albedo.rrtex": {
+    "toc": "data",
+    "bytes": 1908814,
+    "sha256": "b0035e0f8e152d1d1895dc85e6baaeb43bf491baae2260c64f0ff7e81f1f7dd8"
+  },
+  "art/persia/landmarks_013/assassin_brotherhood/normal.rrtex": {
+    "toc": "data",
+    "bytes": 3776444,
+    "sha256": "ca52dd30a1e6113fa9b199925f799028b0be1dfbef305e24f02b06062fade807"
+  },
+  "art/persia/landmarks_013/assassin_brotherhood/owner.rrtex": {
+    "toc": "data",
+    "bytes": 26765,
+    "sha256": "48b5a0a46191f6a5933dc303c0beb75fae3e10fc54d55be40adc5870bd9320a1"
+  },
+  "art/persia/landmarks_013/assassin_brotherhood/surface.rrtex": {
+    "toc": "data",
+    "bytes": 2155165,
+    "sha256": "ff6b8b281c1602b6dc2cf7766640d0095e75d625d39a886a09547625c4333b48"
+  },
+  "art/persia/landmarks_013/grand_caravanserai/albedo.rrtex": {
+    "toc": "data",
+    "bytes": 1925207,
+    "sha256": "5659f80bb9a540fa02a46ad5d67361a62eff35d2d78eb366ca702b2ff432e299"
+  },
+  "art/persia/landmarks_013/grand_caravanserai/normal.rrtex": {
+    "toc": "data",
+    "bytes": 3777854,
+    "sha256": "4eb5ced9c82a9088dac7696f18043b0dcb5253d5045d268ad84c27ac9605ddd2"
+  },
+  "art/persia/landmarks_013/grand_caravanserai/owner.rrtex": {
+    "toc": "data",
+    "bytes": 23408,
+    "sha256": "b338b587b48f89d43b041f3be6bb06549949aa64d65249d04ab781086f2126ea"
+  },
+  "art/persia/landmarks_013/grand_caravanserai/surface.rrtex": {
+    "toc": "data",
+    "bytes": 2157350,
+    "sha256": "15f585b088c7b7aa906e3bdc046440775573eee5966b1ec434f44457f6da3b24"
+  },
+  "art/persia/landmarks_013/gundeshapur/albedo.rrtex": {
+    "toc": "data",
+    "bytes": 1935732,
+    "sha256": "01049a2363d18610b7820ccfb46fcdf607c638da1b6069a552a4d99cf46c3113"
+  },
+  "art/persia/landmarks_013/gundeshapur/normal.rrtex": {
+    "toc": "data",
+    "bytes": 3775587,
+    "sha256": "510e2c735d1179c7206aca9dbe2dd5c8c1326fb2e1d05c144d4f07e97c26ab13"
+  },
+  "art/persia/landmarks_013/gundeshapur/owner.rrtex": {
+    "toc": "data",
+    "bytes": 26898,
+    "sha256": "739e02db0e17111502e89c061ac6298d9d02c34cb488600fdc5090e3b96ca063"
+  },
+  "art/persia/landmarks_013/gundeshapur/surface.rrtex": {
+    "toc": "data",
+    "bytes": 2127660,
+    "sha256": "82bdd1e1488ab1ebdee455a719fbebe293a87a27f4d45254a28a0d42b09dcfa5"
+  },
+  "art/persia/landmarks_013/samarkand_bazaar/albedo.rrtex": {
+    "toc": "data",
+    "bytes": 1916515,
+    "sha256": "d48c242e4bba3bcf13f2854467e4f6cc9dbc9654a9a597ae1537285ff1ca2cfa"
+  },
+  "art/persia/landmarks_013/samarkand_bazaar/normal.rrtex": {
+    "toc": "data",
+    "bytes": 3777286,
+    "sha256": "701dc5ceb95f646dc96718c850bacfdf0ad6dd22b4d560cda8efbcfadac67d37"
+  },
+  "art/persia/landmarks_013/samarkand_bazaar/owner.rrtex": {
+    "toc": "data",
+    "bytes": 26420,
+    "sha256": "4d457f74f740358cc77180f7886b897a8eb07140ee4856c96eb7759c35d7a40f"
+  },
+  "art/persia/landmarks_013/samarkand_bazaar/surface.rrtex": {
+    "toc": "data",
+    "bytes": 2141048,
+    "sha256": "af0ecb0111d47c723530bdbd16c29e253f7a92936166ad9fc8016d8e21806d8e"
+  },
+  "art/persia/landmarks_013/shah_abbas_siege_factory/albedo.rrtex": {
+    "toc": "data",
+    "bytes": 1936404,
+    "sha256": "81387c7b9941e770fbaecdb6bb3184fefb0d9c8f0a99fb451a18f89cee4f01a1"
+  },
+  "art/persia/landmarks_013/shah_abbas_siege_factory/normal.rrtex": {
+    "toc": "data",
+    "bytes": 3776852,
+    "sha256": "53b335bd038c3ee0802d196ec4f9a68432319a06149a640ad6f1e4d9509d8cea"
+  },
+  "art/persia/landmarks_013/shah_abbas_siege_factory/owner.rrtex": {
+    "toc": "data",
+    "bytes": 24268,
+    "sha256": "390527b3e8bac9ae8cab539ed22427dcbdc5bc3bfde3519c08c11e560e5bd9cb"
+  },
+  "art/persia/landmarks_013/shah_abbas_siege_factory/surface.rrtex": {
+    "toc": "data",
+    "bytes": 2146339,
+    "sha256": "b85d9d47caf082be1828ecc2ff40b76d25012ba608b09f3f641679a6b641f9e8"
   }
 }

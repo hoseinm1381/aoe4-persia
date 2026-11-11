@@ -29326,6 +29326,186 @@
       "bytes": 22055,
       "sha256": "7781a6fc7a05f9ebf99cc00978da2fe9fa750671e5f5ddb3ce006b624f06a44c",
       "role": "editable original XML reference; native table is current build authority"
+    },
+    {
+      "path": "landmarks_013/ali_qapu_palace/albedo.png",
+      "bytes": 3788921,
+      "sha256": "efe4629592ad1cc1b01272523861b49bea27ab5336f0fa28e3225ab62a60b07d",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/ali_qapu_palace/metalness.png",
+      "bytes": 36280,
+      "sha256": "cdd54a1e3c349cf33fd3e5c0d6d9ee45bf494eeeda57f823224d1b82d2f27a30",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/ali_qapu_palace/normal.png",
+      "bytes": 4817544,
+      "sha256": "af9de99f90d11320e4cb8dedf67553bfbf18bba83c6db82ead4b79c63fe19ee8",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/ali_qapu_palace/pattern.png",
+      "bytes": 13977,
+      "sha256": "a9f131a12a36919cc555910ba0aef97b08c1402d3e1a2b40b1549cdf86a40b11",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/ali_qapu_palace/roughness.png",
+      "bytes": 485435,
+      "sha256": "c1a7d18952140f3ce8b89efdaef014427ef2928081afaa5d8eacca245c1c782e",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/assassin_brotherhood/albedo.png",
+      "bytes": 3768557,
+      "sha256": "ec479b704fb9fdf434656582779e43e1f6e1a372584d030b68451a23ed9dd75a",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/assassin_brotherhood/metalness.png",
+      "bytes": 35043,
+      "sha256": "0eb245f18ef6095f7b4fb1d56b7def82f5a4210f7d9ae39c50736f9ece68cfdb",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/assassin_brotherhood/normal.png",
+      "bytes": 4816240,
+      "sha256": "9e1c68b3e717f632d91df32a94d41af1eb78804ae154e3d5b5622d76f394f435",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/assassin_brotherhood/pattern.png",
+      "bytes": 15233,
+      "sha256": "3b57ec67814f7ac5bed61217284383a52904b61748ae9b089b798012ade75b0b",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/assassin_brotherhood/roughness.png",
+      "bytes": 484606,
+      "sha256": "672fec2dc5b0d5f81d7c5125aef8796d5fd487deb2dc79e82705d639c54a291a",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/grand_caravanserai/albedo.png",
+      "bytes": 3770701,
+      "sha256": "f2cf233ad4e0303d51c65267b5ef1f5344695a321cc46751e3084b7ab7fca0ce",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/grand_caravanserai/metalness.png",
+      "bytes": 35656,
+      "sha256": "1f34d538a1cc48208c4ef8ad11bde5e92e3cc1d6cadab5e8e227add903e5d6cf",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/grand_caravanserai/normal.png",
+      "bytes": 4818622,
+      "sha256": "b8c05e03684b0db44a43add5f5d582bf2030dedb8c4798075d295d4cd5caf31f",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/grand_caravanserai/pattern.png",
+      "bytes": 14048,
+      "sha256": "eb86556908010ad307025b8ad2b868bc4fc5fccebba7c367b4d241feeaf779ab",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/grand_caravanserai/roughness.png",
+      "bytes": 487890,
+      "sha256": "dd6d273350d4d97f8f28bf27e045419e3faf955069dab5cb59a3be51afbeabe3",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/gundeshapur/albedo.png",
+      "bytes": 3700598,
+      "sha256": "a3dd3609d94138e088e00e97c4acccd9b132257fc3328f183f8a37b2021248be",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/gundeshapur/metalness.png",
+      "bytes": 32386,
+      "sha256": "8b7c7541d7c2e95eadb4f86d9f4298d7b661491840f1ea26ff487e2606db5618",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/gundeshapur/normal.png",
+      "bytes": 4816787,
+      "sha256": "61591809df16ea63694b352dfeffe4227d6a41be2031161fe30219ddba7a79d7",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/gundeshapur/pattern.png",
+      "bytes": 14347,
+      "sha256": "a55682eeff0779cd2b16c6e7844a6488a126810f89c06887a270c953904797e5",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/gundeshapur/roughness.png",
+      "bytes": 474431,
+      "sha256": "7a2ffe8cd9f30749769c337020f667ef6f9077ea1decdb0991c18ca9d17e0a4b",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/samarkand_bazaar/albedo.png",
+      "bytes": 3822127,
+      "sha256": "1818a50aeb652ed884c7f3780b35de64a010edc15d0be9c6989aa092cdb74082",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/samarkand_bazaar/metalness.png",
+      "bytes": 35852,
+      "sha256": "e9ce7b637c8e2e9d16bfa639d951d4a8ad4ae32ea0efa116ac5d22c59fe217f4",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/samarkand_bazaar/normal.png",
+      "bytes": 4817876,
+      "sha256": "a8d40894d284f3fdb62552830ac97528a921f07550a605691ad060609a098aad",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/samarkand_bazaar/pattern.png",
+      "bytes": 14303,
+      "sha256": "2029d4493a80a2f023763a36465b1399b3d58820d2ed78dcfbdfc728ae1394f5",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/samarkand_bazaar/roughness.png",
+      "bytes": 478770,
+      "sha256": "f82731085d2f96d718edae01e9bbff8637818ffdc65ef0573d4ca0347458221d",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/shah_abbas_siege_factory/albedo.png",
+      "bytes": 3756319,
+      "sha256": "9d7d273fcbdf3e7035b5928a4cb6a94b21e02b59e3b26c57308b30112ab3cad4",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/shah_abbas_siege_factory/metalness.png",
+      "bytes": 36158,
+      "sha256": "d05fc269302b5ce845b400116619fc41ac56341a354a568312079170ecc94cf4",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/shah_abbas_siege_factory/normal.png",
+      "bytes": 4816514,
+      "sha256": "3df94886544c4ea951ee4eb8419eeb26c11d534187653e10a6e08f199f95418a",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/shah_abbas_siege_factory/pattern.png",
+      "bytes": 14001,
+      "sha256": "95d1afc19dd0cbe2f282f83a643f643cd32ab202319528e30c6e87389db163e1",
+      "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "landmarks_013/shah_abbas_siege_factory/roughness.png",
+      "bytes": 478480,
+      "sha256": "89c380cf237768cf9e40349c17f97adc2b61efe319d25ebbfe0e2f5389a81e7d",
+      "role": "Editable baked Persian landmark material channel"
     }
   ],
   "audio": "Vietnam shipped Ogg clips are editable whole files under inputs/native/audio, not duplicated in authoring. Original WAV or voice-generation environments are not in the accepted combined GitHub snapshot.",

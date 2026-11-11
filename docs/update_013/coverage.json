@@ -1,0 +1,926 @@
+{
+  "ali_qapu_palace": {
+    "material": "art/ps100/l/ali_qapu_palace/m.rrmaterial",
+    "textures": {
+      "albedoTexture": "art/persia/landmarks_013/ali_qapu_palace/albedo.rrtex",
+      "normalMap": "art/persia/landmarks_013/ali_qapu_palace/normal.rrtex",
+      "metalTex": "art/persia/landmarks_013/ali_qapu_palace/surface.rrtex",
+      "patternTex": "art/persia/landmarks_013/ali_qapu_palace/owner.rrtex"
+    },
+    "healthy_before": [
+      3.48,
+      3.47,
+      3.46
+    ],
+    "healthy_after": [
+      9.2,
+      9.64,
+      9.72
+    ],
+    "all_states": {
+      "s00-LOD1": {
+        "owner_percent": 9.2,
+        "near_ground_owner_percent": 0.0
+      },
+      "s00-LOD2": {
+        "owner_percent": 9.64,
+        "near_ground_owner_percent": 0.0
+      },
+      "s00-LOD3": {
+        "owner_percent": 9.72,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD1": {
+        "owner_percent": 9.17,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD2": {
+        "owner_percent": 9.61,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD3": {
+        "owner_percent": 9.69,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD1": {
+        "owner_percent": 9.15,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD2": {
+        "owner_percent": 9.59,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD3": {
+        "owner_percent": 9.67,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD1": {
+        "owner_percent": 9.13,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD2": {
+        "owner_percent": 9.58,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD3": {
+        "owner_percent": 9.66,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD1": {
+        "owner_percent": 8.12,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD2": {
+        "owner_percent": 8.45,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD3": {
+        "owner_percent": 8.53,
+        "near_ground_owner_percent": 0.0
+      },
+      "s05-LOD1": {
+        "owner_percent": 7.26,
+        "near_ground_owner_percent": 0.0
+      },
+      "s05-LOD2": {
+        "owner_percent": 7.65,
+        "near_ground_owner_percent": 0.0
+      },
+      "s05-LOD3": {
+        "owner_percent": 7.72,
+        "near_ground_owner_percent": 0.0
+      },
+      "s06-LOD1": {
+        "owner_percent": 0.05,
+        "near_ground_owner_percent": 0.013
+      },
+      "s06-LOD2": {
+        "owner_percent": 0.05,
+        "near_ground_owner_percent": 0.014
+      },
+      "s06-LOD3": {
+        "owner_percent": 0.05,
+        "near_ground_owner_percent": 0.014
+      },
+      "s07-LOD1": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD2": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD3": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD1": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD2": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD3": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD1": {
+        "owner_percent": 9.07,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD2": {
+        "owner_percent": 9.07,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD3": {
+        "owner_percent": 9.15,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD1": {
+        "owner_percent": 9.2,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD2": {
+        "owner_percent": 9.28,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD3": {
+        "owner_percent": 9.34,
+        "near_ground_owner_percent": 0.0
+      }
+    },
+    "original_geometry_sha256": "0c580aa0c1ebfb8de2fd1675d76c89c28360a5e0ef63bf46c5b3f8d73bd3d7a2"
+  },
+  "assassin_brotherhood": {
+    "material": "art/ps100/l/assassin_brotherhood/m.rrmaterial",
+    "textures": {
+      "albedoTexture": "art/persia/landmarks_013/assassin_brotherhood/albedo.rrtex",
+      "normalMap": "art/persia/landmarks_013/assassin_brotherhood/normal.rrtex",
+      "metalTex": "art/persia/landmarks_013/assassin_brotherhood/surface.rrtex",
+      "patternTex": "art/persia/landmarks_013/assassin_brotherhood/owner.rrtex"
+    },
+    "healthy_before": [
+      2.16,
+      2.07,
+      2.04
+    ],
+    "healthy_after": [
+      8.89,
+      8.61,
+      7.88
+    ],
+    "all_states": {
+      "s00-LOD1": {
+        "owner_percent": 8.89,
+        "near_ground_owner_percent": 0.0
+      },
+      "s00-LOD2": {
+        "owner_percent": 8.61,
+        "near_ground_owner_percent": 0.0
+      },
+      "s00-LOD3": {
+        "owner_percent": 7.88,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD1": {
+        "owner_percent": 8.89,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD2": {
+        "owner_percent": 8.61,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD3": {
+        "owner_percent": 7.88,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD1": {
+        "owner_percent": 8.88,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD2": {
+        "owner_percent": 8.61,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD3": {
+        "owner_percent": 7.88,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD1": {
+        "owner_percent": 8.86,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD2": {
+        "owner_percent": 8.61,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD3": {
+        "owner_percent": 7.89,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD1": {
+        "owner_percent": 7.94,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD2": {
+        "owner_percent": 7.67,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD3": {
+        "owner_percent": 6.98,
+        "near_ground_owner_percent": 0.0
+      },
+      "s05-LOD1": {
+        "owner_percent": 7.68,
+        "near_ground_owner_percent": 0.0
+      },
+      "s05-LOD2": {
+        "owner_percent": 7.51,
+        "near_ground_owner_percent": 0.0
+      },
+      "s05-LOD3": {
+        "owner_percent": 6.88,
+        "near_ground_owner_percent": 0.0
+      },
+      "s06-LOD1": {
+        "owner_percent": 0.59,
+        "near_ground_owner_percent": 0.0
+      },
+      "s06-LOD2": {
+        "owner_percent": 0.66,
+        "near_ground_owner_percent": 0.0
+      },
+      "s06-LOD3": {
+        "owner_percent": 0.72,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD1": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD2": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD3": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD1": {
+        "owner_percent": 4.76,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD2": {
+        "owner_percent": 4.07,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD3": {
+        "owner_percent": 3.8,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD1": {
+        "owner_percent": 7.47,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD2": {
+        "owner_percent": 7.45,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD3": {
+        "owner_percent": 6.26,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD1": {
+        "owner_percent": 8.89,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD2": {
+        "owner_percent": 8.87,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD3": {
+        "owner_percent": 8.44,
+        "near_ground_owner_percent": 0.0
+      }
+    },
+    "original_geometry_sha256": "30d6ba32c09357b0ec52070c0a8944b530ed254b2d69a627325e4584c12fd71f"
+  },
+  "grand_caravanserai": {
+    "material": "art/ps100/l/grand_caravanserai/m.rrmaterial",
+    "textures": {
+      "albedoTexture": "art/persia/landmarks_013/grand_caravanserai/albedo.rrtex",
+      "normalMap": "art/persia/landmarks_013/grand_caravanserai/normal.rrtex",
+      "metalTex": "art/persia/landmarks_013/grand_caravanserai/surface.rrtex",
+      "patternTex": "art/persia/landmarks_013/grand_caravanserai/owner.rrtex"
+    },
+    "healthy_before": [
+      1.53,
+      1.56,
+      1.67
+    ],
+    "healthy_after": [
+      9.53,
+      8.25,
+      8.92
+    ],
+    "all_states": {
+      "s00-LOD1": {
+        "owner_percent": 9.53,
+        "near_ground_owner_percent": 0.0
+      },
+      "s00-LOD2": {
+        "owner_percent": 8.25,
+        "near_ground_owner_percent": 0.0
+      },
+      "s00-LOD3": {
+        "owner_percent": 8.92,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD1": {
+        "owner_percent": 9.52,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD2": {
+        "owner_percent": 8.25,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD3": {
+        "owner_percent": 8.92,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD1": {
+        "owner_percent": 9.5,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD2": {
+        "owner_percent": 8.22,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD3": {
+        "owner_percent": 8.91,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD1": {
+        "owner_percent": 9.5,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD2": {
+        "owner_percent": 8.23,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD3": {
+        "owner_percent": 8.98,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD1": {
+        "owner_percent": 9.27,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD2": {
+        "owner_percent": 8.06,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD3": {
+        "owner_percent": 7.59,
+        "near_ground_owner_percent": 0.0
+      },
+      "s05-LOD1": {
+        "owner_percent": 8.02,
+        "near_ground_owner_percent": 0.0
+      },
+      "s05-LOD2": {
+        "owner_percent": 7.11,
+        "near_ground_owner_percent": 0.0
+      },
+      "s05-LOD3": {
+        "owner_percent": 5.66,
+        "near_ground_owner_percent": 0.0
+      },
+      "s06-LOD1": {
+        "owner_percent": 0.01,
+        "near_ground_owner_percent": 0.015
+      },
+      "s06-LOD2": {
+        "owner_percent": 0.02,
+        "near_ground_owner_percent": 0.015
+      },
+      "s06-LOD3": {
+        "owner_percent": 0.02,
+        "near_ground_owner_percent": 0.016
+      },
+      "s07-LOD1": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD2": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD3": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD1": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD2": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD3": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD1": {
+        "owner_percent": 9.78,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD2": {
+        "owner_percent": 9.82,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD3": {
+        "owner_percent": 9.9,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD1": {
+        "owner_percent": 9.53,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD2": {
+        "owner_percent": 9.52,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD3": {
+        "owner_percent": 9.53,
+        "near_ground_owner_percent": 0.0
+      }
+    },
+    "original_geometry_sha256": "aad49d69dec92bfc13ad56b8a4199361f1d16da9b4a88703f733fad2e68f9e2f"
+  },
+  "gundeshapur": {
+    "material": "art/ps100/l/gundeshapur/m.rrmaterial",
+    "textures": {
+      "albedoTexture": "art/persia/landmarks_013/gundeshapur/albedo.rrtex",
+      "normalMap": "art/persia/landmarks_013/gundeshapur/normal.rrtex",
+      "metalTex": "art/persia/landmarks_013/gundeshapur/surface.rrtex",
+      "patternTex": "art/persia/landmarks_013/gundeshapur/owner.rrtex"
+    },
+    "healthy_before": [
+      6.24,
+      6.31,
+      6.53
+    ],
+    "healthy_after": [
+      13.04,
+      7.96,
+      8.95
+    ],
+    "all_states": {
+      "s00-LOD1": {
+        "owner_percent": 13.04,
+        "near_ground_owner_percent": 0.0
+      },
+      "s00-LOD2": {
+        "owner_percent": 7.96,
+        "near_ground_owner_percent": 0.0
+      },
+      "s00-LOD3": {
+        "owner_percent": 8.95,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD1": {
+        "owner_percent": 13.01,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD2": {
+        "owner_percent": 7.83,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD3": {
+        "owner_percent": 8.91,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD1": {
+        "owner_percent": 13.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD2": {
+        "owner_percent": 7.83,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD3": {
+        "owner_percent": 8.93,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD1": {
+        "owner_percent": 12.98,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD2": {
+        "owner_percent": 7.83,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD3": {
+        "owner_percent": 8.9,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD1": {
+        "owner_percent": 11.27,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD2": {
+        "owner_percent": 7.01,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD3": {
+        "owner_percent": 7.67,
+        "near_ground_owner_percent": 0.0
+      },
+      "s05-LOD1": {
+        "owner_percent": 1.66,
+        "near_ground_owner_percent": 0.011
+      },
+      "s05-LOD2": {
+        "owner_percent": 1.84,
+        "near_ground_owner_percent": 0.006
+      },
+      "s05-LOD3": {
+        "owner_percent": 1.81,
+        "near_ground_owner_percent": 0.005
+      },
+      "s06-LOD1": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s06-LOD2": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s06-LOD3": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD1": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD2": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD3": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD1": {
+        "owner_percent": 8.84,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD2": {
+        "owner_percent": 8.36,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD3": {
+        "owner_percent": 8.7,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD1": {
+        "owner_percent": 13.04,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD2": {
+        "owner_percent": 12.76,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD3": {
+        "owner_percent": 12.71,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD1": {
+        "owner_percent": 10.95,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD2": {
+        "owner_percent": 6.76,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD3": {
+        "owner_percent": 7.38,
+        "near_ground_owner_percent": 0.0
+      }
+    },
+    "original_geometry_sha256": "36334970aa7ebe024782817d7ff29084684f07b4c59e1cae8d0263e921902fab"
+  },
+  "samarkand_bazaar": {
+    "material": "art/ps100/l/samarkand_bazaar/m.rrmaterial",
+    "textures": {
+      "albedoTexture": "art/persia/landmarks_013/samarkand_bazaar/albedo.rrtex",
+      "normalMap": "art/persia/landmarks_013/samarkand_bazaar/normal.rrtex",
+      "metalTex": "art/persia/landmarks_013/samarkand_bazaar/surface.rrtex",
+      "patternTex": "art/persia/landmarks_013/samarkand_bazaar/owner.rrtex"
+    },
+    "healthy_before": [
+      6.72,
+      4.57,
+      4.57
+    ],
+    "healthy_after": [
+      11.65,
+      9.98,
+      10.32
+    ],
+    "all_states": {
+      "s00-LOD1": {
+        "owner_percent": 11.65,
+        "near_ground_owner_percent": 0.009
+      },
+      "s00-LOD2": {
+        "owner_percent": 9.98,
+        "near_ground_owner_percent": 0.0
+      },
+      "s00-LOD3": {
+        "owner_percent": 10.32,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD1": {
+        "owner_percent": 11.62,
+        "near_ground_owner_percent": 0.009
+      },
+      "s01-LOD2": {
+        "owner_percent": 9.95,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD3": {
+        "owner_percent": 10.28,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD1": {
+        "owner_percent": 11.62,
+        "near_ground_owner_percent": 0.009
+      },
+      "s02-LOD2": {
+        "owner_percent": 9.94,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD3": {
+        "owner_percent": 10.29,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD1": {
+        "owner_percent": 11.48,
+        "near_ground_owner_percent": 0.009
+      },
+      "s03-LOD2": {
+        "owner_percent": 9.96,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD3": {
+        "owner_percent": 10.32,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD1": {
+        "owner_percent": 11.24,
+        "near_ground_owner_percent": 0.019
+      },
+      "s04-LOD2": {
+        "owner_percent": 9.64,
+        "near_ground_owner_percent": 0.009
+      },
+      "s04-LOD3": {
+        "owner_percent": 10.06,
+        "near_ground_owner_percent": 0.009
+      },
+      "s05-LOD1": {
+        "owner_percent": 10.75,
+        "near_ground_owner_percent": 0.028
+      },
+      "s05-LOD2": {
+        "owner_percent": 9.09,
+        "near_ground_owner_percent": 0.018
+      },
+      "s05-LOD3": {
+        "owner_percent": 9.57,
+        "near_ground_owner_percent": 0.014
+      },
+      "s06-LOD1": {
+        "owner_percent": 1.26,
+        "near_ground_owner_percent": 0.051
+      },
+      "s06-LOD2": {
+        "owner_percent": 1.4,
+        "near_ground_owner_percent": 0.053
+      },
+      "s06-LOD3": {
+        "owner_percent": 1.55,
+        "near_ground_owner_percent": 0.053
+      },
+      "s07-LOD1": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD2": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD3": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD1": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD2": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD3": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD1": {
+        "owner_percent": 9.81,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD2": {
+        "owner_percent": 9.88,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD3": {
+        "owner_percent": 9.96,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD1": {
+        "owner_percent": 11.65,
+        "near_ground_owner_percent": 0.009
+      },
+      "s10-LOD2": {
+        "owner_percent": 11.83,
+        "near_ground_owner_percent": 0.009
+      },
+      "s10-LOD3": {
+        "owner_percent": 11.83,
+        "near_ground_owner_percent": 0.009
+      }
+    },
+    "original_geometry_sha256": "52f4c84df61a0a34ac0592cf1c712b5d9739a7347ddb2b76e56738ae6a6cee46"
+  },
+  "shah_abbas_siege_factory": {
+    "material": "art/ps100/l/shah_abbas_siege_factory/m.rrmaterial",
+    "textures": {
+      "albedoTexture": "art/persia/landmarks_013/shah_abbas_siege_factory/albedo.rrtex",
+      "normalMap": "art/persia/landmarks_013/shah_abbas_siege_factory/normal.rrtex",
+      "metalTex": "art/persia/landmarks_013/shah_abbas_siege_factory/surface.rrtex",
+      "patternTex": "art/persia/landmarks_013/shah_abbas_siege_factory/owner.rrtex"
+    },
+    "healthy_before": [
+      1.25,
+      1.26,
+      1.27
+    ],
+    "healthy_after": [
+      11.38,
+      11.47,
+      11.8
+    ],
+    "all_states": {
+      "s00-LOD1": {
+        "owner_percent": 11.38,
+        "near_ground_owner_percent": 0.0
+      },
+      "s00-LOD2": {
+        "owner_percent": 11.47,
+        "near_ground_owner_percent": 0.0
+      },
+      "s00-LOD3": {
+        "owner_percent": 11.8,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD1": {
+        "owner_percent": 11.26,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD2": {
+        "owner_percent": 11.35,
+        "near_ground_owner_percent": 0.0
+      },
+      "s01-LOD3": {
+        "owner_percent": 11.68,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD1": {
+        "owner_percent": 11.16,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD2": {
+        "owner_percent": 11.28,
+        "near_ground_owner_percent": 0.0
+      },
+      "s02-LOD3": {
+        "owner_percent": 11.61,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD1": {
+        "owner_percent": 9.96,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD2": {
+        "owner_percent": 10.06,
+        "near_ground_owner_percent": 0.0
+      },
+      "s03-LOD3": {
+        "owner_percent": 10.4,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD1": {
+        "owner_percent": 8.73,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD2": {
+        "owner_percent": 8.92,
+        "near_ground_owner_percent": 0.0
+      },
+      "s04-LOD3": {
+        "owner_percent": 9.31,
+        "near_ground_owner_percent": 0.0
+      },
+      "s05-LOD1": {
+        "owner_percent": 7.56,
+        "near_ground_owner_percent": 0.0
+      },
+      "s05-LOD2": {
+        "owner_percent": 7.83,
+        "near_ground_owner_percent": 0.0
+      },
+      "s05-LOD3": {
+        "owner_percent": 8.24,
+        "near_ground_owner_percent": 0.0
+      },
+      "s06-LOD1": {
+        "owner_percent": 0.11,
+        "near_ground_owner_percent": 0.041
+      },
+      "s06-LOD2": {
+        "owner_percent": 0.11,
+        "near_ground_owner_percent": 0.044
+      },
+      "s06-LOD3": {
+        "owner_percent": 0.13,
+        "near_ground_owner_percent": 0.05
+      },
+      "s07-LOD1": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD2": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s07-LOD3": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD1": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD2": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s08-LOD3": {
+        "owner_percent": 0.0,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD1": {
+        "owner_percent": 11.12,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD2": {
+        "owner_percent": 11.33,
+        "near_ground_owner_percent": 0.0
+      },
+      "s09-LOD3": {
+        "owner_percent": 11.33,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD1": {
+        "owner_percent": 11.38,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD2": {
+        "owner_percent": 11.62,
+        "near_ground_owner_percent": 0.0
+      },
+      "s10-LOD3": {
+        "owner_percent": 11.51,
+        "near_ground_owner_percent": 0.0
+      }
+    },
+    "original_geometry_sha256": "08c75ac4aa1bbd68fff2d776ba5fde1c5819150fc6c95e1b53421e8fa25119fc"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "baseline_version": "0.1.2",
+  "allowed_changed": [
+    "art/ps100/l/ali_qapu_palace/m.rrmaterial",
+    "art/ps100/l/assassin_brotherhood/m.rrmaterial",
+    "art/ps100/l/grand_caravanserai/m.rrmaterial",
+    "art/ps100/l/gundeshapur/m.rrmaterial",
+    "art/ps100/l/samarkand_bazaar/m.rrmaterial",
+    "art/ps100/l/shah_abbas_siege_factory/m.rrmaterial"
+  ],
+  "allowed_added": [
+    "art/persia/landmarks_013/ali_qapu_palace/albedo.rrtex",
+    "art/persia/landmarks_013/ali_qapu_palace/normal.rrtex",
+    "art/persia/landmarks_013/ali_qapu_palace/owner.rrtex",
+    "art/persia/landmarks_013/ali_qapu_palace/surface.rrtex",
+    "art/persia/landmarks_013/assassin_brotherhood/albedo.rrtex",
+    "art/persia/landmarks_013/assassin_brotherhood/normal.rrtex",
+    "art/persia/landmarks_013/assassin_brotherhood/owner.rrtex",
+    "art/persia/landmarks_013/assassin_brotherhood/surface.rrtex",
+    "art/persia/landmarks_013/grand_caravanserai/albedo.rrtex",
+    "art/persia/landmarks_013/grand_caravanserai/normal.rrtex",
+    "art/persia/landmarks_013/grand_caravanserai/owner.rrtex",
+    "art/persia/landmarks_013/grand_caravanserai/surface.rrtex",
+    "art/persia/landmarks_013/gundeshapur/albedo.rrtex",
+    "art/persia/landmarks_013/gundeshapur/normal.rrtex",
+    "art/persia/landmarks_013/gundeshapur/owner.rrtex",
+    "art/persia/landmarks_013/gundeshapur/surface.rrtex",
+    "art/persia/landmarks_013/samarkand_bazaar/albedo.rrtex",
+    "art/persia/landmarks_013/samarkand_bazaar/normal.rrtex",
+    "art/persia/landmarks_013/samarkand_bazaar/owner.rrtex",
+    "art/persia/landmarks_013/samarkand_bazaar/surface.rrtex",
+    "art/persia/landmarks_013/shah_abbas_siege_factory/albedo.rrtex",
+    "art/persia/landmarks_013/shah_abbas_siege_factory/normal.rrtex",
+    "art/persia/landmarks_013/shah_abbas_siege_factory/owner.rrtex",
+    "art/persia/landmarks_013/shah_abbas_siege_factory/surface.rrtex"
+  ],
+  "allowed_removed": []
+}
