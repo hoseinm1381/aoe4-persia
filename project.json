@@ -4,7 +4,7 @@
   "race": "persia",
   "bundle_key": "persia",
   "name": "Persians",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "dispatcher": "scar/garrison/persia/dispatcher.scar",
   "shared_entities": [
     "building_defense_keep",
@@ -160,6 +160,6 @@
   ],
   "source_baseline": "d58326f447b6444332e9a15c42c7496d57fb26be",
   "native_game_acceptance": "pending",
-  "publication": "local landmark art candidate",
+  "publication": "owner-approved unit art release",
   "codex_mode": "reviewed_012"
 }

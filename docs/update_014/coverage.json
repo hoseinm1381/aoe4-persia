@@ -1,0 +1,87 @@
+{
+  "assassin": {
+    "unit_and_mount": [
+      24.81,
+      22.59,
+      21.25
+    ],
+    "equipped": [
+      23.36,
+      20.82,
+      19.36
+    ],
+    "equipped_if_all_equipment_untinted": [
+      23.36,
+      20.82,
+      19.36
+    ]
+  },
+  "zamburak": {
+    "unit_and_mount": [
+      12.12,
+      12.21,
+      12.6
+    ],
+    "equipped": [
+      11.49,
+      11.58,
+      11.94
+    ],
+    "equipped_if_all_equipment_untinted": [
+      11.49,
+      11.58,
+      11.94
+    ]
+  },
+  "zamburak_upgrade": {
+    "unit_and_mount": [
+      14.11,
+      14.05,
+      14.49
+    ],
+    "equipped": [
+      13.45,
+      13.37,
+      13.76
+    ],
+    "equipped_if_all_equipment_untinted": [
+      13.45,
+      13.37,
+      13.76
+    ]
+  },
+  "savar_castle": {
+    "unit_and_mount": [
+      36.86,
+      29.59,
+      25.05
+    ],
+    "equipped": [
+      36.03,
+      28.92,
+      24.64
+    ],
+    "equipped_if_all_equipment_untinted": [
+      35.03,
+      27.83,
+      23.59
+    ]
+  },
+  "savar_imperial": {
+    "unit_and_mount": [
+      30.43,
+      31.01,
+      27.94
+    ],
+    "equipped": [
+      29.96,
+      30.21,
+      27.13
+    ],
+    "equipped_if_all_equipment_untinted": [
+      29.24,
+      29.3,
+      26.0
+    ]
+  }
+}

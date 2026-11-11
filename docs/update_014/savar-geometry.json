@@ -1,0 +1,122 @@
+{
+  "byz_horse_combined_armor_age03": [
+    {
+      "lod": 1,
+      "faces_reprojected": 415,
+      "vertex_splits": 4,
+      "sculpted_vertices": 86,
+      "max_vertex_displacement": 0.17214974761009216
+    },
+    {
+      "lod": 1,
+      "faces_reprojected": 0,
+      "vertex_splits": 0,
+      "sculpted_vertices": 0,
+      "max_vertex_displacement": 0.0
+    },
+    {
+      "lod": 2,
+      "faces_reprojected": 279,
+      "vertex_splits": 8,
+      "sculpted_vertices": 51,
+      "max_vertex_displacement": 0.14057990908622742
+    },
+    {
+      "lod": 2,
+      "faces_reprojected": 0,
+      "vertex_splits": 0,
+      "sculpted_vertices": 0,
+      "max_vertex_displacement": 0.0
+    },
+    {
+      "lod": 3,
+      "faces_reprojected": 86,
+      "vertex_splits": 29,
+      "sculpted_vertices": 41,
+      "max_vertex_displacement": 0.18463435769081116
+    }
+  ],
+  "byz_shield_ovalspearman": [
+    {
+      "lod": 1,
+      "faces_reprojected": 80,
+      "vertex_splits": 0,
+      "sculpted_vertices": 31,
+      "max_vertex_displacement": 0.01794898509979248
+    },
+    {
+      "lod": 2,
+      "faces_reprojected": 50,
+      "vertex_splits": 0,
+      "sculpted_vertices": 18,
+      "max_vertex_displacement": 0.01794898509979248
+    },
+    {
+      "lod": 3,
+      "faces_reprojected": 43,
+      "vertex_splits": 0,
+      "sculpted_vertices": 18,
+      "max_vertex_displacement": 0.01794898509979248
+    }
+  ],
+  "byz_horse_combined_armor_age04": [
+    {
+      "lod": 1,
+      "faces_reprojected": 737,
+      "vertex_splits": 12,
+      "sculpted_vertices": 96,
+      "max_vertex_displacement": 0.15448229014873505
+    },
+    {
+      "lod": 1,
+      "faces_reprojected": 0,
+      "vertex_splits": 0,
+      "sculpted_vertices": 0,
+      "max_vertex_displacement": 0.0
+    },
+    {
+      "lod": 2,
+      "faces_reprojected": 270,
+      "vertex_splits": 23,
+      "sculpted_vertices": 65,
+      "max_vertex_displacement": 0.1498834490776062
+    },
+    {
+      "lod": 2,
+      "faces_reprojected": 0,
+      "vertex_splits": 0,
+      "sculpted_vertices": 0,
+      "max_vertex_displacement": 0.0
+    },
+    {
+      "lod": 3,
+      "faces_reprojected": 76,
+      "vertex_splits": 32,
+      "sculpted_vertices": 61,
+      "max_vertex_displacement": 0.14500874280929565
+    }
+  ],
+  "byz_shield_teardrop": [
+    {
+      "lod": 1,
+      "faces_reprojected": 174,
+      "vertex_splits": 0,
+      "sculpted_vertices": 142,
+      "max_vertex_displacement": 0.04027131199836731
+    },
+    {
+      "lod": 2,
+      "faces_reprojected": 176,
+      "vertex_splits": 0,
+      "sculpted_vertices": 137,
+      "max_vertex_displacement": 0.03974077105522156
+    },
+    {
+      "lod": 3,
+      "faces_reprojected": 162,
+      "vertex_splits": 0,
+      "sculpted_vertices": 141,
+      "max_vertex_displacement": 0.039010822772979736
+    }
+  ]
+}

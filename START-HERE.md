@@ -1,7 +1,7 @@
-# Persians Garrison 0.1.3
+# Persians Garrison 0.1.4
 
-Import Persians-Garrison-0.1.3.zip into Garrison and enable Persians. Choose Persians directly in a Standard lobby with Tuning Pack None.
+Import Persians-Garrison-0.1.4.zip into Garrison and enable Persians. Choose Persians directly in a Standard lobby with Tuning Pack None.
 
-Compare the six landmark appearances in two player colors. Check finished, damaged, and ruined states and zoom distances in a fresh match.
+Check Assassin, Zamburak, and both Savar ages at several zoom levels. Compare blue, red, and yellow in fresh matches.
 
 Credits are hosein81 and chilly5.

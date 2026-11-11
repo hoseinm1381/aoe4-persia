@@ -29506,6 +29506,138 @@
       "bytes": 478480,
       "sha256": "89c380cf237768cf9e40349c17f97adc2b61efe319d25ebbfe0e2f5389a81e7d",
       "role": "Editable baked Persian landmark material channel"
+    },
+    {
+      "path": "units_014/assassin/albedo.png",
+      "bytes": 876603,
+      "sha256": "fa73b62b2ac60c570fa3da1b035bc1c2f9acda2a92d8b078acf5433f9fada94c",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/assassin/pattern.png",
+      "bytes": 3711,
+      "sha256": "c9b486a1f3970ca8140bf7ad9419e1ce8f1b5530fe2e224f7d3d41bd6194f775",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/zamburak/albedo.png",
+      "bytes": 659051,
+      "sha256": "c1362eecfd9e7c5f87cb7f444d773b3abbe9dee5170822007fdb119bab5b52cf",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/zamburak/pattern.png",
+      "bytes": 44375,
+      "sha256": "d9d13c2f55134a327c800fd3b6b7cde7c8aec485b4b4521199680975471e8038",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/zamburak_upgrade/albedo.png",
+      "bytes": 628738,
+      "sha256": "2c3b5cab26ce9cd09c00b6660c6b65745851fc655b15052825507a5d8cb7d88d",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/zamburak_upgrade/pattern.png",
+      "bytes": 47782,
+      "sha256": "45d8c7384048e3fff02c5134c164f6dee86a293999d690ae06efc9dfd0c07080",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_castle/armor/albedo.png",
+      "bytes": 762478,
+      "sha256": "445e461e8017435fffda840a01c5d0ea3af2674f559873afc55cc573c2678ef1",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_castle/armor/normal.png",
+      "bytes": 879600,
+      "sha256": "71ddd749f33268b3fcc44cd5df0829d00f97d9b2cea800ea458d06d3bc080be3",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_castle/armor/owner.png",
+      "bytes": 72338,
+      "sha256": "cfa52edf69c60a280bb991e909765f744b07281f76ae6f596e570544f3a9aad9",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_castle/armor/surface.png",
+      "bytes": 426553,
+      "sha256": "db0b784e0851a84a197fb0ac431575d2231bf1cd7dbaad2f7bbb60e5d1837ce5",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_castle/shield/albedo.png",
+      "bytes": 116327,
+      "sha256": "43f7182370cb4f169952a70a4dd07aa1cefc007c189cc72280e1ed6978fe89ee",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_castle/shield/normal.png",
+      "bytes": 74153,
+      "sha256": "b802271926f7386b500d8a98815ec9ab035f5b234ecc68ea3c09db4a9c1a5377",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_castle/shield/owner.png",
+      "bytes": 18122,
+      "sha256": "ce8c615b384d3369b6baa0e701374d6f35785f6be2df7ea2a4726f997cd20b1d",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_castle/shield/surface.png",
+      "bytes": 95320,
+      "sha256": "eb4f6cc398c309cbd92ec372e3641281b728bfa3417fff5cc9f76abbf6a2a823",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_imperial/armor/albedo.png",
+      "bytes": 788379,
+      "sha256": "734b4acb94696788040472b94f30321461c78e051ab0e868d2bd668c4c7b449f",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_imperial/armor/normal.png",
+      "bytes": 838100,
+      "sha256": "e5eafbe1957f69d48847b058c9dfe00151e13894bae34e7869a788dbcdca97d6",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_imperial/armor/owner.png",
+      "bytes": 72697,
+      "sha256": "6d742016af2899eb82bcb6f1baf697b653b78b9224667a62f08a986a50006d45",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_imperial/armor/surface.png",
+      "bytes": 492994,
+      "sha256": "83dbfe6e495c4aac0c20c7d432a0ba90c25878dbb25f04b558e6421e6fa23219",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_imperial/shield/albedo.png",
+      "bytes": 110809,
+      "sha256": "d186868c150ae47188deb24ce41e612cd908966f2b7bd644a21af4ebcf4b2cfc",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_imperial/shield/normal.png",
+      "bytes": 67157,
+      "sha256": "9801cdda2052451716d2f348155228654e96d4375ac635697b9e93cbe59b85f7",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_imperial/shield/owner.png",
+      "bytes": 17213,
+      "sha256": "a78b4e504a0918f2d71bcb701b2226f03a7cf96d5ad0ceb31f06ca817daa0fdf",
+      "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "units_014/savar_imperial/shield/surface.png",
+      "bytes": 76829,
+      "sha256": "2679b520b7d4d59251af2f4fac14c0618490ad782172f6d3aebcffc5bb6cc61b",
+      "role": "Editable Persian unit texture channel"
     }
   ],
   "audio": "Vietnam shipped Ogg clips are editable whole files under inputs/native/audio, not duplicated in authoring. Original WAV or voice-generation environments are not in the accepted combined GitHub snapshot.",

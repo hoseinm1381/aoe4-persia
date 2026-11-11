@@ -1,8 +1,10 @@
 # Persians — independent Garrison civilization
 
-Current local candidate: **0.1.3**, in `release/Persians-Garrison-0.1.3.zip`.
-Six unique landmarks have separate architectural finishes and verified
-offline player-color coverage. [Landmark update](docs/UPDATE_013.md).
+Current release **0.1.4** redesigns Castle and Imperial Savar, adds dynamic
+player color to Assassin and Zamburak, and corrects unit UVs across LODs.
+[Download the player ZIP](https://github.com/hoseinm1381/aoe4-persia/releases/tag/v0.1.4) · [0.1.4 art and verification](docs/UPDATE_014.md).
+
+The exact local 0.1.3 rollback is under `archives/units_014_baseline/`. [Landmark update](docs/UPDATE_013.md).
 
 0.1.2 populates native Unique Units/Technologies, explains the actual civilization
 mechanics, corrects research ages and spaces tech-tree icons at the native pitch.

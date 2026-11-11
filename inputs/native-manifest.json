@@ -2671,9 +2671,8 @@
   },
   "art/persia/release_100/units/assassin/abb_spy/model.rrmaterial": {
     "toc": "data",
-    "bytes": 741,
-    "sha256": "7a5049c048ba9d06d12d03277f6404f94f8d6e4c0d18ab46846c41773c477326",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 681,
+    "sha256": "ae6ac8f6fc81f4007ed0779a79e5e5e282584bdcaf3cad9904caa3b205d04fce"
   },
   "art/persia/release_100/units/assassin/sword_short/model.rgm": {
     "toc": "data",
@@ -3769,15 +3768,13 @@
   },
   "art/persia/release_100/units/savar/byz_horse_combined_armor_age03/model.rrgeom": {
     "toc": "data",
-    "bytes": 299075,
-    "sha256": "553e4faf226d1a619e4f714bc5b7ddfd0078e778db825dd84d45c04406eb90e1",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 300223,
+    "sha256": "65ee5701eb26e166d33e0dcdfcfd118803e2ac8fc0136cf31a9630cbeb3f712b"
   },
   "art/persia/release_100/units/savar/byz_horse_combined_armor_age03/model.rrmaterial": {
     "toc": "data",
-    "bytes": 799,
-    "sha256": "9493d5cad4d6821efa8a5c375ba91a5d8f3aeb40639252268f01bd0380d18c95",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 678,
+    "sha256": "8e67b587bc59385a72db719e2765792560958500c843653679630a231516b5bc"
   },
   "art/persia/release_100/units/savar/byz_horse_combined_armor_age04/model.rgm": {
     "toc": "data",
@@ -3793,15 +3790,13 @@
   },
   "art/persia/release_100/units/savar/byz_horse_combined_armor_age04/model.rrgeom": {
     "toc": "data",
-    "bytes": 383537,
-    "sha256": "9b27422320ad824d25f749e2a03bb82185471562913a79701e0ff28904e8d8eb",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 385413,
+    "sha256": "62ac501247d716589471b208cbc32bacc6b74e1cbaffe3f693527d377d6d43ca"
   },
   "art/persia/release_100/units/savar/byz_horse_combined_armor_age04/model.rrmaterial": {
     "toc": "data",
-    "bytes": 800,
-    "sha256": "351dd89053f7df0661f22ec8fc54423ff3a28f6f6746b9d656f43177b316e38a",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 686,
+    "sha256": "998aea388b876114e0254486d8aac4014955ef0bdc88060909692d63d0511a65"
   },
   "art/persia/release_100/units/savar/byz_shield_ovalspearman/model.rgm": {
     "toc": "data",
@@ -3818,14 +3813,12 @@
   "art/persia/release_100/units/savar/byz_shield_ovalspearman/model.rrgeom": {
     "toc": "data",
     "bytes": 25205,
-    "sha256": "2d24221cca9600a2219dc379d879c11248de5184a6cb678fdf1457737850a4a6",
-    "origin": "accepted-combined-1.1.0"
+    "sha256": "66dee38f14d418f4a1abed5fb61899f29fdcd4c9336f10b52fcf374ae713bcb2"
   },
   "art/persia/release_100/units/savar/byz_shield_ovalspearman/model.rrmaterial": {
     "toc": "data",
-    "bytes": 739,
-    "sha256": "3c211b224a1af8f12b1673f34edbb4a95b1ac6ba81fe31f0eca624b53d552f50",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 646,
+    "sha256": "f7130c99eb3257943f9e5fb97410ac471a4e11a8200d02bb08886df077a42e0f"
   },
   "art/persia/release_100/units/savar/byz_shield_teardrop/model.rgm": {
     "toc": "data",
@@ -3842,14 +3835,12 @@
   "art/persia/release_100/units/savar/byz_shield_teardrop/model.rrgeom": {
     "toc": "data",
     "bytes": 42286,
-    "sha256": "1f3be8e3b2dfc60f70c5c9a30c81dff6ffc4dc9f20dc07beaaad203ca37050da",
-    "origin": "accepted-combined-1.1.0"
+    "sha256": "2d7a7e006bd7599f9ffb5cf1d21bcadd12b2e2d586ec41ac596fcb46bc1aac73"
   },
   "art/persia/release_100/units/savar/byz_shield_teardrop/model.rrmaterial": {
     "toc": "data",
-    "bytes": 739,
-    "sha256": "156bb3ac0fab7b162153a1929dc18de5028dfadfada35a5f66c1db1b80e2f468",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 654,
+    "sha256": "3569b0d7caa62663f2672a133bf6850ed2fce7f8095a9d9120048bb48628f05f"
   },
   "art/persia/release_100/units/savar/lance_basic/model.rgm": {
     "toc": "data",
@@ -5258,14 +5249,12 @@
   "art/persia/release_100/units/zamburak/abb_camel_combined_bow_age04/model.rrgeom": {
     "toc": "data",
     "bytes": 321582,
-    "sha256": "77c1fc0631ed343786c1655b1f5e11100239aa0e2b5928fff0e3ec351a21651c",
-    "origin": "accepted-combined-1.1.0"
+    "sha256": "3ec3b790d4dd60d64dbcf27b9ed88eda019082d051746173e35a4ac78b57105a"
   },
   "art/persia/release_100/units/zamburak/abb_camel_combined_bow_age04/model.rrmaterial": {
     "toc": "data",
-    "bytes": 798,
-    "sha256": "8cb811fcb63dd85539cd0027aab1a5ca3540536e2ccfc04a0459d185c7721aa0",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 739,
+    "sha256": "5bb6114983b616b08ab3d8af8d33f8894633a44ef7cd028fd8ded028f9c5b3eb"
   },
   "art/persia/release_100/units/zamburak/abb_camel_combined_bow_age04_upgrade/model.rgm": {
     "toc": "data",
@@ -5282,14 +5271,12 @@
   "art/persia/release_100/units/zamburak/abb_camel_combined_bow_age04_upgrade/model.rrgeom": {
     "toc": "data",
     "bytes": 400798,
-    "sha256": "4dbee36d8fdb31be90324a03b96a029103e16d349e9353fd6735853d2cc06608",
-    "origin": "accepted-combined-1.1.0"
+    "sha256": "e404186006bc67a97f60df0cd3b22dade6a02ec1298234e0aa86457bf9bea2a9"
   },
   "art/persia/release_100/units/zamburak/abb_camel_combined_bow_age04_upgrade/model.rrmaterial": {
     "toc": "data",
-    "bytes": 805,
-    "sha256": "daa721c17309ab004e13fabdc42b2d2ed4b1ea517637a59779a17b13795ebaac",
-    "origin": "accepted-combined-1.1.0"
+    "bytes": 761,
+    "sha256": "d2a0d19659f43bed95fa20012ce84161fdba7fcce95c6353baa46ec3c072716d"
   },
   "art/persia/release_100/units/zamburak/jpn_cannon_ozutsu/model.rgm": {
     "toc": "data",
@@ -5306,8 +5293,7 @@
   "art/persia/release_100/units/zamburak/jpn_cannon_ozutsu/model.rrgeom": {
     "toc": "data",
     "bytes": 153961,
-    "sha256": "22fd7e922906896fdacbe3279b00138efef66fd25663796ba5e20b7076ae745b",
-    "origin": "accepted-combined-1.1.0"
+    "sha256": "165a7048bce1e4e74d9f122157a16466c92d5bcea94bd419758ce063090a3157"
   },
   "art/persia/release_100/units/zamburak/jpn_cannon_ozutsu/model.rrmaterial": {
     "toc": "data",
@@ -8386,5 +8372,115 @@
     "toc": "data",
     "bytes": 2146339,
     "sha256": "b85d9d47caf082be1828ecc2ff40b76d25012ba608b09f3f641679a6b641f9e8"
+  },
+  "art/persia/units_014/assassin/albedo.rrtex": {
+    "toc": "data",
+    "bytes": 423732,
+    "sha256": "7dc5b1474ddadebe8bd6c8a1d7e0ea2e67ceb5f58dfe6324a9a0356b231f12e9"
+  },
+  "art/persia/units_014/assassin/owner.rrtex": {
+    "toc": "data",
+    "bytes": 5085,
+    "sha256": "7a2527393dddebb050a4f863d868173426e68de6be2d314cf2d06459cf63392c"
+  },
+  "art/persia/units_014/savar_castle/albedo.rrtex": {
+    "toc": "data",
+    "bytes": 367501,
+    "sha256": "1a8c3f7088e47fb6866d839fe505e2d9c2c7d0a22be88ca8fded8e8a0460a15c"
+  },
+  "art/persia/units_014/savar_castle/normal.rrtex": {
+    "toc": "data",
+    "bytes": 740844,
+    "sha256": "cb691f82b039232f66578d0588d01437230f5f31bcb8fa8f8ca1c3289b90467b"
+  },
+  "art/persia/units_014/savar_castle/owner.rrtex": {
+    "toc": "data",
+    "bytes": 70872,
+    "sha256": "deb71c62216ddb78f02c1016f79a85ed02a08f5e794ba283c47741d59644acc3"
+  },
+  "art/persia/units_014/savar_castle/shield/albedo.rrtex": {
+    "toc": "data",
+    "bytes": 69418,
+    "sha256": "5128ef575c096d46c6ec61aea730a7fe0a13387fc75ebaadf21b20a392553b56"
+  },
+  "art/persia/units_014/savar_castle/shield/normal.rrtex": {
+    "toc": "data",
+    "bytes": 88976,
+    "sha256": "1ef8dd9a920e4adf18eafc8c81732c2b08dad96374a09bcf78b0ec34a7ce23e8"
+  },
+  "art/persia/units_014/savar_castle/shield/owner.rrtex": {
+    "toc": "data",
+    "bytes": 16332,
+    "sha256": "86d57b3deec6c2e084ae34536fb85c0b5990c6eaebe62e4796a39793bedf6c91"
+  },
+  "art/persia/units_014/savar_castle/shield/surface.rrtex": {
+    "toc": "data",
+    "bytes": 102688,
+    "sha256": "b4db220213e37672ee1c804211cba841d479f7b958e7888511c1c8051b1900fa"
+  },
+  "art/persia/units_014/savar_castle/surface.rrtex": {
+    "toc": "data",
+    "bytes": 446508,
+    "sha256": "961cb0674c5fd64693ddb8102eff42b6639df76c6d4c43ed22d69c91c1d25d30"
+  },
+  "art/persia/units_014/savar_imperial/albedo.rrtex": {
+    "toc": "data",
+    "bytes": 374816,
+    "sha256": "f359e580ef2c51435b16bb9674b1e99a9ad5b27f0ea4828a453b3699078014e9"
+  },
+  "art/persia/units_014/savar_imperial/normal.rrtex": {
+    "toc": "data",
+    "bytes": 726994,
+    "sha256": "7d1c06c14f1a925a7beaccdec21c3ca0cfff043f6f7dae9e84b41f0c3fcf15cd"
+  },
+  "art/persia/units_014/savar_imperial/owner.rrtex": {
+    "toc": "data",
+    "bytes": 71006,
+    "sha256": "b3040681f3e539b9f999ccc7b50bfd944f0a70737d49dad875b811c03d88e946"
+  },
+  "art/persia/units_014/savar_imperial/shield/albedo.rrtex": {
+    "toc": "data",
+    "bytes": 64529,
+    "sha256": "27a5b906fda91e8cba206c87a15361fc44d4a73940cdc29ab1505e9c8cecc015"
+  },
+  "art/persia/units_014/savar_imperial/shield/normal.rrtex": {
+    "toc": "data",
+    "bytes": 83962,
+    "sha256": "c48c7a25816e1e0abf861d6978927522d451f73d7ef8d0b06584e0dd78523a5d"
+  },
+  "art/persia/units_014/savar_imperial/shield/owner.rrtex": {
+    "toc": "data",
+    "bytes": 15830,
+    "sha256": "42bd2af8d27db0010a27b151bd3603fe1304f979c0bf09ba9153d6662bac3310"
+  },
+  "art/persia/units_014/savar_imperial/shield/surface.rrtex": {
+    "toc": "data",
+    "bytes": 88966,
+    "sha256": "50b11b075472761c3aa3ca0b53fb590e4d7dac3592d21530b0c71fbe60a8c5ef"
+  },
+  "art/persia/units_014/savar_imperial/surface.rrtex": {
+    "toc": "data",
+    "bytes": 500690,
+    "sha256": "ecd3f140f740f665eeeda550ab318330c3439921d3eeb547f0f41ac458fde20f"
+  },
+  "art/persia/units_014/zamburak/albedo.rrtex": {
+    "toc": "data",
+    "bytes": 352046,
+    "sha256": "21e4cdae5c632bb766a897128da53de60c5d5339cefb0a7f90658f73443b1fca"
+  },
+  "art/persia/units_014/zamburak/owner.rrtex": {
+    "toc": "data",
+    "bytes": 47433,
+    "sha256": "525eae24a7f0df16a8dde7b17375cf8baa714a44987b553e5eabd8cfb49add81"
+  },
+  "art/persia/units_014/zamburak_upgrade/albedo.rrtex": {
+    "toc": "data",
+    "bytes": 348137,
+    "sha256": "edc4b1a016641ad153d3f5b3b1e0785cd46c9ef947cbfee8bd01d831776a728e"
+  },
+  "art/persia/units_014/zamburak_upgrade/owner.rrtex": {
+    "toc": "data",
+    "bytes": 50742,
+    "sha256": "050ea22e4f946b3e7582932f2565a0aeccc21426a1093df26b5814f4ec2c7be0"
   }
 }
