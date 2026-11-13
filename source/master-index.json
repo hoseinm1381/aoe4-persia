@@ -29638,6 +29638,30 @@
       "bytes": 76829,
       "sha256": "2679b520b7d4d59251af2f4fac14c0618490ad782172f6d3aebcffc5bb6cc61b",
       "role": "Editable Persian unit texture channel"
+    },
+    {
+      "path": "art016/glazed-owner.png",
+      "bytes": 4818,
+      "sha256": "a789e20080aa2bc9d1defa9549d9c7aeff60dfbb644ca70e54d6b98154bf9831",
+      "role": "Editable building art and recipe"
+    },
+    {
+      "path": "art016/keep-coverage.json",
+      "bytes": 60,
+      "sha256": "881dbb9ce62b2f1b5c65c7c2279eff4cf53cc883b48df77380353eb5c3d11e4f",
+      "role": "Editable building art and recipe"
+    },
+    {
+      "path": "art016/masonry.png",
+      "bytes": 715558,
+      "sha256": "feeb469eba26549bef7bf5fbbe32e367a0314260bf067250701ec719804b21bb",
+      "role": "Editable building art and recipe"
+    },
+    {
+      "path": "art016/persian_keep.py",
+      "bytes": 4773,
+      "sha256": "b1ab8b7fd7fb294864eafddabe4e0438cfd9b49165668c0f481ca4c2bd073139",
+      "role": "Editable building art and recipe"
     }
   ],
   "audio": "Vietnam shipped Ogg clips are editable whole files under inputs/native/audio, not duplicated in authoring. Original WAV or voice-generation environments are not in the accepted combined GitHub snapshot.",

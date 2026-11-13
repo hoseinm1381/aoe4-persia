@@ -33,7 +33,7 @@ def build(out,prepare_only=False,replace_current=False):
         if not replace_current:raise ValueError('Use --replace-current to replace the verified local player ZIP after the new build passes')
         previous=read_json(ROOT/'docs/BUILD_VERIFICATION.json')
         old=release/previous['zip_name']
-        if previous.get('owner')!=config['owner'] or list(release.iterdir())!=[old] or digest(old)!=previous['zip_sha256']:raise ValueError('Unknown or changed release files are protected')
+        if previous.get('owner')!=config['owner'] or not old.is_file() or digest(old)!=previous['zip_sha256']:raise ValueError('Unknown or changed release files are protected')
     if out.exists() and replace_current and not prepare_only:safe_output_cleanup(out,config['owner'])
     if out.exists():raise ValueError('Build folder already exists; preserve previous evidence: '+str(out))
     out.mkdir(parents=True)
@@ -106,7 +106,7 @@ def build(out,prepare_only=False,replace_current=False):
     for row in [declaration['attribute_root']]+declaration['races']+declaration['scripts']:
         if digest(readback/row['member'])!=row['sha256']:raise ValueError('Declaration digest differs')
     revision=config['version'].replace('.','')
-    world_art=revision in {'013','014'}
+    world_art=revision in {'013','014','015','016'}
     policy=read_json(ROOT/f'source/update-{revision}-policy.json')
     baseline=json.loads(gzip.decompress((ROOT/f'docs/update_{revision}/baseline-members.json.gz').read_bytes()))['members']
     changed=sorted(m for m in baseline if m in report['members'] and baseline[m]!=report['members'][m])
@@ -128,6 +128,7 @@ def build(out,prepare_only=False,replace_current=False):
         details.update(updated='2026-11-11',changelog='Six Persian landmarks have distinct baked finishes and dynamic player color.')
     if revision=='014':
         details.update(updated='2026-11-11',changelog='Redesigned Savar armor, shields and cloth, Assassin and Zamburak player colors, and unit UV repairs.')
+    if revision=='016':details.update(updated='2026-11-13',changelog='Redesign the Keep finish with fired brick, stone, glazed tile and a dynamic player-color frieze.')
     delivery=out/'delivery';delivery.mkdir();package=delivery/(config['name']+'-Garrison-'+config['version']+'.zip')
     mod_bundle.write_package(delivery/'package',package,bundle_key=config['bundle_key'],details=details,
       archives=[(config['race'],'civilization',archive)],start_here=(ROOT/'START-HERE.md').read_text(encoding='utf-8'),cover=ROOT/'source/presentation/cover.png')
@@ -165,7 +166,7 @@ def build(out,prepare_only=False,replace_current=False):
     shutil.copyfile(package,staged)
     if digest(staged)!=receipt['zip_sha256']:raise ValueError('Player ZIP copy differs')
     os.replace(staged,release/package.name)
-    if previous and previous['zip_name']!=package.name:
+    if previous and previous['zip_name']!=package.name and not config.get('preserve_previous_release',False):
         old=release/previous['zip_name']
         if digest(old)!=previous['zip_sha256']:raise ValueError('Old local ZIP changed during build')
         old.unlink()

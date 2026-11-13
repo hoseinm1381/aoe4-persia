@@ -1,0 +1,11 @@
+{
+  "baseline_version": "0.1.5",
+  "allowed_changed": [
+    "art/ps100/b/keep_a3/m.rrmaterial"
+  ],
+  "allowed_added": [
+    "art/ps116/keep/glazed-owner.rrtex",
+    "art/ps116/keep/masonry.rrtex"
+  ],
+  "allowed_removed": []
+}

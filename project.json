@@ -4,7 +4,7 @@
   "race": "persia",
   "bundle_key": "persia",
   "name": "Persians",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "dispatcher": "scar/garrison/persia/dispatcher.scar",
   "shared_entities": [
     "building_defense_keep",
@@ -158,8 +158,9 @@
     "wpn_siege_trebuchet_4_cw_sul",
     "wpn_siege_trebuchet_4_tr_sul"
   ],
-  "source_baseline": "d58326f447b6444332e9a15c42c7496d57fb26be",
-  "native_game_acceptance": "pending",
+  "source_baseline": "persia 0.1.4 archive 4ba8705e5170643936df1694d363540cc0b0e2679ca70fd6b45d57ef30ab360d",
+  "native_game_acceptance": "Fresh match pending",
   "publication": "owner-approved unit art release",
-  "codex_mode": "reviewed_012"
+  "codex_mode": "reviewed_012",
+  "preserve_previous_release": true
 }

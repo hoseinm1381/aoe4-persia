@@ -1,8 +1,9 @@
 # Persians — independent Garrison civilization
 
-Current release **0.1.4** redesigns Castle and Imperial Savar, adds dynamic
-player color to Assassin and Zamburak, and corrects unit UVs across LODs.
-[Download the player ZIP](https://github.com/hoseinm1381/aoe4-persia/releases/tag/v0.1.4) · [0.1.4 art and verification](docs/UPDATE_014.md).
+Current release **0.1.6**. Redesigns the Keep with fired brick, stone, glazed tile and a player-color frieze.
+Fresh-match verification is pending.
+
+[Download the playable ZIP](https://github.com/hoseinm1381/aoe4-persia/releases/tag/v0.1.6) · [Build notes](docs/UPDATE_016.md).
 
 The exact local 0.1.3 rollback is under `archives/units_014_baseline/`. [Landmark update](docs/UPDATE_013.md).
 

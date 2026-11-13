@@ -1,0 +1,39 @@
+INPUTS_VERIFIED native=1427 editable=4245
+NATIVE_VALIDATION persia 530 tables
+NATIVE_ASSEMBLY persia F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-followup-20261113\persia\garrison-independent-builds\067d2031-d082-4348-b3e7-56d973932702\current
+{
+  "race": "persia",
+  "version": "0.1.6",
+  "owner": "067d2031-d082-4348-b3e7-56d973932702",
+  "source_fingerprint": "52bbce97c587c76ae960014a503d168048fe39f4e1d7c17f3cee75a72c146c9b",
+  "tables": 530,
+  "members": 1963,
+  "archive_bytes": 509672015,
+  "archive_sha256": "a025270e251f2879bb143b3f45c59bb1335a6c6cbf5449d1e504397d89115f8a",
+  "zip_name": "Persians-Garrison-0.1.6.zip",
+  "zip_bytes": 261985817,
+  "zip_sha256": "e1a090c584d253e88c94e33cebcc4fbaa60887436e01d772228aafc1a6bd05e5",
+  "all_member_readback_sha256": true,
+  "native_crc_sha1": true,
+  "zip_crc": true,
+  "preserved_native_media_members": 1378,
+  "native_game_test": "pending",
+  "multiplayer_save_ai_performance": "not qualified",
+  "publication": "not performed",
+  "changed_members": [
+    "art/ps100/b/keep_a3/m.rrmaterial"
+  ],
+  "added_members": [
+    "art/ps116/keep/glazed-owner.rrtex",
+    "art/ps116/keep/masonry.rrtex"
+  ],
+  "preserved_baseline_members": 1960,
+  "native_codex_retest": "pending",
+  "removed_members": [],
+  "assembly_path": "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\visual-followup-20261113\\persia\\garrison-independent-builds\\067d2031-d082-4348-b3e7-56d973932702\\current",
+  "baseline_zip_bytes": 261610930,
+  "audio_full_decode_verified": false,
+  "world_art_changed": true,
+  "native_input_manifest_sha256": "3847184694b655c03f36a72d5696a785caf205c74b72ee94cb6e3062b69daa8e",
+  "editable_master_index_sha256": "9ca7d93b45ca0bbfafdd210dadc9a8872ff137398fd9aca83837b81bacad5a33"
+}
